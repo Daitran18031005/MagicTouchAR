@@ -1,0 +1,5 @@
+{
+  "palm_source": "https://storage.googleapis.com/mediapipe-assets/palm_detection_lite.tflite",
+  "palm_sha256": "015524beaababaee6048c32b3ffabf8d8bb89afa0fc585459aa2622cf7f1d940",
+  "landmark_source": "Unchanged hand_landmarks_detector.tflite from project hand_landmarker.task"
+}
