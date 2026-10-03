@@ -101,7 +101,36 @@ namespace MagicTouch.Gameplay
         [Tooltip("All-time High Score text inside Game Over panel.")]
         public TextMeshProUGUI highScoreText;
 
-        [Header("Audio Feedback (Optional)")]
+        [Header("Phase 6 Audio Channels & Routing")]
+        [Tooltip("Audio channel dedicated to background music (loop = true, volume ~ 0.35f).")]
+        public AudioSource bgmSource;
+
+        [Tooltip("Audio channel dedicated to sound effects via PlayOneShot.")]
+        public AudioSource sfxSource;
+
+        [Header("Phase 6 Audio Clips")]
+        [Tooltip("Combat castle background soundtrack.")]
+        public AudioClip combatCastleMusic;
+
+        [Tooltip("Sound played when health/life is lost.")]
+        public AudioClip lostHealthSound;
+
+        [Tooltip("Sound played when a gesture stroke completes and matches a valid symbol.")]
+        public AudioClip rightSymbolSound;
+
+        [Tooltip("Sound played when a stroke fails to match any valid symbol or misses.")]
+        public AudioClip wrongSymbolSound;
+
+        [Tooltip("Sound played when exactly 1 balloon is popped.")]
+        public AudioClip soundPop;
+
+        [Tooltip("Sound played when 2 or more balloons are popped simultaneously (Combo Pop).")]
+        public AudioClip soundComboPop;
+
+        [Tooltip("Sound played upon Game Over.")]
+        public AudioClip gameOverSound;
+
+        [Header("Audio Feedback (Optional / Legacy Preserved)")]
         [SerializeField] private AudioSource _audioSource;
         [SerializeField] private AudioClip _matchSuccessSound;
         [SerializeField] private AudioClip _missSound;
@@ -214,16 +243,67 @@ namespace MagicTouch.Gameplay
                 }
             }
 
-            // Task 2: Auto-wire heart icons if not assigned
-            if (heartIcons == null || heartIcons.Length == 0)
+            // Task 2: Auto-wire heart icons if not assigned or contains nulls
+            bool needHearts = heartIcons == null || heartIcons.Length == 0;
+            if (!needHearts)
             {
-                GameObject heartsObj = GameObject.Find("HeartContainer") ?? GameObject.Find("Hearts") ?? GameObject.Find("LivesContainer");
+                needHearts = true;
+                for (int i = 0; i < heartIcons.Length; i++)
+                {
+                    if (heartIcons[i] != null) { needHearts = false; break; }
+                }
+            }
+
+            if (needHearts)
+            {
+                GameObject heartsObj = GameObject.Find("HeartContainer") ?? GameObject.Find("Hearts") ?? GameObject.Find("LivesContainer") ?? GameObject.Find("HeartIcons") ?? GameObject.Find("Lives");
                 if (heartsObj != null)
                 {
                     UnityEngine.UI.Image[] foundImages = heartsObj.GetComponentsInChildren<UnityEngine.UI.Image>();
                     if (foundImages != null && foundImages.Length > 0)
                     {
                         heartIcons = foundImages;
+                        needHearts = false;
+                    }
+                }
+            }
+
+            // If still missing, check UIManager or auto-create under Canvas
+            if (needHearts && uiManager != null && uiManager.heartIcons != null && uiManager.heartIcons.Length > 0)
+            {
+                heartIcons = uiManager.heartIcons;
+                needHearts = false;
+            }
+
+            if (needHearts)
+            {
+                GameObject canvasObj = GameObject.Find("GameUI_Canvas") ?? GameObject.Find("Canvas");
+                if (canvasObj != null)
+                {
+                    GameObject heartsObj = new GameObject("HeartContainer");
+                    heartsObj.transform.SetParent(canvasObj.transform, false);
+                    RectTransform containerRt = heartsObj.AddComponent<RectTransform>();
+                    containerRt.anchorMin = new Vector2(1f, 1f);
+                    containerRt.anchorMax = new Vector2(1f, 1f);
+                    containerRt.pivot = new Vector2(1f, 1f);
+                    containerRt.anchoredPosition = new Vector2(-40, -40);
+                    containerRt.sizeDelta = new Vector2(180, 50);
+
+                    heartIcons = new UnityEngine.UI.Image[3];
+                    for (int i = 0; i < 3; i++)
+                    {
+                        GameObject heartImgObj = new GameObject($"Heart_{i}");
+                        heartImgObj.transform.SetParent(heartsObj.transform, false);
+                        RectTransform hRt = heartImgObj.AddComponent<RectTransform>();
+                        hRt.anchorMin = new Vector2(0f, 0.5f);
+                        hRt.anchorMax = new Vector2(0f, 0.5f);
+                        hRt.pivot = new Vector2(0.5f, 0.5f);
+                        hRt.anchoredPosition = new Vector2(25 + i * 55, 0);
+                        hRt.sizeDelta = new Vector2(48, 48);
+
+                        UnityEngine.UI.Image img = heartImgObj.AddComponent<UnityEngine.UI.Image>();
+                        img.sprite = fullHeartSprite;
+                        heartIcons[i] = img;
                     }
                 }
             }
@@ -279,6 +359,49 @@ namespace MagicTouch.Gameplay
                 if (emptyHeartSprite == null) emptyHeartSprite = uiManager.emptyHeartSprite;
                 if (gameOverPanel == null) gameOverPanel = uiManager.gameOverPanel;
             }
+
+            // Task 4: Auto-wire Phase 6 Audio Channels (BGM and SFX)
+            if (bgmSource == null || sfxSource == null)
+            {
+                AudioSource[] sources = GetComponents<AudioSource>();
+                if (sources.Length >= 2)
+                {
+                    if (bgmSource == null) bgmSource = sources[0];
+                    if (sfxSource == null) sfxSource = sources[1];
+                }
+                else if (sources.Length == 1)
+                {
+                    if (sfxSource == null) sfxSource = sources[0];
+                    if (bgmSource == null) bgmSource = gameObject.AddComponent<AudioSource>();
+                }
+                else
+                {
+                    if (bgmSource == null) bgmSource = gameObject.AddComponent<AudioSource>();
+                    if (sfxSource == null) sfxSource = gameObject.AddComponent<AudioSource>();
+                }
+            }
+
+            if (bgmSource != null)
+            {
+                bgmSource.loop = true;
+                bgmSource.playOnAwake = false;
+                if (bgmSource.volume > 0.4f || bgmSource.volume <= 0.01f)
+                {
+                    bgmSource.volume = 0.35f;
+                }
+            }
+
+            if (sfxSource != null)
+            {
+                sfxSource.loop = false;
+                sfxSource.playOnAwake = false;
+            }
+
+            // Sync legacy references for backward compatibility
+            if (_audioSource == null) _audioSource = sfxSource;
+            if (gameOverSound == null && _gameOverSound != null) gameOverSound = _gameOverSound;
+            if (rightSymbolSound == null && _matchSuccessSound != null) rightSymbolSound = _matchSuccessSound;
+            if (wrongSymbolSound == null && _missSound != null) wrongSymbolSound = _missSound;
         }
 
         public void StartNewGame()
@@ -345,6 +468,26 @@ namespace MagicTouch.Gameplay
                 EnemySpawner.Instance.ClearAllEnemies();
                 EnemySpawner.Instance.StartSpawning();
             }
+
+            // Phase 6 Audio: Gameplay Start / Camera Ready - Start playing combatCastleMusic on bgmSource (looping seamlessly)
+            PlayBGM();
+        }
+
+        /// <summary>
+        /// Starts playing combatCastleMusic on bgmSource looping seamlessly at ~0.35f volume.
+        /// </summary>
+        public void PlayBGM()
+        {
+            if (bgmSource != null && combatCastleMusic != null)
+            {
+                bgmSource.clip = combatCastleMusic;
+                bgmSource.loop = true;
+                bgmSource.volume = 0.35f;
+                if (!bgmSource.isPlaying)
+                {
+                    bgmSource.Play();
+                }
+            }
         }
 
         /// <summary>
@@ -367,6 +510,16 @@ namespace MagicTouch.Gameplay
                 // Ambiguous or unrecognized stroke resets combo
                 combo = 0;
                 UpdateComboUI();
+
+                // Phase 6 Audio: If the stroke fails to match any valid symbol -> play wrongSymbolSound on sfxSource
+                if (wrongSymbolSound != null && sfxSource != null)
+                {
+                    sfxSource.PlayOneShot(wrongSymbolSound);
+                }
+                else if (_missSound != null && _audioSource != null)
+                {
+                    _audioSource.PlayOneShot(_missSound, 0.6f);
+                }
             }
         }
 
@@ -403,9 +556,36 @@ namespace MagicTouch.Gameplay
                 score += pointsEarned;
                 combo += count;
 
-                if (_matchSuccessSound != null && _audioSource != null)
+                // Phase 6 Audio: When a stroke completes and matches a valid symbol -> Play rightSymbolSound on sfxSource
+                if (rightSymbolSound != null && sfxSource != null)
+                {
+                    sfxSource.PlayOneShot(rightSymbolSound);
+                }
+                else if (_matchSuccessSound != null && _audioSource != null)
                 {
                     _audioSource.PlayOneShot(_matchSuccessSound);
+                }
+
+                // Phase 6 Audio: Count the number of destroyed balloons from this symbol
+                // If destroyed balloons == 1: Also play soundPop on sfxSource.
+                // If destroyed balloons >= 2: Play soundComboPop on sfxSource instead of soundPop.
+                if (count == 1)
+                {
+                    if (soundPop != null && sfxSource != null)
+                    {
+                        sfxSource.PlayOneShot(soundPop);
+                    }
+                }
+                else if (count >= 2)
+                {
+                    if (soundComboPop != null && sfxSource != null)
+                    {
+                        sfxSource.PlayOneShot(soundComboPop);
+                    }
+                    else if (soundPop != null && sfxSource != null)
+                    {
+                        sfxSource.PlayOneShot(soundPop);
+                    }
                 }
 
                 Debug.Log($"[GameManager] Multi-Pop! Popped {count} '{drawnSymbol}' balloons! +{pointsEarned} pts (Score: {score}, Combo: x{combo})");
@@ -428,11 +608,16 @@ namespace MagicTouch.Gameplay
             }
             else
             {
-                // Gesture recognized, but no matching balloon currently on screen
+                // Gesture recognized, but no matching balloon currently on screen (miss)
                 combo = 0;
                 UpdateComboUI();
 
-                if (_missSound != null && _audioSource != null)
+                // Phase 6 Audio: If the stroke misses -> Play wrongSymbolSound on sfxSource
+                if (wrongSymbolSound != null && sfxSource != null)
+                {
+                    sfxSource.PlayOneShot(wrongSymbolSound);
+                }
+                else if (_missSound != null && _audioSource != null)
                 {
                     _audioSource.PlayOneShot(_missSound, 0.6f);
                 }
@@ -453,6 +638,25 @@ namespace MagicTouch.Gameplay
             combo = 0;
 
             Debug.Log($"<color=orange>[GameManager] Enemy landed! Remaining lives: {lives}</color>");
+
+            // Phase 6 Audio: Damage Taken - play lostHealthSound on sfxSource
+            if (lostHealthSound != null && sfxSource != null)
+            {
+                sfxSource.PlayOneShot(lostHealthSound);
+            }
+
+            // Direct loop through heartIcons array as requested
+            int currentLives = lives;
+            if (heartIcons != null)
+            {
+                for (int i = 0; i < heartIcons.Length; i++)
+                {
+                    if (heartIcons[i] != null)
+                    {
+                        heartIcons[i].sprite = (i < currentLives) ? fullHeartSprite : emptyHeartSprite;
+                    }
+                }
+            }
 
             if (uiManager != null)
             {
@@ -476,6 +680,12 @@ namespace MagicTouch.Gameplay
             if (currentState == GameState.GameOver) return;
             currentState = GameState.GameOver;
             isGameOver = true;
+
+            // Phase 6 Audio: Immediately stop background music
+            if (bgmSource != null)
+            {
+                bgmSource.Stop();
+            }
 
             // Stop spawning new enemies and clear existing falling balloons
             if (EnemySpawner.Instance != null)
@@ -521,7 +731,12 @@ namespace MagicTouch.Gameplay
                 CreateFallbackGameOverUI(score, highScore);
             }
 
-            if (_gameOverSound != null && _audioSource != null)
+            // Phase 6 Audio: Play gameOverSound on sfxSource
+            if (gameOverSound != null && sfxSource != null)
+            {
+                sfxSource.PlayOneShot(gameOverSound);
+            }
+            else if (_gameOverSound != null && _audioSource != null)
             {
                 _audioSource.PlayOneShot(_gameOverSound);
             }
@@ -565,31 +780,12 @@ namespace MagicTouch.Gameplay
         {
             if (heartIcons == null || heartIcons.Length == 0) return;
 
+            int currentLives = lives;
             for (int i = 0; i < heartIcons.Length; i++)
             {
                 if (heartIcons[i] == null) continue;
-
-                if (i < lives)
-                {
-                    if (fullHeartSprite != null)
-                    {
-                        heartIcons[i].sprite = fullHeartSprite;
-                    }
-                    heartIcons[i].color = Color.white;
-                }
-                else
-                {
-                    if (emptyHeartSprite != null)
-                    {
-                        heartIcons[i].sprite = emptyHeartSprite;
-                        heartIcons[i].color = Color.white;
-                    }
-                    else
-                    {
-                        // Fallback if empty heart sprite isn't assigned: dim the lost heart
-                        heartIcons[i].color = new Color(1f, 1f, 1f, 0.25f);
-                    }
-                }
+                heartIcons[i].sprite = (i < currentLives) ? fullHeartSprite : emptyHeartSprite;
+                heartIcons[i].color = Color.white;
             }
         }
 

@@ -77,6 +77,9 @@ namespace MagicTouch.Gameplay
         [Tooltip("Global pool of enemy character sprites assigned to newly spawned enemies (knights, gargoyles, heavy bosses).")]
         public Sprite[] enemySpritePool;
 
+        [Tooltip("Global pool of local position offsets corresponding to each sprite in enemySpritePool to align attachment points.")]
+        public Vector3[] enemyBodyOffsetsPool;
+
         [Tooltip("Global pool of balloon body sprites assigned to newly spawned enemies.")]
         public Sprite[] balloonSpritePool;
 
@@ -234,6 +237,10 @@ namespace MagicTouch.Gameplay
             if ((enemy.enemySprites == null || enemy.enemySprites.Length == 0) && enemySpritePool != null && enemySpritePool.Length > 0)
             {
                 enemy.enemySprites = enemySpritePool;
+            }
+            if ((enemy.bodyOffsets == null || enemy.bodyOffsets.Length == 0) && enemyBodyOffsetsPool != null && enemyBodyOffsetsPool.Length > 0)
+            {
+                enemy.bodyOffsets = enemyBodyOffsetsPool;
             }
             if ((enemy.balloonSprites == null || enemy.balloonSprites.Length == 0) && balloonSpritePool != null && balloonSpritePool.Length > 0)
             {

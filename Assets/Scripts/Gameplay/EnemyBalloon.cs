@@ -34,11 +34,17 @@ namespace MagicTouch.Gameplay
         [SerializeField] private SpriteRenderer _balloonRenderer;
 
         [Header("Enemy Character Visual Variety (Phase 6)")]
+        [Tooltip("Transform of the child object that holds the enemy SpriteRenderer (e.g. EnemyBody).")]
+        public Transform enemyBodyTransform;
+
         [Tooltip("SpriteRenderer for the enemy character body hanging under the balloon.")]
         [SerializeField] private SpriteRenderer _enemyRenderer;
 
         [Tooltip("Array of enemy sprites for visual variety (knights, gargoyles, heavy bosses, etc.).")]
         public Sprite[] enemySprites;
+
+        [Tooltip("Local position offsets corresponding to each sprite in enemySprites (length should be equal to enemySprites) to align the balloon string attachment point.")]
+        public Vector3[] bodyOffsets;
 
         [Header("Balloon Visual Variety (Phase 6)")]
         [Tooltip("Array of balloon body sprites for visual variety.")]
@@ -68,6 +74,7 @@ namespace MagicTouch.Gameplay
         [SerializeField] private AudioClip _popAudioClip;
 
         private bool _isPopped = false;
+        private bool _visualVarietyApplied = false;
 
         public float FallSpeed
         {
@@ -83,13 +90,20 @@ namespace MagicTouch.Gameplay
 
         public void AutoWireVisualComponents()
         {
-            if (_enemyRenderer == null)
+            if (enemyBodyTransform == null)
             {
-                // Look for an enemy child SpriteRenderer
-                Transform enemyChild = transform.Find("Enemy") ?? transform.Find("Body") ?? transform.Find("Character") ?? transform.Find("Frog");
+                Transform enemyChild = transform.Find("EnemyBody") ?? transform.Find("Enemy") ?? transform.Find("Body") ?? transform.Find("Character") ?? transform.Find("Frog");
                 if (enemyChild != null)
                 {
-                    _enemyRenderer = enemyChild.GetComponent<SpriteRenderer>();
+                    enemyBodyTransform = enemyChild;
+                }
+            }
+
+            if (_enemyRenderer == null)
+            {
+                if (enemyBodyTransform != null)
+                {
+                    _enemyRenderer = enemyBodyTransform.GetComponent<SpriteRenderer>();
                 }
                 else
                 {
@@ -100,10 +114,15 @@ namespace MagicTouch.Gameplay
                         if (allRenderers[i] != _symbolRenderer && allRenderers[i] != _balloonRenderer)
                         {
                             _enemyRenderer = allRenderers[i];
+                            enemyBodyTransform = allRenderers[i].transform;
                             break;
                         }
                     }
                 }
+            }
+            else if (enemyBodyTransform == null)
+            {
+                enemyBodyTransform = _enemyRenderer.transform;
             }
 
             if (_balloonRenderer == null)
@@ -118,13 +137,27 @@ namespace MagicTouch.Gameplay
 
         public void ApplyVisualVariety()
         {
-            // Task 1: Random enemy sprite selection
+            if (enemyBodyTransform == null && _enemyRenderer != null)
+            {
+                enemyBodyTransform = _enemyRenderer.transform;
+            }
+
+            // Task 1: Random enemy sprite selection & local offset application
             if (enemySprites != null && enemySprites.Length > 0 && _enemyRenderer != null)
             {
-                Sprite chosenEnemy = enemySprites[UnityEngine.Random.Range(0, enemySprites.Length)];
+                int randomIndex = UnityEngine.Random.Range(0, enemySprites.Length);
+                Sprite chosenEnemy = enemySprites[randomIndex];
                 if (chosenEnemy != null)
                 {
-                    ApplyEnemySprite(chosenEnemy);
+                    _enemyRenderer.sprite = chosenEnemy;
+
+                    // Apply offset strictly to the localPosition of the child GameObject (Enemy Body)
+                    if (enemyBodyTransform != null && bodyOffsets != null && bodyOffsets.Length > randomIndex)
+                    {
+                        enemyBodyTransform.localPosition = bodyOffsets[randomIndex];
+                    }
+
+                    _visualVarietyApplied = true;
                 }
             }
 
@@ -148,13 +181,27 @@ namespace MagicTouch.Gameplay
 
         private void Start()
         {
-            // Task 3: On Start(), randomly pick one enemy sprite to display
-            if (enemySprites != null && enemySprites.Length > 0 && _enemyRenderer != null)
+            if (enemyBodyTransform == null && _enemyRenderer != null)
             {
-                Sprite chosen = enemySprites[UnityEngine.Random.Range(0, enemySprites.Length)];
+                enemyBodyTransform = _enemyRenderer.transform;
+            }
+
+            // Task 3: If not already applied, pick enemy sprite on Start
+            if (!_visualVarietyApplied && enemySprites != null && enemySprites.Length > 0 && _enemyRenderer != null)
+            {
+                int randomIndex = UnityEngine.Random.Range(0, enemySprites.Length);
+                Sprite chosen = enemySprites[randomIndex];
                 if (chosen != null)
                 {
-                    ApplyEnemySprite(chosen);
+                    _enemyRenderer.sprite = chosen;
+
+                    // Apply offset strictly to the localPosition of the child GameObject (Enemy Body)
+                    if (enemyBodyTransform != null && bodyOffsets != null && bodyOffsets.Length > randomIndex)
+                    {
+                        enemyBodyTransform.localPosition = bodyOffsets[randomIndex];
+                    }
+
+                    _visualVarietyApplied = true;
                 }
             }
 
@@ -229,10 +276,20 @@ namespace MagicTouch.Gameplay
             }
         }
 
-        private void ApplyEnemySprite(Sprite sprite)
+        private void ApplyEnemySprite(Sprite sprite, int randomIndex = -1)
         {
             if (_enemyRenderer == null || sprite == null) return;
             _enemyRenderer.sprite = sprite;
+
+            if (enemyBodyTransform == null)
+            {
+                enemyBodyTransform = _enemyRenderer.transform;
+            }
+
+            if (bodyOffsets != null && randomIndex >= 0 && bodyOffsets.Length > randomIndex && enemyBodyTransform != null)
+            {
+                enemyBodyTransform.localPosition = bodyOffsets[randomIndex];
+            }
 
             // Normalize enemy size uniformly so all enemy sprites display at 256x256 reference size (2.0 units)
             float targetHeight = 2.0f;
@@ -295,9 +352,10 @@ namespace MagicTouch.Gameplay
 
             EnemySpawner.ActiveEnemies.Remove(this);
 
-            if (GameManager.Instance != null)
+            GameManager gm = GameManager.Instance ?? FindAnyObjectByType<GameManager>();
+            if (gm != null)
             {
-                GameManager.Instance.LoseLife();
+                gm.LoseLife();
             }
 
             Destroy(gameObject);

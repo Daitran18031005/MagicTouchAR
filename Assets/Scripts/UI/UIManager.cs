@@ -132,28 +132,8 @@ namespace MagicTouch.UI
             for (int i = 0; i < heartIcons.Length; i++)
             {
                 if (heartIcons[i] == null) continue;
-
-                if (i < currentLives)
-                {
-                    if (fullHeartSprite != null)
-                    {
-                        heartIcons[i].sprite = fullHeartSprite;
-                    }
-                    heartIcons[i].color = Color.white;
-                }
-                else
-                {
-                    if (emptyHeartSprite != null)
-                    {
-                        heartIcons[i].sprite = emptyHeartSprite;
-                        heartIcons[i].color = Color.white;
-                    }
-                    else
-                    {
-                        // Fallback if empty heart sprite is unassigned: dim the heart
-                        heartIcons[i].color = new Color(1f, 1f, 1f, 0.25f);
-                    }
-                }
+                heartIcons[i].sprite = (i < currentLives) ? fullHeartSprite : emptyHeartSprite;
+                heartIcons[i].color = Color.white;
             }
         }
 

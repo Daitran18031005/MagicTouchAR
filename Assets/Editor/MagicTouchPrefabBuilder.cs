@@ -70,6 +70,8 @@ namespace MagicTouch.Editor
             SerializedObject so = new SerializedObject(enemyComp);
             so.FindProperty("_symbolRenderer").objectReferenceValue = symbolSr;
             so.FindProperty("_balloonRenderer").objectReferenceValue = balloonSr;
+            so.FindProperty("_enemyRenderer").objectReferenceValue = enemySr;
+            so.FindProperty("enemyBodyTransform").objectReferenceValue = enemyBodyObj.transform;
 
             Sprite popLeft = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/VFX/balloon_pop_left.png");
             Sprite popRight = AssetDatabase.LoadAssetAtPath<Sprite>("Assets/Sprites/VFX/balloon_pop_right.png");
