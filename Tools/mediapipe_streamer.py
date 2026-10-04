@@ -2,9 +2,9 @@
 """
 mediapipe_streamer.py - High-Performance Multi-Threaded Hand Tracking Streamer for Magic Touch AR.
 Phase 5 Master Polish:
-- Toggleable Headless Mode: ENABLE_PREVIEW = False saves massive CPU, running at 60+ FPS.
+- Toggleable headless mode avoids preview rendering; FPS depends on camera and inference load.
 - Dedicated VideoStreamWidget thread: cap.read() runs in isolated daemon thread (no hardware I/O blocking).
-- Strict MediaPipe Hands settings: model_complexity=0, min_detection_confidence=0.7, min_tracking_confidence=0.7, max_num_hands=2.
+- Legacy Hands defaults to model_complexity=1; Tasks uses the selected model bundle. Both track up to two hands.
 - Dual UDP Streaming: Port 9050 (JSON landmarks) and Port 9051 (optional video frames).
 """
 
@@ -15,6 +15,8 @@ import json
 import socket
 import argparse
 import threading
+from hand_identity import HandIdentityTracker
+from stream_protocol import video_prefix
 import cv2
 import mediapipe as mp
 
@@ -54,11 +56,15 @@ class VideoStreamWidget:
     """Asynchronous camera reader that continuously captures frames on a dedicated daemon thread."""
     def __init__(self, src=0, width=640, height=480, fps=60):
         self.src = src
-        # MSMF measured ~30 FPS; DSHOW advertised 60 but delivered 15 on this webcam.
-        backend = cv2.CAP_MSMF if sys.platform.startswith("win") else cv2.CAP_ANY
-        self.cap = cv2.VideoCapture(src, backend)
-        if not self.cap.isOpened():
-            backend = cv2.CAP_DSHOW if sys.platform.startswith("win") else cv2.CAP_ANY
+        if sys.platform.startswith("win"):
+            # DSHOW initializes in <1s on Windows; MSMF often hangs 30-40s during device discovery
+            backend = cv2.CAP_DSHOW
+            self.cap = cv2.VideoCapture(src, backend)
+            if not self.cap.isOpened():
+                backend = cv2.CAP_MSMF
+                self.cap = cv2.VideoCapture(src, backend)
+        else:
+            backend = cv2.CAP_ANY
             self.cap = cv2.VideoCapture(src, backend)
 
         if not self.cap.isOpened():
@@ -121,8 +127,9 @@ class VideoStreamWidget:
 
 class VideoSender:
     """JPEG encoding stays off the inference path and never queues old frames."""
-    def __init__(self, camera, udp_socket, target):
+    def __init__(self, camera, udp_socket, target, prefix=b''):
         self.camera, self.socket, self.target = camera, udp_socket, target
+        self.prefix = prefix
         self.stop = threading.Event()
         self.thread = threading.Thread(target=self._run, daemon=True, name="VideoSender")
         self.thread.start()
@@ -134,9 +141,9 @@ class VideoSender:
             ok, frame, sequence = self.camera.read_latest(sequence)
             if ok:
                 success, encoded = cv2.imencode('.jpg', frame, [int(cv2.IMWRITE_JPEG_QUALITY), 50])
-                if success and encoded.nbytes <= 65000:
+                if success and encoded.nbytes + len(self.prefix) <= 65000:
                     try:
-                        self.socket.sendto(encoded.tobytes(), self.target)
+                        self.socket.sendto(self.prefix + encoded.tobytes(), self.target)
                     except OSError:
                         pass
             self.stop.wait(max(0.001, 1.0 / 30.0 - (time.perf_counter() - started)))
@@ -183,12 +190,17 @@ else:
                 model_path = MODEL_PATH_OVERRIDE
             self.model_path = model_path
 
-            base_options = mp_python.BaseOptions(model_asset_path=model_path)
+            def _create_base_options(path):
+                with open(path, "rb") as f:
+                    return mp_python.BaseOptions(model_asset_buffer=f.read())
+
+            base_options = _create_base_options(model_path)
             options = mp_vision.HandLandmarkerOptions(
                 base_options=base_options,
                 running_mode=mp_vision.RunningMode.VIDEO,
                 num_hands=max_num_hands,
                 min_hand_detection_confidence=min_detection_confidence,
+                min_hand_presence_confidence=0.7,
                 min_tracking_confidence=min_tracking_confidence
             )
             try:
@@ -197,10 +209,11 @@ else:
                 if not MODEL_PATH_OVERRIDE:
                     raise
                 print(f"Fast model unavailable ({error}); using original hand model.", flush=True)
-                options.base_options = mp_python.BaseOptions(model_asset_path=fallback_model_path)
+                options.base_options = _create_base_options(fallback_model_path)
                 self._detector = mp_vision.HandLandmarker.create_from_options(options)
                 self.model_path = fallback_model_path
-            self._start_time = time.time()
+            self._start_time = time.monotonic()
+            self._last_timestamp_ms = 0
 
         def __enter__(self):
             return self
@@ -210,9 +223,8 @@ else:
 
         def process(self, rgb_image):
             h, w, _ = rgb_image.shape
-            timestamp_ms = int((time.time() - self._start_time) * 1000)
-            if timestamp_ms <= 0:
-                timestamp_ms = 1
+            timestamp_ms = max(self._last_timestamp_ms + 1, int((time.monotonic() - self._start_time) * 1000))
+            self._last_timestamp_ms = timestamp_ms
 
             mp_image = mp.Image(image_format=mp.ImageFormat.SRGB, data=rgb_image)
             detection_result = self._detector.detect_for_video(mp_image, timestamp_ms)
@@ -224,9 +236,11 @@ else:
 
             results = _Results()
             if detection_result.hand_landmarks:
-                for hand_lms in detection_result.hand_landmarks:
+                for hand_index, hand_lms in enumerate(detection_result.hand_landmarks):
                     converted = [_NormalizedLandmark(lm.x, lm.y, lm.z) for lm in hand_lms]
                     results.multi_hand_landmarks.append(converted)
+                    categories = detection_result.handedness[hand_index]
+                    results.multi_handedness.append(categories[0].category_name if categories else "")
 
             return results
 
@@ -300,7 +314,13 @@ def main():
     parser.add_argument("--duration", type=float, default=0, help="Diagnostic run duration; 0 runs continuously")
     parser.add_argument("--metrics-file", default="Logs/tracking-performance.json", help="Local rolling performance counters, no images")
     parser.add_argument("--model", default=None, help="Optional task bundle; original model is the default")
+    parser.add_argument("--model-complexity", type=int, choices=[0, 1], default=1, help="Legacy API: full landmark model by default; 0 is Lite")
+    parser.add_argument("--session-id", default="", help="Unity launch session; prevents input from a stale streamer")
     args = parser.parse_args()
+    try:
+        session_prefix = video_prefix(args.session_id)
+    except ValueError as error:
+        parser.error(str(error))
     global MODEL_PATH_OVERRIDE
     MODEL_PATH_OVERRIDE = args.model
     if args.opencv_threads > 0:
@@ -337,6 +357,7 @@ def main():
     else:
         print("Running headlessly at maximum FPS. Press Ctrl+C in terminal to stop.\n")
 
+    identity = HandIdentityTracker(mirror=True)
     frame_count = 0
     t_start = time.time()
     last_fps_print = time.time()
@@ -344,13 +365,13 @@ def main():
     current_fps = 0.0
     camera_fps = 0.0
     inference_ms = 0.0
-    video_sender = VideoSender(cam, video_socket, video_target) if stream_video and not args.inline_video else None
+    video_sender = VideoSender(cam, video_socket, video_target, session_prefix) if stream_video and not args.inline_video else None
 
-    # Task 1: Strict MediaPipe configuration (model_complexity=0, min_confidence=0.7)
+    # Prefer the full legacy model; the Tasks adapter loads its selected bundle.
     with mp_hands.Hands(
         static_image_mode=False,
         max_num_hands=2,
-        model_complexity=0,
+        model_complexity=args.model_complexity,
         min_detection_confidence=0.7,
         min_tracking_confidence=0.7
     ) as hands:
@@ -382,7 +403,7 @@ def main():
                 hands_data = []
                 if results.multi_hand_landmarks:
                     raw_hands = []
-                    for hand_result in results.multi_hand_landmarks:
+                    for detection_index, hand_result in enumerate(results.multi_hand_landmarks):
                         hand_lms = getattr(hand_result, "landmark", hand_result)
                         flat_lms = []
                         for lm in hand_lms:
@@ -397,19 +418,27 @@ def main():
                         raw_dist = (dx * dx + dy * dy) ** 0.5
 
                         wrist_x = hand_lms[WRIST].x
+                        classifications = results.multi_handedness
+                        label = ""
+                        if detection_index < len(classifications):
+                            entry = classifications[detection_index]
+                            label = entry if isinstance(entry, str) else entry.classification[0].label
                         raw_hands.append({
                             "wrist_x": wrist_x,
+                            "wrist": (wrist_x, hand_lms[WRIST].y),
+                            "label": label,
                             "raw_dist": raw_dist,
                             "landmarks": flat_lms,
                             "raw_lms": hand_lms
                         })
 
-                    # Sort horizontally: Hand 0 = Player 1 (Left), Hand 1 = Player 2 (Right)
-                    raw_hands.sort(key=lambda h: h["wrist_x"])
-                    for assigned_idx, h in enumerate(raw_hands[:2]):
+                    # Reserve slots through brief occlusion; never renumber the surviving hand.
+                    for assigned_idx, track_id, h in identity.assign(raw_hands, time.monotonic()):
                         # Note: Unity HandTrackingBridge computes dual-threshold Schmitt Trigger hysteresis
                         hands_data.append({
                             "index": assigned_idx,
+                            "trackId": track_id,
+                            "handedness": h["label"],
                             "pinch": False, # Unity's Hysteresis Schmitt Trigger manages authoritative isPinching state
                             "pinchDistance": round(float(h["raw_dist"]), 4),
                             "landmarks": h["landmarks"]
@@ -422,6 +451,8 @@ def main():
 
                 # 1. Send JSON landmark packet over UDP (port 9050)
                 packet = {
+                    "sessionId": args.session_id,
+                    "processId": os.getpid(),
                     "timestamp": now_ms,
                     "cameraFps": round(camera_fps, 2),
                     "trackingFps": round(current_fps, 2),
@@ -437,7 +468,7 @@ def main():
                     encode_param = [int(cv2.IMWRITE_JPEG_QUALITY), 50]
                     success, encimg = cv2.imencode('.jpg', frame, encode_param)
                     if success:
-                        jpeg_bytes = encimg.tobytes()
+                        jpeg_bytes = session_prefix + encimg.tobytes()
                         if len(jpeg_bytes) <= 65000:
                             try:
                                 video_socket.sendto(jpeg_bytes, video_target)
@@ -455,11 +486,13 @@ def main():
                         inference_ms=round(inference_ms,2),hands=len(hands_data),backend=cam.backend,
                         resolution=[cam.width,cam.height],driver_fps=cam.reported_fps,
                         opencv_threads=cv2.getNumThreads(),async_video=video_sender is not None,
-                        model=getattr(hands, 'model_path', 'legacy'),timestamp=time.time())
+                        model=getattr(hands, 'model_path', 'legacy'),timestamp=time.time(),
+                        session_id=args.session_id,process_id=os.getpid())
                     os.makedirs(os.path.dirname(os.path.abspath(args.metrics_file)), exist_ok=True)
-                    with open(args.metrics_file + '.tmp', 'w', encoding='utf-8') as report:
+                    metrics_temp = args.metrics_file + '.' + str(os.getpid()) + '.tmp'
+                    with open(metrics_temp, 'w', encoding='utf-8') as report:
                         json.dump(metrics, report, indent=2)
-                    os.replace(args.metrics_file + '.tmp', args.metrics_file)
+                    os.replace(metrics_temp, args.metrics_file)
                     metrics_started, metrics_sequence = metrics_now, cam.frame_sequence
                     metrics_frames = metrics_inference = 0
 

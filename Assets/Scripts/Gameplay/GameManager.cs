@@ -1,7 +1,6 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 using MagicTouch.Recognition;
@@ -406,6 +405,8 @@ namespace MagicTouch.Gameplay
 
         public void StartNewGame()
         {
+            if (EnemySpawner.Instance != null) EnemySpawner.Instance.StopSpawning();
+            DrawingManager.Instance?.ResetForNewRound();
             score = 0;
             lives = 3;
             combo = 0;
@@ -445,6 +446,10 @@ namespace MagicTouch.Gameplay
                 EnemySpawner.Instance.ClearAllEnemies();
                 // Spawning begins strictly in StartGame() once handshake is confirmed
             }
+            OnScoreChanged?.Invoke(score);
+            OnLivesChanged?.Invoke(lives);
+            var bridge = MagicTouch.Tracking.HandTrackingBridge.Instance;
+            if (bridge != null && bridge.IsTrackingReady) StartGame();
         }
 
         /// <summary>
@@ -680,6 +685,7 @@ namespace MagicTouch.Gameplay
             if (currentState == GameState.GameOver) return;
             currentState = GameState.GameOver;
             isGameOver = true;
+            DrawingManager.Instance?.ResetForNewRound();
 
             // Phase 6 Audio: Immediately stop background music
             if (bgmSource != null)
@@ -746,14 +752,14 @@ namespace MagicTouch.Gameplay
         }
 
         /// <summary>
-        /// Reloads the active scene to restart gameplay.
+        /// Resets the round in place, preserving camera, Python, tracking and inference workers.
         /// </summary>
         public void RestartGame()
         {
-            Debug.Log("[GameManager] Restarting game...");
-            isGameOver = false;
-            Scene activeScene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(activeScene.name);
+            Debug.Log("[GameManager] Restarting round without reloading tracking or model.");
+            Time.timeScale = 1f;
+            if (sfxSource != null) sfxSource.Stop();
+            StartNewGame();
         }
 
         private void UpdateUI()

@@ -27,18 +27,17 @@ namespace MagicTouch.Drawing
         [Header("Multi-Stroke Hysteresis Timer")]
         [FormerlySerializedAs("_multiStrokeTimeout")]
         [Tooltip("Time in seconds to wait with fingers open before finalizing gesture (allows drawing multi-stroke shapes like 'X').")]
-        public float multiStrokeDelay = 0.5f;
+        public float multiStrokeDelay = 0.35f;
 
         [Tooltip("Live remaining time before the current gesture finalizes (Player 1).")]
         public float currentTimer = 0f;
 
-        [Header("Anti-Flicker Coyote Time Buffer (Task 1)")]
-        [Tooltip("Grace period in seconds when pinch is lost before cutting off the stroke and starting multi-stroke timer.")]
-        [SerializeField] private float pinchDropBuffer = 0.08f;
-
-        [Tooltip("Extra grace only when the camera loses the hand. A visible open pinch still uses pinchDropBuffer.")]
+        [Header("Tracking Loss Recovery")]
+        [Tooltip("Recovery window only when tracking disappears. A visible pinch release ends the segment immediately.")]
         [SerializeField] private float trackingLossGrace = 0.14f;
         private readonly bool[] _trackingUnavailable = new bool[2];
+        private readonly bool[] _pinchReleasePending = new bool[2];
+        private readonly float[] _trackingLostAt = new float[2];
 
         [Header("Smart Key-Point Snapping (Tasks 1, 2 & 3)")]
         [Tooltip("Screen space pixel radius for smart key-point magnetic snapping (tight, intentional radius).")]
@@ -170,6 +169,10 @@ namespace MagicTouch.Drawing
         private readonly int[] _currentStrokeId = new int[2] { 0, 0 };
         private readonly Coroutine[] _feedbackCoroutines = new Coroutine[2];
         private int _activeSimulatedMouseHand = -1;
+        private readonly bool[] _waitForRelease = new bool[2];
+        private readonly int[] _lastTrackId = new int[2];
+        private readonly PRecognitionResult[] _pendingResult = new PRecognitionResult[2];
+        private readonly bool[] _hasPendingResult = new bool[2];
 
         // Anti-Flicker Coyote Time Buffer State (Task 1)
         private readonly float[] _pinchDropTimer = new float[2] { 0f, 0f };
@@ -221,6 +224,8 @@ namespace MagicTouch.Drawing
 
         private void Update()
         {
+            if (MagicTouch.Gameplay.GameManager.Instance != null &&
+                MagicTouch.Gameplay.GameManager.Instance.currentState != MagicTouch.Gameplay.GameState.Playing) return;
             if (_enableEditorSimulation)
             {
                 HandleMouseInput();
@@ -251,6 +256,8 @@ namespace MagicTouch.Drawing
             Vector3 worldPos = ScreenToWorld(mouseScreen);
 
             UpdateHandGestureState(handIndex, isClicking, mouseScreen, worldPos);
+            int other = 1 - handIndex;
+            UpdateHandGestureState(other, false, Vector2.zero, Vector3.zero);
 
             if (Input.GetMouseButtonUp(0))
             {
@@ -270,6 +277,12 @@ namespace MagicTouch.Drawing
                 Vector2 screenPos = HandTrackingBridge.Instance.GetIndexTipScreenPosition(handIndex);
                 Vector3 worldPos = HandTrackingBridge.Instance.GetIndexTipWorldPosition(handIndex);
                 TrackedHand hand = HandTrackingBridge.Instance.GetHand(handIndex);
+                if (_lastTrackId[handIndex] != hand.TrackId)
+                {
+                    ResetHandGesture(handIndex);
+                    _lastTrackId[handIndex] = hand.TrackId;
+                }
+                _pinchReleasePending[handIndex] = hand.IsPinchReleasePending;
                 bool freshSample = hand.SampleVersion != _lastTrackingSample[handIndex];
                 if (freshSample)
                 {
@@ -281,155 +294,176 @@ namespace MagicTouch.Drawing
         }
 
         /// <summary>
-        /// Strict Hysteresis & Multi-Stroke State Machine with Anti-Flicker Coyote Time Buffer.
-        /// - Pinch Drop Buffer (0.08s): brief tracking drops do not cut stroke or trigger delay; drawing resumes seamlessly.
-        /// - Disjoint multi-stroke support: when lifted for > 0.08s, line is frozen and multiStrokeDelay (0.5s) counts down.
-        /// - Smart Key-Point Snapping: evaluated strictly ONCE at stroke start, with noise rejection.
+        /// Release ends a segment immediately. A brief missing detection freezes
+        /// input and may resume the same segment if position and pinch remain consistent.
         /// </summary>
         private void UpdateHandGestureState(int handIndex, bool isPinching, Vector2 screenPos, Vector3 worldPos, bool freshSample = true)
         {
+            // Missing tracking is not a release. Freeze geometry; cancel incomplete input
+            // after a bounded outage instead of scoring a gesture the player never finished.
+            if (_trackingUnavailable[handIndex])
+            {
+                if (!_inDropBufferState[handIndex])
+                {
+                    _inDropBufferState[handIndex] = true;
+                    _pinchDropTimer[handIndex] = trackingLossGrace;
+                    _trackingLostAt[handIndex] = Time.realtimeSinceStartup;
+                    // The preceding frame elapsed before loss was observed. Start the
+                    // recovery window now, so a slow frame cannot cancel it immediately.
+                    return;
+                }
+                _pinchDropTimer[handIndex] -= Time.unscaledDeltaTime;
+                if (_pinchDropTimer[handIndex] <= 0f && _isGestureActive[handIndex]) ResetHandGesture(handIndex);
+                return;
+            }
+            // No geometry or recognition timer advances on an ambiguous release.
+            // A confirmed release still closes the segment before adding any point.
+            if (_pinchReleasePending[handIndex]) return;
+            if (_inDropBufferState[handIndex])
+            {
+                if (!freshSample) return;
+                _inDropBufferState[handIndex] = false;
+                bool timely = Time.realtimeSinceStartup - _trackingLostAt[handIndex] <= trackingLossGrace;
+                if (!timely && _isGestureActive[handIndex]) ResetHandGesture(handIndex);
+                var points = _accumulatedPoints[handIndex];
+                bool resume = timely && isPinching && _wasPinching[handIndex]
+                    && !_strokeAwaitingSecondFrame[handIndex] && points.Count > 0;
+                if (resume)
+                {
+                    Point last = points[points.Count - 1];
+                    float gap = Vector2.Distance(new Vector2(last.X, last.Y), screenPos);
+                    resume = gap <= 90f * Mathf.Max(1, Screen.height) / 1080f;
+                }
+                if (resume)
+                {
+                    // Only bridge a short, local dropout of an ongoing pinch. Explicit
+                    // release and a far-away reacquisition still start separate segments.
+                    ContinueStroke(handIndex, screenPos);
+                    return;
+                }
+                _wasPinching[handIndex] = false;
+                _strokeAwaitingSecondFrame[handIndex] = false;
+                // Long or spatially discontinuous reacquisition must not bridge the gap.
+                if (!isPinching && _isGestureActive[handIndex])
+                {
+                    PrepareGestureCompletion(handIndex);
+                    return;
+                }
+            }
+            if (_waitForRelease[handIndex])
+            {
+                if (freshSample && !isPinching) _waitForRelease[handIndex] = false;
+                return;
+            }
             if (isPinching)
             {
-                // A second render frame is not a second camera sample. In particular,
-                // never let it admit the rejected stroke-start coordinate again.
                 if (!freshSample) return;
-                // Stop any previous fade routine immediately
                 if (_feedbackCoroutines[handIndex] != null)
                 {
                     StopCoroutine(_feedbackCoroutines[handIndex]);
                     _feedbackCoroutines[handIndex] = null;
                     ClearAllLines(handIndex);
                 }
-
-                // Task 1: Check if recovering from a momentary tracking drop (Coyote Time buffer)
-                if (_inDropBufferState[handIndex])
-                {
-                    // Pinch recovered within pinchDropBuffer (0.08s)!
-                    _inDropBufferState[handIndex] = false;
-                    _pinchDropTimer[handIndex] = 0f;
-                    _wasPinching[handIndex] = true;
-                    _currentTimer[handIndex] = multiStrokeDelay;
-
-                    // Discard the first recovery coordinate: keep this continuous stroke
-                    // and its snap lock intact, then resume smoothing on the next frame.
-                    return;
-                }
-
-                // Active pinch: refresh multiStrokeDelay
-                _currentTimer[handIndex] = multiStrokeDelay;
-
                 if (!_wasPinching[handIndex])
                 {
-                    // Task 2: Pinch transitioned from false -> true.
-                    // Reject instantaneous first-frame MediaPipe noise spikes:
-                    // Discard frame 1 and wait for frame 2 before evaluating snap and starting stroke.
-                    _strokeAwaitingSecondFrame[handIndex] = true;
                     _wasPinching[handIndex] = true;
-                    _strokeSnapEvaluated[handIndex] = false;
+                    _strokeAwaitingSecondFrame[handIndex] = true;
                     return;
                 }
-
                 if (_strokeAwaitingSecondFrame[handIndex])
                 {
-                    // The first coordinate never enters snapping or the smoothing history.
                     _strokeAwaitingSecondFrame[handIndex] = false;
-                    Vector2 candidatePos = screenPos;
-
                     if (!_isGestureActive[handIndex])
                     {
-                        // Brand new gesture starting from scratch
-                        _isGestureActive[handIndex] = true;
-                        _currentStrokeId[handIndex] = 0;
-                        _accumulatedPoints[handIndex].Clear();
                         ClearAllLines(handIndex);
-
-                        Vector3 startWorldPos = ScreenToWorld(candidatePos);
-                        StartNewStrokeSegment(handIndex, _currentStrokeId[handIndex], candidatePos, startWorldPos);
-                        _strokeSnapEvaluated[handIndex] = true;
+                        _accumulatedPoints[handIndex].Clear();
+                        _currentStrokeId[handIndex] = 0;
+                        _isGestureActive[handIndex] = true;
                     }
-                    else
-                    {
-                        // Subsequent stroke segment during multiStrokeDelay (e.g., line 2 of 'X')
-                        // Task 1 & 3: Smart Key-Point Snapping evaluated ONLY ONCE at stroke start
-                        if (!_strokeSnapEvaluated[handIndex])
-                        {
-                            _strokeSnapEvaluated[handIndex] = true;
-                            if (TryGetMagneticSnapPoint(handIndex, candidatePos, out Vector2 snappedScreenPos))
-                            {
-                                candidatePos = snappedScreenPos;
-                                TriggerSnapFeedback(ScreenToWorld(snappedScreenPos), handIndex);
-                            }
-                        }
-
-                        _currentStrokeId[handIndex]++;
-                        Vector3 startWorldPos = ScreenToWorld(candidatePos);
-                        StartNewStrokeSegment(handIndex, _currentStrokeId[handIndex], candidatePos, startWorldPos);
-                    }
+                    else _currentStrokeId[handIndex]++;
+                    _hasPendingResult[handIndex] = false;
+                    // Shared filtered cursor is authoritative. No start snap or second filter.
+                    StartNewStrokeSegment(handIndex, _currentStrokeId[handIndex], screenPos, ScreenToWorld(screenPos));
                 }
-                else
-                {
-                    // Actively dragging while pinched: append points to current stroke
-                    ContinueStroke(handIndex, screenPos);
-                }
-
-                _wasPinching[handIndex] = true;
+                else ContinueStroke(handIndex, screenPos);
+                return;
             }
-            else
+            if (_wasPinching[handIndex])
             {
-                // isPinching == false
-                if (_strokeAwaitingSecondFrame[handIndex])
-                {
-                    // Discard single-frame false click/glitch
-                    _strokeAwaitingSecondFrame[handIndex] = false;
-                    _wasPinching[handIndex] = false;
-                }
-
-                if (_wasPinching[handIndex])
-                {
-                    // Pinch just broke this frame
-                    _wasPinching[handIndex] = false;
-                    // Preserve the snap lock during a possible Coyote Time recovery.
-
-                    if (_isGestureActive[handIndex])
-                    {
-                        // Task 1: Enter Coyote Time buffer (0.08s) instead of cutting line immediately
-                        _inDropBufferState[handIndex] = true;
-                        _pinchDropTimer[handIndex] = GetPinchDropBuffer(handIndex);
-                    }
-                }
-
-                if (_inDropBufferState[handIndex])
-                {
-                    // Count down Coyote Time buffer
-                    _pinchDropTimer[handIndex] -= Time.deltaTime;
-                    if (_pinchDropTimer[handIndex] <= 0f)
-                    {
-                        // Coyote buffer expired: officially freeze stroke and begin multiStrokeDelay
-                        _inDropBufferState[handIndex] = false;
-                        _pinchDropTimer[handIndex] = 0f;
-                        _currentTimer[handIndex] = multiStrokeDelay;
-                    }
-                }
-                else if (_isGestureActive[handIndex])
-                {
-                    // Fingers remain open beyond Coyote buffer: count down multiStrokeDelay
-                    _currentTimer[handIndex] -= Time.deltaTime;
-
-                    // Trigger SentisRecognizer.Recognize() ONLY when multiStrokeDelay hits 0!
-                    if (_currentTimer[handIndex] <= 0f)
-                    {
-                        _isGestureActive[handIndex] = false;
-                        _currentTimer[handIndex] = 0f;
-                        FinalizeAndRecognize(handIndex);
-                    }
-                }
+                if (!freshSample) return;
+                _wasPinching[handIndex] = false;
+                _strokeAwaitingSecondFrame[handIndex] = false;
+                if (_isGestureActive[handIndex]) PrepareGestureCompletion(handIndex);
+                return; // Never admit the release-frame coordinate into the stroke.
             }
+            if (_isGestureActive[handIndex])
+            {
+                _currentTimer[handIndex] -= Time.unscaledDeltaTime;
+                if (_currentTimer[handIndex] <= 0f) CommitGesture(handIndex);
+            }
+        }
+
+        private PRecognitionResult RecognizePoints(List<Point> points)
+        {
+            if (points.Count < _minGesturePoints) return PRecognitionResult.NoMatch;
+            if (_engine == RecognizerEngine.SentisNeuralNetwork && _sentisRecognizer != null && _sentisRecognizer.IsModelLoaded)
+                return _sentisRecognizer.Recognize(points);
+            if (_pRecognizer == null) _pRecognizer = new PRecognizer(_recognitionThreshold, _distanceNormalizationFactor);
+            return _pRecognizer.Recognize(points.ToArray());
+        }
+
+        private void PrepareGestureCompletion(int handIndex)
+        {
+            List<Point> points = _accumulatedPoints[handIndex];
+            var candidate = RecognizePoints(points);
+            _pendingResult[handIndex] = candidate;
+            _hasPendingResult[handIndex] = true;
+            if (_pRecognizer == null) _pRecognizer = new PRecognizer(_recognitionThreshold, _distanceNormalizationFactor);
+            var geometry = points.Count >= _minGesturePoints ? _pRecognizer.Recognize(points.ToArray()) : PRecognitionResult.NoMatch;
+            if (GestureCompletionPolicy.CanCommit(points, candidate, geometry)) CommitGesture(handIndex);
+            else _currentTimer[handIndex] = Mathf.Clamp(multiStrokeDelay, 0.20f, 0.45f);
+        }
+
+        private void CommitGesture(int handIndex)
+        {
+            _isGestureActive[handIndex] = false;
+            _currentTimer[handIndex] = 0f;
+            FinalizeAndRecognize(handIndex);
+        }
+
+        private void ResetHandGesture(int handIndex)
+        {
+            _pinchReleasePending[handIndex] = false;
+            if (_feedbackCoroutines[handIndex] != null) StopCoroutine(_feedbackCoroutines[handIndex]);
+            _feedbackCoroutines[handIndex] = null;
+            ClearAllLines(handIndex);
+            _accumulatedPoints[handIndex].Clear();
+            _lastFinalizedPoints[handIndex].Clear();
+            _isGestureActive[handIndex] = _wasPinching[handIndex] = _hasPendingResult[handIndex] = false;
+            _currentStrokeId[handIndex] = 0;
+            _currentTimer[handIndex] = 0f;
+        }
+
+        public void ResetForNewRound()
+        {
+            for (int i=0;i<2;i++)
+            {
+                ResetHandGesture(i);
+                _trackingUnavailable[i] = false;
+                // A held pinch over the restart button must not start a stroke in the next round.
+                _waitForRelease[i] = true;
+            }
+            _activeSimulatedMouseHand = -1;
+            if (_bannerCoroutine != null) StopCoroutine(_bannerCoroutine);
+            _bannerCoroutine = null;
+            if (_feedbackText != null) _feedbackText.gameObject.SetActive(false);
+            currentTimer = 0f;
         }
 
         private float GetPinchDropBuffer(int handIndex)
         {
             return _trackingUnavailable[handIndex]
-                ? Mathf.Max(pinchDropBuffer, trackingLossGrace) : pinchDropBuffer;
+                ? trackingLossGrace : 0f;
         }
 
         private Vector3 ScreenToWorld(Vector2 screenPixelPos)
@@ -655,7 +689,11 @@ namespace MagicTouch.Drawing
 
             // Task 2: Adaptive Input Smoothing ($1 Euro / Speed EMA)
             Vector2 smoothedScreenPos;
-            if (enableAdaptiveSmoothing)
+            if (!_enableEditorSimulation && HandTrackingBridge.Instance != null)
+            {
+                smoothedScreenPos = screenPos; // Already filtered once in the bridge, same as cursor.
+            }
+            else if (enableAdaptiveSmoothing)
             {
                 if (useSampleTimedSmoothing)
                 {
@@ -927,16 +965,9 @@ namespace MagicTouch.Drawing
 
             _lastFinalizedPoints[handIndex] = new List<Point>(points);
 
-            // Execute recognition strictly ONCE across all accumulated strokes
-            PRecognitionResult result;
-            if (_engine == RecognizerEngine.SentisNeuralNetwork && _sentisRecognizer != null && _sentisRecognizer.IsModelLoaded)
-            {
-                result = _sentisRecognizer.Recognize(points);
-            }
-            else
-            {
-                result = _pRecognizer.Recognize(points.ToArray());
-            }
+            PRecognitionResult result = _hasPendingResult[handIndex]
+                ? _pendingResult[handIndex] : RecognizePoints(points);
+            _hasPendingResult[handIndex] = false;
 
             Debug.Log($"[DrawingManager] Hand {handIndex + 1} recognized: '{result.Symbol}' (Score: {result.Score:F2}, Match: {result.IsMatch})");
 

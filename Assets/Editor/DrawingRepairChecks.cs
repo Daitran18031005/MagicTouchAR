@@ -29,6 +29,22 @@ public static class DrawingRepairChecks
             if (command == "stop") EditorApplication.isPlaying = false;
             else if (command == "play") EditorApplication.isPlaying = true;
             else if (command == "check") RunChecks();
+            else if (command == "check-interaction") InteractionRepairChecks.Run();
+            else if (command == "check-reset") InteractionRepairChecks.CheckWarmRestart();
+            else if (command == "configure-tracking")
+            {
+                if (EditorApplication.isPlaying) throw new Exception("Configure tracking in Edit Mode");
+                var bridge = UnityEngine.Object.FindFirstObjectByType<MagicTouch.Tracking.HandTrackingBridge>(FindObjectsInactive.Include);
+                if (bridge == null) throw new Exception("No tracking bridge in scene");
+                Undo.RecordObject(bridge, "Apply shared hand filter settings");
+                bridge.useOneEuroFilter = bridge.usePalmRelativeFiltering = true;
+                bridge.fingertipOffsetCutoff = 0.8f;
+                bridge.fingertipOffsetBeta = 0.006f;
+                bridge.fingertipSpikeThreshold = 45f;
+                EditorUtility.SetDirty(bridge);
+                UnityEditor.SceneManagement.EditorSceneManager.MarkSceneDirty(bridge.gameObject.scene);
+                UnityEditor.SceneManagement.EditorSceneManager.SaveScene(bridge.gameObject.scene);
+            }
             else if (command == "refresh") AssetDatabase.Refresh();
             else if (command == "capture") ScreenCapture.CaptureScreenshot("Logs/drawing-game.png");
             WriteResult(command, "OK");
@@ -44,6 +60,8 @@ public static class DrawingRepairChecks
         public uint hand0Samples, hand1Samples;
         public float hand0SampleInterval, hand1SampleInterval;
         public float cameraFPS, trackingFPS, inferenceMilliseconds;
+        public bool streamSessionActive;
+        public int ignoredLandmarkPackets, ignoredVideoPackets;
     }
     private static void WriteResult(string command, string result)
     {
@@ -64,7 +82,10 @@ public static class DrawingRepairChecks
             hand1SampleInterval = bridge != null ? bridge.GetHand(1).SampleInterval : 0,
             cameraFPS = bridge != null ? bridge.CameraFPS : 0,
             trackingFPS = bridge != null ? bridge.TrackingFPS : 0,
-            inferenceMilliseconds = bridge != null ? bridge.InferenceMilliseconds : 0
+            inferenceMilliseconds = bridge != null ? bridge.InferenceMilliseconds : 0,
+            streamSessionActive = !string.IsNullOrEmpty(MagicTouch.Tracking.TrackingStreamSession.ActiveId),
+            ignoredLandmarkPackets = MagicTouch.Tracking.TrackingStreamSession.IgnoredLandmarkPackets,
+            ignoredVideoPackets = MagicTouch.Tracking.TrackingStreamSession.IgnoredVideoPackets
         }, true));
     }
 
@@ -81,11 +102,11 @@ public static class DrawingRepairChecks
         try
         {
             var manager = root.AddComponent<DrawingManager>();
-            Require(Mathf.Abs((float)Invoke(manager,"GetPinchDropBuffer",0)-0.08f)<0.001f,"visible release must keep the 80 ms coyote buffer");
+            Require(Mathf.Abs((float)Invoke(manager,"GetPinchDropBuffer",0))<0.001f,"visible release must freeze immediately");
             var missing=(bool[])typeof(DrawingManager).GetField("_trackingUnavailable",BindingFlags.Instance|BindingFlags.NonPublic).GetValue(manager);
             missing[0]=true;
             Require(Mathf.Abs((float)Invoke(manager,"GetPinchDropBuffer",0)-0.14f)<0.001f,"camera loss needs the bounded 140 ms recovery window");
-            Require(Mathf.Abs((float)Invoke(manager,"GetPinchDropBuffer",1)-0.08f)<0.001f,"loss grace must be per player");
+            Require(Mathf.Abs((float)Invoke(manager,"GetPinchDropBuffer",1))<0.001f,"loss grace must be per player");
             missing[0]=false;
             var keys = new List<Vector2>();
             var points = new List<Point> {new Point(0,0,0),new Point(1,0,0),new Point(2,0,0),new Point(100,0,0)};

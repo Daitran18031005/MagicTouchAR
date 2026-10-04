@@ -24,6 +24,7 @@ namespace MagicTouch.Tracking
         public struct HandData
         {
             public int index;
+            public int trackId;
             public bool pinch;
             public float pinchDistance;
             public float[] landmarks; // 42 floats: [x0, y0, x1, y1, ..., x20, y20]
@@ -32,6 +33,7 @@ namespace MagicTouch.Tracking
         [Serializable]
         public struct MediaPipePacket
         {
+            public string sessionId;
             public long timestamp;
             public HandData[] hands;
         }
@@ -75,6 +77,8 @@ namespace MagicTouch.Tracking
         public struct ParsedHandData
         {
             public bool isDetected;
+            public int trackId;
+            public long timestamp;
             public bool isPinching;
             public float pinchDistance;
             public Vector2[] landmarks;
@@ -256,6 +260,7 @@ namespace MagicTouch.Tracking
                         {
                             string json = Encoding.UTF8.GetString(data);
                             MediaPipePacket packet = JsonUtility.FromJson<MediaPipePacket>(json);
+                            if (!TrackingStreamSession.AcceptLandmarks(packet.sessionId)) continue;
 
                             lock (_landmarkLock)
                             {
@@ -272,6 +277,8 @@ namespace MagicTouch.Tracking
                                         if (hand.landmarks == null || hand.landmarks.Length < 42) continue;
 
                                         _workerHands[hIdx].isDetected = true;
+                                        _workerHands[hIdx].trackId = hand.trackId;
+                                        _workerHands[hIdx].timestamp = packet.timestamp;
                                         _workerHands[hIdx].isPinching = hand.pinch;
                                         _workerHands[hIdx].pinchDistance = hand.pinchDistance;
 
@@ -322,6 +329,7 @@ namespace MagicTouch.Tracking
                     try
                     {
                         byte[] data = _videoClient.Receive(ref remoteEP);
+                        if (!TrackingStreamSession.AcceptVideo(data, out data)) continue;
                         if (data != null && data.Length > 0)
                         {
                             lock (_videoLock)
@@ -372,6 +380,8 @@ namespace MagicTouch.Tracking
                     for (int h = 0; h < 2; h++)
                     {
                         _mainHands[h].isDetected = _workerHands[h].isDetected;
+                        _mainHands[h].trackId = _workerHands[h].trackId;
+                        _mainHands[h].timestamp = _workerHands[h].timestamp;
                         _mainHands[h].isPinching = _workerHands[h].isPinching;
                         _mainHands[h].pinchDistance = _workerHands[h].pinchDistance;
                         if (_workerHands[h].isDetected)
@@ -392,7 +402,7 @@ namespace MagicTouch.Tracking
             {
                 if (_mainHands[h].isDetected)
                 {
-                    HandTrackingBridge.Instance?.ProcessHandLandmarks(h, _mainHands[h].landmarks);
+                    HandTrackingBridge.Instance?.ProcessHandLandmarks(h, _mainHands[h].landmarks, _mainHands[h].timestamp, _mainHands[h].trackId);
                 }
                 else if (_handActiveState[h])
                 {
@@ -504,7 +514,7 @@ namespace MagicTouch.Tracking
                     ProcessStartInfo psi = new ProcessStartInfo
                     {
                         FileName = "pythonw",
-                        Arguments = $"-u \"{scriptPath}\"" + (_enableVideoStream ? " --stream-video" : ""),
+                        Arguments = $"-u \"{scriptPath}\" --session-id {TrackingStreamSession.Begin()}" + (_enableVideoStream ? " --stream-video" : ""),
                         WorkingDirectory = projectRoot,
                         CreateNoWindow = true,
                         UseShellExecute = false,
@@ -559,19 +569,8 @@ namespace MagicTouch.Tracking
                 }
             }
 
-            // Windows safety net: terminate any lingering mediapipe_streamer processes to unlock the webcam
-            try
-            {
-                ProcessStartInfo killPsi = new ProcessStartInfo
-                {
-                    FileName = "cmd.exe",
-                    Arguments = "/c taskkill /F /FI \"WINDOWTITLE eq Magic Touch*\" /FI \"WINDOWTITLE eq MagicTouch*\"",
-                    CreateNoWindow = true,
-                    UseShellExecute = false
-                };
-                Process.Start(killPsi)?.WaitForExit(1000);
-            }
-            catch { }
+            // Only terminate the Process object this launcher owns. Session tags
+            // isolate other senders without killing unrelated windows/processes.
         }
 
         #endregion

@@ -163,7 +163,10 @@ namespace MagicTouch.Gameplay
             {
                 if (ActiveEnemies[i] != null)
                 {
-                    Destroy(ActiveEnemies[i].gameObject);
+                    // OnDisable unregisters this enemy, so retain the object before disabling.
+                    GameObject enemyObject = ActiveEnemies[i].gameObject;
+                    enemyObject.SetActive(false);
+                    Destroy(enemyObject);
                 }
             }
             ActiveEnemies.Clear();
@@ -171,8 +174,7 @@ namespace MagicTouch.Gameplay
 
         private IEnumerator SpawnRoutine()
         {
-            // Initial warm-up delay
-            yield return new WaitForSeconds(1.0f);
+            // Tracking is already ready when spawning starts; no restart warm-up delay.
 
             while (true)
             {

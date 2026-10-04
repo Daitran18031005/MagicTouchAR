@@ -160,7 +160,7 @@ namespace MagicTouch.Recognition
             // Stage 2: Heuristic Aspect Ratio Overrides
             // =========================================================================
             // If stroke is extremely tall and narrow -> definitely a VerticalLine
-            if (bounds.Height > bounds.Width * extremeAspectThreshold)
+            if (GestureCompletionPolicy.IsStraight(points) && bounds.Height > bounds.Width * extremeAspectThreshold)
             {
                 if (_logDetailedProbabilities)
                 {
@@ -177,7 +177,7 @@ namespace MagicTouch.Recognition
             }
 
             // If stroke is extremely wide and short -> definitely a HorizontalLine
-            if (bounds.Width > bounds.Height * extremeAspectThreshold)
+            if (GestureCompletionPolicy.IsStraight(points) && bounds.Width > bounds.Height * extremeAspectThreshold)
             {
                 if (_logDetailedProbabilities)
                 {

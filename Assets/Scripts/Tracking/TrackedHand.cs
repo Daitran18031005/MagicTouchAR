@@ -10,9 +10,15 @@ namespace MagicTouch.Tracking
     public class TrackedHand
     {
         public int HandIndex;
+        public int TrackId;
+        public long SourceTimestamp;
+        public Vector2 RawIndexTipScreen;
+        public Vector2 RawWristScreen;
         public bool IsDetected;
         public bool IsDrawing;
         public bool IsPinching;
+        // Freeze ink immediately while a near-threshold release awaits one sample.
+        public bool IsPinchReleasePending;
         // Updated only when a new tracking sample is ingested, not on render frames.
         public uint SampleVersion;
         public float SampleTime;

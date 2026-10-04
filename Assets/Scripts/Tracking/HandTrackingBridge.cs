@@ -50,9 +50,28 @@ namespace MagicTouch.Tracking
         [SerializeField] private bool _autoLaunchPythonStreamer = false;
         [SerializeField] private string _pythonExecutable = "pythonw";
         [Tooltip("Use the optional Lite palm detector while retaining the original precise finger-landmark model.")]
-        [SerializeField] private bool _useFastPalmDetector = true;
+        [SerializeField] private bool _useFastPalmDetector = false;
         private static Process _pythonProcess;
         public static bool IsPythonStreamerRunning => _pythonProcess != null && !_pythonProcess.HasExited;
+
+        [Header("Shared Cursor / Stroke Filter")]
+        public bool useOneEuroFilter = true;
+        public bool usePalmRelativeFiltering = true;
+        [Min(0.01f)] public float fingertipOffsetCutoff = 0.8f;
+        [Min(0f)] public float fingertipOffsetBeta = 0.006f;
+        [Min(0.01f)] public float positionMinCutoff = 1.5f;
+        [Min(0f)] public float positionBeta = 0.025f;
+        [Min(0.01f)] public float positionDerivativeCutoff = 1f;
+        [Tooltip("Freeze one isolated fingertip jump (reference-height pixels) if the wrist did not move with it.")]
+        public float fingertipSpikeThreshold = 45f;
+        private readonly OneEuroPositionFilter[] _positionFilters = { new OneEuroPositionFilter(), new OneEuroPositionFilter() };
+        private readonly HandPositionFilter[] _handPositionFilters = { new HandPositionFilter(), new HandPositionFilter() };
+        private readonly Vector2[] _lastAcceptedTip = new Vector2[2], _lastWrist = new Vector2[2];
+        private readonly bool[] _heldSpike = new bool[2];
+        private readonly bool[] _pinchBeforeTrackingLoss = new bool[2];
+        private readonly PinchTransitionFilter[] _pinchTransitions = { new PinchTransitionFilter(), new PinchTransitionFilter() };
+        private float _lastPacketTime = -10f;
+        public bool IsTrackingReady => hasReceivedFirstData && (_enableEditorSimulation || Time.realtimeSinceStartup - _lastPacketTime < 0.5f);
 
         // Backward-compatible properties
         public float pinchThreshold
@@ -104,6 +123,7 @@ namespace MagicTouch.Tracking
         private struct UdpHandData
         {
             public int index;
+            public int trackId;
             public bool pinch;
             public float pinchDistance;
             public float[] landmarks; // 42 floats [x0, y0, ..., x20, y20]
@@ -112,6 +132,7 @@ namespace MagicTouch.Tracking
         [Serializable]
         private struct UdpPacket
         {
+            public string sessionId;
             public long timestamp;
             public float cameraFps;
             public float trackingFps;
@@ -123,6 +144,8 @@ namespace MagicTouch.Tracking
         private struct HandSnapshot
         {
             public bool isDetected;
+            public int trackId;
+            public long timestamp;
             public Vector2[] landmarks; // 21 Vector2 elements
         }
 
@@ -219,12 +242,14 @@ namespace MagicTouch.Tracking
             }
 #endif
             ProcessUdpSnapshots();
+            if (Time.realtimeSinceStartup - _lastPacketTime > 0.25f)
+                for (int i = 0; i < _hands.Length; i++) SetHandLost(i);
             CheckCameraHandshake();
         }
 
         private void CheckCameraHandshake()
         {
-            if (hasReceivedFirstData && GameManager.Instance != null && GameManager.Instance.currentState == GameState.WaitingForCamera)
+            if (IsTrackingReady && GameManager.Instance != null && GameManager.Instance.currentState == GameState.WaitingForCamera)
             {
                 GameManager.Instance.StartGame();
             }
@@ -259,13 +284,14 @@ namespace MagicTouch.Tracking
             string videoArguments = videoReceiver != null && videoReceiver.EnableVideoStream ? " --stream-video" : "";
             string fastModel = Path.Combine(projectRoot, "Tools", "hand_landmarker_fast.task");
             string modelArguments = _useFastPalmDetector && File.Exists(fastModel) ? $" --model \"{fastModel}\"" : "";
+            string sessionArguments = " --session-id " + TrackingStreamSession.Begin();
 
             try
             {
                 ProcessStartInfo psi = new ProcessStartInfo
                 {
                     FileName = string.IsNullOrEmpty(_pythonExecutable) ? "pythonw" : _pythonExecutable,
-                    Arguments = $"-u \"{scriptPath}\"{videoArguments}{modelArguments}",
+                    Arguments = $"-u \"{scriptPath}\"{videoArguments}{modelArguments}{sessionArguments}",
                     WorkingDirectory = projectRoot,
                     CreateNoWindow = true,
                     UseShellExecute = false,
@@ -282,7 +308,7 @@ namespace MagicTouch.Tracking
                     ProcessStartInfo fallbackPsi = new ProcessStartInfo
                     {
                         FileName = "python",
-                        Arguments = $"-u \"{scriptPath}\"{videoArguments}{modelArguments}",
+                        Arguments = $"-u \"{scriptPath}\"{videoArguments}{modelArguments}{sessionArguments}",
                         WorkingDirectory = projectRoot,
                         CreateNoWindow = true,
                         UseShellExecute = false,
@@ -379,6 +405,7 @@ namespace MagicTouch.Tracking
                         {
                             string json = Encoding.UTF8.GetString(bytes);
                             UdpPacket packet = JsonUtility.FromJson<UdpPacket>(json);
+                            if (!TrackingStreamSession.AcceptLandmarks(packet.sessionId)) continue;
 
                             lock (_dataLock)
                             {
@@ -399,6 +426,8 @@ namespace MagicTouch.Tracking
                                         if (rawLms == null || rawLms.Length < 42) continue;
 
                                         _workerSnapshots[idx].isDetected = true;
+                                        _workerSnapshots[idx].trackId = packet.hands[h].trackId;
+                                        _workerSnapshots[idx].timestamp = packet.timestamp;
                                         for (int i = 0; i < 21; i++)
                                         {
                                             _workerSnapshots[idx].landmarks[i].x = rawLms[i * 2];
@@ -446,6 +475,8 @@ namespace MagicTouch.Tracking
                     for (int h = 0; h < 2; h++)
                     {
                         _mainSnapshots[h].isDetected = _workerSnapshots[h].isDetected;
+                        _mainSnapshots[h].trackId = _workerSnapshots[h].trackId;
+                        _mainSnapshots[h].timestamp = _workerSnapshots[h].timestamp;
                         if (_workerSnapshots[h].isDetected)
                         {
                             Array.Copy(_workerSnapshots[h].landmarks, _mainSnapshots[h].landmarks, 21);
@@ -455,12 +486,13 @@ namespace MagicTouch.Tracking
             }
 
             if (!hasUpdate) return;
+            _lastPacketTime = Time.realtimeSinceStartup;
 
             for (int h = 0; h < 2; h++)
             {
                 if (_mainSnapshots[h].isDetected)
                 {
-                    ProcessHandLandmarks(h, _mainSnapshots[h].landmarks);
+                    ProcessHandLandmarks(h, _mainSnapshots[h].landmarks, _mainSnapshots[h].timestamp, _mainSnapshots[h].trackId);
                 }
                 else
                 {
@@ -476,7 +508,7 @@ namespace MagicTouch.Tracking
         /// <summary>
         /// Feeds 21 normalized landmarks into the tracking system and computes strict pinch logic.
         /// </summary>
-        public void ProcessHandLandmarks(int handIndex, Vector2[] landmarks)
+        public void ProcessHandLandmarks(int handIndex, Vector2[] landmarks, long timestamp = 0, int trackId = 0)
         {
             if (handIndex < 0 || handIndex >= _hands.Length || landmarks == null || landmarks.Length < 21)
             {
@@ -484,9 +516,19 @@ namespace MagicTouch.Tracking
             }
 
             TrackedHand hand = _hands[handIndex];
-            bool wasDetected = hand.IsDetected;
-            hand.SampleInterval = hand.SampleVersion == 0 ? 1f / 30f
-                : Mathf.Clamp(Time.realtimeSinceStartup - hand.SampleTime, 0.001f, 0.25f);
+            bool sameTrack = trackId == 0 || hand.TrackId == trackId;
+            if (sameTrack && timestamp > 0 && hand.SourceTimestamp > 0 && timestamp <= hand.SourceTimestamp) return;
+            bool wasDetected = hand.IsDetected && sameTrack;
+            bool shortRecovery = !wasDetected && sameTrack && hand.SampleVersion > 0
+                && Time.realtimeSinceStartup - hand.SampleTime <= 0.18f;
+            if (!sameTrack) { SetHandLost(handIndex); hand.TrackId = trackId; }
+            if (!wasDetected && !shortRecovery) { _positionFilters[handIndex].Reset(); _handPositionFilters[handIndex].Reset(); _heldSpike[handIndex] = false; }
+            hand.SampleInterval = wasDetected && timestamp > 0 && hand.SourceTimestamp > 0
+                ? Mathf.Clamp((timestamp - hand.SourceTimestamp) * 0.001f, 0.001f, 0.25f)
+                : hand.SampleVersion == 0 ? 1f / 30f : Mathf.Clamp(Time.realtimeSinceStartup - hand.SampleTime, 0.001f, 0.25f);
+            hand.SourceTimestamp = timestamp;
+            _lastPacketTime = Time.realtimeSinceStartup;
+            hasReceivedFirstData = true;
             hand.SampleTime = Time.realtimeSinceStartup;
             hand.SampleVersion++;
             hand.IsDetected = true;
@@ -496,7 +538,31 @@ namespace MagicTouch.Tracking
             Vector2 indexNorm = landmarks[LANDMARK_INDEX_TIP];
 
             // Map coordinates to Screen Space
-            hand.IndexTipScreen = NormalizedToScreenSpace(indexNorm);
+            hand.RawIndexTipScreen = NormalizedToScreenSpace(indexNorm);
+            float referenceScale = 1080f / Mathf.Max(1, Screen.height);
+            Vector2 tip = hand.RawIndexTipScreen * referenceScale;
+            hand.RawWristScreen = NormalizedToScreenSpace(landmarks[LANDMARK_WRIST]);
+            Vector2 wrist = hand.RawWristScreen * referenceScale;
+            // Reject only a single implausible fingertip jump, never cap sustained motion.
+            bool spike = wasDetected && Vector2.Distance(tip, _lastAcceptedTip[handIndex]) >
+                Mathf.Max(fingertipSpikeThreshold, Vector2.Distance(wrist, _lastWrist[handIndex]) * 3f);
+            bool hold = spike && !_heldSpike[handIndex];
+            // Require confirmation only at the beginning of a discontinuity. Sustained
+            // fast motion must not be held on every other camera frame.
+            _heldSpike[handIndex] = spike;
+            // Reject only the suspect finger offset. Still advance with wrist
+            // translation, instead of freezing the whole cursor for this sample.
+            if (hold) tip = _lastAcceptedTip[handIndex] + (wrist - _lastWrist[handIndex]);
+            _lastWrist[handIndex] = wrist;
+            _lastAcceptedTip[handIndex] = tip;
+            Vector2 position = tip;
+            if (useOneEuroFilter)
+                position = usePalmRelativeFiltering
+                    ? _handPositionFilters[handIndex].Filter(tip, wrist, hand.SampleInterval,
+                        positionMinCutoff, positionBeta, positionDerivativeCutoff, fingertipOffsetCutoff, fingertipOffsetBeta)
+                    : _positionFilters[handIndex].Filter(tip, hand.SampleInterval,
+                        positionMinCutoff, positionBeta, positionDerivativeCutoff);
+            hand.IndexTipScreen = position / referenceScale;
             hand.IndexTipWorld = ScreenToWorldSpace(hand.IndexTipScreen);
             hand.ThumbTipScreen = NormalizedToScreenSpace(thumbNorm);
             hand.MiddleTipScreen = NormalizedToScreenSpace(landmarks[LANDMARK_MIDDLE_TIP]);
@@ -516,22 +582,13 @@ namespace MagicTouch.Tracking
             }
             hand.PinchDistance = hand.SmoothedPinchDistance;
 
-            // Task 3: Zero-Latency Instant Pinch Trigger
-            // If rawDistance drops below pinchEnterThreshold, trigger pinch INSTANTLY without waiting for Lerp delay!
             bool wasPinching = hand.IsPinching;
-            bool isPinching = wasPinching;
-
-            if (!wasPinching && (rawDistance < pinchEnterThreshold || hand.SmoothedPinchDistance < pinchEnterThreshold))
-            {
-                isPinching = true;
-                hand.SmoothedPinchDistance = rawDistance; // Snap smoothed distance to eliminate lagging behind
-            }
-            else if (wasPinching && (rawDistance > pinchExitThreshold || hand.SmoothedPinchDistance > pinchExitThreshold))
-            {
-                isPinching = false;
-                hand.SmoothedPinchDistance = rawDistance; // Snap smoothed distance to cutoff line instantly
-            }
-
+            var transition = _pinchTransitions[handIndex];
+            if (!wasDetected) transition.Reset(shortRecovery && _pinchBeforeTrackingLoss[handIndex]);
+            transition.Update(rawDistance, pinchEnterThreshold, pinchExitThreshold);
+            bool isPinching = transition.IsPinching;
+            hand.IsPinchReleasePending = transition.IsReleasePending;
+            if (isPinching != wasPinching) hand.SmoothedPinchDistance = rawDistance;
             hand.IsPinching = isPinching;
 
             if (isPinching != wasPinching)
@@ -539,7 +596,7 @@ namespace MagicTouch.Tracking
                 OnPinchStatusChanged?.Invoke(handIndex, isPinching, hand.IndexTipScreen);
             }
 
-            UpdateDrawingState(hand, isPinching);
+            UpdateDrawingState(hand, isPinching && !hand.IsPinchReleasePending);
             OnFingerMoved?.Invoke(handIndex, hand.IndexTipScreen, hand.IndexTipWorld);
         }
 
@@ -550,11 +607,13 @@ namespace MagicTouch.Tracking
             TrackedHand hand = _hands[handIndex];
             if (hand.IsDetected)
             {
+                _pinchBeforeTrackingLoss[handIndex] = hand.IsPinching && !hand.IsPinchReleasePending;
                 if (hand.IsDrawing)
                 {
                     UpdateDrawingState(hand, false);
                 }
                 hand.IsPinching = false;
+                hand.IsPinchReleasePending = false;
                 hand.IsDetected = false;
                 hand.SmoothedPinchDistance = 0f;
                 hand.RawPinchDistance = 0f;
@@ -697,6 +756,7 @@ namespace MagicTouch.Tracking
             TrackedHand hand = _hands[simulatedHandIndex];
             hand.IsDetected = true;
             hand.IsPinching = isClicking;
+            hand.IsPinchReleasePending = false;
             float simulatedDist = isClicking ? 0.02f : 0.25f;
             hand.RawPinchDistance = simulatedDist;
             hand.SmoothedPinchDistance = simulatedDist;

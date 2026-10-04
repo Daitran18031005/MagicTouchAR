@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 using TMPro;
 
 namespace MagicTouch.UI
@@ -178,9 +177,8 @@ namespace MagicTouch.UI
 
         public void OnRestartButtonClicked()
         {
-            Debug.Log("[UIManager] Restart Button Clicked. Reloading active scene...");
-            Scene activeScene = SceneManager.GetActiveScene();
-            SceneManager.LoadScene(activeScene.name);
+            // All restart entry points share the warm reset; never restart Python/camera.
+            MagicTouch.Gameplay.GameManager.Instance?.RestartGame();
         }
 
         private void CreateFallbackGameOverUI(int score, int highScore)
