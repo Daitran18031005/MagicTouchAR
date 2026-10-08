@@ -57,3 +57,4 @@ __pycache__/
 *.py[cod]
 .vscode/
 *.slnx
+/[Aa]ssets/_Recovery/

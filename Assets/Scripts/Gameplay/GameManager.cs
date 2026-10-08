@@ -13,7 +13,9 @@ namespace MagicTouch.Gameplay
     {
         WaitingForCamera,
         Playing,
-        GameOver
+        GameOver,
+        MainMenu,
+        Paused
     }
 
     /// <summary>
@@ -42,6 +44,115 @@ namespace MagicTouch.Gameplay
 
         [Tooltip("Whether the game is currently in Game Over state.")]
         public bool isGameOver = false;
+
+        [Header("Optional timed versus mode")]
+        [SerializeField] private GameMode _gameMode = GameMode.Solo;
+        [SerializeField] private int _versusMinutes = 3;
+        public GameObject versusHUD;
+        public TextMeshProUGUI leftScoreText;
+        public TextMeshProUGUI rightScoreText;
+        public TextMeshProUGUI matchTimerText;
+        private readonly VersusMatch _versusMatch = new VersusMatch();
+        private int _scoringPlayer = -1;
+        private int _shownLeft = -1, _shownRight = -1, _shownSeconds = -1;
+        public bool IsVersus => _gameMode == GameMode.Versus;
+        public VersusMatch VersusRound => _versusMatch;
+        public double RemainingMatchSeconds => _versusMatch.Remaining(Time.timeAsDouble);
+
+        public bool ConfigureMode(GameMode mode, int minutes = 3)
+        {
+            if (currentState == GameState.Playing || currentState == GameState.Paused) return false;
+            _gameMode = mode;
+            _versusMinutes = VersusMatch.ValidMinutes(minutes);
+            return true;
+        }
+
+        private void Update()
+        {
+            if (!IsVersus || currentState != GameState.Playing) return;
+            if (!_versusMatch.CanScore(Time.timeAsDouble)) { FinishVersusRound(); return; }
+            RefreshVersusHUD();
+        }
+
+        private void RefreshVersusHUD()
+        {
+            if (leftScoreText != null && _shownLeft != _versusMatch.LeftScore)
+            { _shownLeft = _versusMatch.LeftScore; leftScoreText.text = _shownLeft.ToString(); }
+            if (rightScoreText != null && _shownRight != _versusMatch.RightScore)
+            { _shownRight = _versusMatch.RightScore; rightScoreText.text = _shownRight.ToString(); }
+            if (matchTimerText != null)
+            {
+                int seconds = Mathf.CeilToInt((float)RemainingMatchSeconds);
+                if (seconds != _shownSeconds)
+                { _shownSeconds = seconds; matchTimerText.text = $"{seconds / 60:00}:{seconds % 60:00}"; }
+            }
+        }
+
+        private void RefreshModeHUD()
+        {
+            bool duel = IsVersus;
+            if (versusHUD != null) versusHUD.SetActive(duel && (currentState == GameState.Playing || currentState == GameState.Paused));
+            if (scoreText != null) scoreText.gameObject.SetActive(!duel);
+            if (livesText != null) livesText.gameObject.SetActive(!duel);
+            if (comboText != null && duel) comboText.gameObject.SetActive(false);
+            if (heartIcons != null) foreach (var heart in heartIcons) if (heart != null) heart.gameObject.SetActive(!duel);
+            if (uiManager != null && uiManager.heartIcons != null)
+                foreach (var heart in uiManager.heartIcons) if (heart != null) heart.gameObject.SetActive(!duel);
+            RefreshVersusHUD();
+        }
+
+        private void FinishVersusRound()
+        {
+            if (!IsVersus || currentState == GameState.GameOver) return;
+            _versusMatch.Finish();
+            currentState = GameState.GameOver;
+            isGameOver = true;
+            isGameActive = false;
+            DrawingManager.Instance?.ResetForNewRound();
+            if (bgmSource != null) bgmSource.Stop();
+            if (EnemySpawner.Instance != null)
+            {
+                EnemySpawner.Instance.StopSpawning();
+                EnemySpawner.Instance.ClearAllEnemies();
+            }
+            if (gameOverPanel != null) gameOverPanel.SetActive(false);
+            RefreshModeHUD();
+            // Use the existing lifecycle event without writing solo HighScore or playing a defeat sound.
+            OnGameOver?.Invoke();
+        }
+
+        /// <summary>Routes a completed gesture by its first accepted screen point, independent of hand ID.</summary>
+        public void HandleRecognizedGesture(int handIndex, PRecognitionResult result)
+        {
+            HandleGestureRecognized(handIndex, result);
+        }
+
+        private int PlayerForCompletedGesture(int handIndex)
+        {
+            var drawing = DrawingManager.Instance;
+            if (drawing == null) return -1;
+            var points = drawing.GetLastGesturePoints(handIndex);
+            if (points.Length == 0) return -1;
+            return VersusMatch.PlayerForScreenX(points[0].X, Screen.width);
+        }
+
+        public void OnPlayerSymbolRecognized(int player, GestureSymbol symbol)
+        {
+            if (!IsVersus || currentState != GameState.Playing || player < 0 || player > 1) return;
+            if (!_versusMatch.CanScore(Time.timeAsDouble)) { FinishVersusRound(); return; }
+            if (symbol == GestureSymbol.Unknown || symbol == GestureSymbol.None) return;
+            int before = score;
+            // Pop unregisters each enemy immediately; a later gesture cannot claim the same target.
+            _scoringPlayer = player;
+            try { OnSymbolRecognized(symbol); }
+            finally { _scoringPlayer = -1; }
+            int earned = score - before;
+            if (earned > 0) _versusMatch.TryAward(player, earned, Time.timeAsDouble);
+            RefreshVersusHUD();
+        }
+
+        // Optional menu gate. Defaults to true so scenes without MenuManager retain their lifecycle.
+        [HideInInspector] public bool isGameActive = true;
 
         [Header("Loading UI (Task 4)")]
         [Tooltip("Loading panel displayed on startup while waiting for camera tracking.")]
@@ -407,6 +518,7 @@ namespace MagicTouch.Gameplay
         {
             if (EnemySpawner.Instance != null) EnemySpawner.Instance.StopSpawning();
             DrawingManager.Instance?.ResetForNewRound();
+            _versusMatch.Reset(_versusMinutes);
             score = 0;
             lives = 3;
             combo = 0;
@@ -457,11 +569,15 @@ namespace MagicTouch.Gameplay
         /// </summary>
         public void StartGame()
         {
+            // A tracking handshake must never dismiss a menu or resume a paused round.
+            if (!isGameActive || currentState == GameState.MainMenu || currentState == GameState.Paused) return;
             if (currentState == GameState.Playing) return;
 
             Debug.Log("<color=green>[GameManager] Camera handshake received! Starting game loop.</color>");
             currentState = GameState.Playing;
             isGameOver = false;
+            if (IsVersus) _versusMatch.Start(Time.timeAsDouble);
+            RefreshModeHUD();
 
             if (loadingPanel != null)
             {
@@ -478,16 +594,21 @@ namespace MagicTouch.Gameplay
             PlayBGM();
         }
 
-        /// <summary>
-        /// Starts playing combatCastleMusic on bgmSource looping seamlessly at ~0.35f volume.
-        /// </summary>
+        /// <summary>Applies UI audio settings without changing tracking, spawning or physics.</summary>
+        public void ApplyAudioSettings(float musicVolume, float effectsVolume)
+        {
+            if (bgmSource != null) bgmSource.volume = Mathf.Clamp01(musicVolume);
+            if (sfxSource != null) sfxSource.volume = Mathf.Clamp01(effectsVolume);
+        }
+
+        /// <summary>Starts combat music using the saved UI volume.</summary>
         public void PlayBGM()
         {
             if (bgmSource != null && combatCastleMusic != null)
             {
                 bgmSource.clip = combatCastleMusic;
                 bgmSource.loop = true;
-                bgmSource.volume = 0.35f;
+                bgmSource.volume = PlayerPrefs.GetFloat("BGM_Volume", 0.35f);
                 if (!bgmSource.isPlaying)
                 {
                     bgmSource.Play();
@@ -508,7 +629,8 @@ namespace MagicTouch.Gameplay
 
             if (result.IsMatch && result.Symbol != GestureSymbol.Unknown && result.Symbol != GestureSymbol.None)
             {
-                OnSymbolRecognized(result.Symbol);
+                if (IsVersus) OnPlayerSymbolRecognized(PlayerForCompletedGesture(handIndex), result.Symbol);
+                else OnSymbolRecognized(result.Symbol);
             }
             else
             {
@@ -537,6 +659,7 @@ namespace MagicTouch.Gameplay
         public void OnSymbolRecognized(GestureSymbol drawnSymbol)
         {
             if (currentState != GameState.Playing) return;
+            if (IsVersus && (_scoringPlayer < 0 || !_versusMatch.CanScore(Time.timeAsDouble))) return;
 
             // 1. Gather all matching enemies currently alive on screen
             List<EnemyBalloon> toPop = new List<EnemyBalloon>();
@@ -637,6 +760,7 @@ namespace MagicTouch.Gameplay
         /// </summary>
         public void LoseLife()
         {
+            if (IsVersus) return; // Missed targets expire normally; timed matches have no HP.
             if (currentState != GameState.Playing) return;
 
             lives--;
@@ -682,6 +806,7 @@ namespace MagicTouch.Gameplay
         /// </summary>
         public void GameOver()
         {
+            if (IsVersus) { FinishVersusRound(); return; }
             if (currentState == GameState.GameOver) return;
             currentState = GameState.GameOver;
             isGameOver = true;
@@ -757,6 +882,7 @@ namespace MagicTouch.Gameplay
         public void RestartGame()
         {
             Debug.Log("[GameManager] Restarting round without reloading tracking or model.");
+            isGameActive = true; // Preserve legacy UIManager and external restart entry points.
             Time.timeScale = 1f;
             if (sfxSource != null) sfxSource.Stop();
             StartNewGame();
@@ -776,6 +902,7 @@ namespace MagicTouch.Gameplay
 
             UpdateHeartUI();
             UpdateComboUI();
+            RefreshModeHUD();
         }
 
         /// <summary>

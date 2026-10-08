@@ -28,6 +28,17 @@ public static class DrawingRepairChecks
         {
             if (command == "stop") EditorApplication.isPlaying = false;
             else if (command == "play") EditorApplication.isPlaying = true;
+            else if (command == "open-scene")
+            {
+                EditorApplication.isPlaying = false;
+                UnityEditor.SceneManagement.EditorSceneManager.OpenScene("Assets/Scenes/SampleScene.unity");
+            }
+            else if (command == "play-sample-scene")
+            {
+                if (EditorApplication.isPlaying) EditorApplication.isPlaying = false;
+                UnityEditor.SceneManagement.EditorSceneManager.OpenScene("Assets/Scenes/SampleScene.unity");
+                EditorApplication.isPlaying = true;
+            }
             else if (command == "check") RunChecks();
             else if (command == "check-interaction") InteractionRepairChecks.Run();
             else if (command == "check-reset") InteractionRepairChecks.CheckWarmRestart();

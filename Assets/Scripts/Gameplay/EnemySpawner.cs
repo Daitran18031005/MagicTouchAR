@@ -86,6 +86,24 @@ namespace MagicTouch.Gameplay
         [Tooltip("Global palette of balloon tint colors assigned to newly spawned enemies.")]
         public Color[] balloonColorPalette;
 
+        // Multipliers keep the authored Inspector values and the existing ramp intact.
+        private int _difficultyLevel = 1;
+        public int DifficultyLevel => _difficultyLevel;
+        public float CurrentSpawnInterval => Mathf.Max(.1f, _currentInterval * SpawnIntervalMultiplier(_difficultyLevel));
+        public float CurrentFallSpeed => Mathf.Max(.05f, _currentFallSpeed * FallSpeedMultiplier(_difficultyLevel));
+        public static float FallSpeedMultiplier(int level) => level <= 0 ? .75f : (level >= 2 ? 1.4f : 1f);
+        public static float SpawnIntervalMultiplier(int level) => level <= 0 ? 1.35f : (level >= 2 ? .65f : 1f);
+
+        /// <summary>Retunes existing and future enemies without restarting the round or spawn ramp.</summary>
+        public void ApplyDifficulty(int level)
+        {
+            level = Mathf.Clamp(level, 0, 2);
+            float ratio = FallSpeedMultiplier(level) / FallSpeedMultiplier(_difficultyLevel);
+            _difficultyLevel = level;
+            foreach (var enemy in ActiveEnemies)
+                if (enemy != null) enemy.FallSpeed *= ratio;
+        }
+
         private Coroutine _spawnCoroutine;
         private float _currentInterval;
         private float _currentFallSpeed;
@@ -143,6 +161,7 @@ namespace MagicTouch.Gameplay
         public void StartSpawning()
         {
             StopSpawning();
+            ApplyDifficulty(PlayerPrefs.GetInt("Difficulty", 1));
             _currentInterval = _spawnInterval;
             _currentFallSpeed = _baseFallSpeed;
             _spawnCoroutine = StartCoroutine(SpawnRoutine());
@@ -187,7 +206,7 @@ namespace MagicTouch.Gameplay
                     _currentInterval = Mathf.Max(_minSpawnInterval, _currentInterval - _intervalDecay);
                     _currentFallSpeed = Mathf.Min(_maxFallSpeed, _currentFallSpeed + 0.015f);
 
-                    yield return new WaitForSeconds(_currentInterval);
+                    yield return new WaitForSeconds(CurrentSpawnInterval);
                 }
                 else
                 {
@@ -232,7 +251,7 @@ namespace MagicTouch.Gameplay
                 }
             }
 
-            enemy.FallSpeed = _currentFallSpeed;
+            enemy.FallSpeed = CurrentFallSpeed;
             enemy.SetSymbol(chosenSymbol, symbolSprite, tintColor);
 
             // Task 1: Pass variety pools if the prefab does not define its own
