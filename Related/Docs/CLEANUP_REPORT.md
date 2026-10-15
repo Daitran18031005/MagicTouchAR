@@ -120,6 +120,7 @@ Kiểm tra trên toàn bộ 15 commit đã push (`origin/QuangDai_Feature` `52a6
 | `Resources.Load` khi không có thư mục `Resources/` | ❌ Chưa xử lý | `Assets/Scripts/Gameplay/BalloonPopEffect.cs:194`. Trong Editor, sprite VFX được nạp qua `AssetDatabase`; khi build có nguy cơ mất sprite VFX (chưa kiểm tra build) |
 | Listener `RestartGame` trùng trong scene | ✅ **Đã xử lý** trên branch `fix/stop-scene-autorun` | Nguyên nhân là autorun `[InitializeOnLoad]` của `MagicTouchSceneSetup`: `GameObject.Find("GameOverPanel")` không thấy panel đang tắt, nên mỗi lần domain reload nó thêm 1 listener, gán lại `GameManager.gameOverPanel` sang panel cũ và tự lưu scene. Đã gỡ autorun (`e76334b`) và dọn scene (`2401431`). Chi tiết và bằng chứng: mục 7.1 |
 | Chuyển nhạc `.wav` sang `.ogg` | ❌ Chưa làm | `CombatCastleMusic.wav` 19,81 MB là file lớn nhất repo; các SFX khác cũng là `.wav` |
+| Mouse Simulation vẫn mở Python streamer và tranh webcam với `ARCameraBackground` | ❌ Chưa xử lý (để portable setup) | `HandTrackingBridge.Awake()` và `MediaPipeUDPReceiver.Start()` cùng khởi chạy Python, không kiểm tra chế độ nhập. Khi Python hệ thống chết ngay lúc import (thiếu `numpy`), guard `HasExited` không chặn lần thứ hai, nên có 2 PID cách nhau khoảng 2 giây. Ở Mouse Simulation, `ARCameraBackground` mở webcam bằng `WebCamTexture` (`_useMediaPipeStream = false`). Xử lý trong portable setup |
 
 ### 7.1. Đã xử lý: autorun `MagicTouchSceneSetup`, listener trùng và panel Game Over chồng nhau
 
@@ -139,11 +140,11 @@ Kiểm tra trên toàn bộ 15 commit đã push (`origin/QuangDai_Feature` `52a6
 
 | Bước | Kết quả |
 |---|---|
-| 4.1 Domain reload | Reload ở Edit Mode với code mới, scene **không bị lưu**: 04:58 (hash giữ `ae5aa817`), 05:04 (hash giữ `df114961`; bản này còn 47 listener, code cũ hẳn đã thêm cái thứ 48 rồi lưu), khoảng 05:06 (hash giữ `cb2341da`, ngay trước commit `2401431`). Sau commit `2401431`: 4 lần reload khi vào Play (05:08:52, 05:09:11, 05:09:34, 05:10:51) và 1 lần mở lại Unity; mọi lần đều hash `cb2341da`, `git status` sạch, không có `*`. ⚠️ Reload khi vào Play không kiểm được autorun cũ (nó tự bỏ qua khi `isPlaying`), nên sau commit chỉ có **1** lần reload Edit Mode (lần mở lại), chưa đủ 3 lần |
+| 4.1 Domain reload | ✅ **Đạt.** Đủ 3 lần reload ở **Edit Mode** sau commit `2401431`: mở lại Unity lúc 05:10:18, Reimport `MagicTouchSceneSetup.cs` lúc 05:21:07→05:21:11 và 05:21:21→05:21:32. Mỗi lần hash scene trước/sau đều là `cb2341da35`, `git status` sạch, tiêu đề Unity không có `*`. Console không có log Play/Python, xác nhận đây là reload Edit Mode. Trước commit cũng đã có 3 lần reload Edit Mode do compile (04:58 hash giữ `ae5aa817`, 05:04 giữ `df114961`, khoảng 05:06 giữ `cb2341da`) mà scene không bị lưu. Các lần reload khi vào Play (05:08:52, 05:09:11, 05:09:34, 05:10:51) cũng giữ hash `cb2341da35` |
 | 4.2 Đóng/mở lại Unity | Đóng 05:09:52, mở lại 05:10:18: hash `cb2341da`, sạch, không có `*` ✅ |
 | 4.3 Ba bộ check | `Validate UI Bindings`, `Validate Drawing Repair`, `Validate Interaction Repair` đều **PASS** (05:11:13 / 05:11:22 / 05:11:26). Không có lỗi Console mới; chỉ có lỗi cũ đã biết, cộng log Info "NoSubscription" của gói `com.unity.ai.assistant` (không liên quan) ✅ |
 | 4.4 So với baseline | Listener `RestartGame` mỗi nút = 1 (trước: 47 trên nút cũ). Panel Game Over: 2 → 1. `GameManager` trỏ đúng panel Phase 9, không "Missing" ✅ |
-| 4.5 Restart ở Mouse Simulation | ⏳ **Chưa kiểm chứng.** Sau khi chuyển sang Mouse Simulation (05:11:56) không có lần vào Play nào, và Console không có log `[GameManager] Restarting round…` |
+| 4.5 Restart ở Mouse Simulation | ✅ **Đạt.** Mỗi lần bấm TRY AGAIN cho đúng **1** dòng `[GameManager] Restarting round…` và **1** dòng `Camera handshake received` (**47 lần → 1 lần mỗi click Restart**). 3 ván liên tiếp có nhịp giống nhau (3 mạng rồi Game Over), số bóng không tăng thêm. Sau phép thử, các thay đổi Switch Input (3 cờ) đã được `git restore`; hash khớp lại `cb2341da35`, `git status` sạch |
 | 4.6 Mất nối dây | Không phát hiện (`Validate UI Bindings` PASS, không tham chiếu treo) |
 
 - `Switch Input > Mouse Simulation` chỉ đổi đúng 3 cờ (`_enableEditorSimulation` ×2, `_useMediaPipeStream`). Đã `git restore`, scene khớp lại `2401431`.
