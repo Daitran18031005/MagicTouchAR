@@ -118,5 +118,34 @@ Kiểm tra trên toàn bộ 15 commit đã push (`origin/QuangDai_Feature` `52a6
 | `.venv` hỏng | ❌ Chưa xử lý | Chạy lại `setup_python_env.bat` đè lên `.venv` cũ (tạo bằng Python 3.11), khiến `pyvenv.cfg` trỏ sang Python 3.14 trong khi thư viện vẫn là bản `cp311`. Import báo `No module named 'numpy._core._multiarray_umath'` |
 | `Enemy.png` / `Enemy2.png` không tồn tại | ❌ Chưa xử lý | `Assets/Editor/MagicTouchSceneSetup.cs:551-552` |
 | `Resources.Load` khi không có thư mục `Resources/` | ❌ Chưa xử lý | `Assets/Scripts/Gameplay/BalloonPopEffect.cs:194`. Trong Editor, sprite VFX được nạp qua `AssetDatabase`; khi build có nguy cơ mất sprite VFX (chưa kiểm tra build) |
-| Listener `RestartGame` trùng trong scene | ❌ **Chưa xử lý** | Bản trong repo có 47 listener trên `GameUI_Canvas/GameOverPanel/RestartButton`; bản trên máy có 48. **Nguyên nhân:** `MagicTouchSceneSetup` là `[InitializeOnLoad]` (`MagicTouchSceneSetup.cs:23-45`). Mỗi lần domain reload, nó kiểm tra `GameObject.Find("GameOverPanel") == null`, nhưng `GameObject.Find` không thấy object đang tắt nên điều kiện luôn đúng. Kết quả là `GenerateGameOverUIInternal` chạy lại mỗi lần: `RemoveAllListeners()` (dòng 277) không gỡ listener persistent, `AddPersistentListener` (dòng 278) thêm 1 listener, dòng 295 gán lại `GameManager.gameOverPanel` sang panel cũ, rồi scene bị `SaveScene` tự động. Lỗi hai panel Game Over chồng nhau cũng từ đây |
+| Listener `RestartGame` trùng trong scene | ✅ **Đã xử lý** trên branch `fix/stop-scene-autorun` | Nguyên nhân là autorun `[InitializeOnLoad]` của `MagicTouchSceneSetup`: `GameObject.Find("GameOverPanel")` không thấy panel đang tắt, nên mỗi lần domain reload nó thêm 1 listener, gán lại `GameManager.gameOverPanel` sang panel cũ và tự lưu scene. Đã gỡ autorun (`e76334b`) và dọn scene (`2401431`). Chi tiết và bằng chứng: mục 7.1 |
 | Chuyển nhạc `.wav` sang `.ogg` | ❌ Chưa làm | `CombatCastleMusic.wav` 19,81 MB là file lớn nhất repo; các SFX khác cũng là `.wav` |
+
+### 7.1. Đã xử lý: autorun `MagicTouchSceneSetup`, listener trùng và panel Game Over chồng nhau
+
+- **Code (`e76334b`):**
+  - Gỡ `[InitializeOnLoad]`, static constructor và `delayCall`. Phần nối dây cũ thành menu thủ công `Tools > Magic Touch > Repair Scene Wiring (manual)`, chỉ thêm thứ còn thiếu.
+  - Listener `GameManager.RestartGame` chỉ được thêm khi chưa có (so cả target và tên method).
+  - Nếu `GameManager.gameOverPanel` đã trỏ tới một panel khác thì dùng lại, không tạo panel thứ hai.
+  - Bỏ việc ép `_useMediaPipeStream = true`.
+- **Scene (`2401431`, blob `cb2341da35…`):**
+  - Xóa `GameUI_Canvas/GameOverPanel`: 6 GameObject và 19 component, gồm nút Restart mang **47 listener trùng**. HUD Score/Lives/Combo được giữ nguyên.
+  - `GameManager.gameOverPanel/finalScoreText/highScoreText` trỏ về `ReferenceUI_Canvas/GameOver` như ở `52a6f5a`.
+  - Không còn tham chiếu nào tới object đã xóa.
+  - Việc dọn được làm một lần bằng script Editor tạm qua Unity API. Script đã xóa và không được commit.
+- **Kết quả:** mỗi nút còn đúng 1 listener `RestartGame` (`PlayAgainButton`, `RestartButton`, `Rematch` → `MenuManager.RestartGame`). Chỉ còn 1 panel Game Over (Phase 9).
+
+**Bằng chứng kiểm chứng.** Một watcher ghi hash scene, `git status` và tiêu đề cửa sổ Unity (dấu `*` = scene đang bị đánh dấu "đã sửa") sau mỗi lần reload.
+
+| Bước | Kết quả |
+|---|---|
+| 4.1 Domain reload | Reload ở Edit Mode với code mới, scene **không bị lưu**: 04:58 (hash giữ `ae5aa817`), 05:04 (hash giữ `df114961`; bản này còn 47 listener, code cũ hẳn đã thêm cái thứ 48 rồi lưu), khoảng 05:06 (hash giữ `cb2341da`, ngay trước commit `2401431`). Sau commit `2401431`: 4 lần reload khi vào Play (05:08:52, 05:09:11, 05:09:34, 05:10:51) và 1 lần mở lại Unity; mọi lần đều hash `cb2341da`, `git status` sạch, không có `*`. ⚠️ Reload khi vào Play không kiểm được autorun cũ (nó tự bỏ qua khi `isPlaying`), nên sau commit chỉ có **1** lần reload Edit Mode (lần mở lại), chưa đủ 3 lần |
+| 4.2 Đóng/mở lại Unity | Đóng 05:09:52, mở lại 05:10:18: hash `cb2341da`, sạch, không có `*` ✅ |
+| 4.3 Ba bộ check | `Validate UI Bindings`, `Validate Drawing Repair`, `Validate Interaction Repair` đều **PASS** (05:11:13 / 05:11:22 / 05:11:26). Không có lỗi Console mới; chỉ có lỗi cũ đã biết, cộng log Info "NoSubscription" của gói `com.unity.ai.assistant` (không liên quan) ✅ |
+| 4.4 So với baseline | Listener `RestartGame` mỗi nút = 1 (trước: 47 trên nút cũ). Panel Game Over: 2 → 1. `GameManager` trỏ đúng panel Phase 9, không "Missing" ✅ |
+| 4.5 Restart ở Mouse Simulation | ⏳ **Chưa kiểm chứng.** Sau khi chuyển sang Mouse Simulation (05:11:56) không có lần vào Play nào, và Console không có log `[GameManager] Restarting round…` |
+| 4.6 Mất nối dây | Không phát hiện (`Validate UI Bindings` PASS, không tham chiếu treo) |
+
+- `Switch Input > Mouse Simulation` chỉ đổi đúng 3 cờ (`_enableEditorSimulation` ×2, `_useMediaPipeStream`). Đã `git restore`, scene khớp lại `2401431`.
+- Chưa thử đổi độ phân giải Game view để xem `ReferencePanelFit`/`ReferenceSafeArea` (`[ExecuteAlways]`) có làm scene bị đánh dấu "đã sửa" hay không.
+

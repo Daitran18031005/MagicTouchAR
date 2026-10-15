@@ -17,10 +17,10 @@
 - Không commit `.env`, `.venv/`, `Library/`, `Logs/`, `Related/_ToDelete/`.
 - Không push `main`, không force push, không merge vào `main` khi chưa hỏi.
 
-> ⚠️ **CẢNH BÁO: `MagicTouchSceneSetup` TỰ CHẠY mỗi lần domain reload** (`[InitializeOnLoad]` trong
-> `Assets/Editor/MagicTouchSceneSetup.cs`). Nó thêm một listener `RestartGame` vào nút Restart cũ, gán lại
-> `GameManager.gameOverPanel` và **tự lưu `SampleScene.unity`**.
-> - Sau khi mở Unity hoặc compile, **LUÔN xem `git diff -- Assets/Scenes/SampleScene.unity`**.
+> ⚠️ **CẢNH BÁO: `MagicTouchSceneSetup` KHÔNG còn tự chạy khi domain reload kể từ commit `e76334b`.**
+> Phần nối dây cũ giờ là menu thủ công `Tools > Magic Touch > Repair Scene Wiring (manual)`, chỉ thêm thứ còn thiếu.
+> Các menu `Tools > Magic Touch > *` (kể cả `Switch Input`) **vẫn lưu `SampleScene.unity`** khi được bấm.
+> - Sau khi chạy bất kỳ menu nào ở trên, hoặc sau khi mở Unity/compile, **LUÔN xem `git diff -- Assets/Scenes/SampleScene.unity`**.
 > - Không commit thay đổi scene mà bạn không chủ ý.
 > - Muốn hoàn tác (`git restore`) thì **hỏi trước**: scene trên máy có thể đang chứa thay đổi chủ dự án muốn giữ.
 
@@ -94,7 +94,8 @@ HandTrackingBridge ─► DrawingManager (vẽ nét) ─► SentisRecognizer (m�
 ## 10. VIỆC ĐANG MỞ — chỉ làm khi được giao
 - Unity gọi `pythonw` trên PATH (Python hệ thống), không dùng `.venv` hay conda, nên chế độ AR chưa chạy với cấu hình mặc định.
 - `.venv` trên máy gốc đang hỏng (lệch phiên bản Python).
-- `MagicTouchSceneSetup` tự chạy khi reload: đây là nguồn của listener `RestartGame` trùng và hai panel Game Over chồng nhau.
+- `Switch Input` (chuột/AR) đang lưu chế độ nhập vào scene; sẽ tách khỏi scene ở bước portable setup.
+- Font `LiberationSans SDF` thiếu ký tự ❤ trong `LivesText` (HUD); chưa xử lý.
 - `BalloonPopEffect` dùng `Resources.Load` cho sprite VFX khi build, trong khi dự án không có thư mục `Resources/`.
 
 ## 11. ĐỌC THÊM
