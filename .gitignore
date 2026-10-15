@@ -62,6 +62,7 @@ __pycache__/
 
 # Cleanup/organize (local-only folders and agent helper scripts)
 .venv/
+.env
 Related/_ToDelete/
 Related/Data-Samples/
 Tools/unity-rpc.cjs
