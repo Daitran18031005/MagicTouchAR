@@ -3836,6 +3836,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 2044274325}
+        m_TargetAssemblyTypeName: MagicTouch.Gameplay.GameManager, Assembly-CSharp
+        m_MethodName: RestartGame
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &330707927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5173,7 +5185,7 @@ RectTransform:
   m_GameObject: {fileID: 494685401}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1106383, y: 1.1106383, z: 1.1106383}
+  m_LocalScale: {x: 1.256, y: 1.256, z: 1.256}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1268782796}
@@ -20167,9 +20179,9 @@ MonoBehaviour:
   playerWizardSpriteAsset: {fileID: 0}
   backgroundSprite: {fileID: 0}
   backgroundSpriteAsset: {fileID: 0}
-  gameOverPanel: {fileID: 1386789416}
-  finalScoreText: {fileID: 344879172}
-  highScoreText: {fileID: 791663855}
+  gameOverPanel: {fileID: 497904773}
+  finalScoreText: {fileID: 1124047194}
+  highScoreText: {fileID: 1240074008}
   bgmSource: {fileID: 1515823995}
   sfxSource: {fileID: 1230833980}
   combatCastleMusic: {fileID: 8300000, guid: 3b48127d6b88cbd4ea75f12e76d9b332, type: 3}
