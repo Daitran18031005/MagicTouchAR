@@ -58,3 +58,10 @@ __pycache__/
 .vscode/
 *.slnx
 /[Aa]ssets/_Recovery/
+
+# Cleanup/organize (local-only folders and agent helper scripts)
+.venv/
+Related/_ToDelete/
+Related/Data-Samples/
+Tools/unity-rpc.cjs
+Tools/unity-request.json
