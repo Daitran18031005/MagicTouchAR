@@ -17,6 +17,7 @@
 | `7bcfd7e` | `Related/Docs/Notes_for_CLAUDE_AGENTS.md` |
 | `ac85c84` | Báo cáo này (bản đầu) |
 | `322609b` | `Assets/_Recovery/` (+ 5 `.meta`) → `Related/_ToDelete/Assets/`. Dời khi Unity đã đóng hẳn; trước khi dời, working tree sạch |
+| `a0a39a1` | `.gitignore`: thêm `.idea/`. Giờ toàn bộ thư mục tự tạo lại được (Library, Temp, obj, Logs, UserSettings, .vs, .idea, *.csproj, *.sln, *.slnx) đều đã có trong `.gitignore` |
 
 Về scene trong snapshot: **46 listener `RestartGame` trùng nhau đã có sẵn ở HEAD cũ (`52a6f5a`)**. Bản đang sửa thêm 1 listener (thành 47) và đổi `GameManager.gameOverPanel` sang `GameUI_Canvas/GameOverPanel`. Snapshot ghi lại y nguyên các thay đổi này, không sửa gì.
 
