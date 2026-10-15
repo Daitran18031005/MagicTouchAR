@@ -54,8 +54,11 @@ Về scene trong snapshot: **46 listener `RestartGame` trùng nhau đã có sẵ
 | Quét GUID mồ côi: 49 file `.unity/.prefab/.asset/.mat/...` trong `Assets/` và `ProjectSettings/`, đối chiếu 22.415 file `.meta` (Assets + PackageCache) | ⚠️ Có 8 GUID mồ côi, **tất cả có từ commit đầu tiên `0fa359f`, không do đợt dọn này**: 7 GUID trong `Assets/Settings/Renderer2D.asset` (shader/texture debug Probe Volume và `m_FallOffLookup`) và 1 GUID trong `TMP Settings.asset` (`m_defaultSpriteAsset`, sprite emoji mặc định của TMP chưa được import) |
 | Unity Console | ✅ Không có lỗi hay warning mới. Còn lỗi cũ: `UnityMCPBridge` trùng cổng 8080, `mcp-unity` trùng cổng 8090, ký tự ❤ thiếu trong font `LivesText` |
 | Biên dịch | ✅ Không có file `.cs` nào bị đổi hay dời. Console không có lỗi biên dịch |
-| Validate UI Bindings / Interaction Repair / Drawing Repair | ⏳ **Chưa chạy được**: Unity từ chối lệnh qua MCP (*"User interactions are not supported for MCP tool calls"*) |
-| Play thử SampleScene (Missing Script / Prefab / sprite / âm thanh) | ⏳ **Chưa chạy được**, cùng lý do |
+| Validate UI Bindings (bạn chạy lúc 02:37:26) | ✅ `PASS: 24 buttons, pixel fonts, panel references and 9-slice sprites` |
+| Validate Interaction Repair (02:37:30) | ✅ `PASS: jitter ratio=0.020; …multi-stroke X/E, loss and reset`. Kèm 4 lỗi đỏ `DrawingTrail_Hand_1_Stroke_0..3: Destroy may not be called from edit mode`. Đây là nhiễu có sẵn từ trước: validator gọi `DrawingManager.ClearAllLines()` (dùng `Destroy`, `DrawingManager.cs:942`) trong Edit Mode, trên một object tạm `HideAndDontSave`. Các nét vẽ là con của object tạm đó và bị xoá bằng `DestroyImmediate(root)` ở cuối (`InteractionRepairChecks.cs:186`). Scene không có `DrawingTrail_*` nào bị sót lại. Đợt dọn không sửa file `.cs` nào (`git diff 52a6f5a HEAD -- *.cs` rỗng) |
+| Validate Drawing Repair (02:37:34) | ✅ `PASS: arc length, degenerate strokes, spline bounds, fast motion, fresh samples, start/recovery noise, player isolation` |
+| Play thử SampleScene (Missing Script / Prefab / sprite / âm thanh) | ⏳ Chưa có kết quả |
+| Scene sau khi mở lại Unity | ⚠️ `SampleScene.unity` bị **tự lưu lúc 02:37:10**, thêm listener `RestartGame` thứ 48. Chưa commit; xem mục 6 |
 
 ## 5. Việc cần bạn quyết / làm
 
@@ -68,5 +71,11 @@ Về scene trong snapshot: **46 listener `RestartGame` trùng nhau đã có sẵ
 
 - `Assets/Editor/MagicTouchSceneSetup.cs:551-552` tham chiếu `Assets/Sprites/Enemies/Enemy.png` và `Enemy2.png`, nhưng **hai file này không tồn tại**.
 - `Assets/Scripts/Gameplay/BalloonPopEffect.cs:194` gọi `Resources.Load<Sprite>(spriteName)` khi build, nhưng dự án **không có thư mục `Resources/`**. Trong Editor, sprite VFX được nạp qua `AssetDatabase` nên vẫn chạy; khi build có thể bị trống.
-- (Từ lần kiểm tra lỗi trước) 47 listener `RestartGame` trùng và việc gán lại `gameOverPanel` trong scene; Unity gọi `pythonw` của Python 3.14 (thiếu numpy) thay vì `.venv`.
+- **Nguyên nhân scene tự sinh listener và tự đổi `gameOverPanel`:** `MagicTouchSceneSetup` là `[InitializeOnLoad]` (`Assets/Editor/MagicTouchSceneSetup.cs:23-45`). Mỗi lần domain reload (mở Unity hoặc compile lại), nó kiểm tra `GameObject.Find("GameOverPanel") == null`. Nhưng `GameObject.Find` chỉ tìm được object **đang bật**, mà `GameUI_Canvas/GameOverPanel` được lưu ở trạng thái **tắt**, nên điều kiện luôn đúng. Kết quả là `GenerateGameOverUIInternal` chạy lại mỗi lần:
+  - `btn.onClick.RemoveAllListeners()` (dòng 277) không gỡ được listener *persistent*, rồi `AddPersistentListener` (dòng 278) thêm 1 listener mới, nên 46 → 47 → 48.
+  - Dòng 295 gán lại `GameManager.gameOverPanel` sang panel cũ.
+  - Cuối cùng scene bị `SaveScene` tự động.
+
+  Lỗi panel Game Over chồng nhau và listener trùng đều bắt nguồn từ đây, không phải do người sửa tay.
+- (Từ lần kiểm tra lỗi trước) Listener `RestartGame` trùng và việc gán lại `gameOverPanel` trong scene; Unity gọi `pythonw` của Python 3.14 (thiếu numpy) thay vì `.venv`.
 - Giữ lại cho hệ thống 3 map (chưa có nơi nào dùng): `ClockTowerBackground.png`, `HalloweenBackground.png`, `CombatClockMusic.mp3`, `MagicTitle.mat`, `WizardPortrait.asset`, `Editor/UnityMCPBridge.cs`.
