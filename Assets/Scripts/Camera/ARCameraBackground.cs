@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using MagicTouch.Tracking;
 
 namespace MagicTouch.CameraControl
 {
@@ -43,6 +44,11 @@ namespace MagicTouch.CameraControl
             }
 
             _rectTransform = _cameraDisplay.rectTransform;
+
+            // AR: the Python streamer owns the webcam and Unity only shows its video stream.
+            // Mouse Simulation: no Python, so Unity may open the webcam itself (no contention).
+            InputMode? mode = InputModeSettings.Override;
+            if (mode.HasValue) _useMediaPipeStream = mode.Value == InputMode.AR;
 
             if (_aspectRatioFitter == null)
             {

@@ -228,6 +228,10 @@ namespace MagicTouch.Tracking
 
             _udpPort = ProjectEnv.GetInt("LANDMARK_UDP_PORT", _udpPort);
 
+            // Machine-local input mode (EditorPrefs / .env) overrides the scene value at runtime only.
+            InputMode? mode = InputModeSettings.Override;
+            if (mode.HasValue) _enableEditorSimulation = mode.Value == InputMode.MouseSimulation;
+
             if (_autoLaunchPythonStreamer)
             {
                 StartPythonStreamerStealth();
@@ -290,13 +294,15 @@ namespace MagicTouch.Tracking
 
         /// <summary>
         /// The only launch path for Tools/mediapipe_streamer.py (MediaPipeUDPReceiver delegates here).
-        /// At most one attempt per Play session: a second request is ignored even if the first process
+        /// Runs only in AR mode. At most one attempt per Play session: a second request is ignored even if the first process
         /// already exited. The interpreter comes from ProjectEnv (.env PYTHON_EXE, then .venv), never
         /// from a system Python.
         /// </summary>
         public void StartPythonStreamerStealth()
         {
 #if UNITY_EDITOR || UNITY_STANDALONE
+            // Only AR mode uses the Python tracker; Mouse Simulation never starts it (and logs nothing).
+            if (_enableEditorSimulation) return;
             if (_launchAttempted)
             {
                 Debug.Log("[HandTrackingBridge] Python streamer launch was already attempted this session; ignoring duplicate request.");

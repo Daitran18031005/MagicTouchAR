@@ -496,51 +496,49 @@ namespace MagicTouch.Editor
             }
         }
 
-        [MenuItem("Tools/Magic Touch/Switch Input/AR Hand Tracking (MediaPipe)")]
+        private const string MenuInputAR = "Tools/Magic Touch/Switch Input/AR Hand Tracking (MediaPipe)";
+        private const string MenuInputMouse = "Tools/Magic Touch/Switch Input/Mouse Simulation (PC Debug)";
+        private const string MenuInputDefault = "Tools/Magic Touch/Switch Input/Use Scene or .env Default";
+
+        [MenuItem(MenuInputAR)]
         public static void SwitchToARHandTracking()
         {
             SetSimulationMode(false);
-            Debug.Log("<color=cyan>[MagicTouch] Input switched to AR Hand Tracking (MediaPipe). Make sure Python streamer is running!</color>");
+            Debug.Log("<color=cyan>[MagicTouch] Input switched to AR Hand Tracking (MediaPipe) for this machine. Python starts from .env/.venv on Play.</color>");
         }
 
-        [MenuItem("Tools/Magic Touch/Switch Input/Mouse Simulation (PC Debug)")]
+        [MenuItem(MenuInputMouse)]
         public static void SwitchToMouseSimulation()
         {
             SetSimulationMode(true);
-            Debug.Log("<color=yellow>[MagicTouch] Input switched to Mouse Simulation (Left-Click to draw).</color>");
+            Debug.Log("<color=yellow>[MagicTouch] Input switched to Mouse Simulation (Left-Click to draw) for this machine. Python is not started.</color>");
         }
 
+        [MenuItem(MenuInputDefault)]
+        public static void ClearInputModeOverride()
+        {
+            EditorPrefs.DeleteKey(InputModeSettings.EditorPrefsKey);
+            Debug.Log("[MagicTouch] Input mode override cleared; using INPUT_MODE from .env, else the scene value.");
+        }
+
+        [MenuItem(MenuInputAR, true)]
+        [MenuItem(MenuInputMouse, true)]
+        private static bool ValidateInputModeMenus()
+        {
+            InputMode? mode = InputModeSettings.Override;
+            Menu.SetChecked(MenuInputAR, mode == InputMode.AR);
+            Menu.SetChecked(MenuInputMouse, mode == InputMode.MouseSimulation);
+            return true;
+        }
+
+        // Input mode is a machine-local EditorPrefs setting applied at Play time, so switching never
+        // touches or saves SampleScene.unity (the scene keeps its committed AR values).
         private static void SetSimulationMode(bool enableMouseSim)
         {
-            DrawingManager dm = Object.FindAnyObjectByType<DrawingManager>();
-            if (dm != null)
-            {
-                SerializedObject dmSo = new SerializedObject(dm);
-                dmSo.FindProperty("_enableEditorSimulation").boolValue = enableMouseSim;
-                dmSo.ApplyModifiedProperties();
-                EditorUtility.SetDirty(dm);
-            }
-
-            HandTrackingBridge bridge = Object.FindAnyObjectByType<HandTrackingBridge>();
-            if (bridge != null)
-            {
-                SerializedObject bSo = new SerializedObject(bridge);
-                bSo.FindProperty("_enableEditorSimulation").boolValue = enableMouseSim;
-                bSo.ApplyModifiedProperties();
-                EditorUtility.SetDirty(bridge);
-            }
-
-            ARCameraBackground arCam = Object.FindAnyObjectByType<ARCameraBackground>();
-            if (arCam != null)
-            {
-                SerializedObject arCamSo = new SerializedObject(arCam);
-                arCamSo.FindProperty("_useMediaPipeStream").boolValue = !enableMouseSim;
-                arCamSo.ApplyModifiedProperties();
-                EditorUtility.SetDirty(arCam);
-            }
-
-            EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
-            EditorSceneManager.SaveScene(EditorSceneManager.GetActiveScene());
+            InputMode mode = enableMouseSim ? InputMode.MouseSimulation : InputMode.AR;
+            EditorPrefs.SetString(InputModeSettings.EditorPrefsKey, InputModeSettings.ToConfigValue(mode));
+            if (EditorApplication.isPlaying)
+                Debug.Log("[MagicTouch] Input mode change applies the next time you enter Play Mode.");
         }
 
         [MenuItem("Tools/Magic Touch/Configure & Wire All Sprites (Background, Enemies, Balloons, UI)")]

@@ -213,6 +213,10 @@ namespace MagicTouch.Drawing
             Application.runInBackground = true;
             Application.targetFrameRate = 60;
 
+            // Machine-local input mode (EditorPrefs / .env) overrides the scene value at runtime only.
+            InputMode? mode = InputModeSettings.Override;
+            if (mode.HasValue) _enableEditorSimulation = mode.Value == InputMode.MouseSimulation;
+
             _pRecognizer = new PRecognizer(_recognitionThreshold, _distanceNormalizationFactor);
             if (_sentisRecognizer == null)
             {
