@@ -66,6 +66,7 @@ namespace MagicTouch.Tracking
         public float ReceivedFPS => _receivedLandmarksFPS;
         public int ActiveHandsCount => _activeHandsCount;
         public bool EnableVideoStream => _enableVideoStream;
+        public int VideoPort => _videoPort;
 
         // Background UDP threading
         private Thread _landmarksThread;
@@ -119,6 +120,10 @@ namespace MagicTouch.Tracking
                 return;
             }
             Instance = this;
+
+            // Optional machine-local overrides from .env (Awake runs before OnEnable starts the sockets).
+            _landmarksPort = ProjectEnv.GetInt("LANDMARK_UDP_PORT", _landmarksPort);
+            _videoPort = ProjectEnv.GetInt("VIDEO_UDP_PORT", _videoPort);
 
             if (_cameraDisplay == null)
             {
@@ -178,7 +183,7 @@ namespace MagicTouch.Tracking
             // Start Landmarks receiver thread (only if HandTrackingBridge is not already running UDP receiver)
             if (HandTrackingBridge.Instance != null && HandTrackingBridge.Instance.IsUdpReceiverRunning)
             {
-                Debug.Log("[MediaPipeUDPReceiver] HandTrackingBridge is already receiving UDP landmarks on port 9050. Skipping duplicate receiver thread.");
+                Debug.Log($"[MediaPipeUDPReceiver] HandTrackingBridge is already receiving UDP landmarks on port {_landmarksPort}. Skipping duplicate receiver thread.");
             }
             else
             {
@@ -490,56 +495,14 @@ namespace MagicTouch.Tracking
         [ContextMenu("Start MediaPipe Python Streamer")]
         public void StartPythonTracker()
         {
-            // Both components may have auto-launch enabled. Share the bridge-owned
-            // process so they never compete for the same physical camera.
+            // Single launch path: HandTrackingBridge owns the streamer process (one attempt per
+            // Play session), so the two components never start Python twice or compete for the camera.
             if (HandTrackingBridge.Instance != null)
             {
                 HandTrackingBridge.Instance.StartPythonStreamerStealth();
                 return;
             }
-            // If already running, do not spawn another instance
-            if (_pythonTrackerProcess != null && !_pythonTrackerProcess.HasExited)
-            {
-                Debug.Log("[MediaPipeUDPReceiver] Python streamer process is already running.");
-                return;
-            }
-
-            string projectRoot = Path.GetFullPath(Path.Combine(Application.dataPath, ".."));
-            string scriptPath = Path.Combine(projectRoot, "Tools", "mediapipe_streamer.py");
-
-            try
-            {
-                if (File.Exists(scriptPath))
-                {
-                    ProcessStartInfo psi = new ProcessStartInfo
-                    {
-                        FileName = "pythonw",
-                        Arguments = $"-u \"{scriptPath}\" --session-id {TrackingStreamSession.Begin()}" + (_enableVideoStream ? " --stream-video" : ""),
-                        WorkingDirectory = projectRoot,
-                        CreateNoWindow = true,
-                        UseShellExecute = false,
-                        WindowStyle = ProcessWindowStyle.Hidden
-                    };
-                    try
-                    {
-                        _pythonTrackerProcess = Process.Start(psi);
-                    }
-                    catch
-                    {
-                        psi.FileName = "python";
-                        _pythonTrackerProcess = Process.Start(psi);
-                    }
-                    Debug.Log($"[MediaPipeUDPReceiver] Launched Python streamer in Stealth Mode (PID: {_pythonTrackerProcess?.Id}) via {scriptPath}");
-                }
-                else
-                {
-                    Debug.LogError($"[MediaPipeUDPReceiver] Could not locate streamer at {scriptPath}");
-                }
-            }
-            catch (Exception ex)
-            {
-                Debug.LogError($"[MediaPipeUDPReceiver] Failed to start Python tracker: {ex.Message}");
-            }
+            Debug.LogError("[MediaPipeUDPReceiver] HandTrackingBridge is required to launch the Python streamer (enter Play Mode with a HandTrackingBridge in the scene).");
         }
 
         /// <summary>

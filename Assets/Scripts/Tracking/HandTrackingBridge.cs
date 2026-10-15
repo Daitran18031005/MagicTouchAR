@@ -48,11 +48,26 @@ namespace MagicTouch.Tracking
         [Header("Python Auto-Launcher (Stealth Mode - Task 1)")]
         [Tooltip("Automatically launches the Python tracking script in completely hidden stealth mode on startup.")]
         [SerializeField] private bool _autoLaunchPythonStreamer = false;
+        // Kept so the scene's serialized value is preserved; intentionally unused (no system-Python fallback).
+#pragma warning disable CS0414
+        [Tooltip("No longer used. The interpreter comes from PYTHON_EXE in .env or the project .venv (see ProjectEnv).")]
         [SerializeField] private string _pythonExecutable = "pythonw";
+#pragma warning restore CS0414
         [Tooltip("Use the optional Lite palm detector while retaining the original precise finger-landmark model.")]
         [SerializeField] private bool _useFastPalmDetector = false;
         private static Process _pythonProcess;
+        // One launch attempt per Play session, even if that process exits immediately.
+        private static bool _launchAttempted;
+        private static bool _exitReported;
+        private float _nextExitCheck;
         public static bool IsPythonStreamerRunning => _pythonProcess != null && !_pythonProcess.HasExited;
+
+        [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.SubsystemRegistration)]
+        private static void ResetLaunchState()
+        {
+            _launchAttempted = false;
+            _exitReported = false;
+        }
 
         [Header("Shared Cursor / Stroke Filter")]
         public bool useOneEuroFilter = true;
@@ -211,6 +226,8 @@ namespace MagicTouch.Tracking
                 }
             }
 
+            _udpPort = ProjectEnv.GetInt("LANDMARK_UDP_PORT", _udpPort);
+
             if (_autoLaunchPythonStreamer)
             {
                 StartPythonStreamerStealth();
@@ -229,6 +246,7 @@ namespace MagicTouch.Tracking
 
         private void Update()
         {
+            ReportStreamerExit();
 #if UNITY_EDITOR
             if (_enableEditorSimulation)
             {
@@ -270,28 +288,51 @@ namespace MagicTouch.Tracking
 
         #region Python Stealth Process Launcher (Task 1)
 
+        /// <summary>
+        /// The only launch path for Tools/mediapipe_streamer.py (MediaPipeUDPReceiver delegates here).
+        /// At most one attempt per Play session: a second request is ignored even if the first process
+        /// already exited. The interpreter comes from ProjectEnv (.env PYTHON_EXE, then .venv), never
+        /// from a system Python.
+        /// </summary>
         public void StartPythonStreamerStealth()
         {
-            if (_pythonProcess != null && !_pythonProcess.HasExited) return;
-            if (MediaPipeUDPReceiver.IsPythonTrackerRunning) return;
+#if UNITY_EDITOR || UNITY_STANDALONE
+            if (_launchAttempted)
+            {
+                Debug.Log("[HandTrackingBridge] Python streamer launch was already attempted this session; ignoring duplicate request.");
+                return;
+            }
+            _launchAttempted = true;
+            if (IsPythonStreamerRunning) return;
 
-            string projectRoot = Path.GetFullPath(Path.Combine(Application.dataPath, ".."));
+            string projectRoot = ProjectEnv.ProjectRoot;
             string scriptPath = Path.Combine(projectRoot, "Tools", "mediapipe_streamer.py");
+            if (!File.Exists(scriptPath))
+            {
+                Debug.LogError($"[HandTrackingBridge] Không tìm thấy {scriptPath}; không khởi chạy được hand tracker.");
+                return;
+            }
 
-            if (!File.Exists(scriptPath)) return;
+            if (!ProjectEnv.TryResolvePython(out string pythonPath, out string error))
+            {
+                Debug.LogError("[HandTrackingBridge] " + error);
+                return;
+            }
 
             var videoReceiver = FindAnyObjectByType<MediaPipeUDPReceiver>();
-            string videoArguments = videoReceiver != null && videoReceiver.EnableVideoStream ? " --stream-video" : "";
+            string videoArguments = videoReceiver != null && videoReceiver.EnableVideoStream
+                ? $" --stream-video --video-port {videoReceiver.VideoPort}" : "";
             string fastModel = Path.Combine(projectRoot, "Tools", "hand_landmarker_fast.task");
             string modelArguments = _useFastPalmDetector && File.Exists(fastModel) ? $" --model \"{fastModel}\"" : "";
+            string streamArguments = $" --port {_udpPort} --camera {ProjectEnv.GetInt("CAMERA_INDEX", 0)}";
             string sessionArguments = " --session-id " + TrackingStreamSession.Begin();
 
             try
             {
                 ProcessStartInfo psi = new ProcessStartInfo
                 {
-                    FileName = string.IsNullOrEmpty(_pythonExecutable) ? "pythonw" : _pythonExecutable,
-                    Arguments = $"-u \"{scriptPath}\"{videoArguments}{modelArguments}{sessionArguments}",
+                    FileName = pythonPath,
+                    Arguments = $"-u \"{scriptPath}\"{streamArguments}{videoArguments}{modelArguments}{sessionArguments}",
                     WorkingDirectory = projectRoot,
                     CreateNoWindow = true,
                     UseShellExecute = false,
@@ -299,27 +340,32 @@ namespace MagicTouch.Tracking
                 };
 
                 _pythonProcess = Process.Start(psi);
-                UnityEngine.Debug.Log($"[HandTrackingBridge] Launched Python Streamer in Stealth Mode (PID: {_pythonProcess?.Id})");
+                _exitReported = false;
+                Debug.Log($"[HandTrackingBridge] Launched Python Streamer in Stealth Mode (PID: {_pythonProcess?.Id}) with {pythonPath}");
             }
             catch (Exception ex)
             {
-                try
-                {
-                    ProcessStartInfo fallbackPsi = new ProcessStartInfo
-                    {
-                        FileName = "python",
-                        Arguments = $"-u \"{scriptPath}\"{videoArguments}{modelArguments}{sessionArguments}",
-                        WorkingDirectory = projectRoot,
-                        CreateNoWindow = true,
-                        UseShellExecute = false,
-                        WindowStyle = ProcessWindowStyle.Hidden
-                    };
-                    _pythonProcess = Process.Start(fallbackPsi);
-                }
-                catch (Exception fallbackEx)
-                {
-                    UnityEngine.Debug.LogWarning($"[HandTrackingBridge] Python auto-launch notice: {ex.Message} / {fallbackEx.Message}");
-                }
+                Debug.LogError($"[HandTrackingBridge] Không khởi chạy được Python streamer bằng {pythonPath}: {ex.Message}. {ProjectEnv.SetupHint}");
+            }
+#else
+            Debug.LogWarning("[HandTrackingBridge] Python hand tracker only runs on PC (Editor/Standalone); not launched on this platform.");
+#endif
+        }
+
+        // Surfaces a streamer that died (e.g. missing packages) instead of waiting silently for the camera.
+        private void ReportStreamerExit()
+        {
+            if (_pythonProcess == null || _exitReported || Time.unscaledTime < _nextExitCheck) return;
+            _nextExitCheck = Time.unscaledTime + 1f;
+            try
+            {
+                if (!_pythonProcess.HasExited) return;
+                _exitReported = true;
+                Debug.LogError($"[HandTrackingBridge] Python streamer đã thoát (mã {_pythonProcess.ExitCode}). {ProjectEnv.SetupHint}");
+            }
+            catch (Exception)
+            {
+                _exitReported = true;
             }
         }
 
