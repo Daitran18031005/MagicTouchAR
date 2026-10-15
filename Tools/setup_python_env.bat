@@ -9,7 +9,7 @@ if errorlevel 1 (
     exit /b 1
 )
 call .venv\Scripts\python.exe -m pip install --upgrade pip
-call .venv\Scripts\python.exe -m pip install -r requirements.txt
+call .venv\Scripts\python.exe -m pip install -r Tools\requirements.txt
 if errorlevel 1 (
     echo Failed to install requirements.
     pause
