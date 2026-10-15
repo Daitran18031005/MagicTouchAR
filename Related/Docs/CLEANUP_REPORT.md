@@ -15,6 +15,8 @@
 | `f240d1d` | Dời tài liệu: `anti-4-10.readme`, `design_guidelines.md` |
 | `70f8b28` | Copy ảnh UI Phase 9 và `fps-validation.md` từ `Logs/` |
 | `7bcfd7e` | `Related/Docs/Notes_for_CLAUDE_AGENTS.md` |
+| `ac85c84` | Báo cáo này (bản đầu) |
+| `322609b` | `Assets/_Recovery/` (+ 5 `.meta`) → `Related/_ToDelete/Assets/`. Dời khi Unity đã đóng hẳn; trước khi dời, working tree sạch |
 
 Về scene trong snapshot: **46 listener `RestartGame` trùng nhau đã có sẵn ở HEAD cũ (`52a6f5a`)**. Bản đang sửa thêm 1 listener (thành 47) và đổi `GameManager.gameOverPanel` sang `GameUI_Canvas/GameOverPanel`. Snapshot ghi lại y nguyên các thay đổi này, không sửa gì.
 
@@ -39,7 +41,7 @@ Về scene trong snapshot: **46 listener `RestartGame` trùng nhau đã có sẵ
 | `agent_rules.md`, `project_brief.md` | Lấy lại từ commit `52a6f5a`. Phần lớn đã lỗi thời ($1 Unistroke, MediaPipe Unity Plugin, chụm ngón giữa, Object Pooling, `BRIEF.md`). Phần còn đúng đã gom vào `Notes_for_CLAUDE_AGENTS.md` |
 | `Feature` | File rỗng (0 byte) |
 | `Tools/unity-rpc.cjs`, `Tools/unity-request.json`, `Tools/focus-drawing-editor.ps1` | Script tự động hoá do agent để lại; không có code game nào tham chiếu. Không chứa bí mật viết cứng (token được đọc lúc chạy từ `Library/McpUnity/bridge-token`) |
-| `Assets/_Recovery/` (+ `.meta`) | **CHƯA DỜI**, xem mục 5 |
+| `Assets/_Recovery/0.unity`, `0 (1).unity` (+ `.meta` và `_Recovery.meta`) | Bản phục hồi tự động cũ (9 và 23 object, so với SampleScene hiện tại 622 KB), không có script nào mà SampleScene thiếu, 0 tham chiếu GUID. Đã dời ở commit `322609b` |
 
 ## 4. Kết quả kiểm tra (Pha C)
 
@@ -57,8 +59,8 @@ Về scene trong snapshot: **46 listener `RestartGame` trùng nhau đã có sẵ
 
 ## 5. Việc cần bạn quyết / làm
 
-1. **Đóng Unity để tôi dời `Assets/_Recovery/`.** Lưu ý: Unity đang có thay đổi scene **chưa lưu** (dấu `*` trên tiêu đề). Bạn quyết định lưu hay bỏ; nếu lưu thì nội dung sẽ khác với snapshot `b9defdc`.
-2. Sau khi mở lại Unity, chạy 3 menu kiểm tra (`Tools/MagicTouch/UI/Validate UI Bindings`, `Tools/MagicTouch/Validate Interaction Repair`, `Tools/MagicTouch/Validate Drawing Repair`) và Play thử. Một cách khác là cho phép lệnh MCP trong Unity để tôi tự chạy.
+1. ~~Đóng Unity để dời `Assets/_Recovery/`~~: **đã xong** (`322609b`).
+2. **Còn lại cho bạn:** mở lại Unity (lần đầu Unity sẽ ghi nhận việc `_Recovery` bị gỡ), rồi chạy 3 menu kiểm tra (`Tools/MagicTouch/UI/Validate UI Bindings`, `Tools/MagicTouch/Validate Interaction Repair`, `Tools/MagicTouch/Validate Drawing Repair`) và Play thử SampleScene. Kết quả được ghi vào Console và `Logs/drawing-repair-result.json`.
 3. `MagicTouch.slnx` vẫn đang được git theo dõi dù đã có trong `.gitignore` (`*.slnx`). Có muốn bỏ theo dõi (`git rm --cached`) không?
 4. Các thư mục `Logs/*Baseline` / `*Patches` và file `Logs/assistant-perf.jsonl` (487 MB) đang được giữ nguyên theo yêu cầu.
 
