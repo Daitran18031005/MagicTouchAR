@@ -1,7 +1,7 @@
 # Notes for CLAUDE.md / AGENTS.md (draft input)
 
 Nguyên liệu để viết CLAUDE.md/AGENTS.md sau này. Mọi ý đã được **đối chiếu với code ngày 2026-10-16** (nhánh `QuangDai_Feature`, sau khi merge `cleanup/organize`) và ghi rõ nguồn (file:dòng hoặc file gốc). Ý nào chưa kiểm chứng được ghi "chưa kiểm tra".
-Đây **chưa phải** CLAUDE.md/AGENTS.md; hai file đó chưa được tạo.
+[AGENTS.md](../../AGENTS.md) và [CLAUDE.md](../../CLAUDE.md) **đã được tạo ở gốc project** (bản luật ngắn, dựa trên ghi chú này); file này giữ phần chi tiết có nguồn.
 
 ## A. Luật làm việc
 
