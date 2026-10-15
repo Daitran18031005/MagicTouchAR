@@ -18,31 +18,26 @@ namespace MagicTouch.Editor
     /// - Creates/connects EnemySpawner, GameManager.
     /// - Generates complete HUD (Score, Lives, Combo).
     /// - Generates GameOverPanel modal with Title, FinalScoreText, HighScoreText, and wired RestartButton.
-    /// - Saves scene automatically.
+    /// - Saves scene when a menu command is run. Nothing here runs automatically on domain reload.
     /// </summary>
-    [InitializeOnLoad]
     public static class MagicTouchSceneSetup
     {
-        static MagicTouchSceneSetup()
-        {
-            EditorApplication.delayCall += EnsureGameOverUIConfigured;
-        }
-
-        private static void EnsureGameOverUIConfigured()
+        /// <summary>
+        /// Manual replacement for the former domain-reload autorun. Adds only missing GameOver UI,
+        /// tracking components and references; existing values, including the input mode, are kept.
+        /// </summary>
+        [MenuItem("Tools/Magic Touch/Repair Scene Wiring (manual)")]
+        public static void RepairSceneWiring()
         {
             if (Application.isPlaying) return;
 
             GameManager gm = Object.FindAnyObjectByType<GameManager>();
-            if (gm != null)
+            if (gm != null && gm.gameOverPanel == null)
             {
-                // Check if UI is already set up and wired
-                if (gm.gameOverPanel == null || GameObject.Find("GameOverPanel") == null)
-                {
-                    GenerateGameOverUIInternal(gm);
-                    EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
-                    EditorSceneManager.SaveScene(EditorSceneManager.GetActiveScene());
-                    Debug.Log("<color=green>[MagicTouchSceneSetup] Automatically created and wired GameOver UI on domain reload!</color>");
-                }
+                GenerateGameOverUIInternal(gm, true);
+                EditorSceneManager.MarkSceneDirty(EditorSceneManager.GetActiveScene());
+                EditorSceneManager.SaveScene(EditorSceneManager.GetActiveScene());
+                Debug.Log("<color=green>[MagicTouchSceneSetup] Created and wired missing GameOver UI.</color>");
             }
 
             EnsureMediaPipeConfiguredInternal();
@@ -157,8 +152,9 @@ namespace MagicTouch.Editor
             Debug.Log("<color=green>[MagicTouchSceneSetup] GameOver UI generated and wired to GameManager!</color>");
         }
 
-        private static void GenerateGameOverUIInternal(GameManager gm)
+        private static void GenerateGameOverUIInternal(GameManager gm, bool keepExisting = false)
         {
+            // keepExisting = true (Repair Scene Wiring): only add what is missing, never overwrite existing values.
             // 1. Find or create GameUI_Canvas (ScreenSpaceOverlay so it's always in front of sprites)
             GameObject canvasObj = GameObject.Find("GameUI_Canvas");
             Canvas canvas;
@@ -186,22 +182,41 @@ namespace MagicTouch.Editor
             // Score Text (Top-Left)
             TextMeshProUGUI scoreTmp = FindOrCreateUIText(canvasObj.transform, "ScoreText",
                 new Vector2(0f, 1f), new Vector2(0f, 1f), new Vector2(0f, 1f),
-                new Vector2(50, -40), new Vector2(400, 100), "Score: 0", 48, TextAlignmentOptions.TopLeft);
+                new Vector2(50, -40), new Vector2(400, 100), "Score: 0", 48, TextAlignmentOptions.TopLeft, keepExisting);
 
             // Lives Text (Top-Right)
             TextMeshProUGUI livesTmp = FindOrCreateUIText(canvasObj.transform, "LivesText",
                 new Vector2(1f, 1f), new Vector2(1f, 1f), new Vector2(1f, 1f),
-                new Vector2(-50, -40), new Vector2(400, 100), "Lives: 3 ❤ ❤ ❤", 44, TextAlignmentOptions.TopRight);
+                new Vector2(-50, -40), new Vector2(400, 100), "Lives: 3 ❤ ❤ ❤", 44, TextAlignmentOptions.TopRight, keepExisting);
 
             // Combo Text (Top-Center)
+            bool comboExisted = canvasObj.transform.Find("ComboText") != null;
             TextMeshProUGUI comboTmp = FindOrCreateUIText(canvasObj.transform, "ComboText",
                 new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f),
-                new Vector2(0, -140), new Vector2(500, 100), "", 56, TextAlignmentOptions.Center);
-            comboTmp.color = new Color(1f, 0.85f, 0.2f);
-            comboTmp.gameObject.SetActive(false);
+                new Vector2(0, -140), new Vector2(500, 100), "", 56, TextAlignmentOptions.Center, keepExisting);
+            if (!keepExisting || !comboExisted)
+            {
+                comboTmp.color = new Color(1f, 0.85f, 0.2f);
+                comboTmp.gameObject.SetActive(false);
+            }
 
-            // 3. Create or Find GameOverPanel
+            SerializedObject gmSo = new SerializedObject(gm);
+            SetReference(gmSo, "scoreText", scoreTmp, keepExisting);
+            SetReference(gmSo, "livesText", livesTmp, keepExisting);
+            SetReference(gmSo, "comboText", comboTmp, keepExisting);
+
+            // 3. Reuse a GameOver panel GameManager already references elsewhere (e.g. the Phase 9
+            //    reference UI) instead of creating a second, overlapping panel under GameUI_Canvas.
+            if (gm.gameOverPanel != null && gm.gameOverPanel.transform.parent != canvasObj.transform)
+            {
+                gmSo.ApplyModifiedProperties();
+                EditorUtility.SetDirty(gm);
+                return;
+            }
+
+            // Create or Find GameOverPanel
             Transform existingPanel = canvasObj.transform.Find("GameOverPanel");
+            bool panelExisted = existingPanel != null;
             GameObject panelObj;
             if (existingPanel != null)
             {
@@ -214,38 +229,54 @@ namespace MagicTouch.Editor
                 Undo.RegisterCreatedObjectUndo(panelObj, "Create GameOverPanel");
             }
 
-            RectTransform panelRt = panelObj.GetComponent<RectTransform>() ?? panelObj.AddComponent<RectTransform>();
-            panelRt.anchorMin = new Vector2(0.5f, 0.5f);
-            panelRt.anchorMax = new Vector2(0.5f, 0.5f);
-            panelRt.pivot = new Vector2(0.5f, 0.5f);
-            panelRt.anchoredPosition = Vector2.zero;
-            panelRt.sizeDelta = new Vector2(700, 850);
+            if (!keepExisting || !panelExisted)
+            {
+                RectTransform panelRt = panelObj.GetComponent<RectTransform>() ?? panelObj.AddComponent<RectTransform>();
+                panelRt.anchorMin = new Vector2(0.5f, 0.5f);
+                panelRt.anchorMax = new Vector2(0.5f, 0.5f);
+                panelRt.pivot = new Vector2(0.5f, 0.5f);
+                panelRt.anchoredPosition = Vector2.zero;
+                panelRt.sizeDelta = new Vector2(700, 850);
 
-            Image panelImg = panelObj.GetComponent<Image>() ?? panelObj.AddComponent<Image>();
-            panelImg.color = new Color(0.06f, 0.06f, 0.1f, 0.92f); // Semi-transparent black backdrop
+                Image panelImg = panelObj.GetComponent<Image>() ?? panelObj.AddComponent<Image>();
+                panelImg.color = new Color(0.06f, 0.06f, 0.1f, 0.92f); // Semi-transparent black backdrop
+            }
 
             // 4. GameOverPanel Children:
             // 4a. Title: "GAME OVER"
+            bool titleExisted = panelObj.transform.Find("GameOverTitle") != null;
             TextMeshProUGUI titleTmp = FindOrCreateUIText(panelObj.transform, "GameOverTitle",
                 new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f),
-                new Vector2(0, -90), new Vector2(600, 120), "GAME OVER", 64, TextAlignmentOptions.Center);
-            titleTmp.fontStyle = FontStyles.Bold;
-            titleTmp.color = new Color(1f, 0.25f, 0.3f); // Arcade Red
+                new Vector2(0, -90), new Vector2(600, 120), "GAME OVER", 64, TextAlignmentOptions.Center, keepExisting);
+            if (!keepExisting || !titleExisted)
+            {
+                titleTmp.fontStyle = FontStyles.Bold;
+                titleTmp.color = new Color(1f, 0.25f, 0.3f); // Arcade Red
+            }
 
             // 4b. Final Score Text
+            bool finalExisted = panelObj.transform.Find("FinalScoreText") != null;
             TextMeshProUGUI finalScoreTmp = FindOrCreateUIText(panelObj.transform, "FinalScoreText",
                 new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f),
-                new Vector2(0, -260), new Vector2(550, 90), "Score: 0", 48, TextAlignmentOptions.Center);
-            finalScoreTmp.color = Color.white;
+                new Vector2(0, -260), new Vector2(550, 90), "Score: 0", 48, TextAlignmentOptions.Center, keepExisting);
+            if (!keepExisting || !finalExisted)
+            {
+                finalScoreTmp.color = Color.white;
+            }
 
             // 4c. High Score Text
+            bool highExisted = panelObj.transform.Find("HighScoreText") != null;
             TextMeshProUGUI highScoreTmp = FindOrCreateUIText(panelObj.transform, "HighScoreText",
                 new Vector2(0.5f, 1f), new Vector2(0.5f, 1f), new Vector2(0.5f, 1f),
-                new Vector2(0, -370), new Vector2(550, 90), "High Score: 0", 42, TextAlignmentOptions.Center);
-            highScoreTmp.color = new Color(1f, 0.85f, 0.2f); // Golden yellow
+                new Vector2(0, -370), new Vector2(550, 90), "High Score: 0", 42, TextAlignmentOptions.Center, keepExisting);
+            if (!keepExisting || !highExisted)
+            {
+                highScoreTmp.color = new Color(1f, 0.85f, 0.2f); // Golden yellow
+            }
 
             // 4d. Restart Button
             Transform existingBtn = panelObj.transform.Find("RestartButton");
+            bool buttonExisted = existingBtn != null;
             GameObject btnObj;
             if (existingBtn != null)
             {
@@ -257,55 +288,90 @@ namespace MagicTouch.Editor
                 btnObj.transform.SetParent(panelObj.transform, false);
             }
 
-            RectTransform btnRt = btnObj.GetComponent<RectTransform>() ?? btnObj.AddComponent<RectTransform>();
-            btnRt.anchorMin = new Vector2(0.5f, 0f);
-            btnRt.anchorMax = new Vector2(0.5f, 0f);
-            btnRt.pivot = new Vector2(0.5f, 0.5f);
-            btnRt.anchoredPosition = new Vector2(0, 140);
-            btnRt.sizeDelta = new Vector2(340, 100);
-
-            Image btnImg = btnObj.GetComponent<Image>() ?? btnObj.AddComponent<Image>();
-            btnImg.color = new Color(0.18f, 0.75f, 0.35f); // Vibrant Emerald Green
-
             Button btn = btnObj.GetComponent<Button>() ?? btnObj.AddComponent<Button>();
-            ColorBlock cb = btn.colors;
-            cb.highlightedColor = new Color(0.25f, 0.85f, 0.45f);
-            cb.pressedColor = new Color(0.12f, 0.55f, 0.25f);
-            btn.colors = cb;
+            if (!keepExisting || !buttonExisted)
+            {
+                RectTransform btnRt = btnObj.GetComponent<RectTransform>() ?? btnObj.AddComponent<RectTransform>();
+                btnRt.anchorMin = new Vector2(0.5f, 0f);
+                btnRt.anchorMax = new Vector2(0.5f, 0f);
+                btnRt.pivot = new Vector2(0.5f, 0.5f);
+                btnRt.anchoredPosition = new Vector2(0, 140);
+                btnRt.sizeDelta = new Vector2(340, 100);
 
-            // Wire onClick event directly to GameManager.RestartGame
+                Image btnImg = btnObj.GetComponent<Image>() ?? btnObj.AddComponent<Image>();
+                btnImg.color = new Color(0.18f, 0.75f, 0.35f); // Vibrant Emerald Green
+
+                ColorBlock cb = btn.colors;
+                cb.highlightedColor = new Color(0.25f, 0.85f, 0.45f);
+                cb.pressedColor = new Color(0.12f, 0.55f, 0.25f);
+                btn.colors = cb;
+            }
+
+            // Wire onClick to GameManager.RestartGame exactly once. RemoveAllListeners only clears
+            // runtime listeners, so persistent ones must be checked before adding (no duplicates).
             btn.onClick.RemoveAllListeners();
-            UnityEventTools.AddPersistentListener(btn.onClick, gm.RestartGame);
+            if (!HasPersistentListener(btn.onClick, gm, nameof(GameManager.RestartGame)))
+            {
+                UnityEventTools.AddPersistentListener(btn.onClick, gm.RestartGame);
+            }
 
             // Button label text
+            bool labelExisted = btnObj.transform.Find("Text (TMP)") != null;
             TextMeshProUGUI btnTmp = FindOrCreateUIText(btnObj.transform, "Text (TMP)",
                 Vector2.zero, Vector2.one, new Vector2(0.5f, 0.5f),
-                Vector2.zero, Vector2.zero, "RESTART", 38, TextAlignmentOptions.Center);
-            btnTmp.fontStyle = FontStyles.Bold;
-            btnTmp.color = Color.white;
+                Vector2.zero, Vector2.zero, "RESTART", 38, TextAlignmentOptions.Center, keepExisting);
+            if (!keepExisting || !labelExisted)
+            {
+                btnTmp.fontStyle = FontStyles.Bold;
+                btnTmp.color = Color.white;
+            }
 
             // Hide GameOverPanel by default
-            panelObj.SetActive(false);
+            if (!keepExisting || !panelExisted)
+            {
+                panelObj.SetActive(false);
+            }
 
-            // 5. Connect all UI fields to GameManager
-            SerializedObject gmSo = new SerializedObject(gm);
-            gmSo.FindProperty("scoreText").objectReferenceValue = scoreTmp;
-            gmSo.FindProperty("livesText").objectReferenceValue = livesTmp;
-            gmSo.FindProperty("comboText").objectReferenceValue = comboTmp;
-            gmSo.FindProperty("gameOverPanel").objectReferenceValue = panelObj;
-            gmSo.FindProperty("finalScoreText").objectReferenceValue = finalScoreTmp;
-            gmSo.FindProperty("highScoreText").objectReferenceValue = highScoreTmp;
+            // 5. Connect GameOver UI fields to GameManager
+            SetReference(gmSo, "gameOverPanel", panelObj, keepExisting);
+            SetReference(gmSo, "finalScoreText", finalScoreTmp, keepExisting);
+            SetReference(gmSo, "highScoreText", highScoreTmp, keepExisting);
             gmSo.ApplyModifiedProperties();
             EditorUtility.SetDirty(gm);
+        }
+
+        private static void SetReference(SerializedObject so, string propertyName, Object value, bool keepExisting)
+        {
+            SerializedProperty property = so.FindProperty(propertyName);
+            if (!keepExisting || property.objectReferenceValue == null)
+            {
+                property.objectReferenceValue = value;
+            }
+        }
+
+        private static bool HasPersistentListener(UnityEngine.Events.UnityEventBase unityEvent, Object target, string methodName)
+        {
+            for (int i = 0; i < unityEvent.GetPersistentEventCount(); i++)
+            {
+                if (unityEvent.GetPersistentTarget(i) == target && unityEvent.GetPersistentMethodName(i) == methodName)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
 
         private static TextMeshProUGUI FindOrCreateUIText(
             Transform parent, string name,
             Vector2 anchorMin, Vector2 anchorMax, Vector2 pivot,
             Vector2 anchoredPos, Vector2 sizeDelta,
-            string defaultText, float fontSize, TextAlignmentOptions alignment)
+            string defaultText, float fontSize, TextAlignmentOptions alignment, bool keepExisting = false)
         {
             Transform existing = parent.Find(name);
+            if (existing != null && keepExisting)
+            {
+                return existing.GetComponent<TextMeshProUGUI>() ?? existing.gameObject.AddComponent<TextMeshProUGUI>();
+            }
             GameObject textObj;
             TextMeshProUGUI tmp;
 
@@ -379,17 +445,7 @@ namespace MagicTouch.Editor
                     sceneModified = true;
                 }
 
-                ARCameraBackground arCam = camBgObj.GetComponent<ARCameraBackground>();
-                if (arCam != null)
-                {
-                    SerializedObject arCamSo = new SerializedObject(arCam);
-                    if (!arCamSo.FindProperty("_useMediaPipeStream").boolValue)
-                    {
-                        arCamSo.FindProperty("_useMediaPipeStream").boolValue = true;
-                        arCamSo.ApplyModifiedProperties();
-                        sceneModified = true;
-                    }
-                }
+                // The input mode (_useMediaPipeStream) is chosen via Switch Input; never overwritten here.
             }
 
             if (sceneModified)
