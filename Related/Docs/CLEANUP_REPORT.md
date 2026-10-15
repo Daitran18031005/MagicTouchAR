@@ -17,6 +17,7 @@
 | `7bcfd7e` | `Related/Docs/Notes_for_CLAUDE_AGENTS.md` |
 | `ac85c84` | Báo cáo này (bản đầu) |
 | `322609b` | `Assets/_Recovery/` (+ 5 `.meta`) → `Related/_ToDelete/Assets/`. Dời khi Unity đã đóng hẳn; trước khi dời, working tree sạch |
+| `08f9fda` | Ngừng theo dõi `MagicTouch.slnx` (`git rm --cached`; file vẫn còn trên máy, đã khớp `*.slnx` trong `.gitignore`) |
 | `a0a39a1` | `.gitignore`: thêm `.idea/`. Giờ toàn bộ thư mục tự tạo lại được (Library, Temp, obj, Logs, UserSettings, .vs, .idea, *.csproj, *.sln, *.slnx) đều đã có trong `.gitignore` |
 
 Về scene trong snapshot: **46 listener `RestartGame` trùng nhau đã có sẵn ở HEAD cũ (`52a6f5a`)**. Bản đang sửa thêm 1 listener (thành 47) và đổi `GameManager.gameOverPanel` sang `GameUI_Canvas/GameOverPanel`. Snapshot ghi lại y nguyên các thay đổi này, không sửa gì.
@@ -65,8 +66,13 @@ Về scene trong snapshot: **46 listener `RestartGame` trùng nhau đã có sẵ
 
 1. ~~Đóng Unity để dời `Assets/_Recovery/`~~: **đã xong** (`322609b`).
 2. **Còn lại cho bạn:** mở lại Unity (lần đầu Unity sẽ ghi nhận việc `_Recovery` bị gỡ), rồi chạy 3 menu kiểm tra (`Tools/MagicTouch/UI/Validate UI Bindings`, `Tools/MagicTouch/Validate Interaction Repair`, `Tools/MagicTouch/Validate Drawing Repair`) và Play thử SampleScene. Kết quả được ghi vào Console và `Logs/drawing-repair-result.json`.
-3. `MagicTouch.slnx` vẫn đang được git theo dõi dù đã có trong `.gitignore` (`*.slnx`). Có muốn bỏ theo dõi (`git rm --cached`) không?
-4. Các thư mục `Logs/*Baseline` / `*Patches` và file `Logs/assistant-perf.jsonl` (487 MB) đang được giữ nguyên theo yêu cầu.
+3. ~~`MagicTouch.slnx` vẫn được git theo dõi~~: **đã ngừng theo dõi** (`08f9fda`).
+4. **Kiểm tra trước khi push lần đầu** (trên `cleanup/organize` @ `08f9fda`):
+   - `git log --all --oneline -- .venv`: **rỗng** (0 commit).
+   - Không có file nào nằm dưới `.env`, `.venv/`, `Related/_ToDelete/`, `Related/Data-Samples/` trong `git ls-files`. Cũng không có file `.env` nào trong dự án.
+   - 10 file lớn nhất đang theo dõi: `CombatCastleMusic.wav` 19,81 MB; `hand_landmarker.task` 7,46 MB; `Tools/hand_landmarker_fast.task` 7,12 MB; `Lit2DSceneTemplate.scenetemplate` 3,76 MB; `HalloweenBackground.png` 2,35 MB; `ClockTowerBackground.png` 2,34 MB; `LiberationSans SDF.asset` 2,15 MB; `CastleBackground.png` 2,05 MB; `PressStart2P SDF.asset` 2,04 MB; `phase9-menu-1920x1080.png` 1,58 MB. Tất cả đều dưới ngưỡng cảnh báo 50 MB của GitHub. Pack của repo: 51,88 MiB.
+5. Merge `cleanup/organize` (merge thường, không squash) và push: **chờ bạn xác nhận Play thử ổn**.
+6. Các thư mục `Logs/*Baseline` / `*Patches` và file `Logs/assistant-perf.jsonl` (487 MB) đang được giữ nguyên theo yêu cầu.
 
 ## 6. Việc cần làm sau (chỉ báo cáo, chưa sửa)
 
