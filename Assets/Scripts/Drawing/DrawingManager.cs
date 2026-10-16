@@ -943,7 +943,9 @@ namespace MagicTouch.Drawing
             {
                 if (lines[i] != null)
                 {
-                    Destroy(lines[i].gameObject);
+                    // Editor validators drive this outside Play Mode, where Destroy is not allowed.
+                    if (Application.isPlaying) Destroy(lines[i].gameObject);
+                    else DestroyImmediate(lines[i].gameObject);
                 }
             }
             lines.Clear();
