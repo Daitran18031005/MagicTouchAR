@@ -159,7 +159,9 @@ Kiểm tra trên toàn bộ 15 commit đã push (`origin/QuangDai_Feature` `52a6
 | `1125fcc` | `.python-version` = 3.11. `Tools/requirements.txt` ghim `mediapipe==1.1.1`, `opencv-contrib-python==5.0.0.93`, `numpy==2.4.6` (bỏ `opencv-python` vì mediapipe đã kéo bản contrib). Viết lại `Tools/setup_python_env.bat` (tìm Python 3.11, không dùng lại `.venv` sai phiên bản, kiểm tra import). Thêm `Tools/setup_python_env.sh` (macOS, **chưa kiểm thử**), `.env.example`; `.env` vào `.gitignore` |
 | `3423ced` | `ProjectEnv.cs`: đọc `.env`; tìm Python `PYTHON_EXE` → `.venv\Scripts\pythonw.exe`/`python.exe` → lỗi tiếng Việt, không rơi về Python hệ thống. `HandTrackingBridge.StartPythonStreamerStealth` là đường khởi chạy duy nhất (`MediaPipeUDPReceiver` giao lại), tối đa 1 lần mỗi phiên Play kể cả khi tiến trình vừa chết, có báo khi streamer thoát sớm. `Process.Start` bọc `#if UNITY_EDITOR \|\| UNITY_STANDALONE`. Cổng UDP và camera đọc từ `.env` |
 | `c9592de` | `InputModeSettings.cs`: chế độ nhập lấy từ EditorPrefs (menu Switch Input) → `INPUT_MODE` trong `.env` → giá trị scene; bản build luôn AR. Menu Switch Input **không còn sửa/lưu scene**. Mouse Simulation không khởi chạy Python; AR: Python giữ webcam, Mouse: Unity `WebCamTexture` |
-| (Pha 4) | Cập nhật README, báo cáo này và Notes |
+| `1eaad69` | Pha 4: README (cách chạy từ máy mới), báo cáo này và Notes |
+| `6894579` | `AGENTS.md` khớp portable setup |
+| `9cb460d`, `b713f26` | README (clone qua `QuangDai_Feature`, mục *Lưu ý khi chạy*, kết quả máy thứ hai); `AGENTS.md` ghi nhánh tích hợp |
 
 **Kiểm chứng (máy gốc):**
 - Xóa `.venv` cũ (đang là 3.14 lẫn gói 3.11), chạy `Tools\setup_python_env.bat` không tham số: tìm thấy `py -3.11` (Python 3.11.7 từ python.org), cài các gói đã ghim, in `OK: cv2 5.0.0 | mediapipe 1.1.1 | numpy 2.4.6`.
@@ -168,3 +170,11 @@ Kiểm tra trên toàn bộ 15 commit đã push (`origin/QuangDai_Feature` `52a6
 - Unity, AR: Python khởi chạy đúng 1 lần từ `.venv`, lời gọi trùng bị bỏ qua, không báo lỗi thoát, Unity không tự mở webcam, tay điều khiển được, vẽ ký hiệu thì bóng nổ.
 - Trong suốt các lần Play/reload, hash scene giữ `cb2341da35`, `git status` sạch; `.venv` và `.env` không bị git theo dõi.
 - Lỗi gặp khi thử: `pip` báo `WinError 3` do đường dẫn thư mục quá dài (giới hạn 260 ký tự của Windows); README đã ghi cách xử lý.
+
+**Kiểm chứng trên máy thứ hai** (bạn của chủ dự án, clone mới `feature/portable-setup`): chạy được cả **Mouse Simulation** và **AR**; không có bước nào bị kẹt cần sửa tài liệu.
+
+**Trạng thái cuối đợt portable setup:**
+- Đủ 4 pha: Pha 1 (Python 3.11, gói ghim, script setup), Pha 2 (Unity tìm đúng Python, một đường khởi chạy), Pha 3 (chế độ nhập cục bộ, Mouse không mở Python), Pha 4 (kiểm chứng và tài liệu).
+- Đã thử đạt trên máy gốc và một máy thứ hai.
+- Gộp **fast-forward** vào `QuangDai_Feature`. Nhánh `feature/portable-setup` được giữ lại tới khi PR vào `main` xong. Chưa mở PR.
+- Còn mở: macOS chưa kiểm thử; font ❤ trong `LivesText`; `Resources.Load` trong `BalloonPopEffect`; `Enemy.png`/`Enemy2.png`; chuyển `.wav` sang `.ogg`.
