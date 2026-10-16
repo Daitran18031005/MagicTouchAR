@@ -51,7 +51,7 @@
 - Lỗi Console cũ đã biết, **không phải do agent gây ra**:
   - Trùng cổng 8080 (`UnityMCPBridge`) và 8090 (`mcp-unity`).
   - Font `LivesText` thiếu ký tự ❤.
-  - "Destroy may not be called from edit mode" khi chạy `Validate Interaction Repair`.
+- Lỗi "Destroy may not be called from edit mode" khi chạy `Validate Interaction Repair` **đã sửa ở `0fe5b28`**; nếu thấy lại thì đó là lỗi mới.
 
 ## 6. CẤU TRÚC VÀ ĐƯỜNG DẪN GÁN CỨNG
 ```text
