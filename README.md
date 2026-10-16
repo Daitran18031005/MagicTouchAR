@@ -17,8 +17,8 @@
 
 | Thành phần | Trạng thái | Ghi chú |
 |---|---|---|
-| Chơi bằng chuột (Mouse Simulation) | ✅ Chạy được | Đã thử Play trên máy gốc: vẽ được, Restart đúng 1 lần mỗi click. Ở chế độ này Unity **không** khởi chạy Python |
-| AR hand tracking bằng webcam | ✅ **Chạy được qua `.venv`** | Đã thử trên máy gốc: `.venv` tạo bằng `Tools\setup_python_env.bat` (Python 3.11), Unity tự khởi chạy streamer **đúng 1 lần** từ `.venv`, tay điều khiển được, vẽ ký hiệu thì bóng nổ. Unity không dùng Python hệ thống |
+| Chơi bằng chuột (Mouse Simulation) | ✅ Chạy được | Đã thử trên máy gốc và một máy thứ hai (clone mới): vẽ được, Restart đúng 1 lần mỗi click. Ở chế độ này Unity **không mở Python** |
+| AR hand tracking bằng webcam | ✅ **Chạy được qua `.venv`** | Đã thử trên máy gốc và một máy thứ hai (clone mới): `.venv` tạo bằng `Tools\setup_python_env.bat` (Python 3.11), Unity tự khởi chạy streamer **đúng 1 lần** từ `.venv`, tay điều khiển được, vẽ ký hiệu thì bóng nổ. Unity không dùng Python hệ thống |
 | Android / mobile | ❌ Chưa làm | Python tracker chỉ chạy trên PC (Editor/Standalone). `NativeMediaPipeBridge.cs` là khung dự kiến cho mobile, không có trong scene |
 | macOS | ❓ Chưa hỗ trợ chính thức | Có `Tools/setup_python_env.sh` và Unity tìm `.venv/bin/python3`, nhưng **chưa kiểm thử trên macOS** |
 
@@ -110,10 +110,13 @@ Chế độ Mouse Simulation bỏ qua toàn bộ phần Python/UDP: không khở
 ## 🎮 Cách Chạy Từ Máy Mới
 
 1. **Cài Unity 6000.5.6f1** qua Unity Hub, và **Python 3.11** từ python.org (chọn "py launcher"). Python chỉ cần cho chế độ AR.
-2. **Clone dự án** (nên đặt ở đường dẫn ngắn, ví dụ `D:\Projects\MagicTouchAR`):
+2. **Clone dự án** (nên đặt ở đường dẫn ngắn, ví dụ `D:\Projects\MagicTouchAR`), rồi chuyển sang nhánh có portable setup:
    ```bash
    git clone https://github.com/Daitran18031005/MagicTouchAR.git
+   cd MagicTouchAR
+   git checkout QuangDai_Feature
    ```
+   Khi PR vào `main` đã được gộp, chỉ cần clone mặc định (bỏ bước `git checkout`).
 3. **Tạo môi trường Python cho dự án:** chạy `Tools\setup_python_env.bat` (double-click, hoặc chạy trong terminal ở thư mục gốc dự án):
    ```bat
    Tools\setup_python_env.bat
@@ -128,6 +131,13 @@ Chế độ Mouse Simulation bỏ qua toàn bộ phần Python/UDP: không khở
 6. **Bấm Play**, rồi chọn **PLAY** ở menu chính.
    - **AR:** Unity tự khởi chạy streamer **một lần** bằng `.venv`. Console có dòng `[HandTrackingBridge] Launched Python Streamer … with …\.venv\Scripts\pythonw.exe`. Đưa tay vào khung hình; màn *"Waiting for Camera Setup..."* tự tắt khi có landmark đầu tiên. Chụm ngón cái + ngón trỏ để vẽ.
    - **Mouse Simulation:** giữ chuột trái và kéo để vẽ (nửa trái màn hình là Tay 1, nửa phải là Tay 2). Không có Python.
+
+### Lưu ý khi chạy
+
+- **Phải cài đúng Unity 6000.5.6f1.** Nếu Unity Hub không liệt kê bản này ở mục *Install Editor*, tìm trong tab **Archive** (trang tải bản cũ của Unity).
+- **Lần mở Unity đầu tiên** sẽ nhập tài nguyên (tạo thư mục `Library/`), mất vài phút. Các lần sau nhanh hơn.
+- **Lỗi đỏ có thể bỏ qua:** các dòng về `MCP Unity` / `Unity-MCP` (trùng cổng 8080/8090) và các dòng `NoSubscription` của Unity AI là nhiễu đã biết, **không ảnh hưởng game**.
+- **Repo private:** nếu repo đang để private, bạn cần được chủ repo mời làm *collaborator* thì mới clone được.
 
 ### Cấu hình tùy chọn (`.env`)
 
