@@ -82,6 +82,7 @@ Nguồn: chỉ thị của chủ dự án (2026-10-16), trừ khi ghi khác.
    - Python lấy từ `PYTHON_EXE` trong `.env`, nếu không có thì `.venv` của dự án; thiếu cả hai thì báo lỗi tiếng Việt. **Không bao giờ rơi về Python hệ thống** (trước đây Unity gọi `pythonw` trên PATH: Python 3.14 thiếu `numpy`).
    - `.venv` tạo bằng `Tools\setup_python_env.bat` với Python **3.11** (`.python-version`); gói ghim trong `Tools/requirements.txt`.
    - Đã kiểm end-to-end trên máy gốc: Python 3.11.7 (python.org) → `.venv` → Unity khởi chạy streamer đúng 1 lần, có landmark, vẽ được.
+   - Đã thử thêm trên một máy thứ hai (clone mới): chạy được cả Mouse Simulation và AR.
    - Hai điểm khởi chạy cũ (`HandTrackingBridge.Awake()` và `MediaPipeUDPReceiver.Start()`) **đã gộp** về `StartPythonStreamerStealth`, có chốt chặn 1 lần mỗi phiên Play.
 3. **Chạy streamer bằng tay khi auto-launch còn bật thì Unity bỏ qua dữ liệu.** `TrackingStreamSession.Begin()` (`HandTrackingBridge.cs:334`) đặt session-id khi Unity tự khởi chạy streamer. Gói không có session-id đó bị bỏ (`TrackingStreamSession.cs`, `Matches`). Phải tắt *Auto Launch Python Streamer* và *Auto Launch Python On Play* khi chạy tay.
 4. **`.venv` phải đúng Python 3.11.** Bản `setup_python_env.bat` cũ tạo đè `.venv` bằng Python khác làm `pyvenv.cfg` và thư viện lệch phiên bản (`numpy._core._multiarray_umath` lỗi). Script mới từ chối dùng lại `.venv` không phải 3.11 và nhắc xóa thư mục `.venv` rồi chạy lại.
@@ -106,3 +107,10 @@ Nguồn: chỉ thị của chủ dự án (2026-10-16), trừ khi ghi khác.
 | Snapping "hút nam châm" nét vẽ; ký tự "A" | Hàm snap không được gọi; 10 ký hiệu không có "A" | README cũ |
 | Quái Knight, Gargoyle, Golem | Sprite trong scene: Bat, Knight, Robot | README cũ |
 | 80 ms visible-release grace | Xác nhận nhả tay theo mẫu (`PinchTransitionFilter`) | `fps-validation.md` |
+
+## G. Trạng thái cuối đợt portable setup
+
+- 4 pha đã xong: Python 3.11 + gói ghim + `Tools\setup_python_env.bat` (Pha 1); `ProjectEnv` và một đường khởi chạy Python (Pha 2); chế độ nhập cục bộ qua `InputModeSettings`, Mouse không mở Python (Pha 3); kiểm chứng và tài liệu (Pha 4).
+- Đã thử đạt trên máy gốc và một máy thứ hai (clone mới), cả Mouse Simulation lẫn AR.
+- Nhánh tích hợp là `QuangDai_Feature` (gộp fast-forward từ `feature/portable-setup`). `main` chưa có các thay đổi này cho tới khi PR vào `main` được gộp. Người mới clone thì `git checkout QuangDai_Feature`.
+- Lưu ý khi chạy: các dòng `MCP Unity` / `Unity-MCP` (trùng cổng 8080/8090) và `NoSubscription` là nhiễu đã biết. Lần mở Unity đầu tiên mất vài phút để nhập tài nguyên. Cần đúng Unity 6000.5.6f1 (tab Archive của Unity Hub nếu không thấy).
