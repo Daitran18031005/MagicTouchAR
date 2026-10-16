@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-In_Development-brightgreen)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
 ![Unity](https://img.shields.io/badge/Unity-6000.5.6f1-black?logo=unity)
-![Python](https://img.shields.io/badge/Python-ch%C6%B0a_ghim_phi%C3%AAn_b%E1%BA%A3n-blue?logo=python)
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 
 **AR Magic Touch** là một tựa game tương tác thực tế ảo (AR) phong cách đồ họa Retro Pixel-Art (16-bit). Người chơi sẽ hóa thân thành một pháp sư bảo vệ lâu đài, sử dụng chính đôi bàn tay thực tế của mình để vẽ các ấn chú ma thuật trong không trung, phá vỡ bóng bay và tiêu diệt những kẻ địch đang rơi từ trên trời xuống.
 
@@ -17,10 +17,10 @@
 
 | Thành phần | Trạng thái | Ghi chú |
 |---|---|---|
-| Chơi bằng chuột (Mouse Simulation) | ⚠️ Chưa kiểm tra Play | Code biên dịch sạch. 3 bộ kiểm tra trong Editor đều PASS: `Validate UI Bindings`, `Validate Interaction Repair`, `Validate Drawing Repair`. Chưa có kết quả Play thử (xem [CLEANUP_REPORT](Related/Docs/CLEANUP_REPORT.md)) |
-| AR hand tracking bằng webcam | ❌ **Hiện chưa chạy** trên máy gốc | Unity gọi `pythonw` của hệ thống (Python 3.14, thiếu `numpy`), không dùng `.venv` hay conda (`HandTrackingBridge.cs:51,293`). `.venv` đang hỏng sau khi chạy lại `setup_python_env.bat`. Môi trường conda `magictouch` chạy streamer thành công khi chạy riêng (chưa kiểm tra end-to-end với Unity). Việc sửa nằm ở giai đoạn sau |
-| Android / mobile | ❌ Chưa làm | Python tracker chỉ chạy trên PC: Unity khởi chạy `pythonw` bằng `Process.Start`. `NativeMediaPipeBridge.cs` là khung dự kiến cho mobile, không có trong scene |
-| macOS | ❓ Chưa hỗ trợ chính thức | Chưa kiểm tra. Launcher dùng `pythonw` và file `.bat`, chỉ phù hợp với Windows |
+| Chơi bằng chuột (Mouse Simulation) | ✅ Chạy được | Đã thử Play trên máy gốc: vẽ được, Restart đúng 1 lần mỗi click. Ở chế độ này Unity **không** khởi chạy Python |
+| AR hand tracking bằng webcam | ✅ **Chạy được qua `.venv`** | Đã thử trên máy gốc: `.venv` tạo bằng `Tools\setup_python_env.bat` (Python 3.11), Unity tự khởi chạy streamer **đúng 1 lần** từ `.venv`, tay điều khiển được, vẽ ký hiệu thì bóng nổ. Unity không dùng Python hệ thống |
+| Android / mobile | ❌ Chưa làm | Python tracker chỉ chạy trên PC (Editor/Standalone). `NativeMediaPipeBridge.cs` là khung dự kiến cho mobile, không có trong scene |
+| macOS | ❓ Chưa hỗ trợ chính thức | Có `Tools/setup_python_env.sh` và Unity tìm `.venv/bin/python3`, nhưng **chưa kiểm thử trên macOS** |
 
 ---
 
@@ -42,8 +42,10 @@ Dự án này là sự kết hợp hoàn hảo giữa Game Engine, Trí tuệ nh
 ## 📂 Cấu Trúc Hệ Thống Cốt Lõi
 
 - **`mediapipe_streamer.py`** (`Tools/`): đọc webcam, chạy MediaPipe Hand Landmarker, gửi tọa độ bàn tay (UDP 9050) và ảnh camera JPEG (UDP 9051) cho Unity.
-- **`HandTrackingBridge.cs`:** tự khởi chạy Python streamer, nhận UDP bằng luồng nền, lọc nhiễu tọa độ (One Euro) và xử lý logic chụm tay (Hysteresis). Có cả chế độ giả lập bằng chuột.
-- **`MediaPipeUDPReceiver.cs`:** nhận luồng video (UDP 9051) để vẽ nền camera. Không mở thêm luồng nhận landmark nếu `HandTrackingBridge` đã nhận.
+- **`HandTrackingBridge.cs`:** **đường khởi chạy Python duy nhất** (tối đa 1 lần mỗi phiên Play, chỉ ở chế độ AR), nhận UDP bằng luồng nền, lọc nhiễu tọa độ (One Euro) và xử lý logic chụm tay (Hysteresis). Có cả chế độ giả lập bằng chuột.
+- **`ProjectEnv.cs`:** đọc file `.env` (nếu có) và chọn Python: `PYTHON_EXE` trong `.env` → `.venv` của dự án → báo lỗi tiếng Việt kèm hướng dẫn. Không bao giờ dùng Python hệ thống.
+- **`InputModeSettings.cs`:** chế độ nhập (AR / Mouse Simulation) lưu cục bộ trên máy (EditorPrefs hoặc `INPUT_MODE` trong `.env`), nên đổi chế độ **không làm thay đổi scene**.
+- **`MediaPipeUDPReceiver.cs`:** nhận luồng video (UDP 9051) để vẽ nền camera. Không mở thêm luồng nhận landmark nếu `HandTrackingBridge` đã nhận; muốn khởi chạy Python thì giao lại cho `HandTrackingBridge`.
 - **`DrawingManager.cs`:** quản lý thao tác vẽ (LineRenderer), chờ khi mất tracking, nét nhiều nét và gửi điểm vẽ đi nhận diện.
 - **`SentisRecognizer.cs` / `PRecognizer.cs`:** nhận diện ký hiệu (Sentis ONNX là mặc định, `$P` là dự phòng).
 - **`GameManager.cs` & `UIManager.cs` & `MenuManager.cs`:** Trái tim của game. Quản lý vòng lặp trạng thái (Main Menu → Waiting for Camera → Playing → Paused/Game Over), hiển thị máu (Hearts), Combo và điểm số, chế độ Versus.
@@ -55,12 +57,15 @@ Dự án này là sự kết hợp hoàn hảo giữa Game Engine, Trí tuệ nh
 MagicTouch/
 ├── Assets/            # Game Unity: Scenes/SampleScene.unity, Scripts/, Prefabs/, Models/ (ONNX),
 │                      #   Sprites/, Audio/, UI/ (Phase 9 + MenuManager), Editor/ (công cụ & kiểm tra)
-├── Tools/             # Core Python: mediapipe_streamer.py, *.task, *.bat, requirements.txt.
-│                      #   Tên và vị trí thư mục này bị GÁN CỨNG trong code — không đổi tên/dời.
+├── Tools/             # Core Python: mediapipe_streamer.py, *.task, *.bat, requirements.txt (đã ghim),
+│                      #   setup_python_env.bat/.sh. Tên và vị trí thư mục này bị GÁN CỨNG — không đổi tên/dời.
 ├── Related/           # Tài liệu không cần khi chạy game: Docs/, Design/, Reference-Art/, Logic-Notes/
 │                      #   (Data-Samples/ và _ToDelete/ chỉ có trên máy, bị .gitignore)
 ├── Train/             # train_magic_touch.py: huấn luyện CNN và xuất magic_touch_model.onnx (cần torch, torchvision)
 ├── hand_landmarker.task   # Model MediaPipe gốc (streamer tìm ở thư mục gốc trước, rồi tới Tools/)
+├── .python-version    # 3.11
+├── .env.example       # Mẫu cấu hình cục bộ; chép thành .env (bị .gitignore) nếu cần
+├── .venv/             # Tạo bởi Tools\setup_python_env.bat (bị .gitignore)
 ├── Packages/, ProjectSettings/   # Cấu hình Unity
 └── README.md
 ```
@@ -72,6 +77,7 @@ MagicTouch/
    │  OpenCV: CAP_DSHOW trước, lỗi thì CAP_MSMF (Windows), camera 0, 640x480
    ▼
  Tools/mediapipe_streamer.py ── MediaPipe HandLandmarker (hand_landmarker.task, đọc qua buffer)
+   │  (Unity khởi chạy bằng .venv\Scripts\pythonw.exe hoặc PYTHON_EXE trong .env)
    │  JSON landmark ──► UDP 127.0.0.1:9050      JPEG (--stream-video) ──► UDP 127.0.0.1:9051
    ▼                                              ▼
  HandTrackingBridge (luồng nền nhận 9050)      MediaPipeUDPReceiver (luồng nền nhận 9051)
@@ -88,58 +94,62 @@ MagicTouch/
  EnemyBalloon.Pop()  (nổ mọi bóng trùng ký hiệu; điểm combo 10/30/60…)
 ```
 
-Chế độ Mouse Simulation bỏ qua toàn bộ phần Python/UDP: `HandTrackingBridge` và `DrawingManager` đọc chuột trực tiếp, và nền camera dùng `WebCamTexture` của Unity.
+Chế độ Mouse Simulation bỏ qua toàn bộ phần Python/UDP: không khởi chạy Python, `HandTrackingBridge` và `DrawingManager` đọc chuột trực tiếp, nền camera dùng `WebCamTexture` của Unity. Ở AR thì Python giữ webcam, Unity chỉ hiển thị video Python gửi sang.
 
 ---
 
 ## 🛠️ Yêu Cầu Hệ Thống
 
-- **Unity Editor 6000.5.6f1** (Unity 6, đọc từ `ProjectSettings/ProjectVersion.txt`). Phiên bản 2022.3 trong README cũ không còn đúng.
+- **Unity Editor 6000.5.6f1** (Unity 6, đọc từ `ProjectSettings/ProjectVersion.txt`).
 - **Windows** (macOS chưa hỗ trợ chính thức).
 - **Webcam** (chỉ cần cho chế độ AR).
-- **Python** (chỉ cần cho chế độ AR): phiên bản phù hợp **chưa được ghim**, sẽ ghim ở giai đoạn portable setup. `Tools/requirements.txt` hiện chỉ ghi phiên bản tối thiểu: `opencv-python>=4.10.0`, `mediapipe>=0.10.0`, `numpy>=1.24.0`.
+- **Python 3.11** (chỉ cần cho chế độ AR) — cài từ [python.org](https://www.python.org/downloads/), nhớ chọn **"py launcher"** khi cài. Thư viện được ghim trong `Tools/requirements.txt`: `mediapipe==1.1.1`, `opencv-contrib-python==5.0.0.93`, `numpy==2.4.6`.
 
 ---
 
-## 🎮 Cách Chạy Toàn Bộ Pipeline (trạng thái hiện tại, trước khi sửa lỗi AR)
+## 🎮 Cách Chạy Từ Máy Mới
 
-### A. Chạy bằng chuột (không cần Python)
-
-1. Clone dự án:
+1. **Cài Unity 6000.5.6f1** qua Unity Hub, và **Python 3.11** từ python.org (chọn "py launcher"). Python chỉ cần cho chế độ AR.
+2. **Clone dự án** (nên đặt ở đường dẫn ngắn, ví dụ `D:\Projects\MagicTouchAR`):
    ```bash
    git clone https://github.com/Daitran18031005/MagicTouchAR.git
    ```
-2. Mở thư mục vừa clone bằng Unity Hub với **Unity 6000.5.6f1**.
-3. Mở scene `Assets/Scenes/SampleScene.unity`.
-4. Trên thanh menu chọn `Tools > Magic Touch > Switch Input > Mouse Simulation (PC Debug)`.
-   > ⚠️ Lệnh này **tự lưu scene** (`MagicTouchSceneSetup.cs:457-488`). Muốn quay lại AR thì chọn `Tools > Magic Touch > Switch Input > AR Hand Tracking (MediaPipe)`. Bản scene trong repo mặc định là chế độ AR.
-5. Bấm **Play**, chọn **PLAY** ở menu chính, rồi giữ chuột trái và kéo để vẽ ký hiệu. Nửa trái màn hình là Tay 1, nửa phải là Tay 2.
-
-### B. Chạy chế độ AR (cần Python có đủ thư viện)
-
-> ⚠️ **Chế độ này CHƯA hoạt động với cấu hình mặc định.** Khi bấm Play, Unity tự gọi `pythonw` có trên PATH (`HandTrackingBridge.cs:293`; nếu lỗi thì thử `python`, dòng 310). Nếu Python đó thiếu thư viện, streamer sẽ chết ngầm và game đứng mãi ở *"Waiting for Camera Setup..."*. Script `Tools/setup_python_env.bat` ghi rằng game "sẽ tự dùng .venv", nhưng **không có code nào dùng `.venv`**.
-
-**Cách đã chạy được streamer** là dùng môi trường conda **`magictouch`**. Đã kiểm tra trên máy gốc: Python 3.11.17, opencv-python 5.0.0.93 (và opencv-contrib-python 5.0.0.93), mediapipe 1.1.1, numpy 2.4.6. Môi trường này **chưa ghim vào repo**. Streamer chạy riêng với môi trường này mở được camera và chạy ổn; **chưa kiểm tra end-to-end với Unity**.
-
-Các bước chạy tay (theo các script hiện có):
-
-1. Tạo môi trường Python có đủ thư viện. Hoặc dùng `magictouch` như trên, hoặc chạy `Tools\setup_python_env.bat`: script này tạo `.venv` bằng `python` trên PATH rồi `pip install -r Tools\requirements.txt`. Nếu Python trên PATH là bản quá mới, cài đặt có thể thiếu gói. Đừng chạy lại script này đè lên một `.venv` cũ tạo bằng phiên bản Python khác.
-2. Trong Unity, chọn `Tools > Magic Touch > Switch Input > AR Hand Tracking (MediaPipe)` (lệnh này tự lưu scene).
-3. **Tắt tự khởi chạy Python** khi chạy tay. Trên GameObject `HandTrackingBridge`, bỏ chọn *Auto Launch Python Streamer* (component `HandTrackingBridge`) và *Auto Launch Python On Play* (component `MediaPipeUDPReceiver`). Lý do: khi tự khởi chạy, Unity tạo một session-id và **bỏ qua mọi gói UDP không mang session-id đó** (`TrackingStreamSession.cs`), nên streamer chạy tay sẽ bị lờ đi.
-4. Mở terminal ở thư mục gốc project, kích hoạt môi trường rồi chạy tracker (bật tracker **trước** khi bấm Play):
+3. **Tạo môi trường Python cho dự án:** chạy `Tools\setup_python_env.bat` (double-click, hoặc chạy trong terminal ở thư mục gốc dự án):
    ```bat
-   conda activate magictouch
-   Tools\run_hand_tracker.bat
+   Tools\setup_python_env.bat
    ```
-   Script gọi `python Tools\mediapipe_streamer.py --stream-video`. Muốn xem cửa sổ camera để debug thì chạy `Tools\run_hand_tracker_with_preview.bat` (thêm `--preview`), hoặc đổi `ENABLE_PREVIEW = True` trong `Tools/mediapipe_streamer.py`.
-5. Kiểm tra tracker đang chạy:
-   - Terminal in `Camera active: ...`, rồi cứ 2 giây in một dòng `[STREAMER] Camera: … FPS | Tracking: … FPS | … | Hands: N`.
-   - Nếu dùng bản preview: có cửa sổ **"MediaPipe AR Hand Tracker"**.
-   - File `Logs/tracking-performance.json` được cập nhật mỗi 2 giây.
-   - Tracker gửi tới Unity qua UDP **9050** (landmark) và **9051** (video). Unity là bên lắng nghe 2 cổng này khi đang Play.
-6. Bấm **Play** trong Unity và chọn **PLAY**. Khi Unity nhận được gói landmark đầu tiên, màn *"Waiting for Camera Setup..."* sẽ tự tắt. Trong Inspector, `HandTrackingBridge > Measured Camera Performance` hiện FPS đo được.
+   - Script tìm Python 3.11 (`py -3.11`, hoặc `python` trên PATH nếu đúng là 3.11), tạo `.venv` trong thư mục dự án, cài các gói đã ghim, rồi in `OK: cv2 5.0.0 | mediapipe 1.1.1 | numpy 2.4.6` và `Done: .venv is ready (Python 3.11).`
+   - Nếu dùng Python 3.11 khác (ví dụ một conda env), truyền đường dẫn: `Tools\setup_python_env.bat C:\đường\dẫn\python.exe`.
+   - Nếu `.venv` đã tồn tại nhưng không phải 3.11, script dừng và nhắc xóa thư mục `.venv` rồi chạy lại.
+4. **Mở dự án bằng Unity Hub** (Unity 6000.5.6f1) và mở scene `Assets/Scenes/SampleScene.unity`.
+5. **Chọn chế độ nhập:** `Tools > Magic Touch > Switch Input > AR Hand Tracking (MediaPipe)` hoặc `> Mouse Simulation (PC Debug)`. Mục đang chọn có dấu tick.
+   - Lựa chọn lưu **trên máy của bạn** (EditorPrefs), **không làm thay đổi scene**. Mặc định (chưa chọn gì) là AR.
+   - `Use Scene or .env Default` xóa lựa chọn đã lưu.
+6. **Bấm Play**, rồi chọn **PLAY** ở menu chính.
+   - **AR:** Unity tự khởi chạy streamer **một lần** bằng `.venv`. Console có dòng `[HandTrackingBridge] Launched Python Streamer … with …\.venv\Scripts\pythonw.exe`. Đưa tay vào khung hình; màn *"Waiting for Camera Setup..."* tự tắt khi có landmark đầu tiên. Chụm ngón cái + ngón trỏ để vẽ.
+   - **Mouse Simulation:** giữ chuột trái và kéo để vẽ (nửa trái màn hình là Tay 1, nửa phải là Tay 2). Không có Python.
 
-Một cách khác (**chưa kiểm tra**): giữ chế độ tự khởi chạy và đặt trường *Python Executable* của `HandTrackingBridge` thành `pythonw.exe` nằm trong môi trường `magictouch` (`<thư-mục-conda>\envs\magictouch\pythonw.exe`).
+### Cấu hình tùy chọn (`.env`)
+
+Chép `.env.example` thành `.env` ở thư mục gốc dự án (file này bị `.gitignore`):
+
+| Khóa | Ý nghĩa |
+|---|---|
+| `PYTHON_EXE` | Đường dẫn Python dùng cho tracker. Để trống thì dùng `.venv` |
+| `LANDMARK_UDP_PORT`, `VIDEO_UDP_PORT` | Cổng UDP (mặc định 9050 / 9051), áp dụng cho cả Unity và streamer |
+| `CAMERA_INDEX` | Webcam dùng (`--camera`), 0 = webcam đầu tiên |
+| `INPUT_MODE` | `ar` hoặc `mouse` khi chưa chọn qua menu Switch Input. Bản build luôn dùng AR |
+
+### Chạy tracker bằng tay (debug)
+
+Unity đã tự khởi chạy tracker ở chế độ AR. Nếu muốn chạy tay để xem cửa sổ camera:
+1. Trên GameObject `HandTrackingBridge`, bỏ chọn *Auto Launch Python Streamer* và *Auto Launch Python On Play*. Lý do: khi tự khởi chạy, Unity bỏ qua gói UDP không mang session-id của nó (`TrackingStreamSession.cs`).
+2. Trong terminal ở thư mục gốc dự án:
+   ```bat
+   .venv\Scripts\activate
+   Tools\run_hand_tracker_with_preview.bat
+   ```
+   Cửa sổ **"MediaPipe AR Hand Tracker"** hiện hình camera. Terminal in `[STREAMER] Camera: … FPS | Tracking: … FPS | … | Hands: N` mỗi 2 giây.
 
 ### Cách chơi
 
@@ -156,8 +166,9 @@ Một cách khác (**chưa kiểm tra**): giữ chế độ tự khởi chạy v
 
 | Hiện tượng | Nguyên nhân | Cách xử lý |
 |---|---|---|
-| Đứng mãi ở *"Waiting for Camera Setup..."*, không có lỗi trong Console | Unity gọi `pythonw` trên PATH (máy gốc: Python 3.14 thiếu `numpy`). Process chạy ẩn nên không hiện lỗi | Chạy tracker bằng tay trong môi trường có đủ thư viện (mục B). Bản sửa chính thức để sau |
-| `.venv` báo `No module named 'numpy._core._multiarray_umath'` | Chạy lại `setup_python_env.bat` đè lên `.venv` cũ tạo bằng Python khác, nên thư viện và trình thông dịch lệch phiên bản | Xóa `.venv` rồi tạo lại bằng đúng một phiên bản Python. Chưa ghim phiên bản |
+| `setup_python_env.bat` báo `Python 3.11 was not found` | Máy chưa có Python 3.11 (ví dụ chỉ có 3.14) | Cài Python 3.11 từ python.org (chọn "py launcher"), hoặc truyền đường dẫn một Python 3.11 cho script |
+| Console AR báo `Không tìm thấy Python cho hand tracker…` hoặc `Python streamer đã thoát (mã …)` | Chưa có `.venv`, hoặc `.venv` hỏng/thiếu gói | Chạy `Tools\setup_python_env.bat`. Nếu nó báo `.venv` không phải 3.11 thì xóa thư mục `.venv` rồi chạy lại |
+| `pip` báo `OSError: [WinError 3] The system cannot find the path specified` (gợi ý "Long Path") | Đường dẫn thư mục dự án quá dài (giới hạn 260 ký tự của Windows) | Đặt dự án ở đường dẫn ngắn hơn hoặc bật Windows Long Path support |
 | Mở webcam treo 38–43 giây | Backend `CAP_MSMF` dò thiết bị rất chậm trên một số webcam Windows | Đã xử lý: streamer thử `CAP_DSHOW` trước (`mediapipe_streamer.py:61-64`). Đánh đổi: DSHOW đo được ~15 FPS, MSMF ~30 FPS |
 | MediaPipe crash (`abort()`) khi đường dẫn project có dấu tiếng Việt | Đường dẫn Unicode truyền vào tầng C++ của MediaPipe | Đã xử lý: đọc model bằng Python rồi truyền qua `model_asset_buffer` (`mediapipe_streamer.py:193-195`) |
 
@@ -165,9 +176,9 @@ Một cách khác (**chưa kiểm tra**): giữ chế độ tự khởi chạy v
 
 ## 🗺️ Kế Hoạch Tiếp Theo (CHƯA LÀM)
 
-- **Portable setup:** `.venv` với phiên bản Python và thư viện được ghim, file `.env` cấu hình. Unity chọn đúng Python thay vì `pythonw` trên PATH.
 - **Bản Android:** chơi bằng cảm ứng (Python tracker không chạy trên mobile).
 - **Animation và hệ thống 3 map** (lâu đài, tháp đồng hồ, Halloween).
+- **Kiểm thử trên macOS** (`Tools/setup_python_env.sh` chưa được thử).
 
 Chi tiết dọn dẹp project và các việc còn tồn: [Related/Docs/CLEANUP_REPORT.md](Related/Docs/CLEANUP_REPORT.md).
 

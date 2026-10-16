@@ -114,13 +114,13 @@ Kiểm tra trên toàn bộ 15 commit đã push (`origin/QuangDai_Feature` `52a6
 
 | Việc | Trạng thái | Chi tiết |
 |---|---|---|
-| Unity chọn sai Python cho AR | ❌ Chưa xử lý | `HandTrackingBridge.cs:51,293` dùng `pythonw` trên PATH (máy gốc: Python 3.14 thiếu `numpy`). Không có code nào dùng `.venv`/conda, dù `setup_python_env.bat:19` ghi "the game will use .venv automatically". Môi trường conda `magictouch` chạy streamer được khi chạy riêng |
-| `.venv` hỏng | ❌ Chưa xử lý | Chạy lại `setup_python_env.bat` đè lên `.venv` cũ (tạo bằng Python 3.11), khiến `pyvenv.cfg` trỏ sang Python 3.14 trong khi thư viện vẫn là bản `cp311`. Import báo `No module named 'numpy._core._multiarray_umath'` |
+| Unity chọn sai Python cho AR | ✅ **Đã xử lý** trên branch `feature/portable-setup` | Unity không còn gọi `pythonw` trên PATH. `ProjectEnv` chọn Python theo thứ tự: `PYTHON_EXE` trong `.env` → `.venv` của dự án → báo lỗi tiếng Việt kèm hướng dẫn; không bao giờ dùng Python hệ thống. Chi tiết: mục 7.2 |
+| `.venv` hỏng | ✅ **Đã xử lý** | Đã xóa và tạo lại bằng `Tools\setup_python_env.bat` với Python 3.11.7 (python.org). Script giờ từ chối dùng lại một `.venv` không phải 3.11 và nhắc xóa trước. Chi tiết: mục 7.2 |
 | `Enemy.png` / `Enemy2.png` không tồn tại | ❌ Chưa xử lý | `Assets/Editor/MagicTouchSceneSetup.cs:551-552` |
 | `Resources.Load` khi không có thư mục `Resources/` | ❌ Chưa xử lý | `Assets/Scripts/Gameplay/BalloonPopEffect.cs:194`. Trong Editor, sprite VFX được nạp qua `AssetDatabase`; khi build có nguy cơ mất sprite VFX (chưa kiểm tra build) |
 | Listener `RestartGame` trùng trong scene | ✅ **Đã xử lý** trên branch `fix/stop-scene-autorun` | Nguyên nhân là autorun `[InitializeOnLoad]` của `MagicTouchSceneSetup`: `GameObject.Find("GameOverPanel")` không thấy panel đang tắt, nên mỗi lần domain reload nó thêm 1 listener, gán lại `GameManager.gameOverPanel` sang panel cũ và tự lưu scene. Đã gỡ autorun (`e76334b`) và dọn scene (`2401431`). Chi tiết và bằng chứng: mục 7.1 |
 | Chuyển nhạc `.wav` sang `.ogg` | ❌ Chưa làm | `CombatCastleMusic.wav` 19,81 MB là file lớn nhất repo; các SFX khác cũng là `.wav` |
-| Mouse Simulation vẫn mở Python streamer và tranh webcam với `ARCameraBackground` | ❌ Chưa xử lý (để portable setup) | `HandTrackingBridge.Awake()` và `MediaPipeUDPReceiver.Start()` cùng khởi chạy Python, không kiểm tra chế độ nhập. Khi Python hệ thống chết ngay lúc import (thiếu `numpy`), guard `HasExited` không chặn lần thứ hai, nên có 2 PID cách nhau khoảng 2 giây. Ở Mouse Simulation, `ARCameraBackground` mở webcam bằng `WebCamTexture` (`_useMediaPipeStream = false`). Xử lý trong portable setup |
+| Mouse Simulation vẫn mở Python streamer và tranh webcam với `ARCameraBackground` | ✅ **Đã xử lý** | Hai điểm khởi chạy (`HandTrackingBridge.Awake()`, `MediaPipeUDPReceiver.Start()`) đã gộp về một đường duy nhất, tối đa 1 lần mỗi phiên Play, chỉ chạy ở AR. Mouse Simulation không mở Python; ở AR Python giữ webcam, Unity chỉ hiển thị video. Chi tiết: mục 7.2 |
 
 ### 7.1. Đã xử lý: autorun `MagicTouchSceneSetup`, listener trùng và panel Game Over chồng nhau
 
@@ -150,3 +150,21 @@ Kiểm tra trên toàn bộ 15 commit đã push (`origin/QuangDai_Feature` `52a6
 - `Switch Input > Mouse Simulation` chỉ đổi đúng 3 cờ (`_enableEditorSimulation` ×2, `_useMediaPipeStream`). Đã `git restore`, scene khớp lại `2401431`.
 - Chưa thử đổi độ phân giải Game view để xem `ReferencePanelFit`/`ReferenceSafeArea` (`[ExecuteAlways]`) có làm scene bị đánh dấu "đã sửa" hay không.
 
+
+
+### 7.2. Đã xử lý: portable setup (branch `feature/portable-setup`)
+
+| Commit | Nội dung |
+|---|---|
+| `1125fcc` | `.python-version` = 3.11. `Tools/requirements.txt` ghim `mediapipe==1.1.1`, `opencv-contrib-python==5.0.0.93`, `numpy==2.4.6` (bỏ `opencv-python` vì mediapipe đã kéo bản contrib). Viết lại `Tools/setup_python_env.bat` (tìm Python 3.11, không dùng lại `.venv` sai phiên bản, kiểm tra import). Thêm `Tools/setup_python_env.sh` (macOS, **chưa kiểm thử**), `.env.example`; `.env` vào `.gitignore` |
+| `3423ced` | `ProjectEnv.cs`: đọc `.env`; tìm Python `PYTHON_EXE` → `.venv\Scripts\pythonw.exe`/`python.exe` → lỗi tiếng Việt, không rơi về Python hệ thống. `HandTrackingBridge.StartPythonStreamerStealth` là đường khởi chạy duy nhất (`MediaPipeUDPReceiver` giao lại), tối đa 1 lần mỗi phiên Play kể cả khi tiến trình vừa chết, có báo khi streamer thoát sớm. `Process.Start` bọc `#if UNITY_EDITOR \|\| UNITY_STANDALONE`. Cổng UDP và camera đọc từ `.env` |
+| `c9592de` | `InputModeSettings.cs`: chế độ nhập lấy từ EditorPrefs (menu Switch Input) → `INPUT_MODE` trong `.env` → giá trị scene; bản build luôn AR. Menu Switch Input **không còn sửa/lưu scene**. Mouse Simulation không khởi chạy Python; AR: Python giữ webcam, Mouse: Unity `WebCamTexture` |
+| (Pha 4) | Cập nhật README, báo cáo này và Notes |
+
+**Kiểm chứng (máy gốc):**
+- Xóa `.venv` cũ (đang là 3.14 lẫn gói 3.11), chạy `Tools\setup_python_env.bat` không tham số: tìm thấy `py -3.11` (Python 3.11.7 từ python.org), cài các gói đã ghim, in `OK: cv2 5.0.0 | mediapipe 1.1.1 | numpy 2.4.6`.
+- Streamer chạy bằng `.venv\Scripts\python.exe`: mở webcam (DSHOW 640x480, khoảng 30 FPS camera, khoảng 24 FPS tracking), một bộ nghe thử nhận 102 gói UDP trong 8 giây.
+- Unity, Mouse Simulation: Console không có dòng nào về Python streamer, tiêu đề không có `*`.
+- Unity, AR: Python khởi chạy đúng 1 lần từ `.venv`, lời gọi trùng bị bỏ qua, không báo lỗi thoát, Unity không tự mở webcam, tay điều khiển được, vẽ ký hiệu thì bóng nổ.
+- Trong suốt các lần Play/reload, hash scene giữ `cb2341da35`, `git status` sạch; `.venv` và `.env` không bị git theo dõi.
+- Lỗi gặp khi thử: `pip` báo `WinError 3` do đường dẫn thư mục quá dài (giới hạn 260 ký tự của Windows); README đã ghi cách xử lý.
