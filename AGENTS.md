@@ -6,6 +6,7 @@
 - **Python chỉ dùng cho tracker AR chạy trên PC** (`Tools/mediapipe_streamer.py`), gửi dữ liệu tay sang Unity qua UDP.
 - Python của dự án là **3.11** trong `.venv` (tạo bằng `Tools\setup_python_env.bat`, gói ghim ở `Tools/requirements.txt`), hoặc `PYTHON_EXE` trong `.env`.
 - Nhận diện ký hiệu chạy ngay trong Unity (model ONNX `Assets/Models/magic_touch_model.onnx`).
+- Nhánh tích hợp: `QuangDai_Feature` (đã có portable setup). `main` chưa có các thay đổi này cho tới khi PR vào `main` được gộp.
 
 ## 2. LUẬT CỨNG — không bao giờ làm
 - Không chạy menu `Tools > Magic Touch > *` khi chưa hỏi (phần lớn tự lưu scene và ghi đè prefab; `Switch Input` đổi cấu hình của máy người dùng).
@@ -105,6 +106,6 @@ HandTrackingBridge ─► DrawingManager (vẽ nét) ─► SentisRecognizer (m�
 - macOS: `Tools/setup_python_env.sh` và đường `.venv/bin/python3` chưa được kiểm thử.
 
 ## 11. ĐỌC THÊM
-- [README.md](README.md): giới thiệu, trạng thái, cách chạy (chuột và AR), lỗi thường gặp.
+- [README.md](README.md): giới thiệu, trạng thái, cách chạy từ máy mới (Python 3.11, `setup_python_env.bat`, chọn chế độ nhập), lưu ý khi chạy, lỗi thường gặp.
 - [Related/Docs/Notes_for_CLAUDE_AGENTS.md](Related/Docs/Notes_for_CLAUDE_AGENTS.md): chi tiết có nguồn file:dòng, các thông tin đã lỗi thời.
 - [Related/Docs/CLEANUP_REPORT.md](Related/Docs/CLEANUP_REPORT.md): lịch sử dọn dẹp, kết quả kiểm tra, việc tồn đọng.
