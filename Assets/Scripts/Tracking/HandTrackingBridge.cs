@@ -140,6 +140,9 @@ namespace MagicTouch.Tracking
             public int index;
             public int trackId;
             public bool pinch;
+            public int pinchVersion;
+            public int releaseCount;
+            public float pinchRatio;
             public float pinchDistance;
             public float[] landmarks; // 42 floats [x0, y0, ..., x20, y20]
         }
@@ -158,6 +161,7 @@ namespace MagicTouch.Tracking
 
         private struct HandSnapshot
         {
+            public UdpHandData pinchData;
             public bool isDetected;
             public int trackId;
             public long timestamp;
@@ -478,6 +482,7 @@ namespace MagicTouch.Tracking
                                         if (rawLms == null || rawLms.Length < 42) continue;
 
                                         _workerSnapshots[idx].isDetected = true;
+                                        _workerSnapshots[idx].pinchData = packet.hands[h];
                                         _workerSnapshots[idx].trackId = packet.hands[h].trackId;
                                         _workerSnapshots[idx].timestamp = packet.timestamp;
                                         for (int i = 0; i < 21; i++)
@@ -527,6 +532,7 @@ namespace MagicTouch.Tracking
                     for (int h = 0; h < 2; h++)
                     {
                         _mainSnapshots[h].isDetected = _workerSnapshots[h].isDetected;
+                        _mainSnapshots[h].pinchData = _workerSnapshots[h].pinchData;
                         _mainSnapshots[h].trackId = _workerSnapshots[h].trackId;
                         _mainSnapshots[h].timestamp = _workerSnapshots[h].timestamp;
                         if (_workerSnapshots[h].isDetected)
@@ -544,7 +550,10 @@ namespace MagicTouch.Tracking
             {
                 if (_mainSnapshots[h].isDetected)
                 {
-                    ProcessHandLandmarks(h, _mainSnapshots[h].landmarks, _mainSnapshots[h].timestamp, _mainSnapshots[h].trackId);
+                    var data = _mainSnapshots[h].pinchData;
+                    ProcessHandLandmarks(h, _mainSnapshots[h].landmarks, _mainSnapshots[h].timestamp,
+                        _mainSnapshots[h].trackId, data.pinchVersion == 1 ? (bool?)data.pinch : null,
+                        data.releaseCount, data.pinchRatio);
                 }
                 else
                 {
@@ -560,7 +569,8 @@ namespace MagicTouch.Tracking
         /// <summary>
         /// Feeds 21 normalized landmarks into the tracking system and computes strict pinch logic.
         /// </summary>
-        public void ProcessHandLandmarks(int handIndex, Vector2[] landmarks, long timestamp = 0, int trackId = 0)
+        public void ProcessHandLandmarks(int handIndex, Vector2[] landmarks, long timestamp = 0, int trackId = 0,
+            bool? streamPinch = null, int releaseCount = 0, float pinchRatio = 0f)
         {
             if (handIndex < 0 || handIndex >= _hands.Length || landmarks == null || landmarks.Length < 21)
             {
@@ -637,7 +647,11 @@ namespace MagicTouch.Tracking
             bool wasPinching = hand.IsPinching;
             var transition = _pinchTransitions[handIndex];
             if (!wasDetected) transition.Reset(shortRecovery && _pinchBeforeTrackingLoss[handIndex]);
-            transition.Update(rawDistance, pinchEnterThreshold, pinchExitThreshold);
+            hand.HasStreamPinch = streamPinch.HasValue;
+            hand.ReleaseCount = releaseCount;
+            hand.PinchRatio = pinchRatio;
+            if (streamPinch.HasValue) transition.Reset(streamPinch.Value);
+            else transition.Update(rawDistance, pinchEnterThreshold, pinchExitThreshold);
             bool isPinching = transition.IsPinching;
             hand.IsPinchReleasePending = transition.IsReleasePending;
             if (isPinching != wasPinching) hand.SmoothedPinchDistance = rawDistance;

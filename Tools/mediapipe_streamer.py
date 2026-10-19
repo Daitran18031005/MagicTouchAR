@@ -17,6 +17,7 @@ import argparse
 import threading
 from hand_identity import HandIdentityTracker
 from stream_protocol import video_prefix
+from pinch_state import PinchState
 import cv2
 import mediapipe as mp
 
@@ -275,19 +276,11 @@ def draw_hand_skeleton(frame, landmarks, width, height, is_pinching, hand_label)
         if i not in (THUMB_TIP, INDEX_TIP):
             cv2.circle(frame, pt, 4, (0, 180, 255), -1)
 
-    # 3. Prominently highlight Thumb Tip (4) and Index Tip (8)
-    thumb_pt = coords[THUMB_TIP]
+    # 3. Show only the detected pinch state near the index fingertip.
+    # Keep the preview unobstructed: do not draw oversized fingertip markers
+    # or the connecting pinch line over the user's fingers.
     index_pt = coords[INDEX_TIP]
     pinch_color = (0, 255, 60) if is_pinching else (0, 70, 255) # Green if pinch, Red if open
-
-    # Connecting pinch line
-    cv2.line(frame, thumb_pt, index_pt, pinch_color, 3)
-
-    # Fingertip circles
-    cv2.circle(frame, thumb_pt, 9, (255, 120, 0), -1) # Thumb: Orange
-    cv2.circle(frame, thumb_pt, 11, (255, 255, 255), 2)
-    cv2.circle(frame, index_pt, 9, pinch_color, -1)     # Index: Pinch Color
-    cv2.circle(frame, index_pt, 12, (255, 255, 255), 2)
 
     # Status text
     state_str = "PINCH" if is_pinching else "OPEN"
@@ -358,6 +351,7 @@ def main():
         print("Running headlessly at maximum FPS. Press Ctrl+C in terminal to stop.\n")
 
     identity = HandIdentityTracker(mirror=True)
+    pinch_states = {}
     frame_count = 0
     t_start = time.time()
     last_fps_print = time.time()
@@ -434,12 +428,19 @@ def main():
 
                     # Reserve slots through brief occlusion; never renumber the surviving hand.
                     for assigned_idx, track_id, h in identity.assign(raw_hands, time.monotonic()):
-                        # Note: Unity HandTrackingBridge computes dual-threshold Schmitt Trigger hysteresis
+                        previous_id, state = pinch_states.get(assigned_idx, (None, None))
+                        if previous_id != track_id:
+                            state = PinchState()
+                            pinch_states[assigned_idx] = (track_id, state)
+                        state.update(h['raw_lms'], cam.width / cam.height)
                         hands_data.append({
                             "index": assigned_idx,
                             "trackId": track_id,
                             "handedness": h["label"],
-                            "pinch": False, # Unity's Hysteresis Schmitt Trigger manages authoritative isPinching state
+                            "pinch": state.pinching,
+                            "pinchVersion": 1,
+                            "releaseCount": state.releases,
+                            "pinchRatio": state.ratio if state.ratio != float('inf') else 999.0,
                             "pinchDistance": round(float(h["raw_dist"]), 4),
                             "landmarks": h["landmarks"]
                         })
@@ -447,7 +448,7 @@ def main():
                         # Render visual skeleton ONLY if preview is enabled
                         if show_preview:
                             draw_hand_skeleton(frame, h["raw_lms"], cam.width, cam.height,
-                                               h["raw_dist"] < 0.05, f"P{assigned_idx + 1}")
+                                               state.pinching, f"P{assigned_idx + 1} r={state.ratio:.2f}")
 
                 # 1. Send JSON landmark packet over UDP (port 9050)
                 packet = {

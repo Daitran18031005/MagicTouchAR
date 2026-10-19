@@ -26,6 +26,9 @@ namespace MagicTouch.Tracking
             public int index;
             public int trackId;
             public bool pinch;
+            public int pinchVersion;
+            public int releaseCount;
+            public float pinchRatio;
             public float pinchDistance;
             public float[] landmarks; // 42 floats: [x0, y0, x1, y1, ..., x20, y20]
         }
@@ -77,6 +80,9 @@ namespace MagicTouch.Tracking
 
         public struct ParsedHandData
         {
+            public int pinchVersion;
+            public int releaseCount;
+            public float pinchRatio;
             public bool isDetected;
             public int trackId;
             public long timestamp;
@@ -285,6 +291,9 @@ namespace MagicTouch.Tracking
                                         _workerHands[hIdx].trackId = hand.trackId;
                                         _workerHands[hIdx].timestamp = packet.timestamp;
                                         _workerHands[hIdx].isPinching = hand.pinch;
+                                        _workerHands[hIdx].pinchVersion = hand.pinchVersion;
+                                        _workerHands[hIdx].releaseCount = hand.releaseCount;
+                                        _workerHands[hIdx].pinchRatio = hand.pinchRatio;
                                         _workerHands[hIdx].pinchDistance = hand.pinchDistance;
 
                                         for (int i = 0; i < 21; i++)
@@ -388,6 +397,9 @@ namespace MagicTouch.Tracking
                         _mainHands[h].trackId = _workerHands[h].trackId;
                         _mainHands[h].timestamp = _workerHands[h].timestamp;
                         _mainHands[h].isPinching = _workerHands[h].isPinching;
+                        _mainHands[h].pinchVersion = _workerHands[h].pinchVersion;
+                        _mainHands[h].releaseCount = _workerHands[h].releaseCount;
+                        _mainHands[h].pinchRatio = _workerHands[h].pinchRatio;
                         _mainHands[h].pinchDistance = _workerHands[h].pinchDistance;
                         if (_workerHands[h].isDetected)
                         {
@@ -407,7 +419,9 @@ namespace MagicTouch.Tracking
             {
                 if (_mainHands[h].isDetected)
                 {
-                    HandTrackingBridge.Instance?.ProcessHandLandmarks(h, _mainHands[h].landmarks, _mainHands[h].timestamp, _mainHands[h].trackId);
+                    HandTrackingBridge.Instance?.ProcessHandLandmarks(h, _mainHands[h].landmarks, _mainHands[h].timestamp,
+                        _mainHands[h].trackId, _mainHands[h].pinchVersion == 1 ? (bool?)_mainHands[h].isPinching : null,
+                        _mainHands[h].releaseCount, _mainHands[h].pinchRatio);
                 }
                 else if (_handActiveState[h])
                 {

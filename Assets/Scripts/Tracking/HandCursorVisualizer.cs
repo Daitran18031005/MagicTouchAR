@@ -175,7 +175,13 @@ namespace MagicTouch.Tracking
                     // Update live debug label
                     if (_showDebugLabel && _debugLabels[i] != null)
                     {
-                        if (isPinching)
+                        var hand = HandTrackingBridge.Instance.GetHand(i);
+                        if (hand.HasStreamPinch)
+                        {
+                            double age = System.DateTimeOffset.UtcNow.ToUnixTimeMilliseconds() - hand.SourceTimestamp;
+                            _debugLabels[i].text = $"P{i + 1}: {(isPinching ? "PINCH" : "OPEN")}\nRatio: {hand.PinchRatio:F2} (0.18 / 0.25)\nRaw: {rawDist:F3} | Age: {age:F0}ms\nReleases: {hand.ReleaseCount}";
+                        }
+                        else if (isPinching)
                         {
                             _debugLabels[i].text = $"<color=#00FF55><b>P{i + 1}: PINCH</b>\nSmooth: {distance:F3} (&gt; {exitThresh:F2} to exit)\nRaw: {rawDist:F3}</color>";
                         }

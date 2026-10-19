@@ -269,6 +269,8 @@ namespace MagicTouch.Drawing
             }
         }
 
+        private readonly int[] _observedReleases = new int[2];
+
         private void HandleARHandInput()
         {
             if (HandTrackingBridge.Instance == null) return;
@@ -285,6 +287,14 @@ namespace MagicTouch.Drawing
                 {
                     ResetHandGesture(handIndex);
                     _lastTrackId[handIndex] = hand.TrackId;
+                    _observedReleases[handIndex] = hand.ReleaseCount;
+                }
+                if (hand.HasStreamPinch && hand.ReleaseCount != _observedReleases[handIndex])
+                {
+                    _observedReleases[handIndex] = hand.ReleaseCount;
+                    // Preserve the pen-up boundary even when UDP coalesced OPEN then PINCH.
+                    _pinchReleasePending[handIndex] = false;
+                    UpdateHandGestureState(handIndex, false, screenPos, worldPos, true);
                 }
                 _pinchReleasePending[handIndex] = hand.IsPinchReleasePending;
                 bool freshSample = hand.SampleVersion != _lastTrackingSample[handIndex];

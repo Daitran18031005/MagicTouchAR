@@ -12,6 +12,9 @@ namespace MagicTouch.Tracking
         public int HandIndex;
         public int TrackId;
         public long SourceTimestamp;
+        public int ReleaseCount;
+        public bool HasStreamPinch;
+        public float PinchRatio;
         public Vector2 RawIndexTipScreen;
         public Vector2 RawWristScreen;
         public bool IsDetected;
