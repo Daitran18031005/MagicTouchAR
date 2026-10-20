@@ -985,6 +985,10 @@ namespace MagicTouch.Drawing
                 ? _pendingResult[handIndex] : RecognizePoints(points);
             _hasPendingResult[handIndex] = false;
 
+            // Revalidate cached and fallback results too: timeout must not bypass structure.
+            if (result.IsMatch && !GestureCompletionPolicy.HasRequiredStructure(points, result.Symbol))
+                result = PRecognitionResult.NoMatch;
+
             Debug.Log($"[DrawingManager] Hand {handIndex + 1} recognized: '{result.Symbol}' (Score: {result.Score:F2}, Match: {result.IsMatch})");
 
             // Notify GameManager to pop matching balloons

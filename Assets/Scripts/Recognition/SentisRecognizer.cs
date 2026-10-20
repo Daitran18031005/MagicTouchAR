@@ -281,6 +281,7 @@ namespace MagicTouch.Recognition
             // Step 3.8: Strict Anti-False-Positive Filter Gating
             bool isValidMatch = (top1Prob >= minConfidence) &&
                                 (margin >= minMargin) &&
+                                GestureCompletionPolicy.HasRequiredStructure(points, recognizedSymbol) &&
                                 (recognizedSymbol != GestureSymbol.Unknown) &&
                                 (recognizedSymbol != GestureSymbol.None);
 

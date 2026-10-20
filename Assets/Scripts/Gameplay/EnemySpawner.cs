@@ -86,10 +86,13 @@ namespace MagicTouch.Gameplay
         [Tooltip("Global palette of balloon tint colors assigned to newly spawned enemies.")]
         public Color[] balloonColorPalette;
 
-        // Multipliers keep the authored Inspector values and the existing ramp intact.
+        // Easy keeps a steady cadence; Normal and Hard retain the authored spawn ramp.
+        private const float EasySpawnInterval = 2.5f;
         private int _difficultyLevel = 1;
         public int DifficultyLevel => _difficultyLevel;
-        public float CurrentSpawnInterval => Mathf.Max(.1f, _currentInterval * SpawnIntervalMultiplier(_difficultyLevel));
+        public float CurrentSpawnInterval => _difficultyLevel == 0
+            ? EasySpawnInterval
+            : Mathf.Max(.1f, _currentInterval * SpawnIntervalMultiplier(_difficultyLevel));
         public float CurrentFallSpeed => Mathf.Max(.05f, _currentFallSpeed * FallSpeedMultiplier(_difficultyLevel));
         public static float FallSpeedMultiplier(int level) => level <= 0 ? .75f : (level >= 2 ? 1.4f : 1f);
         public static float SpawnIntervalMultiplier(int level) => level <= 0 ? 1.35f : (level >= 2 ? .65f : 1f);

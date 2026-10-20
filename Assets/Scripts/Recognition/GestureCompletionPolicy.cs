@@ -71,24 +71,56 @@ namespace MagicTouch.Recognition
 
         public static bool HasThreeArms(IReadOnlyList<Point> points)
         {
-            if (points.Count < 6) return false;
+            if (points == null || points.Count < 6) return false;
             float minX = float.MaxValue, maxX = float.MinValue, minY = float.MaxValue, maxY = float.MinValue;
-            foreach (Point p in points) { minX = Mathf.Min(minX,p.X); maxX = Mathf.Max(maxX,p.X); minY = Mathf.Min(minY,p.Y); maxY = Mathf.Max(maxY,p.Y); }
+            foreach (Point p in points) { minX = System.Math.Min(minX,p.X); maxX = System.Math.Max(maxX,p.X); minY = System.Math.Min(minY,p.Y); maxY = System.Math.Max(maxY,p.Y); }
             float width = maxX-minX, height = maxY-minY;
             if (width < 15f || height < 25f) return false;
-            bool[] arms = new bool[3];
+            // Coverage, not one tiny horizontal segment or number of pen lifts.
+            // Normalize size and sample actual segments only (never bridge separate strokes).
+            const int bins = 20;
+            bool[,] arms = new bool[3, bins];
+            bool[] spine = new bool[bins];
             for (int i=1;i<points.Count;i++)
             {
                 Point a=points[i-1], b=points[i];
                 if (a.StrokeID != b.StrokeID) continue;
-                float dx=Mathf.Abs(b.X-a.X), dy=Mathf.Abs(b.Y-a.Y);
-                if (dx <= dy*2f || Mathf.Max(a.X,b.X) < minX+width*0.65f) continue;
-                float y=((a.Y+b.Y)*0.5f-minY)/height;
-                if (y<0.22f) arms[0]=true;
-                else if (y>0.35f && y<0.65f) arms[1]=true;
-                else if (y>0.78f) arms[2]=true;
+                float dx=System.Math.Abs(b.X-a.X), dy=System.Math.Abs(b.Y-a.Y);
+                if (dx + dy < .001f) continue;
+                int steps = System.Math.Max(1, (int)System.Math.Ceiling(
+                    System.Math.Max(dx / width, dy / height) * bins * 2));
+                for (int j=0;j<=steps;j++)
+                {
+                    float t=(float)j/steps;
+                    float x=(a.X+(b.X-a.X)*t-minX)/width;
+                    float y=(a.Y+(b.Y-a.Y)*t-minY)/height;
+                    int ix=System.Math.Max(0,System.Math.Min(bins-1,(int)(x*bins)));
+                    int iy=System.Math.Max(0,System.Math.Min(bins-1,(int)(y*bins)));
+                    if (dy > dx*1.5f && x <= .25f) spine[iy]=true;
+                    if (dx <= dy*1.5f) continue;
+                    if (y <= .22f) arms[0,ix]=true;
+                    else if (y >= .35f && y <= .65f) arms[1,ix]=true;
+                    else if (y >= .78f) arms[2,ix]=true;
+                }
             }
-            return arms[0] && arms[1] && arms[2];
+            // Allow one small sampling gap; require a substantial spine and left-connected arms.
+            int missingSpine=0;
+            for (int i=2;i<=17;i++) if (!spine[i]) missingSpine++;
+            if (missingSpine > 1) return false;
+            for (int arm=0;arm<3;arm++)
+            {
+                int missing=0;
+                int end=arm==1 ? 9 : 13; // Middle arm may be shorter than top/bottom.
+                for (int x=3;x<=end;x++) if (!arms[arm,x]) missing++;
+                if (missing > 1) return false;
+            }
+            return true;
+        }
+
+        /// <summary>Mandatory validity gate, including timeout and fallback recognition.</summary>
+        public static bool HasRequiredStructure(IReadOnlyList<Point> points, GestureSymbol symbol)
+        {
+            return symbol != GestureSymbol.E || HasThreeArms(points);
         }
     }
 }
