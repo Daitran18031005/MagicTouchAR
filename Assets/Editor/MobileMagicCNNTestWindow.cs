@@ -202,7 +202,7 @@ namespace MagicTouch.EditorTools
                 else if (_probabilities[best] < _confidence) verdict = "Từ chối: confidence dưới ngưỡng.";
                 else if (gap < _margin) verdict = "Từ chối: chênh lệch Top 1–2 dưới ngưỡng.";
                 else if (!GestureCompletionPolicy.HasRequiredStructure(_points, symbol))
-                    verdict = "Từ chối: E chưa đủ thân dọc và ba nét ngang.";
+                    verdict = "Từ chối: " + GestureCompletionPolicy.StructureRequirement(symbol);
                 else verdict = "Chấp nhận: " + symbol;
                 _status = $"CNN thô: {symbol} ({_probabilities[best]:P2}); margin: {gap:P2}\n" +
                     $"Sau bộ lọc với cấu hình test: {verdict}\n" +

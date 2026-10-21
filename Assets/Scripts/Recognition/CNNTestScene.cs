@@ -18,6 +18,10 @@ namespace MagicTouch.Recognition
         private float[] _probabilities;
         private string _message = "Vẽ nhiều nét bằng chuột trái, sau đó bấm NHẬN DIỆN.";
         private Vector2 _scroll;
+        private int _sampleLabel = 1;
+        private string _saveStatus = "";
+        private string _modelHash = "unavailable";
+        private static readonly string[] SampleLabels = { "V", "^ (Caret)", "—", "|", "O", "Z", "W", "E", "X", "S", "Unknown" };
         private const float CanvasSize = 400;
         private const float BrushRadius = 1.3f;
 
@@ -32,6 +36,12 @@ namespace MagicTouch.Recognition
             {
                 if (_modelAsset == null) throw new InvalidOperationException("Chưa gán model ONNX.");
                 _worker = new Worker(ModelLoader.Load(_modelAsset), BackendType.CPU);
+                string modelPath = System.IO.Path.Combine(Application.dataPath, "Models/magic_touch_model.onnx");
+                if (System.IO.File.Exists(modelPath))
+                {
+                    using var sha = System.Security.Cryptography.SHA256.Create();
+                    _modelHash = BitConverter.ToString(sha.ComputeHash(System.IO.File.ReadAllBytes(modelPath))).Replace("-", "").ToLowerInvariant();
+                }
             }
             catch (Exception ex) { _message = "Lỗi nạp model: " + ex.Message; }
         }
@@ -55,7 +65,7 @@ namespace MagicTouch.Recognition
         private void OnGUI()
         {
             _scroll = GUI.BeginScrollView(new Rect(0, 0, Screen.width, Screen.height),
-                _scroll, new Rect(0, 0, 940, 700));
+                _scroll, new Rect(0, 0, 940, 850));
             GUI.Label(new Rect(20, 10, 900, 30), "MOBILE MAGIC CNN — SCENE TEST RIÊNG (không camera tracking / không gameplay)");
             GUI.Label(new Rect(20, 42, 900, 45),
                 "Giữ chuột trái để vẽ. Nhả chuột chỉ kết thúc một nét, KHÔNG tự nhận diện.\n" +
@@ -98,6 +108,21 @@ namespace MagicTouch.Recognition
             GUI.Label(new Rect(20, 645, 900, 50),
                 "Bộ lọc test mặc định: confidence ≥ 85%, margin ≥ 30%, đường chéo ≥ 35px.\n" +
                 "Không kiểm thử thời điểm chốt nét của DrawingManager. Không sửa cấu hình hay model của game.");
+            GUI.Label(new Rect(20, 705, 160, 25), "Nhãn đúng của hình:");
+            _sampleLabel = GUI.SelectionGrid(new Rect(175, 700, 740, 30), _sampleLabel, SampleLabels, 11);
+            GUI.enabled = _points.Count >= 3;
+            if (GUI.Button(new Rect(20, 740, 170, 35), "LƯU SAMPLE"))
+            {
+                try
+                {
+                    if (_probabilities == null && _worker != null) Recognize();
+                    _saveStatus = "Đã lưu: " + RecognitionSampleWriter.Save(_points,
+                        SentisRecognizer.ClassToSymbol[_sampleLabel], BrushRadius, _probabilities, _modelHash);
+                }
+                catch (Exception ex) { _saveStatus = "Không lưu được: " + ex.Message; }
+            }
+            GUI.enabled = true;
+            GUI.Label(new Rect(20, 785, 900, 55), _saveStatus);
             GUI.EndScrollView();
         }
 
@@ -184,7 +209,7 @@ namespace MagicTouch.Recognition
                 else if (_probabilities[best] < .85f) result = "Từ chối: confidence thấp.";
                 else if (margin < .30f) result = "Từ chối: margin thấp.";
                 else if (!GestureCompletionPolicy.HasRequiredStructure(_points, symbol))
-                    result = "Từ chối: E chưa đủ thân dọc và ba nét ngang.";
+                    result = "Từ chối: " + GestureCompletionPolicy.StructureRequirement(symbol);
                 else result = "Chấp nhận " + symbol;
                 _message = $"CNN thô: {symbol} ({_probabilities[best]:P2}), margin: {margin:P2}\n" +
                     $"Sau bộ lọc test: {result}\nSố nét: {_points.Select(p => p.StrokeID).Distinct().Count()}";

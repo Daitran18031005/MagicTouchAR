@@ -33,6 +33,10 @@ import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import Dataset, DataLoader, random_split
 import torchvision
+try:
+    from .stroke_dataset import generate_strokes, rasterize
+except ImportError:
+    from stroke_dataset import generate_strokes, rasterize
 
 # -----------------------------------------------------------------------------
 # 1. Configuration & Constants
@@ -104,18 +108,10 @@ def draw_polyline(canvas: np.ndarray, pts: list, thickness: int, closed: bool = 
 
 
 def generate_caret() -> np.ndarray:
-    """Inverted V / Caret (^)"""
-    canvas = np.zeros((IMG_SIZE, IMG_SIZE), dtype=np.uint8)
-    t = random.randint(1, 2)
-    left_x = random.randint(3, 6)
-    right_x = random.randint(21, 24)
-    apex_x = random.randint(12, 16)
-    base_y = random.randint(22, 25)
-    apex_y = random.randint(3, 6)
-
-    pts = [(left_x, base_y), (apex_x, apex_y), (right_x, base_y)]
-    draw_polyline(canvas, pts, thickness=t)
-    return apply_augmentations(canvas)
+    """Varied Y-up caret strokes, rasterized with the game's centering and brush."""
+    rng = np.random.default_rng(random.getrandbits(32))
+    image = rasterize(generate_strokes(1, rng), radius=rng.uniform(1.05, 1.6))
+    return np.rint(image * 255).astype(np.uint8)
 
 
 def generate_horizontal_line() -> np.ndarray:
@@ -249,7 +245,9 @@ class MagicTouchDataset(Dataset):
                 gen_fn = class_generators[cid]
                 for _ in range(needed):
                     img = gen_fn()
-                    if len(img.shape) == 2:
+                    # Caret is augmented in stroke space; line/unknown generators
+                    # already augment their output once. Do not blur/rotate twice.
+                    if cid not in (1, 2, 3, 10) and len(img.shape) == 2:
                         img = apply_augmentations(img)
                     self.data.append(img)
                     self.labels.append(cid)
@@ -328,7 +326,7 @@ def train_model():
     scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=EPOCHS)
 
     print(f"\n[*] Training for {EPOCHS} epochs on {train_size} train / {val_size} val samples...\n")
-    best_val_acc = 0.0
+    best_val_acc = -1.0
 
     for epoch in range(1, EPOCHS + 1):
         model.train()
@@ -375,6 +373,7 @@ def train_model():
             torch.save(model.state_dict(), "best_magic_touch.pth")
 
     print(f"\n[+] Training complete! Best Validation Accuracy: {best_val_acc:.2f}%")
+    model.load_state_dict(torch.load("best_magic_touch.pth", map_location=DEVICE, weights_only=True))
     return model
 
 
@@ -392,6 +391,7 @@ def export_to_onnx(model, output_path="magic_touch_model.onnx"):
         dummy_input,
         output_path,
         export_params=True,
+        dynamo=False,
         opset_version=14,               # Rock-solid compatibility with Unity.Sentis
         do_constant_folding=True,
         input_names=["input"],

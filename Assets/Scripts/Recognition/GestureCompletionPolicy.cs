@@ -120,7 +120,59 @@ namespace MagicTouch.Recognition
         /// <summary>Mandatory validity gate, including timeout and fallback recognition.</summary>
         public static bool HasRequiredStructure(IReadOnlyList<Point> points, GestureSymbol symbol)
         {
+            if (symbol == GestureSymbol.O) return HasClosedLoop(points);
             return symbol != GestureSymbol.E || HasThreeArms(points);
+        }
+
+        public static string StructureRequirement(GestureSymbol symbol)
+        {
+            return symbol == GestureSymbol.O ? "O cần tạo thành vòng gần khép kín."
+                : "E cần đủ thân dọc và ba nét ngang.";
+        }
+
+        public static bool HasClosedLoop(IReadOnlyList<Point> points)
+        {
+            if (points == null || points.Count < 5) return false;
+            var bounds = GesturePreprocessor.CalculateBounds(points);
+            if (bounds.Diagonal < 35f || Mathf.Min(bounds.Width, bounds.Height) < bounds.Diagonal * .20f) return false;
+            var starts = new List<Vector2>();
+            var ends = new List<Vector2>();
+            float length = 0;
+            starts.Add(Pos(points[0]));
+            for (int i = 1; i < points.Count; i++)
+            {
+                if (points[i].StrokeID != points[i - 1].StrokeID)
+                {
+                    ends.Add(Pos(points[i - 1]));
+                    starts.Add(Pos(points[i]));
+                }
+                else length += Vector2.Distance(Pos(points[i - 1]), Pos(points[i]));
+            }
+            ends.Add(Pos(points[points.Count - 1]));
+            if (length < bounds.Diagonal * 1.8f) return false;
+            // Connect actual stroke endpoints into one loop, allowing small pen-lift gaps.
+            float tolerance = bounds.Diagonal * .22f;
+            var used = new bool[starts.Count];
+            used[0] = true;
+            Vector2 endpoint = ends[0];
+            for (int count = 1; count < starts.Count; count++)
+            {
+                int next = -1;
+                bool reverse = false;
+                float closest = tolerance;
+                for (int j = 1; j < starts.Count; j++)
+                {
+                    if (used[j]) continue;
+                    float ds = Vector2.Distance(endpoint, starts[j]);
+                    float de = Vector2.Distance(endpoint, ends[j]);
+                    if (ds < closest) { closest = ds; next = j; reverse = false; }
+                    if (de < closest) { closest = de; next = j; reverse = true; }
+                }
+                if (next < 0) return false;
+                used[next] = true;
+                endpoint = reverse ? starts[next] : ends[next];
+            }
+            return Vector2.Distance(endpoint, starts[0]) <= tolerance;
         }
     }
 }

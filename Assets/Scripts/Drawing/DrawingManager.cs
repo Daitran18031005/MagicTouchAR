@@ -14,7 +14,7 @@ namespace MagicTouch.Drawing
     /// - multiStrokeDelay: Grace period in seconds while fingers are open before finalizing gesture.
     /// - Separate LineRenderers per stroke to prevent connecting lines between disjoint strokes.
     /// - currentTimer decreases each frame fingers are open; inference triggers ONLY when currentTimer <= 0.
-    /// - Visual Feedback: Green lines for TRUE match, Red lines for FALSE mismatch, with on-screen HUD badge.
+    /// - Visual Feedback: Green lines only when the gesture defeats enemies; red otherwise.
     /// </summary>
     public class DrawingManager : MonoBehaviour
     {
@@ -168,6 +168,8 @@ namespace MagicTouch.Drawing
         private readonly float[] _currentTimer = new float[2] { 0f, 0f };
         private readonly int[] _currentStrokeId = new int[2] { 0, 0 };
         private readonly Coroutine[] _feedbackCoroutines = new Coroutine[2];
+        private readonly int[] _gestureDefeats = new int[2];
+        private readonly bool[] _awaitingCombatOutcome = new bool[2];
         private int _activeSimulatedMouseHand = -1;
         private readonly bool[] _waitForRelease = new bool[2];
         private readonly int[] _lastTrackId = new int[2];
@@ -195,6 +197,13 @@ namespace MagicTouch.Drawing
         // Events
         public event Action<int, PRecognitionResult> OnGestureRecognized;
         public PRecognizer Recognizer => _pRecognizer;
+
+        /// <summary>Called synchronously by gameplay while OnGestureRecognized is dispatched.</summary>
+        public void ReportGestureOutcome(int handIndex, int defeatedEnemies)
+        {
+            if (handIndex < 0 || handIndex >= 2 || !_awaitingCombatOutcome[handIndex]) return;
+            _gestureDefeats[handIndex] = Mathf.Max(0, defeatedEnemies);
+        }
 
         public Point[] GetLastGesturePoints(int handIndex = 0)
         {
@@ -991,16 +1000,19 @@ namespace MagicTouch.Drawing
 
             Debug.Log($"[DrawingManager] Hand {handIndex + 1} recognized: '{result.Symbol}' (Score: {result.Score:F2}, Match: {result.IsMatch})");
 
-            // Notify GameManager to pop matching balloons
-            OnGestureRecognized?.Invoke(handIndex, result);
+            // Recognition alone is not a hit. Gameplay reports actual defeats during dispatch.
+            _gestureDefeats[handIndex] = 0;
+            _awaitingCombatOutcome[handIndex] = true;
+            try { OnGestureRecognized?.Invoke(handIndex, result); }
+            finally { _awaitingCombatOutcome[handIndex] = false; }
+            bool defeatedEnemy = _gestureDefeats[handIndex] > 0;
 
-            // Show on-screen result badge (e.g. "✓ X (TRUE - 94%)" or "✗ MISMATCH (FALSE)")
-            ShowResultBanner(result);
+            ShowResultBanner(result, defeatedEnemy);
 
-            // Keep lines visible with feedback color (Green for match, Red for mismatch) and fade out
-            Color feedbackColor = result.IsMatch ? _successColor : _failureColor;
+            // Hold the combat outcome color before fading the completed gesture.
+            Color feedbackColor = defeatedEnemy ? _successColor : _failureColor;
             if (_feedbackCoroutines[handIndex] != null) StopCoroutine(_feedbackCoroutines[handIndex]);
-            _feedbackCoroutines[handIndex] = StartCoroutine(FeedbackRoutine(handIndex, feedbackColor, result.IsMatch));
+            _feedbackCoroutines[handIndex] = StartCoroutine(FeedbackRoutine(handIndex, feedbackColor, defeatedEnemy));
         }
 
         private IEnumerator FeedbackRoutine(int handIndex, Color feedbackColor, bool isMatch)
@@ -1016,14 +1028,14 @@ namespace MagicTouch.Drawing
             }
 
             float holdDuration = isMatch ? 0.40f : 0.50f;
-            yield return new WaitForSeconds(holdDuration);
+            yield return new WaitForSecondsRealtime(holdDuration);
 
             float fadeDuration = 0.25f;
             float elapsed = 0f;
 
             while (elapsed < fadeDuration)
             {
-                elapsed += Time.deltaTime;
+                elapsed += Time.unscaledDeltaTime;
                 float alpha = Mathf.Clamp01(1.0f - (elapsed / fadeDuration));
                 Color faded = new Color(feedbackColor.r, feedbackColor.g, feedbackColor.b, alpha);
 
@@ -1047,7 +1059,7 @@ namespace MagicTouch.Drawing
 
         #region HUD Feedback UI Indicator
 
-        private void ShowResultBanner(PRecognitionResult result)
+        private void ShowResultBanner(PRecognitionResult result, bool defeatedEnemy)
         {
             EnsureFeedbackUI();
             if (_feedbackText == null) return;
@@ -1055,8 +1067,10 @@ namespace MagicTouch.Drawing
             if (_bannerCoroutine != null) StopCoroutine(_bannerCoroutine);
 
             string symbolStr = result.Symbol.ToString().ToUpper();
-            if (result.IsMatch)
-                _feedbackText.text = $"<color=#00FF66>{symbolStr} (TRUE - {result.Score * 100:F0}%)</color>";
+            if (defeatedEnemy)
+                _feedbackText.text = $"<color=#00FF66>{symbolStr} (HIT - {result.Score * 100:F0}%)</color>";
+            else if (result.IsMatch)
+                _feedbackText.text = $"<color=#FF3344>{symbolStr} (NO TARGET)</color>";
             else
                 _feedbackText.text = "<color=#FF3344>MISMATCH (FALSE)</color>";
 
@@ -1067,13 +1081,13 @@ namespace MagicTouch.Drawing
         private IEnumerator BannerFadeRoutine()
         {
             if (_feedbackCanvasGroup != null) _feedbackCanvasGroup.alpha = 1.0f;
-            yield return new WaitForSeconds(0.65f);
+            yield return new WaitForSecondsRealtime(0.65f);
 
             float fadeDuration = 0.35f;
             float elapsed = 0f;
             while (elapsed < fadeDuration)
             {
-                elapsed += Time.deltaTime;
+                elapsed += Time.unscaledDeltaTime;
                 if (_feedbackCanvasGroup != null)
                     _feedbackCanvasGroup.alpha = Mathf.Clamp01(1.0f - (elapsed / fadeDuration));
                 yield return null;

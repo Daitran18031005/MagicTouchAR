@@ -54,6 +54,7 @@ namespace MagicTouch.Gameplay
         public TextMeshProUGUI matchTimerText;
         private readonly VersusMatch _versusMatch = new VersusMatch();
         private int _scoringPlayer = -1;
+        private int _lastSymbolPopCount;
         private int _shownLeft = -1, _shownRight = -1, _shownSeconds = -1;
         public bool IsVersus => _gameMode == GameMode.Versus;
         public VersusMatch VersusRound => _versusMatch;
@@ -621,6 +622,7 @@ namespace MagicTouch.Gameplay
         /// </summary>
         private void HandleGestureRecognized(int handIndex, PRecognitionResult result)
         {
+            _lastSymbolPopCount = 0;
             if (currentState != GameState.Playing)
             {
                 Debug.Log("[GameManager] Gesture ignored: Game is waiting for camera setup or over.");
@@ -631,6 +633,7 @@ namespace MagicTouch.Gameplay
             {
                 if (IsVersus) OnPlayerSymbolRecognized(PlayerForCompletedGesture(handIndex), result.Symbol);
                 else OnSymbolRecognized(result.Symbol);
+                DrawingManager.Instance?.ReportGestureOutcome(handIndex, _lastSymbolPopCount);
             }
             else
             {
@@ -658,6 +661,7 @@ namespace MagicTouch.Gameplay
         /// </summary>
         public void OnSymbolRecognized(GestureSymbol drawnSymbol)
         {
+            _lastSymbolPopCount = 0;
             if (currentState != GameState.Playing) return;
             if (IsVersus && (_scoringPlayer < 0 || !_versusMatch.CanScore(Time.timeAsDouble))) return;
 
@@ -728,6 +732,7 @@ namespace MagicTouch.Gameplay
                             : $"+{pointsEarned}";
 
                         toPop[i].Pop(scoreStr);
+                        _lastSymbolPopCount++;
                     }
                 }
 
