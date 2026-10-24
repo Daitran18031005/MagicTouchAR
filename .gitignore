@@ -67,3 +67,5 @@ Related/_ToDelete/
 Related/Data-Samples/
 Tools/unity-rpc.cjs
 Tools/unity-request.json
+
+.codex/
