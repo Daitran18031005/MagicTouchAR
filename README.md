@@ -19,6 +19,7 @@
 |---|---|---|
 | Chơi bằng chuột (Mouse Simulation) | ✅ Chạy được | Đã thử trên máy gốc và một máy thứ hai (clone mới): vẽ được, Restart đúng 1 lần mỗi click. Ở chế độ này Unity **không mở Python** |
 | AR hand tracking bằng webcam | ✅ **Chạy được qua `.venv`** | Đã thử trên máy gốc và một máy thứ hai (clone mới): `.venv` tạo bằng `Tools\setup_python_env.bat` (Python 3.11), Unity tự khởi chạy streamer **đúng 1 lần** từ `.venv`, tay điều khiển được, vẽ ký hiệu thì bóng nổ. Unity không dùng Python hệ thống |
+| Nhận diện ký hiệu | ✅ Chạy được | CNN ONNX trong Unity; ngày 21/10/2026 fine-tune cho `^`. Số liệu chỉ trên dữ liệu tự sinh ([Train/CARET_IMPROVEMENT.md](Train/CARET_IMPROVEMENT.md)); cần thử thêm với người chơi thật |
 | Android / mobile | ❌ Chưa làm | Python tracker chỉ chạy trên PC (Editor/Standalone). `NativeMediaPipeBridge.cs` là khung dự kiến cho mobile, không có trong scene |
 | macOS | ❓ Chưa hỗ trợ chính thức | Có `Tools/setup_python_env.sh` và Unity tìm `.venv/bin/python3`, nhưng **chưa kiểm thử trên macOS** |
 
@@ -32,8 +33,9 @@ Dự án này là sự kết hợp hoàn hảo giữa Game Engine, Trí tuệ nh
 - **Dual-Threshold Hysteresis:** thuật toán chống rung (Schmitt Trigger) giúp việc chụm ngón tay (Pinch) ổn định. Ngưỡng vào `0.04` / ra `0.08` (`HandTrackingBridge.cs:39,42`). Một mẫu mở tay chưa rõ ràng chỉ tạm dừng nét; mẫu kế tiếp mới xác nhận nhả tay (`PinchTransitionFilter.cs`).
 - **Chờ khi mất tracking (thay cho "Coyote Time 0.08 s" cũ):** nếu tay mất dấu tối đa **0,14 giây** (`DrawingManager.trackingLossGrace`) mà tay hiện lại gần chỗ cũ thì nét vẽ được nối tiếp.
 - **Bộ lọc vị trí One Euro:** lọc tương đối theo cổ tay để giảm rung đầu ngón tay mà không làm trễ chuyển động cả bàn tay (`OneEuroPositionFilter.cs`, `HandPositionFilter.cs`).
-- **Ký hiệu nhiều nét (X, E):** mở tay giữa các nét; hệ thống chờ nét tiếp theo khoảng 0,35 giây (`multiStrokeDelay`, giới hạn trong 0,20–0,45 s) rồi mới chấm. Chữ X và E chỉ được chấm sớm khi đủ hình (`GestureCompletionPolicy.cs`).
-- **Nhận diện Ấn chú bằng AI (Unity Inference Engine / Sentis, gói `com.unity.ai.inference`):** model CNN `Assets/Models/magic_touch_model.onnx` chạy ngay trong Unity, không gọi API qua mạng. Nếu model không nạp được thì dùng bộ nhận diện hình học `$P` (`PRecognizer.cs`) thay thế.
+- **Ký hiệu nhiều nét (X, E):** mở tay giữa các nét; hệ thống chờ nét tiếp theo `multiStrokeDelay` giây (giá trị trong scene hiện là **0,5 s**; mặc định trong code là 0,8 s; giá trị bị kẹp trong 0,20–0,8 s) rồi mới chấm. Chữ X và E chỉ được chấm sớm khi đủ hình (`GestureCompletionPolicy.cs`): X phải là hai đoạn thẳng cắt nhau, E phải đủ thân dọc và ba nét ngang, O phải gần khép kín.
+- **Nhận diện Ấn chú bằng AI (Unity Inference Engine / Sentis, gói `com.unity.ai.inference`):** model CNN `Assets/Models/magic_touch_model.onnx` chạy ngay trong Unity, không gọi API qua mạng. Nếu model không nạp được thì dùng bộ nhận diện hình học `$P` (`PRecognizer.cs`) thay thế. Ngày 21/10/2026 model được fine-tune lại để nhận ký hiệu `^` (Caret) tốt hơn, giữ nguyên cấu trúc và thứ tự lớp (chi tiết, số đo và cách khôi phục model cũ: [Train/CARET_IMPROVEMENT.md](Train/CARET_IMPROVEMENT.md)). Số đo trong đó là trên dữ liệu **tự sinh**, chưa phải độ chính xác với người chơi thật.
+- **Phản hồi theo kết quả chiến đấu:** nét vẽ chỉ xanh và hiện `HIT` khi thật sự làm nổ ít nhất một bóng; nhận đúng ký hiệu nhưng không có bóng trùng thì đỏ và hiện `NO TARGET`; không nhận ra thì `MISMATCH` (`DrawingManager.ReportGestureOutcome`, `GameManager`).
 - **Đồ họa Retro Pixel-Art:** UI Phase 9 (font PressStart2P, 9-slice), Particle VFX, nét vẽ mượt bằng Catmull-Rom Spline/SMA như mực neon.
 - **2 người chơi (Versus):** theo dõi độc lập Tay 1 và Tay 2. Điểm được tính cho người chơi ở nửa màn hình nơi nét vẽ bắt đầu (`VersusMatch.PlayerForScreenX`).
 
@@ -48,6 +50,8 @@ Dự án này là sự kết hợp hoàn hảo giữa Game Engine, Trí tuệ nh
 - **`MediaPipeUDPReceiver.cs`:** nhận luồng video (UDP 9051) để vẽ nền camera. Không mở thêm luồng nhận landmark nếu `HandTrackingBridge` đã nhận; muốn khởi chạy Python thì giao lại cho `HandTrackingBridge`.
 - **`DrawingManager.cs`:** quản lý thao tác vẽ (LineRenderer), chờ khi mất tracking, nét nhiều nét và gửi điểm vẽ đi nhận diện.
 - **`SentisRecognizer.cs` / `PRecognizer.cs`:** nhận diện ký hiệu (Sentis ONNX là mặc định, `$P` là dự phòng).
+- **`GestureCompletionPolicy.cs`:** cổng hình học quyết định khi nào được chấm sớm (X, E, O và các nét đơn), cũng dùng để từ chối kết quả thiếu cấu trúc.
+- **`CNNTestScene.cs` & `RecognitionSampleWriter.cs`:** scene thử riêng `Assets/Scenes/CNNRecognitionTest.unity` (không camera, không gameplay; cũng mở được qua `Window > Magic Touch > MobileMagicCNN Test`). Vẽ bằng chuột, bấm NHẬN DIỆN để xem xác suất từng lớp; chọn nhãn đúng rồi bấm **LƯU SAMPLE** để lưu nét vẽ (JSON + PNG) vào `Related/Data-Samples/` (bị `.gitignore`). Mẫu lưu không tự động được dùng để huấn luyện.
 - **`GameManager.cs` & `UIManager.cs` & `MenuManager.cs`:** Trái tim của game. Quản lý vòng lặp trạng thái (Main Menu → Waiting for Camera → Playing → Paused/Game Over), hiển thị máu (Hearts), Combo và điểm số, chế độ Versus.
 - **`EnemySpawner.cs` & `EnemyBalloon.cs`:** sinh kẻ địch (scene đang gán 3 sprite `Bat`, `Knight`, `Robot` trong `Assets/Sprites/Enemies/`) treo trên bóng bay mang ký hiệu ngẫu nhiên.
 
@@ -59,9 +63,11 @@ MagicTouch/
 │                      #   Sprites/, Audio/, UI/ (Phase 9 + MenuManager), Editor/ (công cụ & kiểm tra)
 ├── Tools/             # Core Python: mediapipe_streamer.py, *.task, *.bat, requirements.txt (đã ghim),
 │                      #   setup_python_env.bat/.sh. Tên và vị trí thư mục này bị GÁN CỨNG — không đổi tên/dời.
-├── Related/           # Tài liệu không cần khi chạy game: Docs/, Design/, Reference-Art/, Logic-Notes/
+├── Related/           # Tài liệu không cần khi chạy game: Docs/, Logic-Notes/
 │                      #   (Data-Samples/ và _ToDelete/ chỉ có trên máy, bị .gitignore)
-├── Train/             # train_magic_touch.py: huấn luyện CNN và xuất magic_touch_model.onnx (cần torch, torchvision)
+├── Train/             # train_magic_touch.py: huấn luyện CNN và xuất magic_touch_model.onnx;
+│                      #   finetune_caret.py, stroke_dataset.py, validate_caret.py, restore_caret_model.ps1,
+│                      #   CARET_IMPROVEMENT.md. Thư viện huấn luyện riêng: Train/requirements-training.txt
 ├── hand_landmarker.task   # Model MediaPipe gốc (streamer tìm ở thư mục gốc trước, rồi tới Tools/)
 ├── .python-version    # 3.11
 ├── .env.example       # Mẫu cấu hình cục bộ; chép thành .env (bị .gitignore) nếu cần
@@ -85,7 +91,7 @@ MagicTouch/
    │  lọc One Euro / palm-relative, chống spike
    │  PinchTransitionFilter (vào 0.04 / ra 0.08)
    ▼
- DrawingManager ── vẽ LineRenderer, chờ mất tracking 0.14 s, chờ nét kế 0.35 s
+ DrawingManager ── vẽ LineRenderer, chờ mất tracking 0.14 s, chờ nét kế 0.5 s
    ▼
  RecognizePoints: SentisRecognizer (ONNX, mặc định) │ dự phòng: PRecognizer ($P)
    ▼  OnGestureRecognized
@@ -166,7 +172,7 @@ Unity đã tự khởi chạy tracker ở chế độ AR. Nếu muốn chạy ta
 - **Vị trí:** Đứng trước Webcam (cách khoảng 0.5m - 1m), đảm bảo phòng có đủ ánh sáng.
 - **Bắt đầu vẽ:** Đưa tay lên, chụm ngón trỏ và ngón cái lại với nhau. Nét vẽ ma thuật sẽ xuất hiện trên màn hình bám theo ngón tay của bạn.
 - **Kết thúc nét vẽ:** Mở ngón tay ra.
-- **Nối nét (các chữ như X, E):** sau khi mở tay để vẽ xong nét 1, bạn có khoảng **0,35 giây** để chụm tay lại và vẽ tiếp nét 2. Quá thời gian đó không vẽ thêm, game sẽ đem hình đi nhận diện.
+- **Nối nét (các chữ như X, E):** sau khi mở tay để vẽ xong nét 1, bạn có khoảng **0,5 giây** (giá trị `multiStrokeDelay` trong scene) để chụm tay lại và vẽ tiếp nét 2. Quá thời gian đó không vẽ thêm, game sẽ đem hình đi nhận diện.
 - **Mục tiêu:** Hãy nhìn ký tự trên quả bóng bay của kẻ địch đang rơi. Vẽ ký hiệu tương tự lên không trung để làm nổ bóng. Ở chế độ Solo, nếu kẻ địch chạm đất, bạn sẽ mất 1 Trái tim (Mạng).
 - **Tạm dừng:** phím **Esc**.
 

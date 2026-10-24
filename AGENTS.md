@@ -57,8 +57,8 @@
 ```text
 Assets/    game Unity: Scenes/, Scripts/, Prefabs/, Models/, Sprites/, Audio/, UI/, Editor/ (công cụ + check)
 Tools/     core Python: streamer, model *.task, *.bat, requirements.txt (ghim), setup_python_env.bat/.sh, unit test
-Related/   tài liệu không cần khi chạy game (Docs/, Design/, Reference-Art/, Logic-Notes/)
-Train/     train_magic_touch.py: huấn luyện và xuất model ONNX
+Related/   tài liệu không cần khi chạy game (Docs/, Logic-Notes/; Data-Samples/ chỉ trên máy)
+Train/     train_magic_touch.py, finetune_caret.py: huấn luyện/fine-tune và xuất model ONNX (cần Train/requirements-training.txt; xem CARET_IMPROVEMENT.md)
 Logs/      log và kết quả đo/kiểm tra (bị .gitignore, nhưng code ghi vào đây)
 .venv/     Python 3.11 của dự án (bị .gitignore); .env (tùy chọn, bị .gitignore), mẫu ở .env.example
 ```

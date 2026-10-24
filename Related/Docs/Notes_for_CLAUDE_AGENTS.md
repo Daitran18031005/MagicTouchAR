@@ -51,7 +51,9 @@ Nguồn: chỉ thị của chủ dự án (2026-10-16), trừ khi ghi khác.
 3. **`MediaPipeUDPReceiver.cs`** (cùng GameObject): nhận video 9051 rồi đưa vào RawImage `CameraBackground`. Không mở thêm luồng nhận landmark nếu bridge đã nhận (dòng 184-187). Đọc cổng từ `.env` (dòng 125-126). `StartPythonTracker` (dòng 496) **chỉ giao lại cho bridge**, không còn tự `Process.Start`; nên dù `_autoLaunchPythonOnPlay` bật (scene: bật), lần gọi từ `Start()` chỉ gặp chốt chặn của bridge và bị bỏ qua (có log).
 4. **`DrawingManager.cs`** (GameObject `DrawingManager`):
    - Đọc trạng thái tay từ bridge mỗi frame và vẽ `LineRenderer`.
-   - Chờ khi mất tracking 0.14 s; chờ nét tiếp theo `multiStrokeDelay` 0.35 s (giới hạn 0.20–0.45).
+   - Chờ khi mất tracking 0.14 s; chờ nét tiếp theo `multiStrokeDelay`: **giá trị scene 0.5 s** (`SampleScene.unity`, ghi đè mặc định trong code 0.8), kẹp trong 0.20–0.8 (`DrawingManager.cs:447`). Đổi mặc định trong code **không** đổi scene đã lưu.
+   - Kết quả chiến đấu: `GameManager.HandleGestureRecognized` gọi `DrawingManager.ReportGestureOutcome(hand, số bóng nổ)` ngay trong lúc `OnGestureRecognized` được gửi. Nét xanh/`HIT` chỉ khi có bóng nổ; đúng ký hiệu mà không có bóng là đỏ/`NO TARGET`; sai là `MISMATCH`.
+   - `GestureCompletionPolicy` còn là cổng bắt buộc về cấu trúc: O phải gần khép kín (`HasClosedLoop`), E phải đủ ba nét ngang (`HasThreeArms`), kể cả khi chấm do hết giờ hoặc dùng dự phòng.
    - Nhận diện qua `RecognizePoints` (dòng 410-417).
    - **Mặc định là `SentisRecognizer`** (`RecognizerEngine.SentisNeuralNetwork`, scene `_engine: 0`). Nếu model không nạp được thì dùng `PRecognizer` ($P). `PRecognizer` cũng làm cổng hình học khi quyết định chấm sớm (dòng 419-429).
    - **`OneDollarRecognizer` không được dùng ở đâu** (chỉ có định nghĩa class). Hàm snapping `TryGetMagneticSnapPoint` có định nghĩa nhưng **không được gọi**.
@@ -103,10 +105,18 @@ Nguồn: chỉ thị của chủ dự án (2026-10-16), trừ khi ghi khác.
 | `Switch Input` lưu chế độ nhập vào scene | Lưu vào EditorPrefs (hoặc `INPUT_MODE` trong `.env`), không đụng scene | code trước `c9592de` |
 | Python khởi chạy 2 lần (Awake + Start) | Một đường khởi chạy, tối đa 1 lần mỗi phiên Play, chỉ ở AR | code trước `3423ced` |
 | Unity 2022.3 | Unity 6000.5.6f1 | README cũ |
-| Coyote Time 0.08 s; nối nét 0.5 s | Chờ mất tracking 0.14 s; chờ nét kế 0.35 s | README cũ |
+| Coyote Time 0.08 s; nối nét 0.5 s; (bản ghi trước 24/10) nối nét 0.35 s | Chờ mất tracking 0.14 s; chờ nét kế: scene 0.5 s (mặc định code 0.8 s, kẹp 0.20–0.8). Bản cũ ghi 0.35 là mặc định code, trong khi scene đã là 0.5 và bị kẹp ở 0.45 | README cũ |
 | Snapping "hút nam châm" nét vẽ; ký tự "A" | Hàm snap không được gọi; 10 ký hiệu không có "A" | README cũ |
 | Quái Knight, Gargoyle, Golem | Sprite trong scene: Bat, Knight, Robot | README cũ |
 | 80 ms visible-release grace | Xác nhận nhả tay theo mẫu (`PinchTransitionFilter`) | `fps-validation.md` |
+
+## H. Cập nhật 2026-10-21 → 24 (nhận diện `^`, phản hồi chiến đấu)
+
+- Commit `686fc0d` (thetreeee, 21/10): fine-tune model ONNX cho `^`; thêm `Train/finetune_caret.py`, `stroke_dataset.py`, `validate_caret.py`, `restore_caret_model.ps1`, `requirements-training.txt` (tách khỏi `Tools/requirements.txt`); `GestureCompletionPolicy` thêm cổng O/E; `RecognitionSampleWriter` + nút LƯU SAMPLE trong `CNNTestScene`; phản hồi HIT/NO TARGET trong `DrawingManager`; timer phản hồi dùng `unscaledDeltaTime`. Chi tiết, số đo, cách khôi phục: `Train/CARET_IMPROVEMENT.md` (số đo là trên dữ liệu tự sinh).
+- Hai check Editor mới `CNNModelValidation` và `GestureCombatFeedbackChecks` **không có menu** (gọi bằng code, tự khai là "explicit diagnostics"); không nằm trong 3 bộ check ở mục A8. `GestureCombatFeedbackChecks` cần Play Mode trong scene không có đối tượng gameplay.
+- Scene thử riêng: `Assets/Scenes/CNNRecognitionTest.unity` / `Window > Magic Touch > MobileMagicCNN Test`.
+- `multiStrokeDelay` mặc định trong code đổi 0.35 → 0.8 và kẹp 0.45 → 0.8 (chưa commit lúc ghi); scene giữ 0.5.
+- `Related/Design/design_guidelines.md` và `Related/Reference-Art/phase9-*.png` (10 ảnh) đã bị xóa khỏi working tree theo ý chủ dự án; vẫn lấy lại được từ lịch sử git (commit trước khi xóa).
 
 ## G. Trạng thái cuối đợt portable setup
 

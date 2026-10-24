@@ -5,6 +5,8 @@
 - **Trạng thái cuối:** `cleanup/organize` đã được merge (fast-forward, giữ nguyên từng commit nhỏ, không squash) vào `QuangDai_Feature` và đã push lên `origin/QuangDai_Feature` (`52a6f5a..82c4e59`). `main` không bị động tới (vẫn ở `52a6f5a`). Chưa mở Pull Request.
 - Quy tắc đã giữ: không xoá vĩnh viễn file nào; không sửa `.cs`; không động vào `Packages/` và `ProjectSettings/`.
 
+> **Cập nhật 2026-10-24:** `Related/Design/design_guidelines.md` và `Related/Reference-Art/phase9-*.png` được nhắc ở các mục dưới đây **đã bị xóa khỏi working tree** theo ý chủ dự án (còn trong lịch sử git). Các mục dưới là lịch sử của đợt dọn dẹp 16/10 nên giữ nguyên. Thay đổi nhận diện/phản hồi chiến đấu sau đó: xem `Notes_for_CLAUDE_AGENTS.md` mục H.
+
 ## 1. Commit đã tạo
 
 | Commit | Nội dung |
