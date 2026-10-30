@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: c8310b47d9679e747a8b502fced2369d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9096309683821208303
+    second: berserk_robot_sheet_4x4_0
+  - first:
+      213: 6635636058671263283
+    second: berserk_robot_sheet_4x4_1
+  - first:
+      213: 4248108985199518948
+    second: berserk_robot_sheet_4x4_2
+  - first:
+      213: -6973783608387605942
+    second: berserk_robot_sheet_4x4_3
+  - first:
+      213: 6969201344761195030
+    second: berserk_robot_sheet_4x4_4
+  - first:
+      213: 3502158953060345154
+    second: berserk_robot_sheet_4x4_5
+  - first:
+      213: 2366119896245835187
+    second: berserk_robot_sheet_4x4_6
+  - first:
+      213: 1601513717781440870
+    second: berserk_robot_sheet_4x4_7
+  - first:
+      213: 2025236537253808229
+    second: berserk_robot_sheet_4x4_8
+  - first:
+      213: 2879026561005785558
+    second: berserk_robot_sheet_4x4_9
+  - first:
+      213: -8792219647780060177
+    second: berserk_robot_sheet_4x4_10
+  - first:
+      213: -8071248766111193932
+    second: berserk_robot_sheet_4x4_11
+  - first:
+      213: 1227558507607365339
+    second: berserk_robot_sheet_4x4_12
+  - first:
+      213: -6444573363809473239
+    second: berserk_robot_sheet_4x4_13
+  - first:
+      213: -1891754258094623702
+    second: berserk_robot_sheet_4x4_14
+  - first:
+      213: -3794281628550909334
+    second: berserk_robot_sheet_4x4_15
+  - first:
+      213: 3790549312649605954
+    second: berserk_robot_sheet_4x4_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: berserk_robot_sheet_4x4_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 192
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d14e0798a63c180800000000000000
+      internalID: -9096309683821208303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berserk_robot_sheet_4x4_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 128
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33eafd796d3861c50800000000000000
+      internalID: 6635636058671263283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berserk_robot_sheet_4x4_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 192
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e466f55d9054fa30800000000000000
+      internalID: 4248108985199518948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berserk_robot_sheet_4x4_3
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 128
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a6d91c1c4283f90800000000000000
+      internalID: -6973783608387605942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berserk_robot_sheet_4x4_4
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 192
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a6aaad2b397b060800000000000000
+      internalID: 6969201344761195030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berserk_robot_sheet_4x4_5
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 128
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245ad18330b2a9030800000000000000
+      internalID: 3502158953060345154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berserk_robot_sheet_4x4_6
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 192
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b597b7628526d020800000000000000
+      internalID: 2366119896245835187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berserk_robot_sheet_4x4_7
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 128
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 669274bbd38b93610800000000000000
+      internalID: 1601513717781440870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berserk_robot_sheet_4x4_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 64
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568c72586e51b1c10800000000000000
+      internalID: 2025236537253808229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berserk_robot_sheet_4x4_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d11aab476b54f720800000000000000
+      internalID: 2879026561005785558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berserk_robot_sheet_4x4_10
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 63
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe30cd240d2cbf580800000000000000
+      internalID: -8792219647780060177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berserk_robot_sheet_4x4_11
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4e122b20a2dff80800000000000000
+      internalID: -8071248766111193932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berserk_robot_sheet_4x4_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 63
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd612f275f9290110800000000000000
+      internalID: 1227558507607365339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berserk_robot_sheet_4x4_13
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 57
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d2131aba64096a0800000000000000
+      internalID: -6444573363809473239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berserk_robot_sheet_4x4_14
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 63
+        width: 50
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a24ffe376832fb5e0800000000000000
+      internalID: -1891754258094623702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berserk_robot_sheet_4x4_15
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 58
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a62be6836f0085bc0800000000000000
+      internalID: -3794281628550909334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: berserk_robot_sheet_4x4_16
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 8
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243b414448cba9430800000000000000
+      internalID: 3790549312649605954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      berserk_robot_sheet_4x4_0: -9096309683821208303
+      berserk_robot_sheet_4x4_1: 6635636058671263283
+      berserk_robot_sheet_4x4_10: -8792219647780060177
+      berserk_robot_sheet_4x4_11: -8071248766111193932
+      berserk_robot_sheet_4x4_12: 1227558507607365339
+      berserk_robot_sheet_4x4_13: -6444573363809473239
+      berserk_robot_sheet_4x4_14: -1891754258094623702
+      berserk_robot_sheet_4x4_15: -3794281628550909334
+      berserk_robot_sheet_4x4_16: 3790549312649605954
+      berserk_robot_sheet_4x4_2: 4248108985199518948
+      berserk_robot_sheet_4x4_3: -6973783608387605942
+      berserk_robot_sheet_4x4_4: 6969201344761195030
+      berserk_robot_sheet_4x4_5: 3502158953060345154
+      berserk_robot_sheet_4x4_6: 2366119896245835187
+      berserk_robot_sheet_4x4_7: 1601513717781440870
+      berserk_robot_sheet_4x4_8: 2025236537253808229
+      berserk_robot_sheet_4x4_9: 2879026561005785558
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

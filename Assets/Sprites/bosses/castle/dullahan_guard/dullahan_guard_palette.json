@@ -1,0 +1,90 @@
+{
+  "schema": "generate2dsprite.palette.v1",
+  "name": "dullahan24",
+  "colors": [
+    {
+      "hex": "#0a070d",
+      "reserved": true
+    },
+    {
+      "hex": "#1f1a24",
+      "reserved": true
+    },
+    {
+      "hex": "#3b3244",
+      "reserved": true
+    },
+    {
+      "hex": "#736282",
+      "reserved": true
+    },
+    {
+      "hex": "#e0a938",
+      "reserved": true
+    },
+    {
+      "hex": "#7a1208",
+      "reserved": true
+    },
+    {
+      "hex": "#a32a15",
+      "reserved": true
+    },
+    {
+      "hex": "#ff9e00",
+      "reserved": true
+    },
+    {
+      "hex": "#e03616",
+      "reserved": true
+    },
+    {
+      "hex": "#050201"
+    },
+    {
+      "hex": "#1d0b0d"
+    },
+    {
+      "hex": "#370909"
+    },
+    {
+      "hex": "#3c2129"
+    },
+    {
+      "hex": "#570c0b"
+    },
+    {
+      "hex": "#653944"
+    },
+    {
+      "hex": "#8d5329"
+    },
+    {
+      "hex": "#bb0c14"
+    },
+    {
+      "hex": "#ce1615"
+    },
+    {
+      "hex": "#b57842"
+    },
+    {
+      "hex": "#f6590f"
+    },
+    {
+      "hex": "#f18223"
+    },
+    {
+      "hex": "#f7c349"
+    },
+    {
+      "hex": "#fde348"
+    },
+    {
+      "hex": "#fcf7c2"
+    }
+  ],
+  "transparent_index": 255,
+  "locked": false,
+  "source": "palette_tool build: OKLab k-means++ of 32 image(s), 24 colours, seed 0"
+}

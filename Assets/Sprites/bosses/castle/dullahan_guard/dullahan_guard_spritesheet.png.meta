@@ -1,0 +1,987 @@
+fileFormatVersion: 2
+guid: 4600c4456b2b0ef4ca67668ac4d0cfec
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2001018443147939452
+    second: dullahan_guard_spritesheet_0
+  - first:
+      213: -1778948582079461921
+    second: dullahan_guard_spritesheet_1
+  - first:
+      213: 1936294798800431824
+    second: dullahan_guard_spritesheet_2
+  - first:
+      213: 8371609268251676070
+    second: dullahan_guard_spritesheet_3
+  - first:
+      213: -5510900103678820315
+    second: dullahan_guard_spritesheet_4
+  - first:
+      213: 6613959684566380359
+    second: dullahan_guard_spritesheet_5
+  - first:
+      213: 7398301054710338557
+    second: dullahan_guard_spritesheet_6
+  - first:
+      213: 6075626668844646719
+    second: dullahan_guard_spritesheet_7
+  - first:
+      213: -2920033441022493076
+    second: dullahan_guard_spritesheet_8
+  - first:
+      213: 8924103710522664855
+    second: dullahan_guard_spritesheet_9
+  - first:
+      213: 7600966413136611642
+    second: dullahan_guard_spritesheet_10
+  - first:
+      213: 3520455417118397122
+    second: dullahan_guard_spritesheet_11
+  - first:
+      213: -7394194535720488806
+    second: dullahan_guard_spritesheet_12
+  - first:
+      213: 5074167960170974795
+    second: dullahan_guard_spritesheet_13
+  - first:
+      213: 672454084878011147
+    second: dullahan_guard_spritesheet_14
+  - first:
+      213: -7955326443082623368
+    second: dullahan_guard_spritesheet_15
+  - first:
+      213: 9220438990021109723
+    second: dullahan_guard_spritesheet_16
+  - first:
+      213: -8027717727149123722
+    second: dullahan_guard_spritesheet_17
+  - first:
+      213: 2658184587780915826
+    second: dullahan_guard_spritesheet_18
+  - first:
+      213: -7168421547038670918
+    second: dullahan_guard_spritesheet_19
+  - first:
+      213: 7088420991643713412
+    second: dullahan_guard_spritesheet_20
+  - first:
+      213: -5912783357015178226
+    second: dullahan_guard_spritesheet_21
+  - first:
+      213: -796864243547010899
+    second: dullahan_guard_spritesheet_22
+  - first:
+      213: 1886949055579238327
+    second: dullahan_guard_spritesheet_23
+  - first:
+      213: 7235465707165200271
+    second: dullahan_guard_spritesheet_24
+  - first:
+      213: 3294545314295387588
+    second: dullahan_guard_spritesheet_25
+  - first:
+      213: -5671239904629585020
+    second: dullahan_guard_spritesheet_26
+  - first:
+      213: -4905864523756199844
+    second: dullahan_guard_spritesheet_27
+  - first:
+      213: -6174273312147551875
+    second: dullahan_guard_spritesheet_28
+  - first:
+      213: 5615422043338936762
+    second: dullahan_guard_spritesheet_29
+  - first:
+      213: 328099230475676433
+    second: dullahan_guard_spritesheet_30
+  - first:
+      213: 7362710885404629487
+    second: dullahan_guard_spritesheet_31
+  - first:
+      213: -1687419329889860567
+    second: dullahan_guard_spritesheet_32
+  - first:
+      213: 985701540147898538
+    second: dullahan_guard_spritesheet_33
+  - first:
+      213: 2828520422705559183
+    second: dullahan_guard_spritesheet_34
+  - first:
+      213: -1768223559325879915
+    second: dullahan_guard_spritesheet_35
+  - first:
+      213: 7013350697858303340
+    second: dullahan_guard_spritesheet_36
+  - first:
+      213: -7580102529418428575
+    second: dullahan_guard_spritesheet_37
+  - first:
+      213: -597923166294798017
+    second: dullahan_guard_spritesheet_38
+  - first:
+      213: 8769009893918184641
+    second: dullahan_guard_spritesheet_39
+  - first:
+      213: -1835528314538332429
+    second: dullahan_guard_spritesheet_40
+  - first:
+      213: 1442279942355744450
+    second: dullahan_guard_spritesheet_41
+  - first:
+      213: 7317460870456177756
+    second: dullahan_guard_spritesheet_42
+  - first:
+      213: -8308980289332082922
+    second: dullahan_guard_spritesheet_43
+  - first:
+      213: 8227635369150327923
+    second: dullahan_guard_spritesheet_44
+  - first:
+      213: -3373232169736503118
+    second: dullahan_guard_spritesheet_45
+  - first:
+      213: 3193571644164434147
+    second: dullahan_guard_spritesheet_46
+  - first:
+      213: -6972603410319032552
+    second: dullahan_guard_spritesheet_47
+  - first:
+      213: 4404325716586058634
+    second: dullahan_guard_spritesheet_48
+  - first:
+      213: -511596646437791631
+    second: dullahan_guard_spritesheet_49
+  - first:
+      213: -5066769194673661957
+    second: dullahan_guard_spritesheet_50
+  - first:
+      213: 5172783311021606062
+    second: dullahan_guard_spritesheet_51
+  - first:
+      213: -6623354541474401624
+    second: dullahan_guard_spritesheet_52
+  - first:
+      213: -3976036237438554879
+    second: dullahan_guard_spritesheet_53
+  - first:
+      213: 5766831755726596742
+    second: dullahan_guard_spritesheet_54
+  - first:
+      213: 2345860638942519695
+    second: dullahan_guard_spritesheet_55
+  - first:
+      213: 1774802509424273101
+    second: dullahan_guard_spritesheet_56
+  - first:
+      213: 5518107791544486391
+    second: dullahan_guard_spritesheet_57
+  - first:
+      213: 7665865866936010734
+    second: dullahan_guard_spritesheet_58
+  - first:
+      213: 2142414480993254949
+    second: dullahan_guard_spritesheet_59
+  - first:
+      213: -5790090997472230738
+    second: dullahan_guard_spritesheet_60
+  - first:
+      213: -7696408856722987376
+    second: dullahan_guard_spritesheet_61
+  - first:
+      213: 6024543537181677182
+    second: dullahan_guard_spritesheet_62
+  - first:
+      213: 490888067234106788
+    second: dullahan_guard_spritesheet_63
+  - first:
+      213: -6557757531244167878
+    second: dullahan_guard_spritesheet_64
+  - first:
+      213: -4478762694395696559
+    second: dullahan_guard_spritesheet_65
+  - first:
+      213: -1507253090673130722
+    second: dullahan_guard_spritesheet_66
+  - first:
+      213: -5120402840771936445
+    second: dullahan_guard_spritesheet_67
+  - first:
+      213: 2016850565257817353
+    second: dullahan_guard_spritesheet_68
+  - first:
+      213: -6782126788387138731
+    second: dullahan_guard_spritesheet_69
+  - first:
+      213: 8631258282242501700
+    second: dullahan_guard_spritesheet_70
+  - first:
+      213: -5167403452456279272
+    second: dullahan_guard_spritesheet_71
+  - first:
+      213: 900528310559447981
+    second: dullahan_guard_spritesheet_72
+  - first:
+      213: 7858243601138381569
+    second: dullahan_guard_spritesheet_73
+  - first:
+      213: 1819117452435433947
+    second: dullahan_guard_spritesheet_74
+  - first:
+      213: -2548600609298097617
+    second: dullahan_guard_spritesheet_75
+  - first:
+      213: 562370818666774325
+    second: dullahan_guard_spritesheet_76
+  - first:
+      213: -4772064524789905800
+    second: dullahan_guard_spritesheet_77
+  - first:
+      213: 1644342122069533598
+    second: dullahan_guard_spritesheet_78
+  - first:
+      213: -4874194792821255116
+    second: dullahan_guard_spritesheet_79
+  - first:
+      213: 5461742642104928453
+    second: dullahan_guard_spritesheet_80
+  - first:
+      213: -2857129526534258102
+    second: dullahan_guard_spritesheet_81
+  - first:
+      213: -994499327812418141
+    second: dullahan_guard_spritesheet_82
+  - first:
+      213: -6939159242171663667
+    second: dullahan_guard_spritesheet_83
+  - first:
+      213: -4361369027406242275
+    second: dullahan_guard_spritesheet_84
+  - first:
+      213: 7778656354246829297
+    second: dullahan_guard_spritesheet_85
+  - first:
+      213: -6944163766602089323
+    second: dullahan_guard_spritesheet_86
+  - first:
+      213: 9153578424586592430
+    second: dullahan_guard_spritesheet_87
+  - first:
+      213: -3954947132212365520
+    second: dullahan_guard_spritesheet_88
+  - first:
+      213: -6582998236584484424
+    second: dullahan_guard_spritesheet_89
+  - first:
+      213: -4629568199434529845
+    second: dullahan_guard_spritesheet_90
+  - first:
+      213: -4573583458900217298
+    second: dullahan_guard_spritesheet_91
+  - first:
+      213: -372378596440534709
+    second: dullahan_guard_spritesheet_92
+  - first:
+      213: 185332971341311253
+    second: dullahan_guard_spritesheet_93
+  - first:
+      213: 5619493532048684320
+    second: dullahan_guard_spritesheet_94
+  - first:
+      213: 8006706753187549381
+    second: dullahan_guard_spritesheet_95
+  - first:
+      213: 8194116596848583874
+    second: dullahan_guard_spritesheet_96
+  - first:
+      213: 4273412970077538880
+    second: dullahan_guard_spritesheet_97
+  - first:
+      213: 2204526301851279110
+    second: dullahan_guard_spritesheet_98
+  - first:
+      213: -6802505784255700841
+    second: dullahan_guard_spritesheet_99
+  - first:
+      213: -8527696510386707499
+    second: dullahan_guard_spritesheet_100
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e86d41cab05cb10800000000000000
+      internalID: 2001018443147939452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5087b90b7ef47e0800000000000000
+      internalID: -1778948582079461921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0daafee4cd91fda10800000000000000
+      internalID: 1936294798800431824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad4288564eed2470800000000000000
+      internalID: 8371609268251676070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5208f8fbd895583b0800000000000000
+      internalID: -5510900103678820315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f65557a4189cb50800000000000000
+      internalID: 6613959684566380359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df358638c9b0ca660800000000000000
+      internalID: 7398301054710338557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f310068e346f05450800000000000000
+      internalID: 6075626668844646719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6eb79f6e05f977d0800000000000000
+      internalID: -2920033441022493076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797e274fa09c8db70800000000000000
+      internalID: 8924103710522664855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39ceac5eae0c7960800000000000000
+      internalID: 7600966413136611642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c211f8bc8b2bd030800000000000000
+      internalID: 3520455417118397122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90fe32fe3b826990800000000000000
+      internalID: -7394194535720488806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4ec8ac20e01b6640800000000000000
+      internalID: 5074167960170974795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b0ae86d69055900800000000000000
+      internalID: 672454084878011147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876d9c7cfb0099190800000000000000
+      internalID: -7955326443082623368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7ae51d86495ff70800000000000000
+      internalID: 9220438990021109723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6779b248241d79090800000000000000
+      internalID: -8027717727149123722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27289168cc4c3e420800000000000000
+      internalID: 2658184587780915826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abff0883596a48c90800000000000000
+      internalID: -7168421547038670918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48f7859f5512f5260800000000000000
+      internalID: 7088420991643713412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04c4433dd291fda0800000000000000
+      internalID: -5912783357015178226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da88b254138f0f4f0800000000000000
+      internalID: -796864243547010899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf2f072b2acf2a10800000000000000
+      internalID: 1886949055579238327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6e1ac7d96a24cf548acf87ba592edf37
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":512.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      dullahan_guard_spritesheet_0: 2001018443147939452
+      dullahan_guard_spritesheet_1: -1778948582079461921
+      dullahan_guard_spritesheet_10: 7600966413136611642
+      dullahan_guard_spritesheet_11: 3520455417118397122
+      dullahan_guard_spritesheet_12: -7394194535720488806
+      dullahan_guard_spritesheet_13: 5074167960170974795
+      dullahan_guard_spritesheet_14: 672454084878011147
+      dullahan_guard_spritesheet_15: -7955326443082623368
+      dullahan_guard_spritesheet_16: 9220438990021109723
+      dullahan_guard_spritesheet_17: -8027717727149123722
+      dullahan_guard_spritesheet_18: 2658184587780915826
+      dullahan_guard_spritesheet_19: -7168421547038670918
+      dullahan_guard_spritesheet_2: 1936294798800431824
+      dullahan_guard_spritesheet_20: 7088420991643713412
+      dullahan_guard_spritesheet_21: -5912783357015178226
+      dullahan_guard_spritesheet_22: -796864243547010899
+      dullahan_guard_spritesheet_23: 1886949055579238327
+      dullahan_guard_spritesheet_3: 8371609268251676070
+      dullahan_guard_spritesheet_4: -5510900103678820315
+      dullahan_guard_spritesheet_5: 6613959684566380359
+      dullahan_guard_spritesheet_6: 7398301054710338557
+      dullahan_guard_spritesheet_7: 6075626668844646719
+      dullahan_guard_spritesheet_8: -2920033441022493076
+      dullahan_guard_spritesheet_9: 8924103710522664855
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

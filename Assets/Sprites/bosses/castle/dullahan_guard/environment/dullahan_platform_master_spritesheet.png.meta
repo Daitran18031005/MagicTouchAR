@@ -1,0 +1,2600 @@
+fileFormatVersion: 2
+guid: 996e313efa39c0941b5d3db64da914f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1586829427761481147
+    second: dullahan_platform_master_spritesheet_0
+  - first:
+      213: 993777383014089859
+    second: dullahan_platform_master_spritesheet_1
+  - first:
+      213: -51957812314857577
+    second: dullahan_platform_master_spritesheet_2
+  - first:
+      213: -5853091121086520438
+    second: dullahan_platform_master_spritesheet_3
+  - first:
+      213: -2977026180694788077
+    second: dullahan_platform_master_spritesheet_4
+  - first:
+      213: -883032834487322670
+    second: dullahan_platform_master_spritesheet_5
+  - first:
+      213: 2728182383534974814
+    second: dullahan_platform_master_spritesheet_6
+  - first:
+      213: -264674098178697926
+    second: dullahan_platform_master_spritesheet_7
+  - first:
+      213: 6827709022664706101
+    second: dullahan_platform_master_spritesheet_8
+  - first:
+      213: -6847049540685893041
+    second: dullahan_platform_master_spritesheet_9
+  - first:
+      213: 8571364491355110756
+    second: dullahan_platform_master_spritesheet_10
+  - first:
+      213: -1713184134865608428
+    second: dullahan_platform_master_spritesheet_11
+  - first:
+      213: -4699714919167987243
+    second: dullahan_platform_master_spritesheet_12
+  - first:
+      213: 4321260843984761652
+    second: dullahan_platform_master_spritesheet_13
+  - first:
+      213: 1711147158444512419
+    second: dullahan_platform_master_spritesheet_14
+  - first:
+      213: -9048006948466152465
+    second: dullahan_platform_master_spritesheet_15
+  - first:
+      213: 7424836631455592174
+    second: dullahan_platform_master_spritesheet_16
+  - first:
+      213: -6499323505124688638
+    second: dullahan_platform_master_spritesheet_17
+  - first:
+      213: 54869945788480942
+    second: dullahan_platform_master_spritesheet_18
+  - first:
+      213: -8449690737709864944
+    second: dullahan_platform_master_spritesheet_19
+  - first:
+      213: -5890365185398701775
+    second: dullahan_platform_master_spritesheet_20
+  - first:
+      213: -1771891163921929746
+    second: dullahan_platform_master_spritesheet_21
+  - first:
+      213: -6556268843292023623
+    second: dullahan_platform_master_spritesheet_22
+  - first:
+      213: 8401580856273455791
+    second: dullahan_platform_master_spritesheet_23
+  - first:
+      213: -9217003386613069576
+    second: dullahan_platform_master_spritesheet_24
+  - first:
+      213: -8960543778436445139
+    second: dullahan_platform_master_spritesheet_25
+  - first:
+      213: -6226929927184984367
+    second: dullahan_platform_master_spritesheet_26
+  - first:
+      213: -4560168887009167033
+    second: dullahan_platform_master_spritesheet_27
+  - first:
+      213: 2734705786949949930
+    second: dullahan_platform_master_spritesheet_28
+  - first:
+      213: 1841674913498014519
+    second: dullahan_platform_master_spritesheet_29
+  - first:
+      213: -8604757511499235738
+    second: dullahan_platform_master_spritesheet_30
+  - first:
+      213: 6216040042044847585
+    second: dullahan_platform_master_spritesheet_31
+  - first:
+      213: -7589481257198220336
+    second: dullahan_platform_master_spritesheet_32
+  - first:
+      213: 1393728791957575709
+    second: dullahan_platform_master_spritesheet_33
+  - first:
+      213: -8117879515929119942
+    second: dullahan_platform_master_spritesheet_34
+  - first:
+      213: -3133546870077522550
+    second: dullahan_platform_master_spritesheet_35
+  - first:
+      213: 9063923211550620038
+    second: dullahan_platform_master_spritesheet_36
+  - first:
+      213: -1784720780753018666
+    second: dullahan_platform_master_spritesheet_37
+  - first:
+      213: 7194271453590585516
+    second: dullahan_platform_master_spritesheet_38
+  - first:
+      213: 3632983880311516190
+    second: dullahan_platform_master_spritesheet_39
+  - first:
+      213: -9034579476755990058
+    second: dullahan_platform_master_spritesheet_40
+  - first:
+      213: 8878650550034815981
+    second: dullahan_platform_master_spritesheet_41
+  - first:
+      213: 396245633890138493
+    second: dullahan_platform_master_spritesheet_42
+  - first:
+      213: -1586854211453233635
+    second: dullahan_platform_master_spritesheet_43
+  - first:
+      213: -5393095001146500168
+    second: dullahan_platform_master_spritesheet_44
+  - first:
+      213: 5540387696651616863
+    second: dullahan_platform_master_spritesheet_45
+  - first:
+      213: 8546960975088459407
+    second: dullahan_platform_master_spritesheet_46
+  - first:
+      213: -4793802387818402033
+    second: dullahan_platform_master_spritesheet_47
+  - first:
+      213: 1130775202048449566
+    second: dullahan_platform_master_spritesheet_48
+  - first:
+      213: -8376708415222261806
+    second: dullahan_platform_master_spritesheet_49
+  - first:
+      213: -3005960083761656444
+    second: dullahan_platform_master_spritesheet_50
+  - first:
+      213: -4488856586672382285
+    second: dullahan_platform_master_spritesheet_51
+  - first:
+      213: 8005703767306343303
+    second: dullahan_platform_master_spritesheet_52
+  - first:
+      213: -703659439686331450
+    second: dullahan_platform_master_spritesheet_53
+  - first:
+      213: -3090863983198040985
+    second: dullahan_platform_master_spritesheet_54
+  - first:
+      213: 2898702619897557624
+    second: dullahan_platform_master_spritesheet_55
+  - first:
+      213: 4463672037560162934
+    second: dullahan_platform_master_spritesheet_56
+  - first:
+      213: -1104687506625571309
+    second: dullahan_platform_master_spritesheet_57
+  - first:
+      213: -2561738798032207763
+    second: dullahan_platform_master_spritesheet_58
+  - first:
+      213: 3469024862386486216
+    second: dullahan_platform_master_spritesheet_59
+  - first:
+      213: -5300797948420470733
+    second: dullahan_platform_master_spritesheet_60
+  - first:
+      213: 6514318863580069961
+    second: dullahan_platform_master_spritesheet_61
+  - first:
+      213: -153697773504574960
+    second: dullahan_platform_master_spritesheet_62
+  - first:
+      213: 2577546026987066644
+    second: dullahan_platform_master_spritesheet_63
+  - first:
+      213: -5647313773970503468
+    second: dullahan_platform_master_spritesheet_64
+  - first:
+      213: -6404111640222035040
+    second: dullahan_platform_master_spritesheet_65
+  - first:
+      213: 7499125212118784020
+    second: dullahan_platform_master_spritesheet_66
+  - first:
+      213: 2215822617339951783
+    second: dullahan_platform_master_spritesheet_67
+  - first:
+      213: -3989909230833029682
+    second: dullahan_platform_master_spritesheet_68
+  - first:
+      213: -8287346818654836650
+    second: dullahan_platform_master_spritesheet_69
+  - first:
+      213: -2059659471364191962
+    second: dullahan_platform_master_spritesheet_70
+  - first:
+      213: 5456138446359433506
+    second: dullahan_platform_master_spritesheet_71
+  - first:
+      213: -5217887340678403793
+    second: dullahan_platform_master_spritesheet_72
+  - first:
+      213: -1404428146017369966
+    second: dullahan_platform_master_spritesheet_73
+  - first:
+      213: 3196751958443245582
+    second: dullahan_platform_master_spritesheet_74
+  - first:
+      213: -995534441665004512
+    second: dullahan_platform_master_spritesheet_75
+  - first:
+      213: 743511660401317038
+    second: dullahan_platform_master_spritesheet_76
+  - first:
+      213: -8122634155637623323
+    second: dullahan_platform_master_spritesheet_77
+  - first:
+      213: -4466105357663799740
+    second: dullahan_platform_master_spritesheet_78
+  - first:
+      213: -7532412274639845051
+    second: dullahan_platform_master_spritesheet_79
+  - first:
+      213: 879869974878436382
+    second: dullahan_platform_master_spritesheet_80
+  - first:
+      213: 8019630450571649105
+    second: dullahan_platform_master_spritesheet_81
+  - first:
+      213: 8966545093318365975
+    second: dullahan_platform_master_spritesheet_82
+  - first:
+      213: 8828886267476455215
+    second: dullahan_platform_master_spritesheet_83
+  - first:
+      213: -4766419822401795981
+    second: dullahan_platform_master_spritesheet_84
+  - first:
+      213: -2785186620197936310
+    second: dullahan_platform_master_spritesheet_85
+  - first:
+      213: -4540270516386429102
+    second: dullahan_platform_master_spritesheet_86
+  - first:
+      213: 7066731363394019788
+    second: dullahan_platform_master_spritesheet_87
+  - first:
+      213: 2538962075485017203
+    second: dullahan_platform_master_spritesheet_88
+  - first:
+      213: 4850866351026472839
+    second: dullahan_platform_master_spritesheet_89
+  - first:
+      213: 7949317232808882746
+    second: dullahan_platform_master_spritesheet_90
+  - first:
+      213: -5977482695397019696
+    second: dullahan_platform_master_spritesheet_91
+  - first:
+      213: -3579249941634651553
+    second: dullahan_platform_master_spritesheet_92
+  - first:
+      213: -1626965796041320808
+    second: dullahan_platform_master_spritesheet_93
+  - first:
+      213: 8800629717261281333
+    second: dullahan_platform_master_spritesheet_94
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 711
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb50cd805fc850610800000000000000
+      internalID: 1586829427761481147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 1713
+        y: 713
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3844f5cb34b9acd00800000000000000
+      internalID: 993777383014089859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2335
+        y: 687
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f9aad15a8674ff0800000000000000
+      internalID: -51957812314857577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 2757
+        y: 699
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8325a9e2a4a5cea0800000000000000
+      internalID: -5853091121086520438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 701
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31836ac267a7fa6d0800000000000000
+      internalID: -2977026180694788077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1521
+        y: 689
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d77067c056deb3f0800000000000000
+      internalID: -883032834487322670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 699
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57a41d5c637cd520800000000000000
+      internalID: 2728182383534974814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 683
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35dfcc5f40b35cf0800000000000000
+      internalID: -264674098178697926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2379
+        y: 703
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538c8ad6e25e0ce50800000000000000
+      internalID: 6827709022664706101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 511
+        width: 598
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f427aef48b46af0a0800000000000000
+      internalID: -6847049540685893041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 511
+        width: 598
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d3e93879a93f670800000000000000
+      internalID: 8571364491355110756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 511
+        width: 598
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411208e2b1c8938e0800000000000000
+      internalID: -1713184134865608428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 511
+        width: 598
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d173616e2247ceb0800000000000000
+      internalID: -4699714919167987243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 2165
+        y: 685
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4333483b7d338fb30800000000000000
+      internalID: 4321260843984761652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2305
+        y: 683
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4118946473fb710800000000000000
+      internalID: 1711147158444512419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 2371
+        y: 687
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feba8676e950f6280800000000000000
+      internalID: -9048006948466152465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 2581
+        y: 511
+        width: 598
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeee73de3915a0760800000000000000
+      internalID: 7424836631455592174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 3221
+        y: 511
+        width: 598
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d32bcf4b3cdc5a0800000000000000
+      internalID: -6499323505124688638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 2037
+        y: 447
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ead319bccefe2c000800000000000000
+      internalID: 54869945788480942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 2411
+        y: 469
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01825ecda0bacba80800000000000000
+      internalID: -8449690737709864944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 417
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1318bf68218314ea0800000000000000
+      internalID: -5890365185398701775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 1753
+        y: 417
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee9a7c1df5af867e0800000000000000
+      internalID: -1771891163921929746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 293
+        width: 500
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b42e9f39347305a0800000000000000
+      internalID: -6556268843292023623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 447
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faac6e97649689470800000000000000
+      internalID: 8401580856273455791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 2333
+        y: 429
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f80b5fe040a61080800000000000000
+      internalID: -9217003386613069576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 443
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c85f398e0c5a380800000000000000
+      internalID: -8960543778436445139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 429
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6d3e019308599a0800000000000000
+      internalID: -6226929927184984367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 419
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749b70ede8607b0c0800000000000000
+      internalID: -4560168887009167033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 423
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae95b549c60a3f520800000000000000
+      internalID: 2734705786949949930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 399
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7332cc28391fe8910800000000000000
+      internalID: 1841674913498014519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 391
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66eb6bc12a2c59880800000000000000
+      internalID: -8604757511499235738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 2473
+        y: 383
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5ffa7fb7fc34650800000000000000
+      internalID: 6216040042044847585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 401
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db0733e10fbca690800000000000000
+      internalID: -7589481257198220336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 419
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d189dd5b3f4875310800000000000000
+      internalID: 1393728791957575709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 385
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33ff93379f775f80800000000000000
+      internalID: -8117879515929119942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 299
+        width: 402
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8dfdf159b76384d0800000000000000
+      internalID: -3133546870077522550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1501
+        y: 391
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68974ef532689cd70800000000000000
+      internalID: 9063923211550620038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 325
+        width: 206
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d065ffd7e56b37e0800000000000000
+      internalID: -1784720780753018666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 2793
+        y: 393
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca0000925cf27d360800000000000000
+      internalID: 7194271453590585516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 2881
+        y: 325
+        width: 198
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c20bc3793fa6230800000000000000
+      internalID: 3632983880311516190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 3047
+        y: 405
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9bce845d9be9280800000000000000
+      internalID: -9034579476755990058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 3383
+        y: 397
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: debd6a752ad473b70800000000000000
+      internalID: 8878650550034815981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 371
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7932dbfd4fbf7500800000000000000
+      internalID: 396245633890138493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 385
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d165fff808c5af9e0800000000000000
+      internalID: -1586854211453233635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 367
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb5ab89ba0e725b0800000000000000
+      internalID: -5393095001146500168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 367
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f524dd0814963ec40800000000000000
+      internalID: 5540387696651616863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 3079
+        y: 371
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e164d19b7ec9670800000000000000
+      internalID: 8546960975088459407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 381
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f2aae702ef87db0800000000000000
+      internalID: -4793802387818402033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 3607
+        y: 377
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c1bee1e0251bf00800000000000000
+      internalID: 1130775202048449566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 349
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7d6abf314ffbb80800000000000000
+      internalID: -8376708415222261806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 305
+        width: 346
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d0266ea3fa846d0800000000000000
+      internalID: -3005960083761656444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 363
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be58b7a7b064b1c0800000000000000
+      internalID: -4488856586672382285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 3325
+        y: 319
+        width: 190
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7831d4b0929f91f60800000000000000
+      internalID: 8005703767306343303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 3441
+        y: 361
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c355aeb7791c36f0800000000000000
+      internalID: -703659439686331450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 319
+        width: 178
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c8e68559b0b15d0800000000000000
+      internalID: -3090863983198040985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 3571
+        y: 361
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 872fc70cca24a3820800000000000000
+      internalID: 2898702619897557624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 3667
+        y: 371
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a1e90911622fd30800000000000000
+      internalID: 4463672037560162934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 349
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31655cbc09c5ba0f0800000000000000
+      internalID: -1104687506625571309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 2483
+        y: 355
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6044f7c220e27cd0800000000000000
+      internalID: -2561738798032207763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 2489
+        y: 361
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb7b8f8bb3742030800000000000000
+      internalID: 3469024862386486216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 309
+        width: 284
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338474ac958cf66b0800000000000000
+      internalID: -5300797948420470733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 325
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9400159fd72876a50800000000000000
+      internalID: 6514318863580069961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_62
+      rect:
+        serializedVersion: 2
+        x: 1959
+        y: 321
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01acd7770b4fdddf0800000000000000
+      internalID: -153697773504574960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_63
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 315
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41598c2847845c320800000000000000
+      internalID: 2577546026987066644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_64
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 339
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d841571b06b0a1b0800000000000000
+      internalID: -5647313773970503468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_65
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 335
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a31f96c4660027a0800000000000000
+      internalID: -6404111640222035040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_66
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 339
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 418148af5ae321860800000000000000
+      internalID: 7499125212118784020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_67
+      rect:
+        serializedVersion: 2
+        x: 3301
+        y: 329
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aaf2d73eee20ce10800000000000000
+      internalID: 2215822617339951783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_68
+      rect:
+        serializedVersion: 2
+        x: 3707
+        y: 329
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd252aa1bef0a8c0800000000000000
+      internalID: -3989909230833029682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_69
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 325
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6586d970afd6dfc80800000000000000
+      internalID: -8287346818654836650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_70
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 315
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62981139f9e9a63e0800000000000000
+      internalID: -2059659471364191962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_71
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 315
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2211b94520918bb40800000000000000
+      internalID: 5456138446359433506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_72
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 325
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f292bd4fb175697b0800000000000000
+      internalID: -5217887340678403793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_73
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 321
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 290031cca08728ce0800000000000000
+      internalID: -1404428146017369966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_74
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 319
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e004b0618f42d5c20800000000000000
+      internalID: 3196751958443245582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_75
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 317
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cf3ea23b62f22f0800000000000000
+      internalID: -995534441665004512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_76
+      rect:
+        serializedVersion: 2
+        x: 3695
+        y: 325
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4d4947aeb715a00800000000000000
+      internalID: 743511660401317038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_77
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 315
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5b3c0654b964f80800000000000000
+      internalID: -8122634155637623323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_78
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 315
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446faf2f6d43502c0800000000000000
+      internalID: -4466105357663799740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_79
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 303
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 549cc44d1fe777790800000000000000
+      internalID: -7532412274639845051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_80
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 121
+        width: 46
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c3925941de53c00800000000000000
+      internalID: 879869974878436382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_81
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 143
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 150aa3ca7637b4f60800000000000000
+      internalID: 8019630450571649105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_82
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 123
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71353cd61419f6c70800000000000000
+      internalID: 8966545093318365975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_83
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 69
+        width: 40
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f22476841868a70800000000000000
+      internalID: 8828886267476455215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_84
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 93
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3784c53dc664addb0800000000000000
+      internalID: -4766419822401795981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_85
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 101
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a436ee586870959d0800000000000000
+      internalID: -2785186620197936310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_86
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 105
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2578b9e4508bdf0c0800000000000000
+      internalID: -4540270516386429102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_87
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 85
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1663edbb2121260800000000000000
+      internalID: 7066731363394019788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_88
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 49
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374197f3e843c3320800000000000000
+      internalID: 2538962075485017203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_89
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 55
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78704d9ce3db15340800000000000000
+      internalID: 4850866351026472839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_90
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 57
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a32f67ce7e5a15e60800000000000000
+      internalID: 7949317232808882746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_91
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 69
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfe0d99827bb0da0800000000000000
+      internalID: -5977482695397019696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_92
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 67
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5a678a4423f35ec0800000000000000
+      internalID: -3579249941634651553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_93
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 67
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8961f318a3bdb69e0800000000000000
+      internalID: -1626965796041320808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_platform_master_spritesheet_94
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 35
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538ea11a91e122a70800000000000000
+      internalID: 8800629717261281333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dullahan_platform_master_spritesheet_0: 1586829427761481147
+      dullahan_platform_master_spritesheet_1: 993777383014089859
+      dullahan_platform_master_spritesheet_10: 8571364491355110756
+      dullahan_platform_master_spritesheet_11: -1713184134865608428
+      dullahan_platform_master_spritesheet_12: -4699714919167987243
+      dullahan_platform_master_spritesheet_13: 4321260843984761652
+      dullahan_platform_master_spritesheet_14: 1711147158444512419
+      dullahan_platform_master_spritesheet_15: -9048006948466152465
+      dullahan_platform_master_spritesheet_16: 7424836631455592174
+      dullahan_platform_master_spritesheet_17: -6499323505124688638
+      dullahan_platform_master_spritesheet_18: 54869945788480942
+      dullahan_platform_master_spritesheet_19: -8449690737709864944
+      dullahan_platform_master_spritesheet_2: -51957812314857577
+      dullahan_platform_master_spritesheet_20: -5890365185398701775
+      dullahan_platform_master_spritesheet_21: -1771891163921929746
+      dullahan_platform_master_spritesheet_22: -6556268843292023623
+      dullahan_platform_master_spritesheet_23: 8401580856273455791
+      dullahan_platform_master_spritesheet_24: -9217003386613069576
+      dullahan_platform_master_spritesheet_25: -8960543778436445139
+      dullahan_platform_master_spritesheet_26: -6226929927184984367
+      dullahan_platform_master_spritesheet_27: -4560168887009167033
+      dullahan_platform_master_spritesheet_28: 2734705786949949930
+      dullahan_platform_master_spritesheet_29: 1841674913498014519
+      dullahan_platform_master_spritesheet_3: -5853091121086520438
+      dullahan_platform_master_spritesheet_30: -8604757511499235738
+      dullahan_platform_master_spritesheet_31: 6216040042044847585
+      dullahan_platform_master_spritesheet_32: -7589481257198220336
+      dullahan_platform_master_spritesheet_33: 1393728791957575709
+      dullahan_platform_master_spritesheet_34: -8117879515929119942
+      dullahan_platform_master_spritesheet_35: -3133546870077522550
+      dullahan_platform_master_spritesheet_36: 9063923211550620038
+      dullahan_platform_master_spritesheet_37: -1784720780753018666
+      dullahan_platform_master_spritesheet_38: 7194271453590585516
+      dullahan_platform_master_spritesheet_39: 3632983880311516190
+      dullahan_platform_master_spritesheet_4: -2977026180694788077
+      dullahan_platform_master_spritesheet_40: -9034579476755990058
+      dullahan_platform_master_spritesheet_41: 8878650550034815981
+      dullahan_platform_master_spritesheet_42: 396245633890138493
+      dullahan_platform_master_spritesheet_43: -1586854211453233635
+      dullahan_platform_master_spritesheet_44: -5393095001146500168
+      dullahan_platform_master_spritesheet_45: 5540387696651616863
+      dullahan_platform_master_spritesheet_46: 8546960975088459407
+      dullahan_platform_master_spritesheet_47: -4793802387818402033
+      dullahan_platform_master_spritesheet_48: 1130775202048449566
+      dullahan_platform_master_spritesheet_49: -8376708415222261806
+      dullahan_platform_master_spritesheet_5: -883032834487322670
+      dullahan_platform_master_spritesheet_50: -3005960083761656444
+      dullahan_platform_master_spritesheet_51: -4488856586672382285
+      dullahan_platform_master_spritesheet_52: 8005703767306343303
+      dullahan_platform_master_spritesheet_53: -703659439686331450
+      dullahan_platform_master_spritesheet_54: -3090863983198040985
+      dullahan_platform_master_spritesheet_55: 2898702619897557624
+      dullahan_platform_master_spritesheet_56: 4463672037560162934
+      dullahan_platform_master_spritesheet_57: -1104687506625571309
+      dullahan_platform_master_spritesheet_58: -2561738798032207763
+      dullahan_platform_master_spritesheet_59: 3469024862386486216
+      dullahan_platform_master_spritesheet_6: 2728182383534974814
+      dullahan_platform_master_spritesheet_60: -5300797948420470733
+      dullahan_platform_master_spritesheet_61: 6514318863580069961
+      dullahan_platform_master_spritesheet_62: -153697773504574960
+      dullahan_platform_master_spritesheet_63: 2577546026987066644
+      dullahan_platform_master_spritesheet_64: -5647313773970503468
+      dullahan_platform_master_spritesheet_65: -6404111640222035040
+      dullahan_platform_master_spritesheet_66: 7499125212118784020
+      dullahan_platform_master_spritesheet_67: 2215822617339951783
+      dullahan_platform_master_spritesheet_68: -3989909230833029682
+      dullahan_platform_master_spritesheet_69: -8287346818654836650
+      dullahan_platform_master_spritesheet_7: -264674098178697926
+      dullahan_platform_master_spritesheet_70: -2059659471364191962
+      dullahan_platform_master_spritesheet_71: 5456138446359433506
+      dullahan_platform_master_spritesheet_72: -5217887340678403793
+      dullahan_platform_master_spritesheet_73: -1404428146017369966
+      dullahan_platform_master_spritesheet_74: 3196751958443245582
+      dullahan_platform_master_spritesheet_75: -995534441665004512
+      dullahan_platform_master_spritesheet_76: 743511660401317038
+      dullahan_platform_master_spritesheet_77: -8122634155637623323
+      dullahan_platform_master_spritesheet_78: -4466105357663799740
+      dullahan_platform_master_spritesheet_79: -7532412274639845051
+      dullahan_platform_master_spritesheet_8: 6827709022664706101
+      dullahan_platform_master_spritesheet_80: 879869974878436382
+      dullahan_platform_master_spritesheet_81: 8019630450571649105
+      dullahan_platform_master_spritesheet_82: 8966545093318365975
+      dullahan_platform_master_spritesheet_83: 8828886267476455215
+      dullahan_platform_master_spritesheet_84: -4766419822401795981
+      dullahan_platform_master_spritesheet_85: -2785186620197936310
+      dullahan_platform_master_spritesheet_86: -4540270516386429102
+      dullahan_platform_master_spritesheet_87: 7066731363394019788
+      dullahan_platform_master_spritesheet_88: 2538962075485017203
+      dullahan_platform_master_spritesheet_89: 4850866351026472839
+      dullahan_platform_master_spritesheet_9: -6847049540685893041
+      dullahan_platform_master_spritesheet_90: 7949317232808882746
+      dullahan_platform_master_spritesheet_91: -5977482695397019696
+      dullahan_platform_master_spritesheet_92: -3579249941634651553
+      dullahan_platform_master_spritesheet_93: -1626965796041320808
+      dullahan_platform_master_spritesheet_94: 8800629717261281333
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

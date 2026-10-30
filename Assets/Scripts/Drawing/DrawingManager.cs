@@ -27,7 +27,7 @@ namespace MagicTouch.Drawing
         [Header("Multi-Stroke Hysteresis Timer")]
         [FormerlySerializedAs("_multiStrokeTimeout")]
         [Tooltip("Time in seconds to wait with fingers open before finalizing gesture (allows drawing multi-stroke shapes like 'X').")]
-        public float multiStrokeDelay = 0.35f;
+        public float multiStrokeDelay = 0.8f;
 
         [Tooltip("Live remaining time before the current gesture finalizes (Player 1).")]
         public float currentTimer = 0f;
@@ -426,9 +426,21 @@ namespace MagicTouch.Drawing
             }
         }
 
+        /// <summary>
+        /// A quick flick yields only a few tracking samples (about 30 per second, and the first and release frames are not drawn),
+        /// and the 28x28 raster joins consecutive points, so four points describe a V or a caret and three describe a straight line.
+        /// The scene's higher minimum made every stroke shorter than about 0.25 s vanish.
+        /// </summary>
+        private bool HasEnoughPoints(List<Point> points)
+        {
+            if (points == null) return false;
+            if (points.Count >= Mathf.Min(_minGesturePoints, 4)) return true;
+            return points.Count >= 3 && GestureCompletionPolicy.TryClassifyLine(points, out _);
+        }
+
         private PRecognitionResult RecognizePoints(List<Point> points)
         {
-            if (points.Count < _minGesturePoints) return PRecognitionResult.NoMatch;
+            if (!HasEnoughPoints(points)) return PRecognitionResult.NoMatch;
             if (_engine == RecognizerEngine.SentisNeuralNetwork && _sentisRecognizer != null && _sentisRecognizer.IsModelLoaded)
                 return _sentisRecognizer.Recognize(points);
             if (_pRecognizer == null) _pRecognizer = new PRecognizer(_recognitionThreshold, _distanceNormalizationFactor);
@@ -442,9 +454,9 @@ namespace MagicTouch.Drawing
             _pendingResult[handIndex] = candidate;
             _hasPendingResult[handIndex] = true;
             if (_pRecognizer == null) _pRecognizer = new PRecognizer(_recognitionThreshold, _distanceNormalizationFactor);
-            var geometry = points.Count >= _minGesturePoints ? _pRecognizer.Recognize(points.ToArray()) : PRecognitionResult.NoMatch;
+            var geometry = HasEnoughPoints(points) ? _pRecognizer.Recognize(points.ToArray()) : PRecognitionResult.NoMatch;
             if (GestureCompletionPolicy.CanCommit(points, candidate, geometry)) CommitGesture(handIndex);
-            else _currentTimer[handIndex] = Mathf.Clamp(multiStrokeDelay, 0.20f, 0.45f);
+            else _currentTimer[handIndex] = Mathf.Clamp(multiStrokeDelay, 0.20f, 0.8f);
         }
 
         private void CommitGesture(int handIndex)
@@ -981,7 +993,7 @@ namespace MagicTouch.Drawing
             List<Point> points = _accumulatedPoints[handIndex];
 
             // If user just tapped or stroke is too short, clear lines immediately
-            if (points == null || points.Count < _minGesturePoints)
+            if (points == null || !HasEnoughPoints(points))
             {
                 ClearAllLines(handIndex);
                 points?.Clear();

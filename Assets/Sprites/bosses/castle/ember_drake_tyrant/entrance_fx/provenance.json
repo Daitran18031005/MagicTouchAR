@@ -1,0 +1,7 @@
+{
+  "tool": "agent-sprite-forge 0.4.0 (generate2dmedia route_media + generate2dsprite process), ownership slicing, 24-colour palette finish",
+  "art_route": "local:codex-cli (image_gen), style reference = ember_drake_tyrant_entrance_fx.png",
+  "finish": "per-sheet 512/256 frame -> premultiplied area downscale to half -> shared 24-colour OKLab palette (13 reserved spec colours) -> binary alpha, orphan removal -> nearest x2",
+  "notes": "no creature in any sheet; roar_mouth_aura regenerated once because the first take read as an eye (kept in work dir only); lightning sheet = 3 bolts x 6 frames (left, right, centre); ground contact line aligned per sheet (origin_x/origin_y in the JSON)",
+  "work_dir": "Logs/ember_entrance_fx (git-ignored): specs.py, prompts/, raw/, pipeline.py"
+}

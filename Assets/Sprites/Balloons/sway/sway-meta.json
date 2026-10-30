@@ -1,0 +1,35 @@
+{
+ "name": "balloon_sway",
+ "frames_per_colour": 6,
+ "canvas": [
+  256,
+  256
+ ],
+ "ppu": 128,
+ "pivot": "centre (same as balloon_<colour>.png)",
+ "anchor_px": [
+  128,
+  246
+ ],
+ "art_source": "Codex CLI image generation (route local:codex-cli via generate2dmedia route_media.py), 1 master sheet (white balloon, pose guide as reference), keyed with the sprite-forge chroma pipeline, registered in code to the static balloon's scale/anchor, the other 9 colours recoloured from the existing balloon_<colour>.png ramps",
+ "sources": {
+  "prompt": "Logs/balloon_gen/prompt.txt",
+  "pose_guide": "Logs/balloon_gen/ref.png",
+  "raw": "Logs/balloon_gen/raw/v1/generated.png",
+  "scripts": [
+   "Logs/balloon_gen/register.py",
+   "Logs/balloon_gen/recolor.py"
+  ]
+ },
+ "loop": "0 rest, 1-2 lean right, 3 rest, 4-5 lean left; the string end stays on (128,246) so the creep's strings stay attached",
+ "runtime": "Assets/Resources/BalloonSwaySet.asset (built by Tools/MagicTouch/Sprites/Build Balloon Sway Set) played by CreepCluster.Tick",
+ "bodyOffsetPx": [
+  -0.2,
+  9.9,
+  11.9,
+  0.2,
+  -13.7,
+  -19.9
+ ],
+ "note_offsets": "horizontal offset of the balloon body in each frame; the symbol glyph follows it"
+}

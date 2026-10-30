@@ -1,0 +1,569 @@
+{
+ "name": "Vicious Bat",
+ "image": "vicious_bat_sheet.png",
+ "frame_size": [
+  64,
+  64
+ ],
+ "layout": "horizontal_strip",
+ "sheet_size": [
+  1024,
+  64
+ ],
+ "pixel_scale_hint": 4,
+ "center_x": 32.0,
+ "pivot_px": [
+  32,
+  61
+ ],
+ "balloon_attach_note": "Two strings rise symmetrically from a knot centred on x=32.0 (between pixel columns 31 and 32). Put the balloon sprite bottom-centre on balloon_attach_px of the current frame. balloon_attach_px is null on death frames where the balloon has let go.",
+ "frames": [
+  {
+   "name": "idle_0",
+   "x": 0,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    18.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    0,
+    1,
+    63,
+    59
+   ]
+  },
+  {
+   "name": "idle_1",
+   "x": 64,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    19.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    0,
+    1,
+    63,
+    60
+   ]
+  },
+  {
+   "name": "idle_2",
+   "x": 128,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    18.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    0,
+    1,
+    63,
+    59
+   ]
+  },
+  {
+   "name": "idle_3",
+   "x": 192,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    17.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    0,
+    1,
+    63,
+    58
+   ]
+  },
+  {
+   "name": "idle_cracked_0",
+   "x": 256,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    18.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    0,
+    1,
+    62,
+    59
+   ]
+  },
+  {
+   "name": "idle_cracked_1",
+   "x": 320,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    19.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    0,
+    1,
+    62,
+    60
+   ]
+  },
+  {
+   "name": "idle_cracked_2",
+   "x": 384,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    18.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    0,
+    1,
+    62,
+    59
+   ]
+  },
+  {
+   "name": "idle_cracked_3",
+   "x": 448,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    17.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    0,
+    1,
+    62,
+    58
+   ]
+  },
+  {
+   "name": "hurt_0",
+   "x": 512,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    17.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    1,
+    1,
+    63,
+    58
+   ]
+  },
+  {
+   "name": "hurt_1",
+   "x": 576,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    21.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    2,
+    1,
+    62,
+    64
+   ]
+  },
+  {
+   "name": "hurt_2",
+   "x": 640,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    20.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    2,
+    1,
+    62,
+    62
+   ]
+  },
+  {
+   "name": "hurt_3",
+   "x": 704,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    19.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    0,
+    1,
+    64,
+    60
+   ]
+  },
+  {
+   "name": "death_0",
+   "x": 768,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    18.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    1,
+    1,
+    63,
+    59
+   ]
+  },
+  {
+   "name": "death_1",
+   "x": 832,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    17.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    2,
+    1,
+    62,
+    58
+   ]
+  },
+  {
+   "name": "death_2",
+   "x": 896,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": null,
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    2,
+    10,
+    62,
+    55
+   ]
+  },
+  {
+   "name": "death_3",
+   "x": 960,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": null,
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    3,
+    16,
+    61,
+    50
+   ]
+  }
+ ],
+ "animations": {
+  "idle": {
+   "frames": [
+    "idle_0",
+    "idle_1",
+    "idle_2",
+    "idle_3"
+   ],
+   "duration_ms": [
+    110,
+    110,
+    110,
+    110
+   ],
+   "loop": true
+  },
+  "idle_cracked": {
+   "frames": [
+    "idle_cracked_0",
+    "idle_cracked_1",
+    "idle_cracked_2",
+    "idle_cracked_3"
+   ],
+   "duration_ms": [
+    110,
+    110,
+    110,
+    110
+   ],
+   "loop": true
+  },
+  "hurt": {
+   "frames": [
+    "hurt_0",
+    "hurt_1",
+    "hurt_2",
+    "hurt_3"
+   ],
+   "duration_ms": [
+    80,
+    110,
+    110,
+    140
+   ],
+   "loop": false
+  },
+  "death": {
+   "frames": [
+    "death_0",
+    "death_1",
+    "death_2",
+    "death_3"
+   ],
+   "duration_ms": [
+    90,
+    80,
+    90,
+    110
+   ],
+   "loop": false
+  }
+ },
+ "palette": {
+  "s": "#b8a8d8",
+  "i": "#b49eb7",
+  "d": "#23194f",
+  "h": "#2f1744",
+  "b": "#4b3a93",
+  "T": "#f7e8c5",
+  "r": "#e7a59c",
+  "y": "#ffd24a",
+  "f": "#6a3474",
+  "j": "#9c86a0",
+  "u": "#fbe6bc",
+  "k": "#0a0614",
+  "c": "#32256b",
+  "g": "#462356",
+  "Y": "#ff3a3a",
+  "e": "#b96b9f",
+  "n": "#d8a1a7",
+  "t": "#8f7070",
+  "m": "#86747b",
+  "o": "#ad838f",
+  "M": "#34113b",
+  "a": "#7665bc",
+  "P": "#d4738b",
+  "l": "#8e7a8a",
+  "p": "#99797e",
+  "q": "#8d7375",
+  "W": "#ffffff",
+  "w": "#dcdce8",
+  "v": "#a4a4bc"
+ },
+ "art_source": "Codex CLI image generation (64x64 pixel-native), then idle/idle_cracked/hurt rigged in code for part, colour, brightness and balloon-string sway",
+ "sheet_4x4": {
+  "image": "vicious_bat_sheet_4x4.png",
+  "sheet_size": [
+   256,
+   256
+  ],
+  "columns": 4,
+  "rows": 4,
+  "frames": [
+   {
+    "name": "idle_0",
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "idle_1",
+    "x": 64,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "idle_2",
+    "x": 128,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "idle_3",
+    "x": 192,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "idle_cracked_0",
+    "x": 0,
+    "y": 64,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "idle_cracked_1",
+    "x": 64,
+    "y": 64,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "idle_cracked_2",
+    "x": 128,
+    "y": 64,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "idle_cracked_3",
+    "x": 192,
+    "y": 64,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "hurt_0",
+    "x": 0,
+    "y": 128,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "hurt_1",
+    "x": 64,
+    "y": 128,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "hurt_2",
+    "x": 128,
+    "y": 128,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "hurt_3",
+    "x": 192,
+    "y": 128,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "death_0",
+    "x": 0,
+    "y": 192,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "death_1",
+    "x": 64,
+    "y": 192,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "death_2",
+    "x": 128,
+    "y": 192,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "death_3",
+    "x": 192,
+    "y": 192,
+    "w": 64,
+    "h": 64
+   }
+  ]
+ }
+}

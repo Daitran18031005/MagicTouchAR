@@ -1,0 +1,1664 @@
+fileFormatVersion: 2
+guid: 640a58b6479afb04a9acedcaa51419a1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3967029989288203840
+    second: ember_fire_tornado_0
+  - first:
+      213: 5804495334703981678
+    second: ember_fire_tornado_1
+  - first:
+      213: 4297840756826421288
+    second: ember_fire_tornado_2
+  - first:
+      213: -2514591518463597841
+    second: ember_fire_tornado_3
+  - first:
+      213: 123096251760119847
+    second: ember_fire_tornado_4
+  - first:
+      213: 3241693791819904532
+    second: ember_fire_tornado_5
+  - first:
+      213: 17921173734227428
+    second: ember_fire_tornado_6
+  - first:
+      213: -7823195626910485065
+    second: ember_fire_tornado_7
+  - first:
+      213: 8732386672064445751
+    second: ember_fire_tornado_8
+  - first:
+      213: -1824236217614986371
+    second: ember_fire_tornado_9
+  - first:
+      213: 4164764831878251518
+    second: ember_fire_tornado_10
+  - first:
+      213: -5719898619282642095
+    second: ember_fire_tornado_11
+  - first:
+      213: -1942118526431625169
+    second: ember_fire_tornado_12
+  - first:
+      213: 9034346172911360002
+    second: ember_fire_tornado_13
+  - first:
+      213: -5110641004546027919
+    second: ember_fire_tornado_14
+  - first:
+      213: -1819306128883560590
+    second: ember_fire_tornado_15
+  - first:
+      213: -8722252148236786817
+    second: ember_fire_tornado_16
+  - first:
+      213: -5762137308406263966
+    second: ember_fire_tornado_17
+  - first:
+      213: -983036305189442775
+    second: ember_fire_tornado_18
+  - first:
+      213: 4265031148256218599
+    second: ember_fire_tornado_19
+  - first:
+      213: -1179313490157413797
+    second: ember_fire_tornado_20
+  - first:
+      213: -6620744918799882889
+    second: ember_fire_tornado_21
+  - first:
+      213: -5331112876174543265
+    second: ember_fire_tornado_22
+  - first:
+      213: -3863698792283462994
+    second: ember_fire_tornado_23
+  - first:
+      213: 8481876426800156542
+    second: ember_fire_tornado_24
+  - first:
+      213: -611237457768424368
+    second: ember_fire_tornado_25
+  - first:
+      213: -931722750602065819
+    second: ember_fire_tornado_26
+  - first:
+      213: 1721468341828468646
+    second: ember_fire_tornado_27
+  - first:
+      213: -7683358986215000413
+    second: ember_fire_tornado_28
+  - first:
+      213: 1874080146093183223
+    second: ember_fire_tornado_29
+  - first:
+      213: 8014242312738677559
+    second: ember_fire_tornado_30
+  - first:
+      213: -7669031908492291774
+    second: ember_fire_tornado_31
+  - first:
+      213: -2292573975691426126
+    second: ember_fire_tornado_32
+  - first:
+      213: 999240762886318352
+    second: ember_fire_tornado_33
+  - first:
+      213: -5425138122187707585
+    second: ember_fire_tornado_34
+  - first:
+      213: 4849596350022899175
+    second: ember_fire_tornado_35
+  - first:
+      213: 415407544310055332
+    second: ember_fire_tornado_36
+  - first:
+      213: -6060686407479283109
+    second: ember_fire_tornado_37
+  - first:
+      213: 2855632330295749153
+    second: ember_fire_tornado_38
+  - first:
+      213: -1288920396986344458
+    second: ember_fire_tornado_39
+  - first:
+      213: -3149733841952036914
+    second: ember_fire_tornado_40
+  - first:
+      213: -2784480872427793960
+    second: ember_fire_tornado_41
+  - first:
+      213: 8774918551217652759
+    second: ember_fire_tornado_42
+  - first:
+      213: 1768924715441867978
+    second: ember_fire_tornado_43
+  - first:
+      213: -2273507670567361268
+    second: ember_fire_tornado_44
+  - first:
+      213: -5187360219653374455
+    second: ember_fire_tornado_45
+  - first:
+      213: -6036151197643668679
+    second: ember_fire_tornado_46
+  - first:
+      213: -2204756899565210134
+    second: ember_fire_tornado_47
+  - first:
+      213: 6784210909277321447
+    second: ember_fire_tornado_48
+  - first:
+      213: 7068696281628297928
+    second: ember_fire_tornado_49
+  - first:
+      213: 797269472185137926
+    second: ember_fire_tornado_50
+  - first:
+      213: -2846130784430324575
+    second: ember_fire_tornado_51
+  - first:
+      213: -8581512339038419664
+    second: ember_fire_tornado_52
+  - first:
+      213: -7344363085519713775
+    second: ember_fire_tornado_53
+  - first:
+      213: 8749614659067578575
+    second: ember_fire_tornado_54
+  - first:
+      213: -7528914700762212441
+    second: ember_fire_tornado_55
+  - first:
+      213: -8808801838626301807
+    second: ember_fire_tornado_56
+  - first:
+      213: -5357280030901757318
+    second: ember_fire_tornado_57
+  - first:
+      213: -792659433427075415
+    second: ember_fire_tornado_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ember_fire_tornado_0
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 51
+        width: 454
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04658dcc1c8bd0730800000000000000
+      internalID: 3967029989288203840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_1
+      rect:
+        serializedVersion: 2
+        x: 2651
+        y: 51
+        width: 376
+        height: 440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64617dd0c5bd8050800000000000000
+      internalID: 5804495334703981678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_2
+      rect:
+        serializedVersion: 2
+        x: 3851
+        y: 471
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828b5dbb56ff4ab30800000000000000
+      internalID: 4297840756826421288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_3
+      rect:
+        serializedVersion: 2
+        x: 3901
+        y: 433
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe264ca36506a1dd0800000000000000
+      internalID: -2514591518463597841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_4
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 53
+        width: 334
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7201857836355b100800000000000000
+      internalID: 123096251760119847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_5
+      rect:
+        serializedVersion: 2
+        x: 1871
+        y: 455
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 416b304145fccfc20800000000000000
+      internalID: 3241693791819904532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_6
+      rect:
+        serializedVersion: 2
+        x: 3889
+        y: 461
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4edf26a663baf3000800000000000000
+      internalID: 17921173734227428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_7
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 399
+        width: 36
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b57c91c60d6e6390800000000000000
+      internalID: -7823195626910485065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_8
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 373
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73db1cd796baf2970800000000000000
+      internalID: 8732386672064445751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_9
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 367
+        width: 44
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7318a643d20fa6e0800000000000000
+      internalID: -1824236217614986371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_10
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 421
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef384297c873cc930800000000000000
+      internalID: 4164764831878251518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_11
+      rect:
+        serializedVersion: 2
+        x: 3377
+        y: 419
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b2966d286de90b0800000000000000
+      internalID: -5719898619282642095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_12
+      rect:
+        serializedVersion: 2
+        x: 3383
+        y: 405
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2086507d753c05e0800000000000000
+      internalID: -1942118526431625169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_13
+      rect:
+        serializedVersion: 2
+        x: 3731
+        y: 51
+        width: 206
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2089a4e6af1706d70800000000000000
+      internalID: 9034346172911360002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_14
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 399
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e0d7d651b5319b0800000000000000
+      internalID: -5110641004546027919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_15
+      rect:
+        serializedVersion: 2
+        x: 3197
+        y: 51
+        width: 258
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f443207b680c6e0800000000000000
+      internalID: -1819306128883560590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_16
+      rect:
+        serializedVersion: 2
+        x: 3263
+        y: 401
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7365f632e554f680800000000000000
+      internalID: -8722252148236786817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_17
+      rect:
+        serializedVersion: 2
+        x: 3323
+        y: 397
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26f4b69a5a6c800b0800000000000000
+      internalID: -5762137308406263966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_18
+      rect:
+        serializedVersion: 2
+        x: 3711
+        y: 377
+        width: 22
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92beed350bd8b52f0800000000000000
+      internalID: -983036305189442775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_19
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 53
+        width: 326
+        height: 344
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7edc9c37b3f603b30800000000000000
+      internalID: 4265031148256218599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_20
+      rect:
+        serializedVersion: 2
+        x: 1627
+        y: 361
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a575401ac32afe0800000000000000
+      internalID: -1179313490157413797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_21
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 321
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 775e57613936e14a0800000000000000
+      internalID: -6620744918799882889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_22
+      rect:
+        serializedVersion: 2
+        x: 3927
+        y: 305
+        width: 42
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f56fa16a5151406b0800000000000000
+      internalID: -5331112876174543265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_23
+      rect:
+        serializedVersion: 2
+        x: 3937
+        y: 365
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2a6de4b62616ac0800000000000000
+      internalID: -3863698792283462994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_24
+      rect:
+        serializedVersion: 2
+        x: 2645
+        y: 331
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7fce28dbada5b570800000000000000
+      internalID: 8481876426800156542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_25
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 343
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05cdc4845c27487f0800000000000000
+      internalID: -611237457768424368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_26
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 285
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 568c635481bd113f0800000000000000
+      internalID: -931722750602065819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_27
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 309
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6af34ce0652e3e710800000000000000
+      internalID: 1721468341828468646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_28
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 309
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a679d0d5b93f5590800000000000000
+      internalID: -7683358986215000413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_29
+      rect:
+        serializedVersion: 2
+        x: 3431
+        y: 269
+        width: 52
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f01f7ca6f1120a10800000000000000
+      internalID: 1874080146093183223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_30
+      rect:
+        serializedVersion: 2
+        x: 3967
+        y: 303
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733a1b21cee483f60800000000000000
+      internalID: 8014242312738677559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_31
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 251
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2415e2b8c10229590800000000000000
+      internalID: -7669031908492291774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_32
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 291
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b68b9d9d142f20e0800000000000000
+      internalID: -2292573975691426126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_33
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 289
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019edecfd240edd00800000000000000
+      internalID: 999240762886318352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_34
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 273
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b62991f9906b4b0800000000000000
+      internalID: -5425138122187707585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_35
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 271
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e55523af2a3d4340800000000000000
+      internalID: 4849596350022899175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_36
+      rect:
+        serializedVersion: 2
+        x: 3919
+        y: 283
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a14e9be5f2d3c500800000000000000
+      internalID: 415407544310055332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_37
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 227
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52b823c2dd14eba0800000000000000
+      internalID: -6060686407479283109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_38
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 53
+        width: 250
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a2660897e31a720800000000000000
+      internalID: 2855632330295749153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_39
+      rect:
+        serializedVersion: 2
+        x: 3187
+        y: 239
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fb9fd95ab5dc1ee0800000000000000
+      internalID: -1288920396986344458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_40
+      rect:
+        serializedVersion: 2
+        x: 3441
+        y: 229
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec72c6d32c5e944d0800000000000000
+      internalID: -3149733841952036914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_41
+      rect:
+        serializedVersion: 2
+        x: 3723
+        y: 219
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1521b36698b59d0800000000000000
+      internalID: -2784480872427793960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_42
+      rect:
+        serializedVersion: 2
+        x: 3933
+        y: 243
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714405a4ee5c6c970800000000000000
+      internalID: 8774918551217652759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_43
+      rect:
+        serializedVersion: 2
+        x: 3965
+        y: 243
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc425218ab7c8810800000000000000
+      internalID: 1768924715441867978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_44
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 181
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05e4b5b1d0e270e0800000000000000
+      internalID: -2273507670567361268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_45
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 225
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e71913d5bc208b0800000000000000
+      internalID: -5187360219653374455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_46
+      rect:
+        serializedVersion: 2
+        x: 3951
+        y: 213
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93386e577784b3ca0800000000000000
+      internalID: -6036151197643668679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_47
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 51
+        width: 270
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5f259f7412761e0800000000000000
+      internalID: -2204756899565210134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_48
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 187
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8fdc0b0eb562e50800000000000000
+      internalID: 6784210909277321447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_49
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 179
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca449b01dd091260800000000000000
+      internalID: 7068696281628297928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_50
+      rect:
+        serializedVersion: 2
+        x: 3921
+        y: 185
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60bbbdf5c58701b00800000000000000
+      internalID: 797269472185137926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_51
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 147
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a40ab981238088d0800000000000000
+      internalID: -2846130784430324575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_52
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 151
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 035cbf39ef758e880800000000000000
+      internalID: -8581512339038419664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_53
+      rect:
+        serializedVersion: 2
+        x: 3711
+        y: 127
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11a0b129fa4931a90800000000000000
+      internalID: -7344363085519713775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_54
+      rect:
+        serializedVersion: 2
+        x: 3935
+        y: 113
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8064bcc20ec6970800000000000000
+      internalID: 8749614659067578575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_55
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 67
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a71ad438fbe38790800000000000000
+      internalID: -7528914700762212441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_56
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 67
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1981fd71669d0c580800000000000000
+      internalID: -8808801838626301807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_57
+      rect:
+        serializedVersion: 2
+        x: 3719
+        y: 75
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a9ecb223e17a5b0800000000000000
+      internalID: -5357280030901757318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_fire_tornado_58
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 69
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae77bae178eff4f0800000000000000
+      internalID: -792659433427075415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ember_fire_tornado_0: 3967029989288203840
+      ember_fire_tornado_1: 5804495334703981678
+      ember_fire_tornado_10: 4164764831878251518
+      ember_fire_tornado_11: -5719898619282642095
+      ember_fire_tornado_12: -1942118526431625169
+      ember_fire_tornado_13: 9034346172911360002
+      ember_fire_tornado_14: -5110641004546027919
+      ember_fire_tornado_15: -1819306128883560590
+      ember_fire_tornado_16: -8722252148236786817
+      ember_fire_tornado_17: -5762137308406263966
+      ember_fire_tornado_18: -983036305189442775
+      ember_fire_tornado_19: 4265031148256218599
+      ember_fire_tornado_2: 4297840756826421288
+      ember_fire_tornado_20: -1179313490157413797
+      ember_fire_tornado_21: -6620744918799882889
+      ember_fire_tornado_22: -5331112876174543265
+      ember_fire_tornado_23: -3863698792283462994
+      ember_fire_tornado_24: 8481876426800156542
+      ember_fire_tornado_25: -611237457768424368
+      ember_fire_tornado_26: -931722750602065819
+      ember_fire_tornado_27: 1721468341828468646
+      ember_fire_tornado_28: -7683358986215000413
+      ember_fire_tornado_29: 1874080146093183223
+      ember_fire_tornado_3: -2514591518463597841
+      ember_fire_tornado_30: 8014242312738677559
+      ember_fire_tornado_31: -7669031908492291774
+      ember_fire_tornado_32: -2292573975691426126
+      ember_fire_tornado_33: 999240762886318352
+      ember_fire_tornado_34: -5425138122187707585
+      ember_fire_tornado_35: 4849596350022899175
+      ember_fire_tornado_36: 415407544310055332
+      ember_fire_tornado_37: -6060686407479283109
+      ember_fire_tornado_38: 2855632330295749153
+      ember_fire_tornado_39: -1288920396986344458
+      ember_fire_tornado_4: 123096251760119847
+      ember_fire_tornado_40: -3149733841952036914
+      ember_fire_tornado_41: -2784480872427793960
+      ember_fire_tornado_42: 8774918551217652759
+      ember_fire_tornado_43: 1768924715441867978
+      ember_fire_tornado_44: -2273507670567361268
+      ember_fire_tornado_45: -5187360219653374455
+      ember_fire_tornado_46: -6036151197643668679
+      ember_fire_tornado_47: -2204756899565210134
+      ember_fire_tornado_48: 6784210909277321447
+      ember_fire_tornado_49: 7068696281628297928
+      ember_fire_tornado_5: 3241693791819904532
+      ember_fire_tornado_50: 797269472185137926
+      ember_fire_tornado_51: -2846130784430324575
+      ember_fire_tornado_52: -8581512339038419664
+      ember_fire_tornado_53: -7344363085519713775
+      ember_fire_tornado_54: 8749614659067578575
+      ember_fire_tornado_55: -7528914700762212441
+      ember_fire_tornado_56: -8808801838626301807
+      ember_fire_tornado_57: -5357280030901757318
+      ember_fire_tornado_58: -792659433427075415
+      ember_fire_tornado_6: 17921173734227428
+      ember_fire_tornado_7: -7823195626910485065
+      ember_fire_tornado_8: 8732386672064445751
+      ember_fire_tornado_9: -1824236217614986371
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 77e7ea4ab7c25aa448aff3c7ed5b1e7f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2904056217889683647
+    second: raging_lizard_sheet_4x4_0
+  - first:
+      213: 15614317075992180
+    second: raging_lizard_sheet_4x4_1
+  - first:
+      213: 3098551948871092761
+    second: raging_lizard_sheet_4x4_2
+  - first:
+      213: 5070182514935108249
+    second: raging_lizard_sheet_4x4_3
+  - first:
+      213: -542833901982064975
+    second: raging_lizard_sheet_4x4_4
+  - first:
+      213: -7725315074208379932
+    second: raging_lizard_sheet_4x4_5
+  - first:
+      213: 1974488483643826032
+    second: raging_lizard_sheet_4x4_6
+  - first:
+      213: -1113931980976967459
+    second: raging_lizard_sheet_4x4_7
+  - first:
+      213: 39186498915278804
+    second: raging_lizard_sheet_4x4_8
+  - first:
+      213: -974785152946878838
+    second: raging_lizard_sheet_4x4_9
+  - first:
+      213: -5516956040974118467
+    second: raging_lizard_sheet_4x4_10
+  - first:
+      213: 7807734324331571910
+    second: raging_lizard_sheet_4x4_11
+  - first:
+      213: -6981506881614784720
+    second: raging_lizard_sheet_4x4_12
+  - first:
+      213: 8016645232160995179
+    second: raging_lizard_sheet_4x4_13
+  - first:
+      213: -8439853422930353621
+    second: raging_lizard_sheet_4x4_14
+  - first:
+      213: 4977303205116686755
+    second: raging_lizard_sheet_4x4_15
+  - first:
+      213: 4635740586004343520
+    second: raging_lizard_sheet_4x4_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: raging_lizard_sheet_4x4_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 192
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8341b6eb74d4820800000000000000
+      internalID: 2904056217889683647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raging_lizard_sheet_4x4_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 128
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e89be7329773000800000000000000
+      internalID: 15614317075992180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raging_lizard_sheet_4x4_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 192
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a4e86a494400b20800000000000000
+      internalID: 3098551948871092761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raging_lizard_sheet_4x4_3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 128
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9929a156228ec5640800000000000000
+      internalID: 5070182514935108249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raging_lizard_sheet_4x4_4
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 192
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bed15431777778f0800000000000000
+      internalID: -542833901982064975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raging_lizard_sheet_4x4_5
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 128
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebc6d7deda2ac490800000000000000
+      internalID: -7725315074208379932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raging_lizard_sheet_4x4_6
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 192
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f90b880dac66b10800000000000000
+      internalID: 1974488483643826032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raging_lizard_sheet_4x4_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 128
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd0bbe1e3c48a80f0800000000000000
+      internalID: -1113931980976967459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raging_lizard_sheet_4x4_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 64
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df16d3c9e73b8000800000000000000
+      internalID: 39186498915278804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raging_lizard_sheet_4x4_9
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 46
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a86c64a611ed872f0800000000000000
+      internalID: -974785152946878838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raging_lizard_sheet_4x4_10
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 63
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1da48f5b5df63b0800000000000000
+      internalID: -5516956040974118467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raging_lizard_sheet_4x4_11
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 48
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca68663005aa5c60800000000000000
+      internalID: 7807734324331571910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raging_lizard_sheet_4x4_12
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 63
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 037d7641b74bc1f90800000000000000
+      internalID: -6981506881614784720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raging_lizard_sheet_4x4_13
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 55
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67f8495d58d04f60800000000000000
+      internalID: 8016645232160995179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raging_lizard_sheet_4x4_14
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 63
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b222fd1370e9fda80800000000000000
+      internalID: -8439853422930353621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raging_lizard_sheet_4x4_15
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 3
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1b468e4eee21540800000000000000
+      internalID: 4977303205116686755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: raging_lizard_sheet_4x4_16
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 7
+        width: 37
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea66a37085755040800000000000000
+      internalID: 4635740586004343520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      raging_lizard_sheet_4x4_0: 2904056217889683647
+      raging_lizard_sheet_4x4_1: 15614317075992180
+      raging_lizard_sheet_4x4_10: -5516956040974118467
+      raging_lizard_sheet_4x4_11: 7807734324331571910
+      raging_lizard_sheet_4x4_12: -6981506881614784720
+      raging_lizard_sheet_4x4_13: 8016645232160995179
+      raging_lizard_sheet_4x4_14: -8439853422930353621
+      raging_lizard_sheet_4x4_15: 4977303205116686755
+      raging_lizard_sheet_4x4_16: 4635740586004343520
+      raging_lizard_sheet_4x4_2: 3098551948871092761
+      raging_lizard_sheet_4x4_3: 5070182514935108249
+      raging_lizard_sheet_4x4_4: -542833901982064975
+      raging_lizard_sheet_4x4_5: -7725315074208379932
+      raging_lizard_sheet_4x4_6: 1974488483643826032
+      raging_lizard_sheet_4x4_7: -1113931980976967459
+      raging_lizard_sheet_4x4_8: 39186498915278804
+      raging_lizard_sheet_4x4_9: -974785152946878838
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

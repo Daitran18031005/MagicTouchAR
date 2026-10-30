@@ -1,0 +1,442 @@
+fileFormatVersion: 2
+guid: 197751230170249408e286ed70684a9c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8055451547338528033
+    second: dullahan_guard_motion_0
+  - first:
+      213: 2936558333580391086
+    second: dullahan_guard_motion_1
+  - first:
+      213: -8824533562276630770
+    second: dullahan_guard_motion_2
+  - first:
+      213: 8153014095962097712
+    second: dullahan_guard_motion_3
+  - first:
+      213: 2101900305277532669
+    second: dullahan_guard_motion_4
+  - first:
+      213: 4975725413066344857
+    second: dullahan_guard_motion_5
+  - first:
+      213: 5829131076813712128
+    second: dullahan_guard_motion_6
+  - first:
+      213: -6311943030294103979
+    second: dullahan_guard_motion_7
+  - first:
+      213: 5400321999965906387
+    second: dullahan_guard_motion_8
+  - first:
+      213: 3291118302896656035
+    second: dullahan_guard_motion_9
+  - first:
+      213: 6856457032860896758
+    second: dullahan_guard_motion_10
+  - first:
+      213: -3097413862373807673
+    second: dullahan_guard_motion_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dullahan_guard_motion_0
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 615
+        width: 296
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 125db70b086bacf60800000000000000
+      internalID: 8055451547338528033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_motion_1
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 547
+        width: 280
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2b54fee30c0c820800000000000000
+      internalID: 2936558333580391086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_motion_2
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 571
+        width: 290
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0f2dffba75f88580800000000000000
+      internalID: -8824533562276630770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_motion_3
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 551
+        width: 304
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038c29eaf13552170800000000000000
+      internalID: 8153014095962097712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_motion_4
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 39
+        width: 332
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df93a59f0337b2d10800000000000000
+      internalID: 2101900305277532669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_motion_5
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 317
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99904b196e35d0540800000000000000
+      internalID: 4975725413066344857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_motion_6
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 33
+        width: 312
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00bebae84db35e050800000000000000
+      internalID: 5829131076813712128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_motion_7
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 33
+        width: 314
+        height: 328
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55831dc81497768a0800000000000000
+      internalID: -6311943030294103979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_motion_8
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 19
+        width: 348
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d5e1b03f3cc1fa40800000000000000
+      internalID: 5400321999965906387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_motion_9
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 299
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ae01fdc8a66cad20800000000000000
+      internalID: 3291118302896656035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_motion_10
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 307
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd07652857072f50800000000000000
+      internalID: 6856457032860896758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dullahan_guard_motion_11
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 19
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9a6d2c086c305d0800000000000000
+      internalID: -3097413862373807673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      dullahan_guard_motion_0: 8055451547338528033
+      dullahan_guard_motion_1: 2936558333580391086
+      dullahan_guard_motion_10: 6856457032860896758
+      dullahan_guard_motion_11: -3097413862373807673
+      dullahan_guard_motion_2: -8824533562276630770
+      dullahan_guard_motion_3: 8153014095962097712
+      dullahan_guard_motion_4: 2101900305277532669
+      dullahan_guard_motion_5: 4975725413066344857
+      dullahan_guard_motion_6: 5829131076813712128
+      dullahan_guard_motion_7: -6311943030294103979
+      dullahan_guard_motion_8: 5400321999965906387
+      dullahan_guard_motion_9: 3291118302896656035
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

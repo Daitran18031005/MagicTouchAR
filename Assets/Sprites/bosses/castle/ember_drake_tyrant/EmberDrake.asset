@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc3a37d4e4f4b64f8472061547c49ed, type: 3}
+  m_Name: EmberDrake
+  m_EditorClassIdentifier: Assembly-CSharp::MagicTouch.Gameplay.BossDefinition
+  _displayName: EMBER DRAKE TYRANT
+  _animations: {fileID: 11400000, guid: b65c95f0dbb9a3148b0254307be8d8d8, type: 2}
+  _minionText: ROAD TO THE TYRANT
+  _introText: THE TYRANT APPROACHES!
+  _defeatedText: TYRANT DEFEATED!
+  _minionsBeforeBoss: 20
+  _surviveSeconds: 60
+  _refillSeconds: 1.2
+  _entranceBeforeRefill: 1
+  _feetOffset: 0
+  _damagePerBalloon: 10
+  _balloonsAround: 5
+  _balloonRerollSeconds: 6
+  _minionBarColor: {r: 0.45, g: 0.78, b: 0.22, a: 1}
+  _segments:
+  - name: Red
+    health: 100
+    barColor: {r: 0.94, g: 0.24, b: 0.12, a: 1}
+    restClip: idle
+    skills:
+    - {fileID: 11400000, guid: ee4bcc0e87c9d7441a2648f02861727f, type: 2}
+    - {fileID: 11400000, guid: 90435e6d6fc576b42b052ceba72eb21c, type: 2}
+    - {fileID: 11400000, guid: bcd15ac8d62958a4c9a18ab75d847a2d, type: 2}
+    castInterval: 4.2
+  - name: Green
+    health: 200
+    barColor: {r: 0.45, g: 0.78, b: 0.22, a: 1}
+    restClip: idle_cracked
+    skills:
+    - {fileID: 11400000, guid: ea1edcbb026c1d447958b65a56bbbb48, type: 2}
+    - {fileID: 11400000, guid: afe01078b560ed94bbfb9e370a3474d5, type: 2}
+    - {fileID: 11400000, guid: ee4bcc0e87c9d7441a2648f02861727f, type: 2}
+    - {fileID: 11400000, guid: 90435e6d6fc576b42b052ceba72eb21c, type: 2}
+    - {fileID: 11400000, guid: bcd15ac8d62958a4c9a18ab75d847a2d, type: 2}
+    castInterval: 3.6
+  _hurtClip: hurt
+  _deathClip: death
+  _hoverViewport: {x: 0.5, y: 0.7}
+  _scale: 1.5
+  _sortingOrder: 2
+  _balloonLaneX: 0.17
+  _balloonLaneY: {x: 0.36, y: 0.62}
+  _bodyWidth: 3.4
+  _platformScale: 1.25
+  _platformStand: 0.8
+  _dustScaleMultiple: 1.3
+  _hasEntrance: 1
+  _whirlwindClip: whirlwind
+  _pillarClip: pillar
+  _pillarOffset: {x: 0, y: -0.1}
+  _roarClip: roar
+  _roarSound: {fileID: 8300000, guid: dc74582735ce3384c86b834860a5c5f9, type: 3}
+  _whirlwindScaleMultiple: 1.4
+  _pillarScaleMultiple: 2
+  _pillarWidthFactor: 0.54
+  _pillarClearance: 1.2
+  _bodyHalfHeight: 1.94

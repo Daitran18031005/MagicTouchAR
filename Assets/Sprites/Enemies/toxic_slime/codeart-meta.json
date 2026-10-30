@@ -1,0 +1,6 @@
+{
+ "art_source": "Codex CLI image generation (64x64 pixel-native), then idle/idle_cracked/hurt rigged in code for part, colour, brightness and balloon-string sway",
+ "finish": "keyed, snapped to the enemy palette, registered to the original footprint, block-mode reduction (no interpolation), balloon strings copied from the previous frames, orphan pixels removed",
+ "note": "Idle and hurt frames are rebuilt from the Codex art by whole-pixel part motion (limbs, head, wings, weapons) plus colour/brightness pulses; death frames are the Codex frames. Originals: Logs/enemy_redraw/orig.",
+ "name": "toxic_slime"
+}

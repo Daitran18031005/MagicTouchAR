@@ -1,0 +1,4056 @@
+fileFormatVersion: 2
+guid: 1a6162d8b17990a46bc744509cc2c8e8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9096096190743042153
+    second: ember_roar_mouth_aura_0
+  - first:
+      213: 1520298058396577659
+    second: ember_roar_mouth_aura_1
+  - first:
+      213: 3515056256042384190
+    second: ember_roar_mouth_aura_2
+  - first:
+      213: -8956188412056614575
+    second: ember_roar_mouth_aura_3
+  - first:
+      213: -6060301608816234957
+    second: ember_roar_mouth_aura_4
+  - first:
+      213: -5786739928677167660
+    second: ember_roar_mouth_aura_5
+  - first:
+      213: 6049987292412771794
+    second: ember_roar_mouth_aura_6
+  - first:
+      213: 504006809522918390
+    second: ember_roar_mouth_aura_7
+  - first:
+      213: -5545905870938504659
+    second: ember_roar_mouth_aura_8
+  - first:
+      213: -1770634754181802102
+    second: ember_roar_mouth_aura_9
+  - first:
+      213: 8008882595945675303
+    second: ember_roar_mouth_aura_10
+  - first:
+      213: 5740112166914426610
+    second: ember_roar_mouth_aura_11
+  - first:
+      213: 7441876615771167726
+    second: ember_roar_mouth_aura_12
+  - first:
+      213: 4302964929987711914
+    second: ember_roar_mouth_aura_13
+  - first:
+      213: -2637858306537254873
+    second: ember_roar_mouth_aura_14
+  - first:
+      213: 3793150161160159752
+    second: ember_roar_mouth_aura_15
+  - first:
+      213: -3943181357930869936
+    second: ember_roar_mouth_aura_16
+  - first:
+      213: -7601993008964310549
+    second: ember_roar_mouth_aura_17
+  - first:
+      213: 2583418463837076153
+    second: ember_roar_mouth_aura_18
+  - first:
+      213: 4294592586608484278
+    second: ember_roar_mouth_aura_19
+  - first:
+      213: -6665549476211360447
+    second: ember_roar_mouth_aura_20
+  - first:
+      213: -3582890358270101306
+    second: ember_roar_mouth_aura_21
+  - first:
+      213: -6048835088163950234
+    second: ember_roar_mouth_aura_22
+  - first:
+      213: 809913171766049891
+    second: ember_roar_mouth_aura_23
+  - first:
+      213: -2561594270927640618
+    second: ember_roar_mouth_aura_24
+  - first:
+      213: -8145568274759990622
+    second: ember_roar_mouth_aura_25
+  - first:
+      213: 588685565304825752
+    second: ember_roar_mouth_aura_26
+  - first:
+      213: 749881085535663305
+    second: ember_roar_mouth_aura_27
+  - first:
+      213: 7743435928708158735
+    second: ember_roar_mouth_aura_28
+  - first:
+      213: 794327252753307942
+    second: ember_roar_mouth_aura_29
+  - first:
+      213: 9084514833385161331
+    second: ember_roar_mouth_aura_30
+  - first:
+      213: 3072734693741775561
+    second: ember_roar_mouth_aura_31
+  - first:
+      213: 4291595929875260821
+    second: ember_roar_mouth_aura_32
+  - first:
+      213: -2309370238249985717
+    second: ember_roar_mouth_aura_33
+  - first:
+      213: 4939083728282035334
+    second: ember_roar_mouth_aura_34
+  - first:
+      213: 7044351611751536936
+    second: ember_roar_mouth_aura_35
+  - first:
+      213: 5853088562368648163
+    second: ember_roar_mouth_aura_36
+  - first:
+      213: 7747702733721404659
+    second: ember_roar_mouth_aura_37
+  - first:
+      213: -4597336064476522096
+    second: ember_roar_mouth_aura_38
+  - first:
+      213: 9213360774290522505
+    second: ember_roar_mouth_aura_39
+  - first:
+      213: 7866337287735276067
+    second: ember_roar_mouth_aura_40
+  - first:
+      213: 5731749270999821801
+    second: ember_roar_mouth_aura_41
+  - first:
+      213: -4047996491648450771
+    second: ember_roar_mouth_aura_42
+  - first:
+      213: -77154174932638315
+    second: ember_roar_mouth_aura_43
+  - first:
+      213: 4076646965393985060
+    second: ember_roar_mouth_aura_44
+  - first:
+      213: 8012232137408154155
+    second: ember_roar_mouth_aura_45
+  - first:
+      213: -3117627945045636980
+    second: ember_roar_mouth_aura_46
+  - first:
+      213: 3687375254891802055
+    second: ember_roar_mouth_aura_47
+  - first:
+      213: -5473923708793066655
+    second: ember_roar_mouth_aura_48
+  - first:
+      213: -580583646085641429
+    second: ember_roar_mouth_aura_49
+  - first:
+      213: -2509847710666707605
+    second: ember_roar_mouth_aura_50
+  - first:
+      213: -6351049109751056698
+    second: ember_roar_mouth_aura_51
+  - first:
+      213: -1736901426039481860
+    second: ember_roar_mouth_aura_52
+  - first:
+      213: 6988862350585580159
+    second: ember_roar_mouth_aura_53
+  - first:
+      213: -164805022171836774
+    second: ember_roar_mouth_aura_54
+  - first:
+      213: 3549561991812408930
+    second: ember_roar_mouth_aura_55
+  - first:
+      213: -3699736184893049538
+    second: ember_roar_mouth_aura_56
+  - first:
+      213: -7313387242283780052
+    second: ember_roar_mouth_aura_57
+  - first:
+      213: -6678208147589061058
+    second: ember_roar_mouth_aura_58
+  - first:
+      213: -2400573505180039779
+    second: ember_roar_mouth_aura_59
+  - first:
+      213: -513965180412493544
+    second: ember_roar_mouth_aura_60
+  - first:
+      213: 6092972043776517119
+    second: ember_roar_mouth_aura_61
+  - first:
+      213: 7052261615208288383
+    second: ember_roar_mouth_aura_62
+  - first:
+      213: 7827662987521443676
+    second: ember_roar_mouth_aura_63
+  - first:
+      213: -5576978042934824535
+    second: ember_roar_mouth_aura_64
+  - first:
+      213: 3993755488880475503
+    second: ember_roar_mouth_aura_65
+  - first:
+      213: -7068193833773780200
+    second: ember_roar_mouth_aura_66
+  - first:
+      213: -2319925662848301253
+    second: ember_roar_mouth_aura_67
+  - first:
+      213: -8702056582270115092
+    second: ember_roar_mouth_aura_68
+  - first:
+      213: -2866750577498579529
+    second: ember_roar_mouth_aura_69
+  - first:
+      213: 7491023770694411628
+    second: ember_roar_mouth_aura_70
+  - first:
+      213: 8818421101837728771
+    second: ember_roar_mouth_aura_71
+  - first:
+      213: 6673000333984464212
+    second: ember_roar_mouth_aura_72
+  - first:
+      213: 3783894500433515396
+    second: ember_roar_mouth_aura_73
+  - first:
+      213: 306524868508811524
+    second: ember_roar_mouth_aura_74
+  - first:
+      213: -6161199352333114533
+    second: ember_roar_mouth_aura_75
+  - first:
+      213: -6919376095287356579
+    second: ember_roar_mouth_aura_76
+  - first:
+      213: -3904121820235094560
+    second: ember_roar_mouth_aura_77
+  - first:
+      213: 9106770115724509402
+    second: ember_roar_mouth_aura_78
+  - first:
+      213: 5322320389201727709
+    second: ember_roar_mouth_aura_79
+  - first:
+      213: -925790801760149374
+    second: ember_roar_mouth_aura_80
+  - first:
+      213: -7632232531257083311
+    second: ember_roar_mouth_aura_81
+  - first:
+      213: 2380207614073121920
+    second: ember_roar_mouth_aura_82
+  - first:
+      213: 900570398644289551
+    second: ember_roar_mouth_aura_83
+  - first:
+      213: -8625837670830706101
+    second: ember_roar_mouth_aura_84
+  - first:
+      213: -3053789749265132986
+    second: ember_roar_mouth_aura_85
+  - first:
+      213: 5007065158585250348
+    second: ember_roar_mouth_aura_86
+  - first:
+      213: -7950631962544528219
+    second: ember_roar_mouth_aura_87
+  - first:
+      213: -5268649053212888576
+    second: ember_roar_mouth_aura_88
+  - first:
+      213: -1476426787246292556
+    second: ember_roar_mouth_aura_89
+  - first:
+      213: -8705715926055724759
+    second: ember_roar_mouth_aura_90
+  - first:
+      213: 8731883489723086882
+    second: ember_roar_mouth_aura_91
+  - first:
+      213: -3648541334303115070
+    second: ember_roar_mouth_aura_92
+  - first:
+      213: -3771934548319936505
+    second: ember_roar_mouth_aura_93
+  - first:
+      213: 6508156231954284810
+    second: ember_roar_mouth_aura_94
+  - first:
+      213: 2634320110855844950
+    second: ember_roar_mouth_aura_95
+  - first:
+      213: -5569998111305563669
+    second: ember_roar_mouth_aura_96
+  - first:
+      213: 3670818418806336101
+    second: ember_roar_mouth_aura_97
+  - first:
+      213: -4556873617621080113
+    second: ember_roar_mouth_aura_98
+  - first:
+      213: 9141384228434628999
+    second: ember_roar_mouth_aura_99
+  - first:
+      213: -6467933789928978929
+    second: ember_roar_mouth_aura_100
+  - first:
+      213: 5138380904983919059
+    second: ember_roar_mouth_aura_101
+  - first:
+      213: 3751303775252457589
+    second: ember_roar_mouth_aura_102
+  - first:
+      213: 4741057284048658593
+    second: ember_roar_mouth_aura_103
+  - first:
+      213: -2546386777938792856
+    second: ember_roar_mouth_aura_104
+  - first:
+      213: -5719762233226159040
+    second: ember_roar_mouth_aura_105
+  - first:
+      213: -6951295777321138960
+    second: ember_roar_mouth_aura_106
+  - first:
+      213: 7324221287836145689
+    second: ember_roar_mouth_aura_107
+  - first:
+      213: -6042501659495039092
+    second: ember_roar_mouth_aura_108
+  - first:
+      213: 9171028051832016551
+    second: ember_roar_mouth_aura_109
+  - first:
+      213: 6016655852886620301
+    second: ember_roar_mouth_aura_110
+  - first:
+      213: -3213225342056599765
+    second: ember_roar_mouth_aura_111
+  - first:
+      213: 3258812402091202023
+    second: ember_roar_mouth_aura_112
+  - first:
+      213: 2193889502536630737
+    second: ember_roar_mouth_aura_113
+  - first:
+      213: 701619102406433795
+    second: ember_roar_mouth_aura_114
+  - first:
+      213: -3408092352418229241
+    second: ember_roar_mouth_aura_115
+  - first:
+      213: 3877716920274965702
+    second: ember_roar_mouth_aura_116
+  - first:
+      213: 7472189842398376686
+    second: ember_roar_mouth_aura_117
+  - first:
+      213: 3161382714863110249
+    second: ember_roar_mouth_aura_118
+  - first:
+      213: -5805072291401116568
+    second: ember_roar_mouth_aura_119
+  - first:
+      213: -1081595736592006890
+    second: ember_roar_mouth_aura_120
+  - first:
+      213: 2762664875799326927
+    second: ember_roar_mouth_aura_121
+  - first:
+      213: 8771559433743359279
+    second: ember_roar_mouth_aura_122
+  - first:
+      213: 1182135202128857056
+    second: ember_roar_mouth_aura_123
+  - first:
+      213: -7609748146234923274
+    second: ember_roar_mouth_aura_124
+  - first:
+      213: 1476829185540849003
+    second: ember_roar_mouth_aura_125
+  - first:
+      213: 6832846607063363632
+    second: ember_roar_mouth_aura_126
+  - first:
+      213: -8820261329551441632
+    second: ember_roar_mouth_aura_127
+  - first:
+      213: 5072532265979918865
+    second: ember_roar_mouth_aura_128
+  - first:
+      213: 442131480430400854
+    second: ember_roar_mouth_aura_129
+  - first:
+      213: 211403586484708986
+    second: ember_roar_mouth_aura_130
+  - first:
+      213: 2296285993323512102
+    second: ember_roar_mouth_aura_131
+  - first:
+      213: 8269053967900290339
+    second: ember_roar_mouth_aura_132
+  - first:
+      213: 8550810179261631463
+    second: ember_roar_mouth_aura_133
+  - first:
+      213: 5063070244472264382
+    second: ember_roar_mouth_aura_134
+  - first:
+      213: 7262358580707898787
+    second: ember_roar_mouth_aura_135
+  - first:
+      213: -3984299998937843496
+    second: ember_roar_mouth_aura_136
+  - first:
+      213: -6328811245084234787
+    second: ember_roar_mouth_aura_137
+  - first:
+      213: 2677191002269765957
+    second: ember_roar_mouth_aura_138
+  - first:
+      213: 7154721903361877162
+    second: ember_roar_mouth_aura_139
+  - first:
+      213: 2114759846803421028
+    second: ember_roar_mouth_aura_140
+  - first:
+      213: -5332762246579875536
+    second: ember_roar_mouth_aura_141
+  - first:
+      213: -6818795410678515389
+    second: ember_roar_mouth_aura_142
+  - first:
+      213: -1298884677479378965
+    second: ember_roar_mouth_aura_143
+  - first:
+      213: -275181420276475777
+    second: ember_roar_mouth_aura_144
+  - first:
+      213: -6786918457785870294
+    second: ember_roar_mouth_aura_145
+  - first:
+      213: -7563057879426153292
+    second: ember_roar_mouth_aura_146
+  - first:
+      213: -5353611414323497111
+    second: ember_roar_mouth_aura_147
+  - first:
+      213: 9154858016885306016
+    second: ember_roar_mouth_aura_148
+  - first:
+      213: 7169962743674564499
+    second: ember_roar_mouth_aura_149
+  - first:
+      213: -7713729602822585258
+    second: ember_roar_mouth_aura_150
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_0
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 237
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968d504da43db3e70800000000000000
+      internalID: 9096096190743042153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_1
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 243
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fa17b770f291510800000000000000
+      internalID: 1520298058396577659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_2
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 239
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3bbbe29a0df7c030800000000000000
+      internalID: 3515056256042384190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_3
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 239
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15945e5571a35b380800000000000000
+      internalID: -8956188412056614575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_4
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 239
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ea7ceabcb75eba0800000000000000
+      internalID: -6060301608816234957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_5
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 243
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ddc0afb1be51bfa0800000000000000
+      internalID: -5786739928677167660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_6
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 237
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ddf3e3636fd5f350800000000000000
+      internalID: 6049987292412771794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_7
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 235
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3ddfdd5879ef600800000000000000
+      internalID: 504006809522918390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_8
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 241
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2205fc6efbf803b0800000000000000
+      internalID: -5545905870938504659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_9
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 229
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87580282117d67e0800000000000000
+      internalID: -1770634754181802102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_10
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 23
+        width: 238
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a7623c944452f60800000000000000
+      internalID: 8008882595945675303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_11
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 233
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f605d77a99f8af40800000000000000
+      internalID: 5740112166914426610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_12
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 231
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb93517a5bd64760800000000000000
+      internalID: 7441876615771167726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_13
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 231
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa391e44ec337bb30800000000000000
+      internalID: 4302964929987711914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_14
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 235
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720980f98d1746bd0800000000000000
+      internalID: -2637858306537254873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_15
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 231
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802caaf79f9f3a430800000000000000
+      internalID: 3793150161160159752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_16
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 233
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b869362710749c0800000000000000
+      internalID: -3943181357930869936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_17
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 225
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9edaba2ab408690800000000000000
+      internalID: -7601993008964310549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_18
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 227
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bab133c7652ad320800000000000000
+      internalID: 2583418463837076153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_19
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 211
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf13db2435799b30800000000000000
+      internalID: 4294592586608484278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_20
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 225
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d71a521163f73a0800000000000000
+      internalID: -6665549476211360447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_21
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 29
+        width: 206
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8732eb334074ec0800000000000000
+      internalID: -3582890358270101306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_22
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 211
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 661b11119883e0ca0800000000000000
+      internalID: -6048835088163950234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_23
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 215
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36c76061db36d3b00800000000000000
+      internalID: 809913171766049891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_24
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 223
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d7aeae1593637cd0800000000000000
+      internalID: -2561594270927640618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_25
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 211
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a24d39afc025fe80800000000000000
+      internalID: -8145568274759990622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_26
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 117
+        width: 80
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897e464176e6b2800800000000000000
+      internalID: 588685565304825752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_27
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 219
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c4332fcfdc186a00800000000000000
+      internalID: 749881085535663305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_28
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 217
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0595af53f5367b60800000000000000
+      internalID: 7743435928708158735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_29
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 217
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 629d5c78d64060b00800000000000000
+      internalID: 794327252753307942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_30
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 205
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37280b0fb1ea21e70800000000000000
+      internalID: 9084514833385161331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_31
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 211
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca4f758ceb84aa20800000000000000
+      internalID: 3072734693741775561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_32
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 185
+        width: 36
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5952ab7a2cfce8b30800000000000000
+      internalID: 4291595929875260821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_33
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 205
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49104ef00873ffd0800000000000000
+      internalID: -2309370238249985717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_34
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 181
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684a9248b762b8440800000000000000
+      internalID: 4939083728282035334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_35
+      rect:
+        serializedVersion: 2
+        x: 1239
+        y: 211
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8299663e77092c160800000000000000
+      internalID: 7044351611751536936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_36
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 61
+        width: 126
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e392e659095a3150800000000000000
+      internalID: 5853088562368648163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_37
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 187
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f489c4569e558b60800000000000000
+      internalID: 7747702733721404659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_38
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 189
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099d8c3053bf230c0800000000000000
+      internalID: -4597336064476522096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_39
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 193
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 981ca1b4fce6cdf70800000000000000
+      internalID: 9213360774290522505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_40
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 187
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322fed6e518da2d60800000000000000
+      internalID: 7866337287735276067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_41
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 167
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ed6c8708934b8f40800000000000000
+      internalID: 5731749270999821801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_42
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 195
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f344753a0a2d7c0800000000000000
+      internalID: -4047996491648450771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_43
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 189
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 595a33acfa4edeef0800000000000000
+      internalID: -77154174932638315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_44
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 193
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e8bf6e0d8239830800000000000000
+      internalID: 4076646965393985060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_45
+      rect:
+        serializedVersion: 2
+        x: 1243
+        y: 167
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2a8e28adaa213f60800000000000000
+      internalID: 8012232137408154155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_46
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 153
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8849b1e6e5fbb4d0800000000000000
+      internalID: -3117627945045636980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_47
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 177
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd246df1403c2330800000000000000
+      internalID: 3687375254891802055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_48
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 153
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16becc19367b804b0800000000000000
+      internalID: -5473923708793066655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_49
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 177
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b0aacff3a51f7f0800000000000000
+      internalID: -580583646085641429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_50
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 145
+        width: 58
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d226d0eca3b2dd0800000000000000
+      internalID: -2509847710666707605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_51
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 173
+        width: 24
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c63a36eb7a8cd7a0800000000000000
+      internalID: -6351049109751056698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_52
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 179
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf91c030b5945e7e0800000000000000
+      internalID: -1736901426039481860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_53
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 159
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a41ce774d6df060800000000000000
+      internalID: 6988862350585580159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_54
+      rect:
+        serializedVersion: 2
+        x: 1207
+        y: 175
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9e4f3c94be76bdf0800000000000000
+      internalID: -164805022171836774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_55
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 175
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266e43e33d3924130800000000000000
+      internalID: 3549561991812408930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_56
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 165
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e357ac8ba85e7acc0800000000000000
+      internalID: -3699736184893049538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_57
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 171
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c283dc61d01a18a90800000000000000
+      internalID: -7313387242283780052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_58
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 161
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36a5da821d3253a0800000000000000
+      internalID: -6678208147589061058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_59
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 161
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d958786ad137faed0800000000000000
+      internalID: -2400573505180039779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_60
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 161
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811089a34670ed8f0800000000000000
+      internalID: -513965180412493544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_61
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 127
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff36fa7bac59e8450800000000000000
+      internalID: 6092972043776517119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_62
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 167
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f70dc95139aaed160800000000000000
+      internalID: 7052261615208288383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_63
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 159
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5740b0b30271ac60800000000000000
+      internalID: 7827662987521443676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_64
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 97
+        width: 72
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a177be94089a92b0800000000000000
+      internalID: -5576978042934824535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_65
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 155
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6dbc72157bac6730800000000000000
+      internalID: 3993755488880475503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_66
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 155
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 813be46382bb8ed90800000000000000
+      internalID: -7068193833773780200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_67
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 159
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b374d90b6e7fdcfd0800000000000000
+      internalID: -2319925662848301253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_68
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 151
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2a076d4a51c3780800000000000000
+      internalID: -8702056582270115092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_69
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 151
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd1d88d9814738d0800000000000000
+      internalID: -2866750577498579529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_70
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 149
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c656f382e6675f760800000000000000
+      internalID: 7491023770694411628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_71
+      rect:
+        serializedVersion: 2
+        x: 1053
+        y: 149
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cb8d62543516a70800000000000000
+      internalID: 8818421101837728771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_72
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 93
+        width: 54
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45df43dd2724b9c50800000000000000
+      internalID: 6673000333984464212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_73
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 149
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483d4ed0008138430800000000000000
+      internalID: 3783894500433515396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_74
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 139
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4018a4e6ebef04400800000000000000
+      internalID: 306524868508811524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_75
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 145
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5361dd15d50f7aa0800000000000000
+      internalID: -6161199352333114533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_76
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 145
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53511d0a1079ff90800000000000000
+      internalID: -6919376095287356579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_77
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e52901b3e5c1d9c0800000000000000
+      internalID: -3904121820235094560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_78
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad007e6ab2fb16e70800000000000000
+      internalID: 9106770115724509402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_79
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd01033f13eacd940800000000000000
+      internalID: 5322320389201727709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_80
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28023ccbb2ee623f0800000000000000
+      internalID: -925790801760149374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_81
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 125
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15abd3b33fcd41690800000000000000
+      internalID: -7632232531257083311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_82
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 125
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c2280d632380120800000000000000
+      internalID: 2380207614073121920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_83
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 123
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00cc6291087f7c00800000000000000
+      internalID: 900570398644289551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_84
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 123
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b42f3fb075eda4880800000000000000
+      internalID: -8625837670830706101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_85
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 129
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64292581762ce95d0800000000000000
+      internalID: -3053789749265132986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_86
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 129
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2275b0bb3bac7540800000000000000
+      internalID: 5007065158585250348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_87
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 131
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4aaa4ba5ea9a190800000000000000
+      internalID: -7950631962544528219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_88
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 31
+        width: 202
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0023c01c99ff1e6b0800000000000000
+      internalID: -5268649053212888576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_89
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 141
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b14051d8ada28be0800000000000000
+      internalID: -1476426787246292556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_90
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 141
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929dcf77d751f2780800000000000000
+      internalID: -8705715926055724759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_91
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 131
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 228fa0935c1ed2970800000000000000
+      internalID: 8731883489723086882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_92
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 127
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8788cbcf6cd5dc0800000000000000
+      internalID: -3648541334303115070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_93
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 113
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700ed5b438567abc0800000000000000
+      internalID: -3771934548319936505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_94
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 127
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01416c7c9d915a50800000000000000
+      internalID: 6508156231954284810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_95
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 127
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654fa300f2cfe8420800000000000000
+      internalID: 2634320110855844950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_96
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 127
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be109089a3463b2b0800000000000000
+      internalID: -5569998111305563669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_97
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 119
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56aa9ef27ed51f230800000000000000
+      internalID: 3670818418806336101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_98
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 119
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7a85f869bb2c0c0800000000000000
+      internalID: -4556873617621080113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_99
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 111
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781543bc588bcde70800000000000000
+      internalID: 9141384228434628999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_100
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 111
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0689849c784d36a0800000000000000
+      internalID: -6467933789928978929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_101
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 117
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9773275323f4740800000000000000
+      internalID: 5138380904983919059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_102
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 117
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 578218888ee4f0430800000000000000
+      internalID: 3751303775252457589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_103
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 117
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0af7b0b7e9bc140800000000000000
+      internalID: 4741057284048658593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_104
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ee43087ba69acd0800000000000000
+      internalID: -2546386777938792856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_105
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 85
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c1cd0bd825f90b0800000000000000
+      internalID: -5719762233226159040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_106
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 77
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4c910f159088f90800000000000000
+      internalID: -6951295777321138960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_107
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 101
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918d3d5b47cd4a560800000000000000
+      internalID: 7324221287836145689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_108
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 93
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8ff61751c8b42ca0800000000000000
+      internalID: -6042501659495039092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_109
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 93
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae07964c69064f70800000000000000
+      internalID: 9171028051832016551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_110
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 97
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88f41fde947f7350800000000000000
+      internalID: 6016655852886620301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_111
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 97
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fee6763945863d0800000000000000
+      internalID: -3213225342056599765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_112
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 97
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e598402d90a93d20800000000000000
+      internalID: 3258812402091202023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_113
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 97
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1872bf0e2427e10800000000000000
+      internalID: 2193889502536630737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_114
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 99
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c50963bd6acb900800000000000000
+      internalID: 701619102406433795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_115
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 99
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704d264ff0604b0d0800000000000000
+      internalID: -3408092352418229241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_116
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 87
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4d2847efa60d530800000000000000
+      internalID: 3877716920274965702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_117
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee2ff62821d82b760800000000000000
+      internalID: 7472189842398376686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_118
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968c97654dc7fdb20800000000000000
+      internalID: 3161382714863110249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_119
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 87
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864d29fe18d307fa0800000000000000
+      internalID: -5805072291401116568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_120
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 89
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6114bd978666df0f0800000000000000
+      internalID: -1081595736592006890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_121
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 87
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0b77b3115f65620800000000000000
+      internalID: 2762664875799326927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_122
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 75
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ddf7ec4d6dab970800000000000000
+      internalID: 8771559433743359279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_123
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 71
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7006ff3b9c76010800000000000000
+      internalID: 1182135202128857056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_124
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 65
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6ea71116eb46690800000000000000
+      internalID: -7609748146234923274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_125
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 65
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d7716d150ce7410800000000000000
+      internalID: 1476829185540849003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_126
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 77
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 030beb289c523de50800000000000000
+      internalID: 6832846607063363632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_127
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 77
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 021c8f17d03289580800000000000000
+      internalID: -8820261329551441632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_128
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 61
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ab0717831456640800000000000000
+      internalID: 5072532265979918865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_129
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 47
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 655521b2d34c22600800000000000000
+      internalID: 442131480430400854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_130
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 31
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a762aac117e0fe200800000000000000
+      internalID: 211403586484708986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_131
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 39
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621c0c6d1fb0edf10800000000000000
+      internalID: 2296285993323512102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_132
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 39
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d2b31c5c491c270800000000000000
+      internalID: 8269053967900290339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_133
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 31
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb0faccd849aa670800000000000000
+      internalID: 8550810179261631463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_134
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 29
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb69e92ef83a34640800000000000000
+      internalID: 5063070244472264382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_135
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 29
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5ba9ac6a419c460800000000000000
+      internalID: 7262358580707898787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_136
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 29
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d878bcb24ce4b8c0800000000000000
+      internalID: -3984299998937843496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_137
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 19
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddba14e34bb8b28a0800000000000000
+      internalID: -6328811245084234787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_138
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 29
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541592e380b472520800000000000000
+      internalID: 2677191002269765957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_139
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 29
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4679ce9adaa4360800000000000000
+      internalID: 7154721903361877162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_140
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 17
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4673afd40e2295d10800000000000000
+      internalID: 2114759846803421028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_141
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 17
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0311efcadf83ef5b0800000000000000
+      internalID: -5332762246579875536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_142
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 21
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349717693b5ce51a0800000000000000
+      internalID: -6818795410678515389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_143
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 27
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befc4a2844f69fde0800000000000000
+      internalID: -1298884677479378965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_144
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 27
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7812abc4fb5e2cf0800000000000000
+      internalID: -275181420276475777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_145
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 21
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28912c0f9500d1a0800000000000000
+      internalID: -6786918457785870294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_146
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 19
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4c511fdee9a0790800000000000000
+      internalID: -7563057879426153292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_147
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 11
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96775c788c624b5b0800000000000000
+      internalID: -5353611414323497111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_148
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 19
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2f591acd69c0f70800000000000000
+      internalID: 9154858016885306016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_149
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 19
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39fe1859023d08360800000000000000
+      internalID: 7169962743674564499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_mouth_aura_150
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 15
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 654485a9bc353f490800000000000000
+      internalID: -7713729602822585258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ember_roar_mouth_aura_0: 9096096190743042153
+      ember_roar_mouth_aura_1: 1520298058396577659
+      ember_roar_mouth_aura_10: 8008882595945675303
+      ember_roar_mouth_aura_100: -6467933789928978929
+      ember_roar_mouth_aura_101: 5138380904983919059
+      ember_roar_mouth_aura_102: 3751303775252457589
+      ember_roar_mouth_aura_103: 4741057284048658593
+      ember_roar_mouth_aura_104: -2546386777938792856
+      ember_roar_mouth_aura_105: -5719762233226159040
+      ember_roar_mouth_aura_106: -6951295777321138960
+      ember_roar_mouth_aura_107: 7324221287836145689
+      ember_roar_mouth_aura_108: -6042501659495039092
+      ember_roar_mouth_aura_109: 9171028051832016551
+      ember_roar_mouth_aura_11: 5740112166914426610
+      ember_roar_mouth_aura_110: 6016655852886620301
+      ember_roar_mouth_aura_111: -3213225342056599765
+      ember_roar_mouth_aura_112: 3258812402091202023
+      ember_roar_mouth_aura_113: 2193889502536630737
+      ember_roar_mouth_aura_114: 701619102406433795
+      ember_roar_mouth_aura_115: -3408092352418229241
+      ember_roar_mouth_aura_116: 3877716920274965702
+      ember_roar_mouth_aura_117: 7472189842398376686
+      ember_roar_mouth_aura_118: 3161382714863110249
+      ember_roar_mouth_aura_119: -5805072291401116568
+      ember_roar_mouth_aura_12: 7441876615771167726
+      ember_roar_mouth_aura_120: -1081595736592006890
+      ember_roar_mouth_aura_121: 2762664875799326927
+      ember_roar_mouth_aura_122: 8771559433743359279
+      ember_roar_mouth_aura_123: 1182135202128857056
+      ember_roar_mouth_aura_124: -7609748146234923274
+      ember_roar_mouth_aura_125: 1476829185540849003
+      ember_roar_mouth_aura_126: 6832846607063363632
+      ember_roar_mouth_aura_127: -8820261329551441632
+      ember_roar_mouth_aura_128: 5072532265979918865
+      ember_roar_mouth_aura_129: 442131480430400854
+      ember_roar_mouth_aura_13: 4302964929987711914
+      ember_roar_mouth_aura_130: 211403586484708986
+      ember_roar_mouth_aura_131: 2296285993323512102
+      ember_roar_mouth_aura_132: 8269053967900290339
+      ember_roar_mouth_aura_133: 8550810179261631463
+      ember_roar_mouth_aura_134: 5063070244472264382
+      ember_roar_mouth_aura_135: 7262358580707898787
+      ember_roar_mouth_aura_136: -3984299998937843496
+      ember_roar_mouth_aura_137: -6328811245084234787
+      ember_roar_mouth_aura_138: 2677191002269765957
+      ember_roar_mouth_aura_139: 7154721903361877162
+      ember_roar_mouth_aura_14: -2637858306537254873
+      ember_roar_mouth_aura_140: 2114759846803421028
+      ember_roar_mouth_aura_141: -5332762246579875536
+      ember_roar_mouth_aura_142: -6818795410678515389
+      ember_roar_mouth_aura_143: -1298884677479378965
+      ember_roar_mouth_aura_144: -275181420276475777
+      ember_roar_mouth_aura_145: -6786918457785870294
+      ember_roar_mouth_aura_146: -7563057879426153292
+      ember_roar_mouth_aura_147: -5353611414323497111
+      ember_roar_mouth_aura_148: 9154858016885306016
+      ember_roar_mouth_aura_149: 7169962743674564499
+      ember_roar_mouth_aura_15: 3793150161160159752
+      ember_roar_mouth_aura_150: -7713729602822585258
+      ember_roar_mouth_aura_16: -3943181357930869936
+      ember_roar_mouth_aura_17: -7601993008964310549
+      ember_roar_mouth_aura_18: 2583418463837076153
+      ember_roar_mouth_aura_19: 4294592586608484278
+      ember_roar_mouth_aura_2: 3515056256042384190
+      ember_roar_mouth_aura_20: -6665549476211360447
+      ember_roar_mouth_aura_21: -3582890358270101306
+      ember_roar_mouth_aura_22: -6048835088163950234
+      ember_roar_mouth_aura_23: 809913171766049891
+      ember_roar_mouth_aura_24: -2561594270927640618
+      ember_roar_mouth_aura_25: -8145568274759990622
+      ember_roar_mouth_aura_26: 588685565304825752
+      ember_roar_mouth_aura_27: 749881085535663305
+      ember_roar_mouth_aura_28: 7743435928708158735
+      ember_roar_mouth_aura_29: 794327252753307942
+      ember_roar_mouth_aura_3: -8956188412056614575
+      ember_roar_mouth_aura_30: 9084514833385161331
+      ember_roar_mouth_aura_31: 3072734693741775561
+      ember_roar_mouth_aura_32: 4291595929875260821
+      ember_roar_mouth_aura_33: -2309370238249985717
+      ember_roar_mouth_aura_34: 4939083728282035334
+      ember_roar_mouth_aura_35: 7044351611751536936
+      ember_roar_mouth_aura_36: 5853088562368648163
+      ember_roar_mouth_aura_37: 7747702733721404659
+      ember_roar_mouth_aura_38: -4597336064476522096
+      ember_roar_mouth_aura_39: 9213360774290522505
+      ember_roar_mouth_aura_4: -6060301608816234957
+      ember_roar_mouth_aura_40: 7866337287735276067
+      ember_roar_mouth_aura_41: 5731749270999821801
+      ember_roar_mouth_aura_42: -4047996491648450771
+      ember_roar_mouth_aura_43: -77154174932638315
+      ember_roar_mouth_aura_44: 4076646965393985060
+      ember_roar_mouth_aura_45: 8012232137408154155
+      ember_roar_mouth_aura_46: -3117627945045636980
+      ember_roar_mouth_aura_47: 3687375254891802055
+      ember_roar_mouth_aura_48: -5473923708793066655
+      ember_roar_mouth_aura_49: -580583646085641429
+      ember_roar_mouth_aura_5: -5786739928677167660
+      ember_roar_mouth_aura_50: -2509847710666707605
+      ember_roar_mouth_aura_51: -6351049109751056698
+      ember_roar_mouth_aura_52: -1736901426039481860
+      ember_roar_mouth_aura_53: 6988862350585580159
+      ember_roar_mouth_aura_54: -164805022171836774
+      ember_roar_mouth_aura_55: 3549561991812408930
+      ember_roar_mouth_aura_56: -3699736184893049538
+      ember_roar_mouth_aura_57: -7313387242283780052
+      ember_roar_mouth_aura_58: -6678208147589061058
+      ember_roar_mouth_aura_59: -2400573505180039779
+      ember_roar_mouth_aura_6: 6049987292412771794
+      ember_roar_mouth_aura_60: -513965180412493544
+      ember_roar_mouth_aura_61: 6092972043776517119
+      ember_roar_mouth_aura_62: 7052261615208288383
+      ember_roar_mouth_aura_63: 7827662987521443676
+      ember_roar_mouth_aura_64: -5576978042934824535
+      ember_roar_mouth_aura_65: 3993755488880475503
+      ember_roar_mouth_aura_66: -7068193833773780200
+      ember_roar_mouth_aura_67: -2319925662848301253
+      ember_roar_mouth_aura_68: -8702056582270115092
+      ember_roar_mouth_aura_69: -2866750577498579529
+      ember_roar_mouth_aura_7: 504006809522918390
+      ember_roar_mouth_aura_70: 7491023770694411628
+      ember_roar_mouth_aura_71: 8818421101837728771
+      ember_roar_mouth_aura_72: 6673000333984464212
+      ember_roar_mouth_aura_73: 3783894500433515396
+      ember_roar_mouth_aura_74: 306524868508811524
+      ember_roar_mouth_aura_75: -6161199352333114533
+      ember_roar_mouth_aura_76: -6919376095287356579
+      ember_roar_mouth_aura_77: -3904121820235094560
+      ember_roar_mouth_aura_78: 9106770115724509402
+      ember_roar_mouth_aura_79: 5322320389201727709
+      ember_roar_mouth_aura_8: -5545905870938504659
+      ember_roar_mouth_aura_80: -925790801760149374
+      ember_roar_mouth_aura_81: -7632232531257083311
+      ember_roar_mouth_aura_82: 2380207614073121920
+      ember_roar_mouth_aura_83: 900570398644289551
+      ember_roar_mouth_aura_84: -8625837670830706101
+      ember_roar_mouth_aura_85: -3053789749265132986
+      ember_roar_mouth_aura_86: 5007065158585250348
+      ember_roar_mouth_aura_87: -7950631962544528219
+      ember_roar_mouth_aura_88: -5268649053212888576
+      ember_roar_mouth_aura_89: -1476426787246292556
+      ember_roar_mouth_aura_9: -1770634754181802102
+      ember_roar_mouth_aura_90: -8705715926055724759
+      ember_roar_mouth_aura_91: 8731883489723086882
+      ember_roar_mouth_aura_92: -3648541334303115070
+      ember_roar_mouth_aura_93: -3771934548319936505
+      ember_roar_mouth_aura_94: 6508156231954284810
+      ember_roar_mouth_aura_95: 2634320110855844950
+      ember_roar_mouth_aura_96: -5569998111305563669
+      ember_roar_mouth_aura_97: 3670818418806336101
+      ember_roar_mouth_aura_98: -4556873617621080113
+      ember_roar_mouth_aura_99: 9141384228434628999
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

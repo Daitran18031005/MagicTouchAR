@@ -69,3 +69,5 @@ Tools/unity-rpc.cjs
 Tools/unity-request.json
 
 .codex/
+.forge/
+.mcp.json

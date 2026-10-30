@@ -1,0 +1,4316 @@
+fileFormatVersion: 2
+guid: e1fe10d8267a9f543b66129a10644ac4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1913183607732396571
+    second: ember_demonic_wind_0
+  - first:
+      213: -5357177365013746364
+    second: ember_demonic_wind_1
+  - first:
+      213: -8921491210967920803
+    second: ember_demonic_wind_2
+  - first:
+      213: 7512457992443355741
+    second: ember_demonic_wind_3
+  - first:
+      213: 7588711611076843339
+    second: ember_demonic_wind_4
+  - first:
+      213: -5400581164784030723
+    second: ember_demonic_wind_5
+  - first:
+      213: -8572024960669159638
+    second: ember_demonic_wind_6
+  - first:
+      213: -5665661804064261704
+    second: ember_demonic_wind_7
+  - first:
+      213: 1544011589180336952
+    second: ember_demonic_wind_8
+  - first:
+      213: 4021701646639135302
+    second: ember_demonic_wind_9
+  - first:
+      213: -1934763022973087623
+    second: ember_demonic_wind_10
+  - first:
+      213: -6195660363055399131
+    second: ember_demonic_wind_11
+  - first:
+      213: -3760430290841921623
+    second: ember_demonic_wind_12
+  - first:
+      213: -7793796807180216440
+    second: ember_demonic_wind_13
+  - first:
+      213: 817323008749758121
+    second: ember_demonic_wind_14
+  - first:
+      213: -7152050462582070956
+    second: ember_demonic_wind_15
+  - first:
+      213: 7269168014557930930
+    second: ember_demonic_wind_16
+  - first:
+      213: 5031931277489671345
+    second: ember_demonic_wind_17
+  - first:
+      213: -1533529190894066993
+    second: ember_demonic_wind_18
+  - first:
+      213: 2550339044351391027
+    second: ember_demonic_wind_19
+  - first:
+      213: 3049959471653484635
+    second: ember_demonic_wind_20
+  - first:
+      213: -3175491992619257323
+    second: ember_demonic_wind_21
+  - first:
+      213: 9051434360437914238
+    second: ember_demonic_wind_22
+  - first:
+      213: -5067642853020887685
+    second: ember_demonic_wind_23
+  - first:
+      213: 9191071464429184870
+    second: ember_demonic_wind_24
+  - first:
+      213: -5778867388778532522
+    second: ember_demonic_wind_25
+  - first:
+      213: 526761196548500691
+    second: ember_demonic_wind_26
+  - first:
+      213: 8236648226952319809
+    second: ember_demonic_wind_27
+  - first:
+      213: 284924986678246791
+    second: ember_demonic_wind_28
+  - first:
+      213: 179518410296135288
+    second: ember_demonic_wind_29
+  - first:
+      213: -9035854702766168877
+    second: ember_demonic_wind_30
+  - first:
+      213: -465144959807073902
+    second: ember_demonic_wind_31
+  - first:
+      213: 2846917827964235026
+    second: ember_demonic_wind_32
+  - first:
+      213: 5789918561160904795
+    second: ember_demonic_wind_33
+  - first:
+      213: -5370387561887709117
+    second: ember_demonic_wind_34
+  - first:
+      213: -3314295032709802007
+    second: ember_demonic_wind_35
+  - first:
+      213: 4977949263961216963
+    second: ember_demonic_wind_36
+  - first:
+      213: 3081460781729910006
+    second: ember_demonic_wind_37
+  - first:
+      213: 2919705899959511506
+    second: ember_demonic_wind_38
+  - first:
+      213: -6500312156707393418
+    second: ember_demonic_wind_39
+  - first:
+      213: -3891729376263951148
+    second: ember_demonic_wind_40
+  - first:
+      213: 706299580475433938
+    second: ember_demonic_wind_41
+  - first:
+      213: 2285438007635058310
+    second: ember_demonic_wind_42
+  - first:
+      213: -3124808680181442636
+    second: ember_demonic_wind_43
+  - first:
+      213: -3964047281059325576
+    second: ember_demonic_wind_44
+  - first:
+      213: -828219406945830107
+    second: ember_demonic_wind_45
+  - first:
+      213: -2785513416781039020
+    second: ember_demonic_wind_46
+  - first:
+      213: -5444395239772165352
+    second: ember_demonic_wind_47
+  - first:
+      213: 2352550489136972132
+    second: ember_demonic_wind_48
+  - first:
+      213: -5670407175100830994
+    second: ember_demonic_wind_49
+  - first:
+      213: -8523742646487184576
+    second: ember_demonic_wind_50
+  - first:
+      213: 2940621284275693847
+    second: ember_demonic_wind_51
+  - first:
+      213: -7146990829947308570
+    second: ember_demonic_wind_52
+  - first:
+      213: 9131869046954840851
+    second: ember_demonic_wind_53
+  - first:
+      213: 5794157908151603308
+    second: ember_demonic_wind_54
+  - first:
+      213: -8861700959051526670
+    second: ember_demonic_wind_55
+  - first:
+      213: -347961310023827014
+    second: ember_demonic_wind_56
+  - first:
+      213: -5143114763993526148
+    second: ember_demonic_wind_57
+  - first:
+      213: -6333023428642208688
+    second: ember_demonic_wind_58
+  - first:
+      213: 2527622403764788716
+    second: ember_demonic_wind_59
+  - first:
+      213: -5478874554262240812
+    second: ember_demonic_wind_60
+  - first:
+      213: -4651079153555249566
+    second: ember_demonic_wind_61
+  - first:
+      213: 1308841535770807757
+    second: ember_demonic_wind_62
+  - first:
+      213: 1772554011974847476
+    second: ember_demonic_wind_63
+  - first:
+      213: 7908071710266904373
+    second: ember_demonic_wind_64
+  - first:
+      213: -7125911252765458430
+    second: ember_demonic_wind_65
+  - first:
+      213: 4993119444264517577
+    second: ember_demonic_wind_66
+  - first:
+      213: -8055017560678639533
+    second: ember_demonic_wind_67
+  - first:
+      213: -8833675293482176756
+    second: ember_demonic_wind_68
+  - first:
+      213: 6213770897956007410
+    second: ember_demonic_wind_69
+  - first:
+      213: -7407187191074590434
+    second: ember_demonic_wind_70
+  - first:
+      213: 8476451494664438529
+    second: ember_demonic_wind_71
+  - first:
+      213: 6188013856555718081
+    second: ember_demonic_wind_72
+  - first:
+      213: -597723113915135816
+    second: ember_demonic_wind_73
+  - first:
+      213: -7115089178517178736
+    second: ember_demonic_wind_74
+  - first:
+      213: 254020396587809689
+    second: ember_demonic_wind_75
+  - first:
+      213: 795715234203264457
+    second: ember_demonic_wind_76
+  - first:
+      213: -4757559799932995965
+    second: ember_demonic_wind_77
+  - first:
+      213: 1559356263751598828
+    second: ember_demonic_wind_78
+  - first:
+      213: -574823724557860775
+    second: ember_demonic_wind_79
+  - first:
+      213: 6154935206463463604
+    second: ember_demonic_wind_80
+  - first:
+      213: -1045458814618218017
+    second: ember_demonic_wind_81
+  - first:
+      213: 7370671991634378563
+    second: ember_demonic_wind_82
+  - first:
+      213: 1609920658999441863
+    second: ember_demonic_wind_83
+  - first:
+      213: 1082876861504611779
+    second: ember_demonic_wind_84
+  - first:
+      213: -5323638360518879035
+    second: ember_demonic_wind_85
+  - first:
+      213: -2024348781112199169
+    second: ember_demonic_wind_86
+  - first:
+      213: -4764021297963783206
+    second: ember_demonic_wind_87
+  - first:
+      213: -4894948407093868411
+    second: ember_demonic_wind_88
+  - first:
+      213: 2554829039313145122
+    second: ember_demonic_wind_89
+  - first:
+      213: -617867753286531295
+    second: ember_demonic_wind_90
+  - first:
+      213: 8835986274770095069
+    second: ember_demonic_wind_91
+  - first:
+      213: -3885917988240714126
+    second: ember_demonic_wind_92
+  - first:
+      213: -4979985662630407037
+    second: ember_demonic_wind_93
+  - first:
+      213: 8146414528221561424
+    second: ember_demonic_wind_94
+  - first:
+      213: -2740106836391666889
+    second: ember_demonic_wind_95
+  - first:
+      213: -7571409604706681416
+    second: ember_demonic_wind_96
+  - first:
+      213: 2426162802541898164
+    second: ember_demonic_wind_97
+  - first:
+      213: -1211106036167477143
+    second: ember_demonic_wind_98
+  - first:
+      213: -502466680276901668
+    second: ember_demonic_wind_99
+  - first:
+      213: -5753301038224096141
+    second: ember_demonic_wind_100
+  - first:
+      213: 3347152627625416990
+    second: ember_demonic_wind_101
+  - first:
+      213: -7943318021078187721
+    second: ember_demonic_wind_102
+  - first:
+      213: 1686511280269654207
+    second: ember_demonic_wind_103
+  - first:
+      213: 2919590263631949993
+    second: ember_demonic_wind_104
+  - first:
+      213: 5126373202629022392
+    second: ember_demonic_wind_105
+  - first:
+      213: -3442181750266357048
+    second: ember_demonic_wind_106
+  - first:
+      213: -7398291438868459868
+    second: ember_demonic_wind_107
+  - first:
+      213: -7521662607258414764
+    second: ember_demonic_wind_108
+  - first:
+      213: 8851992420118501872
+    second: ember_demonic_wind_109
+  - first:
+      213: -3274617071527704953
+    second: ember_demonic_wind_110
+  - first:
+      213: 3555086340054697616
+    second: ember_demonic_wind_111
+  - first:
+      213: 7093371654237727972
+    second: ember_demonic_wind_112
+  - first:
+      213: 482388188328524186
+    second: ember_demonic_wind_113
+  - first:
+      213: 2536183982070350512
+    second: ember_demonic_wind_114
+  - first:
+      213: -4965605388595086275
+    second: ember_demonic_wind_115
+  - first:
+      213: -4470379872138280385
+    second: ember_demonic_wind_116
+  - first:
+      213: -9008189441649071938
+    second: ember_demonic_wind_117
+  - first:
+      213: 1053212398409167720
+    second: ember_demonic_wind_118
+  - first:
+      213: -8812119549589631771
+    second: ember_demonic_wind_119
+  - first:
+      213: -5352321915334705294
+    second: ember_demonic_wind_120
+  - first:
+      213: 4898019118320501892
+    second: ember_demonic_wind_121
+  - first:
+      213: 3224017760013431047
+    second: ember_demonic_wind_122
+  - first:
+      213: 3886180528537492614
+    second: ember_demonic_wind_123
+  - first:
+      213: 8307603596031661927
+    second: ember_demonic_wind_124
+  - first:
+      213: -1231548048872666885
+    second: ember_demonic_wind_125
+  - first:
+      213: 5812397712157832359
+    second: ember_demonic_wind_126
+  - first:
+      213: -923181527710013163
+    second: ember_demonic_wind_127
+  - first:
+      213: -5219884459748947168
+    second: ember_demonic_wind_128
+  - first:
+      213: -2055186184477243728
+    second: ember_demonic_wind_129
+  - first:
+      213: 5938604818159719456
+    second: ember_demonic_wind_130
+  - first:
+      213: 7835286230767039950
+    second: ember_demonic_wind_131
+  - first:
+      213: 104761407694713464
+    second: ember_demonic_wind_132
+  - first:
+      213: -6933385245724768790
+    second: ember_demonic_wind_133
+  - first:
+      213: -5119585383769842515
+    second: ember_demonic_wind_134
+  - first:
+      213: -4520201842868341111
+    second: ember_demonic_wind_135
+  - first:
+      213: -5114329803947068920
+    second: ember_demonic_wind_136
+  - first:
+      213: -8017438723087647384
+    second: ember_demonic_wind_137
+  - first:
+      213: -2110669422481166650
+    second: ember_demonic_wind_138
+  - first:
+      213: -6601238132255587681
+    second: ember_demonic_wind_139
+  - first:
+      213: 6681710821017057511
+    second: ember_demonic_wind_140
+  - first:
+      213: -8361215288772165420
+    second: ember_demonic_wind_141
+  - first:
+      213: 9031808970608463890
+    second: ember_demonic_wind_142
+  - first:
+      213: -6295671595182204663
+    second: ember_demonic_wind_143
+  - first:
+      213: 3041145800577104251
+    second: ember_demonic_wind_144
+  - first:
+      213: 6389897793147326230
+    second: ember_demonic_wind_145
+  - first:
+      213: -8250391743605504161
+    second: ember_demonic_wind_146
+  - first:
+      213: -8487155849436387026
+    second: ember_demonic_wind_147
+  - first:
+      213: -2049770416282601185
+    second: ember_demonic_wind_148
+  - first:
+      213: -3276639990207627037
+    second: ember_demonic_wind_149
+  - first:
+      213: -8459280865164328899
+    second: ember_demonic_wind_150
+  - first:
+      213: -7423321897495402134
+    second: ember_demonic_wind_151
+  - first:
+      213: -862717423324011775
+    second: ember_demonic_wind_152
+  - first:
+      213: -7589259075473944873
+    second: ember_demonic_wind_153
+  - first:
+      213: 4772276723615240508
+    second: ember_demonic_wind_154
+  - first:
+      213: -6482604749847211921
+    second: ember_demonic_wind_155
+  - first:
+      213: 728863563047703652
+    second: ember_demonic_wind_156
+  - first:
+      213: 1297122673560039259
+    second: ember_demonic_wind_157
+  - first:
+      213: 4168780276166000656
+    second: ember_demonic_wind_158
+  - first:
+      213: 5329341124416654362
+    second: ember_demonic_wind_159
+  - first:
+      213: -8827975222259388353
+    second: ember_demonic_wind_160
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ember_demonic_wind_0
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 209
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ed920f25a10375e0800000000000000
+      internalID: -1913183607732396571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_1
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 209
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44da79fe19b77a5b0800000000000000
+      internalID: -5357177365013746364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_2
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 165
+        width: 68
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fcc7ff20f703480800000000000000
+      internalID: -8921491210967920803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_3
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 209
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5261adcdbc914860800000000000000
+      internalID: 7512457992443355741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_4
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 195
+        width: 32
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b471e19e005805960800000000000000
+      internalID: 7588711611076843339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_5
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 165
+        width: 70
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfbe16c4b084d05b0800000000000000
+      internalID: -5400581164784030723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_6
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 195
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f688df6bc0a0980800000000000000
+      internalID: -8572024960669159638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_7
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 209
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9304f6b968f51b0800000000000000
+      internalID: -5665661804064261704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_8
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 209
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b2e2e1c5e6d6510800000000000000
+      internalID: 1544011589180336952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_9
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 209
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64a7788f654ffc730800000000000000
+      internalID: 4021701646639135302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_10
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 203
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970d02b08475625e0800000000000000
+      internalID: -1934763022973087623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_11
+      rect:
+        serializedVersion: 2
+        x: 1601
+        y: 209
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f7d1fc9b7940aa0800000000000000
+      internalID: -6195660363055399131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_12
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 213
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a79fb7f29440dbc0800000000000000
+      internalID: -3760430290841921623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_13
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 163
+        width: 90
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8871370e81fd6d390800000000000000
+      internalID: -7793796807180216440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_14
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 209
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a6684332f6b75b00800000000000000
+      internalID: 817323008749758121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_15
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 163
+        width: 92
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451a02a5fffcebc90800000000000000
+      internalID: -7152050462582070956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_16
+      rect:
+        serializedVersion: 2
+        x: 1913
+        y: 209
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b56b58abc541e460800000000000000
+      internalID: 7269168014557930930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_17
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 209
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc03f826d205d540800000000000000
+      internalID: 5031931277489671345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_18
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 203
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc2211c635fc7bae0800000000000000
+      internalID: -1533529190894066993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_19
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 37
+        width: 172
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335bf5b39df946320800000000000000
+      internalID: 2550339044351391027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_20
+      rect:
+        serializedVersion: 2
+        x: 2329
+        y: 37
+        width: 218
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b587e37eaf1a35a20800000000000000
+      internalID: 3049959471653484635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_21
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 195
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512f4d07bd26ee3d0800000000000000
+      internalID: -3175491992619257323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_22
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 183
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7abaa128972d9d70800000000000000
+      internalID: 9051434360437914238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_23
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 195
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b759429bcad1ca9b0800000000000000
+      internalID: -5067642853020887685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_24
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 177
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 667e78eecce3d8f70800000000000000
+      internalID: 9191071464429184870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_25
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 195
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65134c74ab65dcfa0800000000000000
+      internalID: -5778867388778532522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_26
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 195
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dcabb1748e6f4700800000000000000
+      internalID: 526761196548500691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_27
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 177
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 143185b3ce37e4270800000000000000
+      internalID: 8236648226952319809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_28
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 183
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78df69a04c144f300800000000000000
+      internalID: 284924986678246791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_29
+      rect:
+        serializedVersion: 2
+        x: 1975
+        y: 183
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e08540b07cd7200800000000000000
+      internalID: 179518410296135288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_30
+      rect:
+        serializedVersion: 2
+        x: 2623
+        y: 183
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4649795023a9280800000000000000
+      internalID: -9035854702766168877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_31
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 197
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291d2ad9f197b89f0800000000000000
+      internalID: -465144959807073902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_32
+      rect:
+        serializedVersion: 2
+        x: 2965
+        y: 203
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21de8805ea8428720800000000000000
+      internalID: 2846917827964235026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_33
+      rect:
+        serializedVersion: 2
+        x: 2985
+        y: 189
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50cf6c414ce95050800000000000000
+      internalID: 5789918561160904795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_34
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 35
+        width: 200
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 348c18b47fc8875b0800000000000000
+      internalID: -5370387561887709117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_35
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 189
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e79d764a324102d0800000000000000
+      internalID: -3314295032709802007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_36
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 35
+        width: 202
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c753543b7a351540800000000000000
+      internalID: 4977949263961216963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_37
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 185
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc0f44314c83ca20800000000000000
+      internalID: 3081460781729910006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_38
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 189
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9e2b7fb01e48820800000000000000
+      internalID: 2919705899959511506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_39
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 195
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6707d4a98804ac5a0800000000000000
+      internalID: -6500312156707393418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_40
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 179
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dca5d560cccdf9c0800000000000000
+      internalID: -3891729376263951148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_41
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 175
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3ee3fe9b74dc900800000000000000
+      internalID: 706299580475433938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_42
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 177
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e934952c187bf10800000000000000
+      internalID: 2285438007635058310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_43
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 193
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b75ab2bf0372a4d0800000000000000
+      internalID: -3124808680181442636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_44
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 179
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8791b931000ecf8c0800000000000000
+      internalID: -3964047281059325576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_45
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 125
+        width: 204
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52bb8e466d29184f0800000000000000
+      internalID: -828219406945830107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_46
+      rect:
+        serializedVersion: 2
+        x: 1833
+        y: 125
+        width: 202
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45a7ea34e4ed759d0800000000000000
+      internalID: -2785513416781039020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_47
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 189
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b6d84006f9174b0800000000000000
+      internalID: -5444395239772165352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_48
+      rect:
+        serializedVersion: 2
+        x: 2945
+        y: 187
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4614e2d9430f5a020800000000000000
+      internalID: 2352550489136972132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_49
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 109
+        width: 146
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeae944a7baae41b0800000000000000
+      internalID: -5670407175100830994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_50
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 173
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b8847493595b980800000000000000
+      internalID: -8523742646487184576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_51
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 111
+        width: 140
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719a43c5a7f2fc820800000000000000
+      internalID: 2940621284275693847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_52
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 179
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e53400e4b9c0dc90800000000000000
+      internalID: -7146990829947308570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_53
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 171
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313d027f38aeabe70800000000000000
+      internalID: 9131869046954840851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_54
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 167
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6095ef2bebf86050800000000000000
+      internalID: 5794157908151603308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_55
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 167
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fdcef5dde9e40580800000000000000
+      internalID: -8861700959051526670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_56
+      rect:
+        serializedVersion: 2
+        x: 2897
+        y: 171
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab14378380bcb2bf0800000000000000
+      internalID: -347961310023827014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_57
+      rect:
+        serializedVersion: 2
+        x: 2957
+        y: 165
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70591d1f5cff98b0800000000000000
+      internalID: -5143114763993526148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_58
+      rect:
+        serializedVersion: 2
+        x: 2973
+        y: 183
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0540e85deb49c18a0800000000000000
+      internalID: -6333023428642208688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_59
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 143
+        width: 62
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced18be2f2be31320800000000000000
+      internalID: 2527622403764788716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_60
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 129
+        width: 92
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d1c5480f9027f3b0800000000000000
+      internalID: -5478874554262240812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_61
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 155
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2666d1ef62c047fb0800000000000000
+      internalID: -4651079153555249566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_62
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 151
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd45e63170f92210800000000000000
+      internalID: 1308841535770807757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_63
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 145
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb44f48b70699810800000000000000
+      internalID: 1772554011974847476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_64
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 155
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f46cc525d1fbd60800000000000000
+      internalID: 7908071710266904373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_65
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 35
+        width: 234
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 200c4f5687dab1d90800000000000000
+      internalID: -7125911252765458430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_66
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 163
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf7b7c0eaf1b4540800000000000000
+      internalID: 4993119444264517577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_67
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 165
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3585734b434d63090800000000000000
+      internalID: -8055017560678639533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_68
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 145
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0fa9d69f1b786580800000000000000
+      internalID: -8833675293482176756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_69
+      rect:
+        serializedVersion: 2
+        x: 2889
+        y: 167
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fde350b5bfbb3650800000000000000
+      internalID: 6213770897956007410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_70
+      rect:
+        serializedVersion: 2
+        x: 2975
+        y: 145
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e11fc23ae72643990800000000000000
+      internalID: -7407187191074590434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_71
+      rect:
+        serializedVersion: 2
+        x: 3017
+        y: 159
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1038d4769b762a570800000000000000
+      internalID: 8476451494664438529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_72
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 153
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5d23921dd30e550800000000000000
+      internalID: 6188013856555718081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_73
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 35
+        width: 234
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b84c09aef574b7f0800000000000000
+      internalID: -597723113915135816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_74
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 149
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096f149e610224d90800000000000000
+      internalID: -7115089178517178736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_75
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 147
+        width: 22
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bf1507436768300800000000000000
+      internalID: 254020396587809689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_76
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 129
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c56d052ac2fa0b00800000000000000
+      internalID: 795715234203264457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_77
+      rect:
+        serializedVersion: 2
+        x: 2701
+        y: 149
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386b05f8190c9fdb0800000000000000
+      internalID: -4757559799932995965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_78
+      rect:
+        serializedVersion: 2
+        x: 2713
+        y: 143
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2c1339242f3a510800000000000000
+      internalID: 1559356263751598828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_79
+      rect:
+        serializedVersion: 2
+        x: 2903
+        y: 143
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95003493ed0d508f0800000000000000
+      internalID: -574823724557860775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_80
+      rect:
+        serializedVersion: 2
+        x: 2919
+        y: 149
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0ecc4c5f8ba6550800000000000000
+      internalID: 6154935206463463604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_81
+      rect:
+        serializedVersion: 2
+        x: 3029
+        y: 145
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd151674fb8cd71f0800000000000000
+      internalID: -1045458814618218017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_82
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 103
+        width: 128
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34fb949ff13e94660800000000000000
+      internalID: 7370671991634378563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_83
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 137
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c979344f46975610800000000000000
+      internalID: 1609920658999441863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_84
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 131
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5e879a4c6270f00800000000000000
+      internalID: 1082876861504611779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_85
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 121
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c811a0fd13ae16b0800000000000000
+      internalID: -5323638360518879035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_86
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 121
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7ff40528118e3e0800000000000000
+      internalID: -2024348781112199169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_87
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 131
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adb2970dedbc2edb0800000000000000
+      internalID: -4764021297963783206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_88
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 137
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5884e49bb56a11cb0800000000000000
+      internalID: -4894948407093868411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_89
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 35
+        width: 222
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22dcc16a973947320800000000000000
+      internalID: 2554829039313145122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_90
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 35
+        width: 222
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 127003f4d84ec67f0800000000000000
+      internalID: -617867753286531295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_91
+      rect:
+        serializedVersion: 2
+        x: 2197
+        y: 135
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb06eba3babf9a70800000000000000
+      internalID: 8835986274770095069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_92
+      rect:
+        serializedVersion: 2
+        x: 2213
+        y: 143
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2769c9c9d22721ac0800000000000000
+      internalID: -3885917988240714126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_93
+      rect:
+        serializedVersion: 2
+        x: 2243
+        y: 137
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3845068cc6983eab0800000000000000
+      internalID: -4979985662630407037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_94
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 103
+        width: 76
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0524ab31ad0ed0170800000000000000
+      internalID: 8146414528221561424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_95
+      rect:
+        serializedVersion: 2
+        x: 2731
+        y: 137
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73b514a995f29f9d0800000000000000
+      internalID: -2740106836391666889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_96
+      rect:
+        serializedVersion: 2
+        x: 2895
+        y: 139
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd3a7e5413fce690800000000000000
+      internalID: -7571409604706681416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_97
+      rect:
+        serializedVersion: 2
+        x: 2897
+        y: 103
+        width: 74
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9a6cce6367ba120800000000000000
+      internalID: 2426162802541898164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_98
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 103
+        width: 108
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 968f7e01a79413fe0800000000000000
+      internalID: -1211106036167477143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_99
+      rect:
+        serializedVersion: 2
+        x: 2251
+        y: 123
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd020aa6731e609f0800000000000000
+      internalID: -502466680276901668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_100
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 91
+        width: 64
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37444c2203b2820b0800000000000000
+      internalID: -5753301038224096141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_101
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 123
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19d0a2b499737e20800000000000000
+      internalID: 3347152627625416990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_102
+      rect:
+        serializedVersion: 2
+        x: 2749
+        y: 125
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7310da7685aa3c190800000000000000
+      internalID: -7943318021078187721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_103
+      rect:
+        serializedVersion: 2
+        x: 2875
+        y: 125
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8792ae211b76710800000000000000
+      internalID: 1686511280269654207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_104
+      rect:
+        serializedVersion: 2
+        x: 2965
+        y: 89
+        width: 72
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0b87940e7748820800000000000000
+      internalID: 2919590263631949993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_105
+      rect:
+        serializedVersion: 2
+        x: 2997
+        y: 123
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2d8c06449842740800000000000000
+      internalID: 5126373202629022392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_106
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 127
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ca9a038fe9ea30d0800000000000000
+      internalID: -3442181750266357048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_107
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 35
+        width: 186
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae8e69522df35990800000000000000
+      internalID: -7398291438868459868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_108
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 115
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451160ec5bfad9790800000000000000
+      internalID: -7521662607258414764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_109
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 109
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f91d9bc43898da70800000000000000
+      internalID: 8851992420118501872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_110
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 107
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78649248f193e82d0800000000000000
+      internalID: -3274617071527704953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_111
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 105
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096cdccc034365130800000000000000
+      internalID: 3555086340054697616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_112
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 105
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ec2aaeefe7b07260800000000000000
+      internalID: 7093371654237727972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_113
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 105
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a997a216089c1b600800000000000000
+      internalID: 482388188328524186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_114
+      rect:
+        serializedVersion: 2
+        x: 2235
+        y: 97
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2c658f4e5523320800000000000000
+      internalID: 2536183982070350512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_115
+      rect:
+        serializedVersion: 2
+        x: 2573
+        y: 85
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c360e3530a61bb0800000000000000
+      internalID: -4965605388595086275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_116
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 101
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32442ef03506f1c0800000000000000
+      internalID: -4470379872138280385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_117
+      rect:
+        serializedVersion: 2
+        x: 2917
+        y: 107
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb825152e6b7cf280800000000000000
+      internalID: -9008189441649071938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_118
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 101
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8633730a813cd9e00800000000000000
+      internalID: 1053212398409167720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_119
+      rect:
+        serializedVersion: 2
+        x: 3043
+        y: 85
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec4f6055ff05b580800000000000000
+      internalID: -8812119549589631771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_120
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 91
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fbfe8639bb8b5b0800000000000000
+      internalID: -5352321915334705294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_121
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 93
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 484c092ff6249f340800000000000000
+      internalID: 4898019118320501892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_122
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 93
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701b62732130ebc20800000000000000
+      internalID: 3224017760013431047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_123
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 85
+        width: 60
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c5480d99c7ee530800000000000000
+      internalID: 3886180528537492614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_124
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 89
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 767993c74798a4370800000000000000
+      internalID: 8307603596031661927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_125
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 35
+        width: 190
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf88e171399a8eee0800000000000000
+      internalID: -1231548048872666885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_126
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 89
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a4f57e7ce8c9a050800000000000000
+      internalID: 5812397712157832359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_127
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 85
+        width: 62
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51964a1ba433033f0800000000000000
+      internalID: -923181527710013163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_128
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 93
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b05107dbe3f87b0800000000000000
+      internalID: -5219884459748947168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_129
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 91
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b681f6dd038a73e0800000000000000
+      internalID: -2055186184477243728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_130
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 91
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02455d73e992a6250800000000000000
+      internalID: 5938604818159719456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_131
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 89
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5f06250578cbc60800000000000000
+      internalID: 7835286230767039950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_132
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 91
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87230dbf1ff247100800000000000000
+      internalID: 104761407694713464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_133
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 89
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae504a98adaa7cf90800000000000000
+      internalID: -6933385245724768790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_134
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 89
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dacdd1bd73493f8b0800000000000000
+      internalID: -5119585383769842515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_135
+      rect:
+        serializedVersion: 2
+        x: 2669
+        y: 83
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98634ca7f540541c0800000000000000
+      internalID: -4520201842868341111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_136
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 802ba83e3204609b0800000000000000
+      internalID: -5114329803947068920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_137
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d36e5a5f55cb090800000000000000
+      internalID: -8017438723087647384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_138
+      rect:
+        serializedVersion: 2
+        x: 2925
+        y: 87
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce2bb2d75565b2e0800000000000000
+      internalID: -2110669422481166650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_139
+      rect:
+        serializedVersion: 2
+        x: 3009
+        y: 81
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f928421c4e0b364a0800000000000000
+      internalID: -6601238132255587681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_140
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 77
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e8fa9a27943abc50800000000000000
+      internalID: 6681710821017057511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_141
+      rect:
+        serializedVersion: 2
+        x: 995
+        y: 77
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d08b269efef6fb80800000000000000
+      internalID: -8361215288772165420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_142
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 75
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210dd4cf76e675d70800000000000000
+      internalID: 9031808970608463890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_143
+      rect:
+        serializedVersion: 2
+        x: 2581
+        y: 37
+        width: 168
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 909d5a24a0841a8a0800000000000000
+      internalID: -6295671595182204663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_144
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 75
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79b1913ef1543a20800000000000000
+      internalID: 3041145800577104251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_145
+      rect:
+        serializedVersion: 2
+        x: 2929
+        y: 81
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f499f003a7da850800000000000000
+      internalID: 6389897793147326230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_146
+      rect:
+        serializedVersion: 2
+        x: 2987
+        y: 75
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f570490fb68b08d80800000000000000
+      internalID: -8250391743605504161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_147
+      rect:
+        serializedVersion: 2
+        x: 2225
+        y: 69
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2927f8c8b0973a80800000000000000
+      internalID: -8487155849436387026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_148
+      rect:
+        serializedVersion: 2
+        x: 2883
+        y: 37
+        width: 166
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19fe52aaa0cd83e0800000000000000
+      internalID: -2049770416282601185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_149
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 63
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0c5de0a490782d0800000000000000
+      internalID: -3276639990207627037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_150
+      rect:
+        serializedVersion: 2
+        x: 2201
+        y: 39
+        width: 80
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d300f905fd89a9a80800000000000000
+      internalID: -8459280865164328899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_151
+      rect:
+        serializedVersion: 2
+        x: 2217
+        y: 59
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69686e80101bf890800000000000000
+      internalID: -7423321897495402134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_152
+      rect:
+        serializedVersion: 2
+        x: 2747
+        y: 49
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1036b3903130704f0800000000000000
+      internalID: -862717423324011775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_153
+      rect:
+        serializedVersion: 2
+        x: 2875
+        y: 51
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de47f994198da690800000000000000
+      internalID: -7589259075473944873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_154
+      rect:
+        serializedVersion: 2
+        x: 3049
+        y: 53
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3193f045688a3240800000000000000
+      internalID: 4772276723615240508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_155
+      rect:
+        serializedVersion: 2
+        x: 2575
+        y: 49
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60d81a83592906a0800000000000000
+      internalID: -6482604749847211921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_156
+      rect:
+        serializedVersion: 2
+        x: 3043
+        y: 41
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4641f258c817d1a00800000000000000
+      internalID: 728863563047703652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_157
+      rect:
+        serializedVersion: 2
+        x: 2751
+        y: 39
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5fa6abf23e400210800000000000000
+      internalID: 1297122673560039259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_158
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 39
+        width: 18
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0108783f29b7ad930800000000000000
+      internalID: 4168780276166000656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_159
+      rect:
+        serializedVersion: 2
+        x: 2841
+        y: 39
+        width: 20
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c4cbf348f95f940800000000000000
+      internalID: 5329341124416654362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_wind_160
+      rect:
+        serializedVersion: 2
+        x: 2863
+        y: 37
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f307747de4bbc7580800000000000000
+      internalID: -8827975222259388353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ember_demonic_wind_0: -1913183607732396571
+      ember_demonic_wind_1: -5357177365013746364
+      ember_demonic_wind_10: -1934763022973087623
+      ember_demonic_wind_100: -5753301038224096141
+      ember_demonic_wind_101: 3347152627625416990
+      ember_demonic_wind_102: -7943318021078187721
+      ember_demonic_wind_103: 1686511280269654207
+      ember_demonic_wind_104: 2919590263631949993
+      ember_demonic_wind_105: 5126373202629022392
+      ember_demonic_wind_106: -3442181750266357048
+      ember_demonic_wind_107: -7398291438868459868
+      ember_demonic_wind_108: -7521662607258414764
+      ember_demonic_wind_109: 8851992420118501872
+      ember_demonic_wind_11: -6195660363055399131
+      ember_demonic_wind_110: -3274617071527704953
+      ember_demonic_wind_111: 3555086340054697616
+      ember_demonic_wind_112: 7093371654237727972
+      ember_demonic_wind_113: 482388188328524186
+      ember_demonic_wind_114: 2536183982070350512
+      ember_demonic_wind_115: -4965605388595086275
+      ember_demonic_wind_116: -4470379872138280385
+      ember_demonic_wind_117: -9008189441649071938
+      ember_demonic_wind_118: 1053212398409167720
+      ember_demonic_wind_119: -8812119549589631771
+      ember_demonic_wind_12: -3760430290841921623
+      ember_demonic_wind_120: -5352321915334705294
+      ember_demonic_wind_121: 4898019118320501892
+      ember_demonic_wind_122: 3224017760013431047
+      ember_demonic_wind_123: 3886180528537492614
+      ember_demonic_wind_124: 8307603596031661927
+      ember_demonic_wind_125: -1231548048872666885
+      ember_demonic_wind_126: 5812397712157832359
+      ember_demonic_wind_127: -923181527710013163
+      ember_demonic_wind_128: -5219884459748947168
+      ember_demonic_wind_129: -2055186184477243728
+      ember_demonic_wind_13: -7793796807180216440
+      ember_demonic_wind_130: 5938604818159719456
+      ember_demonic_wind_131: 7835286230767039950
+      ember_demonic_wind_132: 104761407694713464
+      ember_demonic_wind_133: -6933385245724768790
+      ember_demonic_wind_134: -5119585383769842515
+      ember_demonic_wind_135: -4520201842868341111
+      ember_demonic_wind_136: -5114329803947068920
+      ember_demonic_wind_137: -8017438723087647384
+      ember_demonic_wind_138: -2110669422481166650
+      ember_demonic_wind_139: -6601238132255587681
+      ember_demonic_wind_14: 817323008749758121
+      ember_demonic_wind_140: 6681710821017057511
+      ember_demonic_wind_141: -8361215288772165420
+      ember_demonic_wind_142: 9031808970608463890
+      ember_demonic_wind_143: -6295671595182204663
+      ember_demonic_wind_144: 3041145800577104251
+      ember_demonic_wind_145: 6389897793147326230
+      ember_demonic_wind_146: -8250391743605504161
+      ember_demonic_wind_147: -8487155849436387026
+      ember_demonic_wind_148: -2049770416282601185
+      ember_demonic_wind_149: -3276639990207627037
+      ember_demonic_wind_15: -7152050462582070956
+      ember_demonic_wind_150: -8459280865164328899
+      ember_demonic_wind_151: -7423321897495402134
+      ember_demonic_wind_152: -862717423324011775
+      ember_demonic_wind_153: -7589259075473944873
+      ember_demonic_wind_154: 4772276723615240508
+      ember_demonic_wind_155: -6482604749847211921
+      ember_demonic_wind_156: 728863563047703652
+      ember_demonic_wind_157: 1297122673560039259
+      ember_demonic_wind_158: 4168780276166000656
+      ember_demonic_wind_159: 5329341124416654362
+      ember_demonic_wind_16: 7269168014557930930
+      ember_demonic_wind_160: -8827975222259388353
+      ember_demonic_wind_17: 5031931277489671345
+      ember_demonic_wind_18: -1533529190894066993
+      ember_demonic_wind_19: 2550339044351391027
+      ember_demonic_wind_2: -8921491210967920803
+      ember_demonic_wind_20: 3049959471653484635
+      ember_demonic_wind_21: -3175491992619257323
+      ember_demonic_wind_22: 9051434360437914238
+      ember_demonic_wind_23: -5067642853020887685
+      ember_demonic_wind_24: 9191071464429184870
+      ember_demonic_wind_25: -5778867388778532522
+      ember_demonic_wind_26: 526761196548500691
+      ember_demonic_wind_27: 8236648226952319809
+      ember_demonic_wind_28: 284924986678246791
+      ember_demonic_wind_29: 179518410296135288
+      ember_demonic_wind_3: 7512457992443355741
+      ember_demonic_wind_30: -9035854702766168877
+      ember_demonic_wind_31: -465144959807073902
+      ember_demonic_wind_32: 2846917827964235026
+      ember_demonic_wind_33: 5789918561160904795
+      ember_demonic_wind_34: -5370387561887709117
+      ember_demonic_wind_35: -3314295032709802007
+      ember_demonic_wind_36: 4977949263961216963
+      ember_demonic_wind_37: 3081460781729910006
+      ember_demonic_wind_38: 2919705899959511506
+      ember_demonic_wind_39: -6500312156707393418
+      ember_demonic_wind_4: 7588711611076843339
+      ember_demonic_wind_40: -3891729376263951148
+      ember_demonic_wind_41: 706299580475433938
+      ember_demonic_wind_42: 2285438007635058310
+      ember_demonic_wind_43: -3124808680181442636
+      ember_demonic_wind_44: -3964047281059325576
+      ember_demonic_wind_45: -828219406945830107
+      ember_demonic_wind_46: -2785513416781039020
+      ember_demonic_wind_47: -5444395239772165352
+      ember_demonic_wind_48: 2352550489136972132
+      ember_demonic_wind_49: -5670407175100830994
+      ember_demonic_wind_5: -5400581164784030723
+      ember_demonic_wind_50: -8523742646487184576
+      ember_demonic_wind_51: 2940621284275693847
+      ember_demonic_wind_52: -7146990829947308570
+      ember_demonic_wind_53: 9131869046954840851
+      ember_demonic_wind_54: 5794157908151603308
+      ember_demonic_wind_55: -8861700959051526670
+      ember_demonic_wind_56: -347961310023827014
+      ember_demonic_wind_57: -5143114763993526148
+      ember_demonic_wind_58: -6333023428642208688
+      ember_demonic_wind_59: 2527622403764788716
+      ember_demonic_wind_6: -8572024960669159638
+      ember_demonic_wind_60: -5478874554262240812
+      ember_demonic_wind_61: -4651079153555249566
+      ember_demonic_wind_62: 1308841535770807757
+      ember_demonic_wind_63: 1772554011974847476
+      ember_demonic_wind_64: 7908071710266904373
+      ember_demonic_wind_65: -7125911252765458430
+      ember_demonic_wind_66: 4993119444264517577
+      ember_demonic_wind_67: -8055017560678639533
+      ember_demonic_wind_68: -8833675293482176756
+      ember_demonic_wind_69: 6213770897956007410
+      ember_demonic_wind_7: -5665661804064261704
+      ember_demonic_wind_70: -7407187191074590434
+      ember_demonic_wind_71: 8476451494664438529
+      ember_demonic_wind_72: 6188013856555718081
+      ember_demonic_wind_73: -597723113915135816
+      ember_demonic_wind_74: -7115089178517178736
+      ember_demonic_wind_75: 254020396587809689
+      ember_demonic_wind_76: 795715234203264457
+      ember_demonic_wind_77: -4757559799932995965
+      ember_demonic_wind_78: 1559356263751598828
+      ember_demonic_wind_79: -574823724557860775
+      ember_demonic_wind_8: 1544011589180336952
+      ember_demonic_wind_80: 6154935206463463604
+      ember_demonic_wind_81: -1045458814618218017
+      ember_demonic_wind_82: 7370671991634378563
+      ember_demonic_wind_83: 1609920658999441863
+      ember_demonic_wind_84: 1082876861504611779
+      ember_demonic_wind_85: -5323638360518879035
+      ember_demonic_wind_86: -2024348781112199169
+      ember_demonic_wind_87: -4764021297963783206
+      ember_demonic_wind_88: -4894948407093868411
+      ember_demonic_wind_89: 2554829039313145122
+      ember_demonic_wind_9: 4021701646639135302
+      ember_demonic_wind_90: -617867753286531295
+      ember_demonic_wind_91: 8835986274770095069
+      ember_demonic_wind_92: -3885917988240714126
+      ember_demonic_wind_93: -4979985662630407037
+      ember_demonic_wind_94: 8146414528221561424
+      ember_demonic_wind_95: -2740106836391666889
+      ember_demonic_wind_96: -7571409604706681416
+      ember_demonic_wind_97: 2426162802541898164
+      ember_demonic_wind_98: -1211106036167477143
+      ember_demonic_wind_99: -502466680276901668
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

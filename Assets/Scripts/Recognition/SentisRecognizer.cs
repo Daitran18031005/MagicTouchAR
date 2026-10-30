@@ -26,7 +26,7 @@ namespace MagicTouch.Recognition
         [Tooltip("Minimum bounding box diagonal (in screen pixels) to reject dots and tiny scribbles.")]
         public float minStrokeDiagonal = 35f;
 
-        [Tooltip("Aspect ratio ratio (width/height or height/width) above which the CNN is bypassed for lines.")]
+        [Tooltip("Unused since lines are classified by a fitted axis (kept so the scene value is not lost).")]
         public float extremeAspectThreshold = 3.5f;
 
         [Header("Classification Tuning (Anti-False-Positive Filters)")]
@@ -159,34 +159,18 @@ namespace MagicTouch.Recognition
             // =========================================================================
             // Stage 2: Heuristic Aspect Ratio Overrides
             // =========================================================================
-            // If stroke is extremely tall and narrow -> definitely a VerticalLine
-            if (GestureCompletionPolicy.IsStraight(points) && bounds.Height > bounds.Width * extremeAspectThreshold)
+            // A hand drawing in the air tilts and bows its lines, so test straightness against a fitted axis instead of the
+            // raw aspect ratio (that only accepted lines within about 16 degrees of the axis, and the CNN rejects the rest).
+            if (GestureCompletionPolicy.TryClassifyLine(points, out GestureSymbol lineSymbol))
             {
                 if (_logDetailedProbabilities)
                 {
-                    Debug.Log($"[SentisRecognizer] Heuristic Override: Height ({bounds.Height:F1}px) > Width ({bounds.Width:F1}px) * {extremeAspectThreshold} -> Forcing VerticalLine.");
+                    Debug.Log($"[SentisRecognizer] Straight stroke -> {lineSymbol} (bounds {bounds.Width:F0}x{bounds.Height:F0}px).");
                 }
                 return new PRecognitionResult
                 {
-                    Symbol = GestureSymbol.VerticalLine,
-                    MatchedVariant = "Heuristic (Vertical Aspect)",
-                    Score = 1.0f,
-                    Distance = 0.0f,
-                    IsMatch = true
-                };
-            }
-
-            // If stroke is extremely wide and short -> definitely a HorizontalLine
-            if (GestureCompletionPolicy.IsStraight(points) && bounds.Width > bounds.Height * extremeAspectThreshold)
-            {
-                if (_logDetailedProbabilities)
-                {
-                    Debug.Log($"[SentisRecognizer] Heuristic Override: Width ({bounds.Width:F1}px) > Height ({bounds.Height:F1}px) * {extremeAspectThreshold} -> Forcing HorizontalLine.");
-                }
-                return new PRecognitionResult
-                {
-                    Symbol = GestureSymbol.HorizontalLine,
-                    MatchedVariant = "Heuristic (Horizontal Aspect)",
+                    Symbol = lineSymbol,
+                    MatchedVariant = "Heuristic (fitted line)",
                     Score = 1.0f,
                     Distance = 0.0f,
                     IsMatch = true

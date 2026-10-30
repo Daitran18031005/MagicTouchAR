@@ -1,0 +1,308 @@
+{
+ "ppu": 100,
+ "sheets": [
+  {
+   "file": "dullahan_guard_spritesheet.png",
+   "cell_w": 512,
+   "cell_h": 512,
+   "columns": 8,
+   "pivot_x": 0.5,
+   "pivot_y": 0.0625,
+   "clips": [
+    {
+     "key": "idle",
+     "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+     ],
+     "frame_ms": [
+      130,
+      130,
+      130,
+      130,
+      130,
+      130,
+      130,
+      130
+     ],
+     "loop": true
+    },
+    {
+     "key": "attack_helmet_toss",
+     "frames": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+     ],
+     "frame_ms": [
+      70,
+      70,
+      70,
+      70,
+      45,
+      45,
+      60,
+      60,
+      75,
+      75,
+      55,
+      55,
+      140
+     ],
+     "loop": false
+    },
+    {
+     "key": "attack_cross_slash",
+     "frames": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35
+     ],
+     "frame_ms": [
+      85,
+      85,
+      85,
+      85,
+      35,
+      35,
+      45,
+      45,
+      55,
+      55,
+      35,
+      35,
+      60,
+      60,
+      170
+     ],
+     "loop": false
+    },
+    {
+     "key": "hurt",
+     "frames": [
+      36,
+      37,
+      38
+     ],
+     "frame_ms": [
+      55,
+      55,
+      110
+     ],
+     "loop": false
+    },
+    {
+     "key": "death",
+     "frames": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+     ],
+     "frame_ms": [
+      70,
+      70,
+      70,
+      70,
+      75,
+      75,
+      85,
+      85,
+      320
+     ],
+     "loop": false
+    }
+   ]
+  },
+  {
+   "file": "dullahan_guard_effects.png",
+   "cell_w": 512,
+   "cell_h": 512,
+   "columns": 4,
+   "clips": [
+    {
+     "key": "cross_slash_fx",
+     "frames": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "ms": 90,
+     "loop": false
+    },
+    {
+     "key": "helmet_flame_burst_fx",
+     "frames": [
+      4,
+      5,
+      6,
+      7
+     ],
+     "ms": 90,
+     "loop": false
+    }
+   ]
+  },
+  {
+   "file": "dullahan_guard_motion.png",
+   "cell_w": 512,
+   "cell_h": 512,
+   "columns": 4,
+   "clips": [
+    {
+     "key": "jump",
+     "frames": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "frame_ms": [
+      65,
+      65,
+      55,
+      55,
+      50,
+      50,
+      110
+     ],
+     "loop": false
+    },
+    {
+     "key": "land",
+     "frames": [
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+     ],
+     "frame_ms": [
+      45,
+      45,
+      55,
+      55,
+      65,
+      65,
+      160
+     ],
+     "loop": false
+    }
+   ],
+   "pivot_x": 0.5,
+   "pivot_y": 0.0625
+  },
+  {
+   "file": "environment/dullahan_platform_master_spritesheet.png",
+   "cell_w": 640,
+   "cell_h": 256,
+   "columns": 6,
+   "clips": [
+    {
+     "key": "platform_idle",
+     "frames": [
+      0
+     ],
+     "ms": 999,
+     "loop": true
+    },
+    {
+     "key": "platform_landing",
+     "frames": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "frame_ms": [
+      60,
+      55,
+      80,
+      90,
+      120
+     ],
+     "loop": false
+    },
+    {
+     "key": "platform_settled",
+     "frames": [
+      5
+     ],
+     "ms": 999,
+     "loop": true
+    },
+    {
+     "key": "landing_dust",
+     "frames": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+     ],
+     "frame_ms": [
+      60,
+      60,
+      60,
+      80,
+      100,
+      140
+     ],
+     "loop": false
+    },
+    {
+     "key": "stone_debris",
+     "frames": [
+      12,
+      13,
+      14,
+      15
+     ],
+     "ms": 80,
+     "loop": false
+    }
+   ]
+  }
+ ]
+}

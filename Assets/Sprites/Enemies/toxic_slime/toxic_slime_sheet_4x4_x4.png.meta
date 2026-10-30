@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: f21bf21314e06594e8de5e212498a465
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7671751496141864937
+    second: toxic_slime_sheet_4x4_x4_0
+  - first:
+      213: -6392715625840924572
+    second: toxic_slime_sheet_4x4_x4_1
+  - first:
+      213: 1101988762686488020
+    second: toxic_slime_sheet_4x4_x4_2
+  - first:
+      213: -7806612978966195701
+    second: toxic_slime_sheet_4x4_x4_3
+  - first:
+      213: -2229993542089221595
+    second: toxic_slime_sheet_4x4_x4_4
+  - first:
+      213: -1416811794186071080
+    second: toxic_slime_sheet_4x4_x4_5
+  - first:
+      213: 4950891700483137307
+    second: toxic_slime_sheet_4x4_x4_6
+  - first:
+      213: 4891292676447659653
+    second: toxic_slime_sheet_4x4_x4_7
+  - first:
+      213: 1047921877000094562
+    second: toxic_slime_sheet_4x4_x4_8
+  - first:
+      213: 38008662449839831
+    second: toxic_slime_sheet_4x4_x4_9
+  - first:
+      213: -7856588084691603061
+    second: toxic_slime_sheet_4x4_x4_10
+  - first:
+      213: 4936243919778509398
+    second: toxic_slime_sheet_4x4_x4_11
+  - first:
+      213: -6927009668331698688
+    second: toxic_slime_sheet_4x4_x4_12
+  - first:
+      213: -4520670940023812604
+    second: toxic_slime_sheet_4x4_x4_13
+  - first:
+      213: -5283983107926857686
+    second: toxic_slime_sheet_4x4_x4_14
+  - first:
+      213: 1734804051018252165
+    second: toxic_slime_sheet_4x4_x4_15
+  - first:
+      213: 3153740291909170451
+    second: toxic_slime_sheet_4x4_x4_16
+  - first:
+      213: 5663168019185585534
+    second: toxic_slime_sheet_4x4_x4_17
+  - first:
+      213: -266189425009237213
+    second: toxic_slime_sheet_4x4_x4_18
+  - first:
+      213: 1313762446819146354
+    second: toxic_slime_sheet_4x4_x4_19
+  - first:
+      213: -1358389911782817800
+    second: toxic_slime_sheet_4x4_x4_20
+  - first:
+      213: 1657235030238096663
+    second: toxic_slime_sheet_4x4_x4_21
+  - first:
+      213: 7626101117840212728
+    second: toxic_slime_sheet_4x4_x4_22
+  - first:
+      213: -3766900190668463250
+    second: toxic_slime_sheet_4x4_x4_23
+  - first:
+      213: -8152242218768958067
+    second: toxic_slime_sheet_4x4_x4_24
+  - first:
+      213: -3106048792508504870
+    second: toxic_slime_sheet_4x4_x4_25
+  - first:
+      213: 5843961043334193292
+    second: toxic_slime_sheet_4x4_x4_26
+  - first:
+      213: -4762306590599104178
+    second: toxic_slime_sheet_4x4_x4_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 771
+        width: 186
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710846339a6788590800000000000000
+      internalID: -7671751496141864937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 767
+        width: 202
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 468a9a322038847a0800000000000000
+      internalID: -6392715625840924572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_2
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 767
+        width: 186
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd766ae0fc0b4f00800000000000000
+      internalID: 1101988762686488020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_3
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 767
+        width: 178
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0214c95bd659a390800000000000000
+      internalID: -7806612978966195701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_4
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 515
+        width: 186
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a5b5040b87d01e0800000000000000
+      internalID: -2229993542089221595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_5
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 511
+        width: 202
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d394f50e29765ce0800000000000000
+      internalID: -1416811794186071080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_6
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 511
+        width: 186
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1f1ab845c915b440800000000000000
+      internalID: 4950891700483137307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_7
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 511
+        width: 178
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 586e12826cc51e340800000000000000
+      internalID: 4891292676447659653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_8
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 343
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26383fe1567fa8e00800000000000000
+      internalID: 1047921877000094562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 259
+        width: 186
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ded5b75da8078000800000000000000
+      internalID: 38008662449839831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_10
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 343
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b81f36153cac7f290800000000000000
+      internalID: -7856588084691603061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_11
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 275
+        width: 186
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652741311bf018440800000000000000
+      internalID: 4936243919778509398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_12
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 275
+        width: 186
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006846358615edf90800000000000000
+      internalID: -6927009668331698688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_13
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 275
+        width: 186
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e03794bb95341c0800000000000000
+      internalID: -4520670940023812604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_14
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 315
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28eadceb558ba6b0800000000000000
+      internalID: -5283983107926857686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_15
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 315
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ff9dfc713431810800000000000000
+      internalID: 1734804051018252165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_16
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 307
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3153515161654cb20800000000000000
+      internalID: 3153740291909170451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_17
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 307
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7dc8e60f4d979e40800000000000000
+      internalID: 5663168019185585534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_18
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 19
+        width: 186
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323eb57d02e4e4cf0800000000000000
+      internalID: -266189425009237213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_19
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 19
+        width: 186
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a37e91cfb6b3210800000000000000
+      internalID: 1313762446819146354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_20
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 191
+        width: 26
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fff5b18297062de0800000000000000
+      internalID: -1358389911782817800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_21
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 47
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71deca6ca7eaff610800000000000000
+      internalID: 1657235030238096663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_22
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 47
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f24316df8a55d960800000000000000
+      internalID: 7626101117840212728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_23
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 19
+        width: 238
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63ead60c3849bbc0800000000000000
+      internalID: -3766900190668463250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_24
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d755bf4ea6dde80800000000000000
+      internalID: -8152242218768958067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_25
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 47
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4ef7b641915e4d0800000000000000
+      internalID: -3106048792508504870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_26
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 39
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80e7253b9be91150800000000000000
+      internalID: 5843961043334193292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: toxic_slime_sheet_4x4_x4_27
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 11
+        width: 150
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49b6db3363e8edb0800000000000000
+      internalID: -4762306590599104178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      toxic_slime_sheet_4x4_x4_0: -7671751496141864937
+      toxic_slime_sheet_4x4_x4_1: -6392715625840924572
+      toxic_slime_sheet_4x4_x4_10: -7856588084691603061
+      toxic_slime_sheet_4x4_x4_11: 4936243919778509398
+      toxic_slime_sheet_4x4_x4_12: -6927009668331698688
+      toxic_slime_sheet_4x4_x4_13: -4520670940023812604
+      toxic_slime_sheet_4x4_x4_14: -5283983107926857686
+      toxic_slime_sheet_4x4_x4_15: 1734804051018252165
+      toxic_slime_sheet_4x4_x4_16: 3153740291909170451
+      toxic_slime_sheet_4x4_x4_17: 5663168019185585534
+      toxic_slime_sheet_4x4_x4_18: -266189425009237213
+      toxic_slime_sheet_4x4_x4_19: 1313762446819146354
+      toxic_slime_sheet_4x4_x4_2: 1101988762686488020
+      toxic_slime_sheet_4x4_x4_20: -1358389911782817800
+      toxic_slime_sheet_4x4_x4_21: 1657235030238096663
+      toxic_slime_sheet_4x4_x4_22: 7626101117840212728
+      toxic_slime_sheet_4x4_x4_23: -3766900190668463250
+      toxic_slime_sheet_4x4_x4_24: -8152242218768958067
+      toxic_slime_sheet_4x4_x4_25: -3106048792508504870
+      toxic_slime_sheet_4x4_x4_26: 5843961043334193292
+      toxic_slime_sheet_4x4_x4_27: -4762306590599104178
+      toxic_slime_sheet_4x4_x4_3: -7806612978966195701
+      toxic_slime_sheet_4x4_x4_4: -2229993542089221595
+      toxic_slime_sheet_4x4_x4_5: -1416811794186071080
+      toxic_slime_sheet_4x4_x4_6: 4950891700483137307
+      toxic_slime_sheet_4x4_x4_7: 4891292676447659653
+      toxic_slime_sheet_4x4_x4_8: 1047921877000094562
+      toxic_slime_sheet_4x4_x4_9: 38008662449839831
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

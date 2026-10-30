@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 9e74952984063994ababb9bb9a89ad36
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -671782284194988898
+    second: vicious_bat_sheet_0
+  - first:
+      213: -5971685265384498962
+    second: vicious_bat_sheet_1
+  - first:
+      213: -5444843546011354069
+    second: vicious_bat_sheet_2
+  - first:
+      213: -6046389877897763964
+    second: vicious_bat_sheet_3
+  - first:
+      213: 2374291329687985540
+    second: vicious_bat_sheet_4
+  - first:
+      213: -2005402047310945859
+    second: vicious_bat_sheet_5
+  - first:
+      213: -6727293538886718478
+    second: vicious_bat_sheet_6
+  - first:
+      213: 2646196943534432770
+    second: vicious_bat_sheet_7
+  - first:
+      213: -8972751088613313578
+    second: vicious_bat_sheet_8
+  - first:
+      213: 1841162801923883105
+    second: vicious_bat_sheet_9
+  - first:
+      213: -6287364532740382210
+    second: vicious_bat_sheet_10
+  - first:
+      213: -4956643786866453163
+    second: vicious_bat_sheet_11
+  - first:
+      213: 5502981424891338371
+    second: vicious_bat_sheet_12
+  - first:
+      213: -3755391673648431360
+    second: vicious_bat_sheet_13
+  - first:
+      213: -8837049740341902723
+    second: vicious_bat_sheet_14
+  - first:
+      213: 3282491548155541421
+    second: vicious_bat_sheet_15
+  - first:
+      213: -4489782831055219563
+    second: vicious_bat_sheet_16
+  - first:
+      213: -5358895714716851414
+    second: vicious_bat_sheet_17
+  - first:
+      213: -7997717048926021944
+    second: vicious_bat_sheet_18
+  - first:
+      213: 8006800395845969719
+    second: vicious_bat_sheet_19
+  - first:
+      213: -1833187959582320426
+    second: vicious_bat_sheet_20
+  - first:
+      213: 4860564658798976400
+    second: vicious_bat_sheet_21
+  - first:
+      213: 5345816115962528903
+    second: vicious_bat_sheet_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vicious_bat_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c382062995da6f0800000000000000
+      internalID: -671782284194988898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 5
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee89256f3ef402da0800000000000000
+      internalID: -5971685265384498962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 5
+        width: 130
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c3a6694a70074b0800000000000000
+      internalID: -5444843546011354069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 4
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483e262f078e61ca0800000000000000
+      internalID: -6046389877897763964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 5
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48d9753826d23f020800000000000000
+      internalID: 2374291329687985540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 3
+        width: 322
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1a03a86716b24e0800000000000000
+      internalID: -2005402047310945859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 4
+        width: 130
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb60ea4b2ad3a2a0800000000000000
+      internalID: -6727293538886718478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 54
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2022819991e29b420800000000000000
+      internalID: 2646196943534432770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 56
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d33431bc626a7380800000000000000
+      internalID: -8972751088613313578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 27
+        width: 57
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160065e30df1d8910800000000000000
+      internalID: 1841162801923883105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 57
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1ae94f44bceb8a0800000000000000
+      internalID: -6287364532740382210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 57
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5559dadbcb6763bb0800000000000000
+      internalID: -4956643786866453163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 25
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e983c23748e5c40800000000000000
+      internalID: 5502981424891338371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 2
+        width: 62
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fb9b37b2b22ebc0800000000000000
+      internalID: -3755391673648431360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 43
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d728674f41e7c5580800000000000000
+      internalID: -8837049740341902723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 45
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da77802fba0cd8d20800000000000000
+      internalID: 3282491548155541421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 34
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5945e449d4611b1c0800000000000000
+      internalID: -4489782831055219563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2360f77db061a5b0800000000000000
+      internalID: -5358895714716851414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c6ddacb7b6620190800000000000000
+      internalID: -7997717048926021944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 0
+        width: 62
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7372bd5c98edd1f60800000000000000
+      internalID: 8006800395845969719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 8
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8929e63453f86e0800000000000000
+      internalID: -1833187959582320426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 0
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09dd7870ec1347340800000000000000
+      internalID: 4860564658798976400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 5
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78441822f67203a40800000000000000
+      internalID: 5345816115962528903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vicious_bat_sheet_0: -671782284194988898
+      vicious_bat_sheet_1: -5971685265384498962
+      vicious_bat_sheet_10: -6287364532740382210
+      vicious_bat_sheet_11: -4956643786866453163
+      vicious_bat_sheet_12: 5502981424891338371
+      vicious_bat_sheet_13: -3755391673648431360
+      vicious_bat_sheet_14: -8837049740341902723
+      vicious_bat_sheet_15: 3282491548155541421
+      vicious_bat_sheet_16: -4489782831055219563
+      vicious_bat_sheet_17: -5358895714716851414
+      vicious_bat_sheet_18: -7997717048926021944
+      vicious_bat_sheet_19: 8006800395845969719
+      vicious_bat_sheet_2: -5444843546011354069
+      vicious_bat_sheet_20: -1833187959582320426
+      vicious_bat_sheet_21: 4860564658798976400
+      vicious_bat_sheet_22: 5345816115962528903
+      vicious_bat_sheet_3: -6046389877897763964
+      vicious_bat_sheet_4: 2374291329687985540
+      vicious_bat_sheet_5: -2005402047310945859
+      vicious_bat_sheet_6: -6727293538886718478
+      vicious_bat_sheet_7: 2646196943534432770
+      vicious_bat_sheet_8: -8972751088613313578
+      vicious_bat_sheet_9: 1841162801923883105
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

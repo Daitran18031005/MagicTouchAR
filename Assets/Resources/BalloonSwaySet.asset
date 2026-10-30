@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4478c601abe6c2b4e81609e41f23fdc4, type: 3}
+  m_Name: BalloonSwaySet
+  m_EditorClassIdentifier: Assembly-CSharp::MagicTouch.Gameplay.BalloonSwaySet
+  _entries:
+  - color: blue
+    frames:
+    - {fileID: 21300000, guid: 8ac39a4b4e09a3645ac2c27829ede4f2, type: 3}
+    - {fileID: 21300000, guid: 792d86be012dce641b5dbc8b97d4bc4b, type: 3}
+    - {fileID: 21300000, guid: c218b684251b34a4cb4835c2e9e79cea, type: 3}
+    - {fileID: 21300000, guid: c75fb3419d428984692591c128ee6416, type: 3}
+    - {fileID: 21300000, guid: 41c641c715ccff94e8adbfa8e3fdeb91, type: 3}
+    - {fileID: 21300000, guid: f040e32760f4cba4ca4026f6a5a529fd, type: 3}
+  - color: cyan
+    frames:
+    - {fileID: 21300000, guid: ff2cad8ad644acb4d80f44bb77ba53c5, type: 3}
+    - {fileID: 21300000, guid: 1f9d8bd61264c854bb005c8062a13f31, type: 3}
+    - {fileID: 21300000, guid: b0e33b7338a7188499c9b98e414f0853, type: 3}
+    - {fileID: 21300000, guid: 8de2f60d8799a134e87bbf25a146a0dc, type: 3}
+    - {fileID: 21300000, guid: d032486f974a05c4ba8329628ec8765c, type: 3}
+    - {fileID: 21300000, guid: f5b9e553891126b4390deb06133722ff, type: 3}
+  - color: green
+    frames:
+    - {fileID: 21300000, guid: 86bf62c2175104f4093fb932d67698ca, type: 3}
+    - {fileID: 21300000, guid: 266895d180fd5c745b8179bcf5f58a0d, type: 3}
+    - {fileID: 21300000, guid: 20dc005bbcdee204c97d7ee5cfa7dbba, type: 3}
+    - {fileID: 21300000, guid: 4a52c297f14efe545a1b852d5444d720, type: 3}
+    - {fileID: 21300000, guid: 0003b150823f3724ebf6154ced6a8e5b, type: 3}
+    - {fileID: 21300000, guid: 79325f5d3a39362458d0ac32cbdc8b9c, type: 3}
+  - color: orange
+    frames:
+    - {fileID: 21300000, guid: 8bdac9a12bb8258428387fa12d867670, type: 3}
+    - {fileID: 21300000, guid: c9d5379461e707b4da190a13e22c6627, type: 3}
+    - {fileID: 21300000, guid: c1c70180ce9f27d4f97179276ea3bd56, type: 3}
+    - {fileID: 21300000, guid: 6d7bd783934803d44882891ea6e31f46, type: 3}
+    - {fileID: 21300000, guid: 97f2af2467a3c514db648ce34156da2b, type: 3}
+    - {fileID: 21300000, guid: 5b92322bca329434483a7e3ee696cfc9, type: 3}
+  - color: pink
+    frames:
+    - {fileID: 21300000, guid: 632ac4ffd1c84fe44b8dfce9330821a4, type: 3}
+    - {fileID: 21300000, guid: ec79c61117a644049a5dca7cf5c625a2, type: 3}
+    - {fileID: 21300000, guid: cd0026ab62151164f922733790f59a0d, type: 3}
+    - {fileID: 21300000, guid: 811422dbe1338dc42ac1a60a7d47ab9f, type: 3}
+    - {fileID: 21300000, guid: 50cf32b847b0caa419cffd951a29d561, type: 3}
+    - {fileID: 21300000, guid: 95ee016f5431e4642ab4c2afc9d6d769, type: 3}
+  - color: purple
+    frames:
+    - {fileID: 21300000, guid: a57402559d51bec4fbd2d08aed14b109, type: 3}
+    - {fileID: 21300000, guid: 9b3d18399c7719547be5311c1d1c4dab, type: 3}
+    - {fileID: 21300000, guid: 65ae47dab1cad6741b1920211188b946, type: 3}
+    - {fileID: 21300000, guid: 06a114152cea8a64f8bdd3b01f95f41f, type: 3}
+    - {fileID: 21300000, guid: 1e186341056871346a9d55bcdf5d1bc6, type: 3}
+    - {fileID: 21300000, guid: 379aefc7982b755409c87f7b9d77c601, type: 3}
+  - color: red
+    frames:
+    - {fileID: 21300000, guid: 8517facbcd85d3d42bab275660f2160a, type: 3}
+    - {fileID: 21300000, guid: 8f581e0265d1b444e9e976a5ee74848f, type: 3}
+    - {fileID: 21300000, guid: 304d13b57a0b44549b6baae4d8851678, type: 3}
+    - {fileID: 21300000, guid: f41b9ed9d9393be4faa33ec2cea1e0a4, type: 3}
+    - {fileID: 21300000, guid: 5b1d2372dcef74743b681377336549fc, type: 3}
+    - {fileID: 21300000, guid: 51ac1a2bc9034c54b871f5ce0e3d41c6, type: 3}
+  - color: silver
+    frames:
+    - {fileID: 21300000, guid: baeff8ff74a37aa4a8ef97c7ca0c00fd, type: 3}
+    - {fileID: 21300000, guid: 23cca5dc35342f047b52bbdc4dfee49e, type: 3}
+    - {fileID: 21300000, guid: 46f88a0963f769a4a8f03e466b7316d5, type: 3}
+    - {fileID: 21300000, guid: d6dc41196618cc348a8916c9568b1299, type: 3}
+    - {fileID: 21300000, guid: 8c6b622286648a44c81c53a798367c5e, type: 3}
+    - {fileID: 21300000, guid: 226a84f4a5811dd43abd2b3c71726754, type: 3}
+  - color: white
+    frames:
+    - {fileID: 21300000, guid: 3275bbdba0d0f91468a077174252959f, type: 3}
+    - {fileID: 21300000, guid: 5edfb1024a150f146891da8ad08403e7, type: 3}
+    - {fileID: 21300000, guid: 8aeceb880db40f94499c1a0a62fcf0ff, type: 3}
+    - {fileID: 21300000, guid: dd760f5dbdff43d41887b21e967416f5, type: 3}
+    - {fileID: 21300000, guid: eae973a2008d7014db62b73e254ad934, type: 3}
+    - {fileID: 21300000, guid: c3cc8d9a2577220449ef195492ef52e6, type: 3}
+  - color: yellow
+    frames:
+    - {fileID: 21300000, guid: 80c733def8f13924a96b4e024a32d24b, type: 3}
+    - {fileID: 21300000, guid: 9b461ead4496b4b44a9b337a83049b81, type: 3}
+    - {fileID: 21300000, guid: 5e304fadefede014fb4b73b185679b74, type: 3}
+    - {fileID: 21300000, guid: 26044ff7dc53e904092c13e69b6e096b, type: 3}
+    - {fileID: 21300000, guid: a25e033955cb0b845b5b269d358ab8a0, type: 3}
+    - {fileID: 21300000, guid: c092c4d253055b94b935c30fde162faa, type: 3}
+  _bodyOffsetX:
+  - -0.0015625
+  - 0.07734375
+  - 0.09296875
+  - 0.0015625
+  - -0.10703125
+  - -0.15546875
+  framesPerSecond: 6
+  rockDegrees: 1.2
+  stringBowUnits: 0.05

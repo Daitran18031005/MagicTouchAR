@@ -1,0 +1,8 @@
+{
+  "tool": "agent-sprite-forge 0.4.0 (generate2dsprite master_still + process), custom ownership slicing and 23-colour palette finish",
+  "art_route": "local:codex-cli (image_gen), no API key, no video route",
+  "master": "single approved still, front view, class boss, key #00FF00",
+  "sheets": "one 2x3/2x2/2x4 image sheet per action from the master; skill_claw_right = horizontal mirror of skill_claw_left",
+  "finish": "512 frame -> premultiplied area downscale to 256 logical grid -> shared 23-colour OKLab palette (11 reserved spec colours) -> binary alpha, orphan removal -> nearest x2 back to 512",
+  "work_dir": "Logs/ember_drake_512 (git-ignored): prompts/, raw/, proc*/, work/"
+}

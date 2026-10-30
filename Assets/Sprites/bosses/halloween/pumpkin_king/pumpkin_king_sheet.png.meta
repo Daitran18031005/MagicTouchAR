@@ -1,0 +1,1664 @@
+fileFormatVersion: 2
+guid: 42069ccfab4436d428c742476bd1952f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5825923361527140550
+    second: pumpkin_king_sheet_0
+  - first:
+      213: -322671303504067777
+    second: pumpkin_king_sheet_1
+  - first:
+      213: -1147308029449390482
+    second: pumpkin_king_sheet_2
+  - first:
+      213: -5696567371821459848
+    second: pumpkin_king_sheet_3
+  - first:
+      213: -2899683971012142125
+    second: pumpkin_king_sheet_4
+  - first:
+      213: -697782952833798054
+    second: pumpkin_king_sheet_5
+  - first:
+      213: 3079901016140300016
+    second: pumpkin_king_sheet_6
+  - first:
+      213: 214798435551187715
+    second: pumpkin_king_sheet_7
+  - first:
+      213: 7672925254136760758
+    second: pumpkin_king_sheet_8
+  - first:
+      213: -6221722704776032869
+    second: pumpkin_king_sheet_9
+  - first:
+      213: 1446475713611622599
+    second: pumpkin_king_sheet_10
+  - first:
+      213: -532604543551156791
+    second: pumpkin_king_sheet_11
+  - first:
+      213: -6434455994439050328
+    second: pumpkin_king_sheet_12
+  - first:
+      213: -4307345873745561727
+    second: pumpkin_king_sheet_13
+  - first:
+      213: 2141237589620113445
+    second: pumpkin_king_sheet_14
+  - first:
+      213: -2695560393354266684
+    second: pumpkin_king_sheet_15
+  - first:
+      213: 7841779721169591989
+    second: pumpkin_king_sheet_16
+  - first:
+      213: 8299628837490487293
+    second: pumpkin_king_sheet_17
+  - first:
+      213: -8225150224200280452
+    second: pumpkin_king_sheet_18
+  - first:
+      213: -8645406244440274212
+    second: pumpkin_king_sheet_19
+  - first:
+      213: -3454502652445405212
+    second: pumpkin_king_sheet_20
+  - first:
+      213: 5829889036225312838
+    second: pumpkin_king_sheet_21
+  - first:
+      213: -2662033227643355242
+    second: pumpkin_king_sheet_22
+  - first:
+      213: 3336315159424547172
+    second: pumpkin_king_sheet_23
+  - first:
+      213: 5321591744050875060
+    second: pumpkin_king_sheet_24
+  - first:
+      213: 6371796011897585623
+    second: pumpkin_king_sheet_25
+  - first:
+      213: 5355399977432734620
+    second: pumpkin_king_sheet_26
+  - first:
+      213: 2633518327551842050
+    second: pumpkin_king_sheet_27
+  - first:
+      213: 7062057515740437476
+    second: pumpkin_king_sheet_28
+  - first:
+      213: -3390332013061126050
+    second: pumpkin_king_sheet_29
+  - first:
+      213: 8117850875033961278
+    second: pumpkin_king_sheet_30
+  - first:
+      213: 8343751391247623638
+    second: pumpkin_king_sheet_31
+  - first:
+      213: 448831268751012239
+    second: pumpkin_king_sheet_32
+  - first:
+      213: 2334731267671269837
+    second: pumpkin_king_sheet_33
+  - first:
+      213: -8292585230332106263
+    second: pumpkin_king_sheet_34
+  - first:
+      213: -5066583139054195204
+    second: pumpkin_king_sheet_35
+  - first:
+      213: -308245054291578958
+    second: pumpkin_king_sheet_36
+  - first:
+      213: -6415884091375449151
+    second: pumpkin_king_sheet_37
+  - first:
+      213: 8916877686320747084
+    second: pumpkin_king_sheet_38
+  - first:
+      213: -7201619949267138179
+    second: pumpkin_king_sheet_39
+  - first:
+      213: 4964449420640686250
+    second: pumpkin_king_sheet_40
+  - first:
+      213: -4775952112211135636
+    second: pumpkin_king_sheet_41
+  - first:
+      213: 5357047653850620599
+    second: pumpkin_king_sheet_42
+  - first:
+      213: 2969525824054196629
+    second: pumpkin_king_sheet_43
+  - first:
+      213: 2213078631646266843
+    second: pumpkin_king_sheet_44
+  - first:
+      213: -4932381105536128005
+    second: pumpkin_king_sheet_45
+  - first:
+      213: -4951856721951710904
+    second: pumpkin_king_sheet_46
+  - first:
+      213: -8124252730110194210
+    second: pumpkin_king_sheet_47
+  - first:
+      213: 2324137828293254264
+    second: pumpkin_king_sheet_48
+  - first:
+      213: 5112629780613370919
+    second: pumpkin_king_sheet_49
+  - first:
+      213: -3066807135860727192
+    second: pumpkin_king_sheet_50
+  - first:
+      213: 462840596274745686
+    second: pumpkin_king_sheet_51
+  - first:
+      213: -1207373974794685579
+    second: pumpkin_king_sheet_52
+  - first:
+      213: 4626062630123683886
+    second: pumpkin_king_sheet_53
+  - first:
+      213: -5147970224102918714
+    second: pumpkin_king_sheet_54
+  - first:
+      213: 5151461523701162663
+    second: pumpkin_king_sheet_55
+  - first:
+      213: -7109660735188807777
+    second: pumpkin_king_sheet_56
+  - first:
+      213: 5094973632562645685
+    second: pumpkin_king_sheet_57
+  - first:
+      213: -4255238159741917336
+    second: pumpkin_king_sheet_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 0
+        width: 95
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f668bd199262fa0800000000000000
+      internalID: -5825923361527140550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 95
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f338d67b824a58bf0800000000000000
+      internalID: -322671303504067777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 0
+        width: 95
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6637b80d61f310f0800000000000000
+      internalID: -1147308029449390482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 0
+        width: 95
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8765083382ab1f0b0800000000000000
+      internalID: -5696567371821459848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 0
+        width: 95
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db5de2aac042c7d0800000000000000
+      internalID: -2899683971012142125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 0
+        width: 95
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50b406f91af056f0800000000000000
+      internalID: -697782952833798054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 0
+        width: 95
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe386af7a10eba20800000000000000
+      internalID: 3079901016140300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 0
+        width: 95
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30396510a0e1bf200800000000000000
+      internalID: 214798435551187715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 0
+        width: 95
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b902f0add4bb7a60800000000000000
+      internalID: 7672925254136760758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 0
+        width: 95
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d87d20a2008a9a0800000000000000
+      internalID: -6221722704776032869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1299
+        y: 0
+        width: 98
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8ec0e6ff9e21410800000000000000
+      internalID: 1446475713611622599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 0
+        width: 100
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cdcfdf4dfecb98f0800000000000000
+      internalID: -532604543551156791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 0
+        width: 95
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abd3904d5834b6a0800000000000000
+      internalID: -6434455994439050328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1686
+        y: 0
+        width: 95
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187b6a6cfbb3934c0800000000000000
+      internalID: -4307345873745561727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 0
+        width: 95
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52045053e3437bd10800000000000000
+      internalID: 2141237589620113445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 0
+        width: 101
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c7b18b9a12779ad0800000000000000
+      internalID: -2695560393354266684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2070
+        y: 0
+        width: 107
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bedc2fdb1993dc60800000000000000
+      internalID: 7841779721169591989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 0
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff653254743e2370800000000000000
+      internalID: 8299628837490487293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 0
+        width: 117
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76515623756add80800000000000000
+      internalID: -8225150224200280452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2454
+        y: 0
+        width: 98
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda813573d8550880800000000000000
+      internalID: -8645406244440274212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2584
+        y: 0
+        width: 96
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efc85de3242f00d0800000000000000
+      internalID: -3454502652445405212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2707
+        y: 0
+        width: 95
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 648772cb03de7e050800000000000000
+      internalID: 5829889036225312838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 0
+        width: 96
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69ff70e22ee8e0bd0800000000000000
+      internalID: -2662033227643355242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2966
+        y: 0
+        width: 95
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469304006f8fc4e20800000000000000
+      internalID: 3336315159424547172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 3094
+        y: 0
+        width: 95
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bacdc70f771ad940800000000000000
+      internalID: 5321591744050875060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 3229
+        y: 63
+        width: 68
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dff76ea6ba2d6850800000000000000
+      internalID: 6371796011897585623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 57
+        width: 51
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b5305c7e3325a40800000000000000
+      internalID: 5355399977432734620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 3416
+        y: 114
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 207553747f22c8420800000000000000
+      internalID: 2633518327551842050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3482
+        y: 95
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb1619e4e7710260800000000000000
+      internalID: 7062057515740437476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 3558
+        y: 104
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e584bd23ffe13f0d0800000000000000
+      internalID: -3390332013061126050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 3424
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e334ef15c5668a070800000000000000
+      internalID: 8117850875033961278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 3464
+        y: 90
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d56c79eea5fac370800000000000000
+      internalID: 8343751391247623638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 3503
+        y: 55
+        width: 39
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f81fdf139a19a3600800000000000000
+      internalID: 448831268751012239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2798
+        y: 83
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc12b8fc7b1a66020800000000000000
+      internalID: 2334731267671269837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 87
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e967644ba1daec80800000000000000
+      internalID: -8292585230332106263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 3358
+        y: 92
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfde0bb9a71efa9b0800000000000000
+      internalID: -5066583139054195204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 3576
+        y: 57
+        width: 7
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bfed2b91c4e8bbf0800000000000000
+      internalID: -308245054291578958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 3218
+        y: 78
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb8c75696336f6a0800000000000000
+      internalID: -6415884091375449151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 3308
+        y: 73
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4251c6130d1fbb70800000000000000
+      internalID: 8916877686320747084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 3438
+        y: 73
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79c09cdfc4be0c90800000000000000
+      internalID: -7201619949267138179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 2698
+        y: 66
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa09eaef17445e440800000000000000
+      internalID: 4964449420640686250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 60
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63f067abd868bdb0800000000000000
+      internalID: -4775952112211135636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 3341
+        y: 57
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b22b94557e085a40800000000000000
+      internalID: 5357047653850620599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 3222
+        y: 59
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5997916f000e53920800000000000000
+      internalID: 2969525824054196629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 3226
+        y: 1
+        width: 78
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd588434a4f66be10800000000000000
+      internalID: 2213078631646266843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 3441
+        y: 58
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbaba37489ac8bb0800000000000000
+      internalID: -4932381105536128005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 3467
+        y: 54
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84120752c88774bb0800000000000000
+      internalID: -4951856721951710904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 3220
+        y: 48
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eddc844af2bd04f80800000000000000
+      internalID: -8124252730110194210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 43
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c97708a0ff04020800000000000000
+      internalID: 2324137828293254264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 3429
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7241b8592b5b3f640800000000000000
+      internalID: 5112629780613370919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 29
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862636898238075d0800000000000000
+      internalID: -3066807135860727192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 3298
+        y: 33
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6511690f1175c6600800000000000000
+      internalID: 462840596274745686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 3360
+        y: 1
+        width: 64
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573bf4154cb8e3fe0800000000000000
+      internalID: -1207373974794685579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 3459
+        y: 30
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e204b31c373133040800000000000000
+      internalID: 4626062630123683886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 9
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5be063b5cbe88b0800000000000000
+      internalID: -5147970224102918714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 3436
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2ec4256faad7740800000000000000
+      internalID: 5151461523701162663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 3488
+        y: 17
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f478dda39655d90800000000000000
+      internalID: -7109660735188807777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 3499
+        y: 1
+        width: 61
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bac0e4468bf4b640800000000000000
+      internalID: 5094973632562645685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pumpkin_king_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 14
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86765ed507b52f4c0800000000000000
+      internalID: -4255238159741917336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pumpkin_king_sheet_0: -5825923361527140550
+      pumpkin_king_sheet_1: -322671303504067777
+      pumpkin_king_sheet_10: 1446475713611622599
+      pumpkin_king_sheet_11: -532604543551156791
+      pumpkin_king_sheet_12: -6434455994439050328
+      pumpkin_king_sheet_13: -4307345873745561727
+      pumpkin_king_sheet_14: 2141237589620113445
+      pumpkin_king_sheet_15: -2695560393354266684
+      pumpkin_king_sheet_16: 7841779721169591989
+      pumpkin_king_sheet_17: 8299628837490487293
+      pumpkin_king_sheet_18: -8225150224200280452
+      pumpkin_king_sheet_19: -8645406244440274212
+      pumpkin_king_sheet_2: -1147308029449390482
+      pumpkin_king_sheet_20: -3454502652445405212
+      pumpkin_king_sheet_21: 5829889036225312838
+      pumpkin_king_sheet_22: -2662033227643355242
+      pumpkin_king_sheet_23: 3336315159424547172
+      pumpkin_king_sheet_24: 5321591744050875060
+      pumpkin_king_sheet_25: 6371796011897585623
+      pumpkin_king_sheet_26: 5355399977432734620
+      pumpkin_king_sheet_27: 2633518327551842050
+      pumpkin_king_sheet_28: 7062057515740437476
+      pumpkin_king_sheet_29: -3390332013061126050
+      pumpkin_king_sheet_3: -5696567371821459848
+      pumpkin_king_sheet_30: 8117850875033961278
+      pumpkin_king_sheet_31: 8343751391247623638
+      pumpkin_king_sheet_32: 448831268751012239
+      pumpkin_king_sheet_33: 2334731267671269837
+      pumpkin_king_sheet_34: -8292585230332106263
+      pumpkin_king_sheet_35: -5066583139054195204
+      pumpkin_king_sheet_36: -308245054291578958
+      pumpkin_king_sheet_37: -6415884091375449151
+      pumpkin_king_sheet_38: 8916877686320747084
+      pumpkin_king_sheet_39: -7201619949267138179
+      pumpkin_king_sheet_4: -2899683971012142125
+      pumpkin_king_sheet_40: 4964449420640686250
+      pumpkin_king_sheet_41: -4775952112211135636
+      pumpkin_king_sheet_42: 5357047653850620599
+      pumpkin_king_sheet_43: 2969525824054196629
+      pumpkin_king_sheet_44: 2213078631646266843
+      pumpkin_king_sheet_45: -4932381105536128005
+      pumpkin_king_sheet_46: -4951856721951710904
+      pumpkin_king_sheet_47: -8124252730110194210
+      pumpkin_king_sheet_48: 2324137828293254264
+      pumpkin_king_sheet_49: 5112629780613370919
+      pumpkin_king_sheet_5: -697782952833798054
+      pumpkin_king_sheet_50: -3066807135860727192
+      pumpkin_king_sheet_51: 462840596274745686
+      pumpkin_king_sheet_52: -1207373974794685579
+      pumpkin_king_sheet_53: 4626062630123683886
+      pumpkin_king_sheet_54: -5147970224102918714
+      pumpkin_king_sheet_55: 5151461523701162663
+      pumpkin_king_sheet_56: -7109660735188807777
+      pumpkin_king_sheet_57: 5094973632562645685
+      pumpkin_king_sheet_58: -4255238159741917336
+      pumpkin_king_sheet_6: 3079901016140300016
+      pumpkin_king_sheet_7: 214798435551187715
+      pumpkin_king_sheet_8: 7672925254136760758
+      pumpkin_king_sheet_9: -6221722704776032869
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

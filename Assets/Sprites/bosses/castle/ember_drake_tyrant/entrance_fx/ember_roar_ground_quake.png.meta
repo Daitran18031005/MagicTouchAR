@@ -1,0 +1,5304 @@
+fileFormatVersion: 2
+guid: 9799a53ba67243946927ae20c426c23e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 838049019678673292
+    second: ember_roar_ground_quake_0
+  - first:
+      213: -3489796698492806348
+    second: ember_roar_ground_quake_1
+  - first:
+      213: 3072245691299059401
+    second: ember_roar_ground_quake_2
+  - first:
+      213: -1640283185390364236
+    second: ember_roar_ground_quake_3
+  - first:
+      213: 8624376074228535775
+    second: ember_roar_ground_quake_4
+  - first:
+      213: -3231540953260428558
+    second: ember_roar_ground_quake_5
+  - first:
+      213: -9110428340276379811
+    second: ember_roar_ground_quake_6
+  - first:
+      213: 2604627011207438203
+    second: ember_roar_ground_quake_7
+  - first:
+      213: -3773432056219733007
+    second: ember_roar_ground_quake_8
+  - first:
+      213: 953189504733447783
+    second: ember_roar_ground_quake_9
+  - first:
+      213: -3340831895724614444
+    second: ember_roar_ground_quake_10
+  - first:
+      213: -1847491092688745662
+    second: ember_roar_ground_quake_11
+  - first:
+      213: 7332573155051075608
+    second: ember_roar_ground_quake_12
+  - first:
+      213: -5793161114684961159
+    second: ember_roar_ground_quake_13
+  - first:
+      213: 8412855450433338225
+    second: ember_roar_ground_quake_14
+  - first:
+      213: -8544804187114556904
+    second: ember_roar_ground_quake_15
+  - first:
+      213: 8336039735731055136
+    second: ember_roar_ground_quake_16
+  - first:
+      213: 2744611583047012112
+    second: ember_roar_ground_quake_17
+  - first:
+      213: 1373361673429844822
+    second: ember_roar_ground_quake_18
+  - first:
+      213: 7560565585538981101
+    second: ember_roar_ground_quake_19
+  - first:
+      213: 8459760137666027449
+    second: ember_roar_ground_quake_20
+  - first:
+      213: 247807907335626264
+    second: ember_roar_ground_quake_21
+  - first:
+      213: 7181175206944073598
+    second: ember_roar_ground_quake_22
+  - first:
+      213: 7761764301282696799
+    second: ember_roar_ground_quake_23
+  - first:
+      213: 1560179195427323916
+    second: ember_roar_ground_quake_24
+  - first:
+      213: -3836959725629442983
+    second: ember_roar_ground_quake_25
+  - first:
+      213: 3922043057094362232
+    second: ember_roar_ground_quake_26
+  - first:
+      213: -4788874405981227273
+    second: ember_roar_ground_quake_27
+  - first:
+      213: -2405116581945408577
+    second: ember_roar_ground_quake_28
+  - first:
+      213: 9101118771093976006
+    second: ember_roar_ground_quake_29
+  - first:
+      213: -4006471857603381259
+    second: ember_roar_ground_quake_30
+  - first:
+      213: -886905675631573786
+    second: ember_roar_ground_quake_31
+  - first:
+      213: -9157818351607942512
+    second: ember_roar_ground_quake_32
+  - first:
+      213: 342920566303048818
+    second: ember_roar_ground_quake_33
+  - first:
+      213: 7103464604113978586
+    second: ember_roar_ground_quake_34
+  - first:
+      213: -7999373027972380216
+    second: ember_roar_ground_quake_35
+  - first:
+      213: -3386399809160962275
+    second: ember_roar_ground_quake_36
+  - first:
+      213: -5737972598015577945
+    second: ember_roar_ground_quake_37
+  - first:
+      213: -4961665832866160983
+    second: ember_roar_ground_quake_38
+  - first:
+      213: 6281382265887533289
+    second: ember_roar_ground_quake_39
+  - first:
+      213: 1803916692869379416
+    second: ember_roar_ground_quake_40
+  - first:
+      213: 914536227412687284
+    second: ember_roar_ground_quake_41
+  - first:
+      213: -1528603210507472522
+    second: ember_roar_ground_quake_42
+  - first:
+      213: 6509605641991663753
+    second: ember_roar_ground_quake_43
+  - first:
+      213: 8477474553208353328
+    second: ember_roar_ground_quake_44
+  - first:
+      213: -1853656912936720872
+    second: ember_roar_ground_quake_45
+  - first:
+      213: 2355680103914376363
+    second: ember_roar_ground_quake_46
+  - first:
+      213: 3489167836272559595
+    second: ember_roar_ground_quake_47
+  - first:
+      213: 1625475812663811751
+    second: ember_roar_ground_quake_48
+  - first:
+      213: 7855674215374866050
+    second: ember_roar_ground_quake_49
+  - first:
+      213: 5620406983201757131
+    second: ember_roar_ground_quake_50
+  - first:
+      213: 8225104661438461055
+    second: ember_roar_ground_quake_51
+  - first:
+      213: 1289209064251146667
+    second: ember_roar_ground_quake_52
+  - first:
+      213: -4583066219150165519
+    second: ember_roar_ground_quake_53
+  - first:
+      213: 6109909579308489288
+    second: ember_roar_ground_quake_54
+  - first:
+      213: 5019053327538307087
+    second: ember_roar_ground_quake_55
+  - first:
+      213: -2744017727475891195
+    second: ember_roar_ground_quake_56
+  - first:
+      213: 407277133886900456
+    second: ember_roar_ground_quake_57
+  - first:
+      213: 3750819459583948153
+    second: ember_roar_ground_quake_58
+  - first:
+      213: 3181646146147216555
+    second: ember_roar_ground_quake_59
+  - first:
+      213: 694690757183365924
+    second: ember_roar_ground_quake_60
+  - first:
+      213: -160439641067470651
+    second: ember_roar_ground_quake_61
+  - first:
+      213: -5407342161612304290
+    second: ember_roar_ground_quake_62
+  - first:
+      213: -2290597244121787070
+    second: ember_roar_ground_quake_63
+  - first:
+      213: 5318789000940903965
+    second: ember_roar_ground_quake_64
+  - first:
+      213: -5138301656485321673
+    second: ember_roar_ground_quake_65
+  - first:
+      213: 3005398873910678464
+    second: ember_roar_ground_quake_66
+  - first:
+      213: -7194973763314227742
+    second: ember_roar_ground_quake_67
+  - first:
+      213: 2730832497846127758
+    second: ember_roar_ground_quake_68
+  - first:
+      213: 5097464282266923395
+    second: ember_roar_ground_quake_69
+  - first:
+      213: 4110120785822590370
+    second: ember_roar_ground_quake_70
+  - first:
+      213: -279931366627816943
+    second: ember_roar_ground_quake_71
+  - first:
+      213: 4306551681362260488
+    second: ember_roar_ground_quake_72
+  - first:
+      213: 2917898875275498585
+    second: ember_roar_ground_quake_73
+  - first:
+      213: 7761978127103222291
+    second: ember_roar_ground_quake_74
+  - first:
+      213: -6661435342583801599
+    second: ember_roar_ground_quake_75
+  - first:
+      213: 4942003080727580779
+    second: ember_roar_ground_quake_76
+  - first:
+      213: 1824397171785298058
+    second: ember_roar_ground_quake_77
+  - first:
+      213: -3584226551681286754
+    second: ember_roar_ground_quake_78
+  - first:
+      213: 4290942174540278056
+    second: ember_roar_ground_quake_79
+  - first:
+      213: -7147709356301257249
+    second: ember_roar_ground_quake_80
+  - first:
+      213: 7858337953067025679
+    second: ember_roar_ground_quake_81
+  - first:
+      213: 1968705187378431541
+    second: ember_roar_ground_quake_82
+  - first:
+      213: 4445873281432090288
+    second: ember_roar_ground_quake_83
+  - first:
+      213: 4975819770603427370
+    second: ember_roar_ground_quake_84
+  - first:
+      213: 8297126121621157763
+    second: ember_roar_ground_quake_85
+  - first:
+      213: -559015311771135988
+    second: ember_roar_ground_quake_86
+  - first:
+      213: -4751518341106806562
+    second: ember_roar_ground_quake_87
+  - first:
+      213: 2717037275490112428
+    second: ember_roar_ground_quake_88
+  - first:
+      213: 7601841118104157120
+    second: ember_roar_ground_quake_89
+  - first:
+      213: 5544050411055182201
+    second: ember_roar_ground_quake_90
+  - first:
+      213: 848243396388017541
+    second: ember_roar_ground_quake_91
+  - first:
+      213: -7107901890899805496
+    second: ember_roar_ground_quake_92
+  - first:
+      213: -2092069752939766872
+    second: ember_roar_ground_quake_93
+  - first:
+      213: 8446475451951325327
+    second: ember_roar_ground_quake_94
+  - first:
+      213: 8541132642162120040
+    second: ember_roar_ground_quake_95
+  - first:
+      213: 709212166742202736
+    second: ember_roar_ground_quake_96
+  - first:
+      213: -1876029511464359907
+    second: ember_roar_ground_quake_97
+  - first:
+      213: 5689348175462665081
+    second: ember_roar_ground_quake_98
+  - first:
+      213: 4612395724859905032
+    second: ember_roar_ground_quake_99
+  - first:
+      213: -4650873550154554323
+    second: ember_roar_ground_quake_100
+  - first:
+      213: -3044259824381905730
+    second: ember_roar_ground_quake_101
+  - first:
+      213: 1118662192508264753
+    second: ember_roar_ground_quake_102
+  - first:
+      213: -6327973274887541379
+    second: ember_roar_ground_quake_103
+  - first:
+      213: 2305674342847182865
+    second: ember_roar_ground_quake_104
+  - first:
+      213: 115117755124794183
+    second: ember_roar_ground_quake_105
+  - first:
+      213: -2697335215415882131
+    second: ember_roar_ground_quake_106
+  - first:
+      213: -803271068223960165
+    second: ember_roar_ground_quake_107
+  - first:
+      213: 6758892843829578869
+    second: ember_roar_ground_quake_108
+  - first:
+      213: 169199574567792270
+    second: ember_roar_ground_quake_109
+  - first:
+      213: 1169466043229619617
+    second: ember_roar_ground_quake_110
+  - first:
+      213: -6217412380012172912
+    second: ember_roar_ground_quake_111
+  - first:
+      213: -1401665393911813413
+    second: ember_roar_ground_quake_112
+  - first:
+      213: 5725443255828076729
+    second: ember_roar_ground_quake_113
+  - first:
+      213: -7603739928510612211
+    second: ember_roar_ground_quake_114
+  - first:
+      213: 1138385393705730187
+    second: ember_roar_ground_quake_115
+  - first:
+      213: 9120337568129853094
+    second: ember_roar_ground_quake_116
+  - first:
+      213: 5252812449003247618
+    second: ember_roar_ground_quake_117
+  - first:
+      213: 5692391588899970906
+    second: ember_roar_ground_quake_118
+  - first:
+      213: -2981948471852310711
+    second: ember_roar_ground_quake_119
+  - first:
+      213: -6096824908433381160
+    second: ember_roar_ground_quake_120
+  - first:
+      213: -2882516801282948168
+    second: ember_roar_ground_quake_121
+  - first:
+      213: 5815421047321752730
+    second: ember_roar_ground_quake_122
+  - first:
+      213: -4843150144213342755
+    second: ember_roar_ground_quake_123
+  - first:
+      213: -2320266460272739455
+    second: ember_roar_ground_quake_124
+  - first:
+      213: 2026702330432949910
+    second: ember_roar_ground_quake_125
+  - first:
+      213: 1868714975462945829
+    second: ember_roar_ground_quake_126
+  - first:
+      213: 8585880734827809846
+    second: ember_roar_ground_quake_127
+  - first:
+      213: -5895084431613976847
+    second: ember_roar_ground_quake_128
+  - first:
+      213: 1346597368672090334
+    second: ember_roar_ground_quake_129
+  - first:
+      213: 345424889034240307
+    second: ember_roar_ground_quake_130
+  - first:
+      213: 7458804362645435235
+    second: ember_roar_ground_quake_131
+  - first:
+      213: 680230700690392926
+    second: ember_roar_ground_quake_132
+  - first:
+      213: -1447158006250053225
+    second: ember_roar_ground_quake_133
+  - first:
+      213: 3341515907512569292
+    second: ember_roar_ground_quake_134
+  - first:
+      213: -8065511832223180472
+    second: ember_roar_ground_quake_135
+  - first:
+      213: -4332589872773838536
+    second: ember_roar_ground_quake_136
+  - first:
+      213: -5383710838217862476
+    second: ember_roar_ground_quake_137
+  - first:
+      213: -9181061680461811005
+    second: ember_roar_ground_quake_138
+  - first:
+      213: 1775237175570403802
+    second: ember_roar_ground_quake_139
+  - first:
+      213: 5692521569647119743
+    second: ember_roar_ground_quake_140
+  - first:
+      213: -1837537573517744482
+    second: ember_roar_ground_quake_141
+  - first:
+      213: -5619012437151662547
+    second: ember_roar_ground_quake_142
+  - first:
+      213: 798562324683405409
+    second: ember_roar_ground_quake_143
+  - first:
+      213: 8491787509016770337
+    second: ember_roar_ground_quake_144
+  - first:
+      213: -7642063359462713084
+    second: ember_roar_ground_quake_145
+  - first:
+      213: -5602520848459734806
+    second: ember_roar_ground_quake_146
+  - first:
+      213: 6148628820428083845
+    second: ember_roar_ground_quake_147
+  - first:
+      213: 7149934593210548591
+    second: ember_roar_ground_quake_148
+  - first:
+      213: -3502919424632522205
+    second: ember_roar_ground_quake_149
+  - first:
+      213: 2265757991802997622
+    second: ember_roar_ground_quake_150
+  - first:
+      213: 5142952441729189658
+    second: ember_roar_ground_quake_151
+  - first:
+      213: 5655209757545580107
+    second: ember_roar_ground_quake_152
+  - first:
+      213: 1296089747517723072
+    second: ember_roar_ground_quake_153
+  - first:
+      213: -2822474528946423621
+    second: ember_roar_ground_quake_154
+  - first:
+      213: 8359263463175538933
+    second: ember_roar_ground_quake_155
+  - first:
+      213: 7766090002638833567
+    second: ember_roar_ground_quake_156
+  - first:
+      213: -8239634412971045341
+    second: ember_roar_ground_quake_157
+  - first:
+      213: 5683445792709341076
+    second: ember_roar_ground_quake_158
+  - first:
+      213: -1055587620932761841
+    second: ember_roar_ground_quake_159
+  - first:
+      213: -8176072010327564667
+    second: ember_roar_ground_quake_160
+  - first:
+      213: -3524333224457834359
+    second: ember_roar_ground_quake_161
+  - first:
+      213: 6488587729184641282
+    second: ember_roar_ground_quake_162
+  - first:
+      213: 2751631566386040893
+    second: ember_roar_ground_quake_163
+  - first:
+      213: 4094882300556059710
+    second: ember_roar_ground_quake_164
+  - first:
+      213: -1649817758724488782
+    second: ember_roar_ground_quake_165
+  - first:
+      213: -4539795623997909706
+    second: ember_roar_ground_quake_166
+  - first:
+      213: -2685233420002832675
+    second: ember_roar_ground_quake_167
+  - first:
+      213: -6790141432172884511
+    second: ember_roar_ground_quake_168
+  - first:
+      213: 6383017614558675122
+    second: ember_roar_ground_quake_169
+  - first:
+      213: -3550661719331031800
+    second: ember_roar_ground_quake_170
+  - first:
+      213: -2017221147469506886
+    second: ember_roar_ground_quake_171
+  - first:
+      213: -4590200853902441748
+    second: ember_roar_ground_quake_172
+  - first:
+      213: 2813919145419451114
+    second: ember_roar_ground_quake_173
+  - first:
+      213: -1367720585285764664
+    second: ember_roar_ground_quake_174
+  - first:
+      213: -3428970066582599932
+    second: ember_roar_ground_quake_175
+  - first:
+      213: -1959010682777325610
+    second: ember_roar_ground_quake_176
+  - first:
+      213: 6389420182214753026
+    second: ember_roar_ground_quake_177
+  - first:
+      213: -1466933094283604442
+    second: ember_roar_ground_quake_178
+  - first:
+      213: -5762254157566324695
+    second: ember_roar_ground_quake_179
+  - first:
+      213: -5970150111812919178
+    second: ember_roar_ground_quake_180
+  - first:
+      213: -6928427447297842791
+    second: ember_roar_ground_quake_181
+  - first:
+      213: 9030110825773819604
+    second: ember_roar_ground_quake_182
+  - first:
+      213: -5105956058466076740
+    second: ember_roar_ground_quake_183
+  - first:
+      213: -8442738678911812987
+    second: ember_roar_ground_quake_184
+  - first:
+      213: -3991177094983328329
+    second: ember_roar_ground_quake_185
+  - first:
+      213: -8941851172491243556
+    second: ember_roar_ground_quake_186
+  - first:
+      213: -4002358605689789022
+    second: ember_roar_ground_quake_187
+  - first:
+      213: 2288034163617870963
+    second: ember_roar_ground_quake_188
+  - first:
+      213: 7652816777985812677
+    second: ember_roar_ground_quake_189
+  - first:
+      213: 5029534323268221948
+    second: ember_roar_ground_quake_190
+  - first:
+      213: -5004119741809733438
+    second: ember_roar_ground_quake_191
+  - first:
+      213: 6728819935092125688
+    second: ember_roar_ground_quake_192
+  - first:
+      213: -4596988167796002262
+    second: ember_roar_ground_quake_193
+  - first:
+      213: 6778524262900927167
+    second: ember_roar_ground_quake_194
+  - first:
+      213: -7100355543997359900
+    second: ember_roar_ground_quake_195
+  - first:
+      213: 3622983870231402676
+    second: ember_roar_ground_quake_196
+  - first:
+      213: -8207868739772036448
+    second: ember_roar_ground_quake_197
+  - first:
+      213: -6870519960318387745
+    second: ember_roar_ground_quake_198
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_0
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 159
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c89cf4aa42951ab00800000000000000
+      internalID: 838049019678673292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_1
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 177
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b51087460c19fc0800000000000000
+      internalID: -3489796698492806348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_2
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 185
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c6da94cd2fc2aa20800000000000000
+      internalID: 3072245691299059401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_3
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 177
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9d2cb222b8c39e0800000000000000
+      internalID: -1640283185390364236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_4
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 151
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd115c97850ffa770800000000000000
+      internalID: 8624376074228535775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_5
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 175
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2f8cbdf924723d0800000000000000
+      internalID: -3231540953260428558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_6
+      rect:
+        serializedVersion: 2
+        x: 2423
+        y: 175
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fbc2291b1419180800000000000000
+      internalID: -9110428340276379811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_7
+      rect:
+        serializedVersion: 2
+        x: 1637
+        y: 163
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7f186f777e752420800000000000000
+      internalID: 2604627011207438203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_8
+      rect:
+        serializedVersion: 2
+        x: 1685
+        y: 121
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f373f0998312abc0800000000000000
+      internalID: -3773432056219733007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_9
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 153
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7668449edc86a3d00800000000000000
+      internalID: 953189504733447783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_10
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 153
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc1a01671bf2a1d0800000000000000
+      internalID: -3340831895724614444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_11
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 121
+        width: 26
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24bc69eb3a46c56e0800000000000000
+      internalID: -1847491092688745662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_12
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 157
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81872645f6882c560800000000000000
+      internalID: 7332573155051075608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_13
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 133
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ec890e8ae8a9fa0800000000000000
+      internalID: -5793161114684961159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_14
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 163
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bb9cd757770c470800000000000000
+      internalID: 8412855450433338225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_15
+      rect:
+        serializedVersion: 2
+        x: 2395
+        y: 131
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81234c73dd1ca6980800000000000000
+      internalID: -8544804187114556904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_16
+      rect:
+        serializedVersion: 2
+        x: 2401
+        y: 163
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02a6ac139ff8fa370800000000000000
+      internalID: 8336039735731055136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_17
+      rect:
+        serializedVersion: 2
+        x: 2439
+        y: 157
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f80f571b1d61620800000000000000
+      internalID: 2744611583047012112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_18
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 151
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6530ce46a292f0310800000000000000
+      internalID: 1373361673429844822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_19
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 143
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec181ba7568ce860800000000000000
+      internalID: 7560565585538981101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_20
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 147
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfd792060b176570800000000000000
+      internalID: 8459760137666027449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_21
+      rect:
+        serializedVersion: 2
+        x: 1831
+        y: 137
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ed5419af3607300800000000000000
+      internalID: 247807907335626264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_22
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 143
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e776ebf9dc8a8a360800000000000000
+      internalID: 7181175206944073598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_23
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 151
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e5348228357bb60800000000000000
+      internalID: 7761764301282696799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_24
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 141
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c00866946bed6a510800000000000000
+      internalID: 1560179195427323916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_25
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 123
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9547068657160cac0800000000000000
+      internalID: -3836959725629442983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_26
+      rect:
+        serializedVersion: 2
+        x: 2357
+        y: 123
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87485eb6165ed6630800000000000000
+      internalID: 3922043057094362232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_27
+      rect:
+        serializedVersion: 2
+        x: 2447
+        y: 141
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6778da9108a8db0800000000000000
+      internalID: -4788874405981227273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_28
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 129
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb30eb9263f4f9ed0800000000000000
+      internalID: -2405116581945408577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_29
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 119
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c332b17d4bad4e70800000000000000
+      internalID: 9101118771093976006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_30
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 87
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f773fc92172668c0800000000000000
+      internalID: -4006471857603381259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_31
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 135
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e4c3beacf311b3f0800000000000000
+      internalID: -886905675631573786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_32
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 117
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092fadabab4e8e080800000000000000
+      internalID: -9157818351607942512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_33
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 139
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2744bac207c42c400800000000000000
+      internalID: 342920566303048818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_34
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 137
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad446c2fb63949260800000000000000
+      internalID: 7103464604113978586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_35
+      rect:
+        serializedVersion: 2
+        x: 1923
+        y: 87
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c98dd11d948cf090800000000000000
+      internalID: -7999373027972380216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_36
+      rect:
+        serializedVersion: 2
+        x: 2139
+        y: 137
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f9283c0571101d0800000000000000
+      internalID: -3386399809160962275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_37
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 127
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a03b5cb250ae50b0800000000000000
+      internalID: -5737972598015577945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_38
+      rect:
+        serializedVersion: 2
+        x: 2423
+        y: 125
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aed1d9863f942bb0800000000000000
+      internalID: -4961665832866160983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_39
+      rect:
+        serializedVersion: 2
+        x: 2457
+        y: 123
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e82aa004e3fb2750800000000000000
+      internalID: 6281382265887533289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_40
+      rect:
+        serializedVersion: 2
+        x: 2661
+        y: 131
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85570e2bcacc80910800000000000000
+      internalID: 1803916692869379416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_41
+      rect:
+        serializedVersion: 2
+        x: 2961
+        y: 131
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9b8297ad511bc00800000000000000
+      internalID: 914536227412687284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_42
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 109
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6713e2b9a7f49cae0800000000000000
+      internalID: -1528603210507472522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_43
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 109
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980bace87d3c65a50800000000000000
+      internalID: 6509605641991663753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_44
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 129
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032b568c03a06a570800000000000000
+      internalID: 8477474553208353328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_45
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 117
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816a5f8dbdc7646e0800000000000000
+      internalID: -1853656912936720872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_46
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 129
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac8546d29e01b020800000000000000
+      internalID: 2355680103914376363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_47
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 125
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be58eb229a30c6030800000000000000
+      internalID: 3489167836272559595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_48
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 45
+        width: 204
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aed0d4b3a9de8610800000000000000
+      internalID: 1625475812663811751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_49
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 121
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2864d96e316f40d60800000000000000
+      internalID: 7855674215374866050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_50
+      rect:
+        serializedVersion: 2
+        x: 2143
+        y: 125
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc79dde7f52bffd40800000000000000
+      internalID: 5620406983201757131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_51
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 129
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74f2717c11752270800000000000000
+      internalID: 8225104661438461055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_52
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 125
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba147eb30d034e110800000000000000
+      internalID: 1289209064251146667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_53
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 45
+        width: 206
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f936794e8da560c0800000000000000
+      internalID: -4583066219150165519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_54
+      rect:
+        serializedVersion: 2
+        x: 2403
+        y: 121
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84a50740462cac450800000000000000
+      internalID: 6109909579308489288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_55
+      rect:
+        serializedVersion: 2
+        x: 2475
+        y: 121
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00c9a8c86247a540800000000000000
+      internalID: 5019053327538307087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_56
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 115
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504cc605a6a4be9d0800000000000000
+      internalID: -2744017727475891195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_57
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 115
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8c77a3560f6a500800000000000000
+      internalID: 407277133886900456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_58
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 119
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975bf110d669d0430800000000000000
+      internalID: 3750819459583948153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_59
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 31
+        width: 242
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac6816105a772c20800000000000000
+      internalID: 3181646146147216555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_60
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 31
+        width: 240
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42369a2209904a900800000000000000
+      internalID: 694690757183365924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_61
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 115
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0484a1ff006cdf0800000000000000
+      internalID: -160439641067470651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_62
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 119
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e501b1e04f245f4b0800000000000000
+      internalID: -5407342161612304290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_63
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 119
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 245d1ac41f92630e0800000000000000
+      internalID: -2290597244121787070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_64
+      rect:
+        serializedVersion: 2
+        x: 3015
+        y: 115
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e565c8a6220d940800000000000000
+      internalID: 5318789000940903965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_65
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 35
+        width: 210
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73424680ed511b8b0800000000000000
+      internalID: -5138301656485321673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_66
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 107
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c31ecf3a5255b920800000000000000
+      internalID: 3005398873910678464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_67
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 105
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5666d9b71562c90800000000000000
+      internalID: -7194973763314227742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_68
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 101
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c063f20bdd5e520800000000000000
+      internalID: 2730832497846127758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_69
+      rect:
+        serializedVersion: 2
+        x: 1215
+        y: 105
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 381f2c7d1c4ddb640800000000000000
+      internalID: 5097464282266923395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_70
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 35
+        width: 210
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5a7ee04151a0930800000000000000
+      internalID: 4110120785822590370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_71
+      rect:
+        serializedVersion: 2
+        x: 1339
+        y: 105
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11ac8aab7eb7d1cf0800000000000000
+      internalID: -279931366627816943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_72
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 101
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8027576efe1f3cb30800000000000000
+      internalID: 4306551681362260488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_73
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 105
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954de4f31957e7820800000000000000
+      internalID: 2917898875275498585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_74
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 107
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312e65c5bf518bb60800000000000000
+      internalID: 7761978127103222291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_75
+      rect:
+        serializedVersion: 2
+        x: 2089
+        y: 105
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1095f0789d3dd83a0800000000000000
+      internalID: -6661435342583801599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_76
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 103
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6057a93e95859440800000000000000
+      internalID: 4942003080727580779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_77
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 107
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a807d79cf8f815910800000000000000
+      internalID: 1824397171785298058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_78
+      rect:
+        serializedVersion: 2
+        x: 2619
+        y: 67
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d7388f0f4424ec0800000000000000
+      internalID: -3584226551681286754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_79
+      rect:
+        serializedVersion: 2
+        x: 2627
+        y: 109
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82927316c2d7c8b30800000000000000
+      internalID: 4290942174540278056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_80
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd57debe53c3ecc90800000000000000
+      internalID: -7147709356301257249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_81
+      rect:
+        serializedVersion: 2
+        x: 2933
+        y: 103
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05c789abbc6e0d60800000000000000
+      internalID: 7858337953067025679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_82
+      rect:
+        serializedVersion: 2
+        x: 2949
+        y: 67
+        width: 64
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5360921ffee325b10800000000000000
+      internalID: 1968705187378431541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_83
+      rect:
+        serializedVersion: 2
+        x: 2999
+        y: 109
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6f828b13ae2bd30800000000000000
+      internalID: 4445873281432090288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_84
+      rect:
+        serializedVersion: 2
+        x: 3007
+        y: 107
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a26de25e7b9ad0540800000000000000
+      internalID: 4975819770603427370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_85
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 41
+        width: 164
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387f7df5f30552370800000000000000
+      internalID: 8297126121621157763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_86
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 87
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0090e5298afd38f0800000000000000
+      internalID: -559015311771135988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_87
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 95
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed0539e4e373f0eb0800000000000000
+      internalID: -4751518341106806562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_88
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 99
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3551fa10bd4b520800000000000000
+      internalID: 2717037275490112428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_89
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 49
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb7e8b783a2f7960800000000000000
+      internalID: 7601841118104157120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_90
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 93
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9717dc7a97c60fc40800000000000000
+      internalID: 5544050411055182201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_91
+      rect:
+        serializedVersion: 2
+        x: 2509
+        y: 91
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58557c4ffd095cb00800000000000000
+      internalID: 848243396388017541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_92
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 85
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8caf696b3e8ab5d90800000000000000
+      internalID: -7107901890899805496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_93
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 85
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab9faad4a977f2e0800000000000000
+      internalID: -2092069752939766872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_94
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 93
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80ad951ca8e73570800000000000000
+      internalID: 8446475451951325327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_95
+      rect:
+        serializedVersion: 2
+        x: 2761
+        y: 93
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 865119b92e2388670800000000000000
+      internalID: 8541132642162120040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_96
+      rect:
+        serializedVersion: 2
+        x: 2861
+        y: 93
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 079dd0545b0a7d900800000000000000
+      internalID: 709212166742202736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_97
+      rect:
+        serializedVersion: 2
+        x: 2909
+        y: 93
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d186405591107f5e0800000000000000
+      internalID: -1876029511464359907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_98
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 95
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b08f9a500a4fe40800000000000000
+      internalID: 5689348175462665081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_99
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 85
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8041ec76975820040800000000000000
+      internalID: 4612395724859905032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_100
+      rect:
+        serializedVersion: 2
+        x: 3011
+        y: 85
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2427c3c527c47fb0800000000000000
+      internalID: -4650873550154554323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_101
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 75
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb439b3a1dd90c5d0800000000000000
+      internalID: -3044259824381905730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_102
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 83
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1316d105659468f00800000000000000
+      internalID: 1118662192508264753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_103
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 83
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7da92265d58e28a0800000000000000
+      internalID: -6327973274887541379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_104
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 75
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118732d49966fff10800000000000000
+      internalID: 2305674342847182865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_105
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 87
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743cd850dfaf89100800000000000000
+      internalID: 115117755124794183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_106
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 85
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e0cf4a9e3219ad0800000000000000
+      internalID: -2697335215415882131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_107
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 75
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b892828353ad4f0800000000000000
+      internalID: -803271068223960165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_108
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 87
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c44673b396ccd50800000000000000
+      internalID: 6758892843829578869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_109
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 75
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ea24add1e195200800000000000000
+      internalID: 169199574567792270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_110
+      rect:
+        serializedVersion: 2
+        x: 2515
+        y: 75
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a545939b27ca3010800000000000000
+      internalID: 1169466043229619617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_111
+      rect:
+        serializedVersion: 2
+        x: 2677
+        y: 89
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0992243b16057b9a0800000000000000
+      internalID: -6217412380012172912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_112
+      rect:
+        serializedVersion: 2
+        x: 2685
+        y: 61
+        width: 62
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdaade520c84c8ce0800000000000000
+      internalID: -1401665393911813413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_113
+      rect:
+        serializedVersion: 2
+        x: 2727
+        y: 75
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b8d9457e4cd47f40800000000000000
+      internalID: 5725443255828076729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_114
+      rect:
+        serializedVersion: 2
+        x: 2757
+        y: 77
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0dbba442d61a7690800000000000000
+      internalID: -7603739928510612211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_115
+      rect:
+        serializedVersion: 2
+        x: 2771
+        y: 87
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b80c251fb7b5ccf00800000000000000
+      internalID: 1138385393705730187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_116
+      rect:
+        serializedVersion: 2
+        x: 2783
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a6a70452b2f19e70800000000000000
+      internalID: 9120337568129853094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_117
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 85
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208969e771db5e840800000000000000
+      internalID: 5252812449003247618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_118
+      rect:
+        serializedVersion: 2
+        x: 2853
+        y: 87
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fddc29dff6ffe40800000000000000
+      internalID: 5692391588899970906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_119
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 77
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f59b4f9adfd96d0800000000000000
+      internalID: -2981948471852310711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_120
+      rect:
+        serializedVersion: 2
+        x: 2873
+        y: 75
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d823135c0ab36ba0800000000000000
+      internalID: -6096824908433381160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_121
+      rect:
+        serializedVersion: 2
+        x: 2911
+        y: 71
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b34f60dd3e3ff7d0800000000000000
+      internalID: -2882516801282948168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_122
+      rect:
+        serializedVersion: 2
+        x: 2931
+        y: 75
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9471f091a684b050800000000000000
+      internalID: 5815421047321752730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_123
+      rect:
+        serializedVersion: 2
+        x: 2947
+        y: 89
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5284c9a9ca9ccb0800000000000000
+      internalID: -4843150144213342755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_124
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 71
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18bb03b92f1cccfd0800000000000000
+      internalID: -2320266460272739455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_125
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 63
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e89e6180b402c10800000000000000
+      internalID: 2026702330432949910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_126
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 69
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524fbea8e520fe910800000000000000
+      internalID: 1868714975462945829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_127
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 59
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63c0843d90d272770800000000000000
+      internalID: 8585880734827809846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_128
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 69
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fe96b461f3703ea0800000000000000
+      internalID: -5895084431613976847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_129
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 69
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8fc271c2310b210800000000000000
+      internalID: 1346597368672090334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_130
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 59
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331f67f3b123bc400800000000000000
+      internalID: 345424889034240307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_131
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 47
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3637d94ac0ff28760800000000000000
+      internalID: 7458804362645435235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_132
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 69
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5747ffd73aa07900800000000000000
+      internalID: 680230700690392926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_133
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 71
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7916a9fe579aaebe0800000000000000
+      internalID: -1447158006250053225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_134
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 35
+        width: 130
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd8a9683037f5e20800000000000000
+      internalID: 3341515907512569292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_135
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 71
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84990a4b8bb811090800000000000000
+      internalID: -8065511832223180472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_136
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 71
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8394cdb377c8fd3c0800000000000000
+      internalID: -4332589872773838536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_137
+      rect:
+        serializedVersion: 2
+        x: 2597
+        y: 71
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b29a9a44873945b0800000000000000
+      internalID: -5383710838217862476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_138
+      rect:
+        serializedVersion: 2
+        x: 2679
+        y: 71
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c27f138b01569080800000000000000
+      internalID: -9181061680461811005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_139
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 39
+        width: 106
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad111f93ec8e2a810800000000000000
+      internalID: 1775237175570403802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_140
+      rect:
+        serializedVersion: 2
+        x: 2725
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7dc0131536effe40800000000000000
+      internalID: 5692521569647119743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_141
+      rect:
+        serializedVersion: 2
+        x: 2803
+        y: 77
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96aa050051cf76e0800000000000000
+      internalID: -1837537573517744482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_142
+      rect:
+        serializedVersion: 2
+        x: 2821
+        y: 39
+        width: 128
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2eb21f85f14502b0800000000000000
+      internalID: -5619012437151662547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_143
+      rect:
+        serializedVersion: 2
+        x: 2821
+        y: 77
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168b3cd0430151b00800000000000000
+      internalID: 798562324683405409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_144
+      rect:
+        serializedVersion: 2
+        x: 2899
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1273b0f7fb3e8d570800000000000000
+      internalID: 8491787509016770337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_145
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 71
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409523c2ddfe1f590800000000000000
+      internalID: -7642063359462713084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_146
+      rect:
+        serializedVersion: 2
+        x: 3023
+        y: 73
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae066d4c8f8df32b0800000000000000
+      internalID: -5602520848459734806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_147
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 59
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5825859d551545550800000000000000
+      internalID: 6148628820428083845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_148
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 65
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f61879b61aba93360800000000000000
+      internalID: 7149934593210548591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_149
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 63
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a76f1b751236fc0800000000000000
+      internalID: -3502919424632522205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_150
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 47
+        width: 60
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67b8b6893e6917f10800000000000000
+      internalID: 2265757991802997622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_151
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 57
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a170ff94fff6f5740800000000000000
+      internalID: 5142952441729189658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_152
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 59
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46c3d8df475b7e40800000000000000
+      internalID: 5655209757545580107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_153
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 69
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1d1d522c2acf110800000000000000
+      internalID: 1296089747517723072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_154
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 69
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb87f8abe5e84d8d0800000000000000
+      internalID: -2822474528946423621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_155
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 57
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8ca7a94d1120470800000000000000
+      internalID: 8359263463175538933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_156
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 57
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97000df5b1b6cb60800000000000000
+      internalID: 7766090002638833567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_157
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 67
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32ec6c72820f6ad80800000000000000
+      internalID: -8239634412971045341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_158
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 63
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fe0a616d7afde40800000000000000
+      internalID: 5683445792709341076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_159
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 65
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07c009c6acc951f0800000000000000
+      internalID: -1055587620932761841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_160
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 59
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e596643d1c88e80800000000000000
+      internalID: -8176072010327564667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_161
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 65
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9807516ea9d071fc0800000000000000
+      internalID: -3524333224457834359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_162
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 67
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201520469281c0a50800000000000000
+      internalID: 6488587729184641282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_163
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 67
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d301133b452cf2620800000000000000
+      internalID: 2751631566386040893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_164
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 65
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e34ada9b1c1f3d830800000000000000
+      internalID: 4094882300556059710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_165
+      rect:
+        serializedVersion: 2
+        x: 2647
+        y: 59
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b188135d7baa19e0800000000000000
+      internalID: -1649817758724488782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_166
+      rect:
+        serializedVersion: 2
+        x: 2669
+        y: 67
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6355bbecee76ff0c0800000000000000
+      internalID: -4539795623997909706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_167
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 63
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dde49b57e622cbad0800000000000000
+      internalID: -2685233420002832675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_168
+      rect:
+        serializedVersion: 2
+        x: 2971
+        y: 59
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed4ca8d75294c1a0800000000000000
+      internalID: -6790141432172884511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_169
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 49
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b0c4d6a3b8059850800000000000000
+      internalID: 6383017614558675122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_170
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 55
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80532bd7af389bec0800000000000000
+      internalID: -3550661719331031800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_171
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab69ca7dd046104e0800000000000000
+      internalID: -2017221147469506886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_172
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2437fa4a45c40c0800000000000000
+      internalID: -4590200853902441748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_173
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 49
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeaa561dd8c0d0720800000000000000
+      internalID: 2813919145419451114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_174
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 51
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c97d0acf51e40de0800000000000000
+      internalID: -1367720585285764664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_175
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 49
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40785e354e9d960d0800000000000000
+      internalID: -3428970066582599932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_176
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 55
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dfacddc92230d4e0800000000000000
+      internalID: -1959010682777325610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_177
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20b3f999dc7cba850800000000000000
+      internalID: 6389420182214753026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_178
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 53
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62e06f57f1864abe0800000000000000
+      internalID: -1466933094283604442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_179
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920ddb89f5c5800b0800000000000000
+      internalID: -5762254157566324695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_180
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 51
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 670e1a1ca14c52da0800000000000000
+      internalID: -5970150111812919178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_181
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 47
+        width: 58
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991eebfe1f749df90800000000000000
+      internalID: -6928427447297842791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_182
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 51
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d668a4d3f5615d70800000000000000
+      internalID: 9030110825773819604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_183
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb7306074000429b0800000000000000
+      internalID: -5105956058466076740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_184
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 53
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ab20037ed55da80800000000000000
+      internalID: -8442738678911812987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_185
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdd7d9049d7c98c0800000000000000
+      internalID: -3991177094983328329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_186
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 53
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfcf3d0cb928e380800000000000000
+      internalID: -8941851172491243556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_187
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 51
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5e124bd04c478c0800000000000000
+      internalID: -4002358605689789022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_188
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 49
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374b66403fab0cf10800000000000000
+      internalID: 2288034163617870963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_189
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 51
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c86efe2054443a60800000000000000
+      internalID: 7652816777985812677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_190
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 57
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb7904c1de7cc540800000000000000
+      internalID: 5029534323268221948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_191
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 49
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c059e79b9bcd8ab0800000000000000
+      internalID: -5004119741809733438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_192
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 51
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffabb48412916d50800000000000000
+      internalID: 6728819935092125688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_193
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 53
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2278d50e973430c0800000000000000
+      internalID: -4596988167796002262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_194
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 49
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba839727e7221e50800000000000000
+      internalID: 6778524262900927167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_195
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 49
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8df058048767d90800000000000000
+      internalID: -7100355543997359900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_196
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 51
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8dc1472ac674230800000000000000
+      internalID: 3622983870231402676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_197
+      rect:
+        serializedVersion: 2
+        x: 2683
+        y: 51
+        width: 28
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aacada4edac71e80800000000000000
+      internalID: -8207868739772036448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_roar_ground_quake_198
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 35
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9ddf66f7207a0a0800000000000000
+      internalID: -6870519960318387745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ember_roar_ground_quake_0: 838049019678673292
+      ember_roar_ground_quake_1: -3489796698492806348
+      ember_roar_ground_quake_10: -3340831895724614444
+      ember_roar_ground_quake_100: -4650873550154554323
+      ember_roar_ground_quake_101: -3044259824381905730
+      ember_roar_ground_quake_102: 1118662192508264753
+      ember_roar_ground_quake_103: -6327973274887541379
+      ember_roar_ground_quake_104: 2305674342847182865
+      ember_roar_ground_quake_105: 115117755124794183
+      ember_roar_ground_quake_106: -2697335215415882131
+      ember_roar_ground_quake_107: -803271068223960165
+      ember_roar_ground_quake_108: 6758892843829578869
+      ember_roar_ground_quake_109: 169199574567792270
+      ember_roar_ground_quake_11: -1847491092688745662
+      ember_roar_ground_quake_110: 1169466043229619617
+      ember_roar_ground_quake_111: -6217412380012172912
+      ember_roar_ground_quake_112: -1401665393911813413
+      ember_roar_ground_quake_113: 5725443255828076729
+      ember_roar_ground_quake_114: -7603739928510612211
+      ember_roar_ground_quake_115: 1138385393705730187
+      ember_roar_ground_quake_116: 9120337568129853094
+      ember_roar_ground_quake_117: 5252812449003247618
+      ember_roar_ground_quake_118: 5692391588899970906
+      ember_roar_ground_quake_119: -2981948471852310711
+      ember_roar_ground_quake_12: 7332573155051075608
+      ember_roar_ground_quake_120: -6096824908433381160
+      ember_roar_ground_quake_121: -2882516801282948168
+      ember_roar_ground_quake_122: 5815421047321752730
+      ember_roar_ground_quake_123: -4843150144213342755
+      ember_roar_ground_quake_124: -2320266460272739455
+      ember_roar_ground_quake_125: 2026702330432949910
+      ember_roar_ground_quake_126: 1868714975462945829
+      ember_roar_ground_quake_127: 8585880734827809846
+      ember_roar_ground_quake_128: -5895084431613976847
+      ember_roar_ground_quake_129: 1346597368672090334
+      ember_roar_ground_quake_13: -5793161114684961159
+      ember_roar_ground_quake_130: 345424889034240307
+      ember_roar_ground_quake_131: 7458804362645435235
+      ember_roar_ground_quake_132: 680230700690392926
+      ember_roar_ground_quake_133: -1447158006250053225
+      ember_roar_ground_quake_134: 3341515907512569292
+      ember_roar_ground_quake_135: -8065511832223180472
+      ember_roar_ground_quake_136: -4332589872773838536
+      ember_roar_ground_quake_137: -5383710838217862476
+      ember_roar_ground_quake_138: -9181061680461811005
+      ember_roar_ground_quake_139: 1775237175570403802
+      ember_roar_ground_quake_14: 8412855450433338225
+      ember_roar_ground_quake_140: 5692521569647119743
+      ember_roar_ground_quake_141: -1837537573517744482
+      ember_roar_ground_quake_142: -5619012437151662547
+      ember_roar_ground_quake_143: 798562324683405409
+      ember_roar_ground_quake_144: 8491787509016770337
+      ember_roar_ground_quake_145: -7642063359462713084
+      ember_roar_ground_quake_146: -5602520848459734806
+      ember_roar_ground_quake_147: 6148628820428083845
+      ember_roar_ground_quake_148: 7149934593210548591
+      ember_roar_ground_quake_149: -3502919424632522205
+      ember_roar_ground_quake_15: -8544804187114556904
+      ember_roar_ground_quake_150: 2265757991802997622
+      ember_roar_ground_quake_151: 5142952441729189658
+      ember_roar_ground_quake_152: 5655209757545580107
+      ember_roar_ground_quake_153: 1296089747517723072
+      ember_roar_ground_quake_154: -2822474528946423621
+      ember_roar_ground_quake_155: 8359263463175538933
+      ember_roar_ground_quake_156: 7766090002638833567
+      ember_roar_ground_quake_157: -8239634412971045341
+      ember_roar_ground_quake_158: 5683445792709341076
+      ember_roar_ground_quake_159: -1055587620932761841
+      ember_roar_ground_quake_16: 8336039735731055136
+      ember_roar_ground_quake_160: -8176072010327564667
+      ember_roar_ground_quake_161: -3524333224457834359
+      ember_roar_ground_quake_162: 6488587729184641282
+      ember_roar_ground_quake_163: 2751631566386040893
+      ember_roar_ground_quake_164: 4094882300556059710
+      ember_roar_ground_quake_165: -1649817758724488782
+      ember_roar_ground_quake_166: -4539795623997909706
+      ember_roar_ground_quake_167: -2685233420002832675
+      ember_roar_ground_quake_168: -6790141432172884511
+      ember_roar_ground_quake_169: 6383017614558675122
+      ember_roar_ground_quake_17: 2744611583047012112
+      ember_roar_ground_quake_170: -3550661719331031800
+      ember_roar_ground_quake_171: -2017221147469506886
+      ember_roar_ground_quake_172: -4590200853902441748
+      ember_roar_ground_quake_173: 2813919145419451114
+      ember_roar_ground_quake_174: -1367720585285764664
+      ember_roar_ground_quake_175: -3428970066582599932
+      ember_roar_ground_quake_176: -1959010682777325610
+      ember_roar_ground_quake_177: 6389420182214753026
+      ember_roar_ground_quake_178: -1466933094283604442
+      ember_roar_ground_quake_179: -5762254157566324695
+      ember_roar_ground_quake_18: 1373361673429844822
+      ember_roar_ground_quake_180: -5970150111812919178
+      ember_roar_ground_quake_181: -6928427447297842791
+      ember_roar_ground_quake_182: 9030110825773819604
+      ember_roar_ground_quake_183: -5105956058466076740
+      ember_roar_ground_quake_184: -8442738678911812987
+      ember_roar_ground_quake_185: -3991177094983328329
+      ember_roar_ground_quake_186: -8941851172491243556
+      ember_roar_ground_quake_187: -4002358605689789022
+      ember_roar_ground_quake_188: 2288034163617870963
+      ember_roar_ground_quake_189: 7652816777985812677
+      ember_roar_ground_quake_19: 7560565585538981101
+      ember_roar_ground_quake_190: 5029534323268221948
+      ember_roar_ground_quake_191: -5004119741809733438
+      ember_roar_ground_quake_192: 6728819935092125688
+      ember_roar_ground_quake_193: -4596988167796002262
+      ember_roar_ground_quake_194: 6778524262900927167
+      ember_roar_ground_quake_195: -7100355543997359900
+      ember_roar_ground_quake_196: 3622983870231402676
+      ember_roar_ground_quake_197: -8207868739772036448
+      ember_roar_ground_quake_198: -6870519960318387745
+      ember_roar_ground_quake_2: 3072245691299059401
+      ember_roar_ground_quake_20: 8459760137666027449
+      ember_roar_ground_quake_21: 247807907335626264
+      ember_roar_ground_quake_22: 7181175206944073598
+      ember_roar_ground_quake_23: 7761764301282696799
+      ember_roar_ground_quake_24: 1560179195427323916
+      ember_roar_ground_quake_25: -3836959725629442983
+      ember_roar_ground_quake_26: 3922043057094362232
+      ember_roar_ground_quake_27: -4788874405981227273
+      ember_roar_ground_quake_28: -2405116581945408577
+      ember_roar_ground_quake_29: 9101118771093976006
+      ember_roar_ground_quake_3: -1640283185390364236
+      ember_roar_ground_quake_30: -4006471857603381259
+      ember_roar_ground_quake_31: -886905675631573786
+      ember_roar_ground_quake_32: -9157818351607942512
+      ember_roar_ground_quake_33: 342920566303048818
+      ember_roar_ground_quake_34: 7103464604113978586
+      ember_roar_ground_quake_35: -7999373027972380216
+      ember_roar_ground_quake_36: -3386399809160962275
+      ember_roar_ground_quake_37: -5737972598015577945
+      ember_roar_ground_quake_38: -4961665832866160983
+      ember_roar_ground_quake_39: 6281382265887533289
+      ember_roar_ground_quake_4: 8624376074228535775
+      ember_roar_ground_quake_40: 1803916692869379416
+      ember_roar_ground_quake_41: 914536227412687284
+      ember_roar_ground_quake_42: -1528603210507472522
+      ember_roar_ground_quake_43: 6509605641991663753
+      ember_roar_ground_quake_44: 8477474553208353328
+      ember_roar_ground_quake_45: -1853656912936720872
+      ember_roar_ground_quake_46: 2355680103914376363
+      ember_roar_ground_quake_47: 3489167836272559595
+      ember_roar_ground_quake_48: 1625475812663811751
+      ember_roar_ground_quake_49: 7855674215374866050
+      ember_roar_ground_quake_5: -3231540953260428558
+      ember_roar_ground_quake_50: 5620406983201757131
+      ember_roar_ground_quake_51: 8225104661438461055
+      ember_roar_ground_quake_52: 1289209064251146667
+      ember_roar_ground_quake_53: -4583066219150165519
+      ember_roar_ground_quake_54: 6109909579308489288
+      ember_roar_ground_quake_55: 5019053327538307087
+      ember_roar_ground_quake_56: -2744017727475891195
+      ember_roar_ground_quake_57: 407277133886900456
+      ember_roar_ground_quake_58: 3750819459583948153
+      ember_roar_ground_quake_59: 3181646146147216555
+      ember_roar_ground_quake_6: -9110428340276379811
+      ember_roar_ground_quake_60: 694690757183365924
+      ember_roar_ground_quake_61: -160439641067470651
+      ember_roar_ground_quake_62: -5407342161612304290
+      ember_roar_ground_quake_63: -2290597244121787070
+      ember_roar_ground_quake_64: 5318789000940903965
+      ember_roar_ground_quake_65: -5138301656485321673
+      ember_roar_ground_quake_66: 3005398873910678464
+      ember_roar_ground_quake_67: -7194973763314227742
+      ember_roar_ground_quake_68: 2730832497846127758
+      ember_roar_ground_quake_69: 5097464282266923395
+      ember_roar_ground_quake_7: 2604627011207438203
+      ember_roar_ground_quake_70: 4110120785822590370
+      ember_roar_ground_quake_71: -279931366627816943
+      ember_roar_ground_quake_72: 4306551681362260488
+      ember_roar_ground_quake_73: 2917898875275498585
+      ember_roar_ground_quake_74: 7761978127103222291
+      ember_roar_ground_quake_75: -6661435342583801599
+      ember_roar_ground_quake_76: 4942003080727580779
+      ember_roar_ground_quake_77: 1824397171785298058
+      ember_roar_ground_quake_78: -3584226551681286754
+      ember_roar_ground_quake_79: 4290942174540278056
+      ember_roar_ground_quake_8: -3773432056219733007
+      ember_roar_ground_quake_80: -7147709356301257249
+      ember_roar_ground_quake_81: 7858337953067025679
+      ember_roar_ground_quake_82: 1968705187378431541
+      ember_roar_ground_quake_83: 4445873281432090288
+      ember_roar_ground_quake_84: 4975819770603427370
+      ember_roar_ground_quake_85: 8297126121621157763
+      ember_roar_ground_quake_86: -559015311771135988
+      ember_roar_ground_quake_87: -4751518341106806562
+      ember_roar_ground_quake_88: 2717037275490112428
+      ember_roar_ground_quake_89: 7601841118104157120
+      ember_roar_ground_quake_9: 953189504733447783
+      ember_roar_ground_quake_90: 5544050411055182201
+      ember_roar_ground_quake_91: 848243396388017541
+      ember_roar_ground_quake_92: -7107901890899805496
+      ember_roar_ground_quake_93: -2092069752939766872
+      ember_roar_ground_quake_94: 8446475451951325327
+      ember_roar_ground_quake_95: 8541132642162120040
+      ember_roar_ground_quake_96: 709212166742202736
+      ember_roar_ground_quake_97: -1876029511464359907
+      ember_roar_ground_quake_98: 5689348175462665081
+      ember_roar_ground_quake_99: 4612395724859905032
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

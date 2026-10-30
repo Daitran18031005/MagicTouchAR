@@ -1,0 +1,1196 @@
+fileFormatVersion: 2
+guid: 13d656f19c40eeb429133df26ed0d02b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5818826158156829942
+    second: goblin_crossbowman_sheet_x4_0
+  - first:
+      213: -1087244019221758835
+    second: goblin_crossbowman_sheet_x4_1
+  - first:
+      213: 7964113516924864143
+    second: goblin_crossbowman_sheet_x4_2
+  - first:
+      213: -288899716752521492
+    second: goblin_crossbowman_sheet_x4_3
+  - first:
+      213: 5498955080151716000
+    second: goblin_crossbowman_sheet_x4_4
+  - first:
+      213: -8243993703078653941
+    second: goblin_crossbowman_sheet_x4_5
+  - first:
+      213: -2431258238958821589
+    second: goblin_crossbowman_sheet_x4_6
+  - first:
+      213: 1740245282567527424
+    second: goblin_crossbowman_sheet_x4_7
+  - first:
+      213: 6740763669319952689
+    second: goblin_crossbowman_sheet_x4_8
+  - first:
+      213: 8100898946760672414
+    second: goblin_crossbowman_sheet_x4_9
+  - first:
+      213: -1706148958876904468
+    second: goblin_crossbowman_sheet_x4_10
+  - first:
+      213: -3892398567032685295
+    second: goblin_crossbowman_sheet_x4_11
+  - first:
+      213: -4889833749905473754
+    second: goblin_crossbowman_sheet_x4_12
+  - first:
+      213: 8787295981679203403
+    second: goblin_crossbowman_sheet_x4_13
+  - first:
+      213: 1823259273797221013
+    second: goblin_crossbowman_sheet_x4_14
+  - first:
+      213: 8234732577416302848
+    second: goblin_crossbowman_sheet_x4_15
+  - first:
+      213: -6362499967087353645
+    second: goblin_crossbowman_sheet_x4_16
+  - first:
+      213: -4881914224697820431
+    second: goblin_crossbowman_sheet_x4_17
+  - first:
+      213: 1417686633609544869
+    second: goblin_crossbowman_sheet_x4_18
+  - first:
+      213: -9193759481797715117
+    second: goblin_crossbowman_sheet_x4_19
+  - first:
+      213: -8160825377097976339
+    second: goblin_crossbowman_sheet_x4_20
+  - first:
+      213: 6545586887408573562
+    second: goblin_crossbowman_sheet_x4_21
+  - first:
+      213: -2898077887646636488
+    second: goblin_crossbowman_sheet_x4_22
+  - first:
+      213: 2583697715683457826
+    second: goblin_crossbowman_sheet_x4_23
+  - first:
+      213: 3474007849311391374
+    second: goblin_crossbowman_sheet_x4_24
+  - first:
+      213: 4105216901920583437
+    second: goblin_crossbowman_sheet_x4_25
+  - first:
+      213: -2911606121975306461
+    second: goblin_crossbowman_sheet_x4_26
+  - first:
+      213: 1936177075677738357
+    second: goblin_crossbowman_sheet_x4_27
+  - first:
+      213: 1528022011470879314
+    second: goblin_crossbowman_sheet_x4_28
+  - first:
+      213: 735160893325563030
+    second: goblin_crossbowman_sheet_x4_29
+  - first:
+      213: 2836756278857550698
+    second: goblin_crossbowman_sheet_x4_30
+  - first:
+      213: -2239595753050280320
+    second: goblin_crossbowman_sheet_x4_31
+  - first:
+      213: -7020328335614809331
+    second: goblin_crossbowman_sheet_x4_32
+  - first:
+      213: -5884910475240754017
+    second: goblin_crossbowman_sheet_x4_33
+  - first:
+      213: 2941623496616346351
+    second: goblin_crossbowman_sheet_x4_34
+  - first:
+      213: -1186517683576785732
+    second: goblin_crossbowman_sheet_x4_35
+  - first:
+      213: -332593173409757298
+    second: goblin_crossbowman_sheet_x4_36
+  - first:
+      213: -2444495830945921554
+    second: goblin_crossbowman_sheet_x4_37
+  - first:
+      213: 627007731182578487
+    second: goblin_crossbowman_sheet_x4_38
+  - first:
+      213: -4994325443120301630
+    second: goblin_crossbowman_sheet_x4_39
+  - first:
+      213: -7737443794173100621
+    second: goblin_crossbowman_sheet_x4_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 3
+        width: 174
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0baf4940706f3fa0800000000000000
+      internalID: -5818826158156829942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_1
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 3
+        width: 174
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c7e12335559e0f0800000000000000
+      internalID: -1087244019221758835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_2
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 3
+        width: 174
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8681374c07368e60800000000000000
+      internalID: 7964113516924864143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_3
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 3
+        width: 174
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6414ffc3f9dfbf0800000000000000
+      internalID: -288899716752521492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_4
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 3
+        width: 174
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0d54cb286305c40800000000000000
+      internalID: 5498955080151716000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_5
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 3
+        width: 174
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b009075d763779d80800000000000000
+      internalID: -8243993703078653941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_6
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 3
+        width: 174
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2f1e95538f624ed0800000000000000
+      internalID: -2431258238958821589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_7
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 3
+        width: 174
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c9c714dd7962810800000000000000
+      internalID: 1740245282567527424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_8
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 3
+        width: 182
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139aca8d7d00c8d50800000000000000
+      internalID: 6740763669319952689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_9
+      rect:
+        serializedVersion: 2
+        x: 2339
+        y: 3
+        width: 186
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e948103fbac2c6070800000000000000
+      internalID: 8100898946760672414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_10
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 3
+        width: 182
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce35d3cbf8a8258e0800000000000000
+      internalID: -1706148958876904468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_11
+      rect:
+        serializedVersion: 2
+        x: 2859
+        y: 3
+        width: 174
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11df6c7402c6bf9c0800000000000000
+      internalID: -3892398567032685295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_12
+      rect:
+        serializedVersion: 2
+        x: 3115
+        y: 3
+        width: 174
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62ffa26ac12d32cb0800000000000000
+      internalID: -4889833749905473754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_13
+      rect:
+        serializedVersion: 2
+        x: 3451
+        y: 231
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b44d434632fb2f970800000000000000
+      internalID: 8787295981679203403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_14
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 231
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59abe1446a48d4910800000000000000
+      internalID: 1823259273797221013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_15
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 231
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0015c3156a5a74270800000000000000
+      internalID: 8234732577416302848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_16
+      rect:
+        serializedVersion: 2
+        x: 3791
+        y: 231
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0e25a6dfbd3b7a0800000000000000
+      internalID: -6362499967087353645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_17
+      rect:
+        serializedVersion: 2
+        x: 4071
+        y: 243
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fab5fcc0e4ff3cb0800000000000000
+      internalID: -4881914224697820431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_18
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 135
+        width: 166
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4cd176b72aca310800000000000000
+      internalID: 1417686633609544869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_19
+      rect:
+        serializedVersion: 2
+        x: 3607
+        y: 183
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b51114674396080800000000000000
+      internalID: -9193759481797715117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_20
+      rect:
+        serializedVersion: 2
+        x: 3643
+        y: 135
+        width: 142
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5f414be8ceebe80800000000000000
+      internalID: -8160825377097976339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_21
+      rect:
+        serializedVersion: 2
+        x: 3847
+        y: 191
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c5176189896da50800000000000000
+      internalID: 6545586887408573562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_22
+      rect:
+        serializedVersion: 2
+        x: 3871
+        y: 199
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 836686f0485f7c7d0800000000000000
+      internalID: -2898077887646636488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_23
+      rect:
+        serializedVersion: 2
+        x: 3911
+        y: 131
+        width: 122
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22bfc4622632bd320800000000000000
+      internalID: 2583697715683457826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_24
+      rect:
+        serializedVersion: 2
+        x: 3299
+        y: 151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ecf1d9bb7263030800000000000000
+      internalID: 3474007849311391374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_25
+      rect:
+        serializedVersion: 2
+        x: 3559
+        y: 147
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fe7ec9509a8f830800000000000000
+      internalID: 4105216901920583437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_26
+      rect:
+        serializedVersion: 2
+        x: 3815
+        y: 147
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3272fcd88a5e797d0800000000000000
+      internalID: -2911606121975306461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_27
+      rect:
+        serializedVersion: 2
+        x: 4071
+        y: 151
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575b602caceaeda10800000000000000
+      internalID: 1936177075677738357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_28
+      rect:
+        serializedVersion: 2
+        x: 3619
+        y: 143
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a13b27cef943510800000000000000
+      internalID: 1528022011470879314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_29
+      rect:
+        serializedVersion: 2
+        x: 3395
+        y: 3
+        width: 142
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694dd6bffe0d33a00800000000000000
+      internalID: 735160893325563030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_30
+      rect:
+        serializedVersion: 2
+        x: 3687
+        y: 111
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6bc9ab4ece2e5720800000000000000
+      internalID: 2836756278857550698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_31
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 83
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ee6fa478b5be0e0800000000000000
+      internalID: -2239595753050280320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_32
+      rect:
+        serializedVersion: 2
+        x: 3551
+        y: 83
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0be115f298c29e90800000000000000
+      internalID: -7020328335614809331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_33
+      rect:
+        serializedVersion: 2
+        x: 3599
+        y: 71
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94bc443a19945ea0800000000000000
+      internalID: -5884910475240754017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_34
+      rect:
+        serializedVersion: 2
+        x: 3627
+        y: 87
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe282ca1cfeb2d820800000000000000
+      internalID: 2941623496616346351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_35
+      rect:
+        serializedVersion: 2
+        x: 3659
+        y: 3
+        width: 122
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb4bfa60474a88fe0800000000000000
+      internalID: -1186517683576785732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_36
+      rect:
+        serializedVersion: 2
+        x: 3815
+        y: 71
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87013c5544626bf0800000000000000
+      internalID: -332593173409757298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_37
+      rect:
+        serializedVersion: 2
+        x: 3847
+        y: 55
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee58b854ef7631ed0800000000000000
+      internalID: -2444495830945921554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_38
+      rect:
+        serializedVersion: 2
+        x: 3867
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73baf80a53493b800800000000000000
+      internalID: 627007731182578487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_39
+      rect:
+        serializedVersion: 2
+        x: 3907
+        y: 3
+        width: 114
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c97e16787790bab0800000000000000
+      internalID: -4994325443120301630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: goblin_crossbowman_sheet_x4_40
+      rect:
+        serializedVersion: 2
+        x: 4067
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bdf2ca2dd31f9490800000000000000
+      internalID: -7737443794173100621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      goblin_crossbowman_sheet_x4_0: -5818826158156829942
+      goblin_crossbowman_sheet_x4_1: -1087244019221758835
+      goblin_crossbowman_sheet_x4_10: -1706148958876904468
+      goblin_crossbowman_sheet_x4_11: -3892398567032685295
+      goblin_crossbowman_sheet_x4_12: -4889833749905473754
+      goblin_crossbowman_sheet_x4_13: 8787295981679203403
+      goblin_crossbowman_sheet_x4_14: 1823259273797221013
+      goblin_crossbowman_sheet_x4_15: 8234732577416302848
+      goblin_crossbowman_sheet_x4_16: -6362499967087353645
+      goblin_crossbowman_sheet_x4_17: -4881914224697820431
+      goblin_crossbowman_sheet_x4_18: 1417686633609544869
+      goblin_crossbowman_sheet_x4_19: -9193759481797715117
+      goblin_crossbowman_sheet_x4_2: 7964113516924864143
+      goblin_crossbowman_sheet_x4_20: -8160825377097976339
+      goblin_crossbowman_sheet_x4_21: 6545586887408573562
+      goblin_crossbowman_sheet_x4_22: -2898077887646636488
+      goblin_crossbowman_sheet_x4_23: 2583697715683457826
+      goblin_crossbowman_sheet_x4_24: 3474007849311391374
+      goblin_crossbowman_sheet_x4_25: 4105216901920583437
+      goblin_crossbowman_sheet_x4_26: -2911606121975306461
+      goblin_crossbowman_sheet_x4_27: 1936177075677738357
+      goblin_crossbowman_sheet_x4_28: 1528022011470879314
+      goblin_crossbowman_sheet_x4_29: 735160893325563030
+      goblin_crossbowman_sheet_x4_3: -288899716752521492
+      goblin_crossbowman_sheet_x4_30: 2836756278857550698
+      goblin_crossbowman_sheet_x4_31: -2239595753050280320
+      goblin_crossbowman_sheet_x4_32: -7020328335614809331
+      goblin_crossbowman_sheet_x4_33: -5884910475240754017
+      goblin_crossbowman_sheet_x4_34: 2941623496616346351
+      goblin_crossbowman_sheet_x4_35: -1186517683576785732
+      goblin_crossbowman_sheet_x4_36: -332593173409757298
+      goblin_crossbowman_sheet_x4_37: -2444495830945921554
+      goblin_crossbowman_sheet_x4_38: 627007731182578487
+      goblin_crossbowman_sheet_x4_39: -4994325443120301630
+      goblin_crossbowman_sheet_x4_4: 5498955080151716000
+      goblin_crossbowman_sheet_x4_40: -7737443794173100621
+      goblin_crossbowman_sheet_x4_5: -8243993703078653941
+      goblin_crossbowman_sheet_x4_6: -2431258238958821589
+      goblin_crossbowman_sheet_x4_7: 1740245282567527424
+      goblin_crossbowman_sheet_x4_8: 6740763669319952689
+      goblin_crossbowman_sheet_x4_9: 8100898946760672414
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: a4c3f36405bdd284a8a95cef25cd1e7d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 329407383353003035
+    second: flying_gear_drone_sheet_x4_0
+  - first:
+      213: 2779682755963676557
+    second: flying_gear_drone_sheet_x4_1
+  - first:
+      213: -1521733407493057768
+    second: flying_gear_drone_sheet_x4_2
+  - first:
+      213: 1175172770764354856
+    second: flying_gear_drone_sheet_x4_3
+  - first:
+      213: 7996253880019837389
+    second: flying_gear_drone_sheet_x4_4
+  - first:
+      213: -5655114227981692020
+    second: flying_gear_drone_sheet_x4_5
+  - first:
+      213: 8318458026139529617
+    second: flying_gear_drone_sheet_x4_6
+  - first:
+      213: 6707186233827046414
+    second: flying_gear_drone_sheet_x4_7
+  - first:
+      213: 399097023634943991
+    second: flying_gear_drone_sheet_x4_8
+  - first:
+      213: -563183091478141970
+    second: flying_gear_drone_sheet_x4_9
+  - first:
+      213: 2401045076937036679
+    second: flying_gear_drone_sheet_x4_10
+  - first:
+      213: 4504297652785028888
+    second: flying_gear_drone_sheet_x4_11
+  - first:
+      213: -5139731610826919203
+    second: flying_gear_drone_sheet_x4_12
+  - first:
+      213: -7223869878740143629
+    second: flying_gear_drone_sheet_x4_13
+  - first:
+      213: -8898385637178997621
+    second: flying_gear_drone_sheet_x4_14
+  - first:
+      213: 1788343595474043617
+    second: flying_gear_drone_sheet_x4_15
+  - first:
+      213: 1677033158240107772
+    second: flying_gear_drone_sheet_x4_16
+  - first:
+      213: -6396962504517889024
+    second: flying_gear_drone_sheet_x4_17
+  - first:
+      213: -5357033065581378674
+    second: flying_gear_drone_sheet_x4_18
+  - first:
+      213: 1113335914846366079
+    second: flying_gear_drone_sheet_x4_19
+  - first:
+      213: 6281116012517029764
+    second: flying_gear_drone_sheet_x4_20
+  - first:
+      213: -7223428148209334305
+    second: flying_gear_drone_sheet_x4_21
+  - first:
+      213: -1062543321618386018
+    second: flying_gear_drone_sheet_x4_22
+  - first:
+      213: 5987728364689517271
+    second: flying_gear_drone_sheet_x4_23
+  - first:
+      213: 8625825077063615605
+    second: flying_gear_drone_sheet_x4_24
+  - first:
+      213: -8973206117250331804
+    second: flying_gear_drone_sheet_x4_25
+  - first:
+      213: -3696897866227004493
+    second: flying_gear_drone_sheet_x4_26
+  - first:
+      213: 3781490213630946986
+    second: flying_gear_drone_sheet_x4_27
+  - first:
+      213: 8637963517611385807
+    second: flying_gear_drone_sheet_x4_28
+  - first:
+      213: -3060538554830721656
+    second: flying_gear_drone_sheet_x4_29
+  - first:
+      213: 2316975427053974295
+    second: flying_gear_drone_sheet_x4_30
+  - first:
+      213: 8361381492448186552
+    second: flying_gear_drone_sheet_x4_31
+  - first:
+      213: 6519985666883442759
+    second: flying_gear_drone_sheet_x4_32
+  - first:
+      213: 3245289062510827097
+    second: flying_gear_drone_sheet_x4_33
+  - first:
+      213: -4253765892489569548
+    second: flying_gear_drone_sheet_x4_34
+  - first:
+      213: 3555819379928765827
+    second: flying_gear_drone_sheet_x4_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 7
+        width: 250
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c8527154a429400800000000000000
+      internalID: 329407383353003035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_1
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 11
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d876e793dba639620800000000000000
+      internalID: 2779682755963676557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_2
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 7
+        width: 250
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81318834787b1eae0800000000000000
+      internalID: -1521733407493057768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_3
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 3
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825fe1f986d0f4010800000000000000
+      internalID: 1175172770764354856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_4
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 7
+        width: 250
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1eb64b98668fe60800000000000000
+      internalID: 7996253880019837389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_5
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 11
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c83d4ec529ff481b0800000000000000
+      internalID: -5655114227981692020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_6
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 7
+        width: 250
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1913b0f6089117370800000000000000
+      internalID: 8318458026139529617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_7
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 3
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e04b6ade756b41d50800000000000000
+      internalID: 6707186233827046414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_8
+      rect:
+        serializedVersion: 2
+        x: 2055
+        y: 7
+        width: 250
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff2da4e0a0e98500800000000000000
+      internalID: 399097023634943991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_9
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 3
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee360f056fb2f28f0800000000000000
+      internalID: -563183091478141970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_10
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 7
+        width: 250
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7835884b6c9325120800000000000000
+      internalID: 2401045076937036679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_11
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 7
+        width: 250
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f90e4b9da728e30800000000000000
+      internalID: 4504297652785028888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_12
+      rect:
+        serializedVersion: 2
+        x: 3075
+        y: 7
+        width: 250
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2b0d7d4510ca8b0800000000000000
+      internalID: -5139731610826919203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_13
+      rect:
+        serializedVersion: 2
+        x: 3443
+        y: 227
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f1bc067e98afbb90800000000000000
+      internalID: -7223869878740143629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_14
+      rect:
+        serializedVersion: 2
+        x: 3651
+        y: 131
+        width: 122
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b84028d9865928480800000000000000
+      internalID: -8898385637178997621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_15
+      rect:
+        serializedVersion: 2
+        x: 3939
+        y: 219
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e24398660971d810800000000000000
+      internalID: 1788343595474043617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_16
+      rect:
+        serializedVersion: 2
+        x: 3979
+        y: 219
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfcf379a5c4064710800000000000000
+      internalID: 1677033158240107772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_17
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 3
+        width: 182
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004d7b4ae7c6937a0800000000000000
+      internalID: -6396962504517889024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_18
+      rect:
+        serializedVersion: 2
+        x: 3903
+        y: 155
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8300044fcef7a5b0800000000000000
+      internalID: -5357033065581378674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_19
+      rect:
+        serializedVersion: 2
+        x: 3979
+        y: 171
+        width: 50
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f792a18ad1d537f00800000000000000
+      internalID: 1113335914846366079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_20
+      rect:
+        serializedVersion: 2
+        x: 4043
+        y: 203
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 487781f0cb10b2750800000000000000
+      internalID: 6281116012517029764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_21
+      rect:
+        serializedVersion: 2
+        x: 3331
+        y: 55
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7cc6dde5a31cb90800000000000000
+      internalID: -7223428148209334305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_22
+      rect:
+        serializedVersion: 2
+        x: 3607
+        y: 107
+        width: 82
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93f8748a761141f0800000000000000
+      internalID: -1062543321618386018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_23
+      rect:
+        serializedVersion: 2
+        x: 3735
+        y: 119
+        width: 86
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7da69dc293fa81350800000000000000
+      internalID: 5987728364689517271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_24
+      rect:
+        serializedVersion: 2
+        x: 3851
+        y: 103
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 574880db43615b770800000000000000
+      internalID: 8625825077063615605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_25
+      rect:
+        serializedVersion: 2
+        x: 3979
+        y: 151
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b8ee41494c87380800000000000000
+      internalID: -8973206117250331804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_26
+      rect:
+        serializedVersion: 2
+        x: 4011
+        y: 123
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bbc3a84afaf1bcc0800000000000000
+      internalID: -3696897866227004493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_27
+      rect:
+        serializedVersion: 2
+        x: 4079
+        y: 151
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaea619605d8a7430800000000000000
+      internalID: 3781490213630946986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_28
+      rect:
+        serializedVersion: 2
+        x: 3587
+        y: 35
+        width: 98
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc3a20aad0630e770800000000000000
+      internalID: 8637963517611385807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_29
+      rect:
+        serializedVersion: 2
+        x: 3647
+        y: 3
+        width: 62
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d6de95668c685d0800000000000000
+      internalID: -3060538554830721656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_30
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 3
+        width: 62
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7137cd200ec872020800000000000000
+      internalID: 2316975427053974295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_31
+      rect:
+        serializedVersion: 2
+        x: 3735
+        y: 31
+        width: 102
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b056e8ba28990470800000000000000
+      internalID: 8361381492448186552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_32
+      rect:
+        serializedVersion: 2
+        x: 3843
+        y: 3
+        width: 82
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748d93f6b64ab7a50800000000000000
+      internalID: 6519985666883442759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_33
+      rect:
+        serializedVersion: 2
+        x: 3899
+        y: 3
+        width: 54
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9561b644535990d20800000000000000
+      internalID: 3245289062510827097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_34
+      rect:
+        serializedVersion: 2
+        x: 3979
+        y: 7
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa9c7c457697f4c0800000000000000
+      internalID: -4253765892489569548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flying_gear_drone_sheet_x4_35
+      rect:
+        serializedVersion: 2
+        x: 4003
+        y: 3
+        width: 86
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3859a12f2eec85130800000000000000
+      internalID: 3555819379928765827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flying_gear_drone_sheet_x4_0: 329407383353003035
+      flying_gear_drone_sheet_x4_1: 2779682755963676557
+      flying_gear_drone_sheet_x4_10: 2401045076937036679
+      flying_gear_drone_sheet_x4_11: 4504297652785028888
+      flying_gear_drone_sheet_x4_12: -5139731610826919203
+      flying_gear_drone_sheet_x4_13: -7223869878740143629
+      flying_gear_drone_sheet_x4_14: -8898385637178997621
+      flying_gear_drone_sheet_x4_15: 1788343595474043617
+      flying_gear_drone_sheet_x4_16: 1677033158240107772
+      flying_gear_drone_sheet_x4_17: -6396962504517889024
+      flying_gear_drone_sheet_x4_18: -5357033065581378674
+      flying_gear_drone_sheet_x4_19: 1113335914846366079
+      flying_gear_drone_sheet_x4_2: -1521733407493057768
+      flying_gear_drone_sheet_x4_20: 6281116012517029764
+      flying_gear_drone_sheet_x4_21: -7223428148209334305
+      flying_gear_drone_sheet_x4_22: -1062543321618386018
+      flying_gear_drone_sheet_x4_23: 5987728364689517271
+      flying_gear_drone_sheet_x4_24: 8625825077063615605
+      flying_gear_drone_sheet_x4_25: -8973206117250331804
+      flying_gear_drone_sheet_x4_26: -3696897866227004493
+      flying_gear_drone_sheet_x4_27: 3781490213630946986
+      flying_gear_drone_sheet_x4_28: 8637963517611385807
+      flying_gear_drone_sheet_x4_29: -3060538554830721656
+      flying_gear_drone_sheet_x4_3: 1175172770764354856
+      flying_gear_drone_sheet_x4_30: 2316975427053974295
+      flying_gear_drone_sheet_x4_31: 8361381492448186552
+      flying_gear_drone_sheet_x4_32: 6519985666883442759
+      flying_gear_drone_sheet_x4_33: 3245289062510827097
+      flying_gear_drone_sheet_x4_34: -4253765892489569548
+      flying_gear_drone_sheet_x4_35: 3555819379928765827
+      flying_gear_drone_sheet_x4_4: 7996253880019837389
+      flying_gear_drone_sheet_x4_5: -5655114227981692020
+      flying_gear_drone_sheet_x4_6: 8318458026139529617
+      flying_gear_drone_sheet_x4_7: 6707186233827046414
+      flying_gear_drone_sheet_x4_8: 399097023634943991
+      flying_gear_drone_sheet_x4_9: -563183091478141970
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

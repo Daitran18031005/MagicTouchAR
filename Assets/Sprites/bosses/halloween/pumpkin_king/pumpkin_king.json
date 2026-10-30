@@ -1,0 +1,467 @@
+{
+ "name": "Pumpkin King",
+ "role": "main",
+ "environment": "Halloween Graveyard",
+ "image": "pumpkin_king_sheet.png",
+ "frame_size": [
+  128,
+  128
+ ],
+ "layout": "horizontal_strip",
+ "sheet_size": [
+  3584,
+  128
+ ],
+ "pivot_px": [
+  64,
+  124
+ ],
+ "frames": [
+  {
+   "name": "idle_0",
+   "x": 0,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "idle_1",
+   "x": 128,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "idle_2",
+   "x": 256,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "idle_3",
+   "x": 384,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "idle_cracked_0",
+   "x": 512,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "idle_cracked_1",
+   "x": 640,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "idle_cracked_2",
+   "x": 768,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "idle_cracked_3",
+   "x": 896,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "skill_a_0",
+   "x": 1024,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "skill_a_1",
+   "x": 1152,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "skill_a_2",
+   "x": 1280,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "skill_a_3",
+   "x": 1408,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "skill_a_4",
+   "x": 1536,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "skill_a_5",
+   "x": 1664,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "skill_b_0",
+   "x": 1792,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "skill_b_1",
+   "x": 1920,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "skill_b_2",
+   "x": 2048,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "skill_b_3",
+   "x": 2176,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "skill_b_4",
+   "x": 2304,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "skill_b_5",
+   "x": 2432,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "hurt_0",
+   "x": 2560,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "hurt_1",
+   "x": 2688,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "hurt_2",
+   "x": 2816,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "hurt_3",
+   "x": 2944,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "death_0",
+   "x": 3072,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "death_1",
+   "x": 3200,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "death_2",
+   "x": 3328,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  },
+  {
+   "name": "death_3",
+   "x": 3456,
+   "y": 0,
+   "w": 128,
+   "h": 128
+  }
+ ],
+ "animations": {
+  "idle": {
+   "frames": [
+    "idle_0",
+    "idle_1",
+    "idle_2",
+    "idle_3"
+   ],
+   "duration_ms": [
+    160,
+    160,
+    160,
+    160
+   ],
+   "loop": true
+  },
+  "idle_cracked": {
+   "frames": [
+    "idle_cracked_0",
+    "idle_cracked_1",
+    "idle_cracked_2",
+    "idle_cracked_3"
+   ],
+   "duration_ms": [
+    160,
+    160,
+    160,
+    160
+   ],
+   "loop": true
+  },
+  "hurt": {
+   "frames": [
+    "hurt_0",
+    "hurt_1",
+    "hurt_2",
+    "hurt_3"
+   ],
+   "duration_ms": [
+    80,
+    110,
+    110,
+    150
+   ],
+   "loop": false
+  },
+  "death": {
+   "frames": [
+    "death_0",
+    "death_1",
+    "death_2",
+    "death_3"
+   ],
+   "duration_ms": [
+    110,
+    100,
+    110,
+    140
+   ],
+   "loop": false
+  },
+  "skill_a": {
+   "frames": [
+    "skill_a_0",
+    "skill_a_1",
+    "skill_a_2",
+    "skill_a_3",
+    "skill_a_4",
+    "skill_a_5"
+   ],
+   "duration_ms": [
+    150,
+    180,
+    80,
+    80,
+    90,
+    130
+   ],
+   "loop": false
+  },
+  "skill_b": {
+   "frames": [
+    "skill_b_0",
+    "skill_b_1",
+    "skill_b_2",
+    "skill_b_3",
+    "skill_b_4",
+    "skill_b_5"
+   ],
+   "duration_ms": [
+    160,
+    200,
+    70,
+    70,
+    100,
+    150
+   ],
+   "loop": false
+  }
+ },
+ "skills": [
+  {
+   "id": "skill_a",
+   "name": "Hellfire Spit",
+   "desc": "Throws its head back, mouth glowing, and spits a fan of three hellfire seeds that arc down-left.",
+   "ms": [
+    150,
+    180,
+    80,
+    80,
+    90,
+    130
+   ],
+   "telegraph": [
+    0,
+    1
+   ],
+   "active": [
+    2,
+    3,
+    4
+   ],
+   "damage": 16,
+   "cooldown_ms": 4200,
+   "hitbox": {
+    "x": 0,
+    "y": 60,
+    "w": 64,
+    "h": 68
+   },
+   "spawns": "hellfire_seed",
+   "frame_names": [
+    "skill_a_0",
+    "skill_a_1",
+    "skill_a_2",
+    "skill_a_3",
+    "skill_a_4",
+    "skill_a_5"
+   ]
+  },
+  {
+   "id": "skill_b",
+   "name": "Reaping Sweep",
+   "desc": "Winds the scythe back, then carves a wide crescent; thorn vines erupt from the ground behind the swing.",
+   "ms": [
+    160,
+    200,
+    70,
+    70,
+    100,
+    150
+   ],
+   "telegraph": [
+    0,
+    1
+   ],
+   "active": [
+    2,
+    3,
+    4
+   ],
+   "damage": 26,
+   "cooldown_ms": 6800,
+   "hitbox": {
+    "x": 0,
+    "y": 20,
+    "w": 128,
+    "h": 100
+   },
+   "frame_names": [
+    "skill_b_0",
+    "skill_b_1",
+    "skill_b_2",
+    "skill_b_3",
+    "skill_b_4",
+    "skill_b_5"
+   ]
+  }
+ ],
+ "projectiles": {
+  "image": "pumpkin_king_projectiles.png",
+  "hellfire_seed": {
+   "row": 0,
+   "frames": 4,
+   "frame_size": [
+    32,
+    32
+   ],
+   "duration_ms": [
+    70,
+    70,
+    70,
+    70
+   ],
+   "loop": true
+  }
+ },
+ "state_flow": "idle -> hurt (4f, cracks grow) -> idle_cracked -> death (4f, shatters along the crack)",
+ "notes": "Boss has no balloon cords. Skill effects are baked into the skill_* frames; hitbox is in canvas px, active frames listed per skill.",
+ "palette": {
+  "k": "#0e0a1a",
+  "a": "#ffaf4b",
+  "b": "#ea7120",
+  "c": "#993c1e",
+  "d": "#5a2326",
+  "e": "#8054a2",
+  "f": "#522f79",
+  "g": "#351f5c",
+  "h": "#231544",
+  "i": "#8ec354",
+  "j": "#467d36",
+  "l": "#2c4b34",
+  "m": "#f4e2bb",
+  "n": "#d2be92",
+  "o": "#827159",
+  "q": "#dcd8d1",
+  "r": "#a6abb7",
+  "s": "#555c7f",
+  "t": "#2d2d56",
+  "Y": "#ffeb57",
+  "y": "#fff6b0",
+  "N": "#ffd23a",
+  "F": "#fff6c0",
+  "G": "#ffd23a",
+  "H": "#ff8a1e",
+  "I": "#c8300f",
+  "V": "#8dff7a",
+  "p": "#ffc678",
+  "u": "#f3a461",
+  "x": "#c78760",
+  "z": "#a47964",
+  "A": "#b994a8",
+  "B": "#a08092",
+  "C": "#907782",
+  "D": "#867275",
+  "E": "#c1d17d",
+  "J": "#99ab6d",
+  "K": "#8b8f6c",
+  "L": "#f9e2b6",
+  "M": "#e6cfa0",
+  "O": "#baa480",
+  "P": "#ecddc2",
+  "Q": "#cec4b4",
+  "R": "#a29995",
+  "S": "#8c7f7e",
+  "W": "#ffffff",
+  "w": "#dcdce8",
+  "v": "#a4a4bc"
+ },
+ "art_source": "code-drawn, no image model"
+}

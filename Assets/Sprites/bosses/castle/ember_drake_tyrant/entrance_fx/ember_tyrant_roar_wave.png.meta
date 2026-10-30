@@ -1,0 +1,6500 @@
+fileFormatVersion: 2
+guid: be6cc599457732e4da4076320b202889
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4402236915849050126
+    second: ember_tyrant_roar_wave_0
+  - first:
+      213: -877054325324598947
+    second: ember_tyrant_roar_wave_1
+  - first:
+      213: 3461073445375777169
+    second: ember_tyrant_roar_wave_2
+  - first:
+      213: 523658191682026480
+    second: ember_tyrant_roar_wave_3
+  - first:
+      213: -4793501261692003115
+    second: ember_tyrant_roar_wave_4
+  - first:
+      213: -8388516936837229379
+    second: ember_tyrant_roar_wave_5
+  - first:
+      213: -7719615058380177995
+    second: ember_tyrant_roar_wave_6
+  - first:
+      213: 3490905109266238201
+    second: ember_tyrant_roar_wave_7
+  - first:
+      213: 3673859420911779033
+    second: ember_tyrant_roar_wave_8
+  - first:
+      213: 6431056860547371187
+    second: ember_tyrant_roar_wave_9
+  - first:
+      213: -8934762528797103937
+    second: ember_tyrant_roar_wave_10
+  - first:
+      213: -6159390186758664954
+    second: ember_tyrant_roar_wave_11
+  - first:
+      213: 4196973103747125106
+    second: ember_tyrant_roar_wave_12
+  - first:
+      213: -8997214167306047034
+    second: ember_tyrant_roar_wave_13
+  - first:
+      213: 6291512810158705188
+    second: ember_tyrant_roar_wave_14
+  - first:
+      213: -4606669183417405887
+    second: ember_tyrant_roar_wave_15
+  - first:
+      213: -4436836094080829276
+    second: ember_tyrant_roar_wave_16
+  - first:
+      213: -5142890836549156668
+    second: ember_tyrant_roar_wave_17
+  - first:
+      213: -2078086788527412746
+    second: ember_tyrant_roar_wave_18
+  - first:
+      213: 7587166104320511649
+    second: ember_tyrant_roar_wave_19
+  - first:
+      213: -5852238755483906620
+    second: ember_tyrant_roar_wave_20
+  - first:
+      213: 3633241761003491570
+    second: ember_tyrant_roar_wave_21
+  - first:
+      213: -3927604590023594530
+    second: ember_tyrant_roar_wave_22
+  - first:
+      213: -6694288297491830080
+    second: ember_tyrant_roar_wave_23
+  - first:
+      213: 3419109826067876982
+    second: ember_tyrant_roar_wave_24
+  - first:
+      213: -820977461849038225
+    second: ember_tyrant_roar_wave_25
+  - first:
+      213: -7223802262416386690
+    second: ember_tyrant_roar_wave_26
+  - first:
+      213: 8192123410797571194
+    second: ember_tyrant_roar_wave_27
+  - first:
+      213: -8700929320844485571
+    second: ember_tyrant_roar_wave_28
+  - first:
+      213: 4308404846797990406
+    second: ember_tyrant_roar_wave_29
+  - first:
+      213: -2612458770190816271
+    second: ember_tyrant_roar_wave_30
+  - first:
+      213: -4468641764841695568
+    second: ember_tyrant_roar_wave_31
+  - first:
+      213: -8153376926125427617
+    second: ember_tyrant_roar_wave_32
+  - first:
+      213: 6274375844107641925
+    second: ember_tyrant_roar_wave_33
+  - first:
+      213: -3088812880518666293
+    second: ember_tyrant_roar_wave_34
+  - first:
+      213: 4815041905735842554
+    second: ember_tyrant_roar_wave_35
+  - first:
+      213: 6857840300139529295
+    second: ember_tyrant_roar_wave_36
+  - first:
+      213: 3675375327606556282
+    second: ember_tyrant_roar_wave_37
+  - first:
+      213: 5946195604139364236
+    second: ember_tyrant_roar_wave_38
+  - first:
+      213: 891341266960368088
+    second: ember_tyrant_roar_wave_39
+  - first:
+      213: -2379277907917807616
+    second: ember_tyrant_roar_wave_40
+  - first:
+      213: -1148418162705288706
+    second: ember_tyrant_roar_wave_41
+  - first:
+      213: 3286253905580935431
+    second: ember_tyrant_roar_wave_42
+  - first:
+      213: -5057835950323648975
+    second: ember_tyrant_roar_wave_43
+  - first:
+      213: 7996619405870772772
+    second: ember_tyrant_roar_wave_44
+  - first:
+      213: 1745375933624298133
+    second: ember_tyrant_roar_wave_45
+  - first:
+      213: 7808494955120477394
+    second: ember_tyrant_roar_wave_46
+  - first:
+      213: -2598235175527203755
+    second: ember_tyrant_roar_wave_47
+  - first:
+      213: -2488808070258852530
+    second: ember_tyrant_roar_wave_48
+  - first:
+      213: -7489050599543163414
+    second: ember_tyrant_roar_wave_49
+  - first:
+      213: 1936012684966239161
+    second: ember_tyrant_roar_wave_50
+  - first:
+      213: 2809505405319855390
+    second: ember_tyrant_roar_wave_51
+  - first:
+      213: -4975026701093924271
+    second: ember_tyrant_roar_wave_52
+  - first:
+      213: -7075598885637179977
+    second: ember_tyrant_roar_wave_53
+  - first:
+      213: 9169677704006462618
+    second: ember_tyrant_roar_wave_54
+  - first:
+      213: 2503693299290175388
+    second: ember_tyrant_roar_wave_55
+  - first:
+      213: 1954085800063596694
+    second: ember_tyrant_roar_wave_56
+  - first:
+      213: 8219675969805841621
+    second: ember_tyrant_roar_wave_57
+  - first:
+      213: 7289941702932824030
+    second: ember_tyrant_roar_wave_58
+  - first:
+      213: 44855347335277210
+    second: ember_tyrant_roar_wave_59
+  - first:
+      213: 4626988419060496688
+    second: ember_tyrant_roar_wave_60
+  - first:
+      213: -7836307079578508722
+    second: ember_tyrant_roar_wave_61
+  - first:
+      213: 3177641641093779879
+    second: ember_tyrant_roar_wave_62
+  - first:
+      213: -3028267351082057492
+    second: ember_tyrant_roar_wave_63
+  - first:
+      213: -8163891857390607036
+    second: ember_tyrant_roar_wave_64
+  - first:
+      213: -5486862911765649716
+    second: ember_tyrant_roar_wave_65
+  - first:
+      213: 3252709174533163693
+    second: ember_tyrant_roar_wave_66
+  - first:
+      213: 423506744333985532
+    second: ember_tyrant_roar_wave_67
+  - first:
+      213: 2582931604891873708
+    second: ember_tyrant_roar_wave_68
+  - first:
+      213: 1596633016282568880
+    second: ember_tyrant_roar_wave_69
+  - first:
+      213: -971087050600746406
+    second: ember_tyrant_roar_wave_70
+  - first:
+      213: 8113565534415240736
+    second: ember_tyrant_roar_wave_71
+  - first:
+      213: 994876966743718175
+    second: ember_tyrant_roar_wave_72
+  - first:
+      213: -3262336672966171324
+    second: ember_tyrant_roar_wave_73
+  - first:
+      213: -2349939260196913059
+    second: ember_tyrant_roar_wave_74
+  - first:
+      213: 1495635943353747582
+    second: ember_tyrant_roar_wave_75
+  - first:
+      213: -5308416680608946013
+    second: ember_tyrant_roar_wave_76
+  - first:
+      213: -1476775409760671426
+    second: ember_tyrant_roar_wave_77
+  - first:
+      213: 7181289552573398617
+    second: ember_tyrant_roar_wave_78
+  - first:
+      213: 8657433446033357453
+    second: ember_tyrant_roar_wave_79
+  - first:
+      213: 4753927259727934060
+    second: ember_tyrant_roar_wave_80
+  - first:
+      213: -6087131701139538405
+    second: ember_tyrant_roar_wave_81
+  - first:
+      213: 9111832285252934742
+    second: ember_tyrant_roar_wave_82
+  - first:
+      213: -201093871097801792
+    second: ember_tyrant_roar_wave_83
+  - first:
+      213: -8599578293038004760
+    second: ember_tyrant_roar_wave_84
+  - first:
+      213: 1553018170732633440
+    second: ember_tyrant_roar_wave_85
+  - first:
+      213: 1577081650050773250
+    second: ember_tyrant_roar_wave_86
+  - first:
+      213: -4680157136192434331
+    second: ember_tyrant_roar_wave_87
+  - first:
+      213: 7216145664431468696
+    second: ember_tyrant_roar_wave_88
+  - first:
+      213: -9061602289059371435
+    second: ember_tyrant_roar_wave_89
+  - first:
+      213: 2422629832689679774
+    second: ember_tyrant_roar_wave_90
+  - first:
+      213: 7282075528727990379
+    second: ember_tyrant_roar_wave_91
+  - first:
+      213: -8877886743533961712
+    second: ember_tyrant_roar_wave_92
+  - first:
+      213: 7963520553241186319
+    second: ember_tyrant_roar_wave_93
+  - first:
+      213: 3506283560872318583
+    second: ember_tyrant_roar_wave_94
+  - first:
+      213: -7751564017968372335
+    second: ember_tyrant_roar_wave_95
+  - first:
+      213: 7119186625694327211
+    second: ember_tyrant_roar_wave_96
+  - first:
+      213: 684058596919496125
+    second: ember_tyrant_roar_wave_97
+  - first:
+      213: -7471288957056173754
+    second: ember_tyrant_roar_wave_98
+  - first:
+      213: -8916006291521471448
+    second: ember_tyrant_roar_wave_99
+  - first:
+      213: 5091184227550586853
+    second: ember_tyrant_roar_wave_100
+  - first:
+      213: -5353432252957062998
+    second: ember_tyrant_roar_wave_101
+  - first:
+      213: -4316017682792862690
+    second: ember_tyrant_roar_wave_102
+  - first:
+      213: 293377970968931299
+    second: ember_tyrant_roar_wave_103
+  - first:
+      213: -7877708605245654216
+    second: ember_tyrant_roar_wave_104
+  - first:
+      213: 461299554131611281
+    second: ember_tyrant_roar_wave_105
+  - first:
+      213: 8389372307378049296
+    second: ember_tyrant_roar_wave_106
+  - first:
+      213: -492795477619263281
+    second: ember_tyrant_roar_wave_107
+  - first:
+      213: 8417919689212127299
+    second: ember_tyrant_roar_wave_108
+  - first:
+      213: -4596198569487979421
+    second: ember_tyrant_roar_wave_109
+  - first:
+      213: -2836587557505163873
+    second: ember_tyrant_roar_wave_110
+  - first:
+      213: 1207537494452617922
+    second: ember_tyrant_roar_wave_111
+  - first:
+      213: -4956444453970180033
+    second: ember_tyrant_roar_wave_112
+  - first:
+      213: -4118526530691311441
+    second: ember_tyrant_roar_wave_113
+  - first:
+      213: 7575845594086933317
+    second: ember_tyrant_roar_wave_114
+  - first:
+      213: 801048407161435709
+    second: ember_tyrant_roar_wave_115
+  - first:
+      213: -3635907242071966638
+    second: ember_tyrant_roar_wave_116
+  - first:
+      213: -2966731790074435546
+    second: ember_tyrant_roar_wave_117
+  - first:
+      213: -6877942575196905123
+    second: ember_tyrant_roar_wave_118
+  - first:
+      213: -6139080904583857885
+    second: ember_tyrant_roar_wave_119
+  - first:
+      213: -6614098880760469697
+    second: ember_tyrant_roar_wave_120
+  - first:
+      213: -1538406502298416601
+    second: ember_tyrant_roar_wave_121
+  - first:
+      213: 216657954307248388
+    second: ember_tyrant_roar_wave_122
+  - first:
+      213: -7292233489862835198
+    second: ember_tyrant_roar_wave_123
+  - first:
+      213: -1886458277976799492
+    second: ember_tyrant_roar_wave_124
+  - first:
+      213: 6994470897655270933
+    second: ember_tyrant_roar_wave_125
+  - first:
+      213: 5134583961476366239
+    second: ember_tyrant_roar_wave_126
+  - first:
+      213: -150814948207909757
+    second: ember_tyrant_roar_wave_127
+  - first:
+      213: -3172481752966727011
+    second: ember_tyrant_roar_wave_128
+  - first:
+      213: 9193092008760353790
+    second: ember_tyrant_roar_wave_129
+  - first:
+      213: 5280266636559869991
+    second: ember_tyrant_roar_wave_130
+  - first:
+      213: -3599322174412820634
+    second: ember_tyrant_roar_wave_131
+  - first:
+      213: 6195037659447647328
+    second: ember_tyrant_roar_wave_132
+  - first:
+      213: 6874284458973972366
+    second: ember_tyrant_roar_wave_133
+  - first:
+      213: -5819760011527742994
+    second: ember_tyrant_roar_wave_134
+  - first:
+      213: -787778695715311401
+    second: ember_tyrant_roar_wave_135
+  - first:
+      213: -8095003339395439419
+    second: ember_tyrant_roar_wave_136
+  - first:
+      213: -3509337446087585460
+    second: ember_tyrant_roar_wave_137
+  - first:
+      213: -2469121049406350756
+    second: ember_tyrant_roar_wave_138
+  - first:
+      213: -8585661832468328116
+    second: ember_tyrant_roar_wave_139
+  - first:
+      213: 7309284150971691672
+    second: ember_tyrant_roar_wave_140
+  - first:
+      213: -3552431983811518530
+    second: ember_tyrant_roar_wave_141
+  - first:
+      213: 2525236812256351669
+    second: ember_tyrant_roar_wave_142
+  - first:
+      213: 6814661662094633193
+    second: ember_tyrant_roar_wave_143
+  - first:
+      213: -2413706462416472383
+    second: ember_tyrant_roar_wave_144
+  - first:
+      213: 5752592955083378212
+    second: ember_tyrant_roar_wave_145
+  - first:
+      213: -148727515393223192
+    second: ember_tyrant_roar_wave_146
+  - first:
+      213: -8754956354105874375
+    second: ember_tyrant_roar_wave_147
+  - first:
+      213: 8548553358839786427
+    second: ember_tyrant_roar_wave_148
+  - first:
+      213: 3910828833061717942
+    second: ember_tyrant_roar_wave_149
+  - first:
+      213: 1450235795213643694
+    second: ember_tyrant_roar_wave_150
+  - first:
+      213: -4377666879722918188
+    second: ember_tyrant_roar_wave_151
+  - first:
+      213: 7879923276506339388
+    second: ember_tyrant_roar_wave_152
+  - first:
+      213: -368536036504121683
+    second: ember_tyrant_roar_wave_153
+  - first:
+      213: -2452756959443138772
+    second: ember_tyrant_roar_wave_154
+  - first:
+      213: -1319034166563994225
+    second: ember_tyrant_roar_wave_155
+  - first:
+      213: 3827272305898126398
+    second: ember_tyrant_roar_wave_156
+  - first:
+      213: -572356538668416625
+    second: ember_tyrant_roar_wave_157
+  - first:
+      213: 3776749806420394490
+    second: ember_tyrant_roar_wave_158
+  - first:
+      213: -4971445186170601226
+    second: ember_tyrant_roar_wave_159
+  - first:
+      213: -7093040608447093666
+    second: ember_tyrant_roar_wave_160
+  - first:
+      213: 1969906922999565374
+    second: ember_tyrant_roar_wave_161
+  - first:
+      213: -6964257863227251582
+    second: ember_tyrant_roar_wave_162
+  - first:
+      213: 3664557491258955546
+    second: ember_tyrant_roar_wave_163
+  - first:
+      213: -1104883686969156331
+    second: ember_tyrant_roar_wave_164
+  - first:
+      213: 7461968062073013359
+    second: ember_tyrant_roar_wave_165
+  - first:
+      213: -7000184183158094363
+    second: ember_tyrant_roar_wave_166
+  - first:
+      213: 4091973219667616682
+    second: ember_tyrant_roar_wave_167
+  - first:
+      213: -664668166233915934
+    second: ember_tyrant_roar_wave_168
+  - first:
+      213: 2118202450425810307
+    second: ember_tyrant_roar_wave_169
+  - first:
+      213: -8477820233465372843
+    second: ember_tyrant_roar_wave_170
+  - first:
+      213: 1774126403095594668
+    second: ember_tyrant_roar_wave_171
+  - first:
+      213: -8686005890996505013
+    second: ember_tyrant_roar_wave_172
+  - first:
+      213: 8298064400429609071
+    second: ember_tyrant_roar_wave_173
+  - first:
+      213: -7022632686176186859
+    second: ember_tyrant_roar_wave_174
+  - first:
+      213: -1178191068470008675
+    second: ember_tyrant_roar_wave_175
+  - first:
+      213: 7578685163531680940
+    second: ember_tyrant_roar_wave_176
+  - first:
+      213: 3647319932306454605
+    second: ember_tyrant_roar_wave_177
+  - first:
+      213: -648144258978848791
+    second: ember_tyrant_roar_wave_178
+  - first:
+      213: -2056188652592662296
+    second: ember_tyrant_roar_wave_179
+  - first:
+      213: -5046834524720267112
+    second: ember_tyrant_roar_wave_180
+  - first:
+      213: -3319272700058153344
+    second: ember_tyrant_roar_wave_181
+  - first:
+      213: -7654025246546499671
+    second: ember_tyrant_roar_wave_182
+  - first:
+      213: 4623718067395684512
+    second: ember_tyrant_roar_wave_183
+  - first:
+      213: 5570036894085478164
+    second: ember_tyrant_roar_wave_184
+  - first:
+      213: 6623579607679308218
+    second: ember_tyrant_roar_wave_185
+  - first:
+      213: 5128500910451858646
+    second: ember_tyrant_roar_wave_186
+  - first:
+      213: 2772120625136191409
+    second: ember_tyrant_roar_wave_187
+  - first:
+      213: 6631892531695272052
+    second: ember_tyrant_roar_wave_188
+  - first:
+      213: 255435202327807462
+    second: ember_tyrant_roar_wave_189
+  - first:
+      213: 41377638617464487
+    second: ember_tyrant_roar_wave_190
+  - first:
+      213: 8227690474257769366
+    second: ember_tyrant_roar_wave_191
+  - first:
+      213: -1566399577084735534
+    second: ember_tyrant_roar_wave_192
+  - first:
+      213: -2807926502312462089
+    second: ember_tyrant_roar_wave_193
+  - first:
+      213: -2674325420972064796
+    second: ember_tyrant_roar_wave_194
+  - first:
+      213: -4999846055035283795
+    second: ember_tyrant_roar_wave_195
+  - first:
+      213: 7506720101061669325
+    second: ember_tyrant_roar_wave_196
+  - first:
+      213: 767299629581341782
+    second: ember_tyrant_roar_wave_197
+  - first:
+      213: 730301306308946112
+    second: ember_tyrant_roar_wave_198
+  - first:
+      213: -1936238892387613265
+    second: ember_tyrant_roar_wave_199
+  - first:
+      213: -4072615851487467600
+    second: ember_tyrant_roar_wave_200
+  - first:
+      213: 612236773890740823
+    second: ember_tyrant_roar_wave_201
+  - first:
+      213: 6857467803644054540
+    second: ember_tyrant_roar_wave_202
+  - first:
+      213: 565367593394297876
+    second: ember_tyrant_roar_wave_203
+  - first:
+      213: -6252013870105448362
+    second: ember_tyrant_roar_wave_204
+  - first:
+      213: -5332158966055046622
+    second: ember_tyrant_roar_wave_205
+  - first:
+      213: -6852209877233587305
+    second: ember_tyrant_roar_wave_206
+  - first:
+      213: -8669603006667509104
+    second: ember_tyrant_roar_wave_207
+  - first:
+      213: 5198767461576138766
+    second: ember_tyrant_roar_wave_208
+  - first:
+      213: 3680090802263325447
+    second: ember_tyrant_roar_wave_209
+  - first:
+      213: 4945594355957334270
+    second: ember_tyrant_roar_wave_210
+  - first:
+      213: 1685536637865593797
+    second: ember_tyrant_roar_wave_211
+  - first:
+      213: -552109675000814555
+    second: ember_tyrant_roar_wave_212
+  - first:
+      213: 3650831500074880519
+    second: ember_tyrant_roar_wave_213
+  - first:
+      213: 4091950841936010777
+    second: ember_tyrant_roar_wave_214
+  - first:
+      213: 8482347695298103824
+    second: ember_tyrant_roar_wave_215
+  - first:
+      213: 6261362781116439290
+    second: ember_tyrant_roar_wave_216
+  - first:
+      213: -3096787750076340470
+    second: ember_tyrant_roar_wave_217
+  - first:
+      213: -7285354677755866961
+    second: ember_tyrant_roar_wave_218
+  - first:
+      213: 5993788043634024837
+    second: ember_tyrant_roar_wave_219
+  - first:
+      213: -7347019143174368253
+    second: ember_tyrant_roar_wave_220
+  - first:
+      213: 6525378659388735413
+    second: ember_tyrant_roar_wave_221
+  - first:
+      213: 7061572811214344220
+    second: ember_tyrant_roar_wave_222
+  - first:
+      213: -8047901346205398903
+    second: ember_tyrant_roar_wave_223
+  - first:
+      213: -6533929193674719005
+    second: ember_tyrant_roar_wave_224
+  - first:
+      213: -1564724201049734242
+    second: ember_tyrant_roar_wave_225
+  - first:
+      213: 3949729217530017225
+    second: ember_tyrant_roar_wave_226
+  - first:
+      213: -6921404766946290782
+    second: ember_tyrant_roar_wave_227
+  - first:
+      213: -1143436942352472711
+    second: ember_tyrant_roar_wave_228
+  - first:
+      213: -1659639401136055103
+    second: ember_tyrant_roar_wave_229
+  - first:
+      213: -6777382725990069849
+    second: ember_tyrant_roar_wave_230
+  - first:
+      213: -3951578221222089839
+    second: ember_tyrant_roar_wave_231
+  - first:
+      213: 1291899803636241212
+    second: ember_tyrant_roar_wave_232
+  - first:
+      213: 8496450304130337367
+    second: ember_tyrant_roar_wave_233
+  - first:
+      213: 3696000420827502893
+    second: ember_tyrant_roar_wave_234
+  - first:
+      213: 6607699418235655964
+    second: ember_tyrant_roar_wave_235
+  - first:
+      213: 1752462884273786664
+    second: ember_tyrant_roar_wave_236
+  - first:
+      213: -6041681483268124174
+    second: ember_tyrant_roar_wave_237
+  - first:
+      213: 4533335243324193960
+    second: ember_tyrant_roar_wave_238
+  - first:
+      213: -1456842260688657403
+    second: ember_tyrant_roar_wave_239
+  - first:
+      213: -1261539080973334610
+    second: ember_tyrant_roar_wave_240
+  - first:
+      213: -5680838142484473689
+    second: ember_tyrant_roar_wave_241
+  - first:
+      213: -1378932257785744869
+    second: ember_tyrant_roar_wave_242
+  - first:
+      213: -4093033167654587674
+    second: ember_tyrant_roar_wave_243
+  - first:
+      213: 1656006291577547231
+    second: ember_tyrant_roar_wave_244
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_0
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 471
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7c4bd59dc18e2c0800000000000000
+      internalID: -4402236915849050126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_1
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 481
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51be4aecb314d3f0800000000000000
+      internalID: -877054325324598947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_2
+      rect:
+        serializedVersion: 2
+        x: 2229
+        y: 475
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 199192506f3380030800000000000000
+      internalID: 3461073445375777169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_3
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 475
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb3ee2d958644700800000000000000
+      internalID: 523658191682026480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_4
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 481
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc1672efff0a7db0800000000000000
+      internalID: -4793501261692003115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_5
+      rect:
+        serializedVersion: 2
+        x: 2467
+        y: 471
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db4187b4a40069b80800000000000000
+      internalID: -8388516936837229379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_6
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 69
+        width: 486
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd3e72310b6ed490800000000000000
+      internalID: -7719615058380177995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_7
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 439
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa096683bf227030800000000000000
+      internalID: 3490905109266238201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_8
+      rect:
+        serializedVersion: 2
+        x: 2715
+        y: 457
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc3b2aadab2cf230800000000000000
+      internalID: 3673859420911779033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_9
+      rect:
+        serializedVersion: 2
+        x: 2731
+        y: 471
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0d3473424bf3950800000000000000
+      internalID: 6431056860547371187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_10
+      rect:
+        serializedVersion: 2
+        x: 2891
+        y: 471
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb8e39681d8510480800000000000000
+      internalID: -8934762528797103937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_11
+      rect:
+        serializedVersion: 2
+        x: 2903
+        y: 459
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60d093d4243758aa0800000000000000
+      internalID: -6159390186758664954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_12
+      rect:
+        serializedVersion: 2
+        x: 2927
+        y: 439
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f47b42dc4ae3a30800000000000000
+      internalID: 4196973103747125106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_13
+      rect:
+        serializedVersion: 2
+        x: 3235
+        y: 451
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c17c955269732380800000000000000
+      internalID: -8997214167306047034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_14
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 451
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a44552191ff4750800000000000000
+      internalID: 6291512810158705188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_15
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 441
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14eaaace8c2d110c0800000000000000
+      internalID: -4606669183417405887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_16
+      rect:
+        serializedVersion: 2
+        x: 2917
+        y: 441
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a83ead64113d62c0800000000000000
+      internalID: -4436836094080829276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_17
+      rect:
+        serializedVersion: 2
+        x: 3167
+        y: 411
+        width: 38
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c040e84808c0a8b0800000000000000
+      internalID: -5142890836549156668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_18
+      rect:
+        serializedVersion: 2
+        x: 3217
+        y: 429
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9246573172923e0800000000000000
+      internalID: -2078086788527412746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_19
+      rect:
+        serializedVersion: 2
+        x: 3427
+        y: 429
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae88e39f570b4960800000000000000
+      internalID: 7587166104320511649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_20
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 413
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cd8b9ebbdba8cea0800000000000000
+      internalID: -5852238755483906620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_21
+      rect:
+        serializedVersion: 2
+        x: 1717
+        y: 419
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f05ab3c12edb6230800000000000000
+      internalID: 3633241761003491570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_22
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 419
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edd23794f685e79c0800000000000000
+      internalID: -3927604590023594530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_23
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 379
+        width: 106
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cae1f3e24c1913a0800000000000000
+      internalID: -6694288297491830080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_24
+      rect:
+        serializedVersion: 2
+        x: 2853
+        y: 373
+        width: 104
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67cc2d6854e137f20800000000000000
+      internalID: 3419109826067876982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_25
+      rect:
+        serializedVersion: 2
+        x: 3291
+        y: 417
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62e2e1295d4b94f0800000000000000
+      internalID: -820977461849038225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_26
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 417
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75120d9d16efbb90800000000000000
+      internalID: -7223802262416386690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_27
+      rect:
+        serializedVersion: 2
+        x: 3741
+        y: 423
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7c20c0a6d440b170800000000000000
+      internalID: 8192123410797571194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_28
+      rect:
+        serializedVersion: 2
+        x: 3933
+        y: 423
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3c9847d1e6104780800000000000000
+      internalID: -8700929320844485571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_29
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 381
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a27f991678acb30800000000000000
+      internalID: 4308404846797990406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_30
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 399
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fb2c64079eaebbd0800000000000000
+      internalID: -2612458770190816271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_31
+      rect:
+        serializedVersion: 2
+        x: 1737
+        y: 399
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b6d222adf13cf1c0800000000000000
+      internalID: -4468641764841695568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_32
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 401
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f547d6652e269de80800000000000000
+      internalID: -8153376926125427617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_33
+      rect:
+        serializedVersion: 2
+        x: 1859
+        y: 355
+        width: 64
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 544e35f469f031750800000000000000
+      internalID: 6274375844107641925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_34
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 381
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7a807ec055225d0800000000000000
+      internalID: -3088812880518666293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_35
+      rect:
+        serializedVersion: 2
+        x: 3269
+        y: 409
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa31022a1772d240800000000000000
+      internalID: 4815041905735842554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_36
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 411
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f44cc282b61fb2f50800000000000000
+      internalID: 6857840300139529295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_37
+      rect:
+        serializedVersion: 2
+        x: 3683
+        y: 373
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a764932336e810330800000000000000
+      internalID: 3675375327606556282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_38
+      rect:
+        serializedVersion: 2
+        x: 3727
+        y: 407
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f47bdc561258250800000000000000
+      internalID: 5946195604139364236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_39
+      rect:
+        serializedVersion: 2
+        x: 3947
+        y: 405
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1c1d6e82eae5c00800000000000000
+      internalID: 891341266960368088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_40
+      rect:
+        serializedVersion: 2
+        x: 3969
+        y: 371
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 000ef94495b1bfed0800000000000000
+      internalID: -2379277907917807616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_41
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 389
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1385ef3cfff00f0800000000000000
+      internalID: -1148418162705288706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_42
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 385
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70944eb048e1b9d20800000000000000
+      internalID: 3286253905580935431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_43
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 383
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13632c03005fec9b0800000000000000
+      internalID: -5057835950323648975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_44
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 355
+        width: 68
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4223ce25bf2b9fe60800000000000000
+      internalID: 7996619405870772772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_45
+      rect:
+        serializedVersion: 2
+        x: 1855
+        y: 391
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a213b0a22d83810800000000000000
+      internalID: 1745375933624298133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_46
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 383
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d4c26e5ac85d5c60800000000000000
+      internalID: 7808494955120477394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_47
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 357
+        width: 38
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55cb6c7bfd631fbd0800000000000000
+      internalID: -2598235175527203755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_48
+      rect:
+        serializedVersion: 2
+        x: 2993
+        y: 357
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4d78121f3af57dd0800000000000000
+      internalID: -2488808070258852530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_49
+      rect:
+        serializedVersion: 2
+        x: 3093
+        y: 335
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae5bd4d882c811890800000000000000
+      internalID: -7489050599543163414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_50
+      rect:
+        serializedVersion: 2
+        x: 3237
+        y: 355
+        width: 182
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bb101097491eda10800000000000000
+      internalID: 1936012684966239161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_51
+      rect:
+        serializedVersion: 2
+        x: 3523
+        y: 335
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1d31aed74e5df620800000000000000
+      internalID: 2809505405319855390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_52
+      rect:
+        serializedVersion: 2
+        x: 3785
+        y: 383
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152963df29725fab0800000000000000
+      internalID: -4975026701093924271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_53
+      rect:
+        serializedVersion: 2
+        x: 3801
+        y: 389
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b532783d4c6ecd90800000000000000
+      internalID: -7075598885637179977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_54
+      rect:
+        serializedVersion: 2
+        x: 3877
+        y: 389
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cef1ce94d314f70800000000000000
+      internalID: 9169677704006462618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_55
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 383
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9777b26ac7eeb220800000000000000
+      internalID: 2503693299290175388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_56
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 367
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698fc659eae4e1b10800000000000000
+      internalID: 1954085800063596694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_57
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 373
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d4771daeb7221270800000000000000
+      internalID: 8219675969805841621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_58
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 381
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edffd94ea531b2560800000000000000
+      internalID: 7289941702932824030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_59
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 381
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a223463bb5f9000800000000000000
+      internalID: 44855347335277210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_60
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 373
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03972f9c37d563040800000000000000
+      internalID: 4626988419060496688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_61
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 367
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4228daca38df3390800000000000000
+      internalID: -7836307079578508722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_62
+      rect:
+        serializedVersion: 2
+        x: 1593
+        y: 179
+        width: 404
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a152e89c30491c20800000000000000
+      internalID: 3177641641093779879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_63
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 373
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce047dd73ee69f5d0800000000000000
+      internalID: -3028267351082057492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_64
+      rect:
+        serializedVersion: 2
+        x: 2581
+        y: 73
+        width: 472
+        height: 316
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 445678f1c9704be80800000000000000
+      internalID: -8163891857390607036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_65
+      rect:
+        serializedVersion: 2
+        x: 3757
+        y: 369
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc661fc904fbad3b0800000000000000
+      internalID: -5486862911765649716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_66
+      rect:
+        serializedVersion: 2
+        x: 3907
+        y: 369
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa04b9b2c1f32d20800000000000000
+      internalID: 3252709174533163693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_67
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 351
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf66200e32990e500800000000000000
+      internalID: 423506744333985532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_68
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 369
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca1b5b41c9a68d320800000000000000
+      internalID: 2582931604891873708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_69
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 365
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b8de2cd441682610800000000000000
+      internalID: 1596633016282568880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_70
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 351
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52f5f6f8710682f0800000000000000
+      internalID: -971087050600746406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_71
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 345
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e3ca4bddc299070800000000000000
+      internalID: 8113565534415240736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_72
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 345
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f193af584538ecd00800000000000000
+      internalID: 994876966743718175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_73
+      rect:
+        serializedVersion: 2
+        x: 1775
+        y: 371
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4452f1e941ad9b2d0800000000000000
+      internalID: -3262336672966171324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_74
+      rect:
+        serializedVersion: 2
+        x: 1805
+        y: 371
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50083081b6536fd0800000000000000
+      internalID: -2349939260196913059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_75
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 359
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7808ec57f091c410800000000000000
+      internalID: 1495635943353747582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_76
+      rect:
+        serializedVersion: 2
+        x: 3475
+        y: 359
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8ab887727b456b0800000000000000
+      internalID: -5308416680608946013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_77
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 337
+        width: 80
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e39ee20d690718be0800000000000000
+      internalID: -1476775409760671426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_78
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 333
+        width: 84
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e7c5accc019a360800000000000000
+      internalID: 7181289552573398617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_79
+      rect:
+        serializedVersion: 2
+        x: 3127
+        y: 233
+        width: 404
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a7761a9d1652870800000000000000
+      internalID: 8657433446033357453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_80
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 333
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c623124c7a759f140800000000000000
+      internalID: 4753927259727934060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_81
+      rect:
+        serializedVersion: 2
+        x: 3435
+        y: 333
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1efe8408f9268ba0800000000000000
+      internalID: -6087131701139538405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_82
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 329
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65cdf67df2bb37e70800000000000000
+      internalID: 9111832285252934742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_83
+      rect:
+        serializedVersion: 2
+        x: 3737
+        y: 343
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c315be8032953df0800000000000000
+      internalID: -201093871097801792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_84
+      rect:
+        serializedVersion: 2
+        x: 3759
+        y: 357
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e54f41ea1928a880800000000000000
+      internalID: -8599578293038004760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_85
+      rect:
+        serializedVersion: 2
+        x: 3911
+        y: 357
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06dde3c4ccd6d8510800000000000000
+      internalID: 1553018170732633440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_86
+      rect:
+        serializedVersion: 2
+        x: 3935
+        y: 343
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 201301da76be2e510800000000000000
+      internalID: 1577081650050773250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_87
+      rect:
+        serializedVersion: 2
+        x: 4029
+        y: 331
+        width: 22
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f8d3491edbc0fb0800000000000000
+      internalID: -4680157136192434331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_88
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 333
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890b9efbf36e42460800000000000000
+      internalID: 7216145664431468696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_89
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 333
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556efb08ab8be3280800000000000000
+      internalID: -9061602289059371435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_90
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 313
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d7bb74ff8ee9120800000000000000
+      internalID: 2422629832689679774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_91
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 217
+        width: 304
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60956d7c112f0560800000000000000
+      internalID: 7282075528727990379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_92
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 315
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e32873b096bc480800000000000000
+      internalID: -8877886743533961712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_93
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 199
+        width: 398
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00967920cb148e60800000000000000
+      internalID: 7963520553241186319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_94
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 333
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776169f4252d8a030800000000000000
+      internalID: 3506283560872318583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_95
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 337
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195ab4f5899ec6490800000000000000
+      internalID: -7751564017968372335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_96
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 341
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba1e83a548e6cc260800000000000000
+      internalID: 7119186625694327211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_97
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 335
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd40fa6ba34e7900800000000000000
+      internalID: 684058596919496125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_98
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 321
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6493e543746a05890800000000000000
+      internalID: -7471288957056173754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_99
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 321
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cf6b2548bf34480800000000000000
+      internalID: -8916006291521471448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_100
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 331
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e76939a41587a640800000000000000
+      internalID: 5091184227550586853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_101
+      rect:
+        serializedVersion: 2
+        x: 3965
+        y: 307
+        width: 16
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa80069cab9c4b5b0800000000000000
+      internalID: -5353432252957062998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_102
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 317
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ca3d4e8cc6a14c0800000000000000
+      internalID: -4316017682792862690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_103
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 333
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb2780d5b9421400800000000000000
+      internalID: 293377970968931299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_104
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 317
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83b7b4ce2c1cca290800000000000000
+      internalID: -7877708605245654216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_105
+      rect:
+        serializedVersion: 2
+        x: 1587
+        y: 315
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e8f0b108dd66600800000000000000
+      internalID: 461299554131611281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_106
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 301
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01194cd2aa90d6470800000000000000
+      internalID: 8389372307378049296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_107
+      rect:
+        serializedVersion: 2
+        x: 3665
+        y: 317
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc8b591cf1d3929f0800000000000000
+      internalID: -492795477619263281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_108
+      rect:
+        serializedVersion: 2
+        x: 3757
+        y: 317
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34861477b5572d470800000000000000
+      internalID: 8417919689212127299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_109
+      rect:
+        serializedVersion: 2
+        x: 3885
+        y: 313
+        width: 44
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ca284b0c50730c0800000000000000
+      internalID: -4596198569487979421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_110
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 285
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d9c9435aa62a8d0800000000000000
+      internalID: -2836587557505163873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_111
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 245
+        width: 200
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c240d114f802c010800000000000000
+      internalID: 1207537494452617922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_112
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 311
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f38072c870c273bb0800000000000000
+      internalID: -4956444453970180033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_113
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 311
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa85f14f0fd08d6c0800000000000000
+      internalID: -4118526530691311441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_114
+      rect:
+        serializedVersion: 2
+        x: 3111
+        y: 307
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54382c4ed6fc22960800000000000000
+      internalID: 7575845594086933317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_115
+      rect:
+        serializedVersion: 2
+        x: 3541
+        y: 283
+        width: 16
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36ffbc3845ed1b00800000000000000
+      internalID: 801048407161435709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_116
+      rect:
+        serializedVersion: 2
+        x: 3617
+        y: 271
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25cb70090a9aa8dc0800000000000000
+      internalID: -3635907242071966638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_117
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 311
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62821c4c72d04d6d0800000000000000
+      internalID: -2966731790074435546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_118
+      rect:
+        serializedVersion: 2
+        x: 3787
+        y: 313
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d516ad33ba3ac80a0800000000000000
+      internalID: -6877942575196905123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_119
+      rect:
+        serializedVersion: 2
+        x: 4011
+        y: 317
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32935ea817a9dcaa0800000000000000
+      internalID: -6139080904583857885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_120
+      rect:
+        serializedVersion: 2
+        x: 4041
+        y: 269
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37a6f66c100634a0800000000000000
+      internalID: -6614098880760469697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_121
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 285
+        width: 20
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72a0a5edf6b76aae0800000000000000
+      internalID: -1538406502298416601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_122
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 303
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4011f34f249b10300800000000000000
+      internalID: 216657954307248388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_123
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 301
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204c481e648ccca90800000000000000
+      internalID: -7292233489862835198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_124
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 303
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf60999e034f1d5e0800000000000000
+      internalID: -1886458277976799492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_125
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 283
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ecc8e193a511160800000000000000
+      internalID: 6994470897655270933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_126
+      rect:
+        serializedVersion: 2
+        x: 3661
+        y: 265
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9f7735a8e4b14740800000000000000
+      internalID: 5134583961476366239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_127
+      rect:
+        serializedVersion: 2
+        x: 3675
+        y: 293
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384af398a9238edf0800000000000000
+      internalID: -150814948207909757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_128
+      rect:
+        serializedVersion: 2
+        x: 3997
+        y: 307
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a720a77a419f3d0800000000000000
+      internalID: -3172481752966727011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_129
+      rect:
+        serializedVersion: 2
+        x: 4007
+        y: 265
+        width: 20
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef3a4a1997c649f70800000000000000
+      internalID: 9193092008760353790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_130
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 283
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7286f77a786474940800000000000000
+      internalID: 5280266636559869991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_131
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 283
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fefe96d83ac0ec0800000000000000
+      internalID: -3599322174412820634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_132
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 253
+        width: 16
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c5b85bde139f550800000000000000
+      internalID: 6195037659447647328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_133
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 277
+        width: 8
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e87c12e3b4d566f50800000000000000
+      internalID: 6874284458973972366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_134
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 277
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee99dda9a1f0c3fa0800000000000000
+      internalID: -5819760011527742994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_135
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 251
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0b448337f3115f0800000000000000
+      internalID: -787778695715311401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_136
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 249
+        width: 20
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4ebbb1a55c8af80800000000000000
+      internalID: -8095003339395439419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_137
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 249
+        width: 22
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4119f0af245c4fc0800000000000000
+      internalID: -3509337446087585460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_138
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 287
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ad1becc7bebbdd0800000000000000
+      internalID: -2469121049406350756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_139
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 287
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41981a5d0a99d880800000000000000
+      internalID: -8585661832468328116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_140
+      rect:
+        serializedVersion: 2
+        x: 3713
+        y: 293
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8927f05853bcf6560800000000000000
+      internalID: 7309284150971691672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_141
+      rect:
+        serializedVersion: 2
+        x: 3967
+        y: 293
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf9d2caee933bec0800000000000000
+      internalID: -3552431983811518530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_142
+      rect:
+        serializedVersion: 2
+        x: 4001
+        y: 293
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5974060817b0320800000000000000
+      internalID: 2525236812256351669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_143
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 239
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8af911daa829e50800000000000000
+      internalID: 6814661662094633193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_144
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 241
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6f993c2cac08ed0800000000000000
+      internalID: -2413706462416472383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_145
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 229
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ec82960d055df40800000000000000
+      internalID: 5752592955083378212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_146
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 229
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e519acdc1d9fedf0800000000000000
+      internalID: -148727515393223192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_147
+      rect:
+        serializedVersion: 2
+        x: 3093
+        y: 175
+        width: 76
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9386879e495208680800000000000000
+      internalID: -8754956354105874375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_148
+      rect:
+        serializedVersion: 2
+        x: 3213
+        y: 185
+        width: 260
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbb2e19dcff82a670800000000000000
+      internalID: 8548553358839786427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_149
+      rect:
+        serializedVersion: 2
+        x: 3533
+        y: 225
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7cffb6a1e064630800000000000000
+      internalID: 3910828833061717942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_150
+      rect:
+        serializedVersion: 2
+        x: 3631
+        y: 249
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafe346a5c5402410800000000000000
+      internalID: 1450235795213643694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_151
+      rect:
+        serializedVersion: 2
+        x: 3679
+        y: 241
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de6f11ba276f33c0800000000000000
+      internalID: -4377666879722918188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_152
+      rect:
+        serializedVersion: 2
+        x: 3701
+        y: 253
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c381e79687c1b5d60800000000000000
+      internalID: 7879923276506339388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_153
+      rect:
+        serializedVersion: 2
+        x: 3721
+        y: 255
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daecd396d62b2eaf0800000000000000
+      internalID: -368536036504121683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_154
+      rect:
+        serializedVersion: 2
+        x: 3931
+        y: 257
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2746086a8e06fdd0800000000000000
+      internalID: -2452756959443138772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_155
+      rect:
+        serializedVersion: 2
+        x: 3977
+        y: 241
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f85895ff969d1bde0800000000000000
+      internalID: -1319034166563994225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_156
+      rect:
+        serializedVersion: 2
+        x: 4045
+        y: 249
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c7fbb62e33d1530800000000000000
+      internalID: 3827272305898126398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_157
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 201
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f810cc3b2c49e08f0800000000000000
+      internalID: -572356538668416625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_158
+      rect:
+        serializedVersion: 2
+        x: 3017
+        y: 203
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af1863950f5b96430800000000000000
+      internalID: 3776749806420394490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_159
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 225
+        width: 18
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f0c9f961f0e10bb0800000000000000
+      internalID: -4971445186170601226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_160
+      rect:
+        serializedVersion: 2
+        x: 3459
+        y: 225
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54271ca525709d90800000000000000
+      internalID: -7093040608447093666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_161
+      rect:
+        serializedVersion: 2
+        x: 3661
+        y: 209
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3cc8f1d8e3865b10800000000000000
+      internalID: 1969906922999565374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_162
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 249
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2846e122f5cf95f90800000000000000
+      internalID: -6964257863227251582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_163
+      rect:
+        serializedVersion: 2
+        x: 3709
+        y: 225
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a179c756f9f1bd230800000000000000
+      internalID: 3664557491258955546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_164
+      rect:
+        serializedVersion: 2
+        x: 3739
+        y: 245
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51d5410042aaaa0f0800000000000000
+      internalID: -1104883686969156331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_165
+      rect:
+        serializedVersion: 2
+        x: 3749
+        y: 235
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f640c21da6c3e8760800000000000000
+      internalID: 7461968062073013359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_166
+      rect:
+        serializedVersion: 2
+        x: 3905
+        y: 235
+        width: 46
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e5cd80f2995ade90800000000000000
+      internalID: -7000184183158094363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_167
+      rect:
+        serializedVersion: 2
+        x: 3957
+        y: 247
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa323bc86fb99c830800000000000000
+      internalID: 4091973219667616682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_168
+      rect:
+        serializedVersion: 2
+        x: 3965
+        y: 249
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2edfd1a03df96c6f0800000000000000
+      internalID: -664668166233915934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_169
+      rect:
+        serializedVersion: 2
+        x: 3999
+        y: 211
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d0efbe7ed556d10800000000000000
+      internalID: 2118202450425810307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_170
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 221
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f5da24a6bb85a80800000000000000
+      internalID: -8477820233465372843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_171
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 221
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca6872b5096fe9810800000000000000
+      internalID: 1774126403095594668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_172
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 171
+        width: 56
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46f33e99ab157780800000000000000
+      internalID: -8686005890996505013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_173
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 187
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60fbee6b95a82370800000000000000
+      internalID: 8298064400429609071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_174
+      rect:
+        serializedVersion: 2
+        x: 1579
+        y: 155
+        width: 68
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ecb6887c89a8e90800000000000000
+      internalID: -7022632686176186859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_175
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 155
+        width: 70
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d94ae4e277936afe0800000000000000
+      internalID: -1178191068470008675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_176
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 235
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cac34dca006ec2960800000000000000
+      internalID: 7578685163531680940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_177
+      rect:
+        serializedVersion: 2
+        x: 3859
+        y: 235
+        width: 44
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48f3537722ed9230800000000000000
+      internalID: 3647319932306454605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_178
+      rect:
+        serializedVersion: 2
+        x: 3945
+        y: 225
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef5b500b345107f0800000000000000
+      internalID: -648144258978848791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_179
+      rect:
+        serializedVersion: 2
+        x: 3969
+        y: 235
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8760b8053f673e0800000000000000
+      internalID: -2056188652592662296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_180
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 217
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8900fd13dba06f9b0800000000000000
+      internalID: -5046834524720267112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_181
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 217
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ec168c0139fe1d0800000000000000
+      internalID: -3319272700058153344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_182
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 203
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a769bd479077c590800000000000000
+      internalID: -7654025246546499671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_183
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 211
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8eca4b51fba2040800000000000000
+      internalID: 4623718067395684512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_184
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 203
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 417f8c93b0fbc4d40800000000000000
+      internalID: 5570036894085478164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_185
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 217
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab11f395f8eabeb50800000000000000
+      internalID: 6623579607679308218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_186
+      rect:
+        serializedVersion: 2
+        x: 3193
+        y: 209
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc10c5f7681c2740800000000000000
+      internalID: 5128500910451858646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_187
+      rect:
+        serializedVersion: 2
+        x: 3471
+        y: 217
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7c6cf650d887620800000000000000
+      internalID: 2772120625136191409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_188
+      rect:
+        serializedVersion: 2
+        x: 3499
+        y: 215
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470434cce17390c50800000000000000
+      internalID: 6631892531695272052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_189
+      rect:
+        serializedVersion: 2
+        x: 3519
+        y: 213
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e501e196fc7b8300800000000000000
+      internalID: 255435202327807462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_190
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 207
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae307b3eb0039000800000000000000
+      internalID: 41377638617464487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_191
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 203
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 693eff7e4e0ae2270800000000000000
+      internalID: 8227690474257769366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_192
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 203
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dfca8f32e7034ae0800000000000000
+      internalID: -1566399577084735534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_193
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 169
+        width: 40
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8b24229bd3809d0800000000000000
+      internalID: -2807926502312462089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_194
+      rect:
+        serializedVersion: 2
+        x: 3169
+        y: 195
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efb925e233e2ead0800000000000000
+      internalID: -2674325420972064796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_195
+      rect:
+        serializedVersion: 2
+        x: 3459
+        y: 187
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6dbf5d08afc9ab0800000000000000
+      internalID: -4999846055035283795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_196
+      rect:
+        serializedVersion: 2
+        x: 3489
+        y: 175
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1b01cd82a3d2860800000000000000
+      internalID: 7506720101061669325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_197
+      rect:
+        serializedVersion: 2
+        x: 3609
+        y: 187
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6541c71a2fef5aa00800000000000000
+      internalID: 767299629581341782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_198
+      rect:
+        serializedVersion: 2
+        x: 3703
+        y: 179
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c86c853b2d822a00800000000000000
+      internalID: 730301306308946112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_199
+      rect:
+        serializedVersion: 2
+        x: 3773
+        y: 191
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa5c0fa6cf81125e0800000000000000
+      internalID: -1936238892387613265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_200
+      rect:
+        serializedVersion: 2
+        x: 3895
+        y: 191
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b7e671f5792b77c0800000000000000
+      internalID: -4072615851487467600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_201
+      rect:
+        serializedVersion: 2
+        x: 3951
+        y: 179
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75250322a1a1f7800800000000000000
+      internalID: 612236773890740823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_202
+      rect:
+        serializedVersion: 2
+        x: 4061
+        y: 187
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0cc1ee82ae9a2f50800000000000000
+      internalID: 6857467803644054540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_203
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 179
+        width: 42
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41cd8cba4d698d700800000000000000
+      internalID: 565367593394297876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_204
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 179
+        width: 42
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650bc8d72826c39a0800000000000000
+      internalID: -6252013870105448362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_205
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 155
+        width: 88
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 222ff5edbad5006b0800000000000000
+      internalID: -5332158966055046622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_206
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 157
+        width: 90
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ba115db6f08e0a0800000000000000
+      internalID: -6852209877233587305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_207
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 147
+        width: 88
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092bcebbff16fa780800000000000000
+      internalID: -8669603006667509104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_208
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 147
+        width: 90
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e00ea19467bb52840800000000000000
+      internalID: 5198767461576138766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_209
+      rect:
+        serializedVersion: 2
+        x: 3093
+        y: 171
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b7612361f421330800000000000000
+      internalID: 3680090802263325447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_210
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 189
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef083062dd742a440800000000000000
+      internalID: 4945594355957334270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_211
+      rect:
+        serializedVersion: 2
+        x: 3275
+        y: 175
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb82eb44aa346710800000000000000
+      internalID: 1685536637865593797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_212
+      rect:
+        serializedVersion: 2
+        x: 3535
+        y: 171
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52425800d238658f0800000000000000
+      internalID: -552109675000814555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_213
+      rect:
+        serializedVersion: 2
+        x: 3671
+        y: 171
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e05c808eb5aa230800000000000000
+      internalID: 3650831500074880519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_214
+      rect:
+        serializedVersion: 2
+        x: 3999
+        y: 171
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ed4f35c9789c830800000000000000
+      internalID: 4091950841936010777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_215
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 151
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ac897994a57b570800000000000000
+      internalID: 8482347695298103824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_216
+      rect:
+        serializedVersion: 2
+        x: 3371
+        y: 179
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa1c4a7644d4e650800000000000000
+      internalID: 6261362781116439290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_217
+      rect:
+        serializedVersion: 2
+        x: 3429
+        y: 151
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a072be3e2fff505d0800000000000000
+      internalID: -3096787750076340470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_218
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 147
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa091a1258835ea90800000000000000
+      internalID: -7285354677755866961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_219
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 153
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5812acf18763e2350800000000000000
+      internalID: 5993788043634024837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_220
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 153
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304d815f3052a0a90800000000000000
+      internalID: -7347019143174368253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_221
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 147
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bfb7c9515dce8a50800000000000000
+      internalID: 6525378659388735413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_222
+      rect:
+        serializedVersion: 2
+        x: 3087
+        y: 57
+        width: 482
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10dcf7de0fbff160800000000000000
+      internalID: 7061572811214344220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_223
+      rect:
+        serializedVersion: 2
+        x: 3621
+        y: 57
+        width: 218
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9880a008d5c105090800000000000000
+      internalID: -8047901346205398903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_224
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 155
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0c67f3402d255a0800000000000000
+      internalID: -6533929193674719005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_225
+      rect:
+        serializedVersion: 2
+        x: 3697
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9349f021abf84ae0800000000000000
+      internalID: -1564724201049734242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_226
+      rect:
+        serializedVersion: 2
+        x: 3727
+        y: 149
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5bbd9fbc140d630800000000000000
+      internalID: 3949729217530017225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_227
+      rect:
+        serializedVersion: 2
+        x: 3947
+        y: 149
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3987f190b32ff90800000000000000
+      internalID: -6921404766946290782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_228
+      rect:
+        serializedVersion: 2
+        x: 3973
+        y: 145
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975a50cb822b120f0800000000000000
+      internalID: -1143436942352472711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_229
+      rect:
+        serializedVersion: 2
+        x: 4035
+        y: 157
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cc1b0002c6c7f8e0800000000000000
+      internalID: -1659639401136055103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_230
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 133
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a94e7e9156e1f1a0800000000000000
+      internalID: -6777382725990069849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_231
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 133
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b23ed4b8c2929c0800000000000000
+      internalID: -3951578221222089839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_232
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 129
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c339221d600cde110800000000000000
+      internalID: 1291899803636241212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_233
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 139
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ac275198479e570800000000000000
+      internalID: 8496450304130337367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_234
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 143
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d291e1decc4da4330800000000000000
+      internalID: 3696000420827502893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_235
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 129
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17dd7e9c9343bb50800000000000000
+      internalID: 6607699418235655964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_236
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 131
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f023355bff15810800000000000000
+      internalID: 1752462884273786664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_237
+      rect:
+        serializedVersion: 2
+        x: 3035
+        y: 131
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f19fbf73b2a72ca0800000000000000
+      internalID: -6041681483268124174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_238
+      rect:
+        serializedVersion: 2
+        x: 3605
+        y: 119
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8acf81a9264a9ee30800000000000000
+      internalID: 4533335243324193960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_239
+      rect:
+        serializedVersion: 2
+        x: 3847
+        y: 55
+        width: 220
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50420edbea148cbe0800000000000000
+      internalID: -1456842260688657403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_240
+      rect:
+        serializedVersion: 2
+        x: 4055
+        y: 119
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7cf48c3ec1e7ee0800000000000000
+      internalID: -1261539080973334610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_241
+      rect:
+        serializedVersion: 2
+        x: 1689
+        y: 119
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a819bacecb9921b0800000000000000
+      internalID: -5680838142484473689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_242
+      rect:
+        serializedVersion: 2
+        x: 1703
+        y: 129
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b127a5dda6c0ddce0800000000000000
+      internalID: -1378932257785744869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_243
+      rect:
+        serializedVersion: 2
+        x: 1879
+        y: 129
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e27e041500a237c0800000000000000
+      internalID: -4093033167654587674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_tyrant_roar_wave_244
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 119
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9aa43c2f05bf610800000000000000
+      internalID: 1656006291577547231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ember_tyrant_roar_wave_0: -4402236915849050126
+      ember_tyrant_roar_wave_1: -877054325324598947
+      ember_tyrant_roar_wave_10: -8934762528797103937
+      ember_tyrant_roar_wave_100: 5091184227550586853
+      ember_tyrant_roar_wave_101: -5353432252957062998
+      ember_tyrant_roar_wave_102: -4316017682792862690
+      ember_tyrant_roar_wave_103: 293377970968931299
+      ember_tyrant_roar_wave_104: -7877708605245654216
+      ember_tyrant_roar_wave_105: 461299554131611281
+      ember_tyrant_roar_wave_106: 8389372307378049296
+      ember_tyrant_roar_wave_107: -492795477619263281
+      ember_tyrant_roar_wave_108: 8417919689212127299
+      ember_tyrant_roar_wave_109: -4596198569487979421
+      ember_tyrant_roar_wave_11: -6159390186758664954
+      ember_tyrant_roar_wave_110: -2836587557505163873
+      ember_tyrant_roar_wave_111: 1207537494452617922
+      ember_tyrant_roar_wave_112: -4956444453970180033
+      ember_tyrant_roar_wave_113: -4118526530691311441
+      ember_tyrant_roar_wave_114: 7575845594086933317
+      ember_tyrant_roar_wave_115: 801048407161435709
+      ember_tyrant_roar_wave_116: -3635907242071966638
+      ember_tyrant_roar_wave_117: -2966731790074435546
+      ember_tyrant_roar_wave_118: -6877942575196905123
+      ember_tyrant_roar_wave_119: -6139080904583857885
+      ember_tyrant_roar_wave_12: 4196973103747125106
+      ember_tyrant_roar_wave_120: -6614098880760469697
+      ember_tyrant_roar_wave_121: -1538406502298416601
+      ember_tyrant_roar_wave_122: 216657954307248388
+      ember_tyrant_roar_wave_123: -7292233489862835198
+      ember_tyrant_roar_wave_124: -1886458277976799492
+      ember_tyrant_roar_wave_125: 6994470897655270933
+      ember_tyrant_roar_wave_126: 5134583961476366239
+      ember_tyrant_roar_wave_127: -150814948207909757
+      ember_tyrant_roar_wave_128: -3172481752966727011
+      ember_tyrant_roar_wave_129: 9193092008760353790
+      ember_tyrant_roar_wave_13: -8997214167306047034
+      ember_tyrant_roar_wave_130: 5280266636559869991
+      ember_tyrant_roar_wave_131: -3599322174412820634
+      ember_tyrant_roar_wave_132: 6195037659447647328
+      ember_tyrant_roar_wave_133: 6874284458973972366
+      ember_tyrant_roar_wave_134: -5819760011527742994
+      ember_tyrant_roar_wave_135: -787778695715311401
+      ember_tyrant_roar_wave_136: -8095003339395439419
+      ember_tyrant_roar_wave_137: -3509337446087585460
+      ember_tyrant_roar_wave_138: -2469121049406350756
+      ember_tyrant_roar_wave_139: -8585661832468328116
+      ember_tyrant_roar_wave_14: 6291512810158705188
+      ember_tyrant_roar_wave_140: 7309284150971691672
+      ember_tyrant_roar_wave_141: -3552431983811518530
+      ember_tyrant_roar_wave_142: 2525236812256351669
+      ember_tyrant_roar_wave_143: 6814661662094633193
+      ember_tyrant_roar_wave_144: -2413706462416472383
+      ember_tyrant_roar_wave_145: 5752592955083378212
+      ember_tyrant_roar_wave_146: -148727515393223192
+      ember_tyrant_roar_wave_147: -8754956354105874375
+      ember_tyrant_roar_wave_148: 8548553358839786427
+      ember_tyrant_roar_wave_149: 3910828833061717942
+      ember_tyrant_roar_wave_15: -4606669183417405887
+      ember_tyrant_roar_wave_150: 1450235795213643694
+      ember_tyrant_roar_wave_151: -4377666879722918188
+      ember_tyrant_roar_wave_152: 7879923276506339388
+      ember_tyrant_roar_wave_153: -368536036504121683
+      ember_tyrant_roar_wave_154: -2452756959443138772
+      ember_tyrant_roar_wave_155: -1319034166563994225
+      ember_tyrant_roar_wave_156: 3827272305898126398
+      ember_tyrant_roar_wave_157: -572356538668416625
+      ember_tyrant_roar_wave_158: 3776749806420394490
+      ember_tyrant_roar_wave_159: -4971445186170601226
+      ember_tyrant_roar_wave_16: -4436836094080829276
+      ember_tyrant_roar_wave_160: -7093040608447093666
+      ember_tyrant_roar_wave_161: 1969906922999565374
+      ember_tyrant_roar_wave_162: -6964257863227251582
+      ember_tyrant_roar_wave_163: 3664557491258955546
+      ember_tyrant_roar_wave_164: -1104883686969156331
+      ember_tyrant_roar_wave_165: 7461968062073013359
+      ember_tyrant_roar_wave_166: -7000184183158094363
+      ember_tyrant_roar_wave_167: 4091973219667616682
+      ember_tyrant_roar_wave_168: -664668166233915934
+      ember_tyrant_roar_wave_169: 2118202450425810307
+      ember_tyrant_roar_wave_17: -5142890836549156668
+      ember_tyrant_roar_wave_170: -8477820233465372843
+      ember_tyrant_roar_wave_171: 1774126403095594668
+      ember_tyrant_roar_wave_172: -8686005890996505013
+      ember_tyrant_roar_wave_173: 8298064400429609071
+      ember_tyrant_roar_wave_174: -7022632686176186859
+      ember_tyrant_roar_wave_175: -1178191068470008675
+      ember_tyrant_roar_wave_176: 7578685163531680940
+      ember_tyrant_roar_wave_177: 3647319932306454605
+      ember_tyrant_roar_wave_178: -648144258978848791
+      ember_tyrant_roar_wave_179: -2056188652592662296
+      ember_tyrant_roar_wave_18: -2078086788527412746
+      ember_tyrant_roar_wave_180: -5046834524720267112
+      ember_tyrant_roar_wave_181: -3319272700058153344
+      ember_tyrant_roar_wave_182: -7654025246546499671
+      ember_tyrant_roar_wave_183: 4623718067395684512
+      ember_tyrant_roar_wave_184: 5570036894085478164
+      ember_tyrant_roar_wave_185: 6623579607679308218
+      ember_tyrant_roar_wave_186: 5128500910451858646
+      ember_tyrant_roar_wave_187: 2772120625136191409
+      ember_tyrant_roar_wave_188: 6631892531695272052
+      ember_tyrant_roar_wave_189: 255435202327807462
+      ember_tyrant_roar_wave_19: 7587166104320511649
+      ember_tyrant_roar_wave_190: 41377638617464487
+      ember_tyrant_roar_wave_191: 8227690474257769366
+      ember_tyrant_roar_wave_192: -1566399577084735534
+      ember_tyrant_roar_wave_193: -2807926502312462089
+      ember_tyrant_roar_wave_194: -2674325420972064796
+      ember_tyrant_roar_wave_195: -4999846055035283795
+      ember_tyrant_roar_wave_196: 7506720101061669325
+      ember_tyrant_roar_wave_197: 767299629581341782
+      ember_tyrant_roar_wave_198: 730301306308946112
+      ember_tyrant_roar_wave_199: -1936238892387613265
+      ember_tyrant_roar_wave_2: 3461073445375777169
+      ember_tyrant_roar_wave_20: -5852238755483906620
+      ember_tyrant_roar_wave_200: -4072615851487467600
+      ember_tyrant_roar_wave_201: 612236773890740823
+      ember_tyrant_roar_wave_202: 6857467803644054540
+      ember_tyrant_roar_wave_203: 565367593394297876
+      ember_tyrant_roar_wave_204: -6252013870105448362
+      ember_tyrant_roar_wave_205: -5332158966055046622
+      ember_tyrant_roar_wave_206: -6852209877233587305
+      ember_tyrant_roar_wave_207: -8669603006667509104
+      ember_tyrant_roar_wave_208: 5198767461576138766
+      ember_tyrant_roar_wave_209: 3680090802263325447
+      ember_tyrant_roar_wave_21: 3633241761003491570
+      ember_tyrant_roar_wave_210: 4945594355957334270
+      ember_tyrant_roar_wave_211: 1685536637865593797
+      ember_tyrant_roar_wave_212: -552109675000814555
+      ember_tyrant_roar_wave_213: 3650831500074880519
+      ember_tyrant_roar_wave_214: 4091950841936010777
+      ember_tyrant_roar_wave_215: 8482347695298103824
+      ember_tyrant_roar_wave_216: 6261362781116439290
+      ember_tyrant_roar_wave_217: -3096787750076340470
+      ember_tyrant_roar_wave_218: -7285354677755866961
+      ember_tyrant_roar_wave_219: 5993788043634024837
+      ember_tyrant_roar_wave_22: -3927604590023594530
+      ember_tyrant_roar_wave_220: -7347019143174368253
+      ember_tyrant_roar_wave_221: 6525378659388735413
+      ember_tyrant_roar_wave_222: 7061572811214344220
+      ember_tyrant_roar_wave_223: -8047901346205398903
+      ember_tyrant_roar_wave_224: -6533929193674719005
+      ember_tyrant_roar_wave_225: -1564724201049734242
+      ember_tyrant_roar_wave_226: 3949729217530017225
+      ember_tyrant_roar_wave_227: -6921404766946290782
+      ember_tyrant_roar_wave_228: -1143436942352472711
+      ember_tyrant_roar_wave_229: -1659639401136055103
+      ember_tyrant_roar_wave_23: -6694288297491830080
+      ember_tyrant_roar_wave_230: -6777382725990069849
+      ember_tyrant_roar_wave_231: -3951578221222089839
+      ember_tyrant_roar_wave_232: 1291899803636241212
+      ember_tyrant_roar_wave_233: 8496450304130337367
+      ember_tyrant_roar_wave_234: 3696000420827502893
+      ember_tyrant_roar_wave_235: 6607699418235655964
+      ember_tyrant_roar_wave_236: 1752462884273786664
+      ember_tyrant_roar_wave_237: -6041681483268124174
+      ember_tyrant_roar_wave_238: 4533335243324193960
+      ember_tyrant_roar_wave_239: -1456842260688657403
+      ember_tyrant_roar_wave_24: 3419109826067876982
+      ember_tyrant_roar_wave_240: -1261539080973334610
+      ember_tyrant_roar_wave_241: -5680838142484473689
+      ember_tyrant_roar_wave_242: -1378932257785744869
+      ember_tyrant_roar_wave_243: -4093033167654587674
+      ember_tyrant_roar_wave_244: 1656006291577547231
+      ember_tyrant_roar_wave_25: -820977461849038225
+      ember_tyrant_roar_wave_26: -7223802262416386690
+      ember_tyrant_roar_wave_27: 8192123410797571194
+      ember_tyrant_roar_wave_28: -8700929320844485571
+      ember_tyrant_roar_wave_29: 4308404846797990406
+      ember_tyrant_roar_wave_3: 523658191682026480
+      ember_tyrant_roar_wave_30: -2612458770190816271
+      ember_tyrant_roar_wave_31: -4468641764841695568
+      ember_tyrant_roar_wave_32: -8153376926125427617
+      ember_tyrant_roar_wave_33: 6274375844107641925
+      ember_tyrant_roar_wave_34: -3088812880518666293
+      ember_tyrant_roar_wave_35: 4815041905735842554
+      ember_tyrant_roar_wave_36: 6857840300139529295
+      ember_tyrant_roar_wave_37: 3675375327606556282
+      ember_tyrant_roar_wave_38: 5946195604139364236
+      ember_tyrant_roar_wave_39: 891341266960368088
+      ember_tyrant_roar_wave_4: -4793501261692003115
+      ember_tyrant_roar_wave_40: -2379277907917807616
+      ember_tyrant_roar_wave_41: -1148418162705288706
+      ember_tyrant_roar_wave_42: 3286253905580935431
+      ember_tyrant_roar_wave_43: -5057835950323648975
+      ember_tyrant_roar_wave_44: 7996619405870772772
+      ember_tyrant_roar_wave_45: 1745375933624298133
+      ember_tyrant_roar_wave_46: 7808494955120477394
+      ember_tyrant_roar_wave_47: -2598235175527203755
+      ember_tyrant_roar_wave_48: -2488808070258852530
+      ember_tyrant_roar_wave_49: -7489050599543163414
+      ember_tyrant_roar_wave_5: -8388516936837229379
+      ember_tyrant_roar_wave_50: 1936012684966239161
+      ember_tyrant_roar_wave_51: 2809505405319855390
+      ember_tyrant_roar_wave_52: -4975026701093924271
+      ember_tyrant_roar_wave_53: -7075598885637179977
+      ember_tyrant_roar_wave_54: 9169677704006462618
+      ember_tyrant_roar_wave_55: 2503693299290175388
+      ember_tyrant_roar_wave_56: 1954085800063596694
+      ember_tyrant_roar_wave_57: 8219675969805841621
+      ember_tyrant_roar_wave_58: 7289941702932824030
+      ember_tyrant_roar_wave_59: 44855347335277210
+      ember_tyrant_roar_wave_6: -7719615058380177995
+      ember_tyrant_roar_wave_60: 4626988419060496688
+      ember_tyrant_roar_wave_61: -7836307079578508722
+      ember_tyrant_roar_wave_62: 3177641641093779879
+      ember_tyrant_roar_wave_63: -3028267351082057492
+      ember_tyrant_roar_wave_64: -8163891857390607036
+      ember_tyrant_roar_wave_65: -5486862911765649716
+      ember_tyrant_roar_wave_66: 3252709174533163693
+      ember_tyrant_roar_wave_67: 423506744333985532
+      ember_tyrant_roar_wave_68: 2582931604891873708
+      ember_tyrant_roar_wave_69: 1596633016282568880
+      ember_tyrant_roar_wave_7: 3490905109266238201
+      ember_tyrant_roar_wave_70: -971087050600746406
+      ember_tyrant_roar_wave_71: 8113565534415240736
+      ember_tyrant_roar_wave_72: 994876966743718175
+      ember_tyrant_roar_wave_73: -3262336672966171324
+      ember_tyrant_roar_wave_74: -2349939260196913059
+      ember_tyrant_roar_wave_75: 1495635943353747582
+      ember_tyrant_roar_wave_76: -5308416680608946013
+      ember_tyrant_roar_wave_77: -1476775409760671426
+      ember_tyrant_roar_wave_78: 7181289552573398617
+      ember_tyrant_roar_wave_79: 8657433446033357453
+      ember_tyrant_roar_wave_8: 3673859420911779033
+      ember_tyrant_roar_wave_80: 4753927259727934060
+      ember_tyrant_roar_wave_81: -6087131701139538405
+      ember_tyrant_roar_wave_82: 9111832285252934742
+      ember_tyrant_roar_wave_83: -201093871097801792
+      ember_tyrant_roar_wave_84: -8599578293038004760
+      ember_tyrant_roar_wave_85: 1553018170732633440
+      ember_tyrant_roar_wave_86: 1577081650050773250
+      ember_tyrant_roar_wave_87: -4680157136192434331
+      ember_tyrant_roar_wave_88: 7216145664431468696
+      ember_tyrant_roar_wave_89: -9061602289059371435
+      ember_tyrant_roar_wave_9: 6431056860547371187
+      ember_tyrant_roar_wave_90: 2422629832689679774
+      ember_tyrant_roar_wave_91: 7282075528727990379
+      ember_tyrant_roar_wave_92: -8877886743533961712
+      ember_tyrant_roar_wave_93: 7963520553241186319
+      ember_tyrant_roar_wave_94: 3506283560872318583
+      ember_tyrant_roar_wave_95: -7751564017968372335
+      ember_tyrant_roar_wave_96: 7119186625694327211
+      ember_tyrant_roar_wave_97: 684058596919496125
+      ember_tyrant_roar_wave_98: -7471288957056173754
+      ember_tyrant_roar_wave_99: -8916006291521471448
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

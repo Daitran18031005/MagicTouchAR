@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: e2a3eba97415d814b8d664ce548bfb90
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4505190196505221515
+    second: fanged_spider_sheet_4x4_x4_0
+  - first:
+      213: 7235689434988232074
+    second: fanged_spider_sheet_4x4_x4_1
+  - first:
+      213: -5420380452897839595
+    second: fanged_spider_sheet_4x4_x4_2
+  - first:
+      213: 8247433899431337183
+    second: fanged_spider_sheet_4x4_x4_3
+  - first:
+      213: -5581973611061485644
+    second: fanged_spider_sheet_4x4_x4_4
+  - first:
+      213: -1073241371261037189
+    second: fanged_spider_sheet_4x4_x4_5
+  - first:
+      213: -4822316968245287202
+    second: fanged_spider_sheet_4x4_x4_6
+  - first:
+      213: -1343549714558732786
+    second: fanged_spider_sheet_4x4_x4_7
+  - first:
+      213: 5999314051524796883
+    second: fanged_spider_sheet_4x4_x4_8
+  - first:
+      213: -5121754002778577424
+    second: fanged_spider_sheet_4x4_x4_9
+  - first:
+      213: 6701234264371858225
+    second: fanged_spider_sheet_4x4_x4_10
+  - first:
+      213: -8097138453137020558
+    second: fanged_spider_sheet_4x4_x4_11
+  - first:
+      213: -1639088509238228513
+    second: fanged_spider_sheet_4x4_x4_12
+  - first:
+      213: -5671547761725254163
+    second: fanged_spider_sheet_4x4_x4_13
+  - first:
+      213: 2263537137056766798
+    second: fanged_spider_sheet_4x4_x4_14
+  - first:
+      213: 6259190342871197250
+    second: fanged_spider_sheet_4x4_x4_15
+  - first:
+      213: -5999375038307238889
+    second: fanged_spider_sheet_4x4_x4_16
+  - first:
+      213: -721876748246729843
+    second: fanged_spider_sheet_4x4_x4_17
+  - first:
+      213: -2983356982941198467
+    second: fanged_spider_sheet_4x4_x4_18
+  - first:
+      213: 7308616409642920745
+    second: fanged_spider_sheet_4x4_x4_19
+  - first:
+      213: -3571848515861341941
+    second: fanged_spider_sheet_4x4_x4_20
+  - first:
+      213: -9205290163227697145
+    second: fanged_spider_sheet_4x4_x4_21
+  - first:
+      213: -7268933235491885770
+    second: fanged_spider_sheet_4x4_x4_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 771
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576ebb3c2695a71c0800000000000000
+      internalID: -4505190196505221515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_1
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 779
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d358d64355a6460800000000000000
+      internalID: 7235689434988232074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_2
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 767
+        width: 250
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516ad8d42b0f6c4b0800000000000000
+      internalID: -5420380452897839595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_3
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 767
+        width: 249
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc9e1c4f65c47270800000000000000
+      internalID: 8247433899431337183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 515
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bf53174398d882b0800000000000000
+      internalID: -5581973611061485644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_5
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 523
+        width: 250
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b759bbbb8a41b11f0800000000000000
+      internalID: -1073241371261037189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_6
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 511
+        width: 250
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6a6616440b31db0800000000000000
+      internalID: -4822316968245287202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_7
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 511
+        width: 249
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0636ad27a0ca5de0800000000000000
+      internalID: -1343549714558732786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 259
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d125291858d14350800000000000000
+      internalID: 5999314051524796883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_9
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 255
+        width: 250
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5a275eedfdbe8b0800000000000000
+      internalID: -5121754002778577424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_10
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 255
+        width: 250
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13b8f8c0f019ffc50800000000000000
+      internalID: 6701234264371858225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_11
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 255
+        width: 249
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279ac933a7f21af80800000000000000
+      internalID: -8097138453137020558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 250
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd94e636fa9c049e0800000000000000
+      internalID: -1639088509238228513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_13
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 19
+        width: 178
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de554bf1c5d9a41b0800000000000000
+      internalID: -5671547761725254163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_14
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 207
+        width: 18
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4b5c2e8803b96f10800000000000000
+      internalID: 2263537137056766798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_15
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 27
+        width: 106
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246a468447c1dd650800000000000000
+      internalID: 6259190342871197250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_16
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 55
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71cf95f4030fdbca0800000000000000
+      internalID: -5999375038307238889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_17
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 63
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8bb3211ce06bf5f0800000000000000
+      internalID: -721876748246729843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_18
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 47
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77db9961acf896d0800000000000000
+      internalID: -2983356982941198467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_19
+      rect:
+        serializedVersion: 2
+        x: 839
+        y: 51
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b6b50e6eb6d6560800000000000000
+      internalID: 7308616409642920745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_20
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 43
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b09149403be3e6ec0800000000000000
+      internalID: -3571848515861341941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_21
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 47
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7006a664e5d304080800000000000000
+      internalID: -9205290163227697145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fanged_spider_sheet_4x4_x4_22
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 11
+        width: 82
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63da97a1cbf8f1b90800000000000000
+      internalID: -7268933235491885770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      fanged_spider_sheet_4x4_x4_0: -4505190196505221515
+      fanged_spider_sheet_4x4_x4_1: 7235689434988232074
+      fanged_spider_sheet_4x4_x4_10: 6701234264371858225
+      fanged_spider_sheet_4x4_x4_11: -8097138453137020558
+      fanged_spider_sheet_4x4_x4_12: -1639088509238228513
+      fanged_spider_sheet_4x4_x4_13: -5671547761725254163
+      fanged_spider_sheet_4x4_x4_14: 2263537137056766798
+      fanged_spider_sheet_4x4_x4_15: 6259190342871197250
+      fanged_spider_sheet_4x4_x4_16: -5999375038307238889
+      fanged_spider_sheet_4x4_x4_17: -721876748246729843
+      fanged_spider_sheet_4x4_x4_18: -2983356982941198467
+      fanged_spider_sheet_4x4_x4_19: 7308616409642920745
+      fanged_spider_sheet_4x4_x4_2: -5420380452897839595
+      fanged_spider_sheet_4x4_x4_20: -3571848515861341941
+      fanged_spider_sheet_4x4_x4_21: -9205290163227697145
+      fanged_spider_sheet_4x4_x4_22: -7268933235491885770
+      fanged_spider_sheet_4x4_x4_3: 8247433899431337183
+      fanged_spider_sheet_4x4_x4_4: -5581973611061485644
+      fanged_spider_sheet_4x4_x4_5: -1073241371261037189
+      fanged_spider_sheet_4x4_x4_6: -4822316968245287202
+      fanged_spider_sheet_4x4_x4_7: -1343549714558732786
+      fanged_spider_sheet_4x4_x4_8: 5999314051524796883
+      fanged_spider_sheet_4x4_x4_9: -5121754002778577424
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

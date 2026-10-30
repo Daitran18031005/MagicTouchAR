@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: f7c6559565330514e87dc4ab722f3492
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5287476943604358466
+    second: wrathful_knight_sheet_4x4_x4_0
+  - first:
+      213: -2473335949218806196
+    second: wrathful_knight_sheet_4x4_x4_1
+  - first:
+      213: -2149591943464115318
+    second: wrathful_knight_sheet_4x4_x4_2
+  - first:
+      213: -424081368196153413
+    second: wrathful_knight_sheet_4x4_x4_3
+  - first:
+      213: -141262106116214024
+    second: wrathful_knight_sheet_4x4_x4_4
+  - first:
+      213: 386599752176653314
+    second: wrathful_knight_sheet_4x4_x4_5
+  - first:
+      213: 9099988874641766005
+    second: wrathful_knight_sheet_4x4_x4_6
+  - first:
+      213: -6319024143370020984
+    second: wrathful_knight_sheet_4x4_x4_7
+  - first:
+      213: 5574362377861798921
+    second: wrathful_knight_sheet_4x4_x4_8
+  - first:
+      213: -3608063421303106246
+    second: wrathful_knight_sheet_4x4_x4_9
+  - first:
+      213: 8809329912683754225
+    second: wrathful_knight_sheet_4x4_x4_10
+  - first:
+      213: 1654908276797943430
+    second: wrathful_knight_sheet_4x4_x4_11
+  - first:
+      213: 4864790392336556853
+    second: wrathful_knight_sheet_4x4_x4_12
+  - first:
+      213: -8916505080978437449
+    second: wrathful_knight_sheet_4x4_x4_13
+  - first:
+      213: -8282651668844996481
+    second: wrathful_knight_sheet_4x4_x4_14
+  - first:
+      213: -8899383864493692217
+    second: wrathful_knight_sheet_4x4_x4_15
+  - first:
+      213: 9190465951030786652
+    second: wrathful_knight_sheet_4x4_x4_16
+  - first:
+      213: -5529024197688868138
+    second: wrathful_knight_sheet_4x4_x4_17
+  - first:
+      213: -6402671025703765838
+    second: wrathful_knight_sheet_4x4_x4_18
+  - first:
+      213: 4140569776254801637
+    second: wrathful_knight_sheet_4x4_x4_19
+  - first:
+      213: -2546554250389721365
+    second: wrathful_knight_sheet_4x4_x4_20
+  - first:
+      213: 8242584747841406156
+    second: wrathful_knight_sheet_4x4_x4_21
+  - first:
+      213: -6892243362744024438
+    second: wrathful_knight_sheet_4x4_x4_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 771
+        width: 194
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb2e46aebbb1f96b0800000000000000
+      internalID: -5287476943604358466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_1
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 771
+        width: 194
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c460c98fe02fcadd0800000000000000
+      internalID: -2473335949218806196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_2
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 771
+        width: 198
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a83a7c5348d1b22e0800000000000000
+      internalID: -2149591943464115318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_3
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 771
+        width: 190
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf7ec41e3c5d1af0800000000000000
+      internalID: -424081368196153413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_4
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 515
+        width: 194
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f238b8ecd22a0ef0800000000000000
+      internalID: -141262106116214024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_5
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 515
+        width: 194
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2045eb22d6a7d5500800000000000000
+      internalID: 386599752176653314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_6
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 515
+        width: 198
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576770deaa7a94e70800000000000000
+      internalID: 9099988874641766005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_7
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 515
+        width: 190
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887105f65015e48a0800000000000000
+      internalID: -6319024143370020984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_8
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 259
+        width: 194
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c11c56c0d1c5d40800000000000000
+      internalID: 5574362377861798921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_9
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 255
+        width: 194
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a35d5264f659dedc0800000000000000
+      internalID: -3608063421303106246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_10
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 255
+        width: 194
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2fcbab1e6014a70800000000000000
+      internalID: 8809329912683754225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_11
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 255
+        width: 194
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e25664f4a67f610800000000000000
+      internalID: 1654908276797943430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_12
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 194
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53324f94615338340800000000000000
+      internalID: 4864790392336556853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_13
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 0
+        width: 134
+        height: 253
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba805aded5324480800000000000000
+      internalID: -8916505080978437449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_14
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 227
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f789238c03c1e0d80800000000000000
+      internalID: -8282651668844996481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_15
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 199
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7caa205b6890f7480800000000000000
+      internalID: -8899383864493692217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_16
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 23
+        width: 50
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a338bd6181b8f70800000000000000
+      internalID: 9190465951030786652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_17
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 0
+        width: 166
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2473649c5f443b0800000000000000
+      internalID: -5529024197688868138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_18
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 111
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b8bd3bff942527a0800000000000000
+      internalID: -6402671025703765838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_19
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 0
+        width: 54
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6d2691642467930800000000000000
+      internalID: 4140569776254801637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_20
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 0
+        width: 78
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee6248c662d8acd0800000000000000
+      internalID: -2546554250389721365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_21
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 63
+        width: 30
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4c326382b836270800000000000000
+      internalID: 8242584747841406156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wrathful_knight_sheet_4x4_x4_22
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 23
+        width: 110
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a824912ad25d950a0800000000000000
+      internalID: -6892243362744024438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wrathful_knight_sheet_4x4_x4_0: -5287476943604358466
+      wrathful_knight_sheet_4x4_x4_1: -2473335949218806196
+      wrathful_knight_sheet_4x4_x4_10: 8809329912683754225
+      wrathful_knight_sheet_4x4_x4_11: 1654908276797943430
+      wrathful_knight_sheet_4x4_x4_12: 4864790392336556853
+      wrathful_knight_sheet_4x4_x4_13: -8916505080978437449
+      wrathful_knight_sheet_4x4_x4_14: -8282651668844996481
+      wrathful_knight_sheet_4x4_x4_15: -8899383864493692217
+      wrathful_knight_sheet_4x4_x4_16: 9190465951030786652
+      wrathful_knight_sheet_4x4_x4_17: -5529024197688868138
+      wrathful_knight_sheet_4x4_x4_18: -6402671025703765838
+      wrathful_knight_sheet_4x4_x4_19: 4140569776254801637
+      wrathful_knight_sheet_4x4_x4_2: -2149591943464115318
+      wrathful_knight_sheet_4x4_x4_20: -2546554250389721365
+      wrathful_knight_sheet_4x4_x4_21: 8242584747841406156
+      wrathful_knight_sheet_4x4_x4_22: -6892243362744024438
+      wrathful_knight_sheet_4x4_x4_3: -424081368196153413
+      wrathful_knight_sheet_4x4_x4_4: -141262106116214024
+      wrathful_knight_sheet_4x4_x4_5: 386599752176653314
+      wrathful_knight_sheet_4x4_x4_6: 9099988874641766005
+      wrathful_knight_sheet_4x4_x4_7: -6319024143370020984
+      wrathful_knight_sheet_4x4_x4_8: 5574362377861798921
+      wrathful_knight_sheet_4x4_x4_9: -3608063421303106246
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

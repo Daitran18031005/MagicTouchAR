@@ -112,7 +112,7 @@ Nguồn: chỉ thị của chủ dự án (2026-10-16), trừ khi ghi khác.
 
 ## H. Cập nhật 2026-10-21 → 24 (nhận diện `^`, phản hồi chiến đấu)
 
-- Commit `686fc0d` (thetreeee, 21/10): fine-tune model ONNX cho `^`; thêm `Train/finetune_caret.py`, `stroke_dataset.py`, `validate_caret.py`, `restore_caret_model.ps1`, `requirements-training.txt` (tách khỏi `Tools/requirements.txt`); `GestureCompletionPolicy` thêm cổng O/E; `RecognitionSampleWriter` + nút LƯU SAMPLE trong `CNNTestScene`; phản hồi HIT/NO TARGET trong `DrawingManager`; timer phản hồi dùng `unscaledDeltaTime`. Chi tiết, số đo, cách khôi phục: `Train/CARET_IMPROVEMENT.md` (số đo là trên dữ liệu tự sinh).
+- Commit `686fc0d` (thetreeee, 21/10): fine-tune model ONNX cho `^`; thêm `Train/finetune_caret.py`, `stroke_dataset.py`, `validate_caret.py`, `restore_caret_model.ps1`, `requirements-training.txt` (tách khỏi `Tools/requirements.txt`); `GestureCompletionPolicy` thêm cổng O/E; `RecognitionSampleWriter` + nút LƯU SAMPLE trong `CNNTestScene`; phản hồi HIT/NO TARGET trong `DrawingManager`; timer phản hồi dùng `unscaledDeltaTime`. Chi tiết, số đo, cách khôi phục: `Related/Docs/CARET_IMPROVEMENT.md` (số đo là trên dữ liệu tự sinh).
 - Hai check Editor mới `CNNModelValidation` và `GestureCombatFeedbackChecks` **không có menu** (gọi bằng code, tự khai là "explicit diagnostics"); không nằm trong 3 bộ check ở mục A8. `GestureCombatFeedbackChecks` cần Play Mode trong scene không có đối tượng gameplay.
 - Scene thử riêng: `Assets/Scenes/CNNRecognitionTest.unity` / `Window > Magic Touch > MobileMagicCNN Test`.
 - `multiStrokeDelay` mặc định trong code đổi 0.35 → 0.8 và kẹp 0.45 → 0.8 (chưa commit lúc ghi); scene giữ 0.5.

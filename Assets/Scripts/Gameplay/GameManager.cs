@@ -57,6 +57,16 @@ namespace MagicTouch.Gameplay
         private int _lastSymbolPopCount;
         private int _shownLeft = -1, _shownRight = -1, _shownSeconds = -1;
         public bool IsVersus => _gameMode == GameMode.Versus;
+        public bool SoloBossVictory { get; private set; }
+        public event Action RoundReset;
+        public event Action RoundStarted;
+
+        public void CompleteSoloBossRound()
+        {
+            if (IsVersus || currentState != GameState.Playing) return;
+            SoloBossVictory = true;
+            GameOver();
+        }
         public VersusMatch VersusRound => _versusMatch;
         public double RemainingMatchSeconds => _versusMatch.Remaining(Time.timeAsDouble);
 
@@ -517,6 +527,8 @@ namespace MagicTouch.Gameplay
 
         public void StartNewGame()
         {
+            SoloBossVictory = false;
+            RoundReset?.Invoke();
             if (EnemySpawner.Instance != null) EnemySpawner.Instance.StopSpawning();
             DrawingManager.Instance?.ResetForNewRound();
             _versusMatch.Reset(_versusMinutes);
@@ -592,6 +604,7 @@ namespace MagicTouch.Gameplay
             }
 
             // Phase 6 Audio: Gameplay Start / Camera Ready - Start playing combatCastleMusic on bgmSource (looping seamlessly)
+            RoundStarted?.Invoke();
             PlayBGM();
         }
 
@@ -600,11 +613,18 @@ namespace MagicTouch.Gameplay
         {
             if (bgmSource != null) bgmSource.volume = Mathf.Clamp01(musicVolume);
             if (sfxSource != null) sfxSource.volume = Mathf.Clamp01(effectsVolume);
+            MusicDirector.Instance?.SetMaster(musicVolume);
         }
 
         /// <summary>Starts combat music using the saved UI volume.</summary>
         public void PlayBGM()
         {
+            if (MusicDirector.Instance != null && MusicDirector.Instance.HasClips)
+            {
+                if (bgmSource != null && bgmSource.isPlaying) bgmSource.Stop();
+                MusicDirector.Instance.PlayCombat();
+                return;
+            }
             if (bgmSource != null && combatCastleMusic != null)
             {
                 bgmSource.clip = combatCastleMusic;
@@ -672,7 +692,7 @@ namespace MagicTouch.Gameplay
             for (int i = 0; i < activeList.Count; i++)
             {
                 EnemyBalloon candidate = activeList[i];
-                if (candidate != null && candidate.AssignedSymbol == drawnSymbol)
+                if (candidate != null && candidate.HasSymbol(drawnSymbol))
                 {
                     toPop.Add(candidate);
                 }
@@ -731,7 +751,7 @@ namespace MagicTouch.Gameplay
                             ? $"+{pointsEarned / count} <size=70%><color=#FF66AA>x{combo}!</color></size>"
                             : $"+{pointsEarned}";
 
-                        toPop[i].Pop(scoreStr);
+                        toPop[i].PopSymbol(drawnSymbol, scoreStr); // one balloon per creep per gesture
                         _lastSymbolPopCount++;
                     }
                 }
@@ -770,6 +790,7 @@ namespace MagicTouch.Gameplay
 
             lives--;
             combo = 0;
+            MagicTouch.Juice.ScreenHitFeedback.Play();
 
             Debug.Log($"<color=orange>[GameManager] Enemy landed! Remaining lives: {lives}</color>");
 
@@ -822,6 +843,7 @@ namespace MagicTouch.Gameplay
             {
                 bgmSource.Stop();
             }
+            MusicDirector.Instance?.StopAll();
 
             // Stop spawning new enemies and clear existing falling balloons
             if (EnemySpawner.Instance != null)
@@ -868,11 +890,11 @@ namespace MagicTouch.Gameplay
             }
 
             // Phase 6 Audio: Play gameOverSound on sfxSource
-            if (gameOverSound != null && sfxSource != null)
+            if (!SoloBossVictory && gameOverSound != null && sfxSource != null)
             {
                 sfxSource.PlayOneShot(gameOverSound);
             }
-            else if (_gameOverSound != null && _audioSource != null)
+            else if (!SoloBossVictory && _gameOverSound != null && _audioSource != null)
             {
                 _audioSource.PlayOneShot(_gameOverSound);
             }

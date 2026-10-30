@@ -1,0 +1,884 @@
+fileFormatVersion: 2
+guid: 09adde26c1579964ea39e4a4b169fac6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6326108391060796951
+    second: haunted_pumpkin_imp_sheet_0
+  - first:
+      213: -5914879160960564336
+    second: haunted_pumpkin_imp_sheet_1
+  - first:
+      213: -9191029144535738940
+    second: haunted_pumpkin_imp_sheet_2
+  - first:
+      213: 9203778020639620486
+    second: haunted_pumpkin_imp_sheet_3
+  - first:
+      213: -2620721265853770053
+    second: haunted_pumpkin_imp_sheet_4
+  - first:
+      213: 3138078916859996361
+    second: haunted_pumpkin_imp_sheet_5
+  - first:
+      213: 3513485927837449699
+    second: haunted_pumpkin_imp_sheet_6
+  - first:
+      213: -1431190776395998476
+    second: haunted_pumpkin_imp_sheet_7
+  - first:
+      213: -7794304392771529701
+    second: haunted_pumpkin_imp_sheet_8
+  - first:
+      213: -5360500182108116256
+    second: haunted_pumpkin_imp_sheet_9
+  - first:
+      213: 7220874505758764195
+    second: haunted_pumpkin_imp_sheet_10
+  - first:
+      213: -200406974296896026
+    second: haunted_pumpkin_imp_sheet_11
+  - first:
+      213: -8104419783945342280
+    second: haunted_pumpkin_imp_sheet_12
+  - first:
+      213: 7761370497392814599
+    second: haunted_pumpkin_imp_sheet_13
+  - first:
+      213: -8189956140115017477
+    second: haunted_pumpkin_imp_sheet_14
+  - first:
+      213: 8481014654297003303
+    second: haunted_pumpkin_imp_sheet_15
+  - first:
+      213: -8984152436215034785
+    second: haunted_pumpkin_imp_sheet_16
+  - first:
+      213: -8063263034203797179
+    second: haunted_pumpkin_imp_sheet_17
+  - first:
+      213: 1306473906859252176
+    second: haunted_pumpkin_imp_sheet_18
+  - first:
+      213: 1159896380778110395
+    second: haunted_pumpkin_imp_sheet_19
+  - first:
+      213: -8771191949549747763
+    second: haunted_pumpkin_imp_sheet_20
+  - first:
+      213: -4051445154924076331
+    second: haunted_pumpkin_imp_sheet_21
+  - first:
+      213: -4027014353694695019
+    second: haunted_pumpkin_imp_sheet_22
+  - first:
+      213: -5514364412437075850
+    second: haunted_pumpkin_imp_sheet_23
+  - first:
+      213: 2815921127422272828
+    second: haunted_pumpkin_imp_sheet_24
+  - first:
+      213: 1906093880159606586
+    second: haunted_pumpkin_imp_sheet_25
+  - first:
+      213: -3413619855894481891
+    second: haunted_pumpkin_imp_sheet_26
+  - first:
+      213: -4078199630860032112
+    second: haunted_pumpkin_imp_sheet_27
+  - first:
+      213: -3087235122681662739
+    second: haunted_pumpkin_imp_sheet_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9043c7fe52538a0800000000000000
+      internalID: -6326108391060796951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093c591ddb02aeda0800000000000000
+      internalID: -5914879160960564336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c55faf60b7e27080800000000000000
+      internalID: -9191029144535738940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68db5c798536abf70800000000000000
+      internalID: 9203778020639620486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb65975d4e351abd0800000000000000
+      internalID: -2620721265853770053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 1
+        width: 66
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8259c0622bc8b20800000000000000
+      internalID: 3138078916859996361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3edb51c06d862c030800000000000000
+      internalID: 3513485927837449699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fad9175293632ce0800000000000000
+      internalID: -1431190776395998476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 0
+        width: 194
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b141695637115d390800000000000000
+      internalID: -7794304392771529701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ea670b4c7dab95b0800000000000000
+      internalID: -5360500182108116256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 65
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3acec6bea13b53460800000000000000
+      internalID: 7220874505758764195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 0
+        width: 61
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6edc58e2be2083df0800000000000000
+      internalID: -200406974296896026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 57
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b23a434521578f80800000000000000
+      internalID: -8104419783945342280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 37
+        width: 31
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70aab4b885de5bb60800000000000000
+      internalID: 7761370497392814599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 925
+        y: 57
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf04a66684e675e80800000000000000
+      internalID: -8189956140115017477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 57
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 725514cc4ed92b570800000000000000
+      internalID: 8481014654297003303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 31
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c417795f0e15380800000000000000
+      internalID: -8984152436215034785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 48
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5498ebbcdf8891090800000000000000
+      internalID: -8063263034203797179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 50
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d999a6a817812210800000000000000
+      internalID: 1306473906859252176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 37
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd5a88ec97c81010800000000000000
+      internalID: 1159896380778110395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 39
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc14256c467764680800000000000000
+      internalID: -8771191949549747763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 39
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2e5c9d81066c7c0800000000000000
+      internalID: -4051445154924076331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591e0a608cb2d18c0800000000000000
+      internalID: -4027014353694695019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 39
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678e1a288ca0973b0800000000000000
+      internalID: -5514364412437075850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 40
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35a5839859241720800000000000000
+      internalID: 2815921127422272828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 0
+        width: 60
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37957bf84ec37a10800000000000000
+      internalID: 1906093880159606586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 30
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d147033c3d260a0d0800000000000000
+      internalID: -3413619855894481891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 16
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 097657ffa035767c0800000000000000
+      internalID: -4078199630860032112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: haunted_pumpkin_imp_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 0
+        width: 53
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de233764300f725d0800000000000000
+      internalID: -3087235122681662739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      haunted_pumpkin_imp_sheet_0: -6326108391060796951
+      haunted_pumpkin_imp_sheet_1: -5914879160960564336
+      haunted_pumpkin_imp_sheet_10: 7220874505758764195
+      haunted_pumpkin_imp_sheet_11: -200406974296896026
+      haunted_pumpkin_imp_sheet_12: -8104419783945342280
+      haunted_pumpkin_imp_sheet_13: 7761370497392814599
+      haunted_pumpkin_imp_sheet_14: -8189956140115017477
+      haunted_pumpkin_imp_sheet_15: 8481014654297003303
+      haunted_pumpkin_imp_sheet_16: -8984152436215034785
+      haunted_pumpkin_imp_sheet_17: -8063263034203797179
+      haunted_pumpkin_imp_sheet_18: 1306473906859252176
+      haunted_pumpkin_imp_sheet_19: 1159896380778110395
+      haunted_pumpkin_imp_sheet_2: -9191029144535738940
+      haunted_pumpkin_imp_sheet_20: -8771191949549747763
+      haunted_pumpkin_imp_sheet_21: -4051445154924076331
+      haunted_pumpkin_imp_sheet_22: -4027014353694695019
+      haunted_pumpkin_imp_sheet_23: -5514364412437075850
+      haunted_pumpkin_imp_sheet_24: 2815921127422272828
+      haunted_pumpkin_imp_sheet_25: 1906093880159606586
+      haunted_pumpkin_imp_sheet_26: -3413619855894481891
+      haunted_pumpkin_imp_sheet_27: -4078199630860032112
+      haunted_pumpkin_imp_sheet_28: -3087235122681662739
+      haunted_pumpkin_imp_sheet_3: 9203778020639620486
+      haunted_pumpkin_imp_sheet_4: -2620721265853770053
+      haunted_pumpkin_imp_sheet_5: 3138078916859996361
+      haunted_pumpkin_imp_sheet_6: 3513485927837449699
+      haunted_pumpkin_imp_sheet_7: -1431190776395998476
+      haunted_pumpkin_imp_sheet_8: -7794304392771529701
+      haunted_pumpkin_imp_sheet_9: -5360500182108116256
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

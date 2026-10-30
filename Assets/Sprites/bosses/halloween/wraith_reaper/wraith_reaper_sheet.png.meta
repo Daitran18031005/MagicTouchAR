@@ -1,0 +1,1638 @@
+fileFormatVersion: 2
+guid: db23f9f57299ad44aaa6c5e42f66a1f7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3233769030417339065
+    second: wraith_reaper_sheet_0
+  - first:
+      213: -7099710422114755858
+    second: wraith_reaper_sheet_1
+  - first:
+      213: -6715100432911784211
+    second: wraith_reaper_sheet_2
+  - first:
+      213: 1730450958559996143
+    second: wraith_reaper_sheet_3
+  - first:
+      213: -5190446225870700646
+    second: wraith_reaper_sheet_4
+  - first:
+      213: -6812059640692823935
+    second: wraith_reaper_sheet_5
+  - first:
+      213: 2756333322038718030
+    second: wraith_reaper_sheet_6
+  - first:
+      213: 6602998143422714287
+    second: wraith_reaper_sheet_7
+  - first:
+      213: 2661864988391114910
+    second: wraith_reaper_sheet_8
+  - first:
+      213: 8478805309666832589
+    second: wraith_reaper_sheet_9
+  - first:
+      213: -2675966303048207548
+    second: wraith_reaper_sheet_10
+  - first:
+      213: 1682697901636465973
+    second: wraith_reaper_sheet_11
+  - first:
+      213: -3831648142283986474
+    second: wraith_reaper_sheet_12
+  - first:
+      213: -8129653279801107376
+    second: wraith_reaper_sheet_13
+  - first:
+      213: 1402173486179078188
+    second: wraith_reaper_sheet_14
+  - first:
+      213: -2258432277915922532
+    second: wraith_reaper_sheet_15
+  - first:
+      213: -1238274699475792735
+    second: wraith_reaper_sheet_16
+  - first:
+      213: 5749903092409778350
+    second: wraith_reaper_sheet_17
+  - first:
+      213: -5731798367281257697
+    second: wraith_reaper_sheet_18
+  - first:
+      213: -6549702772085706220
+    second: wraith_reaper_sheet_19
+  - first:
+      213: -4537163860202946526
+    second: wraith_reaper_sheet_20
+  - first:
+      213: 5395526465953698970
+    second: wraith_reaper_sheet_21
+  - first:
+      213: -8976521630497823945
+    second: wraith_reaper_sheet_22
+  - first:
+      213: -5509962403224760435
+    second: wraith_reaper_sheet_23
+  - first:
+      213: 1761038674462828753
+    second: wraith_reaper_sheet_24
+  - first:
+      213: -6445920237616652727
+    second: wraith_reaper_sheet_25
+  - first:
+      213: -8843734429200950631
+    second: wraith_reaper_sheet_26
+  - first:
+      213: -5434082909872568889
+    second: wraith_reaper_sheet_27
+  - first:
+      213: 991019552488716160
+    second: wraith_reaper_sheet_28
+  - first:
+      213: 2477599527368312191
+    second: wraith_reaper_sheet_29
+  - first:
+      213: 901569713897632048
+    second: wraith_reaper_sheet_30
+  - first:
+      213: 5059795824986869250
+    second: wraith_reaper_sheet_31
+  - first:
+      213: 9015250391507199380
+    second: wraith_reaper_sheet_32
+  - first:
+      213: 1751291523735815995
+    second: wraith_reaper_sheet_33
+  - first:
+      213: -990209383947988704
+    second: wraith_reaper_sheet_34
+  - first:
+      213: 8050584624073370762
+    second: wraith_reaper_sheet_35
+  - first:
+      213: -1822452946587667171
+    second: wraith_reaper_sheet_36
+  - first:
+      213: -4922282242779930575
+    second: wraith_reaper_sheet_37
+  - first:
+      213: -2275752020311669331
+    second: wraith_reaper_sheet_38
+  - first:
+      213: -8513912932086526732
+    second: wraith_reaper_sheet_39
+  - first:
+      213: -6007581210072842424
+    second: wraith_reaper_sheet_40
+  - first:
+      213: 6900811554689912086
+    second: wraith_reaper_sheet_41
+  - first:
+      213: -1463470163892864298
+    second: wraith_reaper_sheet_42
+  - first:
+      213: 1179862740248560716
+    second: wraith_reaper_sheet_43
+  - first:
+      213: 5955556074189764715
+    second: wraith_reaper_sheet_44
+  - first:
+      213: -1459990703167176032
+    second: wraith_reaper_sheet_45
+  - first:
+      213: 6363742482222361324
+    second: wraith_reaper_sheet_46
+  - first:
+      213: -4717690224783741343
+    second: wraith_reaper_sheet_47
+  - first:
+      213: -4237890577380292726
+    second: wraith_reaper_sheet_48
+  - first:
+      213: -645822777597434161
+    second: wraith_reaper_sheet_49
+  - first:
+      213: 5370507577034489066
+    second: wraith_reaper_sheet_50
+  - first:
+      213: 1469343738744016147
+    second: wraith_reaper_sheet_51
+  - first:
+      213: -2241140361773068724
+    second: wraith_reaper_sheet_52
+  - first:
+      213: 7976271153967506452
+    second: wraith_reaper_sheet_53
+  - first:
+      213: 2247114245899039468
+    second: wraith_reaper_sheet_54
+  - first:
+      213: 3154063668199310716
+    second: wraith_reaper_sheet_55
+  - first:
+      213: -8871209727441196831
+    second: wraith_reaper_sheet_56
+  - first:
+      213: 497056834528291312
+    second: wraith_reaper_sheet_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 0
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b25fa7ccc7a0ec20800000000000000
+      internalID: 3233769030417339065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 67
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea16b9acf2c87d90800000000000000
+      internalID: -7099710422114755858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 0
+        width: 67
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6a8310cbb2fc2a0800000000000000
+      internalID: -6715100432911784211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 0
+        width: 68
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8e33e7afbc30810800000000000000
+      internalID: 1730450958559996143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 0
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9fb53168a4d7f7b0800000000000000
+      internalID: -5190446225870700646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 0
+        width: 67
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 188aabf39d3b671a0800000000000000
+      internalID: -6812059640692823935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 0
+        width: 67
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4ea0be7d86704620800000000000000
+      internalID: 2756333322038718030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 0
+        width: 68
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa15647c3df82ab50800000000000000
+      internalID: 6602998143422714287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 0
+        width: 67
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e980a119a18d0f420800000000000000
+      internalID: 2661864988391114910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 0
+        width: 67
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0336aa184caa570800000000000000
+      internalID: 8478805309666832589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 0
+        width: 67
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44375e343de0ddad0800000000000000
+      internalID: -2675966303048207548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 0
+        width: 71
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 535365383d42a5710800000000000000
+      internalID: 1682697901636465973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 0
+        width: 70
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d9a0e6c05043dac0800000000000000
+      internalID: -3831648142283986474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 0
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c9d5e2a6bad2f80800000000000000
+      internalID: -8129653279801107376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 0
+        width: 69
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20dc2d4b55857310800000000000000
+      internalID: 1402173486179078188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 0
+        width: 71
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9f8b851fcf68a0e0800000000000000
+      internalID: -2258432277915922532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1546
+        y: 0
+        width: 74
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac4463b8b3c0dee0800000000000000
+      internalID: -1238274699475792735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 0
+        width: 74
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea04104f562cbcf40800000000000000
+      internalID: 5749903092409778350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 0
+        width: 74
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13690ad0cf8470b0800000000000000
+      internalID: -5731798367281257697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1835
+        y: 0
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412b075d708ca15a0800000000000000
+      internalID: -6549702772085706220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1934
+        y: 0
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2200dd01281c801c0800000000000000
+      internalID: -4537163860202946526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 0
+        width: 69
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a94936bebb2c0ea40800000000000000
+      internalID: 5395526465953698970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2125
+        y: 0
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733219ff22dfc6380800000000000000
+      internalID: -8976521630497823945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2219
+        y: 0
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8fc706236ea883b0800000000000000
+      internalID: -5509962403224760435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2315
+        y: 0
+        width: 67
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d8e4131857707810800000000000000
+      internalID: 1761038674462828753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2417
+        y: 1
+        width: 67
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94e9b5222bd7b86a0800000000000000
+      internalID: -6445920237616652727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2535
+        y: 89
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ad59b846eb44580800000000000000
+      internalID: -8843734429200950631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 2565
+        y: 89
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c5460d62624694b0800000000000000
+      internalID: -5434082909872568889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 2674
+        y: 84
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0877e87480fc0cd00800000000000000
+      internalID: 991019552488716160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 69
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75c67ca4a3326220800000000000000
+      internalID: 2477599527368312191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 44
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0317e19c0e4038c00800000000000000
+      internalID: 901569713897632048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 79
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ec850be71083640800000000000000
+      internalID: 5059795824986869250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 71
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 495ecfa577a9c1d70800000000000000
+      internalID: 9015250391507199380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 2608
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b370d62bc56dd4810800000000000000
+      internalID: 1751291523735815995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 62
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0219588cfc11242f0800000000000000
+      internalID: -990209383947988704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 2516
+        y: 72
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c6d10df0c69bf60800000000000000
+      internalID: 8050584624073370762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 2612
+        y: 27
+        width: 15
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1537ca63b855b6e0800000000000000
+      internalID: -1822452946587667171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 2626
+        y: 48
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130a3ea216a80bbb0800000000000000
+      internalID: -4922282242779930575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 2094
+        y: 61
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da502705897ea60e0800000000000000
+      internalID: -2275752020311669331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 2486
+        y: 55
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcc0620c4188d980800000000000000
+      internalID: -8513912932086526732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 57
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ffb4e08b8c0aca0800000000000000
+      internalID: -6007581210072842424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 2681
+        y: 57
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d04330c8b94cf50800000000000000
+      internalID: 6900811554689912086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 2414
+        y: 45
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da78c5c3a5b0bbe0800000000000000
+      internalID: -1463470163892864298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 2482
+        y: 46
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c440c3c39e6bf5010800000000000000
+      internalID: 1179862740248560716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 2505
+        y: 42
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b68300212b266a250800000000000000
+      internalID: 5955556074189764715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 2585
+        y: 43
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a2095ad0321dbbe0800000000000000
+      internalID: -1459990703167176032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 40
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea2dee221e805850800000000000000
+      internalID: 6363742482222361324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 2412
+        y: 35
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16eae676cb5678eb0800000000000000
+      internalID: -4717690224783741343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 2499
+        y: 30
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a87c54229fcff25c0800000000000000
+      internalID: -4237890577380292726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 1
+        width: 50
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6e2710b939907f0800000000000000
+      internalID: -645822777597434161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 2576
+        y: 31
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec3fa8ef20e78a40800000000000000
+      internalID: 5370507577034489066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 13
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31d08c07858246410800000000000000
+      internalID: 1469343738744016147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 22
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ec9bc07bed5e0e0800000000000000
+      internalID: -2241140361773068724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 25
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 414ad6cba5861be60800000000000000
+      internalID: 7976271153967506452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 12
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2388c308a5f2f10800000000000000
+      internalID: 2247114245899039468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 2
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c754cfdf13c75cb20800000000000000
+      internalID: 3154063668199310716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 2625
+        y: 1
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8a0eb21c123e480800000000000000
+      internalID: -8871209727441196831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wraith_reaper_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 2674
+        y: 3
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f92d37be86e5e600800000000000000
+      internalID: 497056834528291312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wraith_reaper_sheet_0: 3233769030417339065
+      wraith_reaper_sheet_1: -7099710422114755858
+      wraith_reaper_sheet_10: -2675966303048207548
+      wraith_reaper_sheet_11: 1682697901636465973
+      wraith_reaper_sheet_12: -3831648142283986474
+      wraith_reaper_sheet_13: -8129653279801107376
+      wraith_reaper_sheet_14: 1402173486179078188
+      wraith_reaper_sheet_15: -2258432277915922532
+      wraith_reaper_sheet_16: -1238274699475792735
+      wraith_reaper_sheet_17: 5749903092409778350
+      wraith_reaper_sheet_18: -5731798367281257697
+      wraith_reaper_sheet_19: -6549702772085706220
+      wraith_reaper_sheet_2: -6715100432911784211
+      wraith_reaper_sheet_20: -4537163860202946526
+      wraith_reaper_sheet_21: 5395526465953698970
+      wraith_reaper_sheet_22: -8976521630497823945
+      wraith_reaper_sheet_23: -5509962403224760435
+      wraith_reaper_sheet_24: 1761038674462828753
+      wraith_reaper_sheet_25: -6445920237616652727
+      wraith_reaper_sheet_26: -8843734429200950631
+      wraith_reaper_sheet_27: -5434082909872568889
+      wraith_reaper_sheet_28: 991019552488716160
+      wraith_reaper_sheet_29: 2477599527368312191
+      wraith_reaper_sheet_3: 1730450958559996143
+      wraith_reaper_sheet_30: 901569713897632048
+      wraith_reaper_sheet_31: 5059795824986869250
+      wraith_reaper_sheet_32: 9015250391507199380
+      wraith_reaper_sheet_33: 1751291523735815995
+      wraith_reaper_sheet_34: -990209383947988704
+      wraith_reaper_sheet_35: 8050584624073370762
+      wraith_reaper_sheet_36: -1822452946587667171
+      wraith_reaper_sheet_37: -4922282242779930575
+      wraith_reaper_sheet_38: -2275752020311669331
+      wraith_reaper_sheet_39: -8513912932086526732
+      wraith_reaper_sheet_4: -5190446225870700646
+      wraith_reaper_sheet_40: -6007581210072842424
+      wraith_reaper_sheet_41: 6900811554689912086
+      wraith_reaper_sheet_42: -1463470163892864298
+      wraith_reaper_sheet_43: 1179862740248560716
+      wraith_reaper_sheet_44: 5955556074189764715
+      wraith_reaper_sheet_45: -1459990703167176032
+      wraith_reaper_sheet_46: 6363742482222361324
+      wraith_reaper_sheet_47: -4717690224783741343
+      wraith_reaper_sheet_48: -4237890577380292726
+      wraith_reaper_sheet_49: -645822777597434161
+      wraith_reaper_sheet_5: -6812059640692823935
+      wraith_reaper_sheet_50: 5370507577034489066
+      wraith_reaper_sheet_51: 1469343738744016147
+      wraith_reaper_sheet_52: -2241140361773068724
+      wraith_reaper_sheet_53: 7976271153967506452
+      wraith_reaper_sheet_54: 2247114245899039468
+      wraith_reaper_sheet_55: 3154063668199310716
+      wraith_reaper_sheet_56: -8871209727441196831
+      wraith_reaper_sheet_57: 497056834528291312
+      wraith_reaper_sheet_6: 2756333322038718030
+      wraith_reaper_sheet_7: 6602998143422714287
+      wraith_reaper_sheet_8: 2661864988391114910
+      wraith_reaper_sheet_9: 8478805309666832589
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

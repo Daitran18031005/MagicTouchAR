@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 3c5d4ae527f379b418d07e2896de51f9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7655481022009017265
+    second: vicious_bat_sheet_4x4_0
+  - first:
+      213: 9189366927796691543
+    second: vicious_bat_sheet_4x4_1
+  - first:
+      213: -321517819189416492
+    second: vicious_bat_sheet_4x4_2
+  - first:
+      213: -1871597066018563198
+    second: vicious_bat_sheet_4x4_3
+  - first:
+      213: 2091860964197555117
+    second: vicious_bat_sheet_4x4_4
+  - first:
+      213: -1571833469957427141
+    second: vicious_bat_sheet_4x4_5
+  - first:
+      213: -7133035544341116762
+    second: vicious_bat_sheet_4x4_6
+  - first:
+      213: -3157438080011278744
+    second: vicious_bat_sheet_4x4_7
+  - first:
+      213: -7668817116080210793
+    second: vicious_bat_sheet_4x4_8
+  - first:
+      213: 280363559531576263
+    second: vicious_bat_sheet_4x4_9
+  - first:
+      213: -4678920396384739844
+    second: vicious_bat_sheet_4x4_10
+  - first:
+      213: -5806112585056842056
+    second: vicious_bat_sheet_4x4_11
+  - first:
+      213: 7235163011270455753
+    second: vicious_bat_sheet_4x4_12
+  - first:
+      213: -4956208011770022167
+    second: vicious_bat_sheet_4x4_13
+  - first:
+      213: -8878089034398543985
+    second: vicious_bat_sheet_4x4_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vicious_bat_sheet_4x4_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 196
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c786a229442c590800000000000000
+      internalID: -7655481022009017265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_4x4_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 197
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7526b029880378f70800000000000000
+      internalID: 9189366927796691543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_4x4_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 197
+        width: 129
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dda1463f3db98bf0800000000000000
+      internalID: -321517819189416492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_4x4_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28bdc457260c606e0800000000000000
+      internalID: -1871597066018563198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_4x4_4
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 133
+        width: 66
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dab508ab678c70d10800000000000000
+      internalID: 2091860964197555117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_4x4_5
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 133
+        width: 129
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b303e1979c9bf2ae0800000000000000
+      internalID: -1571833469957427141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_4x4_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a8005107fd520d90800000000000000
+      internalID: -7133035544341116762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_4x4_7
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 66
+        width: 58
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 866e2a88bc68e24d0800000000000000
+      internalID: -3157438080011278744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_4x4_8
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 65
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c7a9cc673e29590800000000000000
+      internalID: -7668817116080210793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_4x4_9
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 67
+        width: 61
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbf7d50c2d04e300800000000000000
+      internalID: 280363559531576263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_4x4_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 65
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd582180b2211fb0800000000000000
+      internalID: -4678920396384739844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_4x4_11
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 0
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be03c1bd5b8c6fa0800000000000000
+      internalID: -5806112585056842056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_4x4_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c132dadc66786460800000000000000
+      internalID: 7235163011270455753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_4x4_13
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 45
+        width: 8
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6b0898213083bb0800000000000000
+      internalID: -4956208011770022167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vicious_bat_sheet_4x4_14
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 3
+        width: 30
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f4264bf01bac480800000000000000
+      internalID: -8878089034398543985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vicious_bat_sheet_4x4_0: -7655481022009017265
+      vicious_bat_sheet_4x4_1: 9189366927796691543
+      vicious_bat_sheet_4x4_10: -4678920396384739844
+      vicious_bat_sheet_4x4_11: -5806112585056842056
+      vicious_bat_sheet_4x4_12: 7235163011270455753
+      vicious_bat_sheet_4x4_13: -4956208011770022167
+      vicious_bat_sheet_4x4_14: -8878089034398543985
+      vicious_bat_sheet_4x4_2: -321517819189416492
+      vicious_bat_sheet_4x4_3: -1871597066018563198
+      vicious_bat_sheet_4x4_4: 2091860964197555117
+      vicious_bat_sheet_4x4_5: -1571833469957427141
+      vicious_bat_sheet_4x4_6: -7133035544341116762
+      vicious_bat_sheet_4x4_7: -3157438080011278744
+      vicious_bat_sheet_4x4_8: -7668817116080210793
+      vicious_bat_sheet_4x4_9: 280363559531576263
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

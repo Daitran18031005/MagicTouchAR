@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57f8913d675c24545942101f44ae96ee, type: 3}
+  m_Name: CreepSpawnTable
+  m_EditorClassIdentifier: Assembly-CSharp::MagicTouch.Gameplay.CreepSpawnTable
+  _creeps:
+  - id: goblin_crossbowman
+    animations: {fileID: 11400000, guid: e7f46ca47327d0c40ad557cf4e026db3, type: 2}
+    weight: 1
+    deathFadeSeconds: 0.9
+  - id: wrathful_knight
+    animations: {fileID: 11400000, guid: 11857b9ada44db6419f4abd772862e01, type: 2}
+    weight: 1
+    deathFadeSeconds: 0.9
+  - id: toxic_slime
+    animations: {fileID: 11400000, guid: ab0344beacfcd1945a172094c4658399, type: 2}
+    weight: 1
+    deathFadeSeconds: 0.9
+  _rules:
+  - label: Easy
+    multiBalloonChance: 0.2
+    maxBalloons: 2
+    multiWeights:
+    - balloons: 2
+      weight: 1
+  - label: Normal
+    multiBalloonChance: 0.25
+    maxBalloons: 3
+    multiWeights:
+    - balloons: 2
+      weight: 70
+    - balloons: 3
+      weight: 30
+  - label: Hard
+    multiBalloonChance: 0.35
+    maxBalloons: 4
+    multiWeights:
+    - balloons: 2
+      weight: 50
+    - balloons: 3
+      weight: 30
+    - balloons: 4
+      weight: 20

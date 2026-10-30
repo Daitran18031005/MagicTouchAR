@@ -1,0 +1,520 @@
+fileFormatVersion: 2
+guid: 9189ff9b67ebc5d4d811ee6c8dfc22ae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8693026716994699476
+    second: ember_ground_fire_pillar_0
+  - first:
+      213: 7920891537728205231
+    second: ember_ground_fire_pillar_1
+  - first:
+      213: -135404811750001112
+    second: ember_ground_fire_pillar_2
+  - first:
+      213: 5383061970148121305
+    second: ember_ground_fire_pillar_3
+  - first:
+      213: 3757911729198797842
+    second: ember_ground_fire_pillar_4
+  - first:
+      213: -7131521060430213682
+    second: ember_ground_fire_pillar_5
+  - first:
+      213: -3299686856848104441
+    second: ember_ground_fire_pillar_6
+  - first:
+      213: 707989875681323747
+    second: ember_ground_fire_pillar_7
+  - first:
+      213: -4308846288972748834
+    second: ember_ground_fire_pillar_8
+  - first:
+      213: 1945790293071946836
+    second: ember_ground_fire_pillar_9
+  - first:
+      213: 2486260691403557934
+    second: ember_ground_fire_pillar_10
+  - first:
+      213: -1312174563658598726
+    second: ember_ground_fire_pillar_11
+  - first:
+      213: 3552131279824939606
+    second: ember_ground_fire_pillar_12
+  - first:
+      213: -8805293722081488486
+    second: ember_ground_fire_pillar_13
+  - first:
+      213: 3551285959716858603
+    second: ember_ground_fire_pillar_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ember_ground_fire_pillar_0
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 39
+        width: 220
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d00371ddb5d3a870800000000000000
+      internalID: 8693026716994699476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_ground_fire_pillar_1
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 41
+        width: 210
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa1ffaa03e8aced60800000000000000
+      internalID: 7920891537728205231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_ground_fire_pillar_2
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 379
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82633c68a02fe1ef0800000000000000
+      internalID: -135404811750001112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_ground_fire_pillar_3
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 39
+        width: 192
+        height: 322
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dad796575a74ba40800000000000000
+      internalID: 5383061970148121305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_ground_fire_pillar_4
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 347
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2141b24bec8c62430800000000000000
+      internalID: 3757911729198797842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_ground_fire_pillar_5
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 351
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd07d4416fb70d90800000000000000
+      internalID: -7131521060430213682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_ground_fire_pillar_6
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 357
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7042b8349482532d0800000000000000
+      internalID: -3299686856848104441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_ground_fire_pillar_7
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 41
+        width: 180
+        height: 326
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eaee847a0943d900800000000000000
+      internalID: 707989875681323747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_ground_fire_pillar_8
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 361
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7e4022127e334c0800000000000000
+      internalID: -4308846288972748834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_ground_fire_pillar_9
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 39
+        width: 178
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 454e4f956f5d00b10800000000000000
+      internalID: 1945790293071946836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_ground_fire_pillar_10
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 139
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c40221de8f08220800000000000000
+      internalID: 2486260691403557934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_ground_fire_pillar_11
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 151
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab673d1cf283acde0800000000000000
+      internalID: -1312174563658598726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_ground_fire_pillar_12
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 39
+        width: 178
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ae4893494bb4130800000000000000
+      internalID: 3552131279824939606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_ground_fire_pillar_13
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 41
+        width: 192
+        height: 318
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a911b5023005dc580800000000000000
+      internalID: -8805293722081488486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_ground_fire_pillar_14
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 43
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea61ccc3c3b84130800000000000000
+      internalID: 3551285959716858603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ember_ground_fire_pillar_0: 8693026716994699476
+      ember_ground_fire_pillar_1: 7920891537728205231
+      ember_ground_fire_pillar_10: 2486260691403557934
+      ember_ground_fire_pillar_11: -1312174563658598726
+      ember_ground_fire_pillar_12: 3552131279824939606
+      ember_ground_fire_pillar_13: -8805293722081488486
+      ember_ground_fire_pillar_14: 3551285959716858603
+      ember_ground_fire_pillar_2: -135404811750001112
+      ember_ground_fire_pillar_3: 5383061970148121305
+      ember_ground_fire_pillar_4: 3757911729198797842
+      ember_ground_fire_pillar_5: -7131521060430213682
+      ember_ground_fire_pillar_6: -3299686856848104441
+      ember_ground_fire_pillar_7: 707989875681323747
+      ember_ground_fire_pillar_8: -4308846288972748834
+      ember_ground_fire_pillar_9: 1945790293071946836
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

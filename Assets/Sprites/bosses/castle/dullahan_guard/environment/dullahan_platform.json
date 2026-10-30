@@ -1,0 +1,241 @@
+{
+ "schema": "dullahan_platform.sheet.v1",
+ "cell": [
+  640,
+  256
+ ],
+ "columns": 6,
+ "rows": 3,
+ "pivot": {
+  "x": 0.5,
+  "y": 1.0,
+  "note": "bottom-centre: the platform body bottom is 2 px above the cell bottom"
+ },
+ "body_width_px": 580,
+ "frames": [
+  {
+   "name": "platform_idle",
+   "index": 0,
+   "x": 0,
+   "y": 0,
+   "width": 640,
+   "height": 256,
+   "bbox": [
+    22,
+    72,
+    618,
+    256
+   ]
+  },
+  {
+   "name": "platform_landing_1",
+   "index": 1,
+   "x": 640,
+   "y": 0,
+   "width": 640,
+   "height": 256,
+   "bbox": [
+    22,
+    72,
+    618,
+    256
+   ]
+  },
+  {
+   "name": "platform_landing_2",
+   "index": 2,
+   "x": 1280,
+   "y": 0,
+   "width": 640,
+   "height": 256,
+   "bbox": [
+    22,
+    38,
+    618,
+    256
+   ]
+  },
+  {
+   "name": "platform_landing_3",
+   "index": 3,
+   "x": 1920,
+   "y": 0,
+   "width": 640,
+   "height": 256,
+   "bbox": [
+    22,
+    54,
+    618,
+    256
+   ]
+  },
+  {
+   "name": "platform_landing_4",
+   "index": 4,
+   "x": 2560,
+   "y": 0,
+   "width": 640,
+   "height": 256,
+   "bbox": [
+    22,
+    46,
+    618,
+    256
+   ]
+  },
+  {
+   "name": "platform_landing_5",
+   "index": 5,
+   "x": 3200,
+   "y": 0,
+   "width": 640,
+   "height": 256,
+   "bbox": [
+    22,
+    70,
+    618,
+    256
+   ]
+  },
+  {
+   "name": "landing_dust_1",
+   "index": 6,
+   "x": 0,
+   "y": 256,
+   "width": 640,
+   "height": 256,
+   "bbox": [
+    150,
+    154,
+    492,
+    202
+   ]
+  },
+  {
+   "name": "landing_dust_2",
+   "index": 7,
+   "x": 640,
+   "y": 256,
+   "width": 640,
+   "height": 256,
+   "bbox": [
+    118,
+    112,
+    514,
+    206
+   ]
+  },
+  {
+   "name": "landing_dust_3",
+   "index": 8,
+   "x": 1280,
+   "y": 256,
+   "width": 640,
+   "height": 256,
+   "bbox": [
+    90,
+    62,
+    556,
+    212
+   ]
+  },
+  {
+   "name": "landing_dust_4",
+   "index": 9,
+   "x": 1920,
+   "y": 256,
+   "width": 640,
+   "height": 256,
+   "bbox": [
+    34,
+    14,
+    592,
+    218
+   ]
+  },
+  {
+   "name": "landing_dust_5",
+   "index": 10,
+   "x": 2560,
+   "y": 256,
+   "width": 640,
+   "height": 256,
+   "bbox": [
+    106,
+    60,
+    538,
+    186
+   ]
+  },
+  {
+   "name": "landing_dust_6",
+   "index": 11,
+   "x": 3200,
+   "y": 256,
+   "width": 640,
+   "height": 256,
+   "bbox": [
+    102,
+    102,
+    526,
+    192
+   ]
+  },
+  {
+   "name": "stone_debris_1",
+   "index": 12,
+   "x": 0,
+   "y": 512,
+   "width": 640,
+   "height": 256,
+   "bbox": [
+    268,
+    144,
+    370,
+    220
+   ]
+  },
+  {
+   "name": "stone_debris_2",
+   "index": 13,
+   "x": 640,
+   "y": 512,
+   "width": 640,
+   "height": 256,
+   "bbox": [
+    214,
+    94,
+    438,
+    198
+   ]
+  },
+  {
+   "name": "stone_debris_3",
+   "index": 14,
+   "x": 1280,
+   "y": 512,
+   "width": 640,
+   "height": 256,
+   "bbox": [
+    178,
+    82,
+    426,
+    170
+   ]
+  },
+  {
+   "name": "stone_debris_4",
+   "index": 15,
+   "x": 1920,
+   "y": 512,
+   "width": 640,
+   "height": 256,
+   "bbox": [
+    242,
+    156,
+    388,
+    188
+   ]
+  }
+ ]
+}

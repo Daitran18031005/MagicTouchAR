@@ -15,6 +15,13 @@ namespace MagicTouch.Editor
             {
                 TextureImporter importer = (TextureImporter)assetImporter;
                 importer.textureType = TextureImporterType.Sprite;
+                // Balloon sway frames replace the static balloon sprite in place, so they keep its 256 px canvas, centre pivot and 128 PPU.
+                if (assetPath.StartsWith("Assets/Sprites/Balloons/sway/"))
+                {
+                    importer.spriteImportMode = SpriteImportMode.Single;
+                    importer.spritePixelsPerUnit = 128f;
+                    importer.spritePivot = new Vector2(.5f, .5f);
+                }
                 if (importer.spriteImportMode != SpriteImportMode.Multiple)
                 {
                     importer.spriteImportMode = SpriteImportMode.Single;
@@ -23,6 +30,18 @@ namespace MagicTouch.Editor
                 }
                 importer.alphaIsTransparency = true;
                 importer.mipmapEnabled = false;
+                // Preserve the authored pixel grid for every boss sheet and frame.
+                // Same for the pixel-art creep sheets (Assets/Sprites/Enemies/<creep>/...).
+                bool creepArt = assetPath.StartsWith("Assets/Sprites/Enemies/") && assetPath.IndexOf('/', "Assets/Sprites/Enemies/".Length) > 0;
+                if (creepArt) { importer.filterMode = FilterMode.Point; importer.textureCompression = TextureImporterCompression.Uncompressed; importer.crunchedCompression = false; }
+                if (assetPath.StartsWith("Assets/Sprites/bosses/"))
+                {
+                    importer.filterMode = FilterMode.Point;
+                    importer.maxTextureSize = 4096; // boss sheets are up to 4096 px wide; never downscale them
+                    importer.textureCompression = TextureImporterCompression.Uncompressed;
+                    importer.crunchedCompression = false;
+                    importer.anisoLevel = 0;
+                }
             }
         }
 

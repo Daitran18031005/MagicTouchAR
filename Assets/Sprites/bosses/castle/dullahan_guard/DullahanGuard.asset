@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfc3a37d4e4f4b64f8472061547c49ed, type: 3}
+  m_Name: DullahanGuard
+  m_EditorClassIdentifier: Assembly-CSharp::MagicTouch.Gameplay.BossDefinition
+  _displayName: DULLAHAN GUARD
+  _animations: {fileID: 11400000, guid: e5934d6872aa9ee43a0977e1742b92c1, type: 2}
+  _minionText: ROAD TO DULLAHAN
+  _introText: THE DREAD GENERAL DESCENDS!
+  _defeatedText: DULLAHAN DEFEATED!
+  _minionsBeforeBoss: 20
+  _surviveSeconds: 90
+  _refillSeconds: 3
+  _entranceBeforeRefill: 0
+  _feetOffset: 0
+  _damagePerBalloon: 10
+  _balloonsAround: 5
+  _balloonRerollSeconds: 6
+  _minionBarColor: {r: 0.45, g: 0.78, b: 0.22, a: 1}
+  _segments:
+  - name: Red
+    health: 200
+    barColor: {r: 0.94, g: 0.24, b: 0.12, a: 1}
+    restClip: idle
+    skills:
+    - {fileID: 11400000, guid: 0f3bdd39a5f9ced4685d3ea844fb3b0e, type: 2}
+    - {fileID: 11400000, guid: 1f4978f7c2211964c869d5d31da42eed, type: 2}
+    castInterval: 4.2
+  _hurtClip: hurt
+  _deathClip: death
+  _hoverViewport: {x: 0.5, y: 0.55}
+  _scale: 1.5
+  _sortingOrder: 3
+  _balloonLaneX: 0.17
+  _balloonLaneY: {x: 0.36, y: 0.62}
+  _bodyWidth: 3.4
+  _platformScale: 1.5
+  _platformStand: 0.5
+  _dustScaleMultiple: 1.3
+  _deathFloorOffset: 1.73
+  _hasEntrance: 1
+  _whirlwindClip: 
+  _pillarClip: 
+  _pillarOffset: {x: 0, y: 0}
+  _roarClip: 
+  _roarSound: {fileID: 0}
+  _whirlwindScaleMultiple: 1.4
+  _pillarScaleMultiple: 2
+  _pillarWidthFactor: 0.54
+  _pillarClearance: 1.2
+  _bodyHalfHeight: 1.74

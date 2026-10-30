@@ -1,0 +1,1820 @@
+fileFormatVersion: 2
+guid: 4967aa21839c6124aae8838c8f9f8a5b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8566407131962450997
+    second: clockwork_colossus_sheet_0
+  - first:
+      213: 4224406056686971453
+    second: clockwork_colossus_sheet_1
+  - first:
+      213: 8748930536826089755
+    second: clockwork_colossus_sheet_2
+  - first:
+      213: 3180259423857152357
+    second: clockwork_colossus_sheet_3
+  - first:
+      213: 8460903113554880404
+    second: clockwork_colossus_sheet_4
+  - first:
+      213: -386439205267104393
+    second: clockwork_colossus_sheet_5
+  - first:
+      213: -76827683521771971
+    second: clockwork_colossus_sheet_6
+  - first:
+      213: 1298691628447501056
+    second: clockwork_colossus_sheet_7
+  - first:
+      213: -6560112096813133560
+    second: clockwork_colossus_sheet_8
+  - first:
+      213: -2225141678595174727
+    second: clockwork_colossus_sheet_9
+  - first:
+      213: 985585732970887847
+    second: clockwork_colossus_sheet_10
+  - first:
+      213: 1180467625723484903
+    second: clockwork_colossus_sheet_11
+  - first:
+      213: -5037294593793254473
+    second: clockwork_colossus_sheet_12
+  - first:
+      213: -4567908065775199637
+    second: clockwork_colossus_sheet_13
+  - first:
+      213: -1381828353148603122
+    second: clockwork_colossus_sheet_14
+  - first:
+      213: -3228662209689853196
+    second: clockwork_colossus_sheet_15
+  - first:
+      213: 3563964195303606710
+    second: clockwork_colossus_sheet_16
+  - first:
+      213: -5489396892906196693
+    second: clockwork_colossus_sheet_17
+  - first:
+      213: -6205560188020073040
+    second: clockwork_colossus_sheet_18
+  - first:
+      213: -5587818864659304817
+    second: clockwork_colossus_sheet_19
+  - first:
+      213: -5234334355657411298
+    second: clockwork_colossus_sheet_20
+  - first:
+      213: -2069005584786680780
+    second: clockwork_colossus_sheet_21
+  - first:
+      213: 5432928971402565858
+    second: clockwork_colossus_sheet_22
+  - first:
+      213: 649886363576343681
+    second: clockwork_colossus_sheet_23
+  - first:
+      213: -7850876331031066456
+    second: clockwork_colossus_sheet_24
+  - first:
+      213: 3982064544472053483
+    second: clockwork_colossus_sheet_25
+  - first:
+      213: 5429423037374464496
+    second: clockwork_colossus_sheet_26
+  - first:
+      213: -2934333129619705057
+    second: clockwork_colossus_sheet_27
+  - first:
+      213: 5218424331976081420
+    second: clockwork_colossus_sheet_28
+  - first:
+      213: 1651606910250868650
+    second: clockwork_colossus_sheet_29
+  - first:
+      213: 3989166407762617590
+    second: clockwork_colossus_sheet_30
+  - first:
+      213: -8820880431720069001
+    second: clockwork_colossus_sheet_31
+  - first:
+      213: -261610039753078454
+    second: clockwork_colossus_sheet_32
+  - first:
+      213: 4155325560503586643
+    second: clockwork_colossus_sheet_33
+  - first:
+      213: -5182516613496554084
+    second: clockwork_colossus_sheet_34
+  - first:
+      213: -336221015212129733
+    second: clockwork_colossus_sheet_35
+  - first:
+      213: -5650145260015126717
+    second: clockwork_colossus_sheet_36
+  - first:
+      213: 9053261904356812447
+    second: clockwork_colossus_sheet_37
+  - first:
+      213: 6456039669002573076
+    second: clockwork_colossus_sheet_38
+  - first:
+      213: 7302716890935698832
+    second: clockwork_colossus_sheet_39
+  - first:
+      213: -4437662409688565963
+    second: clockwork_colossus_sheet_40
+  - first:
+      213: -3936302638133628989
+    second: clockwork_colossus_sheet_41
+  - first:
+      213: 5877852165575526830
+    second: clockwork_colossus_sheet_42
+  - first:
+      213: 8315245913672585737
+    second: clockwork_colossus_sheet_43
+  - first:
+      213: 4422877900648600266
+    second: clockwork_colossus_sheet_44
+  - first:
+      213: -6719668570341486759
+    second: clockwork_colossus_sheet_45
+  - first:
+      213: -4980062974894081320
+    second: clockwork_colossus_sheet_46
+  - first:
+      213: -2675051896494087386
+    second: clockwork_colossus_sheet_47
+  - first:
+      213: -2429638491212096863
+    second: clockwork_colossus_sheet_48
+  - first:
+      213: -1050096431713280866
+    second: clockwork_colossus_sheet_49
+  - first:
+      213: 9064350242446851621
+    second: clockwork_colossus_sheet_50
+  - first:
+      213: -4532048493917639758
+    second: clockwork_colossus_sheet_51
+  - first:
+      213: 782160663226453797
+    second: clockwork_colossus_sheet_52
+  - first:
+      213: 4340613418674657423
+    second: clockwork_colossus_sheet_53
+  - first:
+      213: 6738057414692571497
+    second: clockwork_colossus_sheet_54
+  - first:
+      213: -8205021514350658066
+    second: clockwork_colossus_sheet_55
+  - first:
+      213: -4085720885802614227
+    second: clockwork_colossus_sheet_56
+  - first:
+      213: -9200476625030285953
+    second: clockwork_colossus_sheet_57
+  - first:
+      213: 5854533037744538453
+    second: clockwork_colossus_sheet_58
+  - first:
+      213: -5556829853575319357
+    second: clockwork_colossus_sheet_59
+  - first:
+      213: -7616048110574610268
+    second: clockwork_colossus_sheet_60
+  - first:
+      213: 3048058466417486502
+    second: clockwork_colossus_sheet_61
+  - first:
+      213: -7455336842186797293
+    second: clockwork_colossus_sheet_62
+  - first:
+      213: 8851565578582001457
+    second: clockwork_colossus_sheet_63
+  - first:
+      213: -7388836220063088984
+    second: clockwork_colossus_sheet_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 80
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb510aa9120e1980800000000000000
+      internalID: -8566407131962450997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 81
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ae5db3dea10aa30800000000000000
+      internalID: 4224406056686971453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 2
+        width: 116
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11361c28f17a6970800000000000000
+      internalID: 8748930536826089755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 82
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5611894a81d822c20800000000000000
+      internalID: 3180259423857152357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 81
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4976f62dd8a2b6570800000000000000
+      internalID: 8460903113554880404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 80
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d15ca179713aaf0800000000000000
+      internalID: -386439205267104393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 81
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36c4cef0ad0feef0800000000000000
+      internalID: -76827683521771971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 2
+        width: 116
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b0362c721e50210800000000000000
+      internalID: 1298691628447501056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 82
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801d5be0eccc5f4a0800000000000000
+      internalID: -6560112096813133560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 81
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be0b60ce65be11e0800000000000000
+      internalID: -2225141678595174727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 80
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa3c6590018dad00800000000000000
+      internalID: 985585732970887847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 2
+        width: 123
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ead81c1d0dd16010800000000000000
+      internalID: 1180467625723484903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 82
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb15f3714fe71ab0800000000000000
+      internalID: -5037294593793254473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 2
+        width: 123
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ad3d4e0d78b90c0800000000000000
+      internalID: -4567908065775199637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 81
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e05b30e1f62c2dce0800000000000000
+      internalID: -1381828353148603122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 80
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f265b393dc7133d0800000000000000
+      internalID: -3228662209689853196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1578
+        y: 80
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9484d8d8eb57130800000000000000
+      internalID: 3563964195303606710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 80
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2171372c9eb1d3b0800000000000000
+      internalID: -5489396892906196693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 2
+        width: 114
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bdd1c033eb61e9a0800000000000000
+      internalID: -6205560188020073040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 2
+        width: 114
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8e61ce19541472b0800000000000000
+      internalID: -5587818864659304817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2090
+        y: 79
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15ba6fd2a8eb57b0800000000000000
+      internalID: -5234334355657411298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 2
+        width: 116
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4349d78f16a6943e0800000000000000
+      internalID: -2069005584786680780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 2
+        width: 116
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8d0665d14a56b40800000000000000
+      internalID: 5432928971402565858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 2474
+        y: 80
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c9655543cd40900800000000000000
+      internalID: 649886363576343681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 2602
+        y: 80
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a80f5992951c0390800000000000000
+      internalID: -7850876331031066456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 78
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be63fe5fa92234730800000000000000
+      internalID: 3982064544472053483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 80
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f107067c7f295b40800000000000000
+      internalID: 5429423037374464496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 2986
+        y: 80
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f137b5cb0972747d0800000000000000
+      internalID: -2934333129619705057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 80
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0080b218419b6840800000000000000
+      internalID: 5218424331976081420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 3210
+        y: 1
+        width: 109
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf551afbbfabe610800000000000000
+      internalID: 1651606910250868650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 3340
+        y: 46
+        width: 101
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f4ac9c56bd5c5730800000000000000
+      internalID: 3989166407762617590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 3477
+        y: 36
+        width: 85
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 778812d7bffe59580800000000000000
+      internalID: -8820880431720069001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 3557
+        y: 93
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4987de0e039e5cf0800000000000000
+      internalID: -261610039753078454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 2
+        width: 116
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35fcae7d49eaaa930800000000000000
+      internalID: 4155325560503586643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 2
+        width: 116
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9d3af129900418b0800000000000000
+      internalID: -5182516613496554084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 2
+        width: 116
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32824e94c0855bf0800000000000000
+      internalID: -336221015212129733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 2
+        width: 116
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 347f07f52d6a691b0800000000000000
+      internalID: -5650145260015126717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 2
+        width: 116
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96a3cb5cb5a3ad70800000000000000
+      internalID: 9053261904356812447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 2
+        width: 116
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4159ab69fd5789950800000000000000
+      internalID: 6456039669002573076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 2
+        width: 116
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095a7732256785560800000000000000
+      internalID: 7302716890935698832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 0
+        width: 116
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537b865dc814a62c0800000000000000
+      internalID: -4437662409688565963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 0
+        width: 116
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfac952b917f59c0800000000000000
+      internalID: -3936302638133628989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1670
+        y: 2
+        width: 116
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9c3630763529150800000000000000
+      internalID: 5877852165575526830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 2054
+        y: 2
+        width: 116
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90219783a10b56370800000000000000
+      internalID: 8315245913672585737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 2
+        width: 116
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2d5196408316d30800000000000000
+      internalID: 4422877900648600266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 2567
+        y: 2
+        width: 117
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95f4070a901feb2a0800000000000000
+      internalID: -6719668570341486759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 2692
+        y: 2
+        width: 117
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dafc5e1c1343eab0800000000000000
+      internalID: -4980062974894081320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 2798
+        y: 83
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6232cb1297e40ead0800000000000000
+      internalID: -2675051896494087386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 2823
+        y: 2
+        width: 116
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aadfae3aa0384ed0800000000000000
+      internalID: -2429638491212096863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 2950
+        y: 2
+        width: 116
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9c13d7ebde4d61f0800000000000000
+      internalID: -1050096431713280866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 2
+        width: 116
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e35c0458a0bcd70800000000000000
+      internalID: 9064350242446851621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 3463
+        y: 79
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bbe13718edea11c0800000000000000
+      internalID: -4532048493917639758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 3343
+        y: 46
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f85e8aafacada00800000000000000
+      internalID: 782160663226453797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 3440
+        y: 47
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88956f18e4fc3c30800000000000000
+      internalID: 4340613418674657423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 3446
+        y: 62
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96900f6d483628d50800000000000000
+      internalID: 6738057414692571497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 3466
+        y: 43
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eedf0be9768e12e80800000000000000
+      internalID: -8205021514350658066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 3575
+        y: 46
+        width: 8
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d22475e508a9c47c0800000000000000
+      internalID: -4085720885802614227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 3339
+        y: 32
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f75f8c87147515080800000000000000
+      internalID: -9200476625030285953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 1
+        width: 99
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5534d8877ca7f3150800000000000000
+      internalID: 5854533037744538453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 3458
+        y: 19
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c07b5480bc22e2b0800000000000000
+      internalID: -5556829853575319357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 3483
+        y: 1
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a85ae0589c5e4690800000000000000
+      internalID: -7616048110574610268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_61
+      rect:
+        serializedVersion: 2
+        x: 3497
+        y: 1
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aaaf61a601ec4a20800000000000000
+      internalID: 3048058466417486502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_62
+      rect:
+        serializedVersion: 2
+        x: 3504
+        y: 1
+        width: 36
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31fc29064a2598890800000000000000
+      internalID: -7455336842186797293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_63
+      rect:
+        serializedVersion: 2
+        x: 3539
+        y: 1
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13784710ff317da70800000000000000
+      internalID: 8851565578582001457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: clockwork_colossus_sheet_64
+      rect:
+        serializedVersion: 2
+        x: 3572
+        y: 3
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae79970b94957990800000000000000
+      internalID: -7388836220063088984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      clockwork_colossus_sheet_0: -8566407131962450997
+      clockwork_colossus_sheet_1: 4224406056686971453
+      clockwork_colossus_sheet_10: 985585732970887847
+      clockwork_colossus_sheet_11: 1180467625723484903
+      clockwork_colossus_sheet_12: -5037294593793254473
+      clockwork_colossus_sheet_13: -4567908065775199637
+      clockwork_colossus_sheet_14: -1381828353148603122
+      clockwork_colossus_sheet_15: -3228662209689853196
+      clockwork_colossus_sheet_16: 3563964195303606710
+      clockwork_colossus_sheet_17: -5489396892906196693
+      clockwork_colossus_sheet_18: -6205560188020073040
+      clockwork_colossus_sheet_19: -5587818864659304817
+      clockwork_colossus_sheet_2: 8748930536826089755
+      clockwork_colossus_sheet_20: -5234334355657411298
+      clockwork_colossus_sheet_21: -2069005584786680780
+      clockwork_colossus_sheet_22: 5432928971402565858
+      clockwork_colossus_sheet_23: 649886363576343681
+      clockwork_colossus_sheet_24: -7850876331031066456
+      clockwork_colossus_sheet_25: 3982064544472053483
+      clockwork_colossus_sheet_26: 5429423037374464496
+      clockwork_colossus_sheet_27: -2934333129619705057
+      clockwork_colossus_sheet_28: 5218424331976081420
+      clockwork_colossus_sheet_29: 1651606910250868650
+      clockwork_colossus_sheet_3: 3180259423857152357
+      clockwork_colossus_sheet_30: 3989166407762617590
+      clockwork_colossus_sheet_31: -8820880431720069001
+      clockwork_colossus_sheet_32: -261610039753078454
+      clockwork_colossus_sheet_33: 4155325560503586643
+      clockwork_colossus_sheet_34: -5182516613496554084
+      clockwork_colossus_sheet_35: -336221015212129733
+      clockwork_colossus_sheet_36: -5650145260015126717
+      clockwork_colossus_sheet_37: 9053261904356812447
+      clockwork_colossus_sheet_38: 6456039669002573076
+      clockwork_colossus_sheet_39: 7302716890935698832
+      clockwork_colossus_sheet_4: 8460903113554880404
+      clockwork_colossus_sheet_40: -4437662409688565963
+      clockwork_colossus_sheet_41: -3936302638133628989
+      clockwork_colossus_sheet_42: 5877852165575526830
+      clockwork_colossus_sheet_43: 8315245913672585737
+      clockwork_colossus_sheet_44: 4422877900648600266
+      clockwork_colossus_sheet_45: -6719668570341486759
+      clockwork_colossus_sheet_46: -4980062974894081320
+      clockwork_colossus_sheet_47: -2675051896494087386
+      clockwork_colossus_sheet_48: -2429638491212096863
+      clockwork_colossus_sheet_49: -1050096431713280866
+      clockwork_colossus_sheet_5: -386439205267104393
+      clockwork_colossus_sheet_50: 9064350242446851621
+      clockwork_colossus_sheet_51: -4532048493917639758
+      clockwork_colossus_sheet_52: 782160663226453797
+      clockwork_colossus_sheet_53: 4340613418674657423
+      clockwork_colossus_sheet_54: 6738057414692571497
+      clockwork_colossus_sheet_55: -8205021514350658066
+      clockwork_colossus_sheet_56: -4085720885802614227
+      clockwork_colossus_sheet_57: -9200476625030285953
+      clockwork_colossus_sheet_58: 5854533037744538453
+      clockwork_colossus_sheet_59: -5556829853575319357
+      clockwork_colossus_sheet_6: -76827683521771971
+      clockwork_colossus_sheet_60: -7616048110574610268
+      clockwork_colossus_sheet_61: 3048058466417486502
+      clockwork_colossus_sheet_62: -7455336842186797293
+      clockwork_colossus_sheet_63: 8851565578582001457
+      clockwork_colossus_sheet_64: -7388836220063088984
+      clockwork_colossus_sheet_7: 1298691628447501056
+      clockwork_colossus_sheet_8: -6560112096813133560
+      clockwork_colossus_sheet_9: -2225141678595174727
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

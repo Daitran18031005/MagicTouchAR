@@ -1,0 +1,4004 @@
+fileFormatVersion: 2
+guid: 1efbc28afcf3a7848815895a1b6f4d4d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5261027582554134683
+    second: ember_demonic_lightning_0
+  - first:
+      213: 3206214406818035869
+    second: ember_demonic_lightning_1
+  - first:
+      213: -4432366963568542995
+    second: ember_demonic_lightning_2
+  - first:
+      213: 3265696522903615445
+    second: ember_demonic_lightning_3
+  - first:
+      213: 2085099132667708740
+    second: ember_demonic_lightning_4
+  - first:
+      213: -1362095271103269206
+    second: ember_demonic_lightning_5
+  - first:
+      213: 620919701599889040
+    second: ember_demonic_lightning_6
+  - first:
+      213: 7131250758852410369
+    second: ember_demonic_lightning_7
+  - first:
+      213: -8698044603555783167
+    second: ember_demonic_lightning_8
+  - first:
+      213: -6205284678486216549
+    second: ember_demonic_lightning_9
+  - first:
+      213: 7155401484158636677
+    second: ember_demonic_lightning_10
+  - first:
+      213: 3379585064201022735
+    second: ember_demonic_lightning_11
+  - first:
+      213: -8889688775598947840
+    second: ember_demonic_lightning_12
+  - first:
+      213: 5243529015694019391
+    second: ember_demonic_lightning_13
+  - first:
+      213: 8214636024140728826
+    second: ember_demonic_lightning_14
+  - first:
+      213: -1611875648853653503
+    second: ember_demonic_lightning_15
+  - first:
+      213: 1260428486108929734
+    second: ember_demonic_lightning_16
+  - first:
+      213: 4511704395929595678
+    second: ember_demonic_lightning_17
+  - first:
+      213: -3440729846501023955
+    second: ember_demonic_lightning_18
+  - first:
+      213: 2355485928689271998
+    second: ember_demonic_lightning_19
+  - first:
+      213: 8703480317542582669
+    second: ember_demonic_lightning_20
+  - first:
+      213: -3847658959221666372
+    second: ember_demonic_lightning_21
+  - first:
+      213: -6096346071095350304
+    second: ember_demonic_lightning_22
+  - first:
+      213: -4157320667548164671
+    second: ember_demonic_lightning_23
+  - first:
+      213: -7938718686076882514
+    second: ember_demonic_lightning_24
+  - first:
+      213: 6671155391190908131
+    second: ember_demonic_lightning_25
+  - first:
+      213: 4478605391216966825
+    second: ember_demonic_lightning_26
+  - first:
+      213: -5468397222300719270
+    second: ember_demonic_lightning_27
+  - first:
+      213: -8917292003698562900
+    second: ember_demonic_lightning_28
+  - first:
+      213: -807663653420685594
+    second: ember_demonic_lightning_29
+  - first:
+      213: -775743143371135670
+    second: ember_demonic_lightning_30
+  - first:
+      213: 1693889459517448440
+    second: ember_demonic_lightning_31
+  - first:
+      213: 3224583934222957662
+    second: ember_demonic_lightning_32
+  - first:
+      213: 2365030811571480199
+    second: ember_demonic_lightning_33
+  - first:
+      213: -1538137246687330667
+    second: ember_demonic_lightning_34
+  - first:
+      213: -4596610112192258267
+    second: ember_demonic_lightning_35
+  - first:
+      213: -8944080044891430625
+    second: ember_demonic_lightning_36
+  - first:
+      213: 5964713955497234339
+    second: ember_demonic_lightning_37
+  - first:
+      213: -6769697423440910441
+    second: ember_demonic_lightning_38
+  - first:
+      213: -4415248970056814927
+    second: ember_demonic_lightning_39
+  - first:
+      213: -474471066057382449
+    second: ember_demonic_lightning_40
+  - first:
+      213: 1327243852296430290
+    second: ember_demonic_lightning_41
+  - first:
+      213: 9109923305438939600
+    second: ember_demonic_lightning_42
+  - first:
+      213: -5697722553009650581
+    second: ember_demonic_lightning_43
+  - first:
+      213: 7919204081021036975
+    second: ember_demonic_lightning_44
+  - first:
+      213: -3377350494367561963
+    second: ember_demonic_lightning_45
+  - first:
+      213: 1658523771860050740
+    second: ember_demonic_lightning_46
+  - first:
+      213: 5594611468487404364
+    second: ember_demonic_lightning_47
+  - first:
+      213: 7329577372336539988
+    second: ember_demonic_lightning_48
+  - first:
+      213: 2160292449863000057
+    second: ember_demonic_lightning_49
+  - first:
+      213: -2172382203813949097
+    second: ember_demonic_lightning_50
+  - first:
+      213: 1050708038723639627
+    second: ember_demonic_lightning_51
+  - first:
+      213: 8498349885853439967
+    second: ember_demonic_lightning_52
+  - first:
+      213: 6782789205305471917
+    second: ember_demonic_lightning_53
+  - first:
+      213: 2909835689432276504
+    second: ember_demonic_lightning_54
+  - first:
+      213: 4505938670926316818
+    second: ember_demonic_lightning_55
+  - first:
+      213: -5423570267663008374
+    second: ember_demonic_lightning_56
+  - first:
+      213: 6606478670951167868
+    second: ember_demonic_lightning_57
+  - first:
+      213: -6012014229070628449
+    second: ember_demonic_lightning_58
+  - first:
+      213: -7628272476894692998
+    second: ember_demonic_lightning_59
+  - first:
+      213: 7615006927750207914
+    second: ember_demonic_lightning_60
+  - first:
+      213: 2704757067655930209
+    second: ember_demonic_lightning_61
+  - first:
+      213: -193300260843844148
+    second: ember_demonic_lightning_62
+  - first:
+      213: 1465250302986496794
+    second: ember_demonic_lightning_63
+  - first:
+      213: 4638356435490096955
+    second: ember_demonic_lightning_64
+  - first:
+      213: -8403034298997295249
+    second: ember_demonic_lightning_65
+  - first:
+      213: -1891373944867775713
+    second: ember_demonic_lightning_66
+  - first:
+      213: 2195721201981850348
+    second: ember_demonic_lightning_67
+  - first:
+      213: -4673461467562379037
+    second: ember_demonic_lightning_68
+  - first:
+      213: 7071015021823923457
+    second: ember_demonic_lightning_69
+  - first:
+      213: -5222534124096437047
+    second: ember_demonic_lightning_70
+  - first:
+      213: -6309285088610790710
+    second: ember_demonic_lightning_71
+  - first:
+      213: 3941112261892463300
+    second: ember_demonic_lightning_72
+  - first:
+      213: 3426244827138011239
+    second: ember_demonic_lightning_73
+  - first:
+      213: 8461740736807379466
+    second: ember_demonic_lightning_74
+  - first:
+      213: -4119231502322353068
+    second: ember_demonic_lightning_75
+  - first:
+      213: 8804224548903713425
+    second: ember_demonic_lightning_76
+  - first:
+      213: -6056588255891648209
+    second: ember_demonic_lightning_77
+  - first:
+      213: 4936970779320880696
+    second: ember_demonic_lightning_78
+  - first:
+      213: 6363460250113986112
+    second: ember_demonic_lightning_79
+  - first:
+      213: 6620430893632550950
+    second: ember_demonic_lightning_80
+  - first:
+      213: -7976663328767693605
+    second: ember_demonic_lightning_81
+  - first:
+      213: -5272511339015556427
+    second: ember_demonic_lightning_82
+  - first:
+      213: 1303986482374743737
+    second: ember_demonic_lightning_83
+  - first:
+      213: -1847101860368379254
+    second: ember_demonic_lightning_84
+  - first:
+      213: -2084775499140658009
+    second: ember_demonic_lightning_85
+  - first:
+      213: 1689662022836813845
+    second: ember_demonic_lightning_86
+  - first:
+      213: 5451055012872261471
+    second: ember_demonic_lightning_87
+  - first:
+      213: 9089929677169629518
+    second: ember_demonic_lightning_88
+  - first:
+      213: -8614933661095419983
+    second: ember_demonic_lightning_89
+  - first:
+      213: 7600107497245796924
+    second: ember_demonic_lightning_90
+  - first:
+      213: 7167382112849382218
+    second: ember_demonic_lightning_91
+  - first:
+      213: 6889989429233133801
+    second: ember_demonic_lightning_92
+  - first:
+      213: 6926548181331349507
+    second: ember_demonic_lightning_93
+  - first:
+      213: -6341708125458032708
+    second: ember_demonic_lightning_94
+  - first:
+      213: -113385896476489721
+    second: ember_demonic_lightning_95
+  - first:
+      213: -8598620433174698081
+    second: ember_demonic_lightning_96
+  - first:
+      213: -6165763058461221676
+    second: ember_demonic_lightning_97
+  - first:
+      213: -5324020940992279129
+    second: ember_demonic_lightning_98
+  - first:
+      213: 7744746578931405776
+    second: ember_demonic_lightning_99
+  - first:
+      213: -6311605458023738272
+    second: ember_demonic_lightning_100
+  - first:
+      213: 5742038692418075985
+    second: ember_demonic_lightning_101
+  - first:
+      213: -6999114150392456375
+    second: ember_demonic_lightning_102
+  - first:
+      213: 4445356404438068610
+    second: ember_demonic_lightning_103
+  - first:
+      213: -631048248588746601
+    second: ember_demonic_lightning_104
+  - first:
+      213: 6246117539056025944
+    second: ember_demonic_lightning_105
+  - first:
+      213: 4677402571190008502
+    second: ember_demonic_lightning_106
+  - first:
+      213: 484512904823116295
+    second: ember_demonic_lightning_107
+  - first:
+      213: 5685618221454645603
+    second: ember_demonic_lightning_108
+  - first:
+      213: 8421662158711926934
+    second: ember_demonic_lightning_109
+  - first:
+      213: -6601990659025581169
+    second: ember_demonic_lightning_110
+  - first:
+      213: 6748652875536037695
+    second: ember_demonic_lightning_111
+  - first:
+      213: -1012097516238428423
+    second: ember_demonic_lightning_112
+  - first:
+      213: -913111166795111964
+    second: ember_demonic_lightning_113
+  - first:
+      213: -2405367095551815473
+    second: ember_demonic_lightning_114
+  - first:
+      213: -6413361565085545054
+    second: ember_demonic_lightning_115
+  - first:
+      213: 4714002102275591349
+    second: ember_demonic_lightning_116
+  - first:
+      213: 3637454209495371986
+    second: ember_demonic_lightning_117
+  - first:
+      213: 4572069016413842324
+    second: ember_demonic_lightning_118
+  - first:
+      213: -5634754886603767721
+    second: ember_demonic_lightning_119
+  - first:
+      213: 2021512226414495382
+    second: ember_demonic_lightning_120
+  - first:
+      213: 8434023912230999772
+    second: ember_demonic_lightning_121
+  - first:
+      213: -4380111947619031231
+    second: ember_demonic_lightning_122
+  - first:
+      213: 166727683300861851
+    second: ember_demonic_lightning_123
+  - first:
+      213: -1661124111596178867
+    second: ember_demonic_lightning_124
+  - first:
+      213: -7125499196285806681
+    second: ember_demonic_lightning_125
+  - first:
+      213: -4457990100024403287
+    second: ember_demonic_lightning_126
+  - first:
+      213: -1312784414393890750
+    second: ember_demonic_lightning_127
+  - first:
+      213: 8108454821765164470
+    second: ember_demonic_lightning_128
+  - first:
+      213: -3913429661361118738
+    second: ember_demonic_lightning_129
+  - first:
+      213: -2559980326960411912
+    second: ember_demonic_lightning_130
+  - first:
+      213: -1919804882650338578
+    second: ember_demonic_lightning_131
+  - first:
+      213: -1739615137376540207
+    second: ember_demonic_lightning_132
+  - first:
+      213: 7802585007523739464
+    second: ember_demonic_lightning_133
+  - first:
+      213: 522303958341515113
+    second: ember_demonic_lightning_134
+  - first:
+      213: -5103055390079501505
+    second: ember_demonic_lightning_135
+  - first:
+      213: 8960002740260710987
+    second: ember_demonic_lightning_136
+  - first:
+      213: 1296664139206115557
+    second: ember_demonic_lightning_137
+  - first:
+      213: -1617531283973752810
+    second: ember_demonic_lightning_138
+  - first:
+      213: 4193451385909879376
+    second: ember_demonic_lightning_139
+  - first:
+      213: -7175720026855431193
+    second: ember_demonic_lightning_140
+  - first:
+      213: -4128871231777594897
+    second: ember_demonic_lightning_141
+  - first:
+      213: 1386674906320924219
+    second: ember_demonic_lightning_142
+  - first:
+      213: 8729650095990823849
+    second: ember_demonic_lightning_143
+  - first:
+      213: 832416817860344247
+    second: ember_demonic_lightning_144
+  - first:
+      213: -6490756479521775290
+    second: ember_demonic_lightning_145
+  - first:
+      213: 1995896734292612731
+    second: ember_demonic_lightning_146
+  - first:
+      213: -5754693385031388070
+    second: ember_demonic_lightning_147
+  - first:
+      213: 5307442331448185045
+    second: ember_demonic_lightning_148
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ember_demonic_lightning_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1467
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98dba356bce20940800000000000000
+      internalID: 5261027582554134683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_1
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1483
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98f0280403ce7c20800000000000000
+      internalID: 3206214406818035869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 1053
+        width: 146
+        height: 436
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deaf156fab11d72c0800000000000000
+      internalID: -4432366963568542995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_3
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 1489
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7f5e76fa5125d20800000000000000
+      internalID: 3265696522903615445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_4
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1051
+        width: 166
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44542242d92cfec10800000000000000
+      internalID: 2085099132667708740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_5
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1045
+        width: 200
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa676af419dd81de0800000000000000
+      internalID: -1362095271103269206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_6
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1045
+        width: 208
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09627e7cd23fd9800800000000000000
+      internalID: 620919701599889040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_7
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 1477
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10cf1ad38ca47f260800000000000000
+      internalID: 7131250758852410369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_8
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1473
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10edd8c64865a4780800000000000000
+      internalID: -8698044603555783167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 1439
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90b7a0467662e9a0800000000000000
+      internalID: -6205284678486216549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_10
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 1461
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58214982db71d4360800000000000000
+      internalID: 7155401484158636677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_11
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1457
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0deae7c5b2b6ee20800000000000000
+      internalID: 3379585064201022735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_12
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1463
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002c5ae782b71a480800000000000000
+      internalID: -8889688775598947840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 1439
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b45edbbd1c4c840800000000000000
+      internalID: 5243529015694019391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_14
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 1431
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af90902e0ff300270800000000000000
+      internalID: 8214636024140728826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_15
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1441
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108c9ff23a771a9e0800000000000000
+      internalID: -1611875648853653503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_16
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1443
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce5e43b701fd7110800000000000000
+      internalID: 1260428486108929734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_17
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1439
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1fa3fa7e3bcc9e30800000000000000
+      internalID: 4511704395929595678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_18
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 1431
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fd8333f621040d0800000000000000
+      internalID: -3440729846501023955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_19
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1423
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb484f4e8fd50b020800000000000000
+      internalID: 2355485928689271998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_20
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 1395
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d89cabc5c39f8c870800000000000000
+      internalID: 8703480317542582669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_21
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1407
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd4eb6ff8e5a9ac0800000000000000
+      internalID: -3847658959221666372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_22
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1419
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb63845c8d656ba0800000000000000
+      internalID: -6096346071095350304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_23
+      rect:
+        serializedVersion: 2
+        x: 1301
+        y: 1419
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cdd66911ea3e46c0800000000000000
+      internalID: -4157320667548164671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_24
+      rect:
+        serializedVersion: 2
+        x: 1335
+        y: 1387
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea1b1a88a6104d190800000000000000
+      internalID: -7938718686076882514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_25
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1381
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ecbd55ab74b49c50800000000000000
+      internalID: 6671155391190908131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_26
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1383
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9acf2a8efd3372e30800000000000000
+      internalID: 4478605391216966825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_27
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1337
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a57680af2b95c14b0800000000000000
+      internalID: -5468397222300719270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_28
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 1379
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8ad112b2a6f3480800000000000000
+      internalID: -8917292003698562900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_29
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 1339
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6add7bf2a9ac4f0800000000000000
+      internalID: -807663653420685594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_30
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1367
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a452b6e98b10c35f0800000000000000
+      internalID: -775743143371135670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_31
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 1367
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0e0532d77e18710800000000000000
+      internalID: 1693889459517448440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_32
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 1351
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c7acbe00600cc20800000000000000
+      internalID: 3224583934222957662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_33
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 1223
+        width: 108
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 786629e1ef642d020800000000000000
+      internalID: 2365030811571480199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_34
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 1343
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e7763d25077aae0800000000000000
+      internalID: -1538137246687330667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_35
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1347
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52fdfc3f47f8530c0800000000000000
+      internalID: -4596610112192258267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_36
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 1303
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f112691469e30e380800000000000000
+      internalID: -8944080044891430625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_37
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 1325
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af4a387dbbe6c250800000000000000
+      internalID: 5964713955497234339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_38
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 1317
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7976dee8f043d02a0800000000000000
+      internalID: -6769697423440910441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_39
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 1289
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1beaad86472e9b2c0800000000000000
+      internalID: -4415248970056814927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_40
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 1233
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5e27b44175a69f0800000000000000
+      internalID: -474471066057382449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_41
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 1045
+        width: 154
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2237a60415b6210800000000000000
+      internalID: 1327243852296430290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_42
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1217
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d98db7daf2fc6e70800000000000000
+      internalID: 9109923305438939600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_43
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1197
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64c02f968f9de0b0800000000000000
+      internalID: -5697722553009650581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_44
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1211
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa92519672aa6ed60800000000000000
+      internalID: 7919204081021036975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_45
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1191
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5174b3d8e9d3121d0800000000000000
+      internalID: -3377350494367561963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_46
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 1113
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43362415592440710800000000000000
+      internalID: 1658523771860050740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_47
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1077
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4ba4833d7d04ad40800000000000000
+      internalID: 5594611468487404364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_48
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1081
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4594cdf49c3e7b560800000000000000
+      internalID: 7329577372336539988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_49
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 1079
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffda059986eafd10800000000000000
+      internalID: 2160292449863000057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_50
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 1059
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7511a4935e52ad1e0800000000000000
+      internalID: -2172382203813949097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_51
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 1059
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4915c2f46dd49e00800000000000000
+      internalID: 1050708038723639627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_52
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 1055
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd7964be13430f570800000000000000
+      internalID: 8498349885853439967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_53
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1055
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da3369078de412e50800000000000000
+      internalID: 6782789205305471917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_54
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1047
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e5d5f7420d16820800000000000000
+      internalID: 2909835689432276504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_55
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 959
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2154244095f488e30800000000000000
+      internalID: 4505938670926316818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_56
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 969
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d739da39b9bb4b0800000000000000
+      internalID: -5423570267663008374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_57
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 549
+        width: 144
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c773d3e395deeab50800000000000000
+      internalID: 6606478670951167868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_58
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 981
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99b6a369e8019ca0800000000000000
+      internalID: -6012014229070628449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_59
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 545
+        width: 204
+        height: 438
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a797dcc399ee22690800000000000000
+      internalID: -7628272476894692998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_60
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 977
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa990ba6470fda960800000000000000
+      internalID: 7615006927750207914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_61
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 539
+        width: 232
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161eb5df83a398520800000000000000
+      internalID: 2704757067655930209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_62
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 539
+        width: 214
+        height: 450
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd8969df62415df0800000000000000
+      internalID: -193300260843844148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_63
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 973
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b2b88236d955410800000000000000
+      internalID: 1465250302986496794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_64
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 931
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b37c80f5a90ce5040800000000000000
+      internalID: 4638356435490096955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_65
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 969
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f67b7d483dc626b80800000000000000
+      internalID: -8403034298997295249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_66
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 959
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b1ab60b6d70c5e0800000000000000
+      internalID: -1891373944867775713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_67
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 957
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce20cedbcc4c87e10800000000000000
+      internalID: 2195721201981850348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_68
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 951
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8f77a6e87842fb0800000000000000
+      internalID: -4673461467562379037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_69
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 927
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1051441d2ba412260800000000000000
+      internalID: 7071015021823923457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_70
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 935
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c440e162e4d587b0800000000000000
+      internalID: -5222534124096437047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_71
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 941
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac25fa2d3aae078a0800000000000000
+      internalID: -6309285088610790710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_72
+      rect:
+        serializedVersion: 2
+        x: 1475
+        y: 935
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca5906a8b4a1b630800000000000000
+      internalID: 3941112261892463300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_73
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 931
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 760b41b64877c8f20800000000000000
+      internalID: 3426244827138011239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_74
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 929
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a022bde2e542e6570800000000000000
+      internalID: 8461740736807379466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_75
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 901
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c3a74f5cc85d6c0800000000000000
+      internalID: -4119231502322353068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_76
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 895
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19afd289493ee2a70800000000000000
+      internalID: 8804224548903713425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_77
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 919
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2196c8021da2fba0800000000000000
+      internalID: -6056588255891648209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_78
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 915
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83e87ef34c4a38440800000000000000
+      internalID: 4936970779320880696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_79
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 885
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ecc56e16d8f4850800000000000000
+      internalID: 6363460250113986112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_80
+      rect:
+        serializedVersion: 2
+        x: 1469
+        y: 915
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6287dfa32de70eb50800000000000000
+      internalID: 6620430893632550950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_81
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 889
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdcaae3f6f23d4190800000000000000
+      internalID: -7976663328767693605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_82
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 873
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b232c34fd644d6b0800000000000000
+      internalID: -5272511339015556427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_83
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 887
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b69bd10cc0b81210800000000000000
+      internalID: 1303986482374743737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_84
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 831
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8297c4f4a6cd56e0800000000000000
+      internalID: -1847101860368379254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_85
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 881
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac8849aab36113e0800000000000000
+      internalID: -2084775499140658009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_86
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 881
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51008a558a2e27710800000000000000
+      internalID: 1689662022836813845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_87
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 863
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f0d5d37a906ab40800000000000000
+      internalID: 5451055012872261471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_88
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 869
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e491af081eae52e70800000000000000
+      internalID: 9089929677169629518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_89
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 859
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf1ad6aa7b917880800000000000000
+      internalID: -8614933661095419983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_90
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 849
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a6e1c6081097960800000000000000
+      internalID: 7600107497245796924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_91
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 841
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b40e5ae08a77360800000000000000
+      internalID: 7167382112849382218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_92
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 855
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e823a391e82e9f50800000000000000
+      internalID: 6889989429233133801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_93
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 541
+        width: 162
+        height: 308
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30012eb5fda002060800000000000000
+      internalID: 6926548181331349507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_94
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 837
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb79dd84f0abdf7a0800000000000000
+      internalID: -6341708125458032708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_95
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 819
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708cafdb02c2d6ef0800000000000000
+      internalID: -113385896476489721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_96
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 813
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97e43206409ba880800000000000000
+      internalID: -8598620433174698081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_97
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 811
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc513b7a2fce6aa0800000000000000
+      internalID: -6165763058461221676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_98
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 799
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad0a6b79274d16b0800000000000000
+      internalID: -5324020940992279129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_99
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 783
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3d0a8eafdda7b60800000000000000
+      internalID: 7744746578931405776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_100
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 731
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0641418b64ca868a0800000000000000
+      internalID: -6311605458023738272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_101
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 719
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15db024a4c1dfaf40800000000000000
+      internalID: 5742038692418075985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_102
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 705
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b927b53c62ede90800000000000000
+      internalID: -6999114150392456375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_103
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 689
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28de98ae81411bd30800000000000000
+      internalID: 4445356404438068610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_104
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 659
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7904cba16f01e37f0800000000000000
+      internalID: -631048248588746601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_105
+      rect:
+        serializedVersion: 2
+        x: 1283
+        y: 575
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85185c4fecaaea650800000000000000
+      internalID: 6246117539056025944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_106
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 553
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba77474bd879e040800000000000000
+      internalID: 4677402571190008502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_107
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 557
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702131d7be559b600800000000000000
+      internalID: 484512904823116295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_108
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 553
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369da4216af57ee40800000000000000
+      internalID: 5685618221454645603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_109
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 549
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 690bf5c0d11cfd470800000000000000
+      internalID: 8421662158711926934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_110
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 477
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b455679740164a0800000000000000
+      internalID: -6601990659025581169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_111
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 427
+        width: 56
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f377ebec80808ad50800000000000000
+      internalID: 6748652875536037695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_112
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 471
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6ad8adbae44f1f0800000000000000
+      internalID: -1012097516238428423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_113
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 55
+        width: 158
+        height: 432
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e12cbe4b3af353f0800000000000000
+      internalID: -913111166795111964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_114
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 51
+        width: 204
+        height: 434
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0983bee5b6e9ed0800000000000000
+      internalID: -2405367095551815473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_115
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 45
+        width: 228
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adcee0d2a92ff6a0800000000000000
+      internalID: -6413361565085545054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_116
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 45
+        width: 198
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcc498afef7b6140800000000000000
+      internalID: 4714002102275591349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_117
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 473
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d098bbd455da7230800000000000000
+      internalID: 3637454209495371986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_118
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 463
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49baaebeb80437f30800000000000000
+      internalID: 4572069016413842324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_119
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 443
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750069be8445dc1b0800000000000000
+      internalID: -5634754886603767721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_120
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 431
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6968b84d8aadd0c10800000000000000
+      internalID: 2021512226414495382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_121
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 435
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6dda3101cab0570800000000000000
+      internalID: 8434023912230999772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_122
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 45
+        width: 166
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14729b5f367b633c0800000000000000
+      internalID: -4380111947619031231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_123
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 443
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b972f51d1f5505200800000000000000
+      internalID: 166727683300861851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_124
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 443
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d423978eb6082f8e0800000000000000
+      internalID: -1661124111596178867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_125
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 415
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a79d06cb342d1d90800000000000000
+      internalID: -7125499196285806681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_126
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 401
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aa56db9f990222c0800000000000000
+      internalID: -4457990100024403287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_127
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 387
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2480261d78d08cde0800000000000000
+      internalID: -1312784414393890750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_128
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 415
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdad9033b4078070800000000000000
+      internalID: 8108454821765164470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_129
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 377
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1e71d0574b0b9c0800000000000000
+      internalID: -3913429661361118738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_130
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 403
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa498bb47f197cd0800000000000000
+      internalID: -2559980326960411912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_131
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 377
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeae09b71ab7b55e0800000000000000
+      internalID: -1919804882650338578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_132
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 383
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d967cadf35abd7e0800000000000000
+      internalID: -1739615137376540207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_133
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 365
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 847bd3779b9584c60800000000000000
+      internalID: 7802585007523739464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_134
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 331
+        width: 20
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967f9bdcea89f3700800000000000000
+      internalID: 522303958341515113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_135
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 315
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3b3b2de82e4e29b0800000000000000
+      internalID: -5103055390079501505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_136
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 327
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4a24c72503585c70800000000000000
+      internalID: 8960002740260710987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_137
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 307
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e04e522a2daef110800000000000000
+      internalID: 1296664139206115557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_138
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 297
+        width: 12
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 618b9a50edf5d89e0800000000000000
+      internalID: -1617531283973752810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_139
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 299
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 052270051d1223a30800000000000000
+      internalID: 4193451385909879376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_140
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 265
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e320a777a8ba6c90800000000000000
+      internalID: -7175720026855431193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_141
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 251
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1219a8d7d43b6c0800000000000000
+      internalID: -4128871231777594897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_142
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 223
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3ee43afa757e3310800000000000000
+      internalID: 1386674906320924219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_143
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 117
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abdcf8b282f52970800000000000000
+      internalID: 8729650095990823849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_144
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 93
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b970ad7fa65d8b00800000000000000
+      internalID: 832416817860344247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_145
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 93
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6412a821f533ce5a0800000000000000
+      internalID: -6490756479521775290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_146
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 59
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b769fdf4189d2bb10800000000000000
+      internalID: 1995896734292612731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_147
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 51
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a54f9e12bd83320b0800000000000000
+      internalID: -5754693385031388070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_demonic_lightning_148
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 51
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d017df2ea2d7a940800000000000000
+      internalID: 5307442331448185045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ember_demonic_lightning_0: 5261027582554134683
+      ember_demonic_lightning_1: 3206214406818035869
+      ember_demonic_lightning_10: 7155401484158636677
+      ember_demonic_lightning_100: -6311605458023738272
+      ember_demonic_lightning_101: 5742038692418075985
+      ember_demonic_lightning_102: -6999114150392456375
+      ember_demonic_lightning_103: 4445356404438068610
+      ember_demonic_lightning_104: -631048248588746601
+      ember_demonic_lightning_105: 6246117539056025944
+      ember_demonic_lightning_106: 4677402571190008502
+      ember_demonic_lightning_107: 484512904823116295
+      ember_demonic_lightning_108: 5685618221454645603
+      ember_demonic_lightning_109: 8421662158711926934
+      ember_demonic_lightning_11: 3379585064201022735
+      ember_demonic_lightning_110: -6601990659025581169
+      ember_demonic_lightning_111: 6748652875536037695
+      ember_demonic_lightning_112: -1012097516238428423
+      ember_demonic_lightning_113: -913111166795111964
+      ember_demonic_lightning_114: -2405367095551815473
+      ember_demonic_lightning_115: -6413361565085545054
+      ember_demonic_lightning_116: 4714002102275591349
+      ember_demonic_lightning_117: 3637454209495371986
+      ember_demonic_lightning_118: 4572069016413842324
+      ember_demonic_lightning_119: -5634754886603767721
+      ember_demonic_lightning_12: -8889688775598947840
+      ember_demonic_lightning_120: 2021512226414495382
+      ember_demonic_lightning_121: 8434023912230999772
+      ember_demonic_lightning_122: -4380111947619031231
+      ember_demonic_lightning_123: 166727683300861851
+      ember_demonic_lightning_124: -1661124111596178867
+      ember_demonic_lightning_125: -7125499196285806681
+      ember_demonic_lightning_126: -4457990100024403287
+      ember_demonic_lightning_127: -1312784414393890750
+      ember_demonic_lightning_128: 8108454821765164470
+      ember_demonic_lightning_129: -3913429661361118738
+      ember_demonic_lightning_13: 5243529015694019391
+      ember_demonic_lightning_130: -2559980326960411912
+      ember_demonic_lightning_131: -1919804882650338578
+      ember_demonic_lightning_132: -1739615137376540207
+      ember_demonic_lightning_133: 7802585007523739464
+      ember_demonic_lightning_134: 522303958341515113
+      ember_demonic_lightning_135: -5103055390079501505
+      ember_demonic_lightning_136: 8960002740260710987
+      ember_demonic_lightning_137: 1296664139206115557
+      ember_demonic_lightning_138: -1617531283973752810
+      ember_demonic_lightning_139: 4193451385909879376
+      ember_demonic_lightning_14: 8214636024140728826
+      ember_demonic_lightning_140: -7175720026855431193
+      ember_demonic_lightning_141: -4128871231777594897
+      ember_demonic_lightning_142: 1386674906320924219
+      ember_demonic_lightning_143: 8729650095990823849
+      ember_demonic_lightning_144: 832416817860344247
+      ember_demonic_lightning_145: -6490756479521775290
+      ember_demonic_lightning_146: 1995896734292612731
+      ember_demonic_lightning_147: -5754693385031388070
+      ember_demonic_lightning_148: 5307442331448185045
+      ember_demonic_lightning_15: -1611875648853653503
+      ember_demonic_lightning_16: 1260428486108929734
+      ember_demonic_lightning_17: 4511704395929595678
+      ember_demonic_lightning_18: -3440729846501023955
+      ember_demonic_lightning_19: 2355485928689271998
+      ember_demonic_lightning_2: -4432366963568542995
+      ember_demonic_lightning_20: 8703480317542582669
+      ember_demonic_lightning_21: -3847658959221666372
+      ember_demonic_lightning_22: -6096346071095350304
+      ember_demonic_lightning_23: -4157320667548164671
+      ember_demonic_lightning_24: -7938718686076882514
+      ember_demonic_lightning_25: 6671155391190908131
+      ember_demonic_lightning_26: 4478605391216966825
+      ember_demonic_lightning_27: -5468397222300719270
+      ember_demonic_lightning_28: -8917292003698562900
+      ember_demonic_lightning_29: -807663653420685594
+      ember_demonic_lightning_3: 3265696522903615445
+      ember_demonic_lightning_30: -775743143371135670
+      ember_demonic_lightning_31: 1693889459517448440
+      ember_demonic_lightning_32: 3224583934222957662
+      ember_demonic_lightning_33: 2365030811571480199
+      ember_demonic_lightning_34: -1538137246687330667
+      ember_demonic_lightning_35: -4596610112192258267
+      ember_demonic_lightning_36: -8944080044891430625
+      ember_demonic_lightning_37: 5964713955497234339
+      ember_demonic_lightning_38: -6769697423440910441
+      ember_demonic_lightning_39: -4415248970056814927
+      ember_demonic_lightning_4: 2085099132667708740
+      ember_demonic_lightning_40: -474471066057382449
+      ember_demonic_lightning_41: 1327243852296430290
+      ember_demonic_lightning_42: 9109923305438939600
+      ember_demonic_lightning_43: -5697722553009650581
+      ember_demonic_lightning_44: 7919204081021036975
+      ember_demonic_lightning_45: -3377350494367561963
+      ember_demonic_lightning_46: 1658523771860050740
+      ember_demonic_lightning_47: 5594611468487404364
+      ember_demonic_lightning_48: 7329577372336539988
+      ember_demonic_lightning_49: 2160292449863000057
+      ember_demonic_lightning_5: -1362095271103269206
+      ember_demonic_lightning_50: -2172382203813949097
+      ember_demonic_lightning_51: 1050708038723639627
+      ember_demonic_lightning_52: 8498349885853439967
+      ember_demonic_lightning_53: 6782789205305471917
+      ember_demonic_lightning_54: 2909835689432276504
+      ember_demonic_lightning_55: 4505938670926316818
+      ember_demonic_lightning_56: -5423570267663008374
+      ember_demonic_lightning_57: 6606478670951167868
+      ember_demonic_lightning_58: -6012014229070628449
+      ember_demonic_lightning_59: -7628272476894692998
+      ember_demonic_lightning_6: 620919701599889040
+      ember_demonic_lightning_60: 7615006927750207914
+      ember_demonic_lightning_61: 2704757067655930209
+      ember_demonic_lightning_62: -193300260843844148
+      ember_demonic_lightning_63: 1465250302986496794
+      ember_demonic_lightning_64: 4638356435490096955
+      ember_demonic_lightning_65: -8403034298997295249
+      ember_demonic_lightning_66: -1891373944867775713
+      ember_demonic_lightning_67: 2195721201981850348
+      ember_demonic_lightning_68: -4673461467562379037
+      ember_demonic_lightning_69: 7071015021823923457
+      ember_demonic_lightning_7: 7131250758852410369
+      ember_demonic_lightning_70: -5222534124096437047
+      ember_demonic_lightning_71: -6309285088610790710
+      ember_demonic_lightning_72: 3941112261892463300
+      ember_demonic_lightning_73: 3426244827138011239
+      ember_demonic_lightning_74: 8461740736807379466
+      ember_demonic_lightning_75: -4119231502322353068
+      ember_demonic_lightning_76: 8804224548903713425
+      ember_demonic_lightning_77: -6056588255891648209
+      ember_demonic_lightning_78: 4936970779320880696
+      ember_demonic_lightning_79: 6363460250113986112
+      ember_demonic_lightning_8: -8698044603555783167
+      ember_demonic_lightning_80: 6620430893632550950
+      ember_demonic_lightning_81: -7976663328767693605
+      ember_demonic_lightning_82: -5272511339015556427
+      ember_demonic_lightning_83: 1303986482374743737
+      ember_demonic_lightning_84: -1847101860368379254
+      ember_demonic_lightning_85: -2084775499140658009
+      ember_demonic_lightning_86: 1689662022836813845
+      ember_demonic_lightning_87: 5451055012872261471
+      ember_demonic_lightning_88: 9089929677169629518
+      ember_demonic_lightning_89: -8614933661095419983
+      ember_demonic_lightning_9: -6205284678486216549
+      ember_demonic_lightning_90: 7600107497245796924
+      ember_demonic_lightning_91: 7167382112849382218
+      ember_demonic_lightning_92: 6889989429233133801
+      ember_demonic_lightning_93: 6926548181331349507
+      ember_demonic_lightning_94: -6341708125458032708
+      ember_demonic_lightning_95: -113385896476489721
+      ember_demonic_lightning_96: -8598620433174698081
+      ember_demonic_lightning_97: -6165763058461221676
+      ember_demonic_lightning_98: -5324020940992279129
+      ember_demonic_lightning_99: 7744746578931405776
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

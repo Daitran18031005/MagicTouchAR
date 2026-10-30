@@ -19,6 +19,54 @@ namespace MagicTouch.Recognition
             return length > 1f && Vector2.Distance(Pos(points[0]), Pos(points[points.Count - 1])) / length > 0.90f;
         }
 
+        /// <summary>
+        /// Tolerant straight-line test for a hand drawn in the air: one stroke whose points hug a fitted axis (a gentle bow and
+        /// jitter are fine) and whose axis is within <paramref name="maxTiltDegrees"/> of vertical or horizontal.
+        /// </summary>
+        public static bool TryClassifyLine(IReadOnlyList<Point> points, out GestureSymbol symbol, float maxTiltDegrees = 28f)
+        {
+            symbol = GestureSymbol.None;
+            if (points == null || points.Count < 3) return false;
+            int stroke = points[0].StrokeID;
+            float meanX = 0f, meanY = 0f;
+            for (int i = 0; i < points.Count; i++)
+            {
+                if (points[i].StrokeID != stroke) return false;
+                meanX += points[i].X;
+                meanY += points[i].Y;
+            }
+            meanX /= points.Count;
+            meanY /= points.Count;
+            float sxx = 0f, syy = 0f, sxy = 0f;
+            for (int i = 0; i < points.Count; i++)
+            {
+                float dx = points[i].X - meanX, dy = points[i].Y - meanY;
+                sxx += dx * dx; syy += dy * dy; sxy += dx * dy;
+            }
+            // Principal axis of the point cloud.
+            float angle = 0.5f * Mathf.Atan2(2f * sxy, sxx - syy);
+            Vector2 axis = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
+            Vector2 normal = new Vector2(-axis.y, axis.x);
+            float minAlong = float.MaxValue, maxAlong = float.MinValue, maxOff = 0f, sumOff = 0f;
+            for (int i = 0; i < points.Count; i++)
+            {
+                Vector2 d = new Vector2(points[i].X - meanX, points[i].Y - meanY);
+                float along = Vector2.Dot(d, axis), off = Mathf.Abs(Vector2.Dot(d, normal));
+                if (along < minAlong) minAlong = along;
+                if (along > maxAlong) maxAlong = along;
+                if (off > maxOff) maxOff = off;
+                sumOff += off * off;
+            }
+            float extent = maxAlong - minAlong;
+            if (extent < 1f) return false;
+            // A line hugs its axis: no point strays more than 15% of the length, and the typical stray is under 7%.
+            if (maxOff > extent * 0.15f || Mathf.Sqrt(sumOff / points.Count) > extent * 0.07f) return false;
+            float tilt = Mathf.Abs(Mathf.Atan2(Mathf.Abs(axis.y), Mathf.Abs(axis.x)) * Mathf.Rad2Deg); // 0 = horizontal, 90 = vertical
+            if (tilt <= maxTiltDegrees) symbol = GestureSymbol.HorizontalLine;
+            else if (tilt >= 90f - maxTiltDegrees) symbol = GestureSymbol.VerticalLine;
+            return symbol != GestureSymbol.None;
+        }
+
         public static bool CanCommit(IReadOnlyList<Point> points, PRecognitionResult result, PRecognitionResult geometry)
         {
             if (!result.IsMatch || !geometry.IsMatch || result.Symbol != geometry.Symbol || IsStraight(points)) return false;

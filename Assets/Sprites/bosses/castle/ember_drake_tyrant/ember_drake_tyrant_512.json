@@ -1,0 +1,1332 @@
+{
+ "schema": "ember_drake_tyrant.sheet.v1",
+ "name": "ember_drake_tyrant",
+ "frame_size": [
+  512,
+  512
+ ],
+ "pivot": {
+  "mode": "center",
+  "normalized": [
+   0.5,
+   0.5
+  ]
+ },
+ "sheet": {
+  "file": "ember_drake_tyrant_512_sheet.png",
+  "columns": 8,
+  "rows": 7,
+  "size": [
+   4096,
+   3584
+  ],
+  "frame_count": 51,
+  "order": "row-major"
+ },
+ "animations": {
+  "idle": {
+   "frames": [
+    "idle_00",
+    "idle_01",
+    "idle_02",
+    "idle_03",
+    "idle_04",
+    "idle_05"
+   ],
+   "frame_ms": 120,
+   "loop": true
+  },
+  "idle_cracked": {
+   "frames": [
+    "idle_cracked_00",
+    "idle_cracked_01",
+    "idle_cracked_02",
+    "idle_cracked_03",
+    "idle_cracked_04",
+    "idle_cracked_05"
+   ],
+   "frame_ms": 90,
+   "loop": true
+  },
+  "skill_a": {
+   "frames": [
+    "skill_a_00",
+    "skill_a_01",
+    "skill_a_02",
+    "skill_a_03",
+    "skill_a_04",
+    "skill_a_05"
+   ],
+   "frame_ms": 110,
+   "loop": false
+  },
+  "skill_b": {
+   "frames": [
+    "skill_b_00",
+    "skill_b_01",
+    "skill_b_02",
+    "skill_b_03",
+    "skill_b_04",
+    "skill_b_05"
+   ],
+   "frame_ms": 110,
+   "loop": false
+  },
+  "skill_claw_left": {
+   "frames": [
+    "skill_claw_left_00",
+    "skill_claw_left_01",
+    "skill_claw_left_02",
+    "skill_claw_left_03",
+    "skill_claw_left_04"
+   ],
+   "frame_ms": 80,
+   "loop": false
+  },
+  "skill_claw_right": {
+   "frames": [
+    "skill_claw_right_00",
+    "skill_claw_right_01",
+    "skill_claw_right_02",
+    "skill_claw_right_03",
+    "skill_claw_right_04"
+   ],
+   "frame_ms": 80,
+   "loop": false
+  },
+  "skill_slam_down": {
+   "frames": [
+    "skill_slam_down_00",
+    "skill_slam_down_01",
+    "skill_slam_down_02",
+    "skill_slam_down_03",
+    "skill_slam_down_04",
+    "skill_slam_down_05"
+   ],
+   "frame_ms": 110,
+   "loop": false
+  },
+  "hurt": {
+   "frames": [
+    "hurt_00",
+    "hurt_01",
+    "hurt_02"
+   ],
+   "frame_ms": 90,
+   "loop": false
+  },
+  "death": {
+   "frames": [
+    "death_00",
+    "death_01",
+    "death_02",
+    "death_03",
+    "death_04",
+    "death_05",
+    "death_06",
+    "death_07"
+   ],
+   "frame_ms": 120,
+   "loop": false
+  }
+ },
+ "frames": [
+  {
+   "name": "idle_00",
+   "action": "idle",
+   "index": 0,
+   "sheet_index": 0,
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    60,
+    62,
+    452,
+    452
+   ],
+   "duration_ms": 120
+  },
+  {
+   "name": "idle_01",
+   "action": "idle",
+   "index": 1,
+   "sheet_index": 1,
+   "frame": {
+    "x": 512,
+    "y": 0,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    50,
+    92,
+    462,
+    442
+   ],
+   "duration_ms": 120
+  },
+  {
+   "name": "idle_02",
+   "action": "idle",
+   "index": 2,
+   "sheet_index": 2,
+   "frame": {
+    "x": 1024,
+    "y": 0,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    40,
+    92,
+    446,
+    442
+   ],
+   "duration_ms": 120
+  },
+  {
+   "name": "idle_03",
+   "action": "idle",
+   "index": 3,
+   "sheet_index": 3,
+   "frame": {
+    "x": 1536,
+    "y": 0,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    50,
+    78,
+    464,
+    434
+   ],
+   "duration_ms": 120
+  },
+  {
+   "name": "idle_04",
+   "action": "idle",
+   "index": 4,
+   "sheet_index": 4,
+   "frame": {
+    "x": 2048,
+    "y": 0,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    50,
+    48,
+    462,
+    434
+   ],
+   "duration_ms": 120
+  },
+  {
+   "name": "idle_05",
+   "action": "idle",
+   "index": 5,
+   "sheet_index": 5,
+   "frame": {
+    "x": 2560,
+    "y": 0,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    52,
+    46,
+    458,
+    436
+   ],
+   "duration_ms": 120
+  },
+  {
+   "name": "idle_cracked_00",
+   "action": "idle_cracked",
+   "index": 0,
+   "sheet_index": 6,
+   "frame": {
+    "x": 3072,
+    "y": 0,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    56,
+    64,
+    486,
+    458
+   ],
+   "duration_ms": 90
+  },
+  {
+   "name": "idle_cracked_01",
+   "action": "idle_cracked",
+   "index": 1,
+   "sheet_index": 7,
+   "frame": {
+    "x": 3584,
+    "y": 0,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    54,
+    90,
+    462,
+    456
+   ],
+   "duration_ms": 90
+  },
+  {
+   "name": "idle_cracked_02",
+   "action": "idle_cracked",
+   "index": 2,
+   "sheet_index": 8,
+   "frame": {
+    "x": 0,
+    "y": 512,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    44,
+    90,
+    444,
+    452
+   ],
+   "duration_ms": 90
+  },
+  {
+   "name": "idle_cracked_03",
+   "action": "idle_cracked",
+   "index": 3,
+   "sheet_index": 9,
+   "frame": {
+    "x": 512,
+    "y": 512,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    58,
+    60,
+    472,
+    442
+   ],
+   "duration_ms": 90
+  },
+  {
+   "name": "idle_cracked_04",
+   "action": "idle_cracked",
+   "index": 4,
+   "sheet_index": 10,
+   "frame": {
+    "x": 1024,
+    "y": 512,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    44,
+    42,
+    464,
+    442
+   ],
+   "duration_ms": 90
+  },
+  {
+   "name": "idle_cracked_05",
+   "action": "idle_cracked",
+   "index": 5,
+   "sheet_index": 11,
+   "frame": {
+    "x": 1536,
+    "y": 512,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    34,
+    42,
+    454,
+    442
+   ],
+   "duration_ms": 90
+  },
+  {
+   "name": "skill_a_00",
+   "action": "skill_a",
+   "index": 0,
+   "sheet_index": 12,
+   "frame": {
+    "x": 2048,
+    "y": 512,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    58,
+    86,
+    456,
+    448
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "skill_a_01",
+   "action": "skill_a",
+   "index": 1,
+   "sheet_index": 13,
+   "frame": {
+    "x": 2560,
+    "y": 512,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    38,
+    74,
+    474,
+    448
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "skill_a_02",
+   "action": "skill_a",
+   "index": 2,
+   "sheet_index": 14,
+   "frame": {
+    "x": 3072,
+    "y": 512,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    58,
+    86,
+    454,
+    448
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "skill_a_03",
+   "action": "skill_a",
+   "index": 3,
+   "sheet_index": 15,
+   "frame": {
+    "x": 3584,
+    "y": 512,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    42,
+    66,
+    472,
+    436
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "skill_a_04",
+   "action": "skill_a",
+   "index": 4,
+   "sheet_index": 16,
+   "frame": {
+    "x": 0,
+    "y": 1024,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    58,
+    66,
+    452,
+    436
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "skill_a_05",
+   "action": "skill_a",
+   "index": 5,
+   "sheet_index": 17,
+   "frame": {
+    "x": 512,
+    "y": 1024,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    52,
+    66,
+    460,
+    436
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "skill_b_00",
+   "action": "skill_b",
+   "index": 0,
+   "sheet_index": 18,
+   "frame": {
+    "x": 1024,
+    "y": 1024,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    48,
+    56,
+    496,
+    458
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "skill_b_01",
+   "action": "skill_b",
+   "index": 1,
+   "sheet_index": 19,
+   "frame": {
+    "x": 1536,
+    "y": 1024,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    72,
+    46,
+    442,
+    432
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "skill_b_02",
+   "action": "skill_b",
+   "index": 2,
+   "sheet_index": 20,
+   "frame": {
+    "x": 2048,
+    "y": 1024,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    38,
+    86,
+    474,
+    462
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "skill_b_03",
+   "action": "skill_b",
+   "index": 3,
+   "sheet_index": 21,
+   "frame": {
+    "x": 2560,
+    "y": 1024,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    46,
+    84,
+    468,
+    444
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "skill_b_04",
+   "action": "skill_b",
+   "index": 4,
+   "sheet_index": 22,
+   "frame": {
+    "x": 3072,
+    "y": 1024,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    42,
+    86,
+    470,
+    426
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "skill_b_05",
+   "action": "skill_b",
+   "index": 5,
+   "sheet_index": 23,
+   "frame": {
+    "x": 3584,
+    "y": 1024,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    44,
+    38,
+    466,
+    444
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "skill_claw_left_00",
+   "action": "skill_claw_left",
+   "index": 0,
+   "sheet_index": 24,
+   "frame": {
+    "x": 0,
+    "y": 1536,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    50,
+    74,
+    462,
+    456
+   ],
+   "duration_ms": 80
+  },
+  {
+   "name": "skill_claw_left_01",
+   "action": "skill_claw_left",
+   "index": 1,
+   "sheet_index": 25,
+   "frame": {
+    "x": 512,
+    "y": 1536,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    44,
+    54,
+    466,
+    464
+   ],
+   "duration_ms": 80
+  },
+  {
+   "name": "skill_claw_left_02",
+   "action": "skill_claw_left",
+   "index": 2,
+   "sheet_index": 26,
+   "frame": {
+    "x": 1024,
+    "y": 1536,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    44,
+    82,
+    464,
+    464
+   ],
+   "duration_ms": 80
+  },
+  {
+   "name": "skill_claw_left_03",
+   "action": "skill_claw_left",
+   "index": 3,
+   "sheet_index": 27,
+   "frame": {
+    "x": 1536,
+    "y": 1536,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    56,
+    56,
+    466,
+    446
+   ],
+   "duration_ms": 80
+  },
+  {
+   "name": "skill_claw_left_04",
+   "action": "skill_claw_left",
+   "index": 4,
+   "sheet_index": 28,
+   "frame": {
+    "x": 2048,
+    "y": 1536,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    46,
+    56,
+    464,
+    438
+   ],
+   "duration_ms": 80
+  },
+  {
+   "name": "skill_claw_right_00",
+   "action": "skill_claw_right",
+   "index": 0,
+   "sheet_index": 29,
+   "frame": {
+    "x": 2560,
+    "y": 1536,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    50,
+    74,
+    462,
+    456
+   ],
+   "duration_ms": 80
+  },
+  {
+   "name": "skill_claw_right_01",
+   "action": "skill_claw_right",
+   "index": 1,
+   "sheet_index": 30,
+   "frame": {
+    "x": 3072,
+    "y": 1536,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    46,
+    54,
+    468,
+    464
+   ],
+   "duration_ms": 80
+  },
+  {
+   "name": "skill_claw_right_02",
+   "action": "skill_claw_right",
+   "index": 2,
+   "sheet_index": 31,
+   "frame": {
+    "x": 3584,
+    "y": 1536,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    48,
+    82,
+    468,
+    464
+   ],
+   "duration_ms": 80
+  },
+  {
+   "name": "skill_claw_right_03",
+   "action": "skill_claw_right",
+   "index": 3,
+   "sheet_index": 32,
+   "frame": {
+    "x": 0,
+    "y": 2048,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    46,
+    56,
+    456,
+    446
+   ],
+   "duration_ms": 80
+  },
+  {
+   "name": "skill_claw_right_04",
+   "action": "skill_claw_right",
+   "index": 4,
+   "sheet_index": 33,
+   "frame": {
+    "x": 512,
+    "y": 2048,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    48,
+    56,
+    466,
+    438
+   ],
+   "duration_ms": 80
+  },
+  {
+   "name": "skill_slam_down_00",
+   "action": "skill_slam_down",
+   "index": 0,
+   "sheet_index": 34,
+   "frame": {
+    "x": 1024,
+    "y": 2048,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    64,
+    62,
+    456,
+    456
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "skill_slam_down_01",
+   "action": "skill_slam_down",
+   "index": 1,
+   "sheet_index": 35,
+   "frame": {
+    "x": 1536,
+    "y": 2048,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    36,
+    86,
+    478,
+    458
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "skill_slam_down_02",
+   "action": "skill_slam_down",
+   "index": 2,
+   "sheet_index": 36,
+   "frame": {
+    "x": 2048,
+    "y": 2048,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    58,
+    100,
+    454,
+    428
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "skill_slam_down_03",
+   "action": "skill_slam_down",
+   "index": 3,
+   "sheet_index": 37,
+   "frame": {
+    "x": 2560,
+    "y": 2048,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    52,
+    66,
+    466,
+    438
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "skill_slam_down_04",
+   "action": "skill_slam_down",
+   "index": 4,
+   "sheet_index": 38,
+   "frame": {
+    "x": 3072,
+    "y": 2048,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    44,
+    68,
+    468,
+    430
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "skill_slam_down_05",
+   "action": "skill_slam_down",
+   "index": 5,
+   "sheet_index": 39,
+   "frame": {
+    "x": 3584,
+    "y": 2048,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    46,
+    78,
+    464,
+    428
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "hurt_00",
+   "action": "hurt",
+   "index": 0,
+   "sheet_index": 40,
+   "frame": {
+    "x": 0,
+    "y": 2560,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    108,
+    68,
+    436,
+    456
+   ],
+   "duration_ms": 90
+  },
+  {
+   "name": "hurt_01",
+   "action": "hurt",
+   "index": 1,
+   "sheet_index": 41,
+   "frame": {
+    "x": 512,
+    "y": 2560,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    90,
+    70,
+    392,
+    456
+   ],
+   "duration_ms": 90
+  },
+  {
+   "name": "hurt_02",
+   "action": "hurt",
+   "index": 2,
+   "sheet_index": 42,
+   "frame": {
+    "x": 1024,
+    "y": 2560,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    94,
+    56,
+    446,
+    440
+   ],
+   "duration_ms": 90
+  },
+  {
+   "name": "death_00",
+   "action": "death",
+   "index": 0,
+   "sheet_index": 43,
+   "frame": {
+    "x": 1536,
+    "y": 2560,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    60,
+    84,
+    456,
+    436
+   ],
+   "duration_ms": 120
+  },
+  {
+   "name": "death_01",
+   "action": "death",
+   "index": 1,
+   "sheet_index": 44,
+   "frame": {
+    "x": 2048,
+    "y": 2560,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    60,
+    74,
+    452,
+    436
+   ],
+   "duration_ms": 120
+  },
+  {
+   "name": "death_02",
+   "action": "death",
+   "index": 2,
+   "sheet_index": 45,
+   "frame": {
+    "x": 2560,
+    "y": 2560,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    50,
+    76,
+    456,
+    440
+   ],
+   "duration_ms": 120
+  },
+  {
+   "name": "death_03",
+   "action": "death",
+   "index": 3,
+   "sheet_index": 46,
+   "frame": {
+    "x": 3072,
+    "y": 2560,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    46,
+    58,
+    456,
+    450
+   ],
+   "duration_ms": 120
+  },
+  {
+   "name": "death_04",
+   "action": "death",
+   "index": 4,
+   "sheet_index": 47,
+   "frame": {
+    "x": 3584,
+    "y": 2560,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    56,
+    52,
+    464,
+    456
+   ],
+   "duration_ms": 120
+  },
+  {
+   "name": "death_05",
+   "action": "death",
+   "index": 5,
+   "sheet_index": 48,
+   "frame": {
+    "x": 0,
+    "y": 3072,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    52,
+    54,
+    458,
+    440
+   ],
+   "duration_ms": 120
+  },
+  {
+   "name": "death_06",
+   "action": "death",
+   "index": 6,
+   "sheet_index": 49,
+   "frame": {
+    "x": 512,
+    "y": 3072,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    56,
+    140,
+    458,
+    438
+   ],
+   "duration_ms": 120
+  },
+  {
+   "name": "death_07",
+   "action": "death",
+   "index": 7,
+   "sheet_index": 50,
+   "frame": {
+    "x": 1024,
+    "y": 3072,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    62,
+    332,
+    450,
+    436
+   ],
+   "duration_ms": 120
+  }
+ ],
+ "projectiles": {
+  "file": "ember_drake_tyrant_projectiles.png",
+  "cell": [
+   128,
+   128
+  ],
+  "columns": 5,
+  "rows": 3,
+  "frames": [
+   {
+    "name": "fireball_down_00",
+    "effect": "fireball_down",
+    "index": 0,
+    "frame": {
+     "x": 0,
+     "y": 0,
+     "w": 128,
+     "h": 128
+    },
+    "trimmed_bbox": [
+     46,
+     16,
+     90,
+     114
+    ],
+    "duration_ms": 80
+   },
+   {
+    "name": "fireball_down_01",
+    "effect": "fireball_down",
+    "index": 1,
+    "frame": {
+     "x": 128,
+     "y": 0,
+     "w": 128,
+     "h": 128
+    },
+    "trimmed_bbox": [
+     46,
+     14,
+     88,
+     114
+    ],
+    "duration_ms": 80
+   },
+   {
+    "name": "fireball_down_02",
+    "effect": "fireball_down",
+    "index": 2,
+    "frame": {
+     "x": 256,
+     "y": 0,
+     "w": 128,
+     "h": 128
+    },
+    "trimmed_bbox": [
+     40,
+     12,
+     86,
+     114
+    ],
+    "duration_ms": 80
+   },
+   {
+    "name": "fireball_down_03",
+    "effect": "fireball_down",
+    "index": 3,
+    "frame": {
+     "x": 384,
+     "y": 0,
+     "w": 128,
+     "h": 128
+    },
+    "trimmed_bbox": [
+     40,
+     14,
+     88,
+     114
+    ],
+    "duration_ms": 80
+   },
+   {
+    "name": "ground_spike_00",
+    "effect": "ground_spike",
+    "index": 0,
+    "frame": {
+     "x": 0,
+     "y": 128,
+     "w": 128,
+     "h": 128
+    },
+    "trimmed_bbox": [
+     22,
+     80,
+     112,
+     112
+    ],
+    "duration_ms": 80
+   },
+   {
+    "name": "ground_spike_01",
+    "effect": "ground_spike",
+    "index": 1,
+    "frame": {
+     "x": 128,
+     "y": 128,
+     "w": 128,
+     "h": 128
+    },
+    "trimmed_bbox": [
+     22,
+     48,
+     112,
+     112
+    ],
+    "duration_ms": 80
+   },
+   {
+    "name": "ground_spike_02",
+    "effect": "ground_spike",
+    "index": 2,
+    "frame": {
+     "x": 256,
+     "y": 128,
+     "w": 128,
+     "h": 128
+    },
+    "trimmed_bbox": [
+     18,
+     14,
+     108,
+     114
+    ],
+    "duration_ms": 80
+   },
+   {
+    "name": "ground_spike_03",
+    "effect": "ground_spike",
+    "index": 3,
+    "frame": {
+     "x": 384,
+     "y": 128,
+     "w": 128,
+     "h": 128
+    },
+    "trimmed_bbox": [
+     16,
+     16,
+     108,
+     114
+    ],
+    "duration_ms": 80
+   },
+   {
+    "name": "ground_spike_04",
+    "effect": "ground_spike",
+    "index": 4,
+    "frame": {
+     "x": 512,
+     "y": 128,
+     "w": 128,
+     "h": 128
+    },
+    "trimmed_bbox": [
+     18,
+     34,
+     106,
+     114
+    ],
+    "duration_ms": 80
+   },
+   {
+    "name": "claw_slash_00",
+    "effect": "claw_slash",
+    "index": 0,
+    "frame": {
+     "x": 0,
+     "y": 256,
+     "w": 128,
+     "h": 128
+    },
+    "trimmed_bbox": [
+     30,
+     18,
+     96,
+     74
+    ],
+    "duration_ms": 80
+   },
+   {
+    "name": "claw_slash_01",
+    "effect": "claw_slash",
+    "index": 1,
+    "frame": {
+     "x": 128,
+     "y": 256,
+     "w": 128,
+     "h": 128
+    },
+    "trimmed_bbox": [
+     22,
+     14,
+     112,
+     104
+    ],
+    "duration_ms": 80
+   },
+   {
+    "name": "claw_slash_02",
+    "effect": "claw_slash",
+    "index": 2,
+    "frame": {
+     "x": 256,
+     "y": 256,
+     "w": 128,
+     "h": 128
+    },
+    "trimmed_bbox": [
+     22,
+     20,
+     108,
+     102
+    ],
+    "duration_ms": 80
+   }
+  ]
+ },
+ "palette": "ember_drake_tyrant_palette.json"
+}

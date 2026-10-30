@@ -1,0 +1,567 @@
+{
+ "name": "Berserk Robot",
+ "image": "berserk_robot_sheet.png",
+ "frame_size": [
+  64,
+  64
+ ],
+ "layout": "horizontal_strip",
+ "sheet_size": [
+  1024,
+  64
+ ],
+ "pixel_scale_hint": 4,
+ "center_x": 32.0,
+ "pivot_px": [
+  32,
+  61
+ ],
+ "balloon_attach_note": "Two strings rise symmetrically from a knot centred on x=32.0 (between pixel columns 31 and 32). Put the balloon sprite bottom-centre on balloon_attach_px of the current frame. balloon_attach_px is null on death frames where the balloon has let go.",
+ "frames": [
+  {
+   "name": "idle_0",
+   "x": 0,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    6.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    8,
+    1,
+    56,
+    63
+   ]
+  },
+  {
+   "name": "idle_1",
+   "x": 64,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    4.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    7,
+    1,
+    57,
+    63
+   ]
+  },
+  {
+   "name": "idle_2",
+   "x": 128,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    6.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    8,
+    1,
+    56,
+    63
+   ]
+  },
+  {
+   "name": "idle_3",
+   "x": 192,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    6.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    8,
+    1,
+    56,
+    63
+   ]
+  },
+  {
+   "name": "idle_cracked_0",
+   "x": 256,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    6.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    8,
+    1,
+    56,
+    63
+   ]
+  },
+  {
+   "name": "idle_cracked_1",
+   "x": 320,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    4.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    7,
+    1,
+    57,
+    63
+   ]
+  },
+  {
+   "name": "idle_cracked_2",
+   "x": 384,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    6.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    8,
+    1,
+    56,
+    63
+   ]
+  },
+  {
+   "name": "idle_cracked_3",
+   "x": 448,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    6.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    8,
+    1,
+    56,
+    63
+   ]
+  },
+  {
+   "name": "hurt_0",
+   "x": 512,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    7.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    7,
+    1,
+    59,
+    63
+   ]
+  },
+  {
+   "name": "hurt_1",
+   "x": 576,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    10.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    4,
+    1,
+    55,
+    63
+   ]
+  },
+  {
+   "name": "hurt_2",
+   "x": 640,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    9.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    8,
+    1,
+    58,
+    63
+   ]
+  },
+  {
+   "name": "hurt_3",
+   "x": 704,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    6.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    8,
+    1,
+    56,
+    63
+   ]
+  },
+  {
+   "name": "death_0",
+   "x": 768,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    7.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    10,
+    1,
+    57,
+    63
+   ]
+  },
+  {
+   "name": "death_1",
+   "x": 832,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": [
+    32.0,
+    14.0
+   ],
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    9,
+    1,
+    60,
+    63
+   ]
+  },
+  {
+   "name": "death_2",
+   "x": 896,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": null,
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    4,
+    19,
+    60,
+    63
+   ]
+  },
+  {
+   "name": "death_3",
+   "x": 960,
+   "y": 0,
+   "w": 64,
+   "h": 64,
+   "balloon_attach_px": null,
+   "pivot_px": [
+    32,
+    61
+   ],
+   "bbox_px": [
+    5,
+    31,
+    59,
+    63
+   ]
+  }
+ ],
+ "animations": {
+  "idle": {
+   "frames": [
+    "idle_0",
+    "idle_1",
+    "idle_2",
+    "idle_3"
+   ],
+   "duration_ms": [
+    150,
+    150,
+    150,
+    150
+   ],
+   "loop": true
+  },
+  "idle_cracked": {
+   "frames": [
+    "idle_cracked_0",
+    "idle_cracked_1",
+    "idle_cracked_2",
+    "idle_cracked_3"
+   ],
+   "duration_ms": [
+    150,
+    150,
+    150,
+    150
+   ],
+   "loop": true
+  },
+  "hurt": {
+   "frames": [
+    "hurt_0",
+    "hurt_1",
+    "hurt_2",
+    "hurt_3"
+   ],
+   "duration_ms": [
+    80,
+    110,
+    110,
+    140
+   ],
+   "loop": false
+  },
+  "death": {
+   "frames": [
+    "death_0",
+    "death_1",
+    "death_2",
+    "death_3"
+   ],
+   "duration_ms": [
+    90,
+    80,
+    90,
+    110
+   ],
+   "loop": false
+  }
+ },
+ "palette": {
+  "s": "#a0a4a8",
+  "i": "#d7cbb1",
+  "X": "#ffb030",
+  "d": "#2b2b44",
+  "l": "#988d80",
+  "h": "#40202c",
+  "p": "#aa8167",
+  "b": "#6f7680",
+  "r": "#f3cc6d",
+  "y": "#ffc19a",
+  "q": "#967867",
+  "f": "#944e32",
+  "Z": "#a8161e",
+  "j": "#b0a796",
+  "k": "#1b1512",
+  "c": "#434759",
+  "g": "#64312c",
+  "Y": "#ff3a2a",
+  "e": "#cc7b40",
+  "n": "#e3aa72",
+  "o": "#c4916b",
+  "m": "#8a7e75",
+  "a": "#b7b8b1",
+  "H": "#eaba36",
+  "W": "#ffffff",
+  "w": "#dcdce8",
+  "v": "#a4a4bc"
+ },
+ "art_source": "Codex CLI image generation (64x64 pixel-native), then idle/idle_cracked/hurt rigged in code for part, colour, brightness and balloon-string sway",
+ "sheet_4x4": {
+  "image": "berserk_robot_sheet_4x4.png",
+  "sheet_size": [
+   256,
+   256
+  ],
+  "columns": 4,
+  "rows": 4,
+  "frames": [
+   {
+    "name": "idle_0",
+    "x": 0,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "idle_1",
+    "x": 64,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "idle_2",
+    "x": 128,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "idle_3",
+    "x": 192,
+    "y": 0,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "idle_cracked_0",
+    "x": 0,
+    "y": 64,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "idle_cracked_1",
+    "x": 64,
+    "y": 64,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "idle_cracked_2",
+    "x": 128,
+    "y": 64,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "idle_cracked_3",
+    "x": 192,
+    "y": 64,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "hurt_0",
+    "x": 0,
+    "y": 128,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "hurt_1",
+    "x": 64,
+    "y": 128,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "hurt_2",
+    "x": 128,
+    "y": 128,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "hurt_3",
+    "x": 192,
+    "y": 128,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "death_0",
+    "x": 0,
+    "y": 192,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "death_1",
+    "x": 64,
+    "y": 192,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "death_2",
+    "x": 128,
+    "y": 192,
+    "w": 64,
+    "h": 64
+   },
+   {
+    "name": "death_3",
+    "x": 192,
+    "y": 192,
+    "w": 64,
+    "h": 64
+   }
+  ]
+ }
+}

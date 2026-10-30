@@ -1,0 +1,1560 @@
+fileFormatVersion: 2
+guid: c2e4957eecd6676429bca06ed30a16fb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2793167392995103769
+    second: ember_drake_tyrant_skills_sheet_0
+  - first:
+      213: 1388234249874822434
+    second: ember_drake_tyrant_skills_sheet_1
+  - first:
+      213: -3956549431914508521
+    second: ember_drake_tyrant_skills_sheet_2
+  - first:
+      213: -5860557666979549631
+    second: ember_drake_tyrant_skills_sheet_3
+  - first:
+      213: 3528477347558836595
+    second: ember_drake_tyrant_skills_sheet_4
+  - first:
+      213: 2663856672307619355
+    second: ember_drake_tyrant_skills_sheet_5
+  - first:
+      213: 7883376060459640066
+    second: ember_drake_tyrant_skills_sheet_6
+  - first:
+      213: 3882693078781974832
+    second: ember_drake_tyrant_skills_sheet_7
+  - first:
+      213: 1389928164507901820
+    second: ember_drake_tyrant_skills_sheet_8
+  - first:
+      213: 3436928259541113083
+    second: ember_drake_tyrant_skills_sheet_9
+  - first:
+      213: 5756198305576803060
+    second: ember_drake_tyrant_skills_sheet_10
+  - first:
+      213: -29328703793768115
+    second: ember_drake_tyrant_skills_sheet_11
+  - first:
+      213: -943028410282062162
+    second: ember_drake_tyrant_skills_sheet_12
+  - first:
+      213: 89232612873631540
+    second: ember_drake_tyrant_skills_sheet_13
+  - first:
+      213: 7132064622728961819
+    second: ember_drake_tyrant_skills_sheet_14
+  - first:
+      213: 672448340089375373
+    second: ember_drake_tyrant_skills_sheet_15
+  - first:
+      213: 3415799458562994099
+    second: ember_drake_tyrant_skills_sheet_16
+  - first:
+      213: 2413274170639555510
+    second: ember_drake_tyrant_skills_sheet_17
+  - first:
+      213: -8910231074001744274
+    second: ember_drake_tyrant_skills_sheet_18
+  - first:
+      213: 8353752669511882567
+    second: ember_drake_tyrant_skills_sheet_19
+  - first:
+      213: -729431733126597854
+    second: ember_drake_tyrant_skills_sheet_20
+  - first:
+      213: 8885284171651127885
+    second: ember_drake_tyrant_skills_sheet_21
+  - first:
+      213: 7755280317994383456
+    second: ember_drake_tyrant_skills_sheet_22
+  - first:
+      213: 2259800020637332067
+    second: ember_drake_tyrant_skills_sheet_23
+  - first:
+      213: -7900679247102889409
+    second: ember_drake_tyrant_skills_sheet_24
+  - first:
+      213: -2228307529494289197
+    second: ember_drake_tyrant_skills_sheet_25
+  - first:
+      213: -9208665911572365436
+    second: ember_drake_tyrant_skills_sheet_26
+  - first:
+      213: -8461419339287627788
+    second: ember_drake_tyrant_skills_sheet_27
+  - first:
+      213: 5066115058174478816
+    second: ember_drake_tyrant_skills_sheet_28
+  - first:
+      213: 7657545389242878468
+    second: ember_drake_tyrant_skills_sheet_29
+  - first:
+      213: 8354063534439834515
+    second: ember_drake_tyrant_skills_sheet_30
+  - first:
+      213: 6726989416214324814
+    second: ember_drake_tyrant_skills_sheet_31
+  - first:
+      213: -2842012977284699352
+    second: ember_drake_tyrant_skills_sheet_32
+  - first:
+      213: -8868685565796647257
+    second: ember_drake_tyrant_skills_sheet_33
+  - first:
+      213: 2015888965753803415
+    second: ember_drake_tyrant_skills_sheet_34
+  - first:
+      213: -1747477921385553991
+    second: ember_drake_tyrant_skills_sheet_35
+  - first:
+      213: -7914258178646925012
+    second: ember_drake_tyrant_skills_sheet_36
+  - first:
+      213: -6197382349860653449
+    second: ember_drake_tyrant_skills_sheet_37
+  - first:
+      213: 8031270889297526860
+    second: ember_drake_tyrant_skills_sheet_38
+  - first:
+      213: -6311177622473304616
+    second: ember_drake_tyrant_skills_sheet_39
+  - first:
+      213: 4412254783342471814
+    second: ember_drake_tyrant_skills_sheet_40
+  - first:
+      213: 7096833932456967264
+    second: ember_drake_tyrant_skills_sheet_41
+  - first:
+      213: -3070628431029912812
+    second: ember_drake_tyrant_skills_sheet_42
+  - first:
+      213: 2780790162838766452
+    second: ember_drake_tyrant_skills_sheet_43
+  - first:
+      213: 2685148803434011760
+    second: ember_drake_tyrant_skills_sheet_44
+  - first:
+      213: -1327866531714749230
+    second: ember_drake_tyrant_skills_sheet_45
+  - first:
+      213: -49323431094975478
+    second: ember_drake_tyrant_skills_sheet_46
+  - first:
+      213: 9112321740677435427
+    second: ember_drake_tyrant_skills_sheet_47
+  - first:
+      213: 966712543568772252
+    second: ember_drake_tyrant_skills_sheet_48
+  - first:
+      213: -5827616121524646252
+    second: ember_drake_tyrant_skills_sheet_49
+  - first:
+      213: 7978028853874559291
+    second: ember_drake_tyrant_skills_sheet_50
+  - first:
+      213: 3094959845456230029
+    second: ember_drake_tyrant_skills_sheet_51
+  - first:
+      213: 22678568761590102
+    second: ember_drake_tyrant_skills_sheet_52
+  - first:
+      213: -3288571835892440590
+    second: ember_drake_tyrant_skills_sheet_53
+  - first:
+      213: -5589525398866524885
+    second: ember_drake_tyrant_skills_sheet_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 3135
+        width: 400
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9145da1f1f253c620800000000000000
+      internalID: 2793167392995103769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 3139
+        width: 412
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 225d1d0f1bff34310800000000000000
+      internalID: 1388234249874822434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 3135
+        width: 438
+        height: 376
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f467e11438719c0800000000000000
+      internalID: -3956549431914508521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 3139
+        width: 414
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14eedf93add1baea0800000000000000
+      internalID: -5860557666979549631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 3135
+        width: 398
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 379c143f37ba7f030800000000000000
+      internalID: 3528477347558836595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2611
+        y: 3145
+        width: 410
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16237d978be7f420800000000000000
+      internalID: 2663856672307619355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 3147
+        width: 432
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 205e38252c0676d60800000000000000
+      internalID: 7883376060459640066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 3153
+        width: 412
+        height: 360
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 039daa4a8c812e530800000000000000
+      internalID: 3882693078781974832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 2635
+        width: 396
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7fddcc2d440a4310800000000000000
+      internalID: 1389928164507901820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 2645
+        width: 408
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf8137cda0c62bf20800000000000000
+      internalID: 3436928259541113083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 2635
+        width: 410
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa5c9c7cdf12ef40800000000000000
+      internalID: 5756198305576803060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 2613
+        width: 450
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4956a403bdc79ff0800000000000000
+      internalID: -29328703793768115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 2633
+        width: 412
+        height: 382
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae490048a0b9e2f0800000000000000
+      internalID: -943028410282062162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2631
+        y: 2639
+        width: 372
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43776b0b6940d3100800000000000000
+      internalID: 89232612873631540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3133
+        y: 2623
+        width: 390
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1fd3e0bcfe2af260800000000000000
+      internalID: 7132064622728961819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3621
+        y: 2609
+        width: 438
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8a04d8d334055900800000000000000
+      internalID: 672448340089375373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2105
+        width: 414
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bf6e97828b576f20800000000000000
+      internalID: 3415799458562994099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 2115
+        width: 424
+        height: 362
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb9896721cad7120800000000000000
+      internalID: 2413274170639555510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 2123
+        width: 406
+        height: 354
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e8a7feb00885480800000000000000
+      internalID: -8910231074001744274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1577
+        y: 2133
+        width: 430
+        height: 342
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7471ab7facd7ee370800000000000000
+      internalID: 8353752669511882567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 2117
+        width: 398
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223771314b980e5f0800000000000000
+      internalID: -729431733126597854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2603
+        y: 2115
+        width: 424
+        height: 408
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a9aabb0eede4b70800000000000000
+      internalID: 8885284171651127885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 3121
+        y: 2103
+        width: 414
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06832a72c5a40ab60800000000000000
+      internalID: 7755280317994383456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 3631
+        y: 2107
+        width: 418
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3623285552c6c5f10800000000000000
+      internalID: 2259800020637332067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1583
+        width: 424
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32b12895162b5290800000000000000
+      internalID: -7900679247102889409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 1593
+        width: 430
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d42a26ab167311e0800000000000000
+      internalID: -2228307529494289197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1583
+        width: 422
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ffa7d942f343080800000000000000
+      internalID: -9208665911572365436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 1601
+        width: 422
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7f32201fff29a80800000000000000
+      internalID: -8461419339287627788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 1601
+        width: 412
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e94fb1ddc47e4640800000000000000
+      internalID: 5066115058174478816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 2613
+        y: 1609
+        width: 412
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a8049c5f0154a60800000000000000
+      internalID: 7657545389242878468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 3117
+        y: 1609
+        width: 420
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 393a459d5889fe370800000000000000
+      internalID: 8354063534439834515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 3635
+        y: 1605
+        width: 410
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e466441ab311b5d50800000000000000
+      internalID: 6726989416214324814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1081
+        width: 406
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b25e931442f88d0800000000000000
+      internalID: -2842012977284699352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 1079
+        width: 414
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae7e0a57791ce480800000000000000
+      internalID: -8868685565796647257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 1083
+        width: 418
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792926e6550e9fb10800000000000000
+      internalID: 2015888965753803415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 1071
+        width: 424
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bfd9fac616bfb7e0800000000000000
+      internalID: -1747477921385553991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 1081
+        width: 430
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2125093e18ea2290800000000000000
+      internalID: -7914258178646925012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 2607
+        y: 1071
+        width: 422
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 776b74386997ef9a0800000000000000
+      internalID: -6197382349860653449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 3117
+        y: 1089
+        width: 422
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40c383825ec47f60800000000000000
+      internalID: 8031270889297526860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 3629
+        y: 1089
+        width: 412
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d59512f3613a68a0800000000000000
+      internalID: -6311177622473304616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 585
+        width: 412
+        height: 378
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68a65ab295a7b3d30800000000000000
+      internalID: 4412254783342471814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 585
+        width: 420
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c39066cd40d7260800000000000000
+      internalID: 7096833932456967264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 581
+        width: 410
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b3f3bf5bfe265d0800000000000000
+      internalID: -3070628431029912812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 569
+        width: 406
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 473c7ea7be9579620800000000000000
+      internalID: 2780790162838766452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 567
+        width: 394
+        height: 396
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07cdfb53c90934520800000000000000
+      internalID: 2685148803434011760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 569
+        width: 408
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc230cbc68729de0800000000000000
+      internalID: -1327866531714749230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 565
+        width: 444
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a040b7ac994c05ff0800000000000000
+      internalID: -49323431094975478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 3631
+        y: 587
+        width: 418
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320d5201858757e70800000000000000
+      internalID: 9112321740677435427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 83
+        width: 398
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cb45fbfe37a6d00800000000000000
+      internalID: 966712543568772252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 91
+        width: 426
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e0f257306202fa0800000000000000
+      internalID: -5827616121524646252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 73
+        width: 416
+        height: 374
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b39820329f6a7be60800000000000000
+      internalID: 7978028853874559291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 79
+        width: 410
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d863486e49183fa20800000000000000
+      internalID: 3094959845456230029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 81
+        width: 426
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6518c03c902905000800000000000000
+      internalID: 22678568761590102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 2609
+        y: 87
+        width: 414
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f1e64fb655ac52d0800000000000000
+      internalID: -3288571835892440590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_skills_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 3117
+        y: 83
+        width: 420
+        height: 352
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b258989a3440e62b0800000000000000
+      internalID: -5589525398866524885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ember_drake_tyrant_skills_sheet_0: 2793167392995103769
+      ember_drake_tyrant_skills_sheet_1: 1388234249874822434
+      ember_drake_tyrant_skills_sheet_10: 5756198305576803060
+      ember_drake_tyrant_skills_sheet_11: -29328703793768115
+      ember_drake_tyrant_skills_sheet_12: -943028410282062162
+      ember_drake_tyrant_skills_sheet_13: 89232612873631540
+      ember_drake_tyrant_skills_sheet_14: 7132064622728961819
+      ember_drake_tyrant_skills_sheet_15: 672448340089375373
+      ember_drake_tyrant_skills_sheet_16: 3415799458562994099
+      ember_drake_tyrant_skills_sheet_17: 2413274170639555510
+      ember_drake_tyrant_skills_sheet_18: -8910231074001744274
+      ember_drake_tyrant_skills_sheet_19: 8353752669511882567
+      ember_drake_tyrant_skills_sheet_2: -3956549431914508521
+      ember_drake_tyrant_skills_sheet_20: -729431733126597854
+      ember_drake_tyrant_skills_sheet_21: 8885284171651127885
+      ember_drake_tyrant_skills_sheet_22: 7755280317994383456
+      ember_drake_tyrant_skills_sheet_23: 2259800020637332067
+      ember_drake_tyrant_skills_sheet_24: -7900679247102889409
+      ember_drake_tyrant_skills_sheet_25: -2228307529494289197
+      ember_drake_tyrant_skills_sheet_26: -9208665911572365436
+      ember_drake_tyrant_skills_sheet_27: -8461419339287627788
+      ember_drake_tyrant_skills_sheet_28: 5066115058174478816
+      ember_drake_tyrant_skills_sheet_29: 7657545389242878468
+      ember_drake_tyrant_skills_sheet_3: -5860557666979549631
+      ember_drake_tyrant_skills_sheet_30: 8354063534439834515
+      ember_drake_tyrant_skills_sheet_31: 6726989416214324814
+      ember_drake_tyrant_skills_sheet_32: -2842012977284699352
+      ember_drake_tyrant_skills_sheet_33: -8868685565796647257
+      ember_drake_tyrant_skills_sheet_34: 2015888965753803415
+      ember_drake_tyrant_skills_sheet_35: -1747477921385553991
+      ember_drake_tyrant_skills_sheet_36: -7914258178646925012
+      ember_drake_tyrant_skills_sheet_37: -6197382349860653449
+      ember_drake_tyrant_skills_sheet_38: 8031270889297526860
+      ember_drake_tyrant_skills_sheet_39: -6311177622473304616
+      ember_drake_tyrant_skills_sheet_4: 3528477347558836595
+      ember_drake_tyrant_skills_sheet_40: 4412254783342471814
+      ember_drake_tyrant_skills_sheet_41: 7096833932456967264
+      ember_drake_tyrant_skills_sheet_42: -3070628431029912812
+      ember_drake_tyrant_skills_sheet_43: 2780790162838766452
+      ember_drake_tyrant_skills_sheet_44: 2685148803434011760
+      ember_drake_tyrant_skills_sheet_45: -1327866531714749230
+      ember_drake_tyrant_skills_sheet_46: -49323431094975478
+      ember_drake_tyrant_skills_sheet_47: 9112321740677435427
+      ember_drake_tyrant_skills_sheet_48: 966712543568772252
+      ember_drake_tyrant_skills_sheet_49: -5827616121524646252
+      ember_drake_tyrant_skills_sheet_5: 2663856672307619355
+      ember_drake_tyrant_skills_sheet_50: 7978028853874559291
+      ember_drake_tyrant_skills_sheet_51: 3094959845456230029
+      ember_drake_tyrant_skills_sheet_52: 22678568761590102
+      ember_drake_tyrant_skills_sheet_53: -3288571835892440590
+      ember_drake_tyrant_skills_sheet_54: -5589525398866524885
+      ember_drake_tyrant_skills_sheet_6: 7883376060459640066
+      ember_drake_tyrant_skills_sheet_7: 3882693078781974832
+      ember_drake_tyrant_skills_sheet_8: 1389928164507901820
+      ember_drake_tyrant_skills_sheet_9: 3436928259541113083
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

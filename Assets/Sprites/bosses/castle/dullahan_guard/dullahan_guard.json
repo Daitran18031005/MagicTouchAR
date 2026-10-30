@@ -1,0 +1,835 @@
+{
+ "schema": "dullahan_guard.sheet.v1",
+ "name": "dullahan_guard",
+ "title": "Dread General Dullahan Guard",
+ "frame_size": [
+  512,
+  512
+ ],
+ "pivot": {
+  "mode": "bottom-center",
+  "px": [
+   256,
+   480
+  ],
+  "normalized_from_bottom_left": [
+   0.5,
+   0.0625
+  ],
+  "note": "feet baseline sits 32 px above the frame bottom"
+ },
+ "sheet": {
+  "file": "dullahan_guard_spritesheet.png",
+  "columns": 8,
+  "rows": 4,
+  "size": [
+   4096,
+   2048
+  ],
+  "frame_count": 24,
+  "order": "row-major"
+ },
+ "animations": {
+  "idle": {
+   "frames": [
+    "idle_00",
+    "idle_01",
+    "idle_02",
+    "idle_03"
+   ],
+   "frame_ms": [
+    150,
+    150,
+    150,
+    150
+   ],
+   "loop": true
+  },
+  "attack_helmet_toss": {
+   "frames": [
+    "attack_helmet_toss_00",
+    "attack_helmet_toss_01",
+    "attack_helmet_toss_02",
+    "attack_helmet_toss_03",
+    "attack_helmet_toss_04",
+    "attack_helmet_toss_05",
+    "attack_helmet_toss_06"
+   ],
+   "frame_ms": [
+    140,
+    140,
+    90,
+    120,
+    150,
+    110,
+    140
+   ],
+   "loop": false
+  },
+  "attack_cross_slash": {
+   "frames": [
+    "attack_cross_slash_00",
+    "attack_cross_slash_01",
+    "attack_cross_slash_02",
+    "attack_cross_slash_03",
+    "attack_cross_slash_04",
+    "attack_cross_slash_05"
+   ],
+   "frame_ms": [
+    170,
+    170,
+    90,
+    90,
+    130,
+    170
+   ],
+   "loop": false
+  },
+  "hurt": {
+   "frames": [
+    "hurt_00",
+    "hurt_01"
+   ],
+   "frame_ms": [
+    110,
+    110
+   ],
+   "loop": false
+  },
+  "death": {
+   "frames": [
+    "death_00",
+    "death_01",
+    "death_02",
+    "death_03",
+    "death_04"
+   ],
+   "frame_ms": [
+    140,
+    140,
+    150,
+    170,
+    320
+   ],
+   "loop": false
+  }
+ },
+ "frames": [
+  {
+   "name": "idle_00",
+   "action": "idle",
+   "index": 0,
+   "sheet_index": 0,
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    96,
+    156,
+    394,
+    478
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 150
+  },
+  {
+   "name": "idle_01",
+   "action": "idle",
+   "index": 1,
+   "sheet_index": 1,
+   "frame": {
+    "x": 512,
+    "y": 0,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    78,
+    158,
+    404,
+    478
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 150
+  },
+  {
+   "name": "idle_02",
+   "action": "idle",
+   "index": 2,
+   "sheet_index": 2,
+   "frame": {
+    "x": 1024,
+    "y": 0,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    98,
+    148,
+    422,
+    474
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 150
+  },
+  {
+   "name": "idle_03",
+   "action": "idle",
+   "index": 3,
+   "sheet_index": 3,
+   "frame": {
+    "x": 1536,
+    "y": 0,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    98,
+    150,
+    402,
+    474
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 150
+  },
+  {
+   "name": "attack_helmet_toss_00",
+   "action": "attack_helmet_toss",
+   "index": 0,
+   "sheet_index": 4,
+   "frame": {
+    "x": 2048,
+    "y": 0,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    148,
+    178,
+    476,
+    492
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 140
+  },
+  {
+   "name": "attack_helmet_toss_01",
+   "action": "attack_helmet_toss",
+   "index": 1,
+   "sheet_index": 5,
+   "frame": {
+    "x": 2560,
+    "y": 0,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    154,
+    142,
+    452,
+    496
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 140
+  },
+  {
+   "name": "attack_helmet_toss_02",
+   "action": "attack_helmet_toss",
+   "index": 2,
+   "sheet_index": 6,
+   "frame": {
+    "x": 3072,
+    "y": 0,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    144,
+    260,
+    486,
+    490
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 90
+  },
+  {
+   "name": "attack_helmet_toss_03",
+   "action": "attack_helmet_toss",
+   "index": 3,
+   "sheet_index": 7,
+   "frame": {
+    "x": 3584,
+    "y": 0,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    144,
+    156,
+    486,
+    474
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 120
+  },
+  {
+   "name": "attack_helmet_toss_04",
+   "action": "attack_helmet_toss",
+   "index": 4,
+   "sheet_index": 8,
+   "frame": {
+    "x": 0,
+    "y": 512,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    170,
+    132,
+    454,
+    476
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 150
+  },
+  {
+   "name": "attack_helmet_toss_05",
+   "action": "attack_helmet_toss",
+   "index": 5,
+   "sheet_index": 9,
+   "frame": {
+    "x": 512,
+    "y": 512,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    156,
+    210,
+    460,
+    478
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "attack_helmet_toss_06",
+   "action": "attack_helmet_toss",
+   "index": 6,
+   "sheet_index": 10,
+   "frame": {
+    "x": 1024,
+    "y": 512,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    148,
+    172,
+    442,
+    472
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 140
+  },
+  {
+   "name": "attack_cross_slash_00",
+   "action": "attack_cross_slash",
+   "index": 0,
+   "sheet_index": 11,
+   "frame": {
+    "x": 1536,
+    "y": 512,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    86,
+    168,
+    426,
+    476
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 170
+  },
+  {
+   "name": "attack_cross_slash_01",
+   "action": "attack_cross_slash",
+   "index": 1,
+   "sheet_index": 12,
+   "frame": {
+    "x": 2048,
+    "y": 512,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    82,
+    158,
+    422,
+    478
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 170
+  },
+  {
+   "name": "attack_cross_slash_02",
+   "action": "attack_cross_slash",
+   "index": 2,
+   "sheet_index": 13,
+   "frame": {
+    "x": 2560,
+    "y": 512,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    70,
+    220,
+    422,
+    478
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 90
+  },
+  {
+   "name": "attack_cross_slash_03",
+   "action": "attack_cross_slash",
+   "index": 3,
+   "sheet_index": 14,
+   "frame": {
+    "x": 3072,
+    "y": 512,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    80,
+    136,
+    424,
+    480
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 90
+  },
+  {
+   "name": "attack_cross_slash_04",
+   "action": "attack_cross_slash",
+   "index": 4,
+   "sheet_index": 15,
+   "frame": {
+    "x": 3584,
+    "y": 512,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    80,
+    172,
+    422,
+    466
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 130
+  },
+  {
+   "name": "attack_cross_slash_05",
+   "action": "attack_cross_slash",
+   "index": 5,
+   "sheet_index": 16,
+   "frame": {
+    "x": 0,
+    "y": 1024,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    76,
+    152,
+    400,
+    474
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 170
+  },
+  {
+   "name": "hurt_00",
+   "action": "hurt",
+   "index": 0,
+   "sheet_index": 17,
+   "frame": {
+    "x": 512,
+    "y": 1024,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    154,
+    174,
+    482,
+    474
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "hurt_01",
+   "action": "hurt",
+   "index": 1,
+   "sheet_index": 18,
+   "frame": {
+    "x": 1024,
+    "y": 1024,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    152,
+    166,
+    490,
+    478
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 110
+  },
+  {
+   "name": "death_00",
+   "action": "death",
+   "index": 0,
+   "sheet_index": 19,
+   "frame": {
+    "x": 1536,
+    "y": 1024,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    102,
+    168,
+    414,
+    476
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 140
+  },
+  {
+   "name": "death_01",
+   "action": "death",
+   "index": 1,
+   "sheet_index": 20,
+   "frame": {
+    "x": 2048,
+    "y": 1024,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    90,
+    194,
+    418,
+    482
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 140
+  },
+  {
+   "name": "death_02",
+   "action": "death",
+   "index": 2,
+   "sheet_index": 21,
+   "frame": {
+    "x": 2560,
+    "y": 1024,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    90,
+    190,
+    420,
+    482
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 150
+  },
+  {
+   "name": "death_03",
+   "action": "death",
+   "index": 3,
+   "sheet_index": 22,
+   "frame": {
+    "x": 3072,
+    "y": 1024,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    90,
+    188,
+    428,
+    468
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 170
+  },
+  {
+   "name": "death_04",
+   "action": "death",
+   "index": 4,
+   "sheet_index": 23,
+   "frame": {
+    "x": 3584,
+    "y": 1024,
+    "w": 512,
+    "h": 512
+   },
+   "trimmed_bbox": [
+    84,
+    192,
+    428,
+    468
+   ],
+   "pivot_px": [
+    256,
+    480
+   ],
+   "duration_ms": 320
+  }
+ ],
+ "effects": {
+  "file": "dullahan_guard_effects.png",
+  "cell": [
+   512,
+   512
+  ],
+  "columns": 4,
+  "rows": 2,
+  "frames": [
+   {
+    "name": "cross_slash_fx_00",
+    "effect": "cross_slash_fx",
+    "index": 0,
+    "sheet_index": 0,
+    "frame": {
+     "x": 0,
+     "y": 0,
+     "w": 512,
+     "h": 512
+    },
+    "trimmed_bbox": [
+     20,
+     30,
+     492,
+     486
+    ],
+    "duration_ms": 90
+   },
+   {
+    "name": "cross_slash_fx_01",
+    "effect": "cross_slash_fx",
+    "index": 1,
+    "sheet_index": 1,
+    "frame": {
+     "x": 512,
+     "y": 0,
+     "w": 512,
+     "h": 512
+    },
+    "trimmed_bbox": [
+     14,
+     24,
+     494,
+     492
+    ],
+    "duration_ms": 90
+   },
+   {
+    "name": "cross_slash_fx_02",
+    "effect": "cross_slash_fx",
+    "index": 2,
+    "sheet_index": 2,
+    "frame": {
+     "x": 1024,
+     "y": 0,
+     "w": 512,
+     "h": 512
+    },
+    "trimmed_bbox": [
+     14,
+     14,
+     496,
+     496
+    ],
+    "duration_ms": 90
+   },
+   {
+    "name": "cross_slash_fx_03",
+    "effect": "cross_slash_fx",
+    "index": 3,
+    "sheet_index": 3,
+    "frame": {
+     "x": 1536,
+     "y": 0,
+     "w": 512,
+     "h": 512
+    },
+    "trimmed_bbox": [
+     10,
+     18,
+     498,
+     500
+    ],
+    "duration_ms": 90
+   },
+   {
+    "name": "helmet_flame_burst_fx_00",
+    "effect": "helmet_flame_burst_fx",
+    "index": 0,
+    "sheet_index": 4,
+    "frame": {
+     "x": 0,
+     "y": 512,
+     "w": 512,
+     "h": 512
+    },
+    "trimmed_bbox": [
+     56,
+     54,
+     468,
+     454
+    ],
+    "duration_ms": 90
+   },
+   {
+    "name": "helmet_flame_burst_fx_01",
+    "effect": "helmet_flame_burst_fx",
+    "index": 1,
+    "sheet_index": 5,
+    "frame": {
+     "x": 512,
+     "y": 512,
+     "w": 512,
+     "h": 512
+    },
+    "trimmed_bbox": [
+     22,
+     24,
+     480,
+     472
+    ],
+    "duration_ms": 90
+   },
+   {
+    "name": "helmet_flame_burst_fx_02",
+    "effect": "helmet_flame_burst_fx",
+    "index": 2,
+    "sheet_index": 6,
+    "frame": {
+     "x": 1024,
+     "y": 512,
+     "w": 512,
+     "h": 512
+    },
+    "trimmed_bbox": [
+     10,
+     14,
+     496,
+     496
+    ],
+    "duration_ms": 90
+   },
+   {
+    "name": "helmet_flame_burst_fx_03",
+    "effect": "helmet_flame_burst_fx",
+    "index": 3,
+    "sheet_index": 7,
+    "frame": {
+     "x": 1536,
+     "y": 512,
+     "w": 512,
+     "h": 512
+    },
+    "trimmed_bbox": [
+     14,
+     110,
+     490,
+     476
+    ],
+    "duration_ms": 90
+   }
+  ]
+ },
+ "palette": "dullahan_guard_palette.json"
+}

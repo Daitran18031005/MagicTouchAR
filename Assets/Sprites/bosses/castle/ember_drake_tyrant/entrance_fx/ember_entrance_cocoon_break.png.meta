@@ -1,0 +1,3432 @@
+fileFormatVersion: 2
+guid: b07487847e4701d4291f4ae909541334
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6051690970558547379
+    second: ember_entrance_cocoon_break_0
+  - first:
+      213: 4780269823388354370
+    second: ember_entrance_cocoon_break_1
+  - first:
+      213: 3514068744305272002
+    second: ember_entrance_cocoon_break_2
+  - first:
+      213: 4944962802491397609
+    second: ember_entrance_cocoon_break_3
+  - first:
+      213: -4816086455595287252
+    second: ember_entrance_cocoon_break_4
+  - first:
+      213: 3712035533062548900
+    second: ember_entrance_cocoon_break_5
+  - first:
+      213: -6095212993355130383
+    second: ember_entrance_cocoon_break_6
+  - first:
+      213: -8935616333321371398
+    second: ember_entrance_cocoon_break_7
+  - first:
+      213: -3617497816571971169
+    second: ember_entrance_cocoon_break_8
+  - first:
+      213: 1547797093005922979
+    second: ember_entrance_cocoon_break_9
+  - first:
+      213: -1879576588492831673
+    second: ember_entrance_cocoon_break_10
+  - first:
+      213: -2263364732719313724
+    second: ember_entrance_cocoon_break_11
+  - first:
+      213: 3649313420921857024
+    second: ember_entrance_cocoon_break_12
+  - first:
+      213: 5889750743620081360
+    second: ember_entrance_cocoon_break_13
+  - first:
+      213: 7119774889379697492
+    second: ember_entrance_cocoon_break_14
+  - first:
+      213: -6930140427639020333
+    second: ember_entrance_cocoon_break_15
+  - first:
+      213: -8758873798148569758
+    second: ember_entrance_cocoon_break_16
+  - first:
+      213: -5954164305725189710
+    second: ember_entrance_cocoon_break_17
+  - first:
+      213: -8693355604100949165
+    second: ember_entrance_cocoon_break_18
+  - first:
+      213: 1145332468774970101
+    second: ember_entrance_cocoon_break_19
+  - first:
+      213: -4412911985019262274
+    second: ember_entrance_cocoon_break_20
+  - first:
+      213: 584013415959301324
+    second: ember_entrance_cocoon_break_21
+  - first:
+      213: -8311292558666719776
+    second: ember_entrance_cocoon_break_22
+  - first:
+      213: -9099714639484811774
+    second: ember_entrance_cocoon_break_23
+  - first:
+      213: -677780386894616808
+    second: ember_entrance_cocoon_break_24
+  - first:
+      213: 6119484440312251646
+    second: ember_entrance_cocoon_break_25
+  - first:
+      213: -4933888152813585563
+    second: ember_entrance_cocoon_break_26
+  - first:
+      213: -698942487659309992
+    second: ember_entrance_cocoon_break_27
+  - first:
+      213: 217348528387536599
+    second: ember_entrance_cocoon_break_28
+  - first:
+      213: -8974794863687142996
+    second: ember_entrance_cocoon_break_29
+  - first:
+      213: -228385982946694201
+    second: ember_entrance_cocoon_break_30
+  - first:
+      213: 1750234181879406570
+    second: ember_entrance_cocoon_break_31
+  - first:
+      213: -3425292181884919431
+    second: ember_entrance_cocoon_break_32
+  - first:
+      213: 8418331709821263915
+    second: ember_entrance_cocoon_break_33
+  - first:
+      213: -3617297845057740970
+    second: ember_entrance_cocoon_break_34
+  - first:
+      213: -2295519400356855776
+    second: ember_entrance_cocoon_break_35
+  - first:
+      213: -5063447469619521245
+    second: ember_entrance_cocoon_break_36
+  - first:
+      213: 2683144677774168454
+    second: ember_entrance_cocoon_break_37
+  - first:
+      213: 5151963696783960836
+    second: ember_entrance_cocoon_break_38
+  - first:
+      213: -2276200926024001146
+    second: ember_entrance_cocoon_break_39
+  - first:
+      213: -8970517130367848434
+    second: ember_entrance_cocoon_break_40
+  - first:
+      213: -9143258105301283275
+    second: ember_entrance_cocoon_break_41
+  - first:
+      213: 2983413416409170805
+    second: ember_entrance_cocoon_break_42
+  - first:
+      213: 6283042229096855393
+    second: ember_entrance_cocoon_break_43
+  - first:
+      213: -8280998990171569601
+    second: ember_entrance_cocoon_break_44
+  - first:
+      213: 2449730660894821039
+    second: ember_entrance_cocoon_break_45
+  - first:
+      213: -2502216247402619173
+    second: ember_entrance_cocoon_break_46
+  - first:
+      213: -1632594577675310376
+    second: ember_entrance_cocoon_break_47
+  - first:
+      213: -7526500987073867018
+    second: ember_entrance_cocoon_break_48
+  - first:
+      213: 9177218607689404045
+    second: ember_entrance_cocoon_break_49
+  - first:
+      213: -3399366841352606538
+    second: ember_entrance_cocoon_break_50
+  - first:
+      213: 1176259511246399057
+    second: ember_entrance_cocoon_break_51
+  - first:
+      213: -9179106404630497663
+    second: ember_entrance_cocoon_break_52
+  - first:
+      213: -3808508494659405264
+    second: ember_entrance_cocoon_break_53
+  - first:
+      213: -1728309836242538410
+    second: ember_entrance_cocoon_break_54
+  - first:
+      213: -4733317145980431580
+    second: ember_entrance_cocoon_break_55
+  - first:
+      213: 3770039467908225135
+    second: ember_entrance_cocoon_break_56
+  - first:
+      213: -3599970099442474659
+    second: ember_entrance_cocoon_break_57
+  - first:
+      213: 9174654264174527037
+    second: ember_entrance_cocoon_break_58
+  - first:
+      213: -6517120030462539777
+    second: ember_entrance_cocoon_break_59
+  - first:
+      213: 7255586868294587112
+    second: ember_entrance_cocoon_break_60
+  - first:
+      213: 6108474917194181283
+    second: ember_entrance_cocoon_break_61
+  - first:
+      213: 2370642461049438809
+    second: ember_entrance_cocoon_break_62
+  - first:
+      213: -3178578696248018752
+    second: ember_entrance_cocoon_break_63
+  - first:
+      213: -2062523820967787803
+    second: ember_entrance_cocoon_break_64
+  - first:
+      213: 8997095133829520580
+    second: ember_entrance_cocoon_break_65
+  - first:
+      213: 2983273753306867777
+    second: ember_entrance_cocoon_break_66
+  - first:
+      213: -5038719969905497317
+    second: ember_entrance_cocoon_break_67
+  - first:
+      213: 2064627126913346029
+    second: ember_entrance_cocoon_break_68
+  - first:
+      213: -2318143696752464239
+    second: ember_entrance_cocoon_break_69
+  - first:
+      213: -2035394039218594226
+    second: ember_entrance_cocoon_break_70
+  - first:
+      213: -2095766425044070921
+    second: ember_entrance_cocoon_break_71
+  - first:
+      213: -2381054961807936978
+    second: ember_entrance_cocoon_break_72
+  - first:
+      213: -1445147130801172137
+    second: ember_entrance_cocoon_break_73
+  - first:
+      213: -6027474550657750578
+    second: ember_entrance_cocoon_break_74
+  - first:
+      213: -5844017465032965043
+    second: ember_entrance_cocoon_break_75
+  - first:
+      213: 373592321359757599
+    second: ember_entrance_cocoon_break_76
+  - first:
+      213: -6102848291330726535
+    second: ember_entrance_cocoon_break_77
+  - first:
+      213: 8727201278522614421
+    second: ember_entrance_cocoon_break_78
+  - first:
+      213: 7181523670165309629
+    second: ember_entrance_cocoon_break_79
+  - first:
+      213: -3191048618959146300
+    second: ember_entrance_cocoon_break_80
+  - first:
+      213: -8028005974657402657
+    second: ember_entrance_cocoon_break_81
+  - first:
+      213: -5772772874270495896
+    second: ember_entrance_cocoon_break_82
+  - first:
+      213: -8269921288626282437
+    second: ember_entrance_cocoon_break_83
+  - first:
+      213: -2503657849344239191
+    second: ember_entrance_cocoon_break_84
+  - first:
+      213: 5747150728522843904
+    second: ember_entrance_cocoon_break_85
+  - first:
+      213: 6143412454583571758
+    second: ember_entrance_cocoon_break_86
+  - first:
+      213: 4587258201261581199
+    second: ember_entrance_cocoon_break_87
+  - first:
+      213: 7378262770826993113
+    second: ember_entrance_cocoon_break_88
+  - first:
+      213: -3382368490731404418
+    second: ember_entrance_cocoon_break_89
+  - first:
+      213: -1379682069690798605
+    second: ember_entrance_cocoon_break_90
+  - first:
+      213: 309202684051638282
+    second: ember_entrance_cocoon_break_91
+  - first:
+      213: 2637347216168621458
+    second: ember_entrance_cocoon_break_92
+  - first:
+      213: -1910878983727485360
+    second: ember_entrance_cocoon_break_93
+  - first:
+      213: -4121330577924190954
+    second: ember_entrance_cocoon_break_94
+  - first:
+      213: 1254654458074122624
+    second: ember_entrance_cocoon_break_95
+  - first:
+      213: -8074536755584740944
+    second: ember_entrance_cocoon_break_96
+  - first:
+      213: 6747460437735755537
+    second: ember_entrance_cocoon_break_97
+  - first:
+      213: 3449562869839199641
+    second: ember_entrance_cocoon_break_98
+  - first:
+      213: 5288727421175661551
+    second: ember_entrance_cocoon_break_99
+  - first:
+      213: -2324883679904683496
+    second: ember_entrance_cocoon_break_100
+  - first:
+      213: 2182087507831315802
+    second: ember_entrance_cocoon_break_101
+  - first:
+      213: -8744704944192300879
+    second: ember_entrance_cocoon_break_102
+  - first:
+      213: -5827796678704195295
+    second: ember_entrance_cocoon_break_103
+  - first:
+      213: 8247335748568581300
+    second: ember_entrance_cocoon_break_104
+  - first:
+      213: -1454046454445358968
+    second: ember_entrance_cocoon_break_105
+  - first:
+      213: -2551867062603492963
+    second: ember_entrance_cocoon_break_106
+  - first:
+      213: -1442195279603671981
+    second: ember_entrance_cocoon_break_107
+  - first:
+      213: 1739652646912770620
+    second: ember_entrance_cocoon_break_108
+  - first:
+      213: -63202383754153796
+    second: ember_entrance_cocoon_break_109
+  - first:
+      213: -970281170293270470
+    second: ember_entrance_cocoon_break_110
+  - first:
+      213: 6871333021005692867
+    second: ember_entrance_cocoon_break_111
+  - first:
+      213: 4120891611921645426
+    second: ember_entrance_cocoon_break_112
+  - first:
+      213: 2668272066425714389
+    second: ember_entrance_cocoon_break_113
+  - first:
+      213: 8140892013118793383
+    second: ember_entrance_cocoon_break_114
+  - first:
+      213: -5611788095952443802
+    second: ember_entrance_cocoon_break_115
+  - first:
+      213: -8500242931969285141
+    second: ember_entrance_cocoon_break_116
+  - first:
+      213: 6869019371862553217
+    second: ember_entrance_cocoon_break_117
+  - first:
+      213: -582283384698583013
+    second: ember_entrance_cocoon_break_118
+  - first:
+      213: 1531126799537248471
+    second: ember_entrance_cocoon_break_119
+  - first:
+      213: -1526445024251987010
+    second: ember_entrance_cocoon_break_120
+  - first:
+      213: 633841483642723794
+    second: ember_entrance_cocoon_break_121
+  - first:
+      213: -5529227837985706323
+    second: ember_entrance_cocoon_break_122
+  - first:
+      213: 1576968270645760010
+    second: ember_entrance_cocoon_break_123
+  - first:
+      213: 3946188465573136263
+    second: ember_entrance_cocoon_break_124
+  - first:
+      213: 3222850558827731724
+    second: ember_entrance_cocoon_break_125
+  - first:
+      213: -4892701181547032535
+    second: ember_entrance_cocoon_break_126
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_0
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 115
+        width: 356
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b5c49edfdcebf350800000000000000
+      internalID: 6051690970558547379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_1
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 103
+        width: 378
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2470591d31ee65240800000000000000
+      internalID: 4780269823388354370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_2
+      rect:
+        serializedVersion: 2
+        x: 3281
+        y: 451
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c46e9497ea74c030800000000000000
+      internalID: 3514068744305272002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_3
+      rect:
+        serializedVersion: 2
+        x: 3287
+        y: 445
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e51506287900a440800000000000000
+      internalID: 4944962802491397609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_4
+      rect:
+        serializedVersion: 2
+        x: 3305
+        y: 451
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2d3ca6a2e2d92db0800000000000000
+      internalID: -4816086455595287252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_5
+      rect:
+        serializedVersion: 2
+        x: 3347
+        y: 389
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ad22dd66acc38330800000000000000
+      internalID: 3712035533062548900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_6
+      rect:
+        serializedVersion: 2
+        x: 3801
+        y: 309
+        width: 84
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f9d8bc8314796ba0800000000000000
+      internalID: -6095212993355130383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_7
+      rect:
+        serializedVersion: 2
+        x: 3815
+        y: 451
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0833ba9405ef380800000000000000
+      internalID: -8935616333321371398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_8
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 105
+        width: 250
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f99f973f6e01ccdc0800000000000000
+      internalID: -3617497816571971169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_9
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 101
+        width: 258
+        height: 334
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a210096141ea7510800000000000000
+      internalID: 1547797093005922979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_10
+      rect:
+        serializedVersion: 2
+        x: 1607
+        y: 101
+        width: 348
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7448eba1d076ae5e0800000000000000
+      internalID: -1879576588492831673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_11
+      rect:
+        serializedVersion: 2
+        x: 3185
+        y: 433
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cc4e1574c9e690e0800000000000000
+      internalID: -2263364732719313724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_12
+      rect:
+        serializedVersion: 2
+        x: 3223
+        y: 271
+        width: 140
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 004ec10b837f4a230800000000000000
+      internalID: 3649313420921857024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_13
+      rect:
+        serializedVersion: 2
+        x: 3315
+        y: 435
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6511998199cb150800000000000000
+      internalID: 5889750743620081360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_14
+      rect:
+        serializedVersion: 2
+        x: 3421
+        y: 427
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 453193a2a858ec260800000000000000
+      internalID: 7119774889379697492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_15
+      rect:
+        serializedVersion: 2
+        x: 3785
+        y: 417
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d4a00f9ff133df90800000000000000
+      internalID: -6930140427639020333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_16
+      rect:
+        serializedVersion: 2
+        x: 3889
+        y: 427
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265c0e4efaa327680800000000000000
+      internalID: -8758873798148569758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_17
+      rect:
+        serializedVersion: 2
+        x: 3919
+        y: 421
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b190f64c1f8e5da0800000000000000
+      internalID: -5954164305725189710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_18
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 105
+        width: 260
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b596f232ffa5780800000000000000
+      internalID: -8693355604100949165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_19
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 421
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f2ad07efc905ef00800000000000000
+      internalID: 1145332468774970101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_20
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 401
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebaecd32eef22c2c0800000000000000
+      internalID: -4412911985019262274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_21
+      rect:
+        serializedVersion: 2
+        x: 3413
+        y: 417
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccc015a8b15da1800800000000000000
+      internalID: 584013415959301324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_22
+      rect:
+        serializedVersion: 2
+        x: 3459
+        y: 387
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed9258f37b58ac80800000000000000
+      internalID: -8311292558666719776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_23
+      rect:
+        serializedVersion: 2
+        x: 3715
+        y: 413
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206061c6fb157b180800000000000000
+      internalID: -9099714639484811774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_24
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 393
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8176b63445a0896f0800000000000000
+      internalID: -677780386894616808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_25
+      rect:
+        serializedVersion: 2
+        x: 3395
+        y: 393
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef487511da6cce450800000000000000
+      internalID: 6119484440312251646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_26
+      rect:
+        serializedVersion: 2
+        x: 3419
+        y: 389
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bb90aadde478bb0800000000000000
+      internalID: -4933888152813585563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_27
+      rect:
+        serializedVersion: 2
+        x: 3433
+        y: 397
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85493a8b28bdc46f0800000000000000
+      internalID: -698942487659309992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_28
+      rect:
+        serializedVersion: 2
+        x: 3727
+        y: 361
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d63ef2c55d240300800000000000000
+      internalID: 217348528387536599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_29
+      rect:
+        serializedVersion: 2
+        x: 3777
+        y: 393
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca17de93f9f137380800000000000000
+      internalID: -8974794863687142996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_30
+      rect:
+        serializedVersion: 2
+        x: 3799
+        y: 387
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cba8c6982c94dcf0800000000000000
+      internalID: -228385982946694201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_31
+      rect:
+        serializedVersion: 2
+        x: 3899
+        y: 395
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef1bac17b41a4810800000000000000
+      internalID: 1750234181879406570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_32
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 403
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 971a3d698eae670d0800000000000000
+      internalID: -3425292181884919431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_33
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 373
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b20ad4d761ce3d470800000000000000
+      internalID: 8418331709821263915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_34
+      rect:
+        serializedVersion: 2
+        x: 3189
+        y: 387
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f1c8276c6cccdc0800000000000000
+      internalID: -3617297845057740970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_35
+      rect:
+        serializedVersion: 2
+        x: 3231
+        y: 385
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02046be744da420e0800000000000000
+      internalID: -2295519400356855776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_36
+      rect:
+        serializedVersion: 2
+        x: 3881
+        y: 387
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3295a7a8a550bb9b0800000000000000
+      internalID: -5063447469619521245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_37
+      rect:
+        serializedVersion: 2
+        x: 3925
+        y: 391
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68195b75ed17c3520800000000000000
+      internalID: 2683144677774168454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_38
+      rect:
+        serializedVersion: 2
+        x: 3157
+        y: 361
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b248a9fa37f7740800000000000000
+      internalID: 5151963696783960836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_39
+      rect:
+        serializedVersion: 2
+        x: 3177
+        y: 113
+        width: 306
+        height: 276
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6899cee415f4960e0800000000000000
+      internalID: -2276200926024001146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_40
+      rect:
+        serializedVersion: 2
+        x: 3467
+        y: 361
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e003ed0a232528380800000000000000
+      internalID: -8970517130367848434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_41
+      rect:
+        serializedVersion: 2
+        x: 3771
+        y: 373
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e4ecf323f9c1180800000000000000
+      internalID: -9143258105301283275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_42
+      rect:
+        serializedVersion: 2
+        x: 3783
+        y: 343
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573043702b6376920800000000000000
+      internalID: 2983413416409170805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_43
+      rect:
+        serializedVersion: 2
+        x: 3891
+        y: 365
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167b81e4e99d13750800000000000000
+      internalID: 6283042229096855393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_44
+      rect:
+        serializedVersion: 2
+        x: 3903
+        y: 367
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3284750b4bf31d80800000000000000
+      internalID: -8280998990171569601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_45
+      rect:
+        serializedVersion: 2
+        x: 3917
+        y: 337
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faac40e8e013ff120800000000000000
+      internalID: 2449730660894821039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_46
+      rect:
+        serializedVersion: 2
+        x: 1377
+        y: 343
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde1b5e8497564dd0800000000000000
+      internalID: -2502216247402619173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_47
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 353
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da2f67a1ebd759e0800000000000000
+      internalID: -1632594577675310376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_48
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 329
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2d5d7ba3f7c8790800000000000000
+      internalID: -7526500987073867018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_49
+      rect:
+        serializedVersion: 2
+        x: 3159
+        y: 295
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e8e6163b70c5f70800000000000000
+      internalID: 9177218607689404045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_50
+      rect:
+        serializedVersion: 2
+        x: 3469
+        y: 311
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bcafef4ed503d0d0800000000000000
+      internalID: -3399366841352606538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_51
+      rect:
+        serializedVersion: 2
+        x: 3739
+        y: 325
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156248b1bc9e25010800000000000000
+      internalID: 1176259511246399057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_52
+      rect:
+        serializedVersion: 2
+        x: 3751
+        y: 339
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1867c74ab534d9080800000000000000
+      internalID: -9179106404630497663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_53
+      rect:
+        serializedVersion: 2
+        x: 3771
+        y: 351
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ab4c3d3b5752bc0800000000000000
+      internalID: -3808508494659405264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_54
+      rect:
+        serializedVersion: 2
+        x: 3881
+        y: 291
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65033f46c5fc308e0800000000000000
+      internalID: -1728309836242538410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_55
+      rect:
+        serializedVersion: 2
+        x: 3901
+        y: 343
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42312984221ef4eb0800000000000000
+      internalID: -4733317145980431580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_56
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 323
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f685fd9ebeed15430800000000000000
+      internalID: 3770039467908225135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_57
+      rect:
+        serializedVersion: 2
+        x: 3691
+        y: 291
+        width: 28
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5124bc94465a0ec0800000000000000
+      internalID: -3599970099442474659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_58
+      rect:
+        serializedVersion: 2
+        x: 3721
+        y: 307
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d324521a17be25f70800000000000000
+      internalID: 9174654264174527037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_59
+      rect:
+        serializedVersion: 2
+        x: 3775
+        y: 285
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff782b98cd98e85a0800000000000000
+      internalID: -6517120030462539777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_60
+      rect:
+        serializedVersion: 2
+        x: 3905
+        y: 317
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e210b1a0d501b460800000000000000
+      internalID: 7255586868294587112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_61
+      rect:
+        serializedVersion: 2
+        x: 3921
+        y: 309
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa2eb6b299a5c450800000000000000
+      internalID: 6108474917194181283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_62
+      rect:
+        serializedVersion: 2
+        x: 3949
+        y: 301
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9524f4412c636e020800000000000000
+      internalID: 2370642461049438809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_63
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 301
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8338f348b63e3d0800000000000000
+      internalID: -3178578696248018752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_64
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 299
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e20f6633817063e0800000000000000
+      internalID: -2062523820967787803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_65
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 279
+        width: 40
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ccdd460b5a1cdc70800000000000000
+      internalID: 8997095133829520580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_66
+      rect:
+        serializedVersion: 2
+        x: 2991
+        y: 307
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1482a9d2ca7b66920800000000000000
+      internalID: 2983273753306867777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_67
+      rect:
+        serializedVersion: 2
+        x: 3755
+        y: 299
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1bad1732eed21ab0800000000000000
+      internalID: -5038719969905497317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_68
+      rect:
+        serializedVersion: 2
+        x: 3847
+        y: 303
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de92e4dde6707ac10800000000000000
+      internalID: 2064627126913346029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_69
+      rect:
+        serializedVersion: 2
+        x: 3933
+        y: 299
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e22c0079c44dfd0800000000000000
+      internalID: -2318143696752464239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_70
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 293
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4e9d62c7e3d0c3e0800000000000000
+      internalID: -2035394039218594226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_71
+      rect:
+        serializedVersion: 2
+        x: 3471
+        y: 277
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdce0f4a875ae2e0800000000000000
+      internalID: -2095766425044070921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_72
+      rect:
+        serializedVersion: 2
+        x: 3493
+        y: 287
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22b1caa02bc4fed0800000000000000
+      internalID: -2381054961807936978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_73
+      rect:
+        serializedVersion: 2
+        x: 3723
+        y: 229
+        width: 76
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 751db6c575ec1fbe0800000000000000
+      internalID: -1445147130801172137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_74
+      rect:
+        serializedVersion: 2
+        x: 3859
+        y: 259
+        width: 18
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec96653c4db1a5ca0800000000000000
+      internalID: -6027474550657750578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_75
+      rect:
+        serializedVersion: 2
+        x: 3921
+        y: 285
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4408871411e5eea0800000000000000
+      internalID: -5844017465032965043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_76
+      rect:
+        serializedVersion: 2
+        x: 3937
+        y: 285
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f114675ac344f2500800000000000000
+      internalID: 373592321359757599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_77
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 253
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975e12530d35e4ba0800000000000000
+      internalID: -6102848291330726535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_78
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 241
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592eca9f25f3d1970800000000000000
+      internalID: 8727201278522614421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_79
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 267
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8434a8ab5e9a360800000000000000
+      internalID: 7181523670165309629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_80
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 257
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c270fd103e17b3d0800000000000000
+      internalID: -3191048618959146300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_81
+      rect:
+        serializedVersion: 2
+        x: 1939
+        y: 249
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8f4d9a91bc69090800000000000000
+      internalID: -8028005974657402657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_82
+      rect:
+        serializedVersion: 2
+        x: 3153
+        y: 267
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ba81408adf2efa0800000000000000
+      internalID: -5772772874270495896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_83
+      rect:
+        serializedVersion: 2
+        x: 3485
+        y: 259
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b306df667665b3d80800000000000000
+      internalID: -8269921288626282437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_84
+      rect:
+        serializedVersion: 2
+        x: 3705
+        y: 261
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9d7b27378314dd0800000000000000
+      internalID: -2503657849344239191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_85
+      rect:
+        serializedVersion: 2
+        x: 3811
+        y: 265
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0074b3c432bf1cf40800000000000000
+      internalID: 5747150728522843904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_86
+      rect:
+        serializedVersion: 2
+        x: 3893
+        y: 173
+        width: 102
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e251a280419c14550800000000000000
+      internalID: 6143412454583571758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_87
+      rect:
+        serializedVersion: 2
+        x: 3895
+        y: 235
+        width: 24
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83a13b970739af30800000000000000
+      internalID: 4587258201261581199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_88
+      rect:
+        serializedVersion: 2
+        x: 4001
+        y: 263
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ddd1aaf5ead46660800000000000000
+      internalID: 7378262770826993113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_89
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 253
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e730b7a37c96f01d0800000000000000
+      internalID: -3382368490731404418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_90
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 249
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fdaa1da7726adce0800000000000000
+      internalID: -1379682069690798605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_91
+      rect:
+        serializedVersion: 2
+        x: 3163
+        y: 243
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08ce72f3328a4400800000000000000
+      internalID: 309202684051638282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_92
+      rect:
+        serializedVersion: 2
+        x: 3821
+        y: 237
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2959811e15db99420800000000000000
+      internalID: 2637347216168621458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_93
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 237
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ee92640b13b75e0800000000000000
+      internalID: -1910878983727485360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_94
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 225
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d8fd4dca71ec6c0800000000000000
+      internalID: -4121330577924190954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_95
+      rect:
+        serializedVersion: 2
+        x: 3689
+        y: 107
+        width: 148
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0894e59059d696110800000000000000
+      internalID: 1254654458074122624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_96
+      rect:
+        serializedVersion: 2
+        x: 3879
+        y: 229
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b1598df99b71ff80800000000000000
+      internalID: -8074536755584740944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_97
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 193
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11fcd3fb48bc3ad50800000000000000
+      internalID: 6747460437735755537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_98
+      rect:
+        serializedVersion: 2
+        x: 3157
+        y: 195
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d742f472f4fdf20800000000000000
+      internalID: 3449562869839199641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_99
+      rect:
+        serializedVersion: 2
+        x: 3493
+        y: 219
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe30b059195556940800000000000000
+      internalID: 5288727421175661551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_100
+      rect:
+        serializedVersion: 2
+        x: 3835
+        y: 213
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81aad236c9a5cbfd0800000000000000
+      internalID: -2324883679904683496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_101
+      rect:
+        serializedVersion: 2
+        x: 3881
+        y: 193
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d5a15f605584e10800000000000000
+      internalID: 2182087507831315802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_102
+      rect:
+        serializedVersion: 2
+        x: 3999
+        y: 209
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8d0d74f2194a680800000000000000
+      internalID: -8744704944192300879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_103
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 171
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12992a63cc18f1fa0800000000000000
+      internalID: -5827796678704195295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_104
+      rect:
+        serializedVersion: 2
+        x: 3481
+        y: 197
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b48fc4ca2c647270800000000000000
+      internalID: 8247335748568581300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_105
+      rect:
+        serializedVersion: 2
+        x: 3823
+        y: 123
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8804edb147032dbe0800000000000000
+      internalID: -1454046454445358968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_106
+      rect:
+        serializedVersion: 2
+        x: 3833
+        y: 205
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91df7b4d62f59cd0800000000000000
+      internalID: -2551867062603492963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_107
+      rect:
+        serializedVersion: 2
+        x: 3861
+        y: 183
+        width: 18
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c5a76c80b4cfbe0800000000000000
+      internalID: -1442195279603671981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_108
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 161
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c32cdc38ddc742810800000000000000
+      internalID: 1739652646912770620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_109
+      rect:
+        serializedVersion: 2
+        x: 3165
+        y: 169
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0306f44c57f1ff0800000000000000
+      internalID: -63202383754153796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_110
+      rect:
+        serializedVersion: 2
+        x: 3453
+        y: 155
+        width: 56
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a385b689a6ed882f0800000000000000
+      internalID: -970281170293270470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_111
+      rect:
+        serializedVersion: 2
+        x: 3893
+        y: 117
+        width: 54
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfb47a0af0eb5f50800000000000000
+      internalID: 6871333021005692867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_112
+      rect:
+        serializedVersion: 2
+        x: 3955
+        y: 161
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ff97e6619503930800000000000000
+      internalID: 4120891611921645426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_113
+      rect:
+        serializedVersion: 2
+        x: 3179
+        y: 155
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d6f66bae4b970520800000000000000
+      internalID: 2668272066425714389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_114
+      rect:
+        serializedVersion: 2
+        x: 3173
+        y: 127
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6a2c457224af070800000000000000
+      internalID: 8140892013118793383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_115
+      rect:
+        serializedVersion: 2
+        x: 3447
+        y: 119
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6662df1957cee12b0800000000000000
+      internalID: -5611788095952443802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_116
+      rect:
+        serializedVersion: 2
+        x: 3881
+        y: 137
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be3227fe612190a80800000000000000
+      internalID: -8500242931969285141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_117
+      rect:
+        serializedVersion: 2
+        x: 3971
+        y: 143
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182f42f99b8a35f50800000000000000
+      internalID: 6869019371862553217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_118
+      rect:
+        serializedVersion: 2
+        x: 3479
+        y: 119
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18cd60c8505be7f0800000000000000
+      internalID: -582283384698583013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_119
+      rect:
+        serializedVersion: 2
+        x: 3875
+        y: 109
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d89f7046b7af3510800000000000000
+      internalID: 1531126799537248471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_120
+      rect:
+        serializedVersion: 2
+        x: 3889
+        y: 125
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb3c40865af0dae0800000000000000
+      internalID: -1526445024251987010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_121
+      rect:
+        serializedVersion: 2
+        x: 3941
+        y: 123
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd5e6c987bdbc800800000000000000
+      internalID: 633841483642723794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_122
+      rect:
+        serializedVersion: 2
+        x: 3981
+        y: 123
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae29a2939c3443b0800000000000000
+      internalID: -5529227837985706323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_123
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 101
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0017e9794482e510800000000000000
+      internalID: 1576968270645760010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_124
+      rect:
+        serializedVersion: 2
+        x: 3299
+        y: 107
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7870b3b608da3c630800000000000000
+      internalID: 3946188465573136263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_125
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 109
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b9813028dd9bc20800000000000000
+      internalID: 3222850558827731724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_entrance_cocoon_break_126
+      rect:
+        serializedVersion: 2
+        x: 3899
+        y: 111
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92051c1b232a91cb0800000000000000
+      internalID: -4892701181547032535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ember_entrance_cocoon_break_0: 6051690970558547379
+      ember_entrance_cocoon_break_1: 4780269823388354370
+      ember_entrance_cocoon_break_10: -1879576588492831673
+      ember_entrance_cocoon_break_100: -2324883679904683496
+      ember_entrance_cocoon_break_101: 2182087507831315802
+      ember_entrance_cocoon_break_102: -8744704944192300879
+      ember_entrance_cocoon_break_103: -5827796678704195295
+      ember_entrance_cocoon_break_104: 8247335748568581300
+      ember_entrance_cocoon_break_105: -1454046454445358968
+      ember_entrance_cocoon_break_106: -2551867062603492963
+      ember_entrance_cocoon_break_107: -1442195279603671981
+      ember_entrance_cocoon_break_108: 1739652646912770620
+      ember_entrance_cocoon_break_109: -63202383754153796
+      ember_entrance_cocoon_break_11: -2263364732719313724
+      ember_entrance_cocoon_break_110: -970281170293270470
+      ember_entrance_cocoon_break_111: 6871333021005692867
+      ember_entrance_cocoon_break_112: 4120891611921645426
+      ember_entrance_cocoon_break_113: 2668272066425714389
+      ember_entrance_cocoon_break_114: 8140892013118793383
+      ember_entrance_cocoon_break_115: -5611788095952443802
+      ember_entrance_cocoon_break_116: -8500242931969285141
+      ember_entrance_cocoon_break_117: 6869019371862553217
+      ember_entrance_cocoon_break_118: -582283384698583013
+      ember_entrance_cocoon_break_119: 1531126799537248471
+      ember_entrance_cocoon_break_12: 3649313420921857024
+      ember_entrance_cocoon_break_120: -1526445024251987010
+      ember_entrance_cocoon_break_121: 633841483642723794
+      ember_entrance_cocoon_break_122: -5529227837985706323
+      ember_entrance_cocoon_break_123: 1576968270645760010
+      ember_entrance_cocoon_break_124: 3946188465573136263
+      ember_entrance_cocoon_break_125: 3222850558827731724
+      ember_entrance_cocoon_break_126: -4892701181547032535
+      ember_entrance_cocoon_break_13: 5889750743620081360
+      ember_entrance_cocoon_break_14: 7119774889379697492
+      ember_entrance_cocoon_break_15: -6930140427639020333
+      ember_entrance_cocoon_break_16: -8758873798148569758
+      ember_entrance_cocoon_break_17: -5954164305725189710
+      ember_entrance_cocoon_break_18: -8693355604100949165
+      ember_entrance_cocoon_break_19: 1145332468774970101
+      ember_entrance_cocoon_break_2: 3514068744305272002
+      ember_entrance_cocoon_break_20: -4412911985019262274
+      ember_entrance_cocoon_break_21: 584013415959301324
+      ember_entrance_cocoon_break_22: -8311292558666719776
+      ember_entrance_cocoon_break_23: -9099714639484811774
+      ember_entrance_cocoon_break_24: -677780386894616808
+      ember_entrance_cocoon_break_25: 6119484440312251646
+      ember_entrance_cocoon_break_26: -4933888152813585563
+      ember_entrance_cocoon_break_27: -698942487659309992
+      ember_entrance_cocoon_break_28: 217348528387536599
+      ember_entrance_cocoon_break_29: -8974794863687142996
+      ember_entrance_cocoon_break_3: 4944962802491397609
+      ember_entrance_cocoon_break_30: -228385982946694201
+      ember_entrance_cocoon_break_31: 1750234181879406570
+      ember_entrance_cocoon_break_32: -3425292181884919431
+      ember_entrance_cocoon_break_33: 8418331709821263915
+      ember_entrance_cocoon_break_34: -3617297845057740970
+      ember_entrance_cocoon_break_35: -2295519400356855776
+      ember_entrance_cocoon_break_36: -5063447469619521245
+      ember_entrance_cocoon_break_37: 2683144677774168454
+      ember_entrance_cocoon_break_38: 5151963696783960836
+      ember_entrance_cocoon_break_39: -2276200926024001146
+      ember_entrance_cocoon_break_4: -4816086455595287252
+      ember_entrance_cocoon_break_40: -8970517130367848434
+      ember_entrance_cocoon_break_41: -9143258105301283275
+      ember_entrance_cocoon_break_42: 2983413416409170805
+      ember_entrance_cocoon_break_43: 6283042229096855393
+      ember_entrance_cocoon_break_44: -8280998990171569601
+      ember_entrance_cocoon_break_45: 2449730660894821039
+      ember_entrance_cocoon_break_46: -2502216247402619173
+      ember_entrance_cocoon_break_47: -1632594577675310376
+      ember_entrance_cocoon_break_48: -7526500987073867018
+      ember_entrance_cocoon_break_49: 9177218607689404045
+      ember_entrance_cocoon_break_5: 3712035533062548900
+      ember_entrance_cocoon_break_50: -3399366841352606538
+      ember_entrance_cocoon_break_51: 1176259511246399057
+      ember_entrance_cocoon_break_52: -9179106404630497663
+      ember_entrance_cocoon_break_53: -3808508494659405264
+      ember_entrance_cocoon_break_54: -1728309836242538410
+      ember_entrance_cocoon_break_55: -4733317145980431580
+      ember_entrance_cocoon_break_56: 3770039467908225135
+      ember_entrance_cocoon_break_57: -3599970099442474659
+      ember_entrance_cocoon_break_58: 9174654264174527037
+      ember_entrance_cocoon_break_59: -6517120030462539777
+      ember_entrance_cocoon_break_6: -6095212993355130383
+      ember_entrance_cocoon_break_60: 7255586868294587112
+      ember_entrance_cocoon_break_61: 6108474917194181283
+      ember_entrance_cocoon_break_62: 2370642461049438809
+      ember_entrance_cocoon_break_63: -3178578696248018752
+      ember_entrance_cocoon_break_64: -2062523820967787803
+      ember_entrance_cocoon_break_65: 8997095133829520580
+      ember_entrance_cocoon_break_66: 2983273753306867777
+      ember_entrance_cocoon_break_67: -5038719969905497317
+      ember_entrance_cocoon_break_68: 2064627126913346029
+      ember_entrance_cocoon_break_69: -2318143696752464239
+      ember_entrance_cocoon_break_7: -8935616333321371398
+      ember_entrance_cocoon_break_70: -2035394039218594226
+      ember_entrance_cocoon_break_71: -2095766425044070921
+      ember_entrance_cocoon_break_72: -2381054961807936978
+      ember_entrance_cocoon_break_73: -1445147130801172137
+      ember_entrance_cocoon_break_74: -6027474550657750578
+      ember_entrance_cocoon_break_75: -5844017465032965043
+      ember_entrance_cocoon_break_76: 373592321359757599
+      ember_entrance_cocoon_break_77: -6102848291330726535
+      ember_entrance_cocoon_break_78: 8727201278522614421
+      ember_entrance_cocoon_break_79: 7181523670165309629
+      ember_entrance_cocoon_break_8: -3617497816571971169
+      ember_entrance_cocoon_break_80: -3191048618959146300
+      ember_entrance_cocoon_break_81: -8028005974657402657
+      ember_entrance_cocoon_break_82: -5772772874270495896
+      ember_entrance_cocoon_break_83: -8269921288626282437
+      ember_entrance_cocoon_break_84: -2503657849344239191
+      ember_entrance_cocoon_break_85: 5747150728522843904
+      ember_entrance_cocoon_break_86: 6143412454583571758
+      ember_entrance_cocoon_break_87: 4587258201261581199
+      ember_entrance_cocoon_break_88: 7378262770826993113
+      ember_entrance_cocoon_break_89: -3382368490731404418
+      ember_entrance_cocoon_break_9: 1547797093005922979
+      ember_entrance_cocoon_break_90: -1379682069690798605
+      ember_entrance_cocoon_break_91: 309202684051638282
+      ember_entrance_cocoon_break_92: 2637347216168621458
+      ember_entrance_cocoon_break_93: -1910878983727485360
+      ember_entrance_cocoon_break_94: -4121330577924190954
+      ember_entrance_cocoon_break_95: 1254654458074122624
+      ember_entrance_cocoon_break_96: -8074536755584740944
+      ember_entrance_cocoon_break_97: 6747460437735755537
+      ember_entrance_cocoon_break_98: 3449562869839199641
+      ember_entrance_cocoon_break_99: 5288727421175661551
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,429 @@
+{
+ "name": "Steam Piston Walker",
+ "role": "minor",
+ "environment": "Clock Tower",
+ "image": "steam_piston_walker_sheet.png",
+ "frame_size": [
+  96,
+  96
+ ],
+ "layout": "horizontal_strip",
+ "sheet_size": [
+  2496,
+  96
+ ],
+ "pivot_px": [
+  48,
+  92
+ ],
+ "frames": [
+  {
+   "name": "idle_0",
+   "x": 0,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "idle_1",
+   "x": 96,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "idle_2",
+   "x": 192,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "idle_3",
+   "x": 288,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "idle_cracked_0",
+   "x": 384,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "idle_cracked_1",
+   "x": 480,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "idle_cracked_2",
+   "x": 576,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "idle_cracked_3",
+   "x": 672,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "skill_a_0",
+   "x": 768,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "skill_a_1",
+   "x": 864,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "skill_a_2",
+   "x": 960,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "skill_a_3",
+   "x": 1056,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "skill_a_4",
+   "x": 1152,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "skill_b_0",
+   "x": 1248,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "skill_b_1",
+   "x": 1344,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "skill_b_2",
+   "x": 1440,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "skill_b_3",
+   "x": 1536,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "skill_b_4",
+   "x": 1632,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "hurt_0",
+   "x": 1728,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "hurt_1",
+   "x": 1824,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "hurt_2",
+   "x": 1920,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "hurt_3",
+   "x": 2016,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "death_0",
+   "x": 2112,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "death_1",
+   "x": 2208,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "death_2",
+   "x": 2304,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  },
+  {
+   "name": "death_3",
+   "x": 2400,
+   "y": 0,
+   "w": 96,
+   "h": 96
+  }
+ ],
+ "animations": {
+  "idle": {
+   "frames": [
+    "idle_0",
+    "idle_1",
+    "idle_2",
+    "idle_3"
+   ],
+   "duration_ms": [
+    150,
+    150,
+    150,
+    150
+   ],
+   "loop": true
+  },
+  "idle_cracked": {
+   "frames": [
+    "idle_cracked_0",
+    "idle_cracked_1",
+    "idle_cracked_2",
+    "idle_cracked_3"
+   ],
+   "duration_ms": [
+    150,
+    150,
+    150,
+    150
+   ],
+   "loop": true
+  },
+  "hurt": {
+   "frames": [
+    "hurt_0",
+    "hurt_1",
+    "hurt_2",
+    "hurt_3"
+   ],
+   "duration_ms": [
+    80,
+    110,
+    110,
+    150
+   ],
+   "loop": false
+  },
+  "death": {
+   "frames": [
+    "death_0",
+    "death_1",
+    "death_2",
+    "death_3"
+   ],
+   "duration_ms": [
+    110,
+    100,
+    110,
+    140
+   ],
+   "loop": false
+  },
+  "skill_a": {
+   "frames": [
+    "skill_a_0",
+    "skill_a_1",
+    "skill_a_2",
+    "skill_a_3",
+    "skill_a_4"
+   ],
+   "duration_ms": [
+    140,
+    200,
+    80,
+    90,
+    120
+   ],
+   "loop": false
+  },
+  "skill_b": {
+   "frames": [
+    "skill_b_0",
+    "skill_b_1",
+    "skill_b_2",
+    "skill_b_3",
+    "skill_b_4"
+   ],
+   "duration_ms": [
+    160,
+    180,
+    80,
+    80,
+    140
+   ],
+   "loop": false
+  }
+ },
+ "skills": [
+  {
+   "id": "skill_a",
+   "name": "Steam Cannon",
+   "desc": "Charges its cannon (glow), fires a cannonball diagonally down-left with a steam puff and recoil.",
+   "ms": [
+    140,
+    200,
+    80,
+    90,
+    120
+   ],
+   "telegraph": [
+    0,
+    1
+   ],
+   "active": [
+    2,
+    3
+   ],
+   "damage": 14,
+   "cooldown_ms": 3600,
+   "hitbox": {
+    "x": 0,
+    "y": 40,
+    "w": 40,
+    "h": 56
+   },
+   "spawns": "cannonball",
+   "frame_names": [
+    "skill_a_0",
+    "skill_a_1",
+    "skill_a_2",
+    "skill_a_3",
+    "skill_a_4"
+   ]
+  },
+  {
+   "id": "skill_b",
+   "name": "Drill Charge",
+   "desc": "Crouches, extends a drill and dashes forward grinding sparks; strong but leaves it exposed.",
+   "ms": [
+    160,
+    180,
+    80,
+    80,
+    140
+   ],
+   "telegraph": [
+    0,
+    1
+   ],
+   "active": [
+    2,
+    3
+   ],
+   "damage": 18,
+   "cooldown_ms": 5200,
+   "hitbox": {
+    "x": 30,
+    "y": 60,
+    "w": 36,
+    "h": 36
+   },
+   "frame_names": [
+    "skill_b_0",
+    "skill_b_1",
+    "skill_b_2",
+    "skill_b_3",
+    "skill_b_4"
+   ]
+  }
+ ],
+ "projectiles": {
+  "image": "steam_piston_walker_projectiles.png",
+  "cannonball": {
+   "row": 0,
+   "frames": 4,
+   "frame_size": [
+    32,
+    32
+   ],
+   "duration_ms": [
+    70,
+    70,
+    70,
+    70
+   ],
+   "loop": true
+  }
+ },
+ "state_flow": "idle -> hurt (4f, cracks grow) -> idle_cracked -> death (4f, shatters along the crack)",
+ "notes": "Boss has no balloon cords. Skill effects are baked into the skill_* frames; hitbox is in canvas px, active frames listed per skill.",
+ "palette": {
+  "k": "#10181c",
+  "a": "#edc56c",
+  "b": "#c69141",
+  "c": "#7c522f",
+  "d": "#482f2d",
+  "e": "#b8baba",
+  "f": "#6b7589",
+  "g": "#40435f",
+  "h": "#282848",
+  "i": "#e38a52",
+  "j": "#a15332",
+  "l": "#66332d",
+  "Y": "#ffc040",
+  "y": "#fff0b0",
+  "F": "#ffffff",
+  "G": "#ffe070",
+  "H": "#ff9a30",
+  "I": "#b04a20",
+  "R": "#cfd8e0",
+  "S": "#8a98a8",
+  "m": "#f5d28b",
+  "n": "#e0b673",
+  "o": "#b79369",
+  "p": "#9a8068",
+  "q": "#d8ccb6",
+  "r": "#aea69b",
+  "s": "#968b83",
+  "t": "#897c77",
+  "u": "#f0b27c",
+  "x": "#cb946b",
+  "z": "#ab8268",
+  "W": "#ffffff",
+  "w": "#dcdce8",
+  "v": "#a4a4bc"
+ },
+ "art_source": "code-drawn, no image model"
+}

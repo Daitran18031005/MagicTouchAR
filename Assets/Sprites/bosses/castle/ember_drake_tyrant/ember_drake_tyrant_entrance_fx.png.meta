@@ -1,0 +1,2106 @@
+fileFormatVersion: 2
+guid: 97c1ae8e45e6eec4eb8cef9cb34d9aa3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1682528813614566586
+    second: ember_drake_tyrant_entrance_fx_0
+  - first:
+      213: 6699828922836256240
+    second: ember_drake_tyrant_entrance_fx_1
+  - first:
+      213: -828888417618817347
+    second: ember_drake_tyrant_entrance_fx_2
+  - first:
+      213: 891513440688086274
+    second: ember_drake_tyrant_entrance_fx_3
+  - first:
+      213: -8066835058084257040
+    second: ember_drake_tyrant_entrance_fx_4
+  - first:
+      213: 1051789040682994066
+    second: ember_drake_tyrant_entrance_fx_5
+  - first:
+      213: 2510684480324644673
+    second: ember_drake_tyrant_entrance_fx_6
+  - first:
+      213: 7130756481979698095
+    second: ember_drake_tyrant_entrance_fx_7
+  - first:
+      213: -2025858025214946065
+    second: ember_drake_tyrant_entrance_fx_8
+  - first:
+      213: 7114805723902977827
+    second: ember_drake_tyrant_entrance_fx_9
+  - first:
+      213: 2198431902305758021
+    second: ember_drake_tyrant_entrance_fx_10
+  - first:
+      213: -4969854838741398796
+    second: ember_drake_tyrant_entrance_fx_11
+  - first:
+      213: -1956503474460459127
+    second: ember_drake_tyrant_entrance_fx_12
+  - first:
+      213: -6554038369589142586
+    second: ember_drake_tyrant_entrance_fx_13
+  - first:
+      213: 1144285859738258684
+    second: ember_drake_tyrant_entrance_fx_14
+  - first:
+      213: 3948209557794997969
+    second: ember_drake_tyrant_entrance_fx_15
+  - first:
+      213: 3842322666687149258
+    second: ember_drake_tyrant_entrance_fx_16
+  - first:
+      213: 6878917548381968840
+    second: ember_drake_tyrant_entrance_fx_17
+  - first:
+      213: -7043194445939761705
+    second: ember_drake_tyrant_entrance_fx_18
+  - first:
+      213: 7462045642072288639
+    second: ember_drake_tyrant_entrance_fx_19
+  - first:
+      213: -3808644403286653492
+    second: ember_drake_tyrant_entrance_fx_20
+  - first:
+      213: -6795167098978213949
+    second: ember_drake_tyrant_entrance_fx_21
+  - first:
+      213: 913431552705044151
+    second: ember_drake_tyrant_entrance_fx_22
+  - first:
+      213: -1603283832145184120
+    second: ember_drake_tyrant_entrance_fx_23
+  - first:
+      213: 8413247620850080186
+    second: ember_drake_tyrant_entrance_fx_24
+  - first:
+      213: 3446563472605247814
+    second: ember_drake_tyrant_entrance_fx_25
+  - first:
+      213: 8516137221853166113
+    second: ember_drake_tyrant_entrance_fx_26
+  - first:
+      213: 6750968562712758281
+    second: ember_drake_tyrant_entrance_fx_27
+  - first:
+      213: -8293250767213696499
+    second: ember_drake_tyrant_entrance_fx_28
+  - first:
+      213: 7254572790919333613
+    second: ember_drake_tyrant_entrance_fx_29
+  - first:
+      213: 9051809351853276142
+    second: ember_drake_tyrant_entrance_fx_30
+  - first:
+      213: 8094859155069243872
+    second: ember_drake_tyrant_entrance_fx_31
+  - first:
+      213: 5411113199134850341
+    second: ember_drake_tyrant_entrance_fx_32
+  - first:
+      213: 471998558627909076
+    second: ember_drake_tyrant_entrance_fx_33
+  - first:
+      213: 6687420296309627432
+    second: ember_drake_tyrant_entrance_fx_34
+  - first:
+      213: -4021288883505311226
+    second: ember_drake_tyrant_entrance_fx_35
+  - first:
+      213: -3068988691266196866
+    second: ember_drake_tyrant_entrance_fx_36
+  - first:
+      213: 854608704733559566
+    second: ember_drake_tyrant_entrance_fx_37
+  - first:
+      213: -5191826264052162864
+    second: ember_drake_tyrant_entrance_fx_38
+  - first:
+      213: -2216481547532245064
+    second: ember_drake_tyrant_entrance_fx_39
+  - first:
+      213: -2663993526431108678
+    second: ember_drake_tyrant_entrance_fx_40
+  - first:
+      213: -3354846324791948506
+    second: ember_drake_tyrant_entrance_fx_41
+  - first:
+      213: 1321602122577092589
+    second: ember_drake_tyrant_entrance_fx_42
+  - first:
+      213: 4490690752433585797
+    second: ember_drake_tyrant_entrance_fx_43
+  - first:
+      213: -6586193008634795890
+    second: ember_drake_tyrant_entrance_fx_44
+  - first:
+      213: -1073262303021042080
+    second: ember_drake_tyrant_entrance_fx_45
+  - first:
+      213: 8708288007062926877
+    second: ember_drake_tyrant_entrance_fx_46
+  - first:
+      213: -1937195383893969614
+    second: ember_drake_tyrant_entrance_fx_47
+  - first:
+      213: 6074773606886688826
+    second: ember_drake_tyrant_entrance_fx_48
+  - first:
+      213: -2005389148369680144
+    second: ember_drake_tyrant_entrance_fx_49
+  - first:
+      213: -1392136930767190396
+    second: ember_drake_tyrant_entrance_fx_50
+  - first:
+      213: -1003924691098132897
+    second: ember_drake_tyrant_entrance_fx_51
+  - first:
+      213: 1485592517910757395
+    second: ember_drake_tyrant_entrance_fx_52
+  - first:
+      213: -42259650404336196
+    second: ember_drake_tyrant_entrance_fx_53
+  - first:
+      213: -432514385532752828
+    second: ember_drake_tyrant_entrance_fx_54
+  - first:
+      213: 2723027141010546411
+    second: ember_drake_tyrant_entrance_fx_55
+  - first:
+      213: 1237991692656977612
+    second: ember_drake_tyrant_entrance_fx_56
+  - first:
+      213: 724295542634037549
+    second: ember_drake_tyrant_entrance_fx_57
+  - first:
+      213: -5298179416761516753
+    second: ember_drake_tyrant_entrance_fx_58
+  - first:
+      213: -3213390242934955031
+    second: ember_drake_tyrant_entrance_fx_59
+  - first:
+      213: 3908030858723365219
+    second: ember_drake_tyrant_entrance_fx_60
+  - first:
+      213: 5103458877683265576
+    second: ember_drake_tyrant_entrance_fx_61
+  - first:
+      213: -7334794410293611411
+    second: ember_drake_tyrant_entrance_fx_62
+  - first:
+      213: 5657253903984001041
+    second: ember_drake_tyrant_entrance_fx_63
+  - first:
+      213: -4207780625991687246
+    second: ember_drake_tyrant_entrance_fx_64
+  - first:
+      213: 8773175031540838553
+    second: ember_drake_tyrant_entrance_fx_65
+  - first:
+      213: 5688650221587380628
+    second: ember_drake_tyrant_entrance_fx_66
+  - first:
+      213: 7032883442565612768
+    second: ember_drake_tyrant_entrance_fx_67
+  - first:
+      213: -6060716609653097657
+    second: ember_drake_tyrant_entrance_fx_68
+  - first:
+      213: 1920425081403641435
+    second: ember_drake_tyrant_entrance_fx_69
+  - first:
+      213: 5968033275713101000
+    second: ember_drake_tyrant_entrance_fx_70
+  - first:
+      213: 8111818825226631887
+    second: ember_drake_tyrant_entrance_fx_71
+  - first:
+      213: -729173905271557929
+    second: ember_drake_tyrant_entrance_fx_72
+  - first:
+      213: -7001459981991451386
+    second: ember_drake_tyrant_entrance_fx_73
+  - first:
+      213: 5250151014901394675
+    second: ember_drake_tyrant_entrance_fx_74
+  - first:
+      213: 6002920096628399021
+    second: ember_drake_tyrant_entrance_fx_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 563
+        width: 380
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643f42c55f476a8e0800000000000000
+      internalID: -1682528813614566586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 949
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f50b8978e29afc50800000000000000
+      internalID: 6699828922836256240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_2
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 563
+        width: 390
+        height: 410
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbe056530623f74f0800000000000000
+      internalID: -828888417618817347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_3
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 563
+        width: 382
+        height: 406
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d13b830ca4f5c00800000000000000
+      internalID: 891513440688086274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_4
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 569
+        width: 384
+        height: 404
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f2683d2148dc0090800000000000000
+      internalID: -8066835058084257040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_5
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 569
+        width: 382
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2990f845f84b89e00800000000000000
+      internalID: 1051789040682994066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_6
+      rect:
+        serializedVersion: 2
+        x: 2621
+        y: 569
+        width: 378
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f26d09b3eb7d220800000000000000
+      internalID: 2510684480324644673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_7
+      rect:
+        serializedVersion: 2
+        x: 2789
+        y: 949
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fabc6307d3985f260800000000000000
+      internalID: 7130756481979698095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_8
+      rect:
+        serializedVersion: 2
+        x: 2471
+        y: 847
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe450b90cd4b2e3e0800000000000000
+      internalID: -2025858025214946065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_9
+      rect:
+        serializedVersion: 2
+        x: 2971
+        y: 857
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327272b2c1edcb260800000000000000
+      internalID: 7114805723902977827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_10
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 37
+        width: 224
+        height: 400
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b22d7da26628e10800000000000000
+      internalID: 2198431902305758021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_11
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 39
+        width: 216
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa00970b57870bb0800000000000000
+      internalID: -4969854838741398796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_12
+      rect:
+        serializedVersion: 2
+        x: 2195
+        y: 39
+        width: 214
+        height: 402
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f77fab47a19d4e0800000000000000
+      internalID: -1956503474460459127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_13
+      rect:
+        serializedVersion: 2
+        x: 2833
+        y: 385
+        width: 52
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cbdb50e3d06b05a0800000000000000
+      internalID: -6554038369589142586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_14
+      rect:
+        serializedVersion: 2
+        x: 2845
+        y: 427
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfc833f3de151ef00800000000000000
+      internalID: 1144285859738258684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_15
+      rect:
+        serializedVersion: 2
+        x: 2823
+        y: 413
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d64c2f9cabdac630800000000000000
+      internalID: 3948209557794997969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_16
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 39
+        width: 214
+        height: 302
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4b15c9b1ca25530800000000000000
+      internalID: 3842322666687149258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_17
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 327
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9128e6013d67f50800000000000000
+      internalID: 6878917548381968840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_18
+      rect:
+        serializedVersion: 2
+        x: 2721
+        y: 39
+        width: 192
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dd91c5c7fb814e90800000000000000
+      internalID: -7043194445939761705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_19
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 291
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d6871d9f28e8760800000000000000
+      internalID: 7462045642072288639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_20
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 253
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5c152281af42bc0800000000000000
+      internalID: -3808644403286653492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_21
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 243
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf5bfb9687b2b1a0800000000000000
+      internalID: -6795167098978213949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_22
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 213
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7be1e9958292dac00800000000000000
+      internalID: 913431552705044151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_23
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 151
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88afbd669ddffb9e0800000000000000
+      internalID: -1603283832145184120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_24
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 193
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab95b28c22cd1c470800000000000000
+      internalID: 8413247620850080186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_25
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 175
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649f878b737a4df20800000000000000
+      internalID: 3446563472605247814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_26
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 179
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12a3a0fcea56f2670800000000000000
+      internalID: 8516137221853166113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_27
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 39
+        width: 186
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908c25eb32240bd50800000000000000
+      internalID: 6750968562712758281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_28
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 163
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0aedf2ed5478ec80800000000000000
+      internalID: -8293250767213696499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_29
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 119
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de606f7548b6da460800000000000000
+      internalID: 7254572790919333613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_30
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 139
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eebf5cf95ac7e9d70800000000000000
+      internalID: 9051809351853276142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_31
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 123
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e198bc5387b65070800000000000000
+      internalID: 8094859155069243872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_32
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 109
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d3cd909c2281b40800000000000000
+      internalID: 5411113199134850341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_33
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 113
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd43853030ec8600800000000000000
+      internalID: 471998558627909076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_34
+      rect:
+        serializedVersion: 2
+        x: 2711
+        y: 117
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82ad549f35d7ecc50800000000000000
+      internalID: 6687420296309627432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_35
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 95
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602507fe0138138c0800000000000000
+      internalID: -4021288883505311226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_36
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 115
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7a2365ab03c865d0800000000000000
+      internalID: -3068988691266196866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_37
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 91
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bb99bc61e2cdb00800000000000000
+      internalID: 854608704733559566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_38
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 77
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de90a3358de2f7b0800000000000000
+      internalID: -5191826264052162864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_39
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 99
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b7e124a6c97d31e0800000000000000
+      internalID: -2216481547532245064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_40
+      rect:
+        serializedVersion: 2
+        x: 2697
+        y: 105
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1322d8008970bd0800000000000000
+      internalID: -2663993526431108678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_41
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 71
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b40c6da013171d0800000000000000
+      internalID: -3354846324791948506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_42
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 77
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def1c9ad026475210800000000000000
+      internalID: 1321602122577092589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_43
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 77
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e7fe65273225e30800000000000000
+      internalID: 4490690752433585797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_44
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 81
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8869229a542994a0800000000000000
+      internalID: -6586193008634795890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_45
+      rect:
+        serializedVersion: 2
+        x: 2907
+        y: 71
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 066fc9d2f910b11f0800000000000000
+      internalID: -1073262303021042080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_46
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 63
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16b7cecdcd0ad870800000000000000
+      internalID: 8708288007062926877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_47
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 63
+        width: 18
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2353972ef03bd15e0800000000000000
+      internalID: -1937195383893969614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_48
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 71
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a384661f86eed4450800000000000000
+      internalID: 6074773606886688826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_49
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 61
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f8800fc13d6b24e0800000000000000
+      internalID: -2005389148369680144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_50
+      rect:
+        serializedVersion: 2
+        x: 1679
+        y: 63
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4864bea56d22eace0800000000000000
+      internalID: -1392136930767190396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_51
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 63
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5e1addffc75112f0800000000000000
+      internalID: -1003924691098132897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_52
+      rect:
+        serializedVersion: 2
+        x: 2413
+        y: 63
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3108c072682ed9410800000000000000
+      internalID: 1485592517910757395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_53
+      rect:
+        serializedVersion: 2
+        x: 2921
+        y: 61
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd3155621dd96ff0800000000000000
+      internalID: -42259650404336196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_54
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 51
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ce21a35766ff9f0800000000000000
+      internalID: -432514385532752828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_55
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 53
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee5eade1c22ac520800000000000000
+      internalID: 2723027141010546411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_56
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 53
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc624b3a2ea3e2110800000000000000
+      internalID: 1237991692656977612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_57
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 57
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21c91365f63d0a00800000000000000
+      internalID: 724295542634037549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_58
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 53
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2db4a334e51976b0800000000000000
+      internalID: -5298179416761516753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_59
+      rect:
+        serializedVersion: 2
+        x: 1909
+        y: 63
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3e72d699eb763d0800000000000000
+      internalID: -3213390242934955031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_60
+      rect:
+        serializedVersion: 2
+        x: 2711
+        y: 61
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36198714c5d1c3630800000000000000
+      internalID: 3908030858723365219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_61
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 43
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820ff1a5fc023d640800000000000000
+      internalID: 5103458877683265576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_62
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 51
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64bde16853953a90800000000000000
+      internalID: -7334794410293611411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_63
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 43
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1108827c37a928e40800000000000000
+      internalID: 5657253903984001041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_64
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 41
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b3aefe70d5fa95c0800000000000000
+      internalID: -4207780625991687246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_65
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 41
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 990715b753490c970800000000000000
+      internalID: 8773175031540838553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_66
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 41
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 499b92d9c3522fe40800000000000000
+      internalID: 5688650221587380628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_67
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 47
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e489dcaa32d99160800000000000000
+      internalID: 7032883442565612768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_68
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 39
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b3155ca5204eba0800000000000000
+      internalID: -6060716609653097657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_69
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 43
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e80dacf68b6aa10800000000000000
+      internalID: 1920425081403641435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_70
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 43
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cc179ee4a6b2d250800000000000000
+      internalID: 5968033275713101000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_71
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 43
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcab5f74e38f29070800000000000000
+      internalID: 8111818825226631887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_72
+      rect:
+        serializedVersion: 2
+        x: 2407
+        y: 43
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0fdcc423471e5f0800000000000000
+      internalID: -729173905271557929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_73
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 49
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6056940ed31d5de90800000000000000
+      internalID: -7001459981991451386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_74
+      rect:
+        serializedVersion: 2
+        x: 2911
+        y: 41
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fcaa5418884cd840800000000000000
+      internalID: 5250151014901394675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_entrance_fx_75
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 41
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dabd696e508ae4350800000000000000
+      internalID: 6002920096628399021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ember_drake_tyrant_entrance_fx_0: -1682528813614566586
+      ember_drake_tyrant_entrance_fx_1: 6699828922836256240
+      ember_drake_tyrant_entrance_fx_10: 2198431902305758021
+      ember_drake_tyrant_entrance_fx_11: -4969854838741398796
+      ember_drake_tyrant_entrance_fx_12: -1956503474460459127
+      ember_drake_tyrant_entrance_fx_13: -6554038369589142586
+      ember_drake_tyrant_entrance_fx_14: 1144285859738258684
+      ember_drake_tyrant_entrance_fx_15: 3948209557794997969
+      ember_drake_tyrant_entrance_fx_16: 3842322666687149258
+      ember_drake_tyrant_entrance_fx_17: 6878917548381968840
+      ember_drake_tyrant_entrance_fx_18: -7043194445939761705
+      ember_drake_tyrant_entrance_fx_19: 7462045642072288639
+      ember_drake_tyrant_entrance_fx_2: -828888417618817347
+      ember_drake_tyrant_entrance_fx_20: -3808644403286653492
+      ember_drake_tyrant_entrance_fx_21: -6795167098978213949
+      ember_drake_tyrant_entrance_fx_22: 913431552705044151
+      ember_drake_tyrant_entrance_fx_23: -1603283832145184120
+      ember_drake_tyrant_entrance_fx_24: 8413247620850080186
+      ember_drake_tyrant_entrance_fx_25: 3446563472605247814
+      ember_drake_tyrant_entrance_fx_26: 8516137221853166113
+      ember_drake_tyrant_entrance_fx_27: 6750968562712758281
+      ember_drake_tyrant_entrance_fx_28: -8293250767213696499
+      ember_drake_tyrant_entrance_fx_29: 7254572790919333613
+      ember_drake_tyrant_entrance_fx_3: 891513440688086274
+      ember_drake_tyrant_entrance_fx_30: 9051809351853276142
+      ember_drake_tyrant_entrance_fx_31: 8094859155069243872
+      ember_drake_tyrant_entrance_fx_32: 5411113199134850341
+      ember_drake_tyrant_entrance_fx_33: 471998558627909076
+      ember_drake_tyrant_entrance_fx_34: 6687420296309627432
+      ember_drake_tyrant_entrance_fx_35: -4021288883505311226
+      ember_drake_tyrant_entrance_fx_36: -3068988691266196866
+      ember_drake_tyrant_entrance_fx_37: 854608704733559566
+      ember_drake_tyrant_entrance_fx_38: -5191826264052162864
+      ember_drake_tyrant_entrance_fx_39: -2216481547532245064
+      ember_drake_tyrant_entrance_fx_4: -8066835058084257040
+      ember_drake_tyrant_entrance_fx_40: -2663993526431108678
+      ember_drake_tyrant_entrance_fx_41: -3354846324791948506
+      ember_drake_tyrant_entrance_fx_42: 1321602122577092589
+      ember_drake_tyrant_entrance_fx_43: 4490690752433585797
+      ember_drake_tyrant_entrance_fx_44: -6586193008634795890
+      ember_drake_tyrant_entrance_fx_45: -1073262303021042080
+      ember_drake_tyrant_entrance_fx_46: 8708288007062926877
+      ember_drake_tyrant_entrance_fx_47: -1937195383893969614
+      ember_drake_tyrant_entrance_fx_48: 6074773606886688826
+      ember_drake_tyrant_entrance_fx_49: -2005389148369680144
+      ember_drake_tyrant_entrance_fx_5: 1051789040682994066
+      ember_drake_tyrant_entrance_fx_50: -1392136930767190396
+      ember_drake_tyrant_entrance_fx_51: -1003924691098132897
+      ember_drake_tyrant_entrance_fx_52: 1485592517910757395
+      ember_drake_tyrant_entrance_fx_53: -42259650404336196
+      ember_drake_tyrant_entrance_fx_54: -432514385532752828
+      ember_drake_tyrant_entrance_fx_55: 2723027141010546411
+      ember_drake_tyrant_entrance_fx_56: 1237991692656977612
+      ember_drake_tyrant_entrance_fx_57: 724295542634037549
+      ember_drake_tyrant_entrance_fx_58: -5298179416761516753
+      ember_drake_tyrant_entrance_fx_59: -3213390242934955031
+      ember_drake_tyrant_entrance_fx_6: 2510684480324644673
+      ember_drake_tyrant_entrance_fx_60: 3908030858723365219
+      ember_drake_tyrant_entrance_fx_61: 5103458877683265576
+      ember_drake_tyrant_entrance_fx_62: -7334794410293611411
+      ember_drake_tyrant_entrance_fx_63: 5657253903984001041
+      ember_drake_tyrant_entrance_fx_64: -4207780625991687246
+      ember_drake_tyrant_entrance_fx_65: 8773175031540838553
+      ember_drake_tyrant_entrance_fx_66: 5688650221587380628
+      ember_drake_tyrant_entrance_fx_67: 7032883442565612768
+      ember_drake_tyrant_entrance_fx_68: -6060716609653097657
+      ember_drake_tyrant_entrance_fx_69: 1920425081403641435
+      ember_drake_tyrant_entrance_fx_7: 7130756481979698095
+      ember_drake_tyrant_entrance_fx_70: 5968033275713101000
+      ember_drake_tyrant_entrance_fx_71: 8111818825226631887
+      ember_drake_tyrant_entrance_fx_72: -729173905271557929
+      ember_drake_tyrant_entrance_fx_73: -7001459981991451386
+      ember_drake_tyrant_entrance_fx_74: 5250151014901394675
+      ember_drake_tyrant_entrance_fx_75: 6002920096628399021
+      ember_drake_tyrant_entrance_fx_8: -2025858025214946065
+      ember_drake_tyrant_entrance_fx_9: 7114805723902977827
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

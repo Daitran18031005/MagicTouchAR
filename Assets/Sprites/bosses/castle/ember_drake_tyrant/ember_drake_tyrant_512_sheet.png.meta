@@ -1,0 +1,1746 @@
+fileFormatVersion: 2
+guid: be5fd0b88babe00429c32357d22efab4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1873157427851447451
+    second: ember_drake_tyrant_512_sheet_0
+  - first:
+      213: 7345810920222274129
+    second: ember_drake_tyrant_512_sheet_1
+  - first:
+      213: -6793341740111727088
+    second: ember_drake_tyrant_512_sheet_2
+  - first:
+      213: 8870622717103328416
+    second: ember_drake_tyrant_512_sheet_3
+  - first:
+      213: -7796801882726510108
+    second: ember_drake_tyrant_512_sheet_4
+  - first:
+      213: -6849308487377132482
+    second: ember_drake_tyrant_512_sheet_5
+  - first:
+      213: -8081610812333478985
+    second: ember_drake_tyrant_512_sheet_6
+  - first:
+      213: -5895056843648603561
+    second: ember_drake_tyrant_512_sheet_7
+  - first:
+      213: -3272677031383305290
+    second: ember_drake_tyrant_512_sheet_8
+  - first:
+      213: 8073841698415334710
+    second: ember_drake_tyrant_512_sheet_9
+  - first:
+      213: -5086543130356018677
+    second: ember_drake_tyrant_512_sheet_10
+  - first:
+      213: -7050746938749638764
+    second: ember_drake_tyrant_512_sheet_11
+  - first:
+      213: -8190783352053089433
+    second: ember_drake_tyrant_512_sheet_12
+  - first:
+      213: 755751979192085420
+    second: ember_drake_tyrant_512_sheet_13
+  - first:
+      213: -8193916325880353168
+    second: ember_drake_tyrant_512_sheet_14
+  - first:
+      213: -603652024922725515
+    second: ember_drake_tyrant_512_sheet_15
+  - first:
+      213: 3035444183895129698
+    second: ember_drake_tyrant_512_sheet_16
+  - first:
+      213: -5718236999539651636
+    second: ember_drake_tyrant_512_sheet_17
+  - first:
+      213: -1853404647899872821
+    second: ember_drake_tyrant_512_sheet_18
+  - first:
+      213: 6032189729800923565
+    second: ember_drake_tyrant_512_sheet_19
+  - first:
+      213: -7812385309727710024
+    second: ember_drake_tyrant_512_sheet_20
+  - first:
+      213: -7506520388472203973
+    second: ember_drake_tyrant_512_sheet_21
+  - first:
+      213: 4354875646068174948
+    second: ember_drake_tyrant_512_sheet_22
+  - first:
+      213: 3213100743198393756
+    second: ember_drake_tyrant_512_sheet_23
+  - first:
+      213: 2937063041621656859
+    second: ember_drake_tyrant_512_sheet_24
+  - first:
+      213: 5191102798947040019
+    second: ember_drake_tyrant_512_sheet_25
+  - first:
+      213: 1507275859413477728
+    second: ember_drake_tyrant_512_sheet_26
+  - first:
+      213: 3414322985353185936
+    second: ember_drake_tyrant_512_sheet_27
+  - first:
+      213: -2286155917356630839
+    second: ember_drake_tyrant_512_sheet_28
+  - first:
+      213: -1597448847252317571
+    second: ember_drake_tyrant_512_sheet_29
+  - first:
+      213: -7780319466616863885
+    second: ember_drake_tyrant_512_sheet_30
+  - first:
+      213: 7518791019945338043
+    second: ember_drake_tyrant_512_sheet_31
+  - first:
+      213: -3691309035405783065
+    second: ember_drake_tyrant_512_sheet_32
+  - first:
+      213: 1527468750104502063
+    second: ember_drake_tyrant_512_sheet_33
+  - first:
+      213: -4720497611250711161
+    second: ember_drake_tyrant_512_sheet_34
+  - first:
+      213: 3593864014508506009
+    second: ember_drake_tyrant_512_sheet_35
+  - first:
+      213: 1752919021889104330
+    second: ember_drake_tyrant_512_sheet_36
+  - first:
+      213: 6586855320338193654
+    second: ember_drake_tyrant_512_sheet_37
+  - first:
+      213: -7791119287012053592
+    second: ember_drake_tyrant_512_sheet_38
+  - first:
+      213: 2432545729398439549
+    second: ember_drake_tyrant_512_sheet_39
+  - first:
+      213: 5072061651109101020
+    second: ember_drake_tyrant_512_sheet_40
+  - first:
+      213: -1660859302551220138
+    second: ember_drake_tyrant_512_sheet_41
+  - first:
+      213: 7328308736918498902
+    second: ember_drake_tyrant_512_sheet_42
+  - first:
+      213: 1192662614563846418
+    second: ember_drake_tyrant_512_sheet_43
+  - first:
+      213: 41286477959165251
+    second: ember_drake_tyrant_512_sheet_44
+  - first:
+      213: 1050693530134195609
+    second: ember_drake_tyrant_512_sheet_45
+  - first:
+      213: -1289116686602701133
+    second: ember_drake_tyrant_512_sheet_46
+  - first:
+      213: -3690890466522079825
+    second: ember_drake_tyrant_512_sheet_47
+  - first:
+      213: 6425117962535252804
+    second: ember_drake_tyrant_512_sheet_48
+  - first:
+      213: -3489588364701805827
+    second: ember_drake_tyrant_512_sheet_49
+  - first:
+      213: 2611325742305876381
+    second: ember_drake_tyrant_512_sheet_50
+  - first:
+      213: -2651344887156365417
+    second: ember_drake_tyrant_512_sheet_51
+  - first:
+      213: 5065660483797742637
+    second: ember_drake_tyrant_512_sheet_52
+  - first:
+      213: -521789471043649128
+    second: ember_drake_tyrant_512_sheet_53
+  - first:
+      213: 7965046620178903115
+    second: ember_drake_tyrant_512_sheet_54
+  - first:
+      213: -8560661269211824793
+    second: ember_drake_tyrant_512_sheet_55
+  - first:
+      213: 2207188747919432808
+    second: ember_drake_tyrant_512_sheet_56
+  - first:
+      213: -7733091351554770761
+    second: ember_drake_tyrant_512_sheet_57
+  - first:
+      213: 8442560784481391330
+    second: ember_drake_tyrant_512_sheet_58
+  - first:
+      213: -8044575759857628089
+    second: ember_drake_tyrant_512_sheet_59
+  - first:
+      213: -4159125540925228428
+    second: ember_drake_tyrant_512_sheet_60
+  - first:
+      213: -4410023165340763206
+    second: ember_drake_tyrant_512_sheet_61
+  - first:
+      213: -7819310320304685875
+    second: ember_drake_tyrant_512_sheet_62
+  - first:
+      213: -5755051335085246469
+    second: ember_drake_tyrant_512_sheet_63
+  - first:
+      213: -216858536977937501
+    second: ember_drake_tyrant_512_sheet_64
+  - first:
+      213: -4639040880607641145
+    second: ember_drake_tyrant_512_sheet_65
+  - first:
+      213: -3879024456044371762
+    second: ember_drake_tyrant_512_sheet_66
+  - first:
+      213: 1354389243835697638
+    second: ember_drake_tyrant_512_sheet_67
+  - first:
+      213: 1694647865391002851
+    second: ember_drake_tyrant_512_sheet_68
+  - first:
+      213: 9213912434359998521
+    second: ember_drake_tyrant_512_sheet_69
+  - first:
+      213: 7288626445200938339
+    second: ember_drake_tyrant_512_sheet_70
+  - first:
+      213: 4470369832239261452
+    second: ember_drake_tyrant_512_sheet_71
+  - first:
+      213: -7830402137398268408
+    second: ember_drake_tyrant_512_sheet_72
+  - first:
+      213: -1184348471378538197
+    second: ember_drake_tyrant_512_sheet_73
+  - first:
+      213: -1221995225031811505
+    second: ember_drake_tyrant_512_sheet_74
+  - first:
+      213: -7948206459231622743
+    second: ember_drake_tyrant_512_sheet_75
+  - first:
+      213: 5170057772764618205
+    second: ember_drake_tyrant_512_sheet_76
+  - first:
+      213: 6461169333608584319
+    second: ember_drake_tyrant_512_sheet_77
+  - first:
+      213: 9014464012427133254
+    second: ember_drake_tyrant_512_sheet_78
+  - first:
+      213: 3645925352760416714
+    second: ember_drake_tyrant_512_sheet_79
+  - first:
+      213: 5326351100804048210
+    second: ember_drake_tyrant_512_sheet_80
+  - first:
+      213: 4749745748574016863
+    second: ember_drake_tyrant_512_sheet_81
+  - first:
+      213: 6828972924593616070
+    second: ember_drake_tyrant_512_sheet_82
+  - first:
+      213: 8304494933450397445
+    second: ember_drake_tyrant_512_sheet_83
+  - first:
+      213: 1657450544842498641
+    second: ember_drake_tyrant_512_sheet_84
+  - first:
+      213: 6009636833169131302
+    second: ember_drake_tyrant_512_sheet_85
+  - first:
+      213: -5807066899406262650
+    second: ember_drake_tyrant_512_sheet_86
+  - first:
+      213: -5374973312580667593
+    second: ember_drake_tyrant_512_sheet_87
+  - first:
+      213: -1872148418896636951
+    second: ember_drake_tyrant_512_sheet_88
+  - first:
+      213: 7179119588062898011
+    second: ember_drake_tyrant_512_sheet_89
+  - first:
+      213: -1644602624349481954
+    second: ember_drake_tyrant_512_sheet_90
+  - first:
+      213: 7565863397794973470
+    second: ember_drake_tyrant_512_sheet_91
+  - first:
+      213: 6163102584011678355
+    second: ember_drake_tyrant_512_sheet_92
+  - first:
+      213: 1674559114768023351
+    second: ember_drake_tyrant_512_sheet_93
+  - first:
+      213: 7926270318682729343
+    second: ember_drake_tyrant_512_sheet_94
+  - first:
+      213: 3139968674471628919
+    second: ember_drake_tyrant_512_sheet_95
+  - first:
+      213: 1441504730067979396
+    second: ember_drake_tyrant_512_sheet_96
+  - first:
+      213: -5872397538464230367
+    second: ember_drake_tyrant_512_sheet_97
+  - first:
+      213: 454180871457452896
+    second: ember_drake_tyrant_512_sheet_98
+  - first:
+      213: 9028818913368285278
+    second: ember_drake_tyrant_512_sheet_99
+  - first:
+      213: -5123409932935320526
+    second: ember_drake_tyrant_512_sheet_100
+  - first:
+      213: 8593098469792524973
+    second: ember_drake_tyrant_512_sheet_101
+  - first:
+      213: 5407165395982508907
+    second: ember_drake_tyrant_512_sheet_102
+  - first:
+      213: 203698679352948508
+    second: ember_drake_tyrant_512_sheet_103
+  - first:
+      213: -7550653703420637729
+    second: ember_drake_tyrant_512_sheet_104
+  - first:
+      213: -4125751456843348877
+    second: ember_drake_tyrant_512_sheet_105
+  - first:
+      213: -2509183391393284595
+    second: ember_drake_tyrant_512_sheet_106
+  - first:
+      213: -8982136262938531214
+    second: ember_drake_tyrant_512_sheet_107
+  - first:
+      213: -3975843866916394963
+    second: ember_drake_tyrant_512_sheet_108
+  - first:
+      213: -6246060266947118949
+    second: ember_drake_tyrant_512_sheet_109
+  - first:
+      213: -8478436848603949734
+    second: ember_drake_tyrant_512_sheet_110
+  - first:
+      213: -1071108318399085415
+    second: ember_drake_tyrant_512_sheet_111
+  - first:
+      213: -4358611510745848692
+    second: ember_drake_tyrant_512_sheet_112
+  - first:
+      213: 6527840555514844296
+    second: ember_drake_tyrant_512_sheet_113
+  - first:
+      213: -313198475156289081
+    second: ember_drake_tyrant_512_sheet_114
+  - first:
+      213: -5088893931249722467
+    second: ember_drake_tyrant_512_sheet_115
+  - first:
+      213: -4319665707897580098
+    second: ember_drake_tyrant_512_sheet_116
+  - first:
+      213: 1369513221563568421
+    second: ember_drake_tyrant_512_sheet_117
+  - first:
+      213: -2507624286399644469
+    second: ember_drake_tyrant_512_sheet_118
+  - first:
+      213: 4087757429453667162
+    second: ember_drake_tyrant_512_sheet_119
+  - first:
+      213: -2226413361592562472
+    second: ember_drake_tyrant_512_sheet_120
+  - first:
+      213: -6859759435800587259
+    second: ember_drake_tyrant_512_sheet_121
+  - first:
+      213: -6536925289102353028
+    second: ember_drake_tyrant_512_sheet_122
+  - first:
+      213: 5348762383916927801
+    second: ember_drake_tyrant_512_sheet_123
+  - first:
+      213: -1346484624309249261
+    second: ember_drake_tyrant_512_sheet_124
+  - first:
+      213: -2654343064476376229
+    second: ember_drake_tyrant_512_sheet_125
+  - first:
+      213: -8222772064671902807
+    second: ember_drake_tyrant_512_sheet_126
+  - first:
+      213: 7840263547902099960
+    second: ember_drake_tyrant_512_sheet_127
+  - first:
+      213: -3582393044940617169
+    second: ember_drake_tyrant_512_sheet_128
+  - first:
+      213: 5927259212006865297
+    second: ember_drake_tyrant_512_sheet_129
+  - first:
+      213: 3099817787397883119
+    second: ember_drake_tyrant_512_sheet_130
+  - first:
+      213: 4738548294851521754
+    second: ember_drake_tyrant_512_sheet_131
+  - first:
+      213: -6343475655185622547
+    second: ember_drake_tyrant_512_sheet_132
+  - first:
+      213: 5463508581600234409
+    second: ember_drake_tyrant_512_sheet_133
+  - first:
+      213: 7229758916162783738
+    second: ember_drake_tyrant_512_sheet_134
+  - first:
+      213: 3135360289300541770
+    second: ember_drake_tyrant_512_sheet_135
+  - first:
+      213: 5453490721887033566
+    second: ember_drake_tyrant_512_sheet_136
+  - first:
+      213: -695727153219089367
+    second: ember_drake_tyrant_512_sheet_137
+  - first:
+      213: -545814537105077646
+    second: ember_drake_tyrant_512_sheet_138
+  - first:
+      213: 7992200540188115272
+    second: ember_drake_tyrant_512_sheet_139
+  - first:
+      213: -5006808013636204418
+    second: ember_drake_tyrant_512_sheet_140
+  - first:
+      213: -1145018120787435934
+    second: ember_drake_tyrant_512_sheet_141
+  - first:
+      213: 7350161247465068598
+    second: ember_drake_tyrant_512_sheet_142
+  - first:
+      213: 2613407116190002514
+    second: ember_drake_tyrant_512_sheet_143
+  - first:
+      213: -6820567388394433172
+    second: ember_drake_tyrant_512_sheet_144
+  - first:
+      213: 5890968200918594844
+    second: ember_drake_tyrant_512_sheet_145
+  - first:
+      213: 4550839979202169845
+    second: ember_drake_tyrant_512_sheet_146
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 0
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9c487791cacef910800000000000000
+      internalID: 1873157427851447451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 152b807bc1091f560800000000000000
+      internalID: 7345810920222274129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0167ec61ea339b1a0800000000000000
+      internalID: -6793341740111727088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ac4475dc58ca1b70800000000000000
+      internalID: 8870622717103328416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e15df33ff13cc390800000000000000
+      internalID: -7796801882726510108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3461dc483e52f0a0800000000000000
+      internalID: -6849308487377132482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb28edc8c958df80800000000000000
+      internalID: -8081610812333478985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75ae697b80d803ea0800000000000000
+      internalID: -5895056843648603561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b371df449d1592d0800000000000000
+      internalID: -3272677031383305290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63558c66f3c0c0070800000000000000
+      internalID: 8073841698415334710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b021d6cf8f7f869b0800000000000000
+      internalID: -5086543130356018677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497a7a20407b62e90800000000000000
+      internalID: -7050746938749638764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b31bc10fd745e80800000000000000
+      internalID: -8190783352053089433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabea02cb68fc7a00800000000000000
+      internalID: 755751979192085420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ea0acc38c594e80800000000000000
+      internalID: -8193916325880353168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573298e7ea56f97f0800000000000000
+      internalID: -603652024922725515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e389c1760102a20800000000000000
+      internalID: 3035444183895129698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb81f4debdb4a0b0800000000000000
+      internalID: -5718236999539651636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1ced0ea426746e0800000000000000
+      internalID: -1853404647899872821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da92b8e6994a6b350800000000000000
+      internalID: 6032189729800923565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4233dd3f4d49390800000000000000
+      internalID: -7812385309727710024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3513e95a7b73d790800000000000000
+      internalID: -7506520388472203973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460b4e4b350af6c30800000000000000
+      internalID: 4354875646068174948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9542e92a1a379c20800000000000000
+      internalID: 3213100743198393756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1589ce664b82c820800000000000000
+      internalID: 2937063041621656859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b36c3fd708a0840800000000000000
+      internalID: 5191102798947040019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 069acd2886beae410800000000000000
+      internalID: 1507275859413477728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09a8d625aac126f20800000000000000
+      internalID: 3414322985353185936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ccfcc44e41f540e0800000000000000
+      internalID: -2286155917356630839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a1ba0bcb8b4d9e0800000000000000
+      internalID: -1597448847252317571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373ce31caa0c60490800000000000000
+      internalID: -7780319466616863885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb42d3ca89c185860800000000000000
+      internalID: 7518791019945338043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efc27c5df5d5ccc0800000000000000
+      internalID: -3691309035405783065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f1d7f3cb8a23510800000000000000
+      internalID: 1527468750104502063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785425ece6c6d7eb0800000000000000
+      internalID: -4720497611250711161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99bb6d3b748ffd130800000000000000
+      internalID: 3593864014508506009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9a9b3209e935810800000000000000
+      internalID: 1752919021889104330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc56a3e306396b50800000000000000
+      internalID: 6586855320338193654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ada3fe994260e390800000000000000
+      internalID: -7791119287012053592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7effa4e37322c120800000000000000
+      internalID: 2432545729398439549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd3d31e235936640800000000000000
+      internalID: 5072061651109101020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6501881934173f8e0800000000000000
+      internalID: -1660859302551220138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e2b6c18f163b560800000000000000
+      internalID: 7328308736918498902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21977f534503d8010800000000000000
+      internalID: 1192662614563846418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34578cc35dda29000800000000000000
+      internalID: 41286477959165251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d2377e230d49e00800000000000000
+      internalID: 1050693530134195609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6740d14332c1ee0800000000000000
+      internalID: -1289116686602701133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fad53160da257ccc0800000000000000
+      internalID: -3690890466522079825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44335e4ceba9a2950800000000000000
+      internalID: 6425117962535252804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2dc95fedd729fc0800000000000000
+      internalID: -3489588364701805827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_512_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9999fe5dea4d3420800000000000000
+      internalID: 2611325742305876381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2417b4d3a2fcc2a4897242d2269646f7
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":512.0,"y":512.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      ember_drake_tyrant_512_sheet_0: 1873157427851447451
+      ember_drake_tyrant_512_sheet_1: 7345810920222274129
+      ember_drake_tyrant_512_sheet_10: -5086543130356018677
+      ember_drake_tyrant_512_sheet_11: -7050746938749638764
+      ember_drake_tyrant_512_sheet_12: -8190783352053089433
+      ember_drake_tyrant_512_sheet_13: 755751979192085420
+      ember_drake_tyrant_512_sheet_14: -8193916325880353168
+      ember_drake_tyrant_512_sheet_15: -603652024922725515
+      ember_drake_tyrant_512_sheet_16: 3035444183895129698
+      ember_drake_tyrant_512_sheet_17: -5718236999539651636
+      ember_drake_tyrant_512_sheet_18: -1853404647899872821
+      ember_drake_tyrant_512_sheet_19: 6032189729800923565
+      ember_drake_tyrant_512_sheet_2: -6793341740111727088
+      ember_drake_tyrant_512_sheet_20: -7812385309727710024
+      ember_drake_tyrant_512_sheet_21: -7506520388472203973
+      ember_drake_tyrant_512_sheet_22: 4354875646068174948
+      ember_drake_tyrant_512_sheet_23: 3213100743198393756
+      ember_drake_tyrant_512_sheet_24: 2937063041621656859
+      ember_drake_tyrant_512_sheet_25: 5191102798947040019
+      ember_drake_tyrant_512_sheet_26: 1507275859413477728
+      ember_drake_tyrant_512_sheet_27: 3414322985353185936
+      ember_drake_tyrant_512_sheet_28: -2286155917356630839
+      ember_drake_tyrant_512_sheet_29: -1597448847252317571
+      ember_drake_tyrant_512_sheet_3: 8870622717103328416
+      ember_drake_tyrant_512_sheet_30: -7780319466616863885
+      ember_drake_tyrant_512_sheet_31: 7518791019945338043
+      ember_drake_tyrant_512_sheet_32: -3691309035405783065
+      ember_drake_tyrant_512_sheet_33: 1527468750104502063
+      ember_drake_tyrant_512_sheet_34: -4720497611250711161
+      ember_drake_tyrant_512_sheet_35: 3593864014508506009
+      ember_drake_tyrant_512_sheet_36: 1752919021889104330
+      ember_drake_tyrant_512_sheet_37: 6586855320338193654
+      ember_drake_tyrant_512_sheet_38: -7791119287012053592
+      ember_drake_tyrant_512_sheet_39: 2432545729398439549
+      ember_drake_tyrant_512_sheet_4: -7796801882726510108
+      ember_drake_tyrant_512_sheet_40: 5072061651109101020
+      ember_drake_tyrant_512_sheet_41: -1660859302551220138
+      ember_drake_tyrant_512_sheet_42: 7328308736918498902
+      ember_drake_tyrant_512_sheet_43: 1192662614563846418
+      ember_drake_tyrant_512_sheet_44: 41286477959165251
+      ember_drake_tyrant_512_sheet_45: 1050693530134195609
+      ember_drake_tyrant_512_sheet_46: -1289116686602701133
+      ember_drake_tyrant_512_sheet_47: -3690890466522079825
+      ember_drake_tyrant_512_sheet_48: 6425117962535252804
+      ember_drake_tyrant_512_sheet_49: -3489588364701805827
+      ember_drake_tyrant_512_sheet_5: -6849308487377132482
+      ember_drake_tyrant_512_sheet_50: 2611325742305876381
+      ember_drake_tyrant_512_sheet_6: -8081610812333478985
+      ember_drake_tyrant_512_sheet_7: -5895056843648603561
+      ember_drake_tyrant_512_sheet_8: -3272677031383305290
+      ember_drake_tyrant_512_sheet_9: 8073841698415334710
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

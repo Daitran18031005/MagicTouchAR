@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8e5057ad562ba4d8814947c6235928, type: 3}
+  m_Name: ClawRight
+  m_EditorClassIdentifier: Assembly-CSharp::MagicTouch.Gameplay.BossSkillDefinition
+  _bossClip: skill_claw_right
+  _impactFrame: 4
+  _telegraphSeconds: 2.4
+  _kind: 2
+  _fxClip: claw_slash
+  _slashSides: 2
+  _fxHitFrame: 1
+  _fxScale: 1.6
+  _fxOffset: {x: 0, y: 0}
+  _fxFrameSeconds: 0.08
+  _playerHeightMultiple: 1.5
+  _contentHeight: 0.7
+  _flightSeconds: 0.55
+  _columnChance: 0
+  _mouthOffset: {x: 0, y: -0.35}
+  _sound: {fileID: 0}
+  _damage: 1

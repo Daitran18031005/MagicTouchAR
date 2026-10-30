@@ -18,6 +18,7 @@ namespace MagicTouch.Gameplay
         /// Central registry of all active, living enemies currently on screen.
         /// </summary>
         public static readonly List<EnemyBalloon> ActiveEnemies = new List<EnemyBalloon>();
+        public event Action<EnemyBalloon> EnemySpawned;
 
         [System.Serializable]
         public struct SymbolVisualConfig
@@ -45,6 +46,9 @@ namespace MagicTouch.Gameplay
 
         [Tooltip("Max fall speed as difficulty scales.")]
         [SerializeField] private float _maxFallSpeed = 3.5f;
+
+        [Tooltip("Creep roster and balloon-count odds per difficulty. Empty = Resources/CreepSpawnTable; none = legacy enemies.")]
+        [SerializeField] private CreepSpawnTable _creepTable;
 
         [Header("Spawn Position Boundaries")]
         [Tooltip("If true, automatically computes horizontal range and top edge from Camera.main.")]
@@ -121,6 +125,12 @@ namespace MagicTouch.Gameplay
             }
             Instance = this;
 
+            if (_creepTable == null) _creepTable = Resources.Load<CreepSpawnTable>(CreepSpawnTable.ResourceName);
+            if (_creepTable != null)
+            {
+                string problem = _creepTable.Validate();
+                if (problem != null) { Debug.LogWarning("[EnemySpawner] Creep table ignored: " + problem); _creepTable = null; }
+            }
             BuildVisualLookup();
         }
 
@@ -203,7 +213,7 @@ namespace MagicTouch.Gameplay
                 // Task 2: Strictly wrap spawning timer logic inside if (GameManager.Instance.currentState == GameState.Playing)
                 if (GameManager.Instance != null && GameManager.Instance.currentState == GameState.Playing)
                 {
-                    SpawnEnemy();
+                    SpawnEnemy(true);
 
                     // Gradually scale difficulty
                     _currentInterval = Mathf.Max(_minSpawnInterval, _currentInterval - _intervalDecay);
@@ -218,7 +228,8 @@ namespace MagicTouch.Gameplay
             }
         }
 
-        public EnemyBalloon SpawnEnemy()
+        /// <param name="asCreep">True for the regular waves; boss balloons and checks keep the plain single balloon.</param>
+        public EnemyBalloon SpawnEnemy(bool asCreep = false)
         {
             if (_enemyPrefab == null)
             {
@@ -238,31 +249,17 @@ namespace MagicTouch.Gameplay
                 enemy = enemyObj.AddComponent<EnemyBalloon>();
             }
 
-            // Pick random gesture symbol
-            GestureSymbol chosenSymbol = PickRandomSymbol();
-
-            // Look up sprite & color
-            Sprite symbolSprite = null;
-            Color? tintColor = null;
-
-            if (_visualLookup.TryGetValue(chosenSymbol, out var visual))
-            {
-                symbolSprite = visual.sprite;
-                if (visual.balloonTint != default && visual.balloonTint.a > 0.01f)
-                {
-                    tintColor = visual.balloonTint;
-                }
-            }
-
             enemy.FallSpeed = CurrentFallSpeed;
-            enemy.SetSymbol(chosenSymbol, symbolSprite, tintColor);
+
+            // Creeps (table assigned): sprites come from the table, so the legacy enemy sprite pool is skipped.
+            CreepDefinition creep = asCreep && _creepTable != null ? _creepTable.PickCreep(Roll) : null;
 
             // Task 1: Pass variety pools if the prefab does not define its own
-            if ((enemy.enemySprites == null || enemy.enemySprites.Length == 0) && enemySpritePool != null && enemySpritePool.Length > 0)
+            if (creep == null && (enemy.enemySprites == null || enemy.enemySprites.Length == 0) && enemySpritePool != null && enemySpritePool.Length > 0)
             {
                 enemy.enemySprites = enemySpritePool;
             }
-            if ((enemy.bodyOffsets == null || enemy.bodyOffsets.Length == 0) && enemyBodyOffsetsPool != null && enemyBodyOffsetsPool.Length > 0)
+            if (creep == null && (enemy.bodyOffsets == null || enemy.bodyOffsets.Length == 0) && enemyBodyOffsetsPool != null && enemyBodyOffsetsPool.Length > 0)
             {
                 enemy.bodyOffsets = enemyBodyOffsetsPool;
             }
@@ -276,9 +273,48 @@ namespace MagicTouch.Gameplay
             }
 
             enemy.AutoWireVisualComponents();
+            int balloons = 1;
+            if (creep != null)
+            {
+                balloons = _creepTable.PickBalloonCount(_difficultyLevel, Roll);
+                enemy.ConfigureCreep(creep, balloons);
+                if (!enemy.IsCreep) balloons = 1;
+            }
+            // Every balloon of a bunch draws its own symbol at random (repeats allowed).
+            for (int i = 0; i < balloons; i++) ApplySymbol(enemy, PickRandomSymbol(), i);
             enemy.ApplyVisualVariety();
 
+            EnemySpawned?.Invoke(enemy);
             return enemy;
+        }
+
+        /// <summary>Gives a live balloon a different symbol and a fresh look (boss balloons change on a timer).</summary>
+        public void RerollSymbol(EnemyBalloon enemy)
+        {
+            if (enemy == null) return;
+            GestureSymbol next = PickRandomSymbol();
+            if (_availableSymbols != null && _availableSymbols.Length > 1)
+                for (int i = 0; i < 8 && next == enemy.AssignedSymbol; i++) next = PickRandomSymbol();
+            ApplySymbol(enemy, next);
+            enemy.ApplyVisualVariety();
+        }
+
+        private static float Roll() => UnityEngine.Random.value;
+
+        private void ApplySymbol(EnemyBalloon enemy, GestureSymbol symbol, int balloonIndex = 0)
+        {
+            Sprite symbolSprite = null;
+            Color? tintColor = null;
+            if (_visualLookup.TryGetValue(symbol, out var visual))
+            {
+                symbolSprite = visual.sprite;
+                if (visual.balloonTint != default && visual.balloonTint.a > 0.01f)
+                {
+                    tintColor = visual.balloonTint;
+                }
+            }
+            if (balloonIndex == 0) enemy.SetSymbol(symbol, symbolSprite, tintColor);
+            else enemy.SetBalloonSymbol(balloonIndex, symbol, symbolSprite, tintColor);
         }
 
         private GestureSymbol PickRandomSymbol()

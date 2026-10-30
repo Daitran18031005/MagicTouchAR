@@ -1,0 +1,546 @@
+fileFormatVersion: 2
+guid: 7167b524ed553d24eb8201eff9488953
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4564332536631423257
+    second: ember_drake_tyrant_projectiles_0
+  - first:
+      213: -7964407608932668304
+    second: ember_drake_tyrant_projectiles_1
+  - first:
+      213: 2124809273420279060
+    second: ember_drake_tyrant_projectiles_2
+  - first:
+      213: -2661889446395918049
+    second: ember_drake_tyrant_projectiles_3
+  - first:
+      213: 5042690822312362730
+    second: ember_drake_tyrant_projectiles_4
+  - first:
+      213: 7653739506631507228
+    second: ember_drake_tyrant_projectiles_5
+  - first:
+      213: -4463520347874335288
+    second: ember_drake_tyrant_projectiles_6
+  - first:
+      213: 4435581757405559629
+    second: ember_drake_tyrant_projectiles_7
+  - first:
+      213: -4850873821497242512
+    second: ember_drake_tyrant_projectiles_8
+  - first:
+      213: -7909289445506897309
+    second: ember_drake_tyrant_projectiles_9
+  - first:
+      213: -3197413661708676812
+    second: ember_drake_tyrant_projectiles_10
+  - first:
+      213: -3680461211038658593
+    second: ember_drake_tyrant_projectiles_11
+  - first:
+      213: -814377270054621044
+    second: ember_drake_tyrant_projectiles_12
+  - first:
+      213: -2501575991685420651
+    second: ember_drake_tyrant_projectiles_13
+  - first:
+      213: 2382516905309369678
+    second: ember_drake_tyrant_projectiles_14
+  - first:
+      213: 5814341558710043891
+    second: ember_drake_tyrant_projectiles_15
+  - first:
+      213: -9167690058242165579
+    second: ember_drake_tyrant_projectiles_16
+  - first:
+      213: -92730585495357105
+    second: ember_drake_tyrant_projectiles_17
+  - first:
+      213: -2145634598593193215
+    second: ember_drake_tyrant_projectiles_18
+  - first:
+      213: -6762422105878145451
+    second: ember_drake_tyrant_projectiles_19
+  - first:
+      213: 6479295056221637230
+    second: ember_drake_tyrant_projectiles_20
+  - first:
+      213: 8170120654640360630
+    second: ember_drake_tyrant_projectiles_21
+  - first:
+      213: 8513594233911456101
+    second: ember_drake_tyrant_projectiles_22
+  - first:
+      213: 5738021840366054940
+    second: ember_drake_tyrant_projectiles_23
+  - first:
+      213: 7193324646914060926
+    second: ember_drake_tyrant_projectiles_24
+  - first:
+      213: -2357661905691800548
+    second: ember_drake_tyrant_projectiles_25
+  - first:
+      213: 3338926868353892487
+    second: ember_drake_tyrant_projectiles_26
+  - first:
+      213: 3195378646107433634
+    second: ember_drake_tyrant_projectiles_27
+  - first:
+      213: -2266394725028551735
+    second: ember_drake_tyrant_projectiles_28
+  - first:
+      213: -4056096675877664851
+    second: ember_drake_tyrant_projectiles_29
+  - first:
+      213: -8437982519019430272
+    second: ember_drake_tyrant_projectiles_30
+  - first:
+      213: 8928744179154628075
+    second: ember_drake_tyrant_projectiles_31
+  - first:
+      213: 8518630081755283700
+    second: ember_drake_tyrant_projectiles_32
+  - first:
+      213: 4386262623800698788
+    second: ember_drake_tyrant_projectiles_33
+  - first:
+      213: -8164735994985979437
+    second: ember_drake_tyrant_projectiles_34
+  - first:
+      213: 2073938212482457606
+    second: ember_drake_tyrant_projectiles_35
+  - first:
+      213: 5237912301222402024
+    second: ember_drake_tyrant_projectiles_36
+  - first:
+      213: 1783687791132370431
+    second: ember_drake_tyrant_projectiles_37
+  - first:
+      213: -5344486239646459532
+    second: ember_drake_tyrant_projectiles_38
+  - first:
+      213: -6771931932049833302
+    second: ember_drake_tyrant_projectiles_39
+  - first:
+      213: -1503420562436702385
+    second: ember_drake_tyrant_projectiles_40
+  - first:
+      213: -1548329117008517953
+    second: ember_drake_tyrant_projectiles_41
+  - first:
+      213: 8038857843717678231
+    second: ember_drake_tyrant_projectiles_42
+  - first:
+      213: 4231462469140337663
+    second: ember_drake_tyrant_projectiles_43
+  - first:
+      213: 535991480365033914
+    second: ember_drake_tyrant_projectiles_44
+  - first:
+      213: 1088239320290042737
+    second: ember_drake_tyrant_projectiles_45
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ember_drake_tyrant_projectiles_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9117caa5244c75f30800000000000000
+      internalID: 4564332536631423257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_projectiles_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c66271a7db87190800000000000000
+      internalID: -7964407608932668304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_projectiles_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41deba5c6c6dc7d10800000000000000
+      internalID: 2124809273420279060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_projectiles_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19c53cd6a11f0bd0800000000000000
+      internalID: -2661889446395918049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_projectiles_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae20d08e59c3bf540800000000000000
+      internalID: 5042690822312362730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_projectiles_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1df420b78b873a60800000000000000
+      internalID: 7653739506631507228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_projectiles_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5e83174e36e02c0800000000000000
+      internalID: -4463520347874335288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_projectiles_7
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b7c5e8b1a5e8d30800000000000000
+      internalID: 4435581757405559629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_projectiles_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07c4a6bd5fb3eacb0800000000000000
+      internalID: -4850873821497242512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_projectiles_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36aa0de872f8c3290800000000000000
+      internalID: -7909289445506897309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_projectiles_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4319fdd173180a3d0800000000000000
+      internalID: -3197413661708676812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ember_drake_tyrant_projectiles_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdfcf6a47006cecc0800000000000000
+      internalID: -3680461211038658593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 65ccc7923b987eb45bd96bf52ff4d80e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":128.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      ember_drake_tyrant_projectiles_0: 4564332536631423257
+      ember_drake_tyrant_projectiles_1: -7964407608932668304
+      ember_drake_tyrant_projectiles_10: -3197413661708676812
+      ember_drake_tyrant_projectiles_11: -3680461211038658593
+      ember_drake_tyrant_projectiles_2: 2124809273420279060
+      ember_drake_tyrant_projectiles_3: -2661889446395918049
+      ember_drake_tyrant_projectiles_4: 5042690822312362730
+      ember_drake_tyrant_projectiles_5: 7653739506631507228
+      ember_drake_tyrant_projectiles_6: -4463520347874335288
+      ember_drake_tyrant_projectiles_7: 4435581757405559629
+      ember_drake_tyrant_projectiles_8: -4850873821497242512
+      ember_drake_tyrant_projectiles_9: -7909289445506897309
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

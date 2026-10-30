@@ -140,6 +140,9 @@ namespace MagicTouch.UI
         [Tooltip("Sound played upon game over.")]
         public AudioClip gameOverSound;
 
+        [Tooltip("Sound played when the Solo boss is defeated.")]
+        public AudioClip gameVictorySound;
+
         [Header("Settings UI Controls (Optional Binding)")]
         public Slider bgmSlider;
         public Slider sfxSlider;
@@ -382,6 +385,7 @@ namespace MagicTouch.UI
             MagicTouch.Drawing.DrawingManager.Instance?.ResetForNewRound();
             Time.timeScale = 0f;
             if (bgmSource != null) bgmSource.Pause();
+            MusicDirector.Instance?.SetPaused(true);
 
             if (pausePanel != null) pausePanel.SetActive(true);
 
@@ -403,6 +407,7 @@ namespace MagicTouch.UI
             Time.timeScale = _resumeTimeScale;
             if (settingsPanel != null) settingsPanel.SetActive(false);
             if (bgmSource != null) bgmSource.UnPause();
+            MusicDirector.Instance?.SetPaused(false);
 
             if (pausePanel != null) pausePanel.SetActive(false);
 
@@ -525,6 +530,7 @@ namespace MagicTouch.UI
             {
                 bgmSource.volume = volume;
             }
+            MusicDirector.Instance?.SetMaster(volume);
             SynchronizeAudioVolumes();
         }
 
@@ -603,6 +609,12 @@ namespace MagicTouch.UI
 
         private void PlayBGM(AudioClip clip, bool loop = true)
         {
+            // MusicDirector owns the menu / combat / boss tracks when it has them.
+            if (MusicDirector.Instance != null && MusicDirector.Instance.TryPlay(clip))
+            {
+                if (bgmSource != null && bgmSource.isPlaying) bgmSource.Stop();
+                return;
+            }
             if (bgmSource == null || clip == null) return;
             if (GameManager.Instance != null && GameManager.Instance.bgmSource != null && GameManager.Instance.bgmSource != bgmSource)
                 GameManager.Instance.bgmSource.Stop();
@@ -731,6 +743,35 @@ namespace MagicTouch.UI
 
             if (gameplayHUDPanel != null) gameplayHUDPanel.SetActive(false);
             bool duel = GameManager.Instance != null && GameManager.Instance.IsVersus;
+            bool victory = GameManager.Instance != null && GameManager.Instance.SoloBossVictory;
+            // A solo run has a few attempts: a loss with attempts left offers TRY AGAIN, the last loss ends the run.
+            var run = GameManager.Instance != null ? GameManager.Instance.GetComponent<SoloBossEncounter>() : null;
+            bool runOver = !victory && run != null && run.AttemptsLeft == 0;
+            if (gameOverPanel != null)
+            {
+                foreach (var text in gameOverPanel.GetComponentsInChildren<TMP_Text>(true))
+                {
+                    if (text.text == "GAME OVER" || text.text == "VICTORY!")
+                        text.text = victory ? "VICTORY!" : "GAME OVER";
+                    else if (text.name == "Subtitle")
+                    {
+                        text.text = victory ? "TYRANT DEFEATED!" : run == null ? "YOU LOSE!"
+                            : runOver ? "OUT OF TRIES!" : $"YOU LOSE!  TRIES LEFT: {run.AttemptsLeft}";
+                        text.color = victory ? new Color32(170, 240, 115, 255) : new Color32(255, 165, 157, 255);
+                    }
+                    else if (text.transform.parent.name == "PlayAgainButton")
+                        text.text = victory || runOver ? "PLAY AGAIN" : "TRY AGAIN";
+                }
+                foreach (var image in gameOverPanel.GetComponentsInChildren<Image>(true))
+                {
+                    if (image.name == "DefeatBadge") image.gameObject.SetActive(!victory);
+                    else if (image.name == "DefeatedWizard")
+                    {
+                        image.color = victory ? Color.white : new Color32(161, 181, 214, 255);
+                        image.rectTransform.localRotation = Quaternion.Euler(0, 0, victory ? 0 : -12);
+                    }
+                }
+            }
             if (gameOverPanel != null) gameOverPanel.SetActive(!duel);
             if (versusHUDPanel != null) versusHUDPanel.SetActive(false);
             if (versusResultPanel != null) versusResultPanel.SetActive(duel);
@@ -742,11 +783,13 @@ namespace MagicTouch.UI
             }
 
             if (bgmSource != null) bgmSource.Stop();
+            MusicDirector.Instance?.StopAll();
             AudioClip goClip = gameOverSound != null ? gameOverSound : gameOverMusic;
-            if (!duel && goClip != null && (GameManager.Instance == null || GameManager.Instance.gameOverSound == null))
+            if (!duel && !victory && goClip != null && (GameManager.Instance == null || GameManager.Instance.gameOverSound == null))
             {
                 PlaySFX(goClip);
             }
+            if (victory && gameVictorySound != null) PlaySFX(gameVictorySound);
         }
 
         #endregion

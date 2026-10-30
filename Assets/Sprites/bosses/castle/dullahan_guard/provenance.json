@@ -1,0 +1,8 @@
+{
+  "tool": "agent-sprite-forge 0.4.0 (generate2dsprite master_still + process), ownership slicing, 24-colour palette finish",
+  "art_route": "local:codex-cli (image_gen), no API key, no video route",
+  "master": "single approved still (take 2 of 3), front 3/4 view, key #00FF00",
+  "finish": "512 frame -> premultiplied area downscale to 256 logical grid -> shared 24-colour OKLab palette (9 reserved spec colours) -> binary alpha, orphan removal -> nearest x2 back to 512",
+  "notes": "all body frames shrunk uniformly by 0.84 before cropping so the longest sword reach fits 512; feet baseline row 480 (pivot bottom-centre, 32 px above the frame bottom)",
+  "work_dir": "Logs/dullahan_guard (git-ignored): prompts/, raw/, proc*/, work/, pipeline.py"
+}
