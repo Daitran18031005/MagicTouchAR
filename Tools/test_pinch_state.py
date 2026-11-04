@@ -11,15 +11,32 @@ def pose(gap, scale=1.0, aspect=1.0):
 
 
 class PinchTests(unittest.TestCase):
-    def test_light_open_releases_immediately(self):
+    def test_light_open_pauses_then_releases_on_next_open_sample(self):
         state = PinchState()
         self.assertTrue(state.update(pose(0.10), 1))
+        self.assertTrue(state.update(pose(0.26), 1))
+        self.assertTrue(state.pending)
+        self.assertEqual(state.releases, 0)
         self.assertFalse(state.update(pose(0.26), 1))
+        self.assertFalse(state.pending)
         self.assertEqual(state.releases, 1)
+
+    def test_clear_open_releases_immediately(self):
+        state = PinchState()
+        state.update(pose(0.10), 1)
+        self.assertFalse(state.update(pose(0.40), 1))
+        self.assertEqual(state.releases, 1)
+
+    def test_single_noisy_sample_does_not_split_stroke(self):
+        state = PinchState()
+        for gap in [0.1, 0.3, 0.12]:
+            self.assertTrue(state.update(pose(gap), 1))
+        self.assertFalse(state.pending)
+        self.assertEqual(state.releases, 0)
 
     def test_release_survives_repinch_and_missing_packets(self):
         state = PinchState()
-        for gap in [0.1, 0.3, 0.1]:
+        for gap in [0.1, 0.3, 0.3, 0.1]:
             state.update(pose(gap), 1)
         self.assertTrue(state.pinching)
         self.assertEqual(state.releases, 1)
@@ -29,8 +46,9 @@ class PinchTests(unittest.TestCase):
             for aspect in [4/3, 16/9, 3/4]:
                 state = PinchState()
                 self.assertTrue(state.update(pose(0.1, scale, aspect), aspect))
-                self.assertFalse(state.update(pose(0.3, scale, aspect), aspect))
+                state.update(pose(0.3, scale, aspect), aspect)
                 self.assertAlmostEqual(state.ratio, 0.3)
+                self.assertFalse(state.update(pose(0.3, scale, aspect), aspect))
 
     def test_hysteresis_does_not_reenter_on_borderline_noise(self):
         state = PinchState()

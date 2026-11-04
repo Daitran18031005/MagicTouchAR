@@ -6,6 +6,7 @@ Phase 5 Master Polish:
 - Dedicated VideoStreamWidget thread: cap.read() runs in isolated daemon thread (no hardware I/O blocking).
 - Legacy Hands defaults to model_complexity=1; Tasks uses the selected model bundle. Both track up to two hands.
 - Dual UDP Streaming: Port 9050 (JSON landmarks) and Port 9051 (optional video frames).
+- Hybrid CPUs (Windows): inference stays on performance cores (--cpu-policy, see cpu_affinity.py).
 """
 
 import sys
@@ -18,6 +19,7 @@ import threading
 from hand_identity import HandIdentityTracker
 from stream_protocol import video_prefix
 from pinch_state import PinchState
+from cpu_affinity import apply_cpu_policy
 import cv2
 import mediapipe as mp
 
@@ -309,6 +311,8 @@ def main():
     parser.add_argument("--model", default=None, help="Optional task bundle; original model is the default")
     parser.add_argument("--model-complexity", type=int, choices=[0, 1], default=1, help="Legacy API: full landmark model by default; 0 is Lite")
     parser.add_argument("--session-id", default="", help="Unity launch session; prevents input from a stale streamer")
+    parser.add_argument("--cpu-policy", choices=["auto", "default"], default="auto",
+                        help="auto: keep inference on performance cores of hybrid CPUs; default: OS scheduling")
     args = parser.parse_args()
     try:
         session_prefix = video_prefix(args.session_id)
@@ -318,6 +322,8 @@ def main():
     MODEL_PATH_OVERRIDE = args.model
     if args.opencv_threads > 0:
         cv2.setNumThreads(args.opencv_threads)
+    # Before any capture/inference thread exists, so every worker inherits the core choice.
+    cpu_policy = apply_cpu_policy(args.cpu_policy)
 
     # Toggle preview window: Enabled only if global ENABLE_PREVIEW is True or --preview flag passed
     show_preview = ENABLE_PREVIEW or args.preview
@@ -329,6 +335,7 @@ def main():
     print(f"  Headless Mode      : {not show_preview} (ENABLE_PREVIEW={show_preview})")
     print(f"  UDP Coordinates    : {args.host}:{args.port}")
     print(f"  UDP Video Stream   : {args.host}:{args.video_port} (Active: {stream_video})")
+    print(f"  CPU Scheduling     : {cpu_policy}")
     print("=" * 65)
 
     # UDP sockets
@@ -438,6 +445,8 @@ def main():
                             "trackId": track_id,
                             "handedness": h["label"],
                             "pinch": state.pinching,
+                            # Optional field: older Unity builds ignore it and keep drawing.
+                            "pinchPending": state.pending,
                             "pinchVersion": 1,
                             "releaseCount": state.releases,
                             "pinchRatio": state.ratio if state.ratio != float('inf') else 999.0,
@@ -487,7 +496,7 @@ def main():
                         inference_ms=round(inference_ms,2),hands=len(hands_data),backend=cam.backend,
                         resolution=[cam.width,cam.height],driver_fps=cam.reported_fps,
                         opencv_threads=cv2.getNumThreads(),async_video=video_sender is not None,
-                        model=getattr(hands, 'model_path', 'legacy'),timestamp=time.time(),
+                        model=getattr(hands, 'model_path', 'legacy'),cpu_policy=cpu_policy,timestamp=time.time(),
                         session_id=args.session_id,process_id=os.getpid())
                     os.makedirs(os.path.dirname(os.path.abspath(args.metrics_file)), exist_ok=True)
                     metrics_temp = args.metrics_file + '.' + str(os.getpid()) + '.tmp'

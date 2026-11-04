@@ -86,6 +86,12 @@ namespace MagicTouch.Tracking
         private readonly bool[] _pinchBeforeTrackingLoss = new bool[2];
         private readonly PinchTransitionFilter[] _pinchTransitions = { new PinchTransitionFilter(), new PinchTransitionFilter() };
         private float _lastPacketTime = -10f;
+        // Smoothed arrival interval of landmark packets; a slow tracker must not look like a lost hand.
+        private float _packetInterval = 1f / 30f;
+        public float PacketInterval => _packetInterval;
+
+        /// <summary>No-packet time after which hands count as lost: 0.25 s at normal rates, longer for a slow tracker.</summary>
+        public static float StalePacketTimeout(float packetInterval) => Mathf.Clamp(packetInterval * 3f, 0.25f, 0.75f);
         public bool IsTrackingReady => hasReceivedFirstData && (_enableEditorSimulation || Time.realtimeSinceStartup - _lastPacketTime < 0.5f);
 
         // Backward-compatible properties
@@ -140,6 +146,7 @@ namespace MagicTouch.Tracking
             public int index;
             public int trackId;
             public bool pinch;
+            public bool pinchPending; // Optional: absent from older streamers (false).
             public int pinchVersion;
             public int releaseCount;
             public float pinchRatio;
@@ -269,7 +276,7 @@ namespace MagicTouch.Tracking
             }
 #endif
             ProcessUdpSnapshots();
-            if (Time.realtimeSinceStartup - _lastPacketTime > 0.25f)
+            if (Time.realtimeSinceStartup - _lastPacketTime > StalePacketTimeout(_packetInterval))
                 for (int i = 0; i < _hands.Length; i++) SetHandLost(i);
             CheckCameraHandshake();
         }
@@ -545,6 +552,8 @@ namespace MagicTouch.Tracking
             }
 
             if (!hasUpdate) return;
+            float arrivalGap = Time.realtimeSinceStartup - _lastPacketTime;
+            if (arrivalGap > 0f && arrivalGap < 1f) _packetInterval = Mathf.Lerp(_packetInterval, arrivalGap, 0.2f);
             _lastPacketTime = Time.realtimeSinceStartup;
 
             for (int h = 0; h < 2; h++)
@@ -554,7 +563,7 @@ namespace MagicTouch.Tracking
                     var data = _mainSnapshots[h].pinchData;
                     ProcessHandLandmarks(h, _mainSnapshots[h].landmarks, _mainSnapshots[h].timestamp,
                         _mainSnapshots[h].trackId, data.pinchVersion == 1 ? (bool?)data.pinch : null,
-                        data.releaseCount, data.pinchRatio);
+                        data.releaseCount, data.pinchRatio, data.pinchPending);
                 }
                 else
                 {
@@ -571,7 +580,7 @@ namespace MagicTouch.Tracking
         /// Feeds 21 normalized landmarks into the tracking system and computes strict pinch logic.
         /// </summary>
         public void ProcessHandLandmarks(int handIndex, Vector2[] landmarks, long timestamp = 0, int trackId = 0,
-            bool? streamPinch = null, int releaseCount = 0, float pinchRatio = 0f)
+            bool? streamPinch = null, int releaseCount = 0, float pinchRatio = 0f, bool streamPinchPending = false)
         {
             if (handIndex < 0 || handIndex >= _hands.Length || landmarks == null || landmarks.Length < 21)
             {
@@ -651,7 +660,9 @@ namespace MagicTouch.Tracking
             hand.HasStreamPinch = streamPinch.HasValue;
             hand.ReleaseCount = releaseCount;
             hand.PinchRatio = pinchRatio;
-            if (streamPinch.HasValue) transition.Reset(streamPinch.Value);
+            // The streamer sees every camera frame (Unity may coalesce packets), so its
+            // debounced state is authoritative, including the one-sample release pause.
+            if (streamPinch.HasValue) transition.SetStreamState(streamPinch.Value, streamPinchPending);
             else transition.Update(rawDistance, pinchEnterThreshold, pinchExitThreshold);
             bool isPinching = transition.IsPinching;
             hand.IsPinchReleasePending = transition.IsReleasePending;

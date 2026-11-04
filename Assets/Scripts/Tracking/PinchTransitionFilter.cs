@@ -15,6 +15,13 @@ namespace MagicTouch.Tracking
             IsReleasePending = false;
         }
 
+        /// <summary>Adopts a state the tracker already debounced with the same rule (stream pinch).</summary>
+        public void SetStreamState(bool pinching, bool releasePending)
+        {
+            IsPinching = pinching;
+            IsReleasePending = pinching && releasePending;
+        }
+
         public void Update(float distance, float enterThreshold, float exitThreshold)
         {
             if (!IsPinching)

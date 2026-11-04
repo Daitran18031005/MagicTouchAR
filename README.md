@@ -29,13 +29,13 @@
 
 Dự án này là sự kết hợp hoàn hảo giữa Game Engine, Trí tuệ nhân tạo (AI) và Thị giác máy tính (Computer Vision):
 
-- **Hand Tracking bằng Python & MediaPipe chạy ngầm (Headless Mode):** gửi dữ liệu sang Unity qua UDP. Unity nhận bằng một luồng nền riêng (multi-threading) nên không chặn main thread. FPS thực đo: khoảng 10–30 FPS tùy camera/backend, không phải 60 FPS (xem [fps-validation.md](Related/Docs/fps-validation.md)).
-- **Dual-Threshold Hysteresis:** thuật toán chống rung (Schmitt Trigger) giúp việc chụm ngón tay (Pinch) ổn định. Ngưỡng vào `0.04` / ra `0.08` (`HandTrackingBridge.cs:39,42`). Một mẫu mở tay chưa rõ ràng chỉ tạm dừng nét; mẫu kế tiếp mới xác nhận nhả tay (`PinchTransitionFilter.cs`).
+- **Hand Tracking bằng Python & MediaPipe chạy ngầm (Headless Mode):** gửi dữ liệu sang Unity qua UDP. Unity nhận bằng một luồng nền riêng (multi-threading) nên không chặn main thread. FPS thực đo: khoảng 10–30 FPS tùy camera/backend, không phải 60 FPS (xem [fps-validation.md](Related/Docs/fps-validation.md)). Trên CPU lai của Intel (P-core + E-core, ví dụ i7-12700H) streamer tự giữ MediaPipe trên P-core (`--cpu-policy auto`, `Tools/cpu_affinity.py`); đo trên máy đó với tay trong hình: tracking 14–26 FPS, camera 30 FPS, trong khi để Windows tự xếp lịch lúc máy bận chỉ được 0,3–11 FPS (chi tiết: [TRACKING_PERFORMANCE.md](Related/Docs/TRACKING_PERFORMANCE.md)).
+- **Dual-Threshold Hysteresis:** thuật toán chống rung (Schmitt Trigger) giúp việc chụm ngón tay (Pinch) ổn định. Ở chế độ AR, streamer quyết định chụm theo tỉ lệ khoảng cách ngón cái–ngón trỏ / cỡ lòng bàn tay (vào `0.18` / ra `0.25`, `Tools/pinch_state.py`) nên không phụ thuộc khoảng cách tới camera. Một mẫu mở tay chưa rõ ràng chỉ tạm dừng nét (`pinchPending`); mẫu kế tiếp mới xác nhận nhả tay; mở rõ (≥ `0.375`) thì nhả ngay. Ngưỡng `pinchEnterThreshold`/`pinchExitThreshold` của `HandTrackingBridge` chỉ dùng khi streamer không gửi trạng thái chụm (`PinchTransitionFilter.cs`).
 - **Chờ khi mất tracking (thay cho "Coyote Time 0.08 s" cũ):** nếu tay mất dấu tối đa **0,14 giây** (`DrawingManager.trackingLossGrace`) mà tay hiện lại gần chỗ cũ thì nét vẽ được nối tiếp.
 - **Bộ lọc vị trí One Euro:** lọc tương đối theo cổ tay để giảm rung đầu ngón tay mà không làm trễ chuyển động cả bàn tay (`OneEuroPositionFilter.cs`, `HandPositionFilter.cs`).
-- **Ký hiệu nhiều nét (X, E):** mở tay giữa các nét; hệ thống chờ nét tiếp theo `multiStrokeDelay` giây (giá trị trong scene hiện là **0,5 s**; mặc định trong code là 0,8 s; giá trị bị kẹp trong 0,20–0,8 s) rồi mới chấm. Chữ X và E chỉ được chấm sớm khi đủ hình (`GestureCompletionPolicy.cs`): X phải là hai đoạn thẳng cắt nhau, E phải đủ thân dọc và ba nét ngang, O phải gần khép kín.
-- **Nhận diện Ấn chú bằng AI (Unity Inference Engine / Sentis, gói `com.unity.ai.inference`):** model CNN `Assets/Models/magic_touch_model.onnx` chạy ngay trong Unity, không gọi API qua mạng. Nếu model không nạp được thì dùng bộ nhận diện hình học `$P` (`PRecognizer.cs`) thay thế. Ngày 21/10/2026 model được fine-tune lại để nhận ký hiệu `^` (Caret) tốt hơn, giữ nguyên cấu trúc và thứ tự lớp (chi tiết, số đo và cách khôi phục model cũ: [Train/CARET_IMPROVEMENT.md](Related/Docs/CARET_IMPROVEMENT.md)). Số đo trong đó là trên dữ liệu **tự sinh**, chưa phải độ chính xác với người chơi thật.
-- **Phản hồi theo kết quả chiến đấu:** nét vẽ chỉ xanh và hiện `HIT` khi thật sự làm nổ ít nhất một bóng; nhận đúng ký hiệu nhưng không có bóng trùng thì đỏ và hiện `NO TARGET`; không nhận ra thì `MISMATCH` (`DrawingManager.ReportGestureOutcome`, `GameManager`).
+- **Ký hiệu nhiều nét (X, E):** mở tay giữa các nét; hệ thống chờ nét tiếp theo multiStrokeDelay giây (giá trị trong scene hiện là **0,5 s**; mặc định trong code là 0,8 s; giá trị bị kẹp trong 0,20–0,8 s) rồi mới chấm. Chữ X và E chỉ được chấm sớm khi đủ hình (GestureCompletionPolicy.cs): X phải là hai đoạn thẳng cắt nhau, E phải đủ thân dọc và ba nét ngang, O phải gần khép kín.
+- **Nhận diện Ấn chú bằng AI (Unity Inference Engine / Sentis, gói com.unity.ai.inference):** model CNN Assets/Models/magic_touch_model.onnx chạy ngay trong Unity, không gọi API qua mạng. Model 28×28 chạy trên CPU (SentisRecognizer › *Prefer Cpu Inference*, mặc định bật): đo trong Editor 0,8 ms/lần so với 5,4 ms (p95 15 ms) của GPUCompute, cùng kết quả. Ngày 21/10/2026 model được fine-tune lại để nhận ký hiệu ^ (Caret) tốt hơn, giữ nguyên cấu trúc và thứ tự lớp (chi tiết: [Train/CARET_IMPROVEMENT.md](Related/Docs/CARET_IMPROVEMENT.md)). Nếu model không nạp được thì dùng bộ nhận diện hình học $P (PRecognizer.cs) thay thế.
+- **Phản hồi theo kết quả chiến đấu:** nét vẽ chỉ xanh và hiện HIT khi thật sự làm nổ ít nhất một bóng; nhận đúng ký hiệu nhưng không có bóng trùng thì đỏ và hiện NO TARGET; không nhận ra thì MISMATCH (DrawingManager.ReportGestureOutcome, GameManager).
 - **Đồ họa Retro Pixel-Art:** UI Phase 9 (font PressStart2P, 9-slice), Particle VFX, nét vẽ mượt bằng Catmull-Rom Spline/SMA như mực neon.
 - **2 người chơi (Versus):** theo dõi độc lập Tay 1 và Tay 2. Điểm được tính cho người chơi ở nửa màn hình nơi nét vẽ bắt đầu (`VersusMatch.PlayerForScreenX`).
 
@@ -84,12 +84,14 @@ MagicTouch/
    ▼
  Tools/mediapipe_streamer.py ── MediaPipe HandLandmarker (hand_landmarker.task, đọc qua buffer)
    │  (Unity khởi chạy bằng .venv\Scripts\pythonw.exe hoặc PYTHON_EXE trong .env)
+   │  CPU lai: chỉ chạy trên P-core (cpu_affinity.py); chụm tay: pinch_state.py (0.18 / 0.25, pinchPending)
    │  JSON landmark ──► UDP 127.0.0.1:9050      JPEG (--stream-video) ──► UDP 127.0.0.1:9051
    ▼                                              ▼
  HandTrackingBridge (luồng nền nhận 9050)      MediaPipeUDPReceiver (luồng nền nhận 9051)
    │  lọc session-id (TrackingStreamSession)        └─► RawImage "CameraBackground" (nền camera)
    │  lọc One Euro / palm-relative, chống spike
-   │  PinchTransitionFilter (vào 0.04 / ra 0.08)
+   │  trạng thái chụm từ streamer (dự phòng: PinchTransitionFilter 0.04 / 0.08)
+   │  mất gói: coi là mất tay sau 0.25 s (tới 0.75 s nếu tracker chậm)
    ▼
  DrawingManager ── vẽ LineRenderer, chờ mất tracking 0.14 s, chờ nét kế 0.5 s
    ▼
@@ -166,6 +168,7 @@ Unity đã tự khởi chạy tracker ở chế độ AR. Nếu muốn chạy ta
    Tools\run_hand_tracker_with_preview.bat
    ```
    Cửa sổ **"MediaPipe AR Hand Tracker"** hiện hình camera. Terminal in `[STREAMER] Camera: … FPS | Tracking: … FPS | … | Hands: N` mỗi 2 giây.
+   Dòng `CPU Scheduling` lúc khởi động cho biết streamer có giữ MediaPipe trên P-core không (`performance cores only (affinity mask 0x…)`). Muốn so sánh với lịch mặc định của Windows thì thêm `--cpu-policy default`.
 
 ### Cách chơi
 
@@ -185,8 +188,9 @@ Unity đã tự khởi chạy tracker ở chế độ AR. Nếu muốn chạy ta
 | `setup_python_env.bat` báo `Python 3.11 was not found` | Máy chưa có Python 3.11 (ví dụ chỉ có 3.14) | Cài Python 3.11 từ python.org (chọn "py launcher"), hoặc truyền đường dẫn một Python 3.11 cho script |
 | Console AR báo `Không tìm thấy Python cho hand tracker…` hoặc `Python streamer đã thoát (mã …)` | Chưa có `.venv`, hoặc `.venv` hỏng/thiếu gói | Chạy `Tools\setup_python_env.bat`. Nếu nó báo `.venv` không phải 3.11 thì xóa thư mục `.venv` rồi chạy lại |
 | `pip` báo `OSError: [WinError 3] The system cannot find the path specified` (gợi ý "Long Path") | Đường dẫn thư mục dự án quá dài (giới hạn 260 ký tự của Windows) | Đặt dự án ở đường dẫn ngắn hơn hoặc bật Windows Long Path support |
-| Mở webcam treo 38–43 giây | Backend `CAP_MSMF` dò thiết bị rất chậm trên một số webcam Windows | Đã xử lý: streamer thử `CAP_DSHOW` trước (`mediapipe_streamer.py:61-64`). Đánh đổi: DSHOW đo được ~15 FPS, MSMF ~30 FPS |
-| MediaPipe crash (`abort()`) khi đường dẫn project có dấu tiếng Việt | Đường dẫn Unicode truyền vào tầng C++ của MediaPipe | Đã xử lý: đọc model bằng Python rồi truyền qua `model_asset_buffer` (`mediapipe_streamer.py:193-195`) |
+| Mở webcam treo 38–43 giây | Backend `CAP_MSMF` dò thiết bị rất chậm trên một số webcam Windows | Đã xử lý: streamer thử `CAP_DSHOW` trước (`mediapipe_streamer.py:63-66`). Đánh đổi: DSHOW từng đo được ~15 FPS, MSMF ~30 FPS. Lần đo 2026-10-30: DSHOW đạt 30 FPS khi đủ sáng và streamer chạy trên P-core, chỉ ~10 FPS khi phòng tối (webcam tự kéo dài phơi sáng) |
+| MediaPipe crash (`abort()`) khi đường dẫn project có dấu tiếng Việt | Đường dẫn Unicode truyền vào tầng C++ của MediaPipe | Đã xử lý: đọc model bằng Python rồi truyền qua `model_asset_buffer` (`mediapipe_streamer.py:195-197`) |
+| Tracking chỉ 1–10 FPS, `Inference` 100–600 ms, tay chập chờn, nét bị xóa hoặc đứt, ký hiệu không được nhận | CPU lai Intel (P-core + E-core): Windows xếp tiến trình streamer chạy ẩn lên E-core, mỗi khung MediaPipe phải chờ luồng chậm nhất. Hệ quả trong Unity: gói cách nhau quá 0,25 s nên tay bị coi là mất, nét bị hủy sau 0,14 s, cử chỉ dưới 6 điểm bị bỏ qua | Đã xử lý (2026-10-30): streamer tự giới hạn vào P-core (`Tools/cpu_affinity.py`), Unity nới thời hạn mất gói theo nhịp gói thực tế. Kiểm tra dòng `CPU Scheduling` và `Logs/tracking-performance.json` (`cpu_policy`, `tracking_fps`). Chi tiết: [TRACKING_PERFORMANCE.md](Related/Docs/TRACKING_PERFORMANCE.md) |
 
 ---
 

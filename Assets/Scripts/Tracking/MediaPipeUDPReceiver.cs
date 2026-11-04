@@ -26,6 +26,7 @@ namespace MagicTouch.Tracking
             public int index;
             public int trackId;
             public bool pinch;
+            public bool pinchPending; // Optional: absent from older streamers (false).
             public int pinchVersion;
             public int releaseCount;
             public float pinchRatio;
@@ -80,6 +81,7 @@ namespace MagicTouch.Tracking
 
         public struct ParsedHandData
         {
+            public bool pinchPending;
             public int pinchVersion;
             public int releaseCount;
             public float pinchRatio;
@@ -291,6 +293,7 @@ namespace MagicTouch.Tracking
                                         _workerHands[hIdx].trackId = hand.trackId;
                                         _workerHands[hIdx].timestamp = packet.timestamp;
                                         _workerHands[hIdx].isPinching = hand.pinch;
+                                        _workerHands[hIdx].pinchPending = hand.pinchPending;
                                         _workerHands[hIdx].pinchVersion = hand.pinchVersion;
                                         _workerHands[hIdx].releaseCount = hand.releaseCount;
                                         _workerHands[hIdx].pinchRatio = hand.pinchRatio;
@@ -397,6 +400,7 @@ namespace MagicTouch.Tracking
                         _mainHands[h].trackId = _workerHands[h].trackId;
                         _mainHands[h].timestamp = _workerHands[h].timestamp;
                         _mainHands[h].isPinching = _workerHands[h].isPinching;
+                        _mainHands[h].pinchPending = _workerHands[h].pinchPending;
                         _mainHands[h].pinchVersion = _workerHands[h].pinchVersion;
                         _mainHands[h].releaseCount = _workerHands[h].releaseCount;
                         _mainHands[h].pinchRatio = _workerHands[h].pinchRatio;
@@ -421,7 +425,7 @@ namespace MagicTouch.Tracking
                 {
                     HandTrackingBridge.Instance?.ProcessHandLandmarks(h, _mainHands[h].landmarks, _mainHands[h].timestamp,
                         _mainHands[h].trackId, _mainHands[h].pinchVersion == 1 ? (bool?)_mainHands[h].isPinching : null,
-                        _mainHands[h].releaseCount, _mainHands[h].pinchRatio);
+                        _mainHands[h].releaseCount, _mainHands[h].pinchRatio, _mainHands[h].pinchPending);
                 }
                 else if (_handActiveState[h])
                 {

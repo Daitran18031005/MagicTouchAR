@@ -42,12 +42,14 @@
 - Trước khi nói "xong": compile sạch (không lỗi mới trong Console); báo danh sách file đã sửa và cách chủ dự án tự kiểm tra.
 
 ## 5. KIỂM TRA
-- 3 bộ check trong Editor (an toàn, không lưu scene):
+- 4 bộ check trong Editor (an toàn, không lưu scene):
   - `Tools/MagicTouch/UI/Validate UI Bindings`
   - `Tools/MagicTouch/Validate Interaction Repair`
   - `Tools/MagicTouch/Validate Drawing Repair`
+  - `Tools/MagicTouch/Validate Tracking Stream` (không mở scene; giao thức `pinchPending`, thời hạn mất gói, CPU/GPU của CNN; ghi `Logs/tracking-stream-checks.json`)
+- Chạy cả 3 check không cần scene khi Unity đang tắt: `Unity.exe -batchmode -quit -projectPath <gốc dự án> -executeMethod TrackingStreamChecks.RunBatch -logFile <file log>` (thêm `-airStrokes <json>` từ `Train/air_stroke_benchmark.py` để đo nhận diện).
 - Môi trường Python: `Tools\setup_python_env.bat` phải in `OK: cv2 … | mediapipe … | numpy …` (dùng lại `.venv` nếu đã đúng 3.11).
-- Unit test Python, chạy từ thư mục `Tools/`: `..\.venv\Scripts\python -m unittest test_stream_protocol test_hand_identity`.
+- Unit test Python, chạy từ thư mục `Tools/`: `..\.venv\Scripts\python -m unittest test_stream_protocol test_hand_identity test_pinch_state test_cpu_affinity`.
 - Lỗi Console cũ đã biết, **không phải do agent gây ra**:
   - Trùng cổng 8080 (`UnityMCPBridge`) và 8090 (`mcp-unity`).
   - Font `LivesText` thiếu ký tự ❤.
@@ -74,7 +76,7 @@ Logs/      log và kết quả đo/kiểm tra (bị .gitignore, nhưng code ghi 
 | `Tools/requirements.txt` | `setup_python_env.bat`, `setup_python_env.sh` |
 | `.venv/` (thư mục gốc) | `ProjectEnv.cs`, `setup_python_env.bat`, `setup_python_env.sh` |
 | `.env` (thư mục gốc, tùy chọn) | `ProjectEnv.cs`, `InputModeSettings.cs` |
-| `Logs/` | `mediapipe_streamer.py`, `benchmark_camera.py`, `DrawingRepairChecks.cs`, `HandMotionTrace.cs` |
+| `Logs/` | `mediapipe_streamer.py`, `benchmark_camera.py`, `benchmark_stream.py`, `DrawingRepairChecks.cs`, `HandMotionTrace.cs`, `TrackingStreamChecks.cs` |
 
 ## 7. PIPELINE TÓM TẮT
 ```text
