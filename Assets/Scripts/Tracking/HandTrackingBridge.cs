@@ -235,6 +235,7 @@ namespace MagicTouch.Tracking
             // Machine-local input mode (EditorPrefs / .env) overrides the scene value at runtime only.
             InputMode? mode = InputModeSettings.Override;
             if (mode.HasValue) _enableEditorSimulation = mode.Value == InputMode.MouseSimulation;
+            if (_enableEditorSimulation) hasReceivedFirstData = true;
 
             if (_autoLaunchPythonStreamer)
             {
