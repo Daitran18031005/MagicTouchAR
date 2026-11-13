@@ -14,7 +14,7 @@ namespace MagicTouch.Online
     public static class LeaderboardApi
     {
         // Sau khi deploy lên cloud, sửa dòng này (hoặc đặt LEADERBOARD_URL trong .env) thành URL của server.
-        public const string DefaultServerUrl = "http://localhost:8000";
+        public const string DefaultServerUrl = "https://magictouch-leaderboard.onrender.com";
 
         private const string TokenKey = "Online.Token";
         private const string DisplayNameKey = "Online.DisplayName";
