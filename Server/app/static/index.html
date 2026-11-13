@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Magic Touch – Bảng xếp hạng</title>
+<style>
+  :root { --bg:#14102a; --card:#211a45; --line:#3a2f72; --text:#f1edff; --muted:#a99fd6; --accent:#ffcc33; --ok:#5ee69a; --err:#ff6b7f; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:radial-gradient(circle at 20% 0%, #2e2266, var(--bg) 60%); color:var(--text);
+         font-family:system-ui, "Segoe UI", Roboto, sans-serif; min-height:100vh; }
+  main { max-width:880px; margin:0 auto; padding:24px 16px 48px; }
+  h1 { margin:0 0 4px; font-size:28px; } h1 span { color:var(--accent); }
+  .sub { color:var(--muted); margin:0 0 24px; }
+  .grid { display:grid; gap:16px; grid-template-columns: 1fr 1.4fr; }
+  @media (max-width:720px) { .grid { grid-template-columns:1fr; } }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px; }
+  .tabs { display:flex; gap:6px; margin-bottom:14px; }
+  .tabs button, .modes button { flex:1; background:transparent; border:1px solid var(--line); color:var(--muted); padding:8px; border-radius:8px; cursor:pointer; font:inherit; }
+  .tabs button.on, .modes button.on { background:var(--line); color:var(--text); }
+  label { display:block; font-size:13px; color:var(--muted); margin:10px 0 4px; }
+  input { width:100%; padding:10px; border-radius:8px; border:1px solid var(--line); background:#15102e; color:var(--text); font:inherit; }
+  .primary { width:100%; margin-top:14px; padding:11px; border:0; border-radius:8px; background:var(--accent); color:#241a00; font-weight:700; cursor:pointer; font:inherit; font-weight:700; }
+  .msg { min-height:20px; margin-top:10px; font-size:14px; } .msg.err { color:var(--err); } .msg.ok { color:var(--ok); }
+  table { width:100%; border-collapse:collapse; font-size:15px; }
+  th, td { padding:9px 6px; text-align:left; border-bottom:1px solid var(--line); }
+  th { color:var(--muted); font-weight:500; font-size:13px; }
+  td.num, th.num { text-align:right; font-variant-numeric:tabular-nums; }
+  tr.me td { color:var(--accent); }
+  .badge { font-size:11px; color:var(--muted); border:1px solid var(--line); border-radius:6px; padding:1px 5px; margin-left:6px; }
+  .modes { display:flex; gap:6px; margin-bottom:10px; }
+  .row { display:flex; justify-content:space-between; align-items:center; gap:8px; }
+  .link { background:none; border:0; color:var(--muted); text-decoration:underline; cursor:pointer; font:inherit; }
+  .hidden { display:none; }
+  .stat { font-size:30px; font-weight:700; color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Magic Touch <span>Leaderboard</span></h1>
+  <p class="sub">Đăng ký tài khoản, đăng nhập và xem bảng xếp hạng. Điểm được game gửi lên sau mỗi ván.</p>
+
+  <div class="grid">
+    <section class="card" id="authCard">
+      <div class="tabs"><button id="tLogin" class="on">Đăng nhập</button><button id="tReg">Đăng ký</button></div>
+      <form id="authForm">
+        <label for="u">Tên đăng nhập</label><input id="u" autocomplete="username" required minlength="3" maxlength="20">
+        <div id="dnWrap" class="hidden"><label for="dn">Tên hiển thị trên bảng xếp hạng</label><input id="dn" maxlength="20" placeholder="(mặc định = tên đăng nhập)"></div>
+        <label for="p">Mật khẩu</label><input id="p" type="password" autocomplete="current-password" required minlength="6" maxlength="72">
+        <button class="primary" id="submitBtn" type="submit">Đăng nhập</button>
+        <div class="msg" id="authMsg"></div>
+      </form>
+    </section>
+
+    <section class="card hidden" id="meCard">
+      <div class="row"><strong id="meName"></strong><button class="link" id="logout">Đăng xuất</button></div>
+      <p class="sub" style="margin:4px 0 12px">Điểm cao nhất của bạn</p>
+      <div class="stat" id="meBest">0</div>
+      <p class="sub" id="meGames"></p>
+      <table><thead><tr><th>Ván gần đây</th><th class="num">Điểm</th></tr></thead><tbody id="myRows"></tbody></table>
+    </section>
+
+    <section class="card">
+      <div class="row"><strong>Bảng xếp hạng</strong><button class="link" id="refresh">Làm mới</button></div>
+      <div class="modes" style="margin-top:10px"><button data-m="solo" class="on">Solo</button><button data-m="versus">Versus</button></div>
+      <table><thead><tr><th>#</th><th>Người chơi</th><th class="num">Điểm cao</th><th class="num">Ván</th></tr></thead>
+        <tbody id="board"><tr><td colspan="4">Đang tải…</td></tr></tbody></table>
+    </section>
+  </div>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+let mode = "login", board = "solo";
+const store = { get(k){ try { return localStorage.getItem(k); } catch { return null; } },
+                set(k,v){ try { v == null ? localStorage.removeItem(k) : localStorage.setItem(k,v); } catch {} } };
+let token = store.get("mt_token"), myName = store.get("mt_name");
+
+async function api(path, opts = {}) {
+  const headers = { "Content-Type": "application/json", ...(token ? { Authorization: "Bearer " + token } : {}) };
+  const res = await fetch(path, { ...opts, headers });
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok) throw new Error(typeof data.detail === "string" ? data.detail : "Dữ liệu không hợp lệ");
+  return data;
+}
+const esc = s => String(s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+function setMode(m) {
+  mode = m; $("tLogin").classList.toggle("on", m === "login"); $("tReg").classList.toggle("on", m === "register");
+  $("dnWrap").classList.toggle("hidden", m !== "register");
+  $("submitBtn").textContent = m === "login" ? "Đăng nhập" : "Tạo tài khoản";
+  $("p").autocomplete = m === "login" ? "current-password" : "new-password"; $("authMsg").textContent = "";
+}
+$("tLogin").onclick = () => setMode("login"); $("tReg").onclick = () => setMode("register");
+
+$("authForm").onsubmit = async e => {
+  e.preventDefault(); const msg = $("authMsg"); msg.className = "msg"; msg.textContent = "Đang xử lý…";
+  const body = { username: $("u").value.trim(), password: $("p").value };
+  if (mode === "register" && $("dn").value.trim()) body.display_name = $("dn").value.trim();
+  try {
+    const r = await api(mode === "login" ? "/api/auth/login" : "/api/auth/register", { method: "POST", body: JSON.stringify(body) });
+    token = r.token; myName = r.display_name; store.set("mt_token", token); store.set("mt_name", myName);
+    $("p").value = ""; await showMe(); loadBoard();
+  } catch (err) { msg.className = "msg err"; msg.textContent = err.message; }
+};
+
+$("logout").onclick = () => { token = myName = null; store.set("mt_token", null); store.set("mt_name", null); showMe(); loadBoard(); };
+
+async function showMe() {
+  const logged = !!token;
+  $("authCard").classList.toggle("hidden", logged); $("meCard").classList.toggle("hidden", !logged);
+  if (!logged) return;
+  try {
+    const me = await api("/api/me"); const mine = await api("/api/me/scores?limit=8");
+    $("meName").textContent = me.display_name + " (@" + me.username + ")";
+    $("meBest").textContent = me.best_score.toLocaleString("vi-VN"); $("meGames").textContent = me.games + " ván đã chơi";
+    $("myRows").innerHTML = mine.length ? mine.map(s => `<tr><td>${new Date(s.created_at).toLocaleString("vi-VN")} · ${esc(s.mode)}</td><td class="num">${s.score.toLocaleString("vi-VN")}</td></tr>`).join("")
+                                        : `<tr><td colspan="2">Chưa có ván nào, hãy đăng nhập trong game rồi chơi.</td></tr>`;
+  } catch (err) { $("logout").click(); }
+}
+
+async function loadBoard() {
+  try {
+    const rows = await api(`/api/leaderboard?mode=${board}&limit=50`);
+    $("board").innerHTML = rows.length ? rows.map(r => `<tr class="${r.player_name === myName ? "me" : ""}"><td>${r.rank}</td><td>${esc(r.player_name)}${r.registered ? "" : '<span class="badge">khách</span>'}</td><td class="num">${r.best_score.toLocaleString("vi-VN")}</td><td class="num">${r.games}</td></tr>`).join("")
+                                      : `<tr><td colspan="4">Chưa có điểm nào.</td></tr>`;
+  } catch (err) { $("board").innerHTML = `<tr><td colspan="4">Không tải được: ${esc(err.message)}</td></tr>`; }
+}
+document.querySelectorAll(".modes button").forEach(b => b.onclick = () => {
+  board = b.dataset.m; document.querySelectorAll(".modes button").forEach(x => x.classList.toggle("on", x === b)); loadBoard(); });
+$("refresh").onclick = loadBoard;
+showMe(); loadBoard(); setInterval(loadBoard, 15000);
+</script>
+</body>
+</html>
