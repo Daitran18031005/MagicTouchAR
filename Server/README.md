@@ -91,7 +91,7 @@ Bản build (.exe) không có `.env` thì dùng `LeaderboardApi.DefaultServerUrl
 (`Assets/Scripts/Online/LeaderboardApi.cs`), nhớ sửa thành URL cloud trước khi build.
 
 Trong game:
-- **Menu chính**: khung góc phải trên: *Khách* (nhập tên) / *Đăng nhập* / *Đăng ký*, kèm Top 10.
+- **Menu chính**: nút **ACCOUNT** (mở màn Account → các màn riêng LOG IN / REGISTER / GUEST) và **RANKING** (thay CREDITS, Top 10 từ server).
 - **Game Over (Solo)**: tự gửi điểm và hiện hạng; nếu chưa có tên thì hiện ô nhập tên + nút *Lưu điểm*.
 - Chế độ Versus không gửi điểm (2 người chung 1 máy).
 
@@ -99,4 +99,4 @@ Trong game:
 - Điểm do client gửi nên có thể bị giả mạo; `GAME_API_KEY` chỉ chặn được gửi bừa (khóa nằm trong game).
 - Chưa có giới hạn tần suất (rate limit), chưa có quên mật khẩu.
 - Gửi điểm thất bại (mất mạng) thì có nút *Thử gửi lại* ở màn Game Over; thoát màn đó là mất điểm ván đó.
-- Khung trong game dùng IMGUI (tạo lúc chạy, không sửa scene). Muốn giao diện đẹp hơn, đồng bộ với UI hiện có thì cần làm panel trong `SampleScene`.
+- Các màn online được dựng lúc chạy bằng cách nhân bản nút/khung có sẵn của menu (không sửa `SampleScene`), nên không thấy chúng trong Hierarchy khi chưa bấm Play.

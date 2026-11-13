@@ -107,7 +107,9 @@ MagicTouchAR-main/
 │
 ├── Assets/Scripts/Online/          ← phần trong game Unity (mới thêm)
 │   ├── LeaderboardApi.cs           ← game "nói chuyện" với server (gửi điểm, đăng nhập…)
-│   └── OnlineAccountOverlay.cs     ← khung trên màn hình: nhập tên, đăng nhập, đăng ký, Top 10
+│   ├── OnlineAccountOverlay.cs     ← điều phối: gắn menu online, gửi điểm khi Game Over
+│   ├── OnlineMenuScreens.cs        ← nút ACCOUNT, RANKING và các màn Log in / Register / Guest / Ranking
+│   └── OnlineUiKit.cs              ← dựng giao diện bằng cách nhân bản nút/khung pixel có sẵn của menu
 │
 └── .env.example                    ← thêm 3 dòng: LEADERBOARD_URL, GAME_API_KEY, ONLINE_LEADERBOARD
 ```
@@ -171,20 +173,24 @@ Thử: bấm tab **Đăng ký**, tạo tài khoản (tên đăng nhập không d
 
 Server ở Phần 3 phải **đang chạy**.
 
-1. Mở dự án trong Unity (hoặc nếu đang mở, **bấm vào cửa sổ Unity** để nó nạp 2 file code mới; chờ vòng xoay ở góc dưới bên phải chạy xong).
+1. Mở dự án trong Unity (hoặc nếu đang mở, **bấm vào cửa sổ Unity** để nó nạp các file code mới; chờ vòng xoay ở góc dưới bên phải chạy xong).
 2. Xem tab **Console**: không được có lỗi đỏ **mới**. (Các lỗi cũ đã biết: cổng 8080/8090, `npm` — không liên quan.)
-3. Bấm **Play**.
-4. Ở **menu chính**, góc **trên bên phải** có khung mới:
-   - Tab **Khách**: gõ tên → chơi, điểm lưu dưới tên này.
-   - Tab **Đăng nhập**: dùng tài khoản đã tạo trên web ở bước 3.4.
-   - Tab **Đăng ký**: tạo tài khoản ngay trong game.
-   - Bên dưới: **Top 10 (Solo)**. Nếu hiện "(chưa kết nối được server)" → server chưa bật.
-5. Chọn chơi **Solo**, chơi đến khi **Game Over** (hoặc thắng boss).
-6. Khung góc phải hiện: `Đã lưu … điểm · Hạng #… · Kỷ lục …`.
-   - Nếu chưa nhập tên và chưa đăng nhập → hiện ô nhập tên + nút **Lưu điểm**.
+3. Bấm **Play**. Menu chính có 5 nút: **PLAY SOLO, VERSUS, SETTINGS, ACCOUNT, RANKING** (CREDITS đã được thay bằng RANKING).
+4. Bấm **ACCOUNT** → màn Account cho biết bạn đang là ai, và 3 nút, mỗi nút mở **một màn riêng**:
+   - **LOG IN**: tên đăng nhập + mật khẩu (tài khoản tạo trong game hoặc trên web đều được).
+   - **REGISTER**: tạo tài khoản mới (tên đăng nhập, mật khẩu, tên hiển thị tùy chọn).
+   - **PLAY AS GUEST**: chỉ cần gõ tên, không cần mật khẩu.
+   - Đã đăng nhập thì màn Account hiện tên, điểm cao nhất, số ván và nút **LOG OUT**.
+   - Phím tắt: **Tab** chuyển ô, **Enter** gửi, **Esc** quay lại.
+5. Bấm **RANKING** → Top 10 Solo từ server, dòng của bạn được tô vàng. Nút **REFRESH** để tải lại.
+6. Chơi **Solo** đến **Game Over** (hoặc thắng boss). Giữa 2 nút tròn có dòng `ONLINE RANK …`.
+   - Chưa đăng nhập và chưa đặt tên khách → hiện `OPEN ACCOUNT TO SAVE ONLINE`. Điểm được **giữ lại**, và tự gửi ngay khi bạn vào ACCOUNT đăng nhập hoặc đặt tên.
+   - Mất mạng → hiện `OFFLINE WILL RETRY`, game tự gửi lại sau 30 giây.
 7. Mở http://localhost:8000 → thấy tên và điểm trong bảng xếp hạng.
 
-Muốn **tắt** khung online (ví dụ khi demo không có mạng): thêm dòng `ONLINE_LEADERBOARD=0` vào file `.env` ở thư mục gốc dự án.
+Chữ trên các nút là tiếng Anh in hoa vì font pixel của game chỉ có chữ Latin không dấu. Ô nhập và tên người chơi dùng font thường nên gõ được có dấu.
+
+Muốn **tắt** toàn bộ phần online (ví dụ khi demo không có mạng): thêm dòng `ONLINE_LEADERBOARD=0` vào file `.env` ở thư mục gốc dự án. Khi đó menu trở lại như cũ (có CREDITS).
 
 > ⚠️ Bước này mình (Claude) **chưa thử** được vì cần bạn bấm Play và chơi. Nếu có lỗi, chụp Console gửi lại.
 
