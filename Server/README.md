@@ -82,13 +82,19 @@ Copy thư mục `Server/` lên, tạo `.env`, chạy `docker compose up -d --bui
 Thêm vào file `.env` ở thư mục gốc dự án (cạnh `Assets/`):
 
 ```env
-LEADERBOARD_URL=https://magictouch-xxxx.onrender.com
-GAME_API_KEY=            # trùng với server nếu có đặt
-ONLINE_LEADERBOARD=1     # 0 = tắt khung online
+# Địa chỉ server (bỏ trống hoặc không có dòng này = dùng DefaultServerUrl trong code)
+LEADERBOARD_URL=https://magictouch-leaderboard.onrender.com
+# Trùng với GAME_API_KEY trên server nếu có đặt, không thì để trống
+GAME_API_KEY=
+# 0 = tắt toàn bộ phần online
+ONLINE_LEADERBOARD=1
 ```
 
-Bản build (.exe) không có `.env` thì dùng `LeaderboardApi.DefaultServerUrl`
-(`Assets/Scripts/Online/LeaderboardApi.cs`), nhớ sửa thành URL cloud trước khi build.
+Ghi chú phải nằm trên **dòng riêng** bắt đầu bằng `#`: file `.env` không hiểu ghi chú đặt sau giá trị.
+
+Không có file `.env`, hoặc có mà không có dòng `LEADERBOARD_URL` (hay để trống), thì game dùng
+`LeaderboardApi.DefaultServerUrl` (`Assets/Scripts/Online/LeaderboardApi.cs`), hiện đã là
+`https://magictouch-leaderboard.onrender.com`.
 
 Trong game:
 - **Menu chính**: nút **ACCOUNT** (mở màn Account → các màn riêng LOG IN / REGISTER / GUEST) và **RANKING** (thay CREDITS, Top 10 từ server).
